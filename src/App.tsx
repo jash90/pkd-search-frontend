@@ -1,5 +1,5 @@
 import { Search, Loader2 } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import axios from 'axios';
 
 interface PKDCode {
@@ -28,7 +28,8 @@ function App() {
   const [results, setResults] = useState<SearchResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const handleSearch = async () => {
+
+  const handleSearch = useCallback(async () => {
     if (!query.trim()) return;
 
     setIsLoading(true);
@@ -36,8 +37,10 @@ function App() {
 
     try {
       const response = await axios.get<SearchResponse>(
-        `${process.env.BASE_URL}/process?serviceDescription=${encodeURIComponent(query)}`
+        `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(query)}`
       );
+
+      // Use the response data directly instead of a forced cast.
       setResults(response.data);
     } catch (error) {
       console.error(error);
@@ -45,7 +48,7 @@ function App() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, [query]);
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
