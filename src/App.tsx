@@ -1,4 +1,3 @@
-import React from 'react';
 import { Search, Loader2 } from 'lucide-react';
 import { useState } from 'react';
 import axios from 'axios';
@@ -19,7 +18,7 @@ interface SearchResponse {
     data: {
       aiSuggestion: PKDCode;
       pkdCodeData: PKDCode[];
-    }
+    };
   };
 }
 
@@ -37,12 +36,11 @@ function App() {
 
     try {
       const response = await axios.get<SearchResponse>(
-        `${process.env.BASE_URL}/process?serviceDescription=${encodeURIComponent(
-          query
-        )}`
+        `${process.env.BASE_URL}/process?serviceDescription=${encodeURIComponent(query)}`
       );
-      setResults(response);
-    } catch (err) {
+      setResults(response.data);
+    } catch (error) {
+      console.error(error);
       setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
     } finally {
       setIsLoading(false);
@@ -118,9 +116,7 @@ function App() {
                 Pozostałe pasujące kody
               </h2>
               {results.data.data.pkdCodeData
-                .filter(
-                  (code) => code.id !== results.data.data.aiSuggestion.id
-                )
+                .filter((code) => code.id !== results.data.data.aiSuggestion.id)
                 .map((code) => (
                   <div
                     key={code.id}
