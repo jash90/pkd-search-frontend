@@ -14,12 +14,8 @@ interface PKDCode {
 }
 
 interface SearchResponse {
-  data: {
-    data: {
       aiSuggestion: PKDCode;
       pkdCodeData: PKDCode[];
-    };
-  };
 }
 
 function App() {
@@ -36,12 +32,11 @@ function App() {
     setError(null);
 
     try {
-      const response = await axios.get<SearchResponse>(
+      const response = await axios.get(
         `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(query)}`
       );
 
-      // Use the response data directly instead of a forced cast.
-      setResults(response.data);
+      setResults(response.data?.data as unknown as SearchResponse);
     } catch (error) {
       console.error(error);
       setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
@@ -96,20 +91,20 @@ function App() {
               <h2 className="text-xl font-semibold text-gray-800 mb-4 flex items-center gap-2">
                 <span className="text-green-600">Sugerowany kod PKD</span>
                 <span className="text-sm font-normal text-gray-500">
-                  (Trafność: {Math.round(results.data.data.aiSuggestion.score * 100)}%)
+                  (Trafność: {Math.round(results?.aiSuggestion.score * 100)}%)
                 </span>
               </h2>
               <div className="space-y-4">
                 <div>
                   <span className="font-semibold text-lg text-blue-600">
-                    {results.data.data.aiSuggestion.payload.grupaKlasaPodklasa}
+                    {results?.aiSuggestion.payload.grupaKlasaPodklasa}
                   </span>
                   <h3 className="text-lg font-medium text-gray-800">
-                    {results.data.data.aiSuggestion.payload.nazwaGrupowania}
+                    {results?.aiSuggestion.payload.nazwaGrupowania}
                   </h3>
                 </div>
                 <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
-                  {results.data.data.aiSuggestion.payload.opisDodatkowy}
+                  {results?.aiSuggestion.payload.opisDodatkowy}
                 </p>
               </div>
             </div>
@@ -118,8 +113,8 @@ function App() {
               <h2 className="text-xl font-semibold text-gray-800">
                 Pozostałe pasujące kody
               </h2>
-              {results.data.data.pkdCodeData
-                .filter((code) => code.id !== results.data.data.aiSuggestion.id)
+              {results?.pkdCodeData
+                .filter((code) => code.id !== results?.aiSuggestion.id)
                 .map((code) => (
                   <div
                     key={code.id}
