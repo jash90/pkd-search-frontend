@@ -2,7 +2,7 @@ import { Search as SearchIcon, Loader2 } from 'lucide-react';
 import { useState, useCallback, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
-import { Link, useSearchParams, useNavigate } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from './PageTransition';
 
@@ -31,12 +31,24 @@ interface SearchCache {
   results: SearchResponse | null;
 }
 
+// Funkcje pomocnicze do formatowania URL
+const createSeoUrl = (text: string): string => {
+  return text.trim().toLowerCase().replace(/\s+/g, '-');
+};
+
+const decodeSeoUrl = (text: string): string => {
+  return decodeURIComponent(text).replace(/-/g, ' ');
+};
+
 const SearchComponent = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const serviceDescription = searchParams.get('serviceDescription') || '';
+  // Pobierz query z parametru URL
+  const { query: seoQuery } = useParams<{ query: string }>();
   const navigate = useNavigate();
   
-  const [query, setQuery] = useState(serviceDescription);
+  // Dekoduj query do formy czytelnej dla użytkownika
+  const searchQuery = seoQuery ? decodeSeoUrl(seoQuery) : '';
+  
+  const [query, setQuery] = useState(searchQuery);
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<SearchResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -74,47 +86,46 @@ const SearchComponent = () => {
     );
   }, []);
 
-  // Update query when URL params change
+  // Update input field when URL param changes
   useEffect(() => {
-    if (serviceDescription !== query) {
-      setQuery(serviceDescription);
+    if (searchQuery !== query) {
+      setQuery(searchQuery);
     }
-  }, [serviceDescription]);
+  }, [searchQuery]);
   
-  // Handle search based on URL parameters changes
+  // Handle search based on URL parameter changes
   useEffect(() => {
     // Skip initial empty searches
-    if (!serviceDescription || (initialLoadRef.current && !serviceDescription)) {
+    if (!searchQuery || (initialLoadRef.current && !searchQuery)) {
       initialLoadRef.current = false;
       return;
     }
     
     // Skip if same query (prevents double searches)
-    if (serviceDescription === previousQuery && !initialLoadRef.current) {
+    if (searchQuery === previousQuery && !initialLoadRef.current) {
       return;
     }
     
-    setPreviousQuery(serviceDescription);
-    fetchSearchResults(serviceDescription);
+    setPreviousQuery(searchQuery);
+    fetchSearchResults(searchQuery);
     
     if (initialLoadRef.current) {
       initialLoadRef.current = false;
     }
-  }, [serviceDescription]);
+  }, [searchQuery]);
 
-  // Przekieruj na stronę główną, gdy parametr serviceDescription jest pusty
+  // Przekieruj na stronę główną, gdy parametr query jest pusty
   useEffect(() => {
-    // Sprawdź czy parametr serviceDescription jest w URL ale jest pusty
-    if (searchParams.has('serviceDescription') && !serviceDescription && !isLoading) {
+    if (seoQuery === '') {
       navigate('/', { replace: true });
     }
-  }, [serviceDescription, navigate, searchParams, isLoading]);
+  }, [seoQuery, navigate]);
 
-  const fetchSearchResults = async (searchQuery: string) => {
-    if (!searchQuery.trim()) return;
+  const fetchSearchResults = async (queryText: string) => {
+    if (!queryText.trim()) return;
 
     // Check if we already have this search in our cache
-    if (searchCacheRef.current && searchCacheRef.current.query === searchQuery) {
+    if (searchCacheRef.current && searchCacheRef.current.query === queryText) {
       setResults(searchCacheRef.current.results);
       return;
     }
@@ -129,7 +140,7 @@ const SearchComponent = () => {
       }
       const signal = window._abortController ? window._abortController.signal : undefined;
       
-      const requestUrl = `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(searchQuery)}`;
+      const requestUrl = `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(queryText)}`;
       let responseData;
       
       try {
@@ -154,13 +165,13 @@ const SearchComponent = () => {
       
       // Cache the search results
       searchCacheRef.current = {
-        query: searchQuery,
+        query: queryText,
         results: searchResults
       };
 
       // Store in sessionStorage to help with bfcache
       try {
-        sessionStorage.setItem('pkd-search-query', searchQuery);
+        sessionStorage.setItem('pkd-search-query', queryText);
         sessionStorage.setItem('pkd-search-results', JSON.stringify(searchResults));
       } catch {
         // Ignore storage errors
@@ -183,9 +194,10 @@ const SearchComponent = () => {
       return;
     }
     
-    // Update search params without refreshing the page
-    setSearchParams({ serviceDescription: query }, { replace: false });
-  }, [query, setSearchParams, navigate]);
+    // Utwórz przyjazny dla SEO URL i przekieruj
+    const seoFormattedQuery = createSeoUrl(query);
+    navigate(`/search/${encodeURIComponent(seoFormattedQuery)}`, { replace: false });
+  }, [query, navigate]);
 
   // Animation variants
   const containerVariants = {
@@ -209,20 +221,20 @@ const SearchComponent = () => {
   return (
     <>
       <Helmet>
-        <title>Wyszukiwarka Kodów PKD | {serviceDescription ? `Wyniki dla: ${serviceDescription}` : 'Znajdź odpowiedni kod'}</title>
-        <meta name="description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${serviceDescription ? `Wyniki wyszukiwania dla: ${serviceDescription}` : ''}`} />
-        <meta name="keywords" content={`PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności${serviceDescription ? `, ${serviceDescription}` : ''}`} />
-        <meta property="og:title" content={`Wyszukiwarka Kodów PKD | ${serviceDescription ? `Wyniki dla: ${serviceDescription}` : 'Znajdź odpowiedni kod'}`} />
-        <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${serviceDescription ? `Wyniki wyszukiwania dla: ${serviceDescription}` : ''}`} />
+        <title>Wyszukiwarka Kodów PKD | {searchQuery ? `Wyniki dla: ${searchQuery}` : 'Znajdź odpowiedni kod'}</title>
+        <meta name="description" content={`Sprawdź kody PKD dla działalności: ${searchQuery || 'wyszukaj swoją działalność gospodarczą'}`} />
+        <meta name="keywords" content={`PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności${searchQuery ? `, ${searchQuery}` : ''}`} />
+        <meta property="og:title" content={`Kody PKD dla: ${searchQuery || 'Twojej działalności'}`} />
+        <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${searchQuery ? `Wyniki wyszukiwania dla: ${searchQuery}` : ''}`} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={window.location.href} />
+        <link rel="canonical" href={window.location.origin + (searchQuery ? `/search/${encodeURIComponent(createSeoUrl(searchQuery))}` : '')} />
       </Helmet>
 
       <PageTransition>
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
           <div className="container mx-auto px-4 py-8">
             <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-              Wyszukiwarka Kodów PKD
+              {searchQuery ? `Kody PKD dla: ${searchQuery}` : 'Wyszukiwarka Kodów PKD'}
             </h1>
             
             <div className="flex justify-between items-center mb-6">
@@ -281,7 +293,7 @@ const SearchComponent = () => {
               <div className="max-w-4xl mx-auto space-y-8">
                 <AnimatePresence mode="wait">
                   <motion.div 
-                    key={`suggestion-${serviceDescription}`}
+                    key={`suggestion-${searchQuery}`}
                     className="bg-white rounded-lg shadow-lg p-6 border border-green-200 relative"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -319,7 +331,7 @@ const SearchComponent = () => {
                   
                   <AnimatePresence mode="wait">
                     <motion.div 
-                      key={`list-${serviceDescription}`}
+                      key={`list-${searchQuery}`}
                       className="space-y-4"
                       variants={containerVariants}
                       initial="hidden"

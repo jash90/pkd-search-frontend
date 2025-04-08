@@ -111,8 +111,9 @@ const Home = () => {
     e.preventDefault();
     if (!query.trim()) return;
     
-    // Używamy navigate zamiast window.location.href aby uniknąć alertu leave site
-    navigate(`/search?serviceDescription=${encodeURIComponent(query)}`);
+    // Tworzenie przyjaznego dla SEO URL w języku polskim
+    const seoFormattedQuery = query.trim().toLowerCase().replace(/\s+/g, '-');
+    navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`);
   };
 
   const features = [
@@ -216,7 +217,7 @@ const Home = () => {
                           ))}
                         </div>
                         <Link 
-                          to="/samples" 
+                          to="/przyklady" 
                           className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1"
                         >
                           Zobacz więcej <ArrowRight className="w-4 h-4" />
@@ -261,7 +262,7 @@ const Home = () => {
         
         <div className="mt-16 text-center">
           <Link 
-            to="/samples"
+            to="/przyklady"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 transition-colors"
           >
             Przeglądaj przykładowe kody PKD <ArrowRight className="w-4 h-4" />
