@@ -2,7 +2,8 @@ import { Search as SearchIcon, Loader2 } from 'lucide-react';
 import { useState, useCallback, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useSearchParams, useNavigate } from 'react-router-dom';
+import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from './PageTransition';
 
 // Use the same axios setup and cache from App.tsx
@@ -31,13 +32,17 @@ interface SearchCache {
 }
 
 const SearchComponent = () => {
-  const [query, setQuery] = useState('');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const serviceDescription = searchParams.get('serviceDescription') || '';
+  const navigate = useNavigate();
+  
+  const [query, setQuery] = useState(serviceDescription);
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<SearchResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [previousQuery, setPreviousQuery] = useState('');
   const searchCacheRef = useRef<SearchCache | null>(null);
   const initialLoadRef = useRef(true);
-  const navigate = useNavigate();
 
   // Create a custom axios instance with interceptors to handle caching
   const axiosInstance = useRef(axios.create());
@@ -69,13 +74,51 @@ const SearchComponent = () => {
     );
   }, []);
 
-  const handleSearch = useCallback(async (searchQuery = query) => {
+  // Update query when URL params change
+  useEffect(() => {
+    if (serviceDescription !== query) {
+      setQuery(serviceDescription);
+    }
+  }, [serviceDescription]);
+  
+  // Handle search based on URL parameters changes
+  useEffect(() => {
+    // Skip initial empty searches
+    if (!serviceDescription || (initialLoadRef.current && !serviceDescription)) {
+      initialLoadRef.current = false;
+      return;
+    }
+    
+    // Skip if same query (prevents double searches)
+    if (serviceDescription === previousQuery && !initialLoadRef.current) {
+      return;
+    }
+    
+    setPreviousQuery(serviceDescription);
+    fetchSearchResults(serviceDescription);
+    
+    if (initialLoadRef.current) {
+      initialLoadRef.current = false;
+    }
+  }, [serviceDescription]);
+
+  // Przekieruj na stronę główną, gdy parametr serviceDescription jest pusty
+  useEffect(() => {
+    // Sprawdź czy parametr serviceDescription jest w URL ale jest pusty
+    if (searchParams.has('serviceDescription') && !serviceDescription && !isLoading) {
+      navigate('/', { replace: true });
+    }
+  }, [serviceDescription, navigate, searchParams, isLoading]);
+
+  const fetchSearchResults = async (searchQuery: string) => {
     if (!searchQuery.trim()) return;
 
-    // Zawsze aktualizuj URL bez względu na to, czy zapytanie się zmieniło
-    navigate(`/search?serviceDescription=${encodeURIComponent(searchQuery)}`, { replace: false });
+    // Check if we already have this search in our cache
+    if (searchCacheRef.current && searchCacheRef.current.query === searchQuery) {
+      setResults(searchCacheRef.current.results);
+      return;
+    }
     
-    // Wykonuj faktyczne wyszukiwanie
     setIsLoading(true);
     setError(null);
 
@@ -131,82 +174,46 @@ const SearchComponent = () => {
         window._abortController = null; // Clear the controller reference
       }
     }
-  }, [query, navigate]);
+  };
 
-  // Handle URL parameters on initial load and check for bfcache restoration
-  useEffect(() => {
-    // Only run this on initial mount
-    if (!initialLoadRef.current) return;
-    
-    // Check sessionStorage first for bfcache restoration
-    const bfcacheRestored = sessionStorage.getItem('bfcache-restored');
-    const lastServiceDescription = sessionStorage.getItem('last-service-description');
-    const cachedResults = sessionStorage.getItem('pkd-search-results');
-    
-    if (bfcacheRestored === 'true' && lastServiceDescription) {
-      // We're being restored from bfcache
-      setQuery(lastServiceDescription);
-      
-      // Try to restore results from sessionStorage
-      if (cachedResults) {
-        try {
-          const parsedResults = JSON.parse(cachedResults);
-          setResults(parsedResults);
-          
-          // Update the cache reference
-          searchCacheRef.current = {
-            query: lastServiceDescription,
-            results: parsedResults
-          };
-          
-          // Clear the flag so we don't do this again
-          sessionStorage.removeItem('bfcache-restored');
-          initialLoadRef.current = false;
-          return;
-        } catch {
-          // JSON parse error, proceed with normal initialization
-        }
-      }
+  const handleSearch = useCallback(() => {
+    // Jeśli query jest puste, przekieruj na stronę główną
+    if (!query.trim()) {
+      navigate('/', { replace: true });
+      return;
     }
     
-    // Normal first-load behavior
-    const urlParams = new URLSearchParams(window.location.search);
-    const serviceDescription = urlParams.get('serviceDescription');
-    
-    if (serviceDescription) {
-      setQuery(serviceDescription);
-      // We'll fetch the data directly rather than through handleSearch to avoid URL updates
-      axios.get(`${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(serviceDescription)}`)
-        .then(response => {
-          const searchResults = response.data?.data as unknown as SearchResponse;
-          setResults(searchResults);
-          
-          // Cache the search results
-          searchCacheRef.current = {
-            query: serviceDescription,
-            results: searchResults
-          };
-        })
-        .catch(error => {
-          console.error(error);
-          setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
-        })
-        .finally(() => {
-          initialLoadRef.current = false;
-        });
-    } else {
-      initialLoadRef.current = false;
+    // Update search params without refreshing the page
+    setSearchParams({ serviceDescription: query }, { replace: false });
+  }, [query, setSearchParams, navigate]);
+
+  // Animation variants
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: { 
+      opacity: 1,
+      transition: { staggerChildren: 0.05 }
+    },
+    exit: { 
+      opacity: 0,
+      transition: { staggerChildren: 0.05, staggerDirection: -1 }
     }
-  }, []);
+  };
+  
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
+    exit: { opacity: 0, y: -20 }
+  };
 
   return (
     <>
       <Helmet>
-        <title>Wyszukiwarka Kodów PKD | Znajdź odpowiedni kod dla swojej działalności</title>
-        <meta name="description" content="Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. Inteligentny system pomoże Ci znaleźć najlepiej dopasowane kody PKD." />
-        <meta name="keywords" content="PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności" />
-        <meta property="og:title" content="Wyszukiwarka Kodów PKD" />
-        <meta property="og:description" content="Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej." />
+        <title>Wyszukiwarka Kodów PKD | {serviceDescription ? `Wyniki dla: ${serviceDescription}` : 'Znajdź odpowiedni kod'}</title>
+        <meta name="description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${serviceDescription ? `Wyniki wyszukiwania dla: ${serviceDescription}` : ''}`} />
+        <meta name="keywords" content={`PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności${serviceDescription ? `, ${serviceDescription}` : ''}`} />
+        <meta property="og:title" content={`Wyszukiwarka Kodów PKD | ${serviceDescription ? `Wyniki dla: ${serviceDescription}` : 'Znajdź odpowiedni kod'}`} />
+        <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${serviceDescription ? `Wyniki wyszukiwania dla: ${serviceDescription}` : ''}`} />
         <meta property="og:type" content="website" />
         <link rel="canonical" href={window.location.href} />
       </Helmet>
@@ -264,53 +271,86 @@ const SearchComponent = () => {
               </div>
             )}
 
+            {isLoading && !results && (
+              <div className="flex justify-center my-12">
+                <div className="animate-spin h-12 w-12 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+              </div>
+            )}
+
             {results && (
               <div className="max-w-4xl mx-auto space-y-8">
-                <div className="bg-white rounded-lg shadow-lg p-6 border border-green-200">
-                  <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                    <span className="text-green-600">Sugerowany kod PKD</span>
-                  </h2>
-                  <div className="space-y-4">
-                    <div>
-                      <span className="font-semibold text-lg text-blue-600">
-                        {results?.aiSuggestion.payload.grupaKlasaPodklasa}
-                      </span>
-                      <h3 className="text-lg font-medium text-gray-800">
-                        {results?.aiSuggestion.payload.nazwaGrupowania}
-                      </h3>
+                <AnimatePresence mode="wait">
+                  <motion.div 
+                    key={`suggestion-${serviceDescription}`}
+                    className="bg-white rounded-lg shadow-lg p-6 border border-green-200 relative"
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    exit={{ opacity: 0 }}
+                    transition={{ duration: 0.3 }}
+                  >
+                    <h2 className="text-xl font-semibold text-gray-800 mb-4">
+                      <span className="text-green-600">Sugerowany kod PKD</span>
+                    </h2>
+                    <div className="space-y-4">
+                      <div>
+                        <span className="font-semibold text-lg text-blue-600">
+                          {results?.aiSuggestion.payload.grupaKlasaPodklasa}
+                        </span>
+                        <h3 className="text-lg font-medium text-gray-800">
+                          {results?.aiSuggestion.payload.nazwaGrupowania}
+                        </h3>
+                      </div>
+                      <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
+                        {results?.aiSuggestion.payload.opisDodatkowy}
+                      </p>
                     </div>
-                    <p className="text-gray-600 text-sm leading-relaxed whitespace-pre-line">
-                      {results?.aiSuggestion.payload.opisDodatkowy}
-                    </p>
-                  </div>
-                </div>
+                    {isLoading && (
+                      <div className="absolute inset-0 bg-white bg-opacity-70 flex items-center justify-center z-10 rounded-lg">
+                        <div className="animate-spin h-8 w-8 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+                      </div>
+                    )}
+                  </motion.div>
+                </AnimatePresence>
 
                 <div className="space-y-4">
                   <h2 className="text-xl font-semibold text-gray-800">
                     Pozostałe pasujące kody
                   </h2>
-                  {results?.pkdCodeData
-                    .filter((code) => code.id !== results?.aiSuggestion.id)
-                    .map((code) => (
-                      <div
-                        key={code.id}
-                        className="bg-white rounded-lg shadow p-4 border border-gray-200"
-                      >
-                        <div className="flex justify-between items-start mb-2">
-                          <div>
-                            <span className="font-semibold text-blue-600">
-                              {code.payload.grupaKlasaPodklasa}
-                            </span>
-                            <h3 className="font-medium text-gray-800">
-                              {code.payload.nazwaGrupowania}
-                            </h3>
-                          </div>
-                        </div>
-                        <p className="text-gray-600 text-sm">
-                          {code.payload.opisDodatkowy}
-                        </p>
-                      </div>
-                    ))}
+                  
+                  <AnimatePresence mode="wait">
+                    <motion.div 
+                      key={`list-${serviceDescription}`}
+                      className="space-y-4"
+                      variants={containerVariants}
+                      initial="hidden"
+                      animate="visible"
+                      exit="exit"
+                    >
+                      {results?.pkdCodeData
+                        .filter((code) => code.id !== results?.aiSuggestion.id)
+                        .map((code) => (
+                          <motion.div
+                            key={code.id}
+                            className="bg-white rounded-lg shadow p-4 border border-gray-200"
+                            variants={itemVariants}
+                          >
+                            <div className="flex justify-between items-start mb-2">
+                              <div>
+                                <span className="font-semibold text-blue-600">
+                                  {code.payload.grupaKlasaPodklasa}
+                                </span>
+                                <h3 className="font-medium text-gray-800">
+                                  {code.payload.nazwaGrupowania}
+                                </h3>
+                              </div>
+                            </div>
+                            <p className="text-gray-600 text-sm">
+                              {code.payload.opisDodatkowy}
+                            </p>
+                          </motion.div>
+                        ))}
+                    </motion.div>
+                  </AnimatePresence>
                 </div>
               </div>
             )}
