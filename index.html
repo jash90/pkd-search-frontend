@@ -4,7 +4,66 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="bfcache-restore" content="true" />
+    <meta name="back-forward-navigation" content="enable" />
+    
+    <!-- Preconnect to third-party origins -->
+    <link rel="preconnect" href="https://terra.dev" crossorigin>
+    <link rel="dns-prefetch" href="https://terra.dev">
+    <link rel="preconnect" href="https://assets.terra.dev" crossorigin>
+    <link rel="dns-prefetch" href="https://assets.terra.dev">
+    
     <title>Wyszukiwarka kodów PKD</title>
+    
+    <!-- Service worker registration for bfcache support -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/bfcache-sw.js')
+            .then(registration => {
+              console.log('BFCache SW registered:', registration.scope);
+            })
+            .catch(error => {
+              console.log('BFCache SW registration failed:', error);
+            });
+        });
+      }
+      
+      // Prevent unload handlers (which can interfere with bfcache)
+      window.addEventListener('beforeunload', (e) => {
+        e.preventDefault();
+        e.returnValue = false;
+        return false;
+      }, { capture: true });
+      
+      // Disconnect network requests on page hide
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'hidden') {
+          // Cancel any pending fetch requests
+          const controller = window._abortController;
+          if (controller) {
+            controller.abort();
+            window._abortController = null;
+          }
+        }
+      });
+      
+      // Store the current page in sessionStorage to help with bfcache restoration
+      window.addEventListener('pageshow', (event) => {
+        if (event.persisted) {
+          // This page was restored from bfcache
+          console.log('Page restored from bfcache');
+          const urlParams = new URLSearchParams(window.location.search);
+          const serviceDescription = urlParams.get('serviceDescription');
+          
+          if (serviceDescription) {
+            // Store that we've handled this URL already
+            sessionStorage.setItem('bfcache-restored', 'true');
+            sessionStorage.setItem('last-service-description', serviceDescription);
+          }
+        }
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

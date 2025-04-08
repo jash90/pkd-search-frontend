@@ -1,0 +1,7 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Sitemap locations
+Sitemap: https://kodypkd.app/sitemap.xml
+Sitemap: https://kodypkd.app/sitemap-index.xml 
