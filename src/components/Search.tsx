@@ -2,7 +2,7 @@ import { Search as SearchIcon, Loader2 } from 'lucide-react';
 import { useState, useCallback, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import PageTransition from './PageTransition';
 
 // Use the same axios setup and cache from App.tsx
@@ -37,6 +37,7 @@ const SearchComponent = () => {
   const [error, setError] = useState<string | null>(null);
   const searchCacheRef = useRef<SearchCache | null>(null);
   const initialLoadRef = useRef(true);
+  const navigate = useNavigate();
 
   // Create a custom axios instance with interceptors to handle caching
   const axiosInstance = useRef(axios.create());
@@ -71,12 +72,10 @@ const SearchComponent = () => {
   const handleSearch = useCallback(async (searchQuery = query) => {
     if (!searchQuery.trim()) return;
 
-    // Check if we already have this search in our cache
-    if (searchCacheRef.current && searchCacheRef.current.query === searchQuery) {
-      setResults(searchCacheRef.current.results);
-      return;
-    }
-
+    // Zawsze aktualizuj URL bez względu na to, czy zapytanie się zmieniło
+    navigate(`/search?serviceDescription=${encodeURIComponent(searchQuery)}`, { replace: false });
+    
+    // Wykonuj faktyczne wyszukiwanie
     setIsLoading(true);
     setError(null);
 
@@ -123,23 +122,6 @@ const SearchComponent = () => {
       } catch {
         // Ignore storage errors
       }
-
-      // Update URL without triggering a page reload
-      if (!initialLoadRef.current) {
-        const url = new URL(window.location.href);
-        const currentParam = url.searchParams.get('serviceDescription');
-        
-        // Only update history if the param actually changed
-        if (currentParam !== searchQuery) {
-          url.searchParams.set('serviceDescription', searchQuery);
-          window.history.pushState({ query: searchQuery }, '', url.toString());
-        }
-      } else {
-        // If this is initial load from URL, don't push a new state
-        const state = { query: searchQuery };
-        window.history.replaceState(state, '', window.location.href);
-        initialLoadRef.current = false;
-      }
     } catch (error) {
       console.error(error);
       setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
@@ -149,10 +131,13 @@ const SearchComponent = () => {
         window._abortController = null; // Clear the controller reference
       }
     }
-  }, [query]);
+  }, [query, navigate]);
 
   // Handle URL parameters on initial load and check for bfcache restoration
   useEffect(() => {
+    // Only run this on initial mount
+    if (!initialLoadRef.current) return;
+    
     // Check sessionStorage first for bfcache restoration
     const bfcacheRestored = sessionStorage.getItem('bfcache-restored');
     const lastServiceDescription = sessionStorage.getItem('last-service-description');
@@ -176,6 +161,7 @@ const SearchComponent = () => {
           
           // Clear the flag so we don't do this again
           sessionStorage.removeItem('bfcache-restored');
+          initialLoadRef.current = false;
           return;
         } catch {
           // JSON parse error, proceed with normal initialization
@@ -189,11 +175,29 @@ const SearchComponent = () => {
     
     if (serviceDescription) {
       setQuery(serviceDescription);
-      handleSearch(serviceDescription);
+      // We'll fetch the data directly rather than through handleSearch to avoid URL updates
+      axios.get(`${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(serviceDescription)}`)
+        .then(response => {
+          const searchResults = response.data?.data as unknown as SearchResponse;
+          setResults(searchResults);
+          
+          // Cache the search results
+          searchCacheRef.current = {
+            query: serviceDescription,
+            results: searchResults
+          };
+        })
+        .catch(error => {
+          console.error(error);
+          setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
+        })
+        .finally(() => {
+          initialLoadRef.current = false;
+        });
     } else {
       initialLoadRef.current = false;
     }
-  }, [handleSearch]);
+  }, []);
 
   return (
     <>
@@ -227,7 +231,12 @@ const SearchComponent = () => {
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    onKeyDown={(e) => e.key === 'Enter' && handleSearch()}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        e.preventDefault();
+                        handleSearch();
+                      }
+                    }}
                     placeholder="Opisz swoją działalność..."
                     className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none"
                     aria-label="Opis działalności"
