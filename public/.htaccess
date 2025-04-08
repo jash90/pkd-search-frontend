@@ -1,0 +1,56 @@
+# Enable gzip compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml
+</IfModule>
+
+# Set content type for compressed files
+<IfModule mod_mime.c>
+  AddEncoding gzip .gz
+  AddEncoding br .br
+
+  # Serve correct content types
+  AddType text/css .css
+  AddType text/javascript .js
+  AddType application/json .json
+
+  # Serve compressed files with proper content encoding when available
+  RewriteEngine On
+
+  # Serve brotli compressed CSS files if they exist and the client accepts br encoding
+  RewriteCond %{HTTP:Accept-encoding} br
+  RewriteCond %{REQUEST_FILENAME}\.br -f
+  RewriteRule ^(.*)\.css$ $1\.css\.br [QSA]
+
+  # Serve gzip compressed CSS files if they exist and client accepts gzip encoding
+  RewriteCond %{HTTP:Accept-encoding} gzip
+  RewriteCond %{REQUEST_FILENAME}\.gz -f
+  RewriteCond %{REQUEST_FILENAME}\.br !-f
+  RewriteRule ^(.*)\.css$ $1\.css\.gz [QSA]
+
+  # Set proper content-encoding header for .br files
+  <FilesMatch "\.br$">
+    Header set Content-Encoding br
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+
+  # Set proper content-encoding header for .gz files
+  <FilesMatch "\.gz$">
+    Header set Content-Encoding gzip
+    Header append Vary Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+# Cache static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
