@@ -1,35 +1,12 @@
 import { Search as SearchIcon, Loader2 } from 'lucide-react';
-import { useState, useCallback, useEffect, useRef } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from './PageTransition';
-
-// Use the same axios setup and cache from App.tsx
-const axiosCache = new Map();
-
-interface PKDCode {
-  id: string;
-  version: number;
-  score: number;
-  payload: {
-    grupaKlasaPodklasa: string;
-    nazwaGrupowania: string;
-    opisDodatkowy: string;
-  };
-}
-
-interface SearchResponse {
-  aiSuggestion: PKDCode;
-  pkdCodeData: PKDCode[];
-}
-
-// Cache instance to store search results
-interface SearchCache {
-  query: string;
-  results: SearchResponse | null;
-}
+import type { PKDCode, SearchResponse } from '../types/pkd';
+import { getCached, setCached } from '../lib/cache';
 
 // Funkcje pomocnicze do formatowania URL
 const createSeoUrl = (text: string): string => {
@@ -44,47 +21,14 @@ const SearchComponent = () => {
   // Pobierz query z parametru URL
   const { query: seoQuery } = useParams<{ query: string }>();
   const navigate = useNavigate();
-  
+
   // Dekoduj query do formy czytelnej dla użytkownika
   const searchQuery = seoQuery ? decodeSeoUrl(seoQuery) : '';
-  
+
   const [query, setQuery] = useState(searchQuery);
   const [isLoading, setIsLoading] = useState(false);
   const [results, setResults] = useState<SearchResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [previousQuery, setPreviousQuery] = useState('');
-  const searchCacheRef = useRef<SearchCache | null>(null);
-  const initialLoadRef = useRef(true);
-
-  // Create a custom axios instance with interceptors to handle caching
-  const axiosInstance = useRef(axios.create());
-  
-  // Initialize axios interceptors only once
-  useEffect(() => {
-    // Request interceptor to check cache
-    axiosInstance.current.interceptors.request.use(config => {
-      const url = config.url || '';
-      if (config.method?.toLowerCase() === 'get' && axiosCache.has(url)) {
-        // Return cached response if available
-        return Promise.reject({
-          __AXIOS_CACHE_HIT__: true,
-          cachedData: axiosCache.get(url)
-        });
-      }
-      return config;
-    });
-    
-    // Response interceptor to cache responses
-    axiosInstance.current.interceptors.response.use(
-      response => {
-        const url = response.config.url || '';
-        if (response.config.method?.toLowerCase() === 'get') {
-          axiosCache.set(url, response.data);
-        }
-        return response;
-      }
-    );
-  }, []);
 
   // Update input field when URL param changes
   useEffect(() => {
@@ -92,82 +36,34 @@ const SearchComponent = () => {
       setQuery(searchQuery);
     }
   }, [searchQuery]);
-  
-  // Handle search based on URL parameter changes
-  useEffect(() => {
-    // Skip initial empty searches
-    if (!searchQuery || (initialLoadRef.current && !searchQuery)) {
-      initialLoadRef.current = false;
-      return;
-    }
-    
-    // Skip if same query (prevents double searches)
-    if (searchQuery === previousQuery && !initialLoadRef.current) {
-      return;
-    }
-    
-    setPreviousQuery(searchQuery);
-    fetchSearchResults(searchQuery);
-    
-    if (initialLoadRef.current) {
-      initialLoadRef.current = false;
-    }
-  }, [searchQuery]);
 
-  // Przekieruj na stronę główną, gdy parametr query jest pusty
-  useEffect(() => {
-    if (seoQuery === '') {
-      navigate('/', { replace: true });
-    }
-  }, [seoQuery, navigate]);
-
-  const fetchSearchResults = async (queryText: string) => {
+  const fetchSearchResults = useCallback(async (queryText: string) => {
     if (!queryText.trim()) return;
 
-    // Check if we already have this search in our cache
-    if (searchCacheRef.current && searchCacheRef.current.query === queryText) {
-      setResults(searchCacheRef.current.results);
+    const requestUrl = `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(queryText)}`;
+
+    // Check module-level cache
+    const cached = getCached<SearchResponse>(requestUrl);
+    if (cached) {
+      setResults(cached);
       return;
     }
-    
+
     setIsLoading(true);
     setError(null);
 
     try {
-      // Create a new AbortController for this request and store it globally
-      if (window._abortController) {
-        window._abortController = new AbortController();
-      }
-      const signal = window._abortController ? window._abortController.signal : undefined;
-      
-      const requestUrl = `${import.meta.env.VITE_BASE_URL}/process?serviceDescription=${encodeURIComponent(queryText)}`;
-      let responseData;
-      
-      try {
-        const response = await axiosInstance.current.get(requestUrl, { signal });
-        responseData = response.data;
-      } catch (err: unknown) {
-        // Check if this is our cache hit error
-        if (err && typeof err === 'object' && '__AXIOS_CACHE_HIT__' in err) {
-          const cacheHit = err as { __AXIOS_CACHE_HIT__: boolean; cachedData: unknown };
-          responseData = cacheHit.cachedData;
-        } else if (err && typeof err === 'object' && 'name' in err && (err as Error).name === 'AbortError') {
-          // Request was aborted - typically during page navigation
-          console.log('Request aborted during navigation');
-          return; // Just bail out - this prevents race conditions
-        } else {
-          throw err; // Re-throw if it's a real error
-        }
-      }
+      // Abort previous request, create new controller
+      window._abortController?.abort();
+      window._abortController = new AbortController();
+      const signal = window._abortController.signal;
 
-      const searchResults = responseData?.data as unknown as SearchResponse;
+      const response = await axios.get(requestUrl, { signal });
+      const searchResults = response.data?.data as unknown as SearchResponse;
       setResults(searchResults);
-      
+
       // Cache the search results
-      searchCacheRef.current = {
-        query: queryText,
-        results: searchResults
-      };
+      setCached(requestUrl, searchResults);
 
       // Store in sessionStorage to help with bfcache
       try {
@@ -176,46 +72,52 @@ const SearchComponent = () => {
       } catch {
         // Ignore storage errors
       }
-    } catch (error) {
-      console.error(error);
+    } catch (err) {
+      if (axios.isCancel(err) || (err instanceof DOMException && err.name === 'AbortError')) {
+        return;
+      }
+      console.error(err);
       setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
     } finally {
       setIsLoading(false);
-      if (window._abortController) {
-        window._abortController = null; // Clear the controller reference
-      }
+      window._abortController = null;
     }
-  };
+  }, []);
+
+  // Handle search based on URL parameter changes
+  useEffect(() => {
+    if (!searchQuery) return;
+    fetchSearchResults(searchQuery);
+  }, [searchQuery, fetchSearchResults]);
+
+  // Przekieruj na stronę główną, gdy parametr query jest pusty
+  useEffect(() => {
+    if (seoQuery === '') {
+      navigate('/', { replace: true });
+    }
+  }, [seoQuery, navigate]);
 
   const handleSearch = useCallback(() => {
-    // Jeśli query jest puste, przekieruj na stronę główną
     if (!query.trim()) {
       navigate('/', { replace: true });
       return;
     }
-    
-    // Utwórz przyjazny dla SEO URL i przekieruj
+
     const seoFormattedQuery = createSeoUrl(query);
-    navigate(`/search/${encodeURIComponent(seoFormattedQuery)}`, { replace: false });
+    navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`, { replace: false });
   }, [query, navigate]);
 
   // Animation variants
   const containerVariants = {
     hidden: { opacity: 0 },
-    visible: { 
+    visible: {
       opacity: 1,
       transition: { staggerChildren: 0.05 }
     },
-    exit: { 
+    exit: {
       opacity: 0,
       transition: { staggerChildren: 0.05, staggerDirection: -1 }
     }
-  };
-  
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-    exit: { opacity: 0, y: -20 }
   };
 
   return (
@@ -227,7 +129,7 @@ const SearchComponent = () => {
         <meta property="og:title" content={`Kody PKD dla: ${searchQuery || 'Twojej działalności'}`} />
         <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${searchQuery ? `Wyniki wyszukiwania dla: ${searchQuery}` : ''}`} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={window.location.origin + (searchQuery ? `/search/${encodeURIComponent(createSeoUrl(searchQuery))}` : '')} />
+        <link rel="canonical" href={window.location.origin + (searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : '')} />
       </Helmet>
 
       <PageTransition>
@@ -236,7 +138,7 @@ const SearchComponent = () => {
             <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
               {searchQuery ? `Kody PKD dla: ${searchQuery}` : 'Wyszukiwarka Kodów PKD'}
             </h1>
-            
+
             <div className="flex justify-between items-center mb-6">
               <Link to="/" className="text-blue-600 hover:text-blue-800 font-medium">
                 &larr; Powrót do strony głównej
@@ -292,7 +194,7 @@ const SearchComponent = () => {
             {results && (
               <div className="max-w-4xl mx-auto space-y-8">
                 <AnimatePresence mode="wait">
-                  <motion.div 
+                  <motion.div
                     key={`suggestion-${searchQuery}`}
                     className="bg-white rounded-lg shadow-lg p-6 border border-green-200 relative"
                     initial={{ opacity: 0 }}
@@ -328,9 +230,9 @@ const SearchComponent = () => {
                   <h2 className="text-xl font-semibold text-gray-800">
                     Pozostałe pasujące kody
                   </h2>
-                  
-                  <AnimatePresence mode="wait">
-                    <motion.div 
+
+                  <AnimatePresence mode="sync">
+                    <motion.div
                       key={`list-${searchQuery}`}
                       className="space-y-4"
                       variants={containerVariants}
@@ -339,12 +241,11 @@ const SearchComponent = () => {
                       exit="exit"
                     >
                       {results?.pkdCodeData
-                        .filter((code) => code.id !== results?.aiSuggestion.id)
-                        .map((code) => (
-                          <motion.div
+                        .filter((code: PKDCode) => code.id !== results?.aiSuggestion.id)
+                        .map((code: PKDCode) => (
+                          <div
                             key={code.id}
                             className="bg-white rounded-lg shadow p-4 border border-gray-200"
-                            variants={itemVariants}
                           >
                             <div className="flex justify-between items-start mb-2">
                               <div>
@@ -359,7 +260,7 @@ const SearchComponent = () => {
                             <p className="text-gray-600 text-sm">
                               {code.payload.opisDodatkowy}
                             </p>
-                          </motion.div>
+                          </div>
                         ))}
                     </motion.div>
                   </AnimatePresence>
@@ -373,4 +274,4 @@ const SearchComponent = () => {
   );
 };
 
-export default SearchComponent; 
+export default SearchComponent;
