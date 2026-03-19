@@ -3,17 +3,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ArrowRight, Database, Zap, CheckCircle } from 'lucide-react';
-
-interface PKDCode {
-  id: string;
-  version: number;
-  score: number;
-  payload: {
-    grupaKlasaPodklasa: string;
-    nazwaGrupowania: string;
-    opisDodatkowy: string;
-  };
-}
+import type { PKDCode } from '../types/pkd';
+import { getCached, setCached } from '../lib/cache';
 
 const MOCK_PKD_CODES: PKDCode[] = [
   {
@@ -76,14 +67,22 @@ const Home = () => {
 
   // Fetch real samples if available, or use mock data
   useEffect(() => {
+    const cacheKey = 'samples-10';
+    const cached = getCached<PKDCode[]>(cacheKey);
+    if (cached) {
+      setSamples(cached);
+      return;
+    }
+
     const fetchSamples = async () => {
       try {
         const response = await axios.get(
           `${import.meta.env.VITE_BASE_URL}/samples?limit=10`
         );
-        
+
         if (response.data?.data && response.data.data.length > 0) {
           setSamples(response.data.data);
+          setCached(cacheKey, response.data.data);
         } else {
           setSamples(MOCK_PKD_CODES);
         }
@@ -92,25 +91,25 @@ const Home = () => {
         setSamples(MOCK_PKD_CODES);
       }
     };
-    
+
     fetchSamples();
   }, []);
 
   // Auto-rotate displayed code every 4 seconds
   useEffect(() => {
     if (samples.length === 0) return;
-    
+
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % samples.length);
     }, 4000);
-    
+
     return () => clearInterval(interval);
   }, [samples]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
-    
+
     // Tworzenie przyjaznego dla SEO URL w języku polskim
     const seoFormattedQuery = query.trim().toLowerCase().replace(/\s+/g, '-');
     navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`);
@@ -141,7 +140,7 @@ const Home = () => {
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
-              <motion.h1 
+              <motion.h1
                 className="text-4xl md:text-5xl font-bold mb-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -149,7 +148,7 @@ const Home = () => {
               >
                 Znajdź idealny kod PKD dla swojej działalności
               </motion.h1>
-              <motion.p 
+              <motion.p
                 className="text-xl mb-8 text-blue-100"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -182,7 +181,7 @@ const Home = () => {
                 </form>
               </motion.div>
             </div>
-            
+
             <div className="md:w-1/2 md:pl-8">
               <div className="bg-white rounded-lg shadow-xl p-6 overflow-hidden relative h-96">
                 <AnimatePresence mode="wait">
@@ -206,18 +205,18 @@ const Home = () => {
                       <p className="text-gray-600 flex-1 overflow-hidden text-ellipsis">
                         {samples[currentIndex]?.payload.opisDodatkowy}
                       </p>
-                      
+
                       <div className="mt-4 flex justify-between items-center">
                         <div className="flex space-x-2">
                           {samples.map((_, idx) => (
-                            <span 
-                              key={idx} 
+                            <span
+                              key={idx}
                               className={`block h-2 w-2 rounded-full ${idx === currentIndex ? 'bg-blue-600' : 'bg-gray-300'}`}
                             />
                           ))}
                         </div>
-                        <Link 
-                          to="/przyklady" 
+                        <Link
+                          to="/przyklady"
                           className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1"
                         >
                           Zobacz więcej <ArrowRight className="w-4 h-4" />
@@ -231,13 +230,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Features Section */}
       <div className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
           Dlaczego warto korzystać z naszej wyszukiwarki
         </h2>
-        
+
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <motion.div
@@ -259,9 +258,9 @@ const Home = () => {
             </motion.div>
           ))}
         </div>
-        
+
         <div className="mt-16 text-center">
-          <Link 
+          <Link
             to="/przyklady"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 transition-colors"
           >
@@ -273,4 +272,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;

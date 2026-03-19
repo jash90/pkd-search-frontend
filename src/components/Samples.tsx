@@ -3,38 +3,39 @@ import { useParams, Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { motion } from 'framer-motion';
 import PageTransition from './PageTransition';
-import { Helmet } from 'react-helmet';
-
-interface PKDCode {
-  id: string;
-  version: number;
-  score: number;
-  payload: {
-    grupaKlasaPodklasa: string;
-    nazwaGrupowania: string;
-    opisDodatkowy: string;
-  };
-}
+import { Helmet } from 'react-helmet-async';
+import type { PKDCode } from '../types/pkd';
+import { getCached, setCached } from '../lib/cache';
 
 const Samples = () => {
   const { limit: limitParam } = useParams<{ limit?: string }>();
   const limit = limitParam ? parseInt(limitParam) : 10;
   const navigate = useNavigate();
-  
+
   const [samples, setSamples] = useState<PKDCode[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
+    const cacheKey = `samples-${limit}`;
+    const cached = getCached<PKDCode[]>(cacheKey);
+    if (cached) {
+      setSamples(cached);
+      setIsLoading(false);
+      return;
+    }
+
     const fetchSamples = async () => {
       setIsLoading(true);
-      
+
       try {
         const response = await axios.get(
           `${import.meta.env.VITE_BASE_URL}/samples?limit=${limit}`
         );
-        
-        setSamples(response.data?.data || []);
+
+        const data = response.data?.data || [];
+        setSamples(data);
+        setCached(cacheKey, data);
       } catch (error) {
         console.error('Error fetching samples:', error);
         setError('Wystąpił błąd podczas pobierania przykładowych kodów PKD.');
@@ -42,26 +43,26 @@ const Samples = () => {
         setIsLoading(false);
       }
     };
-    
+
     fetchSamples();
   }, [limit]);
 
   useEffect(() => {
     if (limitParam && isNaN(parseInt(limitParam))) {
-      navigate('/samples', { replace: true });
+      navigate('/przyklady', { replace: true });
     }
   }, [limitParam, navigate]);
-  
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1
+        staggerChildren: 0.02
       }
     }
   };
-  
+
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
@@ -75,7 +76,7 @@ const Samples = () => {
   };
 
   const limitOptions = [5, 10, 20, 50];
-  
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex items-center justify-center">
@@ -94,8 +95,8 @@ const Samples = () => {
     );
   }
 
-  const title = limitParam 
-    ? `${limitParam} Przykładowych Kodów PKD` 
+  const title = limitParam
+    ? `${limitParam} Przykładowych Kodów PKD`
     : 'Przykładowe Kody PKD';
 
   return (
@@ -106,7 +107,7 @@ const Samples = () => {
         <meta name="keywords" content="PKD, kody PKD, przykłady PKD, polska klasyfikacja działalności, przykładowe kody" />
         <link rel="canonical" href={`${window.location.origin}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
       </Helmet>
-    
+
       <PageTransition>
         <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 p-8">
           <div className="max-w-4xl mx-auto">
@@ -118,20 +119,20 @@ const Samples = () => {
                 &larr; Powrót do strony głównej
               </Link>
             </div>
-            
+
             <div className="mb-4 flex justify-between items-center">
               <span className="text-gray-600">
                 Wyświetlanie {samples.length} przykładowych kodów PKD.
               </span>
-              
+
               <div className="flex space-x-2">
                 {limitOptions.map(option => (
-                  <Link 
+                  <Link
                     key={option}
                     to={option === 10 ? '/przyklady' : `/przyklady/limit/${option}`}
                     className={`px-3 py-1 rounded-md text-sm font-medium ${
-                      limit === option 
-                        ? 'bg-blue-600 text-white' 
+                      limit === option
+                        ? 'bg-blue-600 text-white'
                         : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
                     }`}
                   >
@@ -140,7 +141,7 @@ const Samples = () => {
                 ))}
               </div>
             </div>
-            
+
             <motion.div
               className="space-y-4"
               initial="hidden"
@@ -176,4 +177,4 @@ const Samples = () => {
   );
 };
 
-export default Samples; 
+export default Samples;
