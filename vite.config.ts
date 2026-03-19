@@ -40,8 +40,9 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom', 'react-helmet'],
+          vendor: ['react', 'react-dom', 'react-helmet-async'],
           utils: ['axios'],
+          motion: ['framer-motion'],
         },
       },
     },
