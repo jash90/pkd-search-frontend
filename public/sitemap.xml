@@ -1,89 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>
-			https://kodypkd.app/
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			1.0
-		</priority>
-	</url>
-	<!-- Example search pages that should be indexed -->
-	<url>
-		<loc>
-			https://kodypkd.app/?serviceDescription=programowanie
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			0.8
-		</priority>
+		<loc>https://kodypkd.app/</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
 	</url>
 	<url>
-		<loc>
-			https://kodypkd.app/?serviceDescription=handel
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			0.8
-		</priority>
+		<loc>https://kodypkd.app/przyklady</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<!-- Popular search queries -->
+	<url>
+		<loc>https://kodypkd.app/szukaj/programowanie</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>
-			https://kodypkd.app/?serviceDescription=fryzjer
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			0.8
-		</priority>
+		<loc>https://kodypkd.app/szukaj/handel</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>
-			https://kodypkd.app/?serviceDescription=kosmetyczka
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			0.8
-		</priority>
+		<loc>https://kodypkd.app/szukaj/fryzjer</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc>
-			https://kodypkd.app/?serviceDescription=sklep
-		</loc>
-		<lastmod>
-			2023-04-08T14:30:00+00:00
-		</lastmod>
-		<changefreq>
-			weekly
-		</changefreq>
-		<priority>
-			0.8
-		</priority>
+		<loc>https://kodypkd.app/szukaj/kosmetyczka</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/sklep</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/restauracja</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/transport</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/budownictwo</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/fotografia</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	<url>
+		<loc>https://kodypkd.app/szukaj/marketing</loc>
+		<lastmod>2026-03-27T00:00:00+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
 	</url>
 </urlset>
