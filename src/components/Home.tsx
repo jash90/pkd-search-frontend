@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ArrowRight, Database, Zap, CheckCircle } from 'lucide-react';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
+import { createSlug, SITE_URL } from '../lib/seo';
 
 const MOCK_PKD_CODES: PKDCode[] = [
   {
@@ -110,9 +112,8 @@ const Home = () => {
     e.preventDefault();
     if (!query.trim()) return;
 
-    // Tworzenie przyjaznego dla SEO URL w języku polskim
-    const seoFormattedQuery = query.trim().toLowerCase().replace(/\s+/g, '-');
-    navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`);
+    const slug = createSlug(query);
+    navigate(`/kody-pkd/${slug}`);
   };
 
   const features = [
@@ -134,8 +135,20 @@ const Home = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      {/* Hero Section */}
+    <>
+      <Helmet>
+        <title>Wyszukiwarka Kodów PKD | Znajdź kod PKD dla swojej działalności</title>
+        <meta name="description" content="Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. Inteligentna wyszukiwarka kodów Polskiej Klasyfikacji Działalności z algorytmem AI." />
+        <meta name="keywords" content="PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności" />
+        <meta property="og:title" content="Wyszukiwarka Kodów PKD" />
+        <meta property="og:description" content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={SITE_URL} />
+        <link rel="canonical" href={SITE_URL} />
+      </Helmet>
+
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+        {/* Hero Section */}
       <div className="bg-blue-600 text-white">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="flex flex-col md:flex-row items-center">
@@ -269,6 +282,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
