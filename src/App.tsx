@@ -5,6 +5,7 @@ import Home from './components/Home';
 import SearchComponent from './components/Search';
 import Samples from './components/Samples';
 import axios from 'axios';
+import { createSlug } from './lib/seo';
 
 // Mark axios to avoid unload listeners which prevent bfcache
 axios.defaults.headers.common['X-BFCache-Support'] = 'true';
@@ -25,10 +26,13 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
 
-        {/* SEO-friendly URL dla wyszukiwania w języku polskim */}
-        <Route path="/szukaj/:query" element={<SearchComponent />} />
+        {/* SEO-friendly URL z keywordem "kody-pkd" */}
+        <Route path="/kody-pkd/:query" element={<SearchComponent />} />
 
-        {/* Przekierowanie ze starego formatu angielskiego na nowy polski */}
+        {/* Przekierowanie ze starego /szukaj na nowy /kody-pkd */}
+        <Route path="/szukaj/:query" element={<SzukajRedirect />} />
+
+        {/* Przekierowanie ze starego formatu angielskiego */}
         <Route path="/search/:query" element={<SearchFormatRedirect />} />
         <Route path="/search" element={<SearchRedirect />} />
 
@@ -57,9 +61,8 @@ const SearchRedirect = () => {
     return <Navigate to="/" replace />;
   }
 
-  // Tworzenie przyjaznego dla SEO URL w języku polskim
-  const seoQuery = encodeURIComponent(query.trim().toLowerCase().replace(/\s+/g, '-'));
-  return <Navigate to={`/szukaj/${seoQuery}`} replace />;
+  const slug = createSlug(query);
+  return <Navigate to={`/kody-pkd/${slug}`} replace />;
 };
 
 // Komponent przekierowujący ze starych URL samples do nowych, zgodnych z SEO
@@ -73,10 +76,16 @@ const SamplesRedirect = () => {
   return <Navigate to={`/przyklady/limit/${limit}`} replace />;
 };
 
-// Dodatkowe komponenty dla przekierowań z odpowiednimi typami
+// Przekierowanie ze starego /szukaj na /kody-pkd (301 via replace)
+const SzukajRedirect = () => {
+  const { query } = useParams();
+  return <Navigate to={`/kody-pkd/${query}`} replace />;
+};
+
+// Przekierowanie z angielskiego /search na /kody-pkd
 const SearchFormatRedirect = () => {
   const { query } = useParams();
-  return <Navigate to={`/szukaj/${query}`} replace />;
+  return <Navigate to={`/kody-pkd/${query}`} replace />;
 };
 
 const SamplesLimitRedirect = () => {
