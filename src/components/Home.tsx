@@ -309,6 +309,18 @@ const Home = () => {
           </Link>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-gray-400 py-8">
+        <div className="container mx-auto px-4 text-center text-sm space-y-2">
+          <p>&copy; {new Date().getFullYear()} kodypkd.app — Wyszukiwarka Kodów PKD</p>
+          <nav className="flex justify-center gap-4">
+            <Link to="/polityka-prywatnosci" className="hover:text-white transition-colors">
+              Polityka prywatności
+            </Link>
+          </nav>
+        </div>
+      </footer>
     </div>
     </>
   );
