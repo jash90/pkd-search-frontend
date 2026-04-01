@@ -7,15 +7,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from './PageTransition';
 import type { PKDCode, SearchResponse } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-
-// Funkcje pomocnicze do formatowania URL
-const createSeoUrl = (text: string): string => {
-  return text.trim().toLowerCase().replace(/\s+/g, '-');
-};
-
-const decodeSeoUrl = (text: string): string => {
-  return decodeURIComponent(text).replace(/-/g, ' ');
-};
+import { createSlug, decodeSlug, SITE_URL } from '../lib/seo';
 
 const SearchComponent = () => {
   // Pobierz query z parametru URL
@@ -23,7 +15,7 @@ const SearchComponent = () => {
   const navigate = useNavigate();
 
   // Dekoduj query do formy czytelnej dla użytkownika
-  const searchQuery = seoQuery ? decodeSeoUrl(seoQuery) : '';
+  const searchQuery = seoQuery ? decodeSlug(seoQuery) : '';
 
   const [query, setQuery] = useState(searchQuery);
   const [isLoading, setIsLoading] = useState(false);
@@ -103,8 +95,8 @@ const SearchComponent = () => {
       return;
     }
 
-    const seoFormattedQuery = createSeoUrl(query);
-    navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`, { replace: false });
+    const slug = createSlug(query);
+    navigate(`/kody-pkd/${slug}`, { replace: false });
   }, [query, navigate]);
 
   // Animation variants
@@ -129,9 +121,9 @@ const SearchComponent = () => {
         <meta property="og:title" content={`Kody PKD dla: ${searchQuery || 'Twojej działalności'}`} />
         <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${searchQuery ? `Wyniki wyszukiwania dla: ${searchQuery}` : ''}`} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={`https://kodypkd.app${searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : ''}`} />
+        <meta property="og:url" content={searchQuery ? `${SITE_URL}/kody-pkd/${createSlug(searchQuery)}` : `${SITE_URL}/`} />
         <meta property="og:locale" content="pl_PL" />
-        <link rel="canonical" href={`https://kodypkd.app${searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : ''}`} />
+        <link rel="canonical" href={searchQuery ? `${SITE_URL}/kody-pkd/${createSlug(searchQuery)}` : `${SITE_URL}/`} />
       </Helmet>
 
       <PageTransition>

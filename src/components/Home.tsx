@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ArrowRight, Database, Zap, CheckCircle } from 'lucide-react';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
+import { createSlug, SITE_URL } from '../lib/seo';
 
 const MOCK_PKD_CODES: PKDCode[] = [
   {
@@ -111,9 +112,8 @@ const Home = () => {
     e.preventDefault();
     if (!query.trim()) return;
 
-    // Tworzenie przyjaznego dla SEO URL w języku polskim
-    const seoFormattedQuery = query.trim().toLowerCase().replace(/\s+/g, '-');
-    navigate(`/szukaj/${encodeURIComponent(seoFormattedQuery)}`);
+    const slug = createSlug(query);
+    navigate(`/kody-pkd/${slug}`);
   };
 
   const features = [
@@ -134,19 +134,17 @@ const Home = () => {
     }
   ];
 
-  const siteUrl = 'https://kodypkd.app';
-
   const schemaWebSite = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Wyszukiwarka Kodów PKD',
-    url: siteUrl,
+    url: SITE_URL,
     description: 'Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność, a AI dopasuje odpowiednie kody Polskiej Klasyfikacji Działalności.',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${siteUrl}/szukaj/{search_term_string}`
+        urlTemplate: `${SITE_URL}/kody-pkd/{search_term_string}`
       },
       'query-input': 'required name=search_term_string'
     }
@@ -156,29 +154,29 @@ const Home = () => {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'kodypkd.app',
-    url: siteUrl,
+    url: SITE_URL,
     description: 'Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD) za pomocą algorytmu AI.'
   };
 
   return (
     <>
       <Helmet>
-        <title>Wyszukiwarka Kodów PKD 2025 - Znajdź kod dla swojej działalności</title>
-        <meta name="description" content="Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność gospodarczą, a inteligentny algorytm AI dopasuje najlepsze kody Polskiej Klasyfikacji Działalności." />
-        <meta name="keywords" content="kody PKD, wyszukiwarka PKD, Polska Klasyfikacja Działalności, kody PKD 2025, rejestracja firmy, działalność gospodarcza, JDG, KRS" />
-        <link rel="canonical" href={siteUrl} />
-        <meta property="og:title" content="Wyszukiwarka Kodów PKD 2025 - Znajdź kod dla swojej działalności" />
-        <meta property="og:description" content="Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność, a AI dopasuje odpowiednie kody Polskiej Klasyfikacji Działalności." />
+        <title>Wyszukiwarka Kodów PKD | Znajdź kod PKD dla swojej działalności</title>
+        <meta name="description" content="Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. Inteligentna wyszukiwarka kodów Polskiej Klasyfikacji Działalności z algorytmem AI." />
+        <meta name="keywords" content="PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności" />
+        <meta property="og:title" content="Wyszukiwarka Kodów PKD" />
+        <meta property="og:description" content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content={siteUrl} />
+        <meta property="og:url" content={SITE_URL} />
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:site_name" content="kodypkd.app" />
+        <link rel="canonical" href={SITE_URL} />
         <script type="application/ld+json">{JSON.stringify(schemaWebSite)}</script>
         <script type="application/ld+json">{JSON.stringify(schemaOrganization)}</script>
       </Helmet>
 
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      {/* Hero Section */}
+      <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+        {/* Hero Section */}
       <div className="bg-blue-600 text-white">
         <div className="container mx-auto px-4 py-16 md:py-24">
           <div className="flex flex-col md:flex-row items-center">
