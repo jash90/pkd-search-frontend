@@ -1,0 +1,32 @@
+# kodypkd.app - Wyszukiwarka Kodów PKD
+
+> Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD) za pomocą algorytmu AI.
+
+## O stronie
+
+kodypkd.app to darmowa wyszukiwarka kodów PKD. Użytkownik opisuje swoją planowaną działalność gospodarczą, a system na podstawie opisu dopasowuje najlepsze kody PKD z pełnej bazy klasyfikacji.
+
+## Główne funkcje
+
+- Wyszukiwanie kodów PKD po opisie działalności (AI-powered semantic search)
+- Przeglądanie przykładowych kodów PKD
+- Sugerowany najlepszy kod PKD dla podanego opisu
+- Lista pozostałych pasujących kodów z pełnymi opisami
+
+## Dla kogo
+
+- Osoby zakładające jednoosobową działalność gospodarczą (JDG)
+- Przedsiębiorcy rejestrujący spółki w KRS
+- Księgowi i doradcy podatkowi
+- Osoby zmieniające lub rozszerzające zakres działalności
+
+## Struktura strony
+
+- `/` - Strona główna z wyszukiwarką
+- `/szukaj/{query}` - Wyniki wyszukiwania kodów PKD
+- `/przyklady` - Przykładowe kody PKD
+- `/przyklady/limit/{n}` - Przykładowe kody PKD (n wyników)
+
+## Kontakt
+
+Strona: https://kodypkd.app

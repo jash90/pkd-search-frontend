@@ -129,7 +129,9 @@ const SearchComponent = () => {
         <meta property="og:title" content={`Kody PKD dla: ${searchQuery || 'Twojej działalności'}`} />
         <meta property="og:description" content={`Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. ${searchQuery ? `Wyniki wyszukiwania dla: ${searchQuery}` : ''}`} />
         <meta property="og:type" content="website" />
-        <link rel="canonical" href={window.location.origin + (searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : '')} />
+        <meta property="og:url" content={`https://kodypkd.app${searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : ''}`} />
+        <meta property="og:locale" content="pl_PL" />
+        <link rel="canonical" href={`https://kodypkd.app${searchQuery ? `/szukaj/${encodeURIComponent(createSeoUrl(searchQuery))}` : ''}`} />
       </Helmet>
 
       <PageTransition>
