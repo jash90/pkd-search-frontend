@@ -105,7 +105,12 @@ const Samples = () => {
         <title>{title} | Wyszukiwarka Kodów PKD</title>
         <meta name="description" content={`Przeglądaj ${limitParam || '10'} przykładowych kodów Polskiej Klasyfikacji Działalności (PKD).`} />
         <meta name="keywords" content="PKD, kody PKD, przykłady PKD, polska klasyfikacja działalności, przykładowe kody" />
-        <link rel="canonical" href={`${window.location.origin}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
+        <link rel="canonical" href={`https://kodypkd.app/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
+        <meta property="og:title" content={`${title} | Wyszukiwarka Kodów PKD`} />
+        <meta property="og:description" content={`Przeglądaj ${limitParam || '10'} przykładowych kodów Polskiej Klasyfikacji Działalności (PKD).`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`https://kodypkd.app/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
+        <meta property="og:locale" content="pl_PL" />
       </Helmet>
 
       <PageTransition>
