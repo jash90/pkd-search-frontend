@@ -17,8 +17,46 @@
     <link rel="preconnect" href="https://assets.terra.dev" crossorigin>
     <link rel="dns-prefetch" href="https://assets.terra.dev">
     
-    <title>Wyszukiwarka kodów PKD</title>
-    
+    <title>Wyszukiwarka Kodów PKD | Znajdź kod PKD dla swojej działalności</title>
+    <meta name="description" content="Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność gospodarczą, a inteligentny algorytm AI dopasuje najlepsze kody Polskiej Klasyfikacji Działalności." />
+    <link rel="canonical" href="https://kodypkd.app/" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Wyszukiwarka Kodów PKD | Znajdź kod PKD dla swojej działalności" />
+    <meta property="og:description" content="Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność, a AI dopasuje odpowiednie kody Polskiej Klasyfikacji Działalności." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kodypkd.app/" />
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:site_name" content="kodypkd.app" />
+
+    <!-- Schema.org structured data (static fallback for non-JS crawlers) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Wyszukiwarka Kodów PKD",
+      "url": "https://kodypkd.app",
+      "description": "Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność, a AI dopasuje odpowiednie kody Polskiej Klasyfikacji Działalności.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://kodypkd.app/kody-pkd/{search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "kodypkd.app",
+      "url": "https://kodypkd.app",
+      "description": "Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD) za pomocą algorytmu AI."
+    }
+    </script>
+
     <!-- Service worker registration for bfcache support -->
     <script>
       if ('serviceWorker' in navigator) {

@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 import Home from './components/Home';
 import SearchComponent from './components/Search';
 import Samples from './components/Samples';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import axios from 'axios';
 import { createSlug } from './lib/seo';
 
@@ -37,6 +38,8 @@ const AnimatedRoutes = () => {
         <Route path="/search" element={<SearchRedirect />} />
 
         {/* SEO-friendly URL dla przykładowych kodów w języku polskim */}
+        <Route path="/polityka-prywatnosci" element={<PrivacyPolicy />} />
+
         <Route path="/przyklady" element={<Samples />} />
         <Route path="/przyklady/limit/:limit" element={<Samples />} />
 
