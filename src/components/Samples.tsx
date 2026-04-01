@@ -6,6 +6,7 @@ import PageTransition from './PageTransition';
 import { Helmet } from 'react-helmet-async';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
+import { SITE_URL } from '../lib/seo';
 
 const Samples = () => {
   const { limit: limitParam } = useParams<{ limit?: string }>();
@@ -105,7 +106,11 @@ const Samples = () => {
         <title>{title} | Wyszukiwarka Kodów PKD</title>
         <meta name="description" content={`Przeglądaj ${limitParam || '10'} przykładowych kodów Polskiej Klasyfikacji Działalności (PKD).`} />
         <meta name="keywords" content="PKD, kody PKD, przykłady PKD, polska klasyfikacja działalności, przykładowe kody" />
-        <link rel="canonical" href={`${window.location.origin}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
+        <meta property="og:title" content={`${title} | Wyszukiwarka Kodów PKD`} />
+        <meta property="og:description" content={`Przeglądaj ${limitParam || '10'} przykładowych kodów Polskiej Klasyfikacji Działalności (PKD).`} />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={`${SITE_URL}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
+        <link rel="canonical" href={`${SITE_URL}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`} />
       </Helmet>
 
       <PageTransition>

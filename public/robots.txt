@@ -2,9 +2,10 @@
 User-agent: *
 Allow: /
 
-# Block legacy English routes (redirects)
+# Block legacy routes (redirects)
 Disallow: /search
 Disallow: /samples
+Disallow: /szukaj
 
 # Sitemap locations
 Sitemap: https://kodypkd.app/sitemap.xml
