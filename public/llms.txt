@@ -1,10 +1,10 @@
 # kodypkd.app - Wyszukiwarka Kodów PKD
 
-> Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD) za pomocą algorytmu AI.
+> Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD 2025) za pomocą algorytmu AI.
 
 ## O stronie
 
-kodypkd.app to darmowa wyszukiwarka kodów PKD. Użytkownik opisuje swoją planowaną działalność gospodarczą, a system na podstawie opisu dopasowuje najlepsze kody PKD z pełnej bazy klasyfikacji.
+kodypkd.app to darmowa wyszukiwarka kodów PKD. Użytkownik opisuje swoją planowaną działalność gospodarczą, a system na podstawie opisu dopasowuje najlepsze kody PKD z pełnej bazy klasyfikacji PKD 2025.
 
 ## Główne funkcje
 
@@ -12,6 +12,7 @@ kodypkd.app to darmowa wyszukiwarka kodów PKD. Użytkownik opisuje swoją plano
 - Przeglądanie przykładowych kodów PKD
 - Sugerowany najlepszy kod PKD dla podanego opisu
 - Lista pozostałych pasujących kodów z pełnymi opisami
+- Poradnik PKD — artykuły o wyborze kodu, limitach i zmianach w CEIDG
 
 ## Dla kogo
 
@@ -22,10 +23,13 @@ kodypkd.app to darmowa wyszukiwarka kodów PKD. Użytkownik opisuje swoją plano
 
 ## Struktura strony
 
-- `/` - Strona główna z wyszukiwarką
-- `/szukaj/{query}` - Wyniki wyszukiwania kodów PKD
-- `/przyklady` - Przykładowe kody PKD
-- `/przyklady/limit/{n}` - Przykładowe kody PKD (n wyników)
+- `/` — Strona główna z wyszukiwarką i FAQ o PKD
+- `/kody-pkd/{query}` — Wyniki wyszukiwania kodów PKD dla opisu działalności
+- `/przyklady` — Przykładowe kody PKD
+- `/przyklady/limit/{n}` — Przykładowe kody PKD (n wyników)
+- `/artykuly` — Poradnik PKD (lista artykułów)
+- `/artykuly/{slug}` — Pojedynczy artykuł z poradnika PKD
+- `/polityka-prywatnosci` — Polityka prywatności
 
 ## Kontakt
 

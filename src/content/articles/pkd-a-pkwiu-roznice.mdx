@@ -1,0 +1,116 @@
+Dwa skróty, które księgowi rzucają w przedsiębiorców bez wyjaśnienia: **PKD** i **PKWiU**. Oba są polskimi klasyfikacjami statystycznymi, oba zbudowane są z hierarchicznych kodów, oba pojawiają się w dokumentach urzędowych — i dlatego łatwo je pomylić. Ale spełniają zupełnie różne funkcje. Ten artykuł pokazuje, czym się różnią, kiedy używasz której i dlaczego kod PKD na fakturze to zwykle błąd, choć nieszkodliwy.
+
+## Jedno zdanie o każdym
+
+- **PKD** (Polska Klasyfikacja Działalności) opisuje **co robi Twoja firma** — jej rodzaj działalności, niezależnie od konkretnej sprzedaży. Używasz go przy rejestracji w CEIDG lub KRS.
+- **PKWiU** (Polska Klasyfikacja Wyrobów i Usług) opisuje **co dokładnie sprzedajesz** — konkretny towar lub usługę w pojedynczej transakcji. Używasz go w ewidencjach VAT, na fakturach i w deklaracjach JPK.
+
+Analogia: **PKD to Twój zawód, PKWiU to rachunek za wizytę u Ciebie**. Lekarz (PKD 86.21.Z) może wystawić rachunek za „konsultację" lub za „USG" — różne PKWiU, ten sam PKD.
+
+## Kiedy używasz PKD
+
+PKD trafia do:
+
+- **Wniosku CEIDG-1** lub **wniosku do KRS** przy zakładaniu firmy.
+- **Aktualizacji wpisu**, gdy zmienia się rodzaj działalności — zob. [Jak zmienić PKD w CEIDG](/artykuly/jak-zmienic-pkd-w-ceidg).
+- **Statystyk GUS** — publiczne bazy danych agregują firmy po PKD.
+- **Wniosków o dotacje** — programy często kierowane do konkretnych branż identyfikowanych PKD.
+- **Ocen bankowych i ubezpieczeniowych** — ryzyko branżowe liczone często po PKD.
+
+**PKD nie pojawia się na fakturze VAT**. Choć niektóre stare szablony go zawierają — to artefakt przyzwyczajeń, nie wymóg. Z punktu widzenia przepisów o VAT nie ma żadnego znaczenia.
+
+## Kiedy używasz PKWiU
+
+PKWiU (obecnie obowiązująca wersja to **PKWiU 2015**) trafia do:
+
+- **Ewidencji VAT** — każdy wpis w rejestrze sprzedaży ma (lub może mieć) przyporządkowane PKWiU.
+- **JPK_V7** — od 2020 roku w pliku JPK VAT wymagane są PKWiU przy niektórych typach sprzedaży (GTU).
+- **Faktur VAT przy stawkach obniżonych lub zwolnieniu** — gdy stosujesz 5% lub 8% VAT zamiast 23%, często musisz wskazać PKWiU uzasadniający stawkę.
+- **Wniosków o wiążącą informację stawkową (WIS)** — jeśli nie jesteś pewien stawki VAT, wniosek do KIS wymaga PKWiU.
+- **Umów — rzadziej**, czasem jako doprecyzowanie przedmiotu zamówienia.
+
+## Przykłady — ten sam biznes, różne klasyfikacje
+
+### Programista na JDG
+
+- **PKD:** `62.01.Z` — Działalność związana z oprogramowaniem.
+- **PKWiU (na fakturach):** `62.01.11.0` — Usługi związane z projektowaniem, programowaniem i rozwojem oprogramowania.
+
+Zwróć uwagę — kody się podobają, bo PKWiU w sekcji usługowej często bazuje na numerach PKD. Ale **PKD kończy się na literze** (.Z), a **PKWiU na cyfrach** (.0 lub bardziej szczegółowo).
+
+### Restauracja
+
+- **PKD:** `56.10.A` — Restauracje i inne stałe placówki gastronomiczne.
+- **PKWiU:** kilka różnych dla różnych pozycji w menu:
+  - `56.10.11.0` — Usługi podawania posiłków w restauracjach.
+  - `56.21.11.0` — Usługi przygotowywania i dostarczania posiłków dla odbiorców zewnętrznych (catering).
+  - `10.71.11.0` — Pieczywo (jeśli sprzedajesz chleb na wynos).
+
+Jedna restauracja — jeden główny PKD, ale kilka PKWiU w zależności od tego, co akurat sprzedaje.
+
+### Sklep internetowy z kosmetykami
+
+- **PKD:** `47.91.Z` — Sprzedaż detaliczna przez Internet.
+- **PKWiU sprzedawanych towarów:** `20.42.11.0` (kosmetyki do pielęgnacji skóry), `20.42.12.0` (preparaty do makijażu), itd. — każdy kosmetyk ma swoje PKWiU.
+
+Sklep PKD 47.91.Z, ale faktury sprzedażowe zawierają PKWiU produktów, nie usługi handlowej.
+
+## Dlaczego to rozróżnienie ma znaczenie praktyczne
+
+### Stawka VAT zależy od PKWiU, nie od PKD
+
+To najczęstsze źródło błędów. Przedsiębiorca patrzy na swój PKD, widzi „47.xx sprzedaż detaliczna" i stosuje 23% na wszystko. Ale sprzedaje też zdrową żywność, książki albo leki, które mają obniżone stawki — i trzeba to rozstrzygnąć PKWiU konkretnego produktu.
+
+### Ryczałt — znowu PKD, ale uwaga na interpretacje
+
+Stawka ryczałtu zależy **generalnie** od PKD głównego i dodatkowego, ale przepisy odsyłają niekiedy do PKWiU konkretnej usługi. Np. sprzedaż towarów własnej produkcji ma inną stawkę niż sprzedaż handlowa — rozstrzyga PKWiU sprzedanej pozycji.
+
+### JPK_VAT wymaga dokładności
+
+Od 2020 roku plik JPK_V7 wymaga kodów GTU (Grupa Towarów i Usług) dla określonych pozycji — np. GTU_10 dla nieruchomości, GTU_12 dla doradztwa. GTU mapują się na PKWiU, nie na PKD. Błędne oznaczenie = wezwanie do korekty przez urząd.
+
+### Eksport / wewnątrzwspólnotowa dostawa (WDT)
+
+W dokumentach celnych i sprawozdaniach Intrastat pojawia się **CN** (Nomenklatura Scalona) lub PKWiU — nigdy PKD. Poradnik cła zawsze mówi o PKWiU danego towaru.
+
+## Najczęstsze pomyłki
+
+### „Wpisałem PKD na fakturę — czy to błąd?"
+
+Nie błąd z punktu widzenia księgowego, ale informacja zbędna. Obowiązkowe elementy faktury VAT to nazwa towaru/usługi + ewentualnie PKWiU (dla niektórych transakcji). PKD nie jest wymagany i nic nie wnosi.
+
+### „Mój księgowy mówi o GTU, a ja mam PKD"
+
+GTU (Grupy Towarów i Usług dla JPK) to podkategorie wyboru z PKWiU. Twój księgowy pracuje na PKWiU pozycji, którą sprzedajesz. Twój PKD wpisany w CEIDG to zupełnie osobna historia.
+
+### „Zmieniam PKD — czy muszę aktualizować PKWiU?"
+
+Nie. PKWiU nie jest gdziekolwiek „zgłoszony urzędowo". Przypisujesz go do konkretnej sprzedaży w momencie wystawiania faktury (lub określasz w ewidencji VAT).
+
+### „Wyszukiwarka zwraca mi PKD, a ja potrzebuję PKWiU"
+
+To dwie różne klasyfikacje, nie są łatwo przekładalne. Dla PKWiU najlepszym źródłem są:
+
+- **wyszukiwarka PKWiU na stronach GUS** (klasyfikacje.stat.gov.pl),
+- **Wiążąca Informacja Stawkowa (WIS)** — oficjalne interpretacje stawki i PKWiU od KIS.
+
+Nasza wyszukiwarka skupia się na [PKD](/) — do określenia rodzaju działalności dla rejestracji firmy.
+
+## Krótka ściąga
+
+| Co chcę zrobić? | Klasyfikacja |
+|---|---|
+| Zarejestrować JDG / spółkę w CEIDG / KRS | **PKD** |
+| Zaktualizować rodzaj działalności | **PKD** |
+| Wystawić fakturę ze stawką obniżoną VAT | **PKWiU** |
+| Oznaczyć pozycję w JPK_V7 | **PKWiU + GTU** |
+| Zgłosić eksport towaru (Intrastat) | **CN / PKWiU** |
+| Sprawdzić stawkę ryczałtu | **PKD** (z odesłaniem do PKWiU w niektórych przypadkach) |
+| Aplikować o dotację branżową | **PKD** |
+
+## Co dalej?
+
+- Ustalasz kod PKD dla nowej firmy? [Opisz działalność w wyszukiwarce](/).
+- Nie wiesz, jak wybrać główny PKD? [Jak wybrać kod PKD dla JDG](/artykuly/jak-wybrac-kod-pkd-dla-jdg).
+- Zastanawiasz się nad kodem dla handlu online? [PKD dla sklepu internetowego](/artykuly/pkd-dla-sklepu-internetowego).
+- PKWiU to osobna klasyfikacja — skorzystaj z wyszukiwarki na stronach GUS (klasyfikacje.stat.gov.pl) lub poproś księgowego o interpretację dla konkretnej sprzedaży.

@@ -1,0 +1,738 @@
+[
+  {
+    "slug": "programowanie",
+    "label": "Programowanie",
+    "description": "Kody PKD dla programistów, firm IT i usług związanych z oprogramowaniem.",
+    "curatedCodes": [
+      {
+        "code": "62.10.B",
+        "name": "Pozostała działalność w zakresie programowania",
+        "descr": "pozostałą działalność w zakresie programowania, taką jak: projektowanie struktury i zawartości, pisanie, modyfikowanie (w tym aktualizacje i poprawki), testowanie oraz utrzymanie oprogramowania i aplikacji, obejmujące: oprogramowanie…"
+      },
+      {
+        "code": "58.29.Z",
+        "name": "Działalność wydawnicza w zakresie pozostałego oprogramowania",
+        "descr": "wydawanie pozostałego oprogramowania, w tym: systemów operacyjnych, aplikacji biznesowych i pozostałych (na przykład technologii rozproszonego rejestru (DLT), oprogramowania technologii finansowych), oprogramowania do cyberbezpieczeństwa,…"
+      },
+      {
+        "code": "58.19.Z",
+        "name": "Pozostała działalność wydawnicza, z wyłączeniem w zakresie oprogramowania",
+        "descr": "Podlasa ta obejmuje: wydawanie w dowolnym formacie, w tym drukowanym, cyfrowym lub w Internecie, na przykład: spisów i list mailingowych, zestawień (na przykład orzecznictwa, kompendiów farmaceutycznych), katalogów, fotografii, rycin i…"
+      },
+      {
+        "code": "62.10.A",
+        "name": "Działalność w zakresie programowania gier komputerowych",
+        "descr": "działalność w zakresie programowania gier komputerowych, taką jak: projektowanie struktury i zawartości, pisanie, modyfikowanie (w tym aktualizacje i poprawki), testowanie oraz utrzymanie oprogramowania i aplikacji, obejmujące:…"
+      },
+      {
+        "code": "62.20.B",
+        "name": "Pozostała działalność związana z doradztwem w zakresie informatyki oraz zarządzaniem urządzeniami informatycznymi",
+        "descr": "Podlasa ta obejmuje: działalność związaną z doradztwem w zakresie sprzętu, oprogramowania i systemów komputerowych, planowanie i projektowanie systemów komputerowych integrujących sprzęt komputerowy, oprogramowanie i technologie…"
+      },
+      {
+        "code": "70.20.Z",
+        "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+        "descr": "udzielanie porad, wskazówek oraz pomocy operacyjnej podmiotom gospodarczym i innym jednostkom w kwestiach związanych z zarządzaniem, na przykład w zakresie: planowania strategicznego i organizacyjnego, reorganizacji procesów biznesowych,…"
+      }
+    ],
+    "searchQuery": [
+      "Tworzenie oprogramowania, aplikacji webowych i mobilnych, pisanie kodu",
+      "Działalność związana z doradztwem w zakresie informatyki",
+      "Działalność wydawnicza w zakresie oprogramowania"
+    ]
+  },
+  {
+    "slug": "handel",
+    "label": "Handel",
+    "description": "Kody PKD dla działalności handlowej — hurtowej i detalicznej.",
+    "curatedCodes": [
+      {
+        "code": "47.12.Z",
+        "name": "Pozostała sprzedaż detaliczna niewyspecjalizowana",
+        "descr": "sprzedaż detaliczną różnego rodzaju towarów (na przykład odzieży, mebli, urządzeń, sprzętu komputerowego, kosmetyków, biżuterii, zabawek, artykułów sportowych), wśród których nie przeważa żywność, napoje i wyroby tytoniowe."
+      },
+      {
+        "code": "47.92.Z",
+        "name": "Pośrednictwo w sprzedaży detalicznej wyspecjalizowanej",
+        "descr": "pośrednictwo w zakresie wyspecjalizowanej sprzedaży detalicznej, polegające na kojarzeniu kupujących i sprzedających w celu zamawiania i/lub dostarczania towarów fizycznych za opłatą lub prowizją, bez dostarczania i przejmowania własności…"
+      },
+      {
+        "code": "47.11.Z",
+        "name": "Sprzedaż detaliczna niewyspecjalizowana z przewagą żywności, napojów lub wyrobów tytoniowych",
+        "descr": "sprzedaż detaliczną różnego rodzaju towarów (na przykład odzieży, mebli, urządzeń, sprzętu komputerowego, kosmetyków), wśród których przeważa żywność, napoje i wyroby tytoniowe."
+      },
+      {
+        "code": "47.27.Z",
+        "name": "Sprzedaż detaliczna pozostałej żywności",
+        "descr": "sprzedaż detaliczną produktów spożywczych, gdzie indziej niesklasyfikowanych."
+      },
+      {
+        "code": "46.90.Z",
+        "name": "Sprzedaż hurtowa niewyspecjalizowana",
+        "descr": "sprzedaż hurtową różnych wyrobów bez określonej specjalizacji."
+      },
+      {
+        "code": "46.18.Z",
+        "name": "Działalność agentów zajmujących się sprzedażą hurtową wyspecjalizowaną pozostałych towarów",
+        "descr": "działalność agentów zajmujących się sprzedażą hurtową wyspecjalizowaną: wyrobów farmaceutycznych i medycznych, wyrobów perfumeryjnych i artykułów toaletowych oraz środków czyszczących, gier i zabawek, artykułów sportowych, rowerów,…"
+      }
+    ],
+    "searchQuery": [
+      "Sprzedaż detaliczna towarów w sklepie, handel detaliczny",
+      "Sprzedaż detaliczna niewyspecjalizowana z przewagą żywności",
+      "Sprzedaż hurtowa niewyspecjalizowana, handel hurtowy"
+    ]
+  },
+  {
+    "slug": "fryzjer",
+    "label": "Fryzjer",
+    "description": "Kody PKD dla salonów fryzjerskich, barberów i usług pielęgnacji włosów.",
+    "curatedCodes": [
+      {
+        "code": "96.21.Z",
+        "name": "Działalność fryzjerska",
+        "descr": "mycie włosów, przycinanie, strzyżenie i układanie, farbowanie, ondulowanie, prostowanie włosów i podobne czynności, stylizację włosów, golenie i przycinanie brody."
+      },
+      {
+        "code": "96.22.Z",
+        "name": "Działalność w zakresie pielęgnacji urody i pozostała działalność kosmetyczna",
+        "descr": "zabiegi upiększające, takie jak masaż twarzy, manicure, pedicure, makijaż permanentny, depilacje, opalanie oraz pozostałe działalności w zakresie zabiegów kosmetologii estetycznej wykonywane przez kosmetologów i tym podobnych, niemających…"
+      },
+      {
+        "code": "96.99.Z",
+        "name": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana",
+        "descr": "pozostałą działalność usługową świadczoną głównie na rzecz osób fizycznych: działalność astrologiczną i spirytystyczną, działalność biur towarzyskich, biur matrymonialnych, serwisów randkowych, wykonywana stacjonarnie lub w sieci,…"
+      },
+      {
+        "code": "96.23.Z",
+        "name": "Działalność spa, saun i łaźni parowych",
+        "descr": "działalność łaźni tureckich, saun i łaźni parowych, dziennego spa, solariów, salonów oferujących zabiegi wyszczuplające oraz redukujące tkankę tłuszczową i tym podobnych, działalność salonów masażu relaksacyjnego."
+      },
+      {
+        "code": "86.99.D",
+        "name": "Działalność w zakresie pozostałej opieki zdrowotnej",
+        "descr": "pozostałą działalność w zakresie opieki zdrowotnej wykonywaną przez pracowników medycznych innych niż lekarze, w takich dziedzinach jak: optometria, ortoptyka, hydroterapia, hydrokolonoterapia, podiatria/podologia, terapia skóry,…"
+      }
+    ],
+    "searchQuery": "Salon fryzjerski, strzyżenie włosów, farbowanie, modelowanie, stylizacja fryzur, usługi fryzjerskie."
+  },
+  {
+    "slug": "kosmetyczka",
+    "label": "Kosmetyczka",
+    "description": "Kody PKD dla gabinetów kosmetycznych, manicure, pedicure i zabiegów SPA.",
+    "curatedCodes": [
+      {
+        "code": "96.22.Z",
+        "name": "Działalność w zakresie pielęgnacji urody i pozostała działalność kosmetyczna",
+        "descr": "zabiegi upiększające, takie jak masaż twarzy, manicure, pedicure, makijaż permanentny, depilacje, opalanie oraz pozostałe działalności w zakresie zabiegów kosmetologii estetycznej wykonywane przez kosmetologów i tym podobnych, niemających…"
+      },
+      {
+        "code": "86.99.D",
+        "name": "Działalność w zakresie pozostałej opieki zdrowotnej",
+        "descr": "pozostałą działalność w zakresie opieki zdrowotnej wykonywaną przez pracowników medycznych innych niż lekarze, w takich dziedzinach jak: optometria, ortoptyka, hydroterapia, hydrokolonoterapia, podiatria/podologia, terapia skóry,…"
+      },
+      {
+        "code": "96.99.Z",
+        "name": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana",
+        "descr": "pozostałą działalność usługową świadczoną głównie na rzecz osób fizycznych: działalność astrologiczną i spirytystyczną, działalność biur towarzyskich, biur matrymonialnych, serwisów randkowych, wykonywana stacjonarnie lub w sieci,…"
+      },
+      {
+        "code": "96.23.Z",
+        "name": "Działalność spa, saun i łaźni parowych",
+        "descr": "działalność łaźni tureckich, saun i łaźni parowych, dziennego spa, solariów, salonów oferujących zabiegi wyszczuplające oraz redukujące tkankę tłuszczową i tym podobnych, działalność salonów masażu relaksacyjnego."
+      },
+      {
+        "code": "86.22.Z",
+        "name": "Praktyka lekarska specjalistyczna",
+        "descr": "porady, diagnostykę i leczenie świadczone przez lekarzy specjalistów, w tym chirurgów, działalność ośrodków planowania rodziny świadczących usługi medyczne, bez zakwaterowania, działalność w zakresie chirurgii plastycznej wykonywaną przez…"
+      }
+    ],
+    "searchQuery": "Salon kosmetyczny, manicure, pedicure, makijaż, depilacja, zabiegi pielęgnacji urody i skóry."
+  },
+  {
+    "slug": "sklep",
+    "label": "Sklep",
+    "description": "Kody PKD dla sklepów stacjonarnych i internetowych.",
+    "curatedCodes": [
+      {
+        "code": "47.25.Z",
+        "name": "Sprzedaż detaliczna napojów alkoholowych i bezalkoholowych",
+        "descr": "sprzedaż detaliczną: napojów alkoholowych i bezalkoholowych bez ich konsumpcji na miejscu lub przygotowanych w lokalu, soków owocowych i warzywnych."
+      },
+      {
+        "code": "56.30.Z",
+        "name": "Podawanie napojów",
+        "descr": "głównie przygotowywanie, podawanie napojów do konsumpcji na miejscu."
+      },
+      {
+        "code": "56.12.Z",
+        "name": "Ruchome placówki gastronomiczne",
+        "descr": "przygotowywanie i podawanie głównie żywności do bezpośredniej konsumpcji z ruchomych placówek gastronomicznych lub przenośnych stoisk, na przykład: pojazdów gastronomicznych, typu food trucks, obwoźnych sprzedawców lodów, związaną z…"
+      },
+      {
+        "code": "47.71.Z",
+        "name": "Sprzedaż detaliczna odzieży",
+        "descr": "sprzedaż detaliczną: wyrobów odzieżowych, w tym bielizny, wyrobów futrzarskich, dodatków odzieżowych (na przykład rękawiczek, krawatów, szelek), odzieży roboczej, mundurów, przebrań, kostiumów karnawałowych."
+      },
+      {
+        "code": "47.72.Z",
+        "name": "Sprzedaż detaliczna obuwia i wyrobów skórzanych",
+        "descr": "sprzedaż detaliczną: obuwia, wyrobów ze skóry, przyborów podróżnych ze skóry i jej substytutów."
+      },
+      {
+        "code": "46.42.Z",
+        "name": "Sprzedaż hurtowa odzieży i obuwia",
+        "descr": "sprzedaż hurtową: odzieży, w tym odzieży sportowej, wyrobów pończoszniczych, dodatków odzieżowych (na przykład rękawiczek, krawatów i szelek), obuwia, w tym niewyspecjalizowanego obuwia sportowego, artykułów futrzarskich, parasolek…"
+      }
+    ],
+    "searchQuery": [
+      "Sklep spożywczy, sprzedaż żywności i napojów w sklepie stacjonarnym",
+      "Sklep odzieżowy, sprzedaż detaliczna odzieży",
+      "Sprzedaż detaliczna niewyspecjalizowana"
+    ]
+  },
+  {
+    "slug": "restauracja",
+    "label": "Restauracja",
+    "description": "Kody PKD dla restauracji, barów, kawiarni i działalności cateringowej.",
+    "curatedCodes": [
+      {
+        "code": "56.11.Z",
+        "name": "Restauracje",
+        "descr": "głównie przygotowywanie i podawanie posiłków gościom (na przykład w restauracjach, restauracjach samoobsługowych i oferujących posiłki „na wynos”), z miejscami siedzącymi lub bez, w stałych lub tymczasowych lokalach."
+      },
+      {
+        "code": "56.22.Z",
+        "name": "Regularne przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering regularny) i pozostała gastronomiczna działalność usługowa",
+        "descr": "katering przemysłowy, to jest przygotowywanie i dostarczanie żywności świadczone w oparciu o zawartą z klientem umowę, przez określony czas."
+      },
+      {
+        "code": "56.12.Z",
+        "name": "Ruchome placówki gastronomiczne",
+        "descr": "przygotowywanie i podawanie głównie żywności do bezpośredniej konsumpcji z ruchomych placówek gastronomicznych lub przenośnych stoisk, na przykład: pojazdów gastronomicznych, typu food trucks, obwoźnych sprzedawców lodów, związaną z…"
+      },
+      {
+        "code": "56.40.Z",
+        "name": "Pośrednictwo w zakresie działalności usługowej związanej z wyżywieniem",
+        "descr": "pośrednictwo w zakresie działalności usługowej związanych z wyżywieniem polegające na kojarzeniu kupujących i sprzedających za opłatą lub prowizją, bez świadczenia przez pośrednika usług związanych z wyżywieniem będących przedmiotem…"
+      },
+      {
+        "code": "56.30.Z",
+        "name": "Podawanie napojów",
+        "descr": "głównie przygotowywanie, podawanie napojów do konsumpcji na miejscu."
+      },
+      {
+        "code": "90.31.A",
+        "name": "Działalność centrów kultury, domów i ośrodków kultury, klubów i świetlic",
+        "descr": "działalności barów, pubów i podobnych obiektów, zajmujących się głównie podawaniem napojów, które mogą również zapewniać muzykę na żywo oraz prowadzić działalność taneczną, sklasyfikowanej w 56.30.Z, pośrednictwa w zakresie rezerwacji…"
+      }
+    ],
+    "searchQuery": [
+      "Prowadzenie restauracji, serwowanie posiłków w lokalu",
+      "Bar, kawiarnia, podawanie napojów",
+      "Okazjonalne przygotowywanie posiłków, catering"
+    ]
+  },
+  {
+    "slug": "transport",
+    "label": "Transport",
+    "description": "Kody PKD dla przewozów osób, transportu towarów i usług kurierskich.",
+    "curatedCodes": [
+      {
+        "code": "49.41.Z",
+        "name": "Transport drogowy towarów",
+        "descr": "przewozy towarów realizowane środkami transportu drogowego przystosowanymi do przewozu: dłużyc, inwentarza żywego, towarów zamrożonych lub schłodzonych, towarów ciężkich, towarów masowych, w tym przewozy cysternami, włączając transport…"
+      },
+      {
+        "code": "52.24.C",
+        "name": "Przeładunek towarów w pozostałych punktach przeładunkowych",
+        "descr": "załadunek, rozładunek i przeładunek towarów oraz bagażu pasażerów, niezależnie od zastosowanego środka transportu, w pozostałych punktach przeładunkowych, przemieszczanie ładunków na terenach przemysłowych, zazwyczaj przy użyciu sprzętu…"
+      },
+      {
+        "code": "52.24.B",
+        "name": "Przeładunek towarów w portach śródlądowych",
+        "descr": "załadunek, rozładunek i przeładunek towarów oraz bagażu pasażerów, niezależnie od zastosowanego środka transportu, w portach śródlądowych, sztauowanie w portach śródlądowych, załadunek i rozładunek kolejowych wagonów towarowych w portach…"
+      },
+      {
+        "code": "49.50.B",
+        "name": "Transport rurociągowy pozostałych towarów",
+        "descr": "transport rurociągami cieczy, w tym wody, ścieków i pozostałych substancji, działalność stacji pomp na potrzeby transportu rurociągowego w zakresie pozostałych towarów."
+      },
+      {
+        "code": "49.33.Z",
+        "name": "Transport pasażerski na żądanie pojazdem z kierowcą",
+        "descr": "transport pasażerów na żądanie pojazdem z kierowcą dla przewozu maksymalnie 9 osób: działalność taksówek osobowych, wynajem prywatnych pojazdów, w tym samochodów osobowych i furgonetek (o dopuszczalnej masie całkowitej 3,5 tony lub…"
+      },
+      {
+        "code": "52.32.Z",
+        "name": "Pośrednictwo w transporcie pasażerskim",
+        "descr": "pośrednictwo w zakresie transportu pasażerskiego, polegające na kojarzeniu kupujących i sprzedających za opłatą lub prowizją, bez świadczenia przez pośrednika usług transportu pasażerskiego będących przedmiotem pośrednictwa."
+      }
+    ],
+    "searchQuery": [
+      "Transport drogowy towarów, przewóz ciężarówką",
+      "Transport osób taksówką, usługi przewozu pasażerów",
+      "Transport drogowy pasażerów autobusem, bus"
+    ]
+  },
+  {
+    "slug": "budownictwo",
+    "label": "Budownictwo",
+    "description": "Kody PKD dla firm budowlanych, wykończeniowych i remontowych.",
+    "curatedCodes": [
+      {
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych",
+        "descr": "roboty budowlane związane ze wznoszeniem kompletnych budynków mieszkalnych oraz ich rozbudowę, przebudowę."
+      },
+      {
+        "code": "43.42.Z",
+        "name": "Wykonywanie pozostałych specjalistycznych robót budowlanych w zakresie budowy budynków",
+        "descr": "roboty budowlane, specjalizujące się w jednym aspekcie wspólnym w zakresie budowy budynków, wymagające specjalistycznych umiejętności lub sprzętu: budowę fundamentów pod budynki, w tym wbijanie pali, osuszanie budynków, wznoszenie…"
+      },
+      {
+        "code": "42.99.Z",
+        "name": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane",
+        "descr": "roboty związane z budową obiektów przemysłowych, z wyłączeniem budynków, na przykład: obiektów górniczych (na przykład szybów, wież i tuneli), rafinerii, zakładów chemicznych, obiektów przeznaczonych do magazynowania zboża, roboty związane…"
+      },
+      {
+        "code": "43.99.Z",
+        "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane",
+        "descr": "roboty budowlane specjalizujące się w jednym aspekcie wspólnym dla różnych rodzajów konstrukcji, wymagające specjalistycznych umiejętności lub sprzętu, gdzie indziej niesklasyfikowane: wykonywanie robót zbrojeniowych na miejscu budowy,…"
+      },
+      {
+        "code": "43.35.Z",
+        "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych",
+        "descr": "prace wykończeniowe, które kończą budowę danego obiektu, na przykład: montaż prefabrykowanych blach, części stalowych, profili i tym podobnych, prace związane z montażem elementów ozdobnych na budynkach, zakładanie okładzin na ścianach…"
+      }
+    ],
+    "searchQuery": "Budowa domów mieszkalnych i budynków, roboty budowlane, prace konstrukcyjne i wykończeniowe."
+  },
+  {
+    "slug": "fotografia",
+    "label": "Fotografia",
+    "description": "Kody PKD dla fotografów, studiów fotograficznych i usług filmowych.",
+    "curatedCodes": [
+      {
+        "code": "74.20.Z",
+        "name": "Działalność fotograficzna",
+        "descr": "działalność fotograficzną w zakresie: fotografii portretowej, zdjęć paszportowych, zdjęć do legitymacji, zdjęć z uroczystości ślubnych i tym podobnych, fotografii komercyjnej, na potrzeby reklam, wydawnictw, mody, nieruchomości lub…"
+      },
+      {
+        "code": "74.99.Z",
+        "name": "Wszelka pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana",
+        "descr": "działalność polegającą na świadczeniu szerokiego zakresu usług na rzecz podmiotów gospodarczych."
+      },
+      {
+        "code": "73.11.Z",
+        "name": "Działalność agencji reklamowych",
+        "descr": "działalność polegającą na świadczeniu pełnego zakresu usług reklamowych (to jest od możliwości wewnątrz działalności gospodarczej po zadania zlecane podwykonawcom), w tym doradztwo, usługi kreatywne, produkcję materiałów reklamowych,…"
+      },
+      {
+        "code": "90.12.Z",
+        "name": "Działalność twórcza w zakresie sztuk wizualnych",
+        "descr": "działalność związaną z tworzeniem i produkcją dzieł sztuk wizualnych, działalność niezależnych artystów (na przykład rzeźbiarzy, malarzy, rysowników, kaligrafów, grawerów, akwaforcistów, kwasorytników), tworzenie cyfrowych form sztuk…"
+      },
+      {
+        "code": "96.99.Z",
+        "name": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana",
+        "descr": "pozostałą działalność usługową świadczoną głównie na rzecz osób fizycznych: działalność astrologiczną i spirytystyczną, działalność biur towarzyskich, biur matrymonialnych, serwisów randkowych, wykonywana stacjonarnie lub w sieci,…"
+      }
+    ],
+    "searchQuery": "Fotografia komercyjna, ślubna, portretowa, produktowa, usługi fotograficzne, studio fotograficzne."
+  },
+  {
+    "slug": "marketing",
+    "label": "Marketing",
+    "description": "Kody PKD dla agencji marketingowych, reklamowych i specjalistów SEO / SEM.",
+    "curatedCodes": [
+      {
+        "code": "73.11.Z",
+        "name": "Działalność agencji reklamowych",
+        "descr": "działalność polegającą na świadczeniu pełnego zakresu usług reklamowych (to jest od możliwości wewnątrz działalności gospodarczej po zadania zlecane podwykonawcom), w tym doradztwo, usługi kreatywne, produkcję materiałów reklamowych,…"
+      },
+      {
+        "code": "60.31.Z",
+        "name": "Działalność agencji informacyjnych",
+        "descr": "Podlasa ta obejmuje: działalność agencji informacyjnych dostarczających wiadomości, zdjęcia i materiały redakcyjne mediom, wydawcom i nadawcom."
+      },
+      {
+        "code": "73.12.Z",
+        "name": "Reklama poprzez środki masowego przekazu",
+        "descr": "reklamę poprzez środki masowego przekazu, czyli sprzedaż lub odsprzedaż czasu i miejsca dla różnych mediów zabiegających o reklamę, sprzedaż miejsca na cele reklamowe świadczona na zlecenie."
+      },
+      {
+        "code": "73.30.B",
+        "name": "Działalność pozostała w zakresie public relations i komunikacji",
+        "descr": "udzielanie porad, wskazówek i pomocy operacyjnej podmiotom gospodarczym w zakresie public relations i komunikacji, działalność przedstawicieli handlowych w celach promocyjnych."
+      },
+      {
+        "code": "73.20.Z",
+        "name": "Badanie rynku i opinii publicznej",
+        "descr": "prowadzenie badań rynku dotyczących wpływu zastosowanej reklamy produktów i usług na opinię publiczną, badanie opinii publicznej w zakresie rozwoju, sposobu wykorzystania, kształtowania cen, prowadzenie badań opinii publicznej w kwestiach…"
+      },
+      {
+        "code": "66.12.Z",
+        "name": "Działalność maklerska związana z rynkiem papierów wartościowych i towarów giełdowych",
+        "descr": "działalność na rynkach finansowych w imieniu innych osób (na przykład pośrednictwo w obrocie akcjami) i działalności pokrewne, pośrednictwo w zakresie obrotu papierami wartościowymi, pośrednictwo w zakresie obrotu jednostkami uczestnictwa…"
+      }
+    ],
+    "searchQuery": [
+      "Agencja reklamowa, kampanie reklamowe, tworzenie reklam",
+      "Badanie rynku i opinii publicznej",
+      "Public relations, komunikacja, PR"
+    ]
+  },
+  {
+    "slug": "gastronomia",
+    "label": "Gastronomia",
+    "description": "Kody PKD dla działalności gastronomicznej w pełnym spektrum.",
+    "curatedCodes": [
+      {
+        "code": "56.11.Z",
+        "name": "Restauracje",
+        "descr": "głównie przygotowywanie i podawanie posiłków gościom (na przykład w restauracjach, restauracjach samoobsługowych i oferujących posiłki „na wynos”), z miejscami siedzącymi lub bez, w stałych lub tymczasowych lokalach."
+      },
+      {
+        "code": "56.22.Z",
+        "name": "Regularne przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering regularny) i pozostała gastronomiczna działalność usługowa",
+        "descr": "katering przemysłowy, to jest przygotowywanie i dostarczanie żywności świadczone w oparciu o zawartą z klientem umowę, przez określony czas."
+      },
+      {
+        "code": "56.12.Z",
+        "name": "Ruchome placówki gastronomiczne",
+        "descr": "przygotowywanie i podawanie głównie żywności do bezpośredniej konsumpcji z ruchomych placówek gastronomicznych lub przenośnych stoisk, na przykład: pojazdów gastronomicznych, typu food trucks, obwoźnych sprzedawców lodów, związaną z…"
+      },
+      {
+        "code": "56.30.Z",
+        "name": "Podawanie napojów",
+        "descr": "głównie przygotowywanie, podawanie napojów do konsumpcji na miejscu."
+      },
+      {
+        "code": "56.21.Z",
+        "name": "Okazjonalne przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering okazjonalny)",
+        "descr": "przygotowywanie i dostarczanie żywności i pozostałego zaopatrzenia, świadczone w oparciu o zawartą z klientem umowę, na określone wydarzenia do miejsc przez niego wyznaczonych na specjalne okazje."
+      }
+    ],
+    "searchQuery": [
+      "Restauracje, bary, serwowanie posiłków w lokalu",
+      "Catering, dostarczanie posiłków dla odbiorców zewnętrznych",
+      "Ruchome placówki gastronomiczne, food truck"
+    ]
+  },
+  {
+    "slug": "it",
+    "label": "IT",
+    "description": "Kody PKD dla specjalistów IT — od developerów po administratorów sieci.",
+    "curatedCodes": [
+      {
+        "code": "62.20.B",
+        "name": "Pozostała działalność związana z doradztwem w zakresie informatyki oraz zarządzaniem urządzeniami informatycznymi",
+        "descr": "Podlasa ta obejmuje: działalność związaną z doradztwem w zakresie sprzętu, oprogramowania i systemów komputerowych, planowanie i projektowanie systemów komputerowych integrujących sprzęt komputerowy, oprogramowanie i technologie…"
+      },
+      {
+        "code": "62.90.Z",
+        "name": "Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych",
+        "descr": "pozostałą działalność związaną z technologią informatyczną i komputerową, gdzie indziej niesklasyfikowaną, na przykład: odzyskiwanie danych z uszkodzonych komputerów, instalowanie (konfigurację) komputerów osobistych, instalowanie…"
+      },
+      {
+        "code": "63.10.D",
+        "name": "Pozostała działalność usługowa w zakresie infrastruktury obliczeniowej, przetwarzania danych, zarządzania stronami internetowymi (hosting) i działalności powiązane",
+        "descr": "zapewnianie infrastruktury technicznej związane z usługami transmisji strumieniowej (streaming), usługami przetwarzania danych i działalności powiązane: pełne przetwarzanie danych dostarczonych przez klientów, generowanie specjalistycznych…"
+      },
+      {
+        "code": "70.20.Z",
+        "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+        "descr": "udzielanie porad, wskazówek oraz pomocy operacyjnej podmiotom gospodarczym i innym jednostkom w kwestiach związanych z zarządzaniem, na przykład w zakresie: planowania strategicznego i organizacyjnego, reorganizacji procesów biznesowych,…"
+      },
+      {
+        "code": "82.10.Z",
+        "name": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+        "descr": "działalność w zakresie świadczenia kompleksowych usług związanych z codzienną administracyjną obsługą biura (na przykład recepcja, planowanie finansowe, obsługa personelu, obsługa poczty, w tym poczty elektronicznej), wykonywaną na…"
+      }
+    ],
+    "searchQuery": "Doradztwo informatyczne, wsparcie IT, administracja systemami komputerowymi, obsługa infrastruktury IT."
+  },
+  {
+    "slug": "projektowanie",
+    "label": "Projektowanie",
+    "description": "Kody PKD dla grafików, projektantów wnętrz i specjalistów UX/UI.",
+    "curatedCodes": [
+      {
+        "code": "74.12.Z",
+        "name": "Działalność w zakresie projektowania graficznego i komunikacji wizualnej",
+        "descr": "działalność projektantów graficznych, projektowanie graficzne stron internetowych, działalność projektantów komunikacji wizualnej, działalność specjalistyczną w zakresie projektowania przekazu informacyjnego, uwzględniającą cechy i…"
+      },
+      {
+        "code": "74.11.Z",
+        "name": "Działalność w zakresie wzornictwa przemysłowego i projektowania mody",
+        "descr": "projektowanie mody związanej z tekstyliami, odzieżą, obuwiem, biżuterią, meblami i innymi elementami wystroju i dekoracji wnętrz oraz pozostałe wzornictwo wyrobów użytku osobistego i gospodarstwa domowego, projektowanie w zakresie…"
+      },
+      {
+        "code": "74.13.Z",
+        "name": "Działalność w zakresie projektowania wnętrz",
+        "descr": "działalność dekoratorów wnętrz, projektowanie wnętrz (na przykład planowanie i projektowanie przestrzeni wewnętrznych w celu zaspokojenia estetycznych i funkcjonalnych potrzeb ludzi, skupiając się głównie na dekoracjach i dodatkach do…"
+      },
+      {
+        "code": "18.13.Z",
+        "name": "Działalność usługowa związana z przygotowywaniem do druku",
+        "descr": "wprowadzanie danych: skład, fotoskład, ręczne wprowadzanie danych, do postaci odpowiedniej do wykorzystania w różnych procesach drukowania i reprezentacji w innych mediach wizualnych, w tym skanowanie i optyczne rozpoznawanie znaków,…"
+      },
+      {
+        "code": "74.14.Z",
+        "name": "Pozostała działalność w zakresie specjalistycznego projektowania",
+        "descr": "projektowania grafiki komputerowej na potrzeby animacji, sklasyfikowanego w 59.11.Z."
+      }
+    ],
+    "searchQuery": "Projektowanie graficzne, identyfikacji wizualnej, logotypów, projektowanie wnętrz, UX/UI."
+  },
+  {
+    "slug": "edukacja",
+    "label": "Edukacja",
+    "description": "Kody PKD dla działalności edukacyjnej — szkoleń, korepetycji i kursów.",
+    "curatedCodes": [
+      {
+        "code": "85.59.B",
+        "name": "Kursy i szkolenia związane ze zdobywaniem wiedzy, umiejętności i kwalifikacji zawodowych w formach pozaszkolnych",
+        "descr": "działalność placówek prowadzących kształcenie zawodowe i ustawiczne to jest placówek kształcenia ustawicznego, centrów kształcenia zawodowego oraz branżowych centrów umiejętności, pozostałe pozaszkolne formy edukacji związane głównie z…"
+      },
+      {
+        "code": "85.59.D",
+        "name": "Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane",
+        "descr": "edukację, w której nie da się zdefiniować poziomu nauczania, udzielanie korepetycji, kursy przygotowujące do egzaminu z wiedzy zawodowej, działalność ośrodków prowadzących kursy wyrównawcze, kursy komputerowe (na przykład ogólnej obsługi…"
+      },
+      {
+        "code": "85.51.Z",
+        "name": "Pozostałe formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych",
+        "descr": "kursy, zajęcia sportowe i rekreacyjne dla grup lub osób indywidualnych."
+      },
+      {
+        "code": "85.52.Z",
+        "name": "Pozostałe formy edukacji artystycznej",
+        "descr": "kursy i zajęcia w zakresie sztuki, teatru oraz muzyki."
+      },
+      {
+        "code": "85.69.Z",
+        "name": "Działalność wspomagająca edukację, gdzie indziej niesklasyfikowana",
+        "descr": "działalność usługową niezwiązaną z nauczaniem, która wspiera procesy lub systemy edukacyjne, taka jak: doradztwo edukacyjno-zawodowe, działalność w zakresie pomocy psychologiczno-pedagogicznej, w tym działalność ekspercką w zakresie…"
+      }
+    ],
+    "searchQuery": "Szkolenia zawodowe, kursy, edukacja pozaszkolna, prowadzenie kursów i warsztatów."
+  },
+  {
+    "slug": "doradztwo",
+    "label": "Doradztwo",
+    "description": "Kody PKD dla konsultantów, doradców biznesowych i coachów.",
+    "curatedCodes": [
+      {
+        "code": "70.20.Z",
+        "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+        "descr": "udzielanie porad, wskazówek oraz pomocy operacyjnej podmiotom gospodarczym i innym jednostkom w kwestiach związanych z zarządzaniem, na przykład w zakresie: planowania strategicznego i organizacyjnego, reorganizacji procesów biznesowych,…"
+      },
+      {
+        "code": "74.99.Z",
+        "name": "Wszelka pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana",
+        "descr": "działalność polegającą na świadczeniu szerokiego zakresu usług na rzecz podmiotów gospodarczych."
+      },
+      {
+        "code": "82.99.B",
+        "name": "Działalność wspomagająca prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowana",
+        "descr": "działalności usługowe pomocnicze, takie jak: sporządzenie protokołów z przebiegu postępowania sądowego oraz usługi stenotypii, działalność usługową związaną ze stenografią, ogólnie dostępną, tworzenie napisów w czasie rzeczywistym…"
+      },
+      {
+        "code": "69.20.B",
+        "name": "Doradztwo podatkowe",
+        "descr": "działalność związaną z doradztwem w zakresie obowiązków podatkowych i celnych oraz w sprawach egzekucji administracyjnej związanej z obowiązkami podatkowymi i celnymi, reprezentowanie podatników, płatników i inkasentów w postępowaniu przed…"
+      },
+      {
+        "code": "70.10.A",
+        "name": "Działalność biur głównych",
+        "descr": "nadzorowanie i zarządzanie innymi jednostkami tego samego podmiotu gospodarczego lub grupy podmiotów gospodarczych, to jest: pełnienie funkcji centrali, planowanie strategiczne lub organizacyjne oraz procesy podejmowania decyzji w…"
+      }
+    ],
+    "searchQuery": "Doradztwo biznesowe, konsulting zarządzania, doradztwo strategiczne dla firm, coaching biznesowy."
+  },
+  {
+    "slug": "ksiegowosc",
+    "label": "Księgowość",
+    "description": "Kody PKD dla biur rachunkowych i usług księgowych.",
+    "curatedCodes": [
+      {
+        "code": "69.20.A",
+        "name": "Działalność rachunkowo-księgowa",
+        "descr": "księgowanie wszelkiego rodzaju transakcji gospodarczych, wykonywane na zlecenie, w tym usługowe prowadzenie ksiąg rachunkowych, ksiąg podatkowych i innych ewidencji do celów podatkowych oraz udzielanie pomocy w tym zakresie, czynności…"
+      },
+      {
+        "code": "69.20.B",
+        "name": "Doradztwo podatkowe",
+        "descr": "działalność związaną z doradztwem w zakresie obowiązków podatkowych i celnych oraz w sprawach egzekucji administracyjnej związanej z obowiązkami podatkowymi i celnymi, reprezentowanie podatników, płatników i inkasentów w postępowaniu przed…"
+      },
+      {
+        "code": "70.20.Z",
+        "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+        "descr": "udzielanie porad, wskazówek oraz pomocy operacyjnej podmiotom gospodarczym i innym jednostkom w kwestiach związanych z zarządzaniem, na przykład w zakresie: planowania strategicznego i organizacyjnego, reorganizacji procesów biznesowych,…"
+      },
+      {
+        "code": "82.10.Z",
+        "name": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+        "descr": "działalność w zakresie świadczenia kompleksowych usług związanych z codzienną administracyjną obsługą biura (na przykład recepcja, planowanie finansowe, obsługa personelu, obsługa poczty, w tym poczty elektronicznej), wykonywaną na…"
+      },
+      {
+        "code": "69.20.C",
+        "name": "Działalność w zakresie audytu finansowego",
+        "descr": "badanie sprawozdań finansowych, przeglądy sprawozdań finansowych, inne usługi atestacyjne określone przepisami prawa, zastrzeżone dla biegłego rewidenta, inne usługi atestacyjne określone przepisami prawa, niezastrzeżone dla biegłego…"
+      }
+    ],
+    "searchQuery": "Biuro rachunkowe, prowadzenie ksiąg rachunkowych, doradztwo podatkowe, rozliczenia PIT CIT VAT."
+  },
+  {
+    "slug": "prawnik",
+    "label": "Prawnik",
+    "description": "Kody PKD dla kancelarii prawnych, radców prawnych i adwokatów.",
+    "curatedCodes": [
+      {
+        "code": "69.10.Z",
+        "name": "Działalność prawnicza",
+        "descr": "reprezentację prawną interesów jednej strony przeciwko drugiej stronie, przed sądami lub innymi organami orzekającymi, prowadzone przez osoby będące członkami adwokatury lub pod ich nadzorem: doradztwo i reprezentacja w sprawach cywilnych,…"
+      },
+      {
+        "code": "70.20.Z",
+        "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+        "descr": "udzielanie porad, wskazówek oraz pomocy operacyjnej podmiotom gospodarczym i innym jednostkom w kwestiach związanych z zarządzaniem, na przykład w zakresie: planowania strategicznego i organizacyjnego, reorganizacji procesów biznesowych,…"
+      },
+      {
+        "code": "82.10.Z",
+        "name": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+        "descr": "działalność w zakresie świadczenia kompleksowych usług związanych z codzienną administracyjną obsługą biura (na przykład recepcja, planowanie finansowe, obsługa personelu, obsługa poczty, w tym poczty elektronicznej), wykonywaną na…"
+      },
+      {
+        "code": "74.99.Z",
+        "name": "Wszelka pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana",
+        "descr": "działalność polegającą na świadczeniu szerokiego zakresu usług na rzecz podmiotów gospodarczych."
+      },
+      {
+        "code": "63.92.Z",
+        "name": "Pozostała działalność usługowa w zakresie informacji",
+        "descr": "pozostałą działalność usługową w zakresie informacji, gdzie indziej niesklasyfikowaną, taką jak: wyszukiwanie informacji wykonywane na zlecenie (na przykład przez webscraping), wyszukiwanie informacji/wycinków i tym podobnych, opracowanie…"
+      }
+    ],
+    "searchQuery": "Kancelaria prawnicza, adwokat, radca prawny, usługi prawne, doradztwo prawne dla klientów."
+  },
+  {
+    "slug": "sprzatanie",
+    "label": "Sprzątanie",
+    "description": "Kody PKD dla firm sprzątających — biur, mieszkań, obiektów.",
+    "curatedCodes": [
+      {
+        "code": "81.21.Z",
+        "name": "Niespecjalistyczne sprzątanie budynków",
+        "descr": "działalności związane z ogólnym (niespecjalistycznym) sprzątaniem budynków wszelkich typów, na przykład: biur, prywatnych lokali, posiadłości (na przykład domów i mieszkań), fabryk, sklepów, instytucji, pozostałych obiektów przemysłowych i…"
+      },
+      {
+        "code": "81.22.B",
+        "name": "Pozostałe sprzątanie budynków i obiektów przemysłowych, gdzie indziej niesklasyfikowane",
+        "descr": "zewnętrzne czyszczenie budynków wszelkich typów (na przykład biur, fabryk, sklepów, szkół i pozostałych instytucji, obiektów przemysłowych i budynków wielomieszkaniowych), działalność w zakresie specjalistycznego sprzątania dla podmiotów…"
+      },
+      {
+        "code": "81.23.B",
+        "name": "Pozostała działalność związana ze sprzątaniem, gdzie indziej niesklasyfikowana",
+        "descr": "czyszczenie i utrzymanie w czystości basenów, mycie pociągów, autobusów, samolotów i tym podobnych, czyszczenie wnętrz cystern i tankowców, mycie butelek, zamiatanie i polewanie ulic oraz usuwanie śniegu i lodu, w tym usuwanie śniegu i…"
+      },
+      {
+        "code": "43.35.Z",
+        "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych",
+        "descr": "prace wykończeniowe, które kończą budowę danego obiektu, na przykład: montaż prefabrykowanych blach, części stalowych, profili i tym podobnych, prace związane z montażem elementów ozdobnych na budynkach, zakładanie okładzin na ścianach…"
+      },
+      {
+        "code": "95.24.Z",
+        "name": "Naprawa i konserwacja mebli i wyposażenia domowego",
+        "descr": "obróbkę wykańczającą związaną z odnawianiem mebli, tapicerowanie, naprawę, renowację mebli i wyposażenia domowego, w tym mebli biurowych, montaż mebli wolnostojących."
+      },
+      {
+        "code": "81.10.Z",
+        "name": "Działalność pomocnicza związana z utrzymaniem porządku w budynkach",
+        "descr": "działalność w zakresie świadczenia kompleksowych usług związanych z utrzymywaniem porządku w budynkach klienta, poprzez: ogólne sprzątanie wnętrz, - konserwację, prowadzenie portierni oraz dozorowanie, działalności recepcyjne, pralnicze i…"
+      }
+    ],
+    "searchQuery": [
+      "Sprzątanie biur, mieszkań, budynków",
+      "Mycie okien, sprzątanie specjalistyczne po remontach",
+      "Utrzymanie porządku w budynkach, usługi porządkowe"
+    ]
+  },
+  {
+    "slug": "kurier",
+    "label": "Kurier",
+    "description": "Kody PKD dla usług kurierskich i dostawczych.",
+    "curatedCodes": [
+      {
+        "code": "53.20.Z",
+        "name": "Pozostała działalność pocztowa i kurierska",
+        "descr": "zbieranie, sortowanie, przewóz i doręczanie (krajowe lub zagraniczne) przesyłek listowych, paczek i innych przesyłek pocztowych nie objętych obowiązkiem świadczenia usługi powszechnej, z wykorzystaniem jednego lub więcej środków transportu…"
+      },
+      {
+        "code": "53.10.Z",
+        "name": "Działalność pocztowa objęta obowiązkiem świadczenia usług powszechnych (operatora publicznego)",
+        "descr": "działalność pocztową objętą obowiązkiem usług powszechnych (operatora publicznego) przez jednego lub więcej wyznaczonych operatorów świadczących usługę powszechną."
+      },
+      {
+        "code": "53.30.Z",
+        "name": "Pośrednictwo w zakresie działalności pocztowej i kurierskiej",
+        "descr": "pośrednictwo w zakresie działalności pocztowej i kurierskiej, polegające na kojarzeniu kupujących i sprzedających za opłatą lub prowizją, bez świadczenia przez pośrednika usług pocztowych i kurierskich będących przedmiotem pośrednictwa."
+      },
+      {
+        "code": "52.26.Z",
+        "name": "Pozostała działalność usługowa wspomagająca transport",
+        "descr": "wystawianie i realizowanie dokumentów przewozowych i listów przewozowych, działalność agentów celnych, organizację transportu multimodalnego i kombinowanego kolejowego, drogowego, wodnego lub powietrznego (transport intermodalny), w…"
+      },
+      {
+        "code": "82.10.Z",
+        "name": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+        "descr": "działalność w zakresie świadczenia kompleksowych usług związanych z codzienną administracyjną obsługą biura (na przykład recepcja, planowanie finansowe, obsługa personelu, obsługa poczty, w tym poczty elektronicznej), wykonywaną na…"
+      }
+    ],
+    "searchQuery": "Usługi kurierskie, doręczanie przesyłek i paczek, działalność pocztowa i kurierska."
+  },
+  {
+    "slug": "e-commerce",
+    "label": "E-commerce",
+    "description": "Kody PKD dla handlu elektronicznego, sklepów internetowych i marketplace.",
+    "curatedCodes": [
+      {
+        "code": "47.91.Z",
+        "name": "Pośrednictwo w sprzedaży detalicznej niewyspecjalizowanej",
+        "descr": "pośrednictwo w zakresie niewyspecjalizowanej sprzedaży detalicznej, polegające na kojarzeniu kupujących i sprzedających w celu zamawiania i/lub dostarczania towarów fizycznych za opłatą lub prowizją, bez dostarczania i przejmowania…"
+      },
+      {
+        "code": "47.79.B",
+        "name": "Sprzedaż detaliczna antyków",
+        "descr": "działalności w zakresie sprzedaży detalicznej towarów (zarówno nowych, jak i używanych) osób trzecich, realizowanej przez domy aukcyjne oraz Internet, sklasyfikowanej w odpowiednich podklasach grupy 47.9."
+      },
+      {
+        "code": "47.92.Z",
+        "name": "Pośrednictwo w sprzedaży detalicznej wyspecjalizowanej",
+        "descr": "pośrednictwo w zakresie wyspecjalizowanej sprzedaży detalicznej, polegające na kojarzeniu kupujących i sprzedających w celu zamawiania i/lub dostarczania towarów fizycznych za opłatą lub prowizją, bez dostarczania i przejmowania własności…"
+      },
+      {
+        "code": "47.40.Z",
+        "name": "Sprzedaż detaliczna narzędzi technologii informacyjnej i komunikacyjnej",
+        "descr": "sprzedaż detaliczną narzędzi technologii informacyjnej i komunikacyjnej (ICT): komputerów, komputerowych urządzeń peryferyjnych (na przykład drukarek, kserokopiarek, tablic interaktywnych, sprzętu do wideokonferencji), konsoli do gier…"
+      },
+      {
+        "code": "46.18.Z",
+        "name": "Działalność agentów zajmujących się sprzedażą hurtową wyspecjalizowaną pozostałych towarów",
+        "descr": "działalność agentów zajmujących się sprzedażą hurtową wyspecjalizowaną: wyrobów farmaceutycznych i medycznych, wyrobów perfumeryjnych i artykułów toaletowych oraz środków czyszczących, gier i zabawek, artykułów sportowych, rowerów,…"
+      },
+      {
+        "code": "47.79.C",
+        "name": "Sprzedaż detaliczna pozostałych artykułów używanych",
+        "descr": "sprzedaż detaliczną: odzieży używanej, mebli używanych, używanego sprzętu użytku domowego, pozostałych artykułów używanych."
+      }
+    ],
+    "searchQuery": [
+      "Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet",
+      "Sklep internetowy, dropshipping, sprzedaż przez Internet",
+      "Sprzedaż detaliczna odzieży lub kosmetyków przez Internet"
+    ]
+  }
+]

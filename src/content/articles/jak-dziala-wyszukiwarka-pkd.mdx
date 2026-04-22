@@ -1,0 +1,101 @@
+Kiedy szukasz kodu PKD dla swojej działalności, masz zwykle dwie możliwości: **oficjalny wykaz GUS** (klasyczna lista z filtrem tekstowym) albo **wyszukiwarkę kontekstową** taką jak kodypkd.app. Na pierwszy rzut oka robią to samo — wpisujesz coś, dostajesz listę kodów. W praktyce działają zupełnie inaczej, a różnica decyduje o tym, czy znajdziesz właściwy kod w minutę, czy po godzinie przeklikiwania przez kilkaset pozycji. Ten artykuł wyjaśnia dlaczego — bez żargonu technicznego.
+
+## Problem: urzędowe słownictwo nie jest językiem przedsiębiorcy
+
+Oficjalny wykaz PKD jest dokumentem prawnym. Każda pozycja ma **urzędową nazwę** z precyzyjnym znaczeniem statystycznym, np.:
+
+- `47.91.Z` — „Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet"
+- `69.20.Z` — „Działalność rachunkowo-księgowa; doradztwo podatkowe"
+- `85.59.B` — „Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane"
+
+A Ty opisujesz swoją działalność zupełnie inaczej:
+
+- „Prowadzę sklep internetowy z ubraniami."
+- „Rozliczam podatki dla startupów."
+- „Uczę programowania online."
+
+Wpisz którekolwiek z tych zdań w oficjalny wykaz — prawdopodobnie nie znajdziesz **nic**. Wyszukiwanie tekstowe nie kojarzy „sklepu internetowego" z „domem sprzedaży wysyłkowej prowadzącym sprzedaż przez Internet", mimo że to dokładnie to samo.
+
+Tu właśnie pojawia się zasadnicza różnica między dwiema technikami wyszukiwania.
+
+## Wyszukiwanie po słowach kluczowych (jak Ctrl+F)
+
+**Klasyczne wyszukiwanie** — to, które zna każdy z nas z przeglądarki, Worda czy oficjalnych stron urzędowych — działa na poziomie liter. Wpisujesz „sklep", silnik szuka w katalogu PKD każdego wystąpienia ciągu znaków „sklep". Jeśli oficjalna nazwa kodu używa słowa „sprzedaż" zamiast „sklep", rezultat będzie pusty.
+
+Analogia, która to dobrze oddaje: **bibliotekarz, który zamiast czytać książki, tylko sprawdza, czy na okładce jest dokładnie to słowo, o które pytasz**. Zapytasz o „księgę kucharską" — znajdzie książki z tym dokładnym tytułem. Zapytasz o „przepisy kulinarne" — już nie znajdzie nic, mimo że mówisz o tych samych książkach.
+
+Dlatego klasyczne wyszukiwanie w wykazie PKD zmusza Cię do zgadywania **urzędowego słownictwa**:
+
+- Nie „sklep online" — ale „sprzedaż przez Internet".
+- Nie „księgowa" — ale „działalność rachunkowo-księgowa".
+- Nie „kurs online" — ale „pozaszkolne formy edukacji".
+- Nie „kurier" — ale „działalność pocztowa i kurierska".
+
+Jeśli zgadniesz właściwe słowa — dostajesz listę. Jeśli nie — dostajesz pustą stronę i ruszasz po omacku przez sekcje, działy i grupy, próbując po kolei, aż coś się trafi.
+
+## Wyszukiwanie kontekstowe (czyli jak działa kodypkd.app)
+
+**Wyszukiwanie kontekstowe** — nazywane też semantycznym — zamiast porównywać litery, porównuje **znaczenia**. Wpisujesz opis swojej działalności w naturalnym języku, a system szuka kodów o **najbliższym sensie**, nawet jeśli używają zupełnie innych słów.
+
+Trzymając się analogii bibliotekarza: kontekstowe wyszukiwanie to **bibliotekarz, który faktycznie przeczytał wszystkie książki**. Pytasz o „przepisy kulinarne" — od razu sięga po księgę kucharską, poradnik domowej kuchni i „100 pomysłów na obiad", bo wie, że to wszystko jest o tym samym, nawet jeśli żaden tytuł nie zawiera słów „przepisy kulinarne".
+
+W kontekście PKD oznacza to, że zapytanie **„prowadzę sklep internetowy z ubraniami dziecięcymi"** system tłumaczy na znaczenie ukryte w zdaniu:
+
+- sprzedaż → kod w dziale handlu
+- przez Internet → kod handlu elektronicznego, nie stacjonarnego
+- ubrania dziecięce → produkty sklasyfikowane w handlu detalicznym
+
+…i zwraca `47.91.Z` jako najlepsze dopasowanie — mimo że słowa „sklep", „internetowy" i „ubrania" nie pojawiają się w urzędowej nazwie tego kodu.
+
+## Co z tego wynika dla Ciebie jako przedsiębiorcy
+
+Praktyczna różnica, gdy szukasz kodu dla rejestracji CEIDG lub KRS, sprowadza się do pięciu rzeczy:
+
+1. **Szybkość.** Zamiast zgadywać urzędowe słownictwo i przeklikiwać sekcje, opisujesz co robisz — i dostajesz odpowiedź.
+2. **Trafność.** System widzi całość zdania, a nie pojedyncze słowa. „Naprawa rowerów elektrycznych" trafia w `33.17.Z` (naprawa pojazdów), a nie w kody elektroniki, w które wpadłoby klasyczne wyszukiwanie po słowie „elektryczny".
+3. **Brak bariery żargonu.** Nie musisz wiedzieć, że Twoja praca nazywa się formalnie „działalność w zakresie specjalistycznego projektowania". Wystarczy napisać „projektuję wnętrza".
+4. **Odporność na synonimy i literówki.** „Kosmetyczka", „salon urody", „gabinet kosmetyczny" — wszystkie prowadzą do tego samego zestawu kodów.
+5. **Lepsze dopasowanie do [PKD 2025](/artykuly/co-to-jest-kod-pkd).** Nowa klasyfikacja dodała wiele pojęć z gospodarki cyfrowej („platforma sharingowa", „usługi AI"), których nie znajdziesz łatwo zwykłym wyszukiwaniem, jeśli używasz słownictwa z PKD 2007.
+
+## Jak sformułować zapytanie, żeby dostać najlepszy wynik
+
+AI nie jest magią — działa najlepiej, gdy dostanie od Ciebie **konkretne zdanie o tym, co naprawdę robisz**. Kilka zasad, które pomagają:
+
+### 1. Opisuj czynność, nie nazwę zawodu
+
+- ❌ „Grafik" — zbyt ogólne, pasuje do kilkunastu kodów.
+- ✅ „Projektuję logotypy i identyfikacje wizualne dla firm" — trafia w `74.10.Z`.
+
+### 2. Dodaj kontekst branżowy, jeśli jest istotny
+
+- ❌ „Sprzedaż przez Internet"
+- ✅ „Sklep internetowy z kosmetykami naturalnymi" — AI widzi i kanał sprzedaży, i branżę.
+
+### 3. Wspomnij o kanale lub formie, jeśli kod od tego zależy
+
+- ❌ „Uczę angielskiego"
+- ✅ „Prowadzę kursy językowe online dla dorosłych" — to inny kod niż kursy stacjonarne dla dzieci.
+
+### 4. Nie bój się długich zdań
+
+Kontekstowe wyszukiwanie lubi kontekst. „Dostarczam posiłki dietetyczne do domu i firm, przygotowywane w mojej kuchni" da lepszy wynik niż suche „catering".
+
+## Kiedy wyszukiwarka AI może się pomylić
+
+Bądźmy uczciwi — kontekstowe wyszukiwanie nie jest nieomylne. Warto zachować czujność w kilku sytuacjach:
+
+- **Rzadkie lub bardzo wąskie branże.** Im mniej typowa działalność, tym więcej wysiłku AI potrzebuje, żeby trafić. Dla nietypowych kodów warto zweryfikować wynik w oficjalnym wykazie.
+- **Działalność łącząca kilka obszarów.** Jeśli jesteś jednocześnie programistą, fotografem i trenerem — jedno zapytanie nie wystarczy. Zrób po jednym dla każdej aktywności.
+- **Kwestie prawno-podatkowe.** AI powie Ci, **który kod pasuje**. Nie powie, **czy ten kod oznacza obowiązek kasy fiskalnej, wymusza VAT** ani czy **wyklucza ryczałt**. Więcej o tych pułapkach w artykule [Jak wybrać kod PKD dla JDG](/artykuly/jak-wybrac-kod-pkd-dla-jdg).
+- **Zmiany w klasyfikacji.** PKD 2025 jest świeże. W granicznych przypadkach (np. gospodarka platformowa) różne źródła mogą podawać różne kody. Dla działalności regulowanej warto finalnie potwierdzić u księgowego lub doradcy podatkowego.
+
+## Podsumowanie
+
+Klasyczne wyszukiwanie PKD wymaga, żebyś mówił językiem urzędu. Kontekstowe wyszukiwanie pozwala mówić językiem przedsiębiorcy — a dopasowanie do klasyfikacji bierze na siebie. W praktyce oznacza to:
+
+- mniej zgadywania,
+- szybszą rejestrację w CEIDG lub KRS,
+- mniejsze ryzyko wybrania zbyt ogólnego lub niewłaściwego kodu,
+- mniejszą barierę wejścia dla osób bez doświadczenia z formalnościami.
+
+Jeśli nie wiesz, od czego zacząć — [opisz swoją działalność w wyszukiwarce](/). Jeśli chcesz zobaczyć, jak wygląda prawdziwa lista kodów PKD, sprawdź [przykładowe kody](/przyklady). A jeśli zastanawiasz się, ile kodów wpisać w CEIDG, zobacz [Ile kodów PKD można mieć](/artykuly/ile-kodow-pkd-mozna-miec).

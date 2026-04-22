@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/search", "destination": "/", "permanent": true },
+    { "source": "/search/:query", "destination": "/kody-pkd/:query", "permanent": true },
+    { "source": "/szukaj/:query", "destination": "/kody-pkd/:query", "permanent": true },
+    { "source": "/samples", "destination": "/przyklady", "permanent": true },
+    { "source": "/samples/limit/:limit", "destination": "/przyklady/limit/:limit", "permanent": true },
+    { "source": "/samples/:limit", "destination": "/przyklady/limit/:limit", "permanent": true }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains; preload" }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

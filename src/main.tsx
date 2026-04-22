@@ -1,13 +1,14 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
-import { HelmetProvider } from 'react-helmet-async';
-import App from './App.tsx';
+import { ViteReactSSG } from 'vite-react-ssg';
+import axios from 'axios';
+import { routes } from './routes';
 import './index.css';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <HelmetProvider>
-      <App />
-    </HelmetProvider>
-  </StrictMode>
-);
+declare global {
+  interface Window {
+    _abortController: AbortController | null;
+  }
+}
+
+axios.defaults.headers.common['X-BFCache-Support'] = 'true';
+
+export const createRoot = ViteReactSSG({ routes });
