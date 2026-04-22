@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "co-to-jest-kod-pkd",
+    "title": "Co to jest kod PKD i do czego służy?",
+    "description": "Wyjaśniamy, czym jest kod PKD, jak go odczytać i kiedy jest potrzebny przedsiębiorcy zakładającemu działalność w Polsce.",
+    "excerpt": "Kod PKD to pięcioznakowy identyfikator rodzaju działalności gospodarczej w Polsce. Potrzebujesz go przy rejestracji w CEIDG lub KRS. Dowiedz się, jak go odczytać i wybrać odpowiedni.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 6,
+    "keywords": ["co to jest pkd", "kod pkd", "polska klasyfikacja działalności", "jak wybrać pkd"]
+  },
+  {
+    "slug": "jak-dziala-wyszukiwarka-pkd",
+    "title": "Jak działa wyszukiwarka PKD oparta o AI i czemu jest lepsza od klasycznego wyszukiwania?",
+    "description": "Zrozum różnicę między klasycznym wyszukiwaniem po słowach a kontekstowym wyszukiwaniem AI. Dowiedz się, czemu kodypkd.app trafia w kody PKD szybciej niż oficjalny wykaz GUS.",
+    "excerpt": "Klasyczne wyszukiwanie PKD wymaga znajomości urzędowego słownictwa. Kontekstowa wyszukiwarka AI rozumie opis działalności w języku przedsiębiorcy — i dlatego znajduje właściwy kod szybciej.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 7,
+    "keywords": ["jak działa wyszukiwarka pkd", "wyszukiwarka pkd ai", "kontekstowe wyszukiwanie pkd", "semantyczne wyszukiwanie pkd", "ai pkd", "jak znaleźć kod pkd"]
+  },
+  {
+    "slug": "jak-wybrac-kod-pkd-dla-jdg",
+    "title": "Jak wybrać kod PKD dla jednoosobowej działalności gospodarczej?",
+    "description": "Praktyczny przewodnik wyboru głównego i dodatkowych kodów PKD przy zakładaniu JDG w CEIDG. Co zaznaczyć, o czym nie zapomnieć.",
+    "excerpt": "Wybór PKD wydaje się formalnością, ale decyduje o tym, jakie podatki zapłacisz i czy możesz korzystać z ryczałtu. Oto jak podejść do tego świadomie.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 8,
+    "keywords": ["jak wybrać pkd", "pkd dla jdg", "ceidg pkd", "główny kod pkd", "dodatkowe kody pkd"]
+  },
+  {
+    "slug": "ile-kodow-pkd-mozna-miec",
+    "title": "Ile kodów PKD można mieć i jak je dobierać?",
+    "description": "Sprawdź limit kodów PKD w CEIDG i KRS, zasadę jednego głównego PKD oraz konsekwencje podatkowe rozszerzania działalności o kolejne kody.",
+    "excerpt": "W CEIDG nie ma twardego limitu kodów PKD, ale istnieje zasada jednego głównego. W KRS limity są. Sprawdź, jak rozszerzać działalność bez pułapek.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 5,
+    "keywords": ["ile kodów pkd", "limit pkd ceidg", "główny pkd", "dodatkowe pkd", "zmiana pkd"]
+  },
+  {
+    "slug": "jak-zmienic-pkd-w-ceidg",
+    "title": "Jak zmienić kod PKD w CEIDG? Przewodnik krok po kroku",
+    "description": "Zmiana kodu PKD w CEIDG jest bezpłatna i online. Sprawdź, kiedy trzeba ją zrobić, jak wygląda wniosek CEIDG-1 i co z VAT, kasą fiskalną oraz KRS.",
+    "excerpt": "Zmiana PKD w CEIDG to 10 minut online, za darmo, bez wizyty w urzędzie. Sprawdź, krok po kroku co zrobić i na co uważać, zwłaszcza przy zmianie głównego kodu.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 7,
+    "keywords": ["jak zmienić pkd", "ceidg-1 aktualizacja", "zmiana pkd online", "aktualizacja wpisu ceidg", "zmiana pkd w krs"]
+  },
+  {
+    "slug": "pkd-2025-vs-pkd-2007",
+    "title": "PKD 2025 vs PKD 2007 — co się zmieniło i czy musisz aktualizować kody?",
+    "description": "Od 1 stycznia 2025 obowiązuje PKD 2025. Sprawdź, co się zmieniło względem PKD 2007, czy Twój wpis został zaktualizowany automatycznie i kiedy warto samodzielnie zmienić kod.",
+    "excerpt": "PKD 2025 wprowadziło nowe kody dla gospodarki cyfrowej, doprecyzowało klasyfikacje IT i usunęło część nieaktualnych pozycji. Sprawdź, co oznacza to dla Twojej firmy.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 6,
+    "keywords": ["pkd 2025", "pkd 2007", "zmiana klasyfikacji pkd", "nowe kody pkd", "migracja pkd", "nace rev 2.1"]
+  },
+  {
+    "slug": "pkd-a-pkwiu-roznice",
+    "title": "PKD a PKWiU — różnice, zastosowania i częste pomyłki",
+    "description": "PKD opisuje rodzaj działalności firmy, PKWiU konkretne towary i usługi w transakcjach. Sprawdź, kiedy używasz której klasyfikacji i dlaczego to ma znaczenie dla VAT, JPK i ryczałtu.",
+    "excerpt": "PKD to zawód firmy, PKWiU to każdy rachunek, który wystawiasz. Obie klasyfikacje statystyczne, ale do zupełnie różnych celów. Oto precyzyjna różnica i typowe pomyłki.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 6,
+    "keywords": ["pkd a pkwiu", "różnica pkd pkwiu", "pkwiu 2015", "pkwiu na fakturze", "jpk gtu", "klasyfikacja towarów i usług"]
+  },
+  {
+    "slug": "pkd-dla-sklepu-internetowego",
+    "title": "PKD dla sklepu internetowego, dropshippingu i e-commerce — przewodnik",
+    "description": "Główny kod sklepu internetowego to 47.91.Z, ale dropshipping, marketplace i sprzedaż własnej produkcji to inne PKD. Sprawdź, które kody pasują do Twojego modelu e-commerce.",
+    "excerpt": "Ogólne „47.91.Z” wystarcza tylko części sklepów online. Dropshipping pośrednictwo, marketplace, własna produkcja, sprzedaż do UE — każdy model ma swoją ścieżkę PKD.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 8,
+    "keywords": ["pkd dla sklepu internetowego", "pkd dropshipping", "pkd e-commerce", "pkd marketplace", "47.91.z", "vat oss e-commerce"]
+  },
+  {
+    "slug": "pkd-dla-freelancera",
+    "title": "PKD dla freelancera — programista, grafik, copywriter, coach",
+    "description": "Precyzyjny wybór kodu PKD dla freelancera potrafi zaoszczędzić 3-5% ryczałtu. Sprawdź, jakie kody pasują do programisty, grafika, copywritera, trenera i innych popularnych specjalizacji.",
+    "excerpt": "Programista, grafik, copywriter, coach — każda specjalizacja ma swój optymalny kod PKD, który decyduje o stawce ryczałtu. Oto mapa PKD dla najpopularniejszych zawodów freelancerskich.",
+    "publishedAt": "2026-04-22",
+    "updatedAt": "2026-04-22",
+    "readingMinutes": 9,
+    "keywords": ["pkd dla freelancera", "pkd programista", "pkd grafik", "pkd copywriter", "62.01.z", "ryczałt freelancer", "pkd b2b"]
+  }
+]

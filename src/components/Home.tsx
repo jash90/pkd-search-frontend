@@ -1,73 +1,109 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { Helmet } from 'react-helmet-async';
+import { Head } from 'vite-react-ssg';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, ArrowRight, Database, Zap, CheckCircle } from 'lucide-react';
+import { Search, ArrowRight, Database, Zap, CheckCircle, BookOpen } from 'lucide-react';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-import { createSlug, SITE_URL } from '../lib/seo';
+import { createSlug, SITE_URL, makeFaqSchema } from '../lib/seo';
+import popularQueries from '../data/popular-queries.json';
+import { articles } from '../content/articles';
+import FAQ from './FAQ';
+import Footer from './Footer';
 
 const MOCK_PKD_CODES: PKDCode[] = [
   {
-    id: "1",
+    id: '1',
     version: 1,
     score: 0.95,
     payload: {
-      grupaKlasaPodklasa: "62.01.Z",
-      nazwaGrupowania: "Działalność związana z oprogramowaniem",
-      opisDodatkowy: "Obejmuje: tworzenie, rozwój, testowanie i wsparcie oprogramowania"
-    }
+      grupaKlasaPodklasa: '62.01.Z',
+      nazwaGrupowania: 'Działalność związana z oprogramowaniem',
+      opisDodatkowy: 'Obejmuje: tworzenie, rozwój, testowanie i wsparcie oprogramowania',
+    },
   },
   {
-    id: "2",
+    id: '2',
     version: 1,
-    score: 0.90,
+    score: 0.9,
     payload: {
-      grupaKlasaPodklasa: "47.91.Z",
-      nazwaGrupowania: "Sprzedaż detaliczna przez Internet",
-      opisDodatkowy: "Obejmuje: prowadzenie sklepów internetowych i platform e-commerce"
-    }
+      grupaKlasaPodklasa: '47.91.Z',
+      nazwaGrupowania: 'Sprzedaż detaliczna przez Internet',
+      opisDodatkowy: 'Obejmuje: prowadzenie sklepów internetowych i platform e-commerce',
+    },
   },
   {
-    id: "3",
+    id: '3',
     version: 1,
     score: 0.85,
     payload: {
-      grupaKlasaPodklasa: "56.10.A",
-      nazwaGrupowania: "Restauracje i inne stałe placówki gastronomiczne",
-      opisDodatkowy: "Obejmuje: prowadzenie restauracji, kawiarni, barów i innych placówek gastronomicznych"
-    }
+      grupaKlasaPodklasa: '56.10.A',
+      nazwaGrupowania: 'Restauracje i inne stałe placówki gastronomiczne',
+      opisDodatkowy: 'Obejmuje: prowadzenie restauracji, kawiarni, barów i innych placówek gastronomicznych',
+    },
   },
   {
-    id: "4",
+    id: '4',
     version: 1,
-    score: 0.80,
+    score: 0.8,
     payload: {
-      grupaKlasaPodklasa: "96.02.Z",
-      nazwaGrupowania: "Fryzjerstwo i pozostałe zabiegi kosmetyczne",
-      opisDodatkowy: "Obejmuje: usługi fryzjerskie, kosmetyczne, pielęgnacyjne"
-    }
+      grupaKlasaPodklasa: '96.02.Z',
+      nazwaGrupowania: 'Fryzjerstwo i pozostałe zabiegi kosmetyczne',
+      opisDodatkowy: 'Obejmuje: usługi fryzjerskie, kosmetyczne, pielęgnacyjne',
+    },
   },
   {
-    id: "5",
+    id: '5',
     version: 1,
     score: 0.75,
     payload: {
-      grupaKlasaPodklasa: "74.10.Z",
-      nazwaGrupowania: "Działalność w zakresie specjalistycznego projektowania",
-      opisDodatkowy: "Obejmuje: projektowanie mody, wnętrz, grafiki, tworzenie identyfikacji wizualnej"
-    }
-  }
+      grupaKlasaPodklasa: '74.10.Z',
+      nazwaGrupowania: 'Działalność w zakresie specjalistycznego projektowania',
+      opisDodatkowy: 'Obejmuje: projektowanie mody, wnętrz, grafiki, tworzenie identyfikacji wizualnej',
+    },
+  },
+];
+
+const FAQ_ITEMS = [
+  {
+    question: 'Co to jest kod PKD?',
+    answer:
+      'Kod PKD (Polska Klasyfikacja Działalności) to pięcioznakowy identyfikator rodzaju działalności gospodarczej, używany w Polsce przy rejestracji firmy w CEIDG lub KRS. Każdy przedsiębiorca wskazuje przynajmniej jeden — tzw. główny — kod opisujący przeważający rodzaj prowadzonej działalności.',
+  },
+  {
+    question: 'Ile kodów PKD mogę mieć?',
+    answer:
+      'W CEIDG nie ma twardego limitu — poza obowiązkowym kodem głównym możesz dodać dowolną liczbę dodatkowych. W KRS limit wynosi 10 kodów na formularzu. Więcej w artykule „Ile kodów PKD można mieć?".',
+  },
+  {
+    question: 'Jak wybrać odpowiedni kod PKD?',
+    answer:
+      'Zacznij od precyzyjnego opisu swojej działalności. Następnie użyj naszej wyszukiwarki lub przeszukaj oficjalny wykaz GUS. Pamiętaj, że wybór głównego kodu PKD wpływa na formę opodatkowania (ryczałt, karta podatkowa), VAT i ewentualny obowiązek kasy fiskalnej.',
+  },
+  {
+    question: 'Jak zmienić kod PKD w CEIDG?',
+    answer:
+      'Zmiana jest bezpłatna i dokonuje się jej online wnioskiem CEIDG-1 (aktualizacja wpisu). Zmiana zwykle wchodzi w życie następnego dnia roboczego. W KRS zmiana wymaga uchwały o zmianie umowy spółki i wpisu sądowego.',
+  },
+  {
+    question: 'Czy kod PKD wpływa na VAT?',
+    answer:
+      'Pośrednio — sam kod PKD nie decyduje o obowiązku VAT, ale niektóre kody (np. doradztwo, usługi prawnicze, jubilerskie) wykluczają zwolnienie podmiotowe z VAT. Inne — np. usługi finansowe czy edukacyjne — są zwolnione przedmiotowo.',
+  },
+  {
+    question: 'Czym różni się PKD 2025 od PKD 2007?',
+    answer:
+      'PKD 2025 zastąpiło PKD 2007 z dniem 1 stycznia 2025 roku. Nowa wersja klasyfikacji uwzględnia m.in. platformy cyfrowe, gospodarkę współdzielenia, nowe formy handlu online i usług AI. Firmy istniejące mają okres przejściowy na migrację kodów.',
+  },
 ];
 
 const Home = () => {
   const [query, setQuery] = useState('');
-  const [samples, setSamples] = useState<PKDCode[]>([]);
+  const [samples, setSamples] = useState<PKDCode[]>(MOCK_PKD_CODES);
   const [currentIndex, setCurrentIndex] = useState(0);
   const navigate = useNavigate();
 
-  // Fetch real samples if available, or use mock data
   useEffect(() => {
     const cacheKey = 'samples-10';
     const cached = getCached<PKDCode[]>(cacheKey);
@@ -78,40 +114,30 @@ const Home = () => {
 
     const fetchSamples = async () => {
       try {
-        const response = await axios.get(
-          `${import.meta.env.VITE_BASE_URL}/samples?limit=10`
-        );
-
+        const response = await axios.get(`${import.meta.env.VITE_BASE_URL}/samples?limit=10`);
         if (response.data?.data && response.data.data.length > 0) {
           setSamples(response.data.data);
           setCached(cacheKey, response.data.data);
-        } else {
-          setSamples(MOCK_PKD_CODES);
         }
-      } catch (error) {
-        console.error('Using mock data, could not fetch real samples:', error);
-        setSamples(MOCK_PKD_CODES);
+      } catch {
+        // Silent — fall back to MOCK_PKD_CODES already set in state.
       }
     };
 
     fetchSamples();
   }, []);
 
-  // Auto-rotate displayed code every 4 seconds
   useEffect(() => {
     if (samples.length === 0) return;
-
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % samples.length);
     }, 4000);
-
     return () => clearInterval(interval);
   }, [samples]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
-
     const slug = createSlug(query);
     navigate(`/kody-pkd/${slug}`);
   };
@@ -119,209 +145,269 @@ const Home = () => {
   const features = [
     {
       icon: <Database className="h-8 w-8 text-blue-500" />,
-      title: "Obszerna baza kodów PKD",
-      description: "Dostęp do pełnej bazy aktualnych kodów Polskiej Klasyfikacji Działalności."
+      title: 'Obszerna baza kodów PKD',
+      description: 'Dostęp do pełnej, aktualnej bazy kodów Polskiej Klasyfikacji Działalności 2025.',
     },
     {
       icon: <Zap className="h-8 w-8 text-blue-500" />,
-      title: "Inteligentne wyszukiwanie",
-      description: "Algorytm AI dopasowujący najlepsze kody PKD do opisu Twojej działalności."
+      title: 'Inteligentne wyszukiwanie',
+      description: 'Algorytm AI dopasowujący najlepsze kody PKD do opisu Twojej działalności.',
     },
     {
       icon: <CheckCircle className="h-8 w-8 text-blue-500" />,
-      title: "Dokładne dopasowania",
-      description: "Precyzyjne wyniki wybranych kodów PKD dla Twojej działalności."
-    }
+      title: 'Dokładne dopasowania',
+      description: 'Precyzyjne wyniki z ocenami dopasowania i pełnymi opisami kodów.',
+    },
   ];
 
-  const schemaWebSite = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'Wyszukiwarka Kodów PKD',
-    url: SITE_URL,
-    description: 'Darmowa wyszukiwarka kodów PKD. Opisz swoją działalność, a AI dopasuje odpowiednie kody Polskiej Klasyfikacji Działalności.',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${SITE_URL}/kody-pkd/{search_term_string}`
-      },
-      'query-input': 'required name=search_term_string'
-    }
-  };
-
-  const schemaOrganization = {
-    '@context': 'https://schema.org',
-    '@type': 'Organization',
-    name: 'kodypkd.app',
-    url: SITE_URL,
-    description: 'Serwis umożliwiający wyszukiwanie kodów Polskiej Klasyfikacji Działalności (PKD) za pomocą algorytmu AI.'
-  };
+  const faqSchema = makeFaqSchema(FAQ_ITEMS);
 
   return (
     <>
-      <Helmet>
-        <title>Wyszukiwarka Kodów PKD | Znajdź kod PKD dla swojej działalności</title>
-        <meta name="description" content="Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej. Inteligentna wyszukiwarka kodów Polskiej Klasyfikacji Działalności z algorytmem AI." />
-        <meta name="keywords" content="PKD, kody PKD, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności" />
-        <meta property="og:title" content="Wyszukiwarka Kodów PKD" />
-        <meta property="og:description" content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI." />
+      <Head>
+        <title>Wyszukiwarka Kodów PKD 2025 | Znajdź kod PKD dla swojej działalności</title>
+        <meta
+          name="description"
+          content="Darmowa wyszukiwarka kodów PKD 2025. Opisz swoją działalność, a inteligentny algorytm AI dopasuje najlepsze kody Polskiej Klasyfikacji Działalności dla CEIDG i KRS."
+        />
+        <meta
+          name="keywords"
+          content="PKD, kody PKD, PKD 2025, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności, CEIDG"
+        />
+        <meta property="og:title" content="Wyszukiwarka Kodów PKD 2025 | kodypkd.app" />
+        <meta
+          property="og:description"
+          content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI."
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:site_name" content="kodypkd.app" />
         <link rel="canonical" href={SITE_URL} />
-        <script type="application/ld+json">{JSON.stringify(schemaWebSite)}</script>
-        <script type="application/ld+json">{JSON.stringify(schemaOrganization)}</script>
-      </Helmet>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-        {/* Hero Section */}
-      <div className="bg-blue-600 text-white">
-        <div className="container mx-auto px-4 py-16 md:py-24">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-8 md:mb-0">
-              <motion.h1
-                className="text-4xl md:text-5xl font-bold mb-4"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                Znajdź idealny kod PKD dla swojej działalności
-              </motion.h1>
-              <motion.p
-                className="text-xl mb-8 text-blue-100"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-              >
-                Opisz swoją działalność, a my dopasujemy odpowiednie kody PKD dzięki zaawansowanemu algorytmowi AI.
-              </motion.p>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                <form onSubmit={handleSubmit} className="flex w-full max-w-md">
-                  <input
-                    type="text"
-                    value={query}
-                    onChange={(e) => setQuery(e.target.value)}
-                    placeholder="Opisz swoją działalność..."
-                    className="flex-1 px-4 py-3 rounded-l-lg border-0 text-gray-800 focus:ring-2 focus:ring-blue-300 outline-none"
-                    aria-label="Opis działalności"
-                  />
-                  <button
-                    type="submit"
-                    className="px-6 py-3 bg-blue-800 text-white rounded-r-lg hover:bg-blue-900 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 disabled:opacity-50 flex items-center gap-2"
-                    aria-label="Wyszukaj kody PKD"
-                  >
-                    <Search className="w-5 h-5" />
-                    Szukaj
-                  </button>
-                </form>
-              </motion.div>
-            </div>
-
-            <div className="md:w-1/2 md:pl-8">
-              <div className="bg-white rounded-lg shadow-xl p-6 overflow-hidden relative h-96">
-                <AnimatePresence mode="wait">
-                  {samples.length > 0 && (
-                    <motion.div
-                      key={currentIndex}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      exit={{ opacity: 0, y: -20 }}
-                      transition={{ duration: 0.5 }}
-                      className="h-full flex flex-col"
+        <div className="bg-blue-600 text-white">
+          <div className="container mx-auto px-4 py-16 md:py-24">
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="md:w-1/2 mb-8 md:mb-0">
+                <motion.h1
+                  className="text-4xl md:text-5xl font-bold mb-4"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  Znajdź idealny kod PKD dla swojej działalności
+                </motion.h1>
+                <motion.p
+                  className="text-xl mb-8 text-blue-100"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                >
+                  Opisz swoją działalność, a my dopasujemy odpowiednie kody Polskiej Klasyfikacji
+                  Działalności 2025 dzięki zaawansowanemu algorytmowi AI.
+                </motion.p>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.2 }}
+                >
+                  <form onSubmit={handleSubmit} className="flex w-full max-w-md">
+                    <input
+                      type="text"
+                      value={query}
+                      onChange={(e) => setQuery(e.target.value)}
+                      placeholder="Opisz swoją działalność..."
+                      className="flex-1 px-4 py-3 rounded-l-lg border-0 text-gray-800 focus:ring-2 focus:ring-blue-300 outline-none"
+                      aria-label="Opis działalności"
+                    />
+                    <button
+                      type="submit"
+                      className="px-6 py-3 bg-blue-800 text-white rounded-r-lg hover:bg-blue-900 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 disabled:opacity-50 flex items-center gap-2"
+                      aria-label="Wyszukaj kody PKD"
                     >
-                      <div className="mb-4">
-                        <span className="font-semibold text-xl text-blue-600">
-                          {samples[currentIndex]?.payload.grupaKlasaPodklasa}
-                        </span>
-                        <h3 className="text-xl font-bold text-gray-800">
-                          {samples[currentIndex]?.payload.nazwaGrupowania}
-                        </h3>
-                      </div>
-                      <p className="text-gray-600 flex-1 overflow-hidden text-ellipsis">
-                        {samples[currentIndex]?.payload.opisDodatkowy}
-                      </p>
+                      <Search className="w-5 h-5" />
+                      Szukaj
+                    </button>
+                  </form>
+                </motion.div>
+              </div>
 
-                      <div className="mt-4 flex justify-between items-center">
-                        <div className="flex space-x-2">
-                          {samples.map((_, idx) => (
-                            <span
-                              key={idx}
-                              className={`block h-2 w-2 rounded-full ${idx === currentIndex ? 'bg-blue-600' : 'bg-gray-300'}`}
-                            />
-                          ))}
+              <div className="md:w-1/2 md:pl-8">
+                <div className="bg-white rounded-lg shadow-xl p-6 overflow-hidden relative h-96">
+                  <AnimatePresence mode="wait">
+                    {samples.length > 0 && (
+                      <motion.div
+                        key={currentIndex}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        transition={{ duration: 0.5 }}
+                        className="h-full flex flex-col"
+                      >
+                        <div className="mb-4">
+                          <span className="font-semibold text-xl text-blue-600">
+                            {samples[currentIndex]?.payload.grupaKlasaPodklasa}
+                          </span>
+                          <h3 className="text-xl font-bold text-gray-800">
+                            {samples[currentIndex]?.payload.nazwaGrupowania}
+                          </h3>
                         </div>
-                        <Link
-                          to="/przyklady"
-                          className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1"
-                        >
-                          Zobacz więcej <ArrowRight className="w-4 h-4" />
-                        </Link>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                        <p className="text-gray-600 flex-1 overflow-hidden text-ellipsis">
+                          {samples[currentIndex]?.payload.opisDodatkowy}
+                        </p>
+
+                        <div className="mt-4 flex justify-between items-center">
+                          <div className="flex space-x-2">
+                            {samples.map((_, idx) => (
+                              <span
+                                key={idx}
+                                className={`block h-2 w-2 rounded-full ${
+                                  idx === currentIndex ? 'bg-blue-600' : 'bg-gray-300'
+                                }`}
+                              />
+                            ))}
+                          </div>
+                          <Link
+                            to="/przyklady"
+                            className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1"
+                          >
+                            Zobacz więcej <ArrowRight className="w-4 h-4" />
+                          </Link>
+                        </div>
+                      </motion.div>
+                    )}
+                  </AnimatePresence>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Features Section */}
-      <div className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
-          Dlaczego warto korzystać z naszej wyszukiwarki
-        </h2>
+        {/* What is PKD */}
+        <section className="container mx-auto px-4 py-16 max-w-4xl">
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">Co to jest kod PKD?</h2>
+          <div className="text-gray-700 leading-relaxed space-y-4 text-lg">
+            <p>
+              <strong>Kod PKD</strong> (Polska Klasyfikacja Działalności) to pięcioznakowy
+              identyfikator rodzaju działalności gospodarczej, którym posługują się w Polsce
+              wszystkie urzędy. Każdy przedsiębiorca — od jednoosobowej działalności po spółkę
+              akcyjną — przy rejestracji w CEIDG lub KRS musi wskazać co najmniej jeden kod PKD
+              opisujący rodzaj prowadzonej działalności.
+            </p>
+            <p>
+              Od 1 stycznia 2025 roku obowiązuje <strong>PKD 2025</strong>, które zastąpiło
+              poprzednią wersję PKD 2007. Nasza wyszukiwarka operuje na aktualnej klasyfikacji i
+              pomaga dopasować kody do Twojej realnej działalności — w tym tych nowo wprowadzonych,
+              związanych z gospodarką cyfrową, platformami online i usługami AI.
+            </p>
+            <p>
+              <Link to="/artykuly/co-to-jest-kod-pkd" className="text-blue-600 hover:text-blue-800 font-medium">
+                Czytaj więcej w artykule „Co to jest kod PKD" →
+              </Link>
+            </p>
+          </div>
+        </section>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              className="bg-white rounded-lg shadow-md p-6 border border-gray-200"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
-              <div className="mb-4">
-                {feature.icon}
+        {/* Popular categories */}
+        <section className="bg-white py-16">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <h2 className="text-3xl font-bold text-gray-800 mb-3 text-center">
+              Popularne kategorie działalności
+            </h2>
+            <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
+              Sprawdź kody PKD dla najczęściej wyszukiwanych rodzajów działalności gospodarczej w
+              Polsce.
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+              {popularQueries.map((q) => (
+                <Link
+                  key={q.slug}
+                  to={`/kody-pkd/${q.slug}`}
+                  className="block px-4 py-3 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg text-center font-medium text-gray-700 hover:text-blue-700 transition"
+                >
+                  {q.label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Features */}
+        <section className="container mx-auto px-4 py-16">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
+            Dlaczego warto korzystać z naszej wyszukiwarki
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {features.map((feature, index) => (
+              <motion.div
+                key={index}
+                className="bg-white rounded-lg shadow-md p-6 border border-gray-200"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <div className="mb-4">{feature.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.description}</p>
+              </motion.div>
+            ))}
+          </div>
+        </section>
+
+        {/* Articles teaser */}
+        <section className="bg-white py-16">
+          <div className="container mx-auto px-4 max-w-6xl">
+            <div className="flex items-end justify-between mb-10 flex-wrap gap-4">
+              <div>
+                <h2 className="text-3xl font-bold text-gray-800 mb-2">Poradnik PKD</h2>
+                <p className="text-gray-600">Artykuły, które pomogą Ci świadomie wybrać kody PKD.</p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                {feature.title}
-              </h3>
-              <p className="text-gray-600">
-                {feature.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+              <Link
+                to="/artykuly"
+                className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium"
+              >
+                Wszystkie artykuły <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
+            <div className="grid md:grid-cols-3 gap-6">
+              {articles.slice(0, 3).map((article) => (
+                <Link
+                  key={article.slug}
+                  to={`/artykuly/${article.slug}`}
+                  className="bg-gray-50 rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-blue-300 transition flex flex-col"
+                >
+                  <BookOpen className="w-6 h-6 text-blue-500 mb-3" aria-hidden="true" />
+                  <h3 className="text-lg font-semibold text-gray-900 mb-2 leading-snug">
+                    {article.title}
+                  </h3>
+                  <p className="text-sm text-gray-600 flex-1">{article.excerpt}</p>
+                  <span className="inline-flex items-center gap-1 mt-4 text-blue-600 font-medium text-sm">
+                    Czytaj <ArrowRight className="w-4 h-4" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
 
-        <div className="mt-16 text-center">
+        {/* FAQ */}
+        <FAQ items={FAQ_ITEMS} />
+
+        {/* CTA */}
+        <section className="container mx-auto px-4 pb-16 text-center">
           <Link
             to="/przyklady"
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 transition-colors"
           >
             Przeglądaj przykładowe kody PKD <ArrowRight className="w-4 h-4" />
           </Link>
-        </div>
-      </div>
+        </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-800 text-gray-400 py-8">
-        <div className="container mx-auto px-4 text-center text-sm space-y-2">
-          <p>&copy; {new Date().getFullYear()} kodypkd.app — Wyszukiwarka Kodów PKD</p>
-          <nav className="flex justify-center gap-4">
-            <Link to="/polityka-prywatnosci" className="hover:text-white transition-colors">
-              Polityka prywatności
-            </Link>
-          </nav>
-        </div>
-      </footer>
-    </div>
+        <Footer />
+      </div>
     </>
   );
 };

@@ -1,4 +1,5 @@
 export const SITE_URL = 'https://kodypkd.app';
+export const SITE_NAME = 'kodypkd.app';
 
 const POLISH_DIACRITICS: Record<string, string> = {
   'ą': 'a', 'ć': 'c', 'ę': 'e', 'ł': 'l', 'ń': 'n',
@@ -19,3 +20,58 @@ export const createSlug = (text: string): string => {
 export const decodeSlug = (slug: string): string => {
   return decodeURIComponent(slug).replace(/-/g, ' ');
 };
+
+export type BreadcrumbItem = { name: string; url: string };
+
+export const makeBreadcrumbSchema = (items: BreadcrumbItem[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    item: item.url.startsWith('http') ? item.url : `${SITE_URL}${item.url}`,
+  })),
+});
+
+export type FaqItem = { question: string; answer: string };
+
+export const makeFaqSchema = (items: FaqItem[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: item.answer,
+    },
+  })),
+});
+
+export type ArticleSchemaInput = {
+  title: string;
+  description: string;
+  slug: string;
+  publishedAt: string;
+  updatedAt: string;
+  keywords?: string[];
+};
+
+export const makeArticleSchema = (article: ArticleSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  datePublished: article.publishedAt,
+  dateModified: article.updatedAt,
+  author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/artykuly/${article.slug}` },
+  ...(article.keywords && article.keywords.length > 0 ? { keywords: article.keywords.join(', ') } : {}),
+});
