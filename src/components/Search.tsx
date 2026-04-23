@@ -6,7 +6,7 @@ import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { PKDCode, SearchResponse } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-import { createSlug, decodeSlug, SITE_URL, makeBreadcrumbSchema } from '../lib/seo';
+import { createSlug, decodeSlug, SITE_URL, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
 import popularQueries from '../data/popular-queries.json';
 import Footer from './Footer';
 
@@ -145,6 +145,22 @@ const SearchComponent = () => {
       ? `Sprawdź kody PKD dla działalności: ${searchQuery}. Lista dopasowanych kodów Polskiej Klasyfikacji Działalności z opisami.`
       : 'Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej w wyszukiwarce opartej o AI.';
 
+  const ogImage = buildOgImageUrl(
+    searchQuery
+      ? {
+          title: `Kod PKD dla: ${searchQuery}`,
+          subtitle:
+            popularEntry?.description ??
+            'Sprawdź dopasowane kody Polskiej Klasyfikacji Działalności 2025',
+          badge: 'Wynik wyszukiwania',
+        }
+      : {
+          title: 'Wyszukiwarka Kodów PKD 2025',
+          subtitle: 'Opisz działalność po ludzku — AI dobierze odpowiedni kod PKD',
+          badge: 'Darmowe',
+        },
+  );
+
   return (
     <>
       <Head>
@@ -159,6 +175,8 @@ const SearchComponent = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonical} />
         <meta property="og:locale" content="pl_PL" />
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
       </Head>
