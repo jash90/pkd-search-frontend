@@ -49,7 +49,7 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-        <div className="container mx-auto px-4 py-10 max-w-3xl">
+        <main className="container mx-auto px-4 py-10 max-w-3xl">
           <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
@@ -114,7 +114,7 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
               </div>
             </section>
           )}
-        </div>
+        </main>
         <Footer />
       </div>
     </>

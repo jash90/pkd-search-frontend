@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
 import { Outlet, useLocation } from 'react-router-dom';
+import Header from './Header';
 
 const Layout = () => {
   const { pathname } = useLocation();
@@ -18,6 +19,7 @@ const Layout = () => {
         <meta name="bfcache-restore" content="true" />
         <meta name="back-forward-navigation" content="enable" />
       </Head>
+      <Header />
       <Outlet />
     </>
   );

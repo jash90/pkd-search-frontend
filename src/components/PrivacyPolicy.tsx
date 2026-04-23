@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
-        <div className="p-8 flex-1">
+        <main className="p-8 flex-1">
           <div className="max-w-3xl mx-auto">
             <Link
               to="/"
@@ -116,7 +116,7 @@ const PrivacyPolicy = () => {
               </section>
             </div>
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     </>

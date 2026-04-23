@@ -114,7 +114,7 @@ const Samples = () => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
-        <div className="p-8 flex-1">
+        <main className="p-8 flex-1">
           <div className="max-w-4xl mx-auto">
             <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
               <ol className="flex flex-wrap gap-2">
@@ -195,7 +195,7 @@ const Samples = () => {
               </motion.div>
             )}
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     </>
