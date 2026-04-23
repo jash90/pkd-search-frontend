@@ -7,11 +7,19 @@ const INTER_BOLD = 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin
 
 let regularCache: ArrayBuffer | null = null;
 let boldCache: ArrayBuffer | null = null;
+let fontsUnavailable = false;
 
-const loadFont = async (url: string): Promise<ArrayBuffer> => {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Font fetch failed: ${res.status}`);
-  return res.arrayBuffer();
+const tryLoadFont = async (url: string): Promise<ArrayBuffer | null> => {
+  try {
+    const res = await fetch(url, {
+      // 3s is plenty for a CDN TTF; avoid hanging the Edge function if jsdelivr lags.
+      signal: AbortSignal.timeout(3000),
+    });
+    if (!res.ok) return null;
+    return await res.arrayBuffer();
+  } catch {
+    return null;
+  }
 };
 
 const clamp = (value: string | null, max: number, fallback: string): string => {
@@ -34,8 +42,20 @@ export default async function handler(req: Request) {
     );
     const badge = searchParams.get('badge')?.slice(0, 40) ?? null;
 
-    if (!regularCache) regularCache = await loadFont(INTER_REGULAR);
-    if (!boldCache) boldCache = await loadFont(INTER_BOLD);
+    if (!fontsUnavailable && (!regularCache || !boldCache)) {
+      const [reg, bold] = await Promise.all([
+        regularCache ? Promise.resolve(regularCache) : tryLoadFont(INTER_REGULAR),
+        boldCache ? Promise.resolve(boldCache) : tryLoadFont(INTER_BOLD),
+      ]);
+      if (reg && bold) {
+        regularCache = reg;
+        boldCache = bold;
+      } else {
+        // Mark as unavailable for this isolate so we don't retry on every request.
+        fontsUnavailable = true;
+      }
+    }
+    const useCustomFonts = !fontsUnavailable && regularCache && boldCache;
 
     return new ImageResponse(
       (
@@ -50,7 +70,7 @@ export default async function handler(req: Request) {
             background:
               'linear-gradient(135deg, #1e3a8a 0%, #2563eb 55%, #3b82f6 100%)',
             color: 'white',
-            fontFamily: 'Inter',
+            fontFamily: useCustomFonts ? 'Inter' : 'sans-serif',
           }}
         >
           <div
@@ -151,10 +171,14 @@ export default async function handler(req: Request) {
       {
         width: 1200,
         height: 630,
-        fonts: [
-          { name: 'Inter', data: regularCache, style: 'normal', weight: 400 },
-          { name: 'Inter', data: boldCache, style: 'normal', weight: 700 },
-        ],
+        ...(useCustomFonts
+          ? {
+              fonts: [
+                { name: 'Inter', data: regularCache!, style: 'normal', weight: 400 },
+                { name: 'Inter', data: boldCache!, style: 'normal', weight: 700 },
+              ],
+            }
+          : {}),
       },
     );
   } catch (err) {

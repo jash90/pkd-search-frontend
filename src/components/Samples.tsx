@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { Head } from 'vite-react-ssg';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-import { SITE_URL, makeBreadcrumbSchema } from '../lib/seo';
+import { SITE_URL, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
 import Footer from './Footer';
 
 const FALLBACK_SAMPLES: PKDCode[] = [
@@ -89,6 +89,15 @@ const Samples = () => {
     ...(limitParam ? [{ name: `${limitParam} kodów`, url: canonical }] : []),
   ]);
 
+  const ogImage = buildOgImageUrl({
+    title: limitParam
+      ? `${limitParam} przykładowych kodów PKD`
+      : 'Przykładowe kody PKD 2025',
+    subtitle:
+      'Popularne kody Polskiej Klasyfikacji Działalności z opisami i zakresem zastosowania',
+    badge: 'Przykłady',
+  });
+
   return (
     <>
       <Head>
@@ -109,6 +118,8 @@ const Samples = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content={canonical} />
         <meta property="og:locale" content="pl_PL" />
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
       </Head>
