@@ -1,6 +1,21 @@
 export const SITE_URL = 'https://kodypkd.app';
 export const SITE_NAME = 'kodypkd.app';
 
+export type OgImageParams = {
+  title?: string;
+  subtitle?: string;
+  badge?: string;
+};
+
+export const buildOgImageUrl = (params: OgImageParams = {}): string => {
+  const qs = new URLSearchParams();
+  if (params.title) qs.set('title', params.title);
+  if (params.subtitle) qs.set('subtitle', params.subtitle);
+  if (params.badge) qs.set('badge', params.badge);
+  const suffix = qs.toString();
+  return `${SITE_URL}/api/og${suffix ? `?${suffix}` : ''}`;
+};
+
 const POLISH_DIACRITICS: Record<string, string> = {
   'ą': 'a', 'ć': 'c', 'ę': 'e', 'ł': 'l', 'ń': 'n',
   'ó': 'o', 'ś': 's', 'ź': 'z', 'ż': 'z',

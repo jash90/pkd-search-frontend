@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, ArrowRight, Database, Zap, CheckCircle, BookOpen } from 'lucide-react';
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-import { createSlug, SITE_URL, makeFaqSchema } from '../lib/seo';
+import { createSlug, SITE_URL, makeFaqSchema, buildOgImageUrl } from '../lib/seo';
 import popularQueries from '../data/popular-queries.json';
 import { articles } from '../content/articles';
 import FAQ from './FAQ';
@@ -177,12 +177,28 @@ const Home = () => {
         <meta property="og:title" content="Wyszukiwarka Kodów PKD 2025 | kodypkd.app" />
         <meta
           property="og:description"
-          content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI."
+          content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI. Darmowa wyszukiwarka PKD 2025 dla CEIDG i KRS — bez rejestracji."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:site_name" content="kodypkd.app" />
+        <meta
+          property="og:image"
+          content={buildOgImageUrl({
+            title: 'Wyszukiwarka Kodów PKD 2025',
+            subtitle: 'Opisz działalność po ludzku — AI dobierze odpowiedni kod PKD',
+            badge: 'Darmowe',
+          })}
+        />
+        <meta
+          name="twitter:image"
+          content={buildOgImageUrl({
+            title: 'Wyszukiwarka Kodów PKD 2025',
+            subtitle: 'Opisz działalność po ludzku — AI dobierze odpowiedni kod PKD',
+            badge: 'Darmowe',
+          })}
+        />
         <link rel="canonical" href={SITE_URL} />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Head>
