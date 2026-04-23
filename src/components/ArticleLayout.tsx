@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock } from 'lucide-react';
 import Footer from './Footer';
 import type { ArticleEntry } from '../content/articles';
-import { SITE_URL, makeArticleSchema, makeBreadcrumbSchema } from '../lib/seo';
+import { SITE_URL, makeArticleSchema, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
 import { articles } from '../content/articles';
 
 interface ArticleLayoutProps {
@@ -28,6 +28,12 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
 
   const articleSchema = makeArticleSchema(article);
 
+  const ogImage = buildOgImageUrl({
+    title: article.title,
+    subtitle: article.excerpt || article.description,
+    badge: 'Poradnik PKD',
+  });
+
   const related = articles.filter((a) => a.slug !== article.slug).slice(0, 3);
 
   return (
@@ -41,6 +47,8 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
         <meta property="og:type" content="article" />
         <meta property="og:url" content={canonical} />
         <meta property="og:locale" content="pl_PL" />
+        <meta property="og:image" content={ogImage} />
+        <meta name="twitter:image" content={ogImage} />
         <meta property="article:published_time" content={article.publishedAt} />
         <meta property="article:modified_time" content={article.updatedAt} />
         <link rel="canonical" href={canonical} />
