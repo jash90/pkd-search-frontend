@@ -188,6 +188,7 @@ const Home = () => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
+        <main>
         <div className="bg-blue-600 text-white">
           <div className="container mx-auto px-4 py-16 md:py-24">
             <div className="flex flex-col md:flex-row items-center">
@@ -201,7 +202,7 @@ const Home = () => {
                   Znajdź idealny kod PKD dla swojej działalności
                 </motion.h1>
                 <motion.p
-                  className="text-xl mb-8 text-blue-100"
+                  className="text-xl mb-8 text-blue-50"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: 0.1 }}
@@ -251,9 +252,9 @@ const Home = () => {
                           <span className="font-semibold text-xl text-blue-600">
                             {samples[currentIndex]?.payload.grupaKlasaPodklasa}
                           </span>
-                          <h3 className="text-xl font-bold text-gray-800">
+                          <h2 className="text-xl font-bold text-gray-800">
                             {samples[currentIndex]?.payload.nazwaGrupowania}
-                          </h3>
+                          </h2>
                         </div>
                         <p className="text-gray-600 flex-1 overflow-hidden text-ellipsis">
                           {samples[currentIndex]?.payload.opisDodatkowy}
@@ -405,6 +406,7 @@ const Home = () => {
             Przeglądaj przykładowe kody PKD <ArrowRight className="w-4 h-4" />
           </Link>
         </section>
+        </main>
 
         <Footer />
       </div>

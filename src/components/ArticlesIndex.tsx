@@ -58,7 +58,7 @@ const ArticlesIndex = () => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-        <div className="container mx-auto px-4 py-12 max-w-5xl">
+        <main className="container mx-auto px-4 py-12 max-w-5xl">
           <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
@@ -107,7 +107,7 @@ const ArticlesIndex = () => {
               </Link>
             ))}
           </div>
-        </div>
+        </main>
         <Footer />
       </div>
     </>

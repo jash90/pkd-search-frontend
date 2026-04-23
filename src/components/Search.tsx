@@ -164,7 +164,7 @@ const SearchComponent = () => {
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
-        <div className="container mx-auto px-4 py-8 flex-1 w-full">
+        <main className="container mx-auto px-4 py-8 flex-1 w-full">
           <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
@@ -363,7 +363,7 @@ const SearchComponent = () => {
               </Link>
             </div>
           </section>
-        </div>
+        </main>
         <Footer />
       </div>
     </>

@@ -35,7 +35,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-500 text-xs">
+      <div className="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-xs">
         <p>&copy; {new Date().getFullYear()} kodypkd.app — Wyszukiwarka Kodów PKD. Wszystkie prawa zastrzeżone.</p>
       </div>
     </div>
