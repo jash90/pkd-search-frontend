@@ -3,6 +3,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import popularQueries from '../src/data/popular-queries.json' with { type: 'json' };
 import articlesManifest from '../src/content/articles/manifest.json' with { type: 'json' };
+import codes from '../src/data/codes.json' with { type: 'json' };
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -26,6 +27,12 @@ interface ArticleMeta {
   publishedAt: string;
   updatedAt: string;
 }
+
+interface CodeEntry {
+  code: string;
+}
+
+const codeToSlug = (code: string) => code.toLowerCase().replace(/\./g, '-');
 
 const today = new Date().toISOString().split('T')[0];
 
@@ -64,6 +71,13 @@ const mainEntries: SitemapEntry[] = [
   })),
 ];
 
+const codeEntries: SitemapEntry[] = (codes as CodeEntry[]).map((c) => ({
+  loc: `${SITE_URL}/kod-pkd/${codeToSlug(c.code)}`,
+  lastmod: today,
+  changefreq: 'monthly',
+  priority: 0.7,
+}));
+
 const articleEntries: SitemapEntry[] = (articlesManifest as ArticleMeta[]).map((a) => ({
   loc: `${SITE_URL}/artykuly/${a.slug}`,
   lastmod: a.updatedAt,
@@ -73,6 +87,7 @@ const articleEntries: SitemapEntry[] = (articlesManifest as ArticleMeta[]).map((
 
 const sitemapXml = wrapUrlset(mainEntries);
 const articlesXml = wrapUrlset(articleEntries);
+const codesXml = wrapUrlset(codeEntries);
 
 const sitemapIndexXml = [
   '<?xml version="1.0" encoding="UTF-8"?>',
@@ -85,12 +100,19 @@ const sitemapIndexXml = [
   `    <loc>${SITE_URL}/sitemap-articles.xml</loc>`,
   `    <lastmod>${today}</lastmod>`,
   '  </sitemap>',
+  '  <sitemap>',
+  `    <loc>${SITE_URL}/sitemap-codes.xml</loc>`,
+  `    <lastmod>${today}</lastmod>`,
+  '  </sitemap>',
   '</sitemapindex>',
   '',
 ].join('\n');
 
 writeFileSync(resolve(PUBLIC_DIR, 'sitemap.xml'), sitemapXml, 'utf8');
 writeFileSync(resolve(PUBLIC_DIR, 'sitemap-articles.xml'), articlesXml, 'utf8');
+writeFileSync(resolve(PUBLIC_DIR, 'sitemap-codes.xml'), codesXml, 'utf8');
 writeFileSync(resolve(PUBLIC_DIR, 'sitemap-index.xml'), sitemapIndexXml, 'utf8');
 
-console.log(`[sitemap] wrote ${mainEntries.length} core URLs + ${articleEntries.length} article URLs (lastmod ${today})`);
+console.log(
+  `[sitemap] wrote ${mainEntries.length} core URLs + ${articleEntries.length} article URLs + ${codeEntries.length} code URLs (lastmod ${today})`,
+);

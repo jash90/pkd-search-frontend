@@ -6,7 +6,16 @@ import { Link, useParams, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { PKDCode, SearchResponse } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
-import { createSlug, decodeSlug, SITE_URL, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
+import {
+  buildOgImageUrl,
+  codeToSlug,
+  createSlug,
+  decodeSlug,
+  makeBreadcrumbSchema,
+  makeItemListSchema,
+  SITE_URL,
+} from '../lib/seo';
+import codesData from '../data/codes.json';
 import popularQueries from '../data/popular-queries.json';
 import Footer from './Footer';
 
@@ -16,16 +25,52 @@ interface CuratedCode {
   descr: string;
 }
 
+interface SubSection {
+  id: string;
+  title: string;
+  body: string;
+}
+
 interface PopularQuery {
   slug: string;
   label: string;
   description: string;
   curatedCodes: CuratedCode[];
+  subSections?: SubSection[];
 }
 
 const POPULAR_BY_SLUG = Object.fromEntries(
   (popularQueries as PopularQuery[]).map((q) => [q.slug, q]),
 );
+
+const KNOWN_CODES = new Set((codesData as { code: string }[]).map((c) => c.code));
+
+// Up to 3 sibling category slugs per source slug. Hand-tuned for topical
+// closeness — kept small so the block never crowds the curated codes.
+const RELATED_SLUGS: Record<string, string[]> = {
+  'e-commerce': ['sklep', 'marketing', 'kurier'],
+  sklep: ['e-commerce', 'handel', 'gastronomia'],
+  handel: ['sklep', 'e-commerce', 'gastronomia'],
+  transport: ['kurier', 'e-commerce', 'handel'],
+  kurier: ['transport', 'e-commerce', 'sprzatanie'],
+  programowanie: ['it', 'projektowanie', 'marketing'],
+  it: ['programowanie', 'projektowanie', 'doradztwo'],
+  projektowanie: ['marketing', 'it', 'fotografia'],
+  marketing: ['projektowanie', 'it', 'doradztwo'],
+  fotografia: ['projektowanie', 'marketing', 'edukacja'],
+  restauracja: ['gastronomia', 'sklep', 'kurier'],
+  gastronomia: ['restauracja', 'sklep', 'kurier'],
+  fryzjer: ['kosmetyczka', 'sprzatanie', 'edukacja'],
+  kosmetyczka: ['fryzjer', 'sprzatanie', 'edukacja'],
+  sprzatanie: ['budownictwo', 'kurier', 'edukacja'],
+  budownictwo: ['projektowanie', 'sprzatanie', 'handel'],
+  edukacja: ['doradztwo', 'projektowanie', 'it'],
+  doradztwo: ['ksiegowosc', 'prawnik', 'marketing'],
+  ksiegowosc: ['doradztwo', 'prawnik', 'it'],
+  prawnik: ['doradztwo', 'ksiegowosc', 'it'],
+  rolnictwo: ['transport', 'budownictwo', 'gastronomia'],
+  'wynajem-nieruchomosci': ['budownictwo', 'sprzatanie', 'doradztwo'],
+};
 
 const SearchComponent = () => {
   const { query: seoQuery } = useParams<{ query: string }>();
@@ -179,6 +224,11 @@ const SearchComponent = () => {
         <meta name="twitter:image" content={ogImage} />
         <link rel="canonical" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+        {popularEntry && popularEntry.curatedCodes.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify(makeItemListSchema(popularEntry.label, popularEntry.curatedCodes))}
+          </script>
+        )}
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
@@ -241,27 +291,57 @@ const SearchComponent = () => {
             </div>
           )}
 
-          {popularEntry && (
+          {popularEntry && popularEntry.curatedCodes.length > 0 && (
             <section className="max-w-4xl mx-auto mb-10">
               <h2 className="text-xl font-semibold text-gray-800 mb-4">
                 Polecane kody PKD dla działalności „{popularEntry.label}"
               </h2>
               <div className="space-y-3">
-                {popularEntry.curatedCodes.map((c) => (
-                  <div
-                    key={c.code}
-                    className="bg-white rounded-lg shadow p-4 border border-gray-200"
-                  >
-                    <span className="font-semibold text-blue-600">{c.code}</span>
-                    <h3 className="font-medium text-gray-800">{c.name}</h3>
-                    <p className="text-gray-600 text-sm mt-1">{c.descr}</p>
-                  </div>
-                ))}
+                {popularEntry.curatedCodes.map((c) => {
+                  const cardBody = (
+                    <>
+                      <span className="font-semibold text-blue-600">{c.code}</span>
+                      <h3 className="font-medium text-gray-800">{c.name}</h3>
+                      <p className="text-gray-600 text-sm mt-1">{c.descr}</p>
+                    </>
+                  );
+                  return KNOWN_CODES.has(c.code) ? (
+                    <Link
+                      key={c.code}
+                      to={`/kod-pkd/${codeToSlug(c.code)}`}
+                      className="block bg-white rounded-lg shadow p-4 border border-gray-200 hover:border-blue-300 hover:shadow-md transition"
+                    >
+                      {cardBody}
+                    </Link>
+                  ) : (
+                    <div
+                      key={c.code}
+                      className="bg-white rounded-lg shadow p-4 border border-gray-200"
+                    >
+                      {cardBody}
+                    </div>
+                  );
+                })}
               </div>
               <p className="mt-4 text-sm text-gray-500">
                 Lista poniżej to wynik dopasowania AI na podstawie Twojego zapytania. Dodaj własny
                 opis działalności, aby otrzymać precyzyjne podpowiedzi.
               </p>
+            </section>
+          )}
+
+          {popularEntry?.subSections && popularEntry.subSections.length > 0 && (
+            <section className="max-w-4xl mx-auto mb-10 space-y-6">
+              {popularEntry.subSections.map((s) => (
+                <article
+                  key={s.id}
+                  id={s.id}
+                  className="bg-white rounded-lg shadow p-5 border border-gray-200 scroll-mt-24"
+                >
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">{s.title}</h3>
+                  <p className="text-gray-700 leading-relaxed">{s.body}</p>
+                </article>
+              ))}
             </section>
           )}
 
@@ -339,6 +419,26 @@ const SearchComponent = () => {
                 </AnimatePresence>
               </div>
             </div>
+          )}
+
+          {popularEntry && RELATED_SLUGS[popularEntry.slug] && (
+            <section className="max-w-4xl mx-auto mt-10">
+              <h2 className="text-xl font-semibold text-gray-800 mb-3">Powiązane kategorie</h2>
+              <div className="flex flex-wrap gap-2">
+                {RELATED_SLUGS[popularEntry.slug]
+                  .map((slug) => POPULAR_BY_SLUG[slug])
+                  .filter((q): q is PopularQuery => Boolean(q))
+                  .map((q) => (
+                    <Link
+                      key={q.slug}
+                      to={`/kody-pkd/${q.slug}`}
+                      className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 text-sm font-medium transition"
+                    >
+                      {q.label}
+                    </Link>
+                  ))}
+              </div>
+            </section>
           )}
 
           {/* About-this-search block — static SEO content visible even without AI results */}

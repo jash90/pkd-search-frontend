@@ -10,4 +10,5 @@ Disallow: /szukaj
 # Sitemap locations
 Sitemap: https://kodypkd.app/sitemap.xml
 Sitemap: https://kodypkd.app/sitemap-articles.xml
+Sitemap: https://kodypkd.app/sitemap-codes.xml
 Sitemap: https://kodypkd.app/sitemap-index.xml

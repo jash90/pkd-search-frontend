@@ -151,8 +151,8 @@
   },
   {
     "slug": "sklep",
-    "label": "Sklep",
-    "description": "Kody PKD dla sklepów stacjonarnych i internetowych.",
+    "label": "Sklep stacjonarny",
+    "description": "Kody PKD dla sklepów stacjonarnych — odzieżowych, spożywczych, specjalistycznych i niewyspecjalizowanych. Dla sklepu internetowego zobacz kategorię E-commerce.",
     "curatedCodes": [
       {
         "code": "47.25.Z",
@@ -236,7 +236,24 @@
   {
     "slug": "transport",
     "label": "Transport",
-    "description": "Kody PKD dla przewozów osób, transportu towarów i usług kurierskich.",
+    "description": "Kody PKD dla transportu drogowego, kurierskiego, taksówkowego i ciężarowego — przewozów osób, towarów oraz usług logistycznych.",
+    "subSections": [
+      {
+        "id": "drogowy",
+        "title": "Transport drogowy towarów (PKD 49.41.Z)",
+        "body": "Transport drogowy towarów to przewozy realizowane samochodami ciężarowymi, dłużycami, cysternami oraz pojazdami przystosowanymi do przewozu towarów chłodzonych, mrożonych lub niebezpiecznych. Główny kod to 49.41.Z. Stosują go zarówno jednoosobowi przewoźnicy z busem 3,5 t, jak i firmy logistyczne z flotą TIR-ów."
+      },
+      {
+        "id": "taksowkowy",
+        "title": "Transport taksówkowy i przewóz osób na żądanie (PKD 49.33.Z)",
+        "body": "Pod kod 49.33.Z wpada klasyczna taksówka, ale także transport pasażerski na żądanie pojazdem z kierowcą — czyli przewozy w aplikacjach typu Uber czy Bolt. Kod obejmuje także wynajem prywatnego samochodu osobowego z kierowcą dla maksymalnie 9 osób."
+      },
+      {
+        "id": "kurierski",
+        "title": "Transport kurierski i pocztowy (PKD 53.20.Z)",
+        "body": "Usługi kurierskie i dostawy realizowane od drzwi do drzwi to kod 53.20.Z. Obejmuje on zbieranie, sortowanie, przewóz i doręczanie krajowych oraz zagranicznych przesyłek — listów, paczek i przesyłek pocztowych nieobjętych obowiązkiem usługi powszechnej. Pełną kategorię znajdziesz pod /kody-pkd/kurier."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "49.41.Z",
@@ -695,8 +712,8 @@
   },
   {
     "slug": "e-commerce",
-    "label": "E-commerce",
-    "description": "Kody PKD dla handlu elektronicznego, sklepów internetowych i marketplace.",
+    "label": "E-commerce / Sklep internetowy",
+    "description": "Kody PKD dla sklepu internetowego, dropshippingu i platform e-commerce — w tym sprzedaży przez własny sklep online, marketplace i media społecznościowe.",
     "curatedCodes": [
       {
         "code": "47.91.Z",
@@ -733,6 +750,29 @@
       "Sprzedaż detaliczna prowadzona przez domy sprzedaży wysyłkowej lub Internet",
       "Sklep internetowy, dropshipping, sprzedaż przez Internet",
       "Sprzedaż detaliczna odzieży lub kosmetyków przez Internet"
+    ]
+  },
+  {
+    "slug": "rolnictwo",
+    "label": "Rolnictwo",
+    "description": "Kody PKD dla rolnictwa, hodowli zwierząt, upraw rolnych, leśnictwa i rybołówstwa — od jednoosobowego gospodarstwa po przedsiębiorstwa rolne.",
+    "curatedCodes": [],
+    "searchQuery": [
+      "Uprawa zbóż, gospodarstwo rolne, uprawy polowe",
+      "Chów i hodowla zwierząt gospodarskich",
+      "Leśnictwo, pozyskiwanie drewna, gospodarka leśna",
+      "Rybołówstwo i akwakultura"
+    ]
+  },
+  {
+    "slug": "wynajem-nieruchomosci",
+    "label": "Wynajem nieruchomości",
+    "description": "Kody PKD dla wynajmu i zarządzania nieruchomościami własnymi i obcymi — mieszkań, lokali użytkowych, krótkoterminowego najmu (Airbnb).",
+    "curatedCodes": [],
+    "searchQuery": [
+      "Wynajem mieszkań, lokali użytkowych, nieruchomości własnych",
+      "Krótkoterminowy najem mieszkań, Airbnb, apartamenty na doby",
+      "Zarządzanie nieruchomościami na zlecenie"
     ]
   }
 ]
