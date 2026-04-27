@@ -3,13 +3,15 @@ import { Navigate, useLocation, useParams } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import SearchComponent from './components/Search';
+import CodePage from './components/CodePage';
 import Samples from './components/Samples';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ArticlesIndex from './components/ArticlesIndex';
 import ArticleRoute from './components/ArticleRoute';
 import popularQueries from './data/popular-queries.json';
+import codes from './data/codes.json';
 import { articles } from './content/articles';
-import { createSlug } from './lib/seo';
+import { codeToSlug, createSlug } from './lib/seo';
 
 const SAMPLE_LIMITS = [5, 10, 20, 50];
 
@@ -87,6 +89,12 @@ export const routes: RouteRecord[] = [
         Component: SearchComponent,
         entry: 'src/components/Search.tsx',
         getStaticPaths: () => popularQueries.map((q) => `/kody-pkd/${q.slug}`),
+      },
+      {
+        path: 'kod-pkd/:codeSlug',
+        Component: CodePage,
+        entry: 'src/components/CodePage.tsx',
+        getStaticPaths: () => codes.map((c) => `/kod-pkd/${codeToSlug(c.code)}`),
       },
       // Legacy redirect routes — rendered client-side only.
       // Server-side 301s live in public/.htaccess and public/web.config.

@@ -36,6 +36,13 @@ export const decodeSlug = (slug: string): string => {
   return decodeURIComponent(slug).replace(/-/g, ' ');
 };
 
+// PKD code <-> URL slug. "56.11.Z" <-> "56-11-z"
+export const codeToSlug = (code: string): string =>
+  code.toLowerCase().replace(/\./g, '-');
+
+export const slugToCode = (slug: string): string =>
+  slug.toUpperCase().replace(/-/g, '.');
+
 export type BreadcrumbItem = { name: string; url: string };
 
 export const makeBreadcrumbSchema = (items: BreadcrumbItem[]) => ({
@@ -46,6 +53,23 @@ export const makeBreadcrumbSchema = (items: BreadcrumbItem[]) => ({
     position: index + 1,
     name: item.name,
     item: item.url.startsWith('http') ? item.url : `${SITE_URL}${item.url}`,
+  })),
+});
+
+export type ItemListEntry = { code: string; name: string };
+
+export const makeItemListSchema = (label: string, items: ItemListEntry[]) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Kody PKD dla: ${label}`,
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    item: {
+      '@type': 'DefinedTerm',
+      name: item.code,
+      description: item.name,
+    },
   })),
 });
 

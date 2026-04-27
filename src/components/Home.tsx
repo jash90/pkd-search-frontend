@@ -65,6 +65,20 @@ const MOCK_PKD_CODES: PKDCode[] = [
   },
 ];
 
+// Most-searched specific PKD codes. Per-code links resolve to /kod-pkd/<slug>
+// where data exists; tiles for codes not yet in codes.json fall back to the
+// closest category page.
+const POPULAR_CODES: { code: string; label: string; href: string }[] = [
+  { code: '56.11.Z', label: 'Restauracje', href: '/kod-pkd/56-11-z' },
+  { code: '47.91.Z', label: 'Sprzedaż przez Internet', href: '/kod-pkd/47-91-z' },
+  { code: '49.41.Z', label: 'Transport drogowy towarów', href: '/kod-pkd/49-41-z' },
+  { code: '62.10.B', label: 'Programowanie', href: '/kod-pkd/62-10-b' },
+  { code: '96.21.Z', label: 'Działalność fryzjerska', href: '/kod-pkd/96-21-z' },
+  { code: '41.00.A', label: 'Roboty budowlane mieszkalne', href: '/kod-pkd/41-00-a' },
+  { code: '68.20.Z', label: 'Wynajem nieruchomości', href: '/kody-pkd/wynajem-nieruchomosci' },
+  { code: '85.59.B', label: 'Kursy i szkolenia zawodowe', href: '/kod-pkd/85-59-b' },
+];
+
 const FAQ_ITEMS = [
   {
     question: 'Co to jest kod PKD?',
@@ -95,6 +109,11 @@ const FAQ_ITEMS = [
     question: 'Czym różni się PKD 2025 od PKD 2007?',
     answer:
       'PKD 2025 zastąpiło PKD 2007 z dniem 1 stycznia 2025 roku. Nowa wersja klasyfikacji uwzględnia m.in. platformy cyfrowe, gospodarkę współdzielenia, nowe formy handlu online i usług AI. Firmy istniejące mają okres przejściowy na migrację kodów.',
+  },
+  {
+    question: 'Czy w 2026 roku obowiązuje nowe PKD?',
+    answer:
+      'Nie. W 2026 roku obowiązuje nadal PKD 2025, wprowadzone 1 stycznia 2025 roku. „PKD 2026" to potoczne określenie, którego używają niektórzy przedsiębiorcy — formalnie taka klasyfikacja nie istnieje. Szczegóły w artykule „PKD 2026 — czy są zmiany?".',
   },
 ];
 
@@ -303,6 +322,13 @@ const Home = () => {
           </div>
         </div>
 
+        {/* SEO header band — explicit query variants for stemming */}
+        <section className="container mx-auto px-4 pt-10">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 text-center max-w-3xl mx-auto">
+            Kody PKD — wyszukiwarka online (PKD 2025)
+          </h2>
+        </section>
+
         {/* What is PKD */}
         <section className="container mx-auto px-4 py-16 max-w-4xl">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Co to jest kod PKD?</h2>
@@ -310,9 +336,11 @@ const Home = () => {
             <p>
               <strong>Kod PKD</strong> (Polska Klasyfikacja Działalności) to pięcioznakowy
               identyfikator rodzaju działalności gospodarczej, którym posługują się w Polsce
-              wszystkie urzędy. Każdy przedsiębiorca — od jednoosobowej działalności po spółkę
-              akcyjną — przy rejestracji w CEIDG lub KRS musi wskazać co najmniej jeden kod PKD
-              opisujący rodzaj prowadzonej działalności.
+              wszystkie urzędy. Nasza <strong>wyszukiwarka PKD</strong> dopasowuje kody do opisu
+              Twojej działalności w języku naturalnym — bez konieczności znajomości urzędowego
+              słownictwa. Każdy przedsiębiorca — od jednoosobowej działalności po spółkę akcyjną —
+              przy rejestracji w CEIDG lub KRS musi wskazać co najmniej jeden kod PKD opisujący
+              rodzaj prowadzonej działalności.
             </p>
             <p>
               Od 1 stycznia 2025 roku obowiązuje <strong>PKD 2025</strong>, które zastąpiło
@@ -349,6 +377,29 @@ const Home = () => {
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
+
+        {/* Popular individual codes */}
+        <section className="container mx-auto px-4 py-16 max-w-6xl">
+          <h2 className="text-3xl font-bold text-gray-800 mb-3 text-center">
+            Najczęściej wyszukiwane kody PKD
+          </h2>
+          <p className="text-gray-600 text-center mb-10 max-w-2xl mx-auto">
+            Konkretne kody PKD 2025 wyszukiwane najczęściej przez przedsiębiorców rejestrujących
+            firmę w CEIDG.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+            {POPULAR_CODES.map((c) => (
+              <Link
+                key={c.code}
+                to={c.href}
+                className="flex flex-col items-start gap-1 px-4 py-3 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg transition"
+              >
+                <span className="font-semibold text-blue-600">{c.code}</span>
+                <span className="text-sm text-gray-700 leading-snug">{c.label}</span>
+              </Link>
+            ))}
           </div>
         </section>
 
