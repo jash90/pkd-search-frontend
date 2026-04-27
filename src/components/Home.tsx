@@ -371,7 +371,7 @@ const Home = () => {
                 <Link
                   key={q.slug}
                   to={`/kody-pkd/${q.slug}`}
-                  className="block px-4 py-3 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg text-center font-medium text-gray-700 hover:text-blue-700 transition"
+                  className="flex items-center justify-center min-h-[72px] px-4 py-3 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg text-center text-balance leading-snug font-medium text-gray-700 hover:text-blue-700 transition"
                 >
                   {q.label}
                 </Link>
