@@ -1,0 +1,36 @@
+{
+  "code": "47.79.C",
+  "name": "Sprzedaż detaliczna pozostałych artykułów używanych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.79.C obejmuje detaliczną sprzedaż pozostałych artykułów używanych — odzieży second-hand, mebli używanych, sprzętu AGD/RTV z drugiej ręki, zabawek, sprzętu sportowego i innych rzeczy codziennego użytku w wyspecjalizowanych sklepach. To kod dla second-handów, lombardów ze sprzedażą, sklepów charytatywnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel second-handu",
+      "use": "Sprzedaje odzież używaną importowaną na wagę i sortowaną do sklepu."
+    },
+    {
+      "persona": "Sklep z meblami używanymi",
+      "use": "Skupuje i odsprzedaje meble po renowacji lub w stanie oryginalnym."
+    },
+    {
+      "persona": "Lombard ze sprzedażą",
+      "use": "Po wygaśnięciu zastawu sprzedaje przedmioty (elektronika, biżuteria, AGD)."
+    },
+    {
+      "persona": "Sklep charytatywny",
+      "use": "Sprzedaje rzeczy używane przekazane przez darczyńców (np. PCK, fundacje)."
+    }
+  ],
+  "businessExamples": [
+    "Second-hand z odzieżą sortowaną i premium",
+    "Sklep z używanymi meblami po renowacji",
+    "Lombard z elektroniką i biżuterią"
+  ],
+  "commonMistakes": [
+    "Wybór 47.79.C zamiast 47.79.A — używane książki mają osobny kod (antykwariat to 47.79.A).",
+    "Pomylenie z 47.79.B — antyki (powyżej 100 lat) klasyfikują się jako 47.79.B, a nie 47.79.C."
+  ],
+  "taxNotes": "Sprzedaż artykułów używanych może korzystać z procedury marży VAT. Obowiązuje kasa fiskalna z wyjątkami. Lombardy podlegają dodatkowym regulacjom. Stawki sprawdź u doradcy podatkowego."
+}

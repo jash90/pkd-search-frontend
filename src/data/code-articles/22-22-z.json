@@ -1,0 +1,36 @@
+{
+  "code": "22.22.Z",
+  "name": "Produkcja opakowań z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.22.Z obejmuje produkcję opakowań z tworzyw sztucznych — toreb, worków, butelek, słoików, pojemników, kubków, tacek, blistrów, folii termokurczliwych i opakowań próżniowych. To kluczowy kod dla branży packagingu obsługującej spożywczkę, kosmetykę i e-commerce.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent butelek PET",
+      "use": "Rozdmuchuje butelki PET dla branży napojów, mleczarskiej i chemii gospodarczej."
+    },
+    {
+      "persona": "Wytwórca toreb foliowych",
+      "use": "Produkuje torby HDPE i LDPE dla handlu, gastronomii i e-commerce."
+    },
+    {
+      "persona": "Producent opakowań do żywności",
+      "use": "Wytwarza pojemniki, tacki i blistry termoformowane do mięsa, nabiału i dań gotowych."
+    },
+    {
+      "persona": "Zakład folii stretch i termokurczliwych",
+      "use": "Produkuje folie do paletyzacji i pakowania zbiorczego dla logistyki."
+    }
+  ],
+  "businessExamples": [
+    "Producent butelek PET do napojów",
+    "Wytwórnia toreb HDPE dla handlu",
+    "Zakład opakowań termoformowanych do mięsa"
+  ],
+  "commonMistakes": [
+    "Wybór 22.22.Z dla folii budowlanych i rur — półfabrykaty z tworzyw to 22.21.Z.",
+    "Pomylenie z 17.21.Z (opakowania papierowe) — kartony, pudła i opakowania falowane mają osobny kod."
+  ],
+  "taxNotes": "Branża opakowaniowa objęta jest opłatą produktową, dyrektywą SUP, kaucją oraz unijnym PPWR. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

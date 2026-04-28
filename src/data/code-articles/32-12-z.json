@@ -1,0 +1,36 @@
+{
+  "code": "32.12.Z",
+  "name": "Produkcja wyrobów jubilerskich i podobnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.12.Z obejmuje produkcję biżuterii ze złota, srebra, platyny i kamieni szlachetnych — pierścionków, naszyjników, kolczyków, bransoletek, zegarków jubilerskich. Pasuje dla pracowni jubilerskich, manufaktur i przemysłowych producentów biżuterii.",
+  "whoUsesIt": [
+    {
+      "persona": "Pracownia jubilerska autorska",
+      "use": "Tworzy biżuterię na zamówienie, projekty autorskie i unikatowe wyroby ze złota i srebra."
+    },
+    {
+      "persona": "Manufaktura biżuterii",
+      "use": "Produkuje biżuterię w małych seriach z własnymi kolekcjami sprzedawanymi w salonach."
+    },
+    {
+      "persona": "Wytwórca obrączek ślubnych",
+      "use": "Specjalizuje się w produkcji obrączek na zamówienie z grawerem i kamieniami."
+    },
+    {
+      "persona": "Producent biżuterii sklepowej",
+      "use": "Wytwarza biżuterię na masową skalę dla sieci handlowych i e-commerce."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia jubilerska tworząca biżuterię autorską",
+    "Manufaktura obrączek ślubnych z personalizacją",
+    "Producent srebrnej biżuterii dla rynku e-commerce"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.13.Z (sztuczna biżuteria) — sztuczna biżuteria z metali nieszlachetnych idzie tam, nie pod 32.12.Z.",
+    "Wybór 47.77.Z (sprzedaż detaliczna zegarków i biżuterii) zamiast 32.12.Z — sama sprzedaż to inny kod niż produkcja."
+  ],
+  "taxNotes": "Branża jubilerska podlega specjalnym regulacjom dotyczącym metali szlachetnych (próby, oznakowanie urzędowe) oraz preferencyjnym zasadom VAT na metale inwestycyjne. Forma opodatkowania zależy od skali i modelu sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

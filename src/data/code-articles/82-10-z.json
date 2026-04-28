@@ -1,0 +1,36 @@
+{
+  "code": "82.10.Z",
+  "name": "Działalność związana z administracyjną obsługą biura, włączając działalność wspomagającą",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.10.Z obejmuje outsourcing usług biurowych — recepcję, sekretariat, obsługę korespondencji, archiwizację dokumentów, wprowadzanie danych, przepisywanie. Pasuje dla wirtualnych biur, sekretariatów na godziny i operatorów back-office. Księgowość i kadry mają osobne kody (69.20.Z, 78.30.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator wirtualnego biura",
+      "use": "Udostępnia adres rejestrowy, odbiera korespondencję i obsługuje sekretariat dla firm."
+    },
+    {
+      "persona": "Asystent / sekretariat na godziny",
+      "use": "Świadczy obsługę biurową freelancerom i małym firmom — kalendarz, e-maile, dokumenty."
+    },
+    {
+      "persona": "Firma back-office",
+      "use": "Wprowadza dane, archiwizuje dokumenty, obsługuje korespondencję dla klientów korporacyjnych."
+    },
+    {
+      "persona": "Centrum obsługi dokumentacji",
+      "use": "Skanuje, indeksuje i archiwizuje dokumenty papierowe firm i instytucji."
+    }
+  ],
+  "businessExamples": [
+    "Wirtualne biuro z adresem rejestrowym",
+    "Firma świadcząca usługi back-office dla korporacji",
+    "Sekretariat zdalny dla freelancerów i małych firm"
+  ],
+  "commonMistakes": [
+    "Wybór 82.10.Z, gdy faktycznie świadczone są usługi księgowe lub kadrowo-płacowe — księgowość to 69.20.Z, kadry i płace mogą być pod 78.30.Z.",
+    "Pomylenie z 82.20.Z (call center) — telefoniczna obsługa klientów na zlecenie ma osobny kod."
+  ],
+  "taxNotes": "Usługi biurowe podlegają VAT i są typową działalnością usługową rozliczaną w różnych formach (skala, liniowy, ryczałt), z możliwością zwolnienia podmiotowego z VAT przy niskich obrotach. Niektóre rodzaje doradztwa wykluczają ryczałt — szczegóły zależą od zakresu usług. Stawki sprawdź u doradcy podatkowego."
+}

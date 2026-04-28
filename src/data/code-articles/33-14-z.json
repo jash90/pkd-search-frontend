@@ -1,0 +1,36 @@
+{
+  "code": "33.14.Z",
+  "name": "Naprawa i konserwacja urządzeń elektrycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.14.Z obejmuje naprawę i konserwację urządzeń elektrycznych innych niż elektroniczne — silników elektrycznych, transformatorów, generatorów, rozdzielnic, baterii akumulatorowych przemysłowych. Pasuje dla elektryków przemysłowych i firm serwisujących infrastrukturę elektroenergetyczną.",
+  "whoUsesIt": [
+    {
+      "persona": "Warsztat napraw silników elektrycznych",
+      "use": "Naprawia, przezwajania i serwisuje silniki indukcyjne, prądu stałego i synchroniczne."
+    },
+    {
+      "persona": "Serwis transformatorów energetycznych",
+      "use": "Wykonuje przeglądy, naprawy i renowacje transformatorów dla przemysłu i energetyki."
+    },
+    {
+      "persona": "Firma serwisu rozdzielnic SN/NN",
+      "use": "Naprawia rozdzielnice średniego i niskiego napięcia w zakładach przemysłowych."
+    },
+    {
+      "persona": "Specjalista serwisu UPS i baterii",
+      "use": "Konserwuje zasilacze UPS, baterie awaryjne i agregaty prądotwórcze dla data center."
+    }
+  ],
+  "businessExamples": [
+    "Warsztat przezwajania silników elektrycznych przemysłowych",
+    "Firma serwisu transformatorów energetycznych",
+    "Specjalistyczny serwis UPS i systemów zasilania awaryjnego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.13.Z (urządzenia elektroniczne) — silniki i transformatory to elektryczne, nie elektroniczne.",
+    "Wybór 43.21.Z (instalacje elektryczne) zamiast 33.14.Z — instalacje budowlane to inny kod niż serwis maszyn elektrycznych."
+  ],
+  "taxNotes": "Serwis elektryczny w przemyśle wymaga odpowiednich uprawnień (SEP, kategorie do 1 kV i powyżej) i może obejmować dostawę części z różnymi stawkami VAT. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.87.Z",
+  "name": "Sprzedaż hurtowa odpadów i złomu",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.87.Z obejmuje sprzedaż hurtową złomu metali (czarnych, kolorowych), makulatury, tworzyw sztucznych do recyklingu, szkła odpadowego i pozostałych odpadów surowcowych — do hut, zakładów recyklingu i przetwórstwa wtórnego. Wymaga zezwoleń środowiskowych na zbieranie i przetwarzanie odpadów.",
+  "whoUsesIt": [
+    {
+      "persona": "Skup złomu",
+      "use": "Prowadzi punkt skupu złomu metali od osób fizycznych i firm."
+    },
+    {
+      "persona": "Dystrybutor surowców wtórnych",
+      "use": "Skupuje makulaturę, tworzywa i szkło i sprzedaje hurtowo do zakładów recyklingu."
+    },
+    {
+      "persona": "Trader na rynku złomu",
+      "use": "Handluje złomem stalowym i kolorowym na rynku krajowym i eksportowym."
+    },
+    {
+      "persona": "Operator zbiórki odpadów surowcowych",
+      "use": "Zbiera selektywnie odpady i sprzedaje hurtowo do przetwórstwa wtórnego."
+    }
+  ],
+  "businessExamples": [
+    "Skup złomu metali dla huty",
+    "Hurtownia makulatury dla papierni",
+    "Punkt skupu surowców wtórnych dla recyklerów"
+  ],
+  "commonMistakes": [
+    "Wybór 46.87.Z bez wpisu do BDO i zezwoleń środowiskowych — to wymóg prawny.",
+    "Pomylenie z 38.32.Z (przetwarzanie odpadów) — 46.87.Z to handel, nie przetwarzanie."
+  ],
+  "taxNotes": "Obrót złomem objęty jest mechanizmem odwrotnego obciążenia VAT i wymaga wpisu do BDO oraz zezwoleń. Skup od osób fizycznych wymaga prowadzenia ewidencji. Stawki sprawdź u doradcy podatkowego."
+}

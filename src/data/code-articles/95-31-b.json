@@ -1,0 +1,36 @@
+{
+  "code": "95.31.B",
+  "name": "Naprawa blacharsko-lakiernicza oraz konserwacja pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.31.B obejmuje usługi blacharsko-lakiernicze — prostowanie karoserii po kolizjach, wymianę elementów blacharskich, lakierowanie i konserwację antykorozyjną pojazdów osobowych, dostawczych i ciężarowych. Pasuje dla warsztatów blacharskich, lakierni i firm zajmujących się naprawami powypadkowymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Warsztat blacharski",
+      "use": "Prostuje uszkodzone karoserie, spawa i wymienia elementy nadwozia."
+    },
+    {
+      "persona": "Lakiernik samochodowy",
+      "use": "Lakieruje pojazdy w komorach lakierniczych, dobiera kolory i wykonuje retusze."
+    },
+    {
+      "persona": "Warsztat napraw powypadkowych",
+      "use": "Łączy blacharkę i lakiernictwo, współpracuje z firmami ubezpieczeniowymi."
+    },
+    {
+      "persona": "Firma konserwacji antykorozyjnej",
+      "use": "Wykonuje konserwacje podwozia, woski i zabezpieczenia karoserii."
+    }
+  ],
+  "businessExamples": [
+    "Warsztat blacharsko-lakierniczy z kompletną komorą lakierniczą",
+    "Firma napraw powypadkowych obsługująca ubezpieczycieli",
+    "Lakiernia specjalistyczna z lakierowaniem pojazdów zabytkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 95.31.B dla mechanicznych napraw silników i zawieszenia — to kategoria 95.31.A (naprawa mechaniczna pojazdów).",
+    "Pomylenie z 95.31.C (detailing) — czyszczenie i polerowanie to nie jest naprawa blacharska."
+  ],
+  "taxNotes": "Współpraca z towarzystwami ubezpieczeniowymi wymaga rozliczeń bezgotówkowych i specyficznych procedur. Wybór formy opodatkowania zależy od skali zatrudnienia i materiałów. Stawki sprawdź u doradcy podatkowego."
+}

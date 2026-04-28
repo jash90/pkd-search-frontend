@@ -1,0 +1,36 @@
+{
+  "code": "46.13.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową drewna i materiałów budowlanych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.13.Z obejmuje pośrednictwo w hurtowej sprzedaży drewna (tarcica, deski, palety surowe), materiałów budowlanych (cement, stal zbrojeniowa, prefabrykaty, ceramika), wyrobów stolarskich i sanitarnych. Agent zawiera kontrakty na zlecenie producentów lub dystrybutorów.",
+  "whoUsesIt": [
+    {
+      "persona": "Agent handlu drewnem",
+      "use": "Pośredniczy w sprzedaży tarcicy między tartakami a hurtowniami i odbiorcami przemysłowymi."
+    },
+    {
+      "persona": "Przedstawiciel handlowy materiałów budowlanych",
+      "use": "Reprezentuje producenta cementu, stali lub prefabrykatów wobec dystrybutorów."
+    },
+    {
+      "persona": "Broker materiałów wykończeniowych",
+      "use": "Pośredniczy w obrocie ceramiką, glazurą, sanitariatami z fabryk do hurtowni."
+    },
+    {
+      "persona": "Agent eksportowy drewna",
+      "use": "Pośredniczy w sprzedaży drewna do odbiorców zagranicznych."
+    }
+  ],
+  "businessExamples": [
+    "Pośrednictwo w sprzedaży tarcicy do Niemiec",
+    "Agent producenta cementu",
+    "Brokerstwo prefabrykatów żelbetowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.73.Z (sprzedaż hurtowa drewna i materiałów budowlanych na własny rachunek) — agent nie kupuje towaru.",
+    "Wybór 46.13.Z zamiast 16.10.Z, gdy faktycznie firma prowadzi tartak i przerabia drewno."
+  ],
+  "taxNotes": "Działalność agencyjna rozliczana jest na podstawie prowizji. Drewno z lasów państwowych podlega systemowi LP-Drewno. Stawki sprawdź u doradcy podatkowego."
+}

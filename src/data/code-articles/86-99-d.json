@@ -1,0 +1,36 @@
+{
+  "code": "86.99.D",
+  "name": "Działalność w zakresie pozostałej opieki zdrowotnej",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.99.D obejmuje świadczenie pozostałych usług w zakresie opieki zdrowotnej, których nie można sklasyfikować w innych kategoriach działu 86 — np. działalność dietetyków, terapeutów zajęciowych, akustyków słuchu czy banków krwi. To kategoria 'parasol' dla niszowych specjalności medycznych i okołomedycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dietetyk kliniczny",
+      "use": "Prowadzi poradnictwo żywieniowe i ustala plany diety dla pacjentów."
+    },
+    {
+      "persona": "Terapeuta zajęciowy",
+      "use": "Wspomaga rehabilitację pacjentów poprzez zajęcia terapeutyczne i ergoterapię."
+    },
+    {
+      "persona": "Akustyk słuchu / protetyk słuchu",
+      "use": "Dobiera aparaty słuchowe i prowadzi badania audiometryczne."
+    },
+    {
+      "persona": "Specjalista terapii uzależnień",
+      "use": "Prowadzi sesje terapeutyczne dla osób uzależnionych poza placówką szpitalną."
+    }
+  ],
+  "businessExamples": [
+    "Poradnia dietetyczna z planami diety online",
+    "Pracownia protetyki słuchu",
+    "Gabinet terapii uzależnień"
+  ],
+  "commonMistakes": [
+    "Wybór 86.99.D zamiast właściwego, bardziej szczegółowego kodu — np. logopeda powinien wybrać 86.99.C, a nie 86.99.D.",
+    "Pomylenie z 96.04.Z (działalność usługowa związana z poprawą kondycji fizycznej) — coaching żywieniowy bez kompetencji medycznych nie jest opieką zdrowotną."
+  ],
+  "taxNotes": "Część usług medycznych korzysta ze zwolnienia z VAT (cele profilaktyczne, terapeutyczne). Forma opodatkowania zależy od skali kosztów i zatrudnienia — dietetyk pracujący samodzielnie często wybiera ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

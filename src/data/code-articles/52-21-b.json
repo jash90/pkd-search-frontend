@@ -1,0 +1,36 @@
+{
+  "code": "52.21.B",
+  "name": "Pozostała działalność usługowa wspomagająca transport lądowy",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.21.B obejmuje pozostałą działalność wspomagającą transport lądowy — m.in. eksploatację dworców kolejowych, autobusowych, parkingów, terminali, garaży, opłaty drogowe, eksploatację autostrad płatnych. To kod dla operatorów infrastruktury transportowej i parkingów.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator parkingów płatnych",
+      "use": "Zarządza parkingami miejskimi, podziemnymi i strzeżonymi w aglomeracji."
+    },
+    {
+      "persona": "Operator dworca autobusowego",
+      "use": "Eksploatuje dworzec PKS lub komercyjny terminal autobusowy."
+    },
+    {
+      "persona": "Operator autostrady płatnej",
+      "use": "Zarządza odcinkiem autostrady, pobiera opłaty i utrzymuje infrastrukturę."
+    },
+    {
+      "persona": "Operator garaży i parkingów lotniskowych",
+      "use": "Wynajmuje miejsca parkingowe na lotniskach i wokół centrów handlowych."
+    }
+  ],
+  "businessExamples": [
+    "Operator parkingów strzeżonych w mieście",
+    "Operator autostrady płatnej",
+    "Parking lotniskowy z transferem"
+  ],
+  "commonMistakes": [
+    "Wybór 52.21.B zamiast 52.21.A — pomoc drogowa i holowania mają osobny kod.",
+    "Pomylenie z 49.31.Z — operowanie autobusami miejskimi (przewóz) to inny kod, sam dworzec to działalność wspomagająca."
+  ],
+  "taxNotes": "Parkingi i opłaty drogowe są często rozliczane jako usługi z VAT. Operatorzy autostrad podlegają umowom koncesyjnym. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "32.40.Z",
+  "name": "Produkcja gier i zabawek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.40.Z obejmuje produkcję lalek, pluszaków, klocków, gier planszowych, modeli redukcyjnych, puzzli, zabawek edukacyjnych oraz urządzeń do wesołych miasteczek i automatów do gier. Nie obejmuje produkcji gier komputerowych (kod 58.21.Z) ani konsol elektronicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawca gier planszowych",
+      "use": "Projektuje, drukuje i pakuje gry planszowe — sprzedaż przez sklepy specjalistyczne i Kickstarter."
+    },
+    {
+      "persona": "Producent zabawek drewnianych",
+      "use": "Wytwarza klocki, układanki i zabawki edukacyjne z drewna lite go zgodne z normą EN 71."
+    },
+    {
+      "persona": "Manufaktura pluszaków",
+      "use": "Szyje autorskie maskotki i pluszowe zabawki dla marek lifestyle'owych i sieci sklepów."
+    },
+    {
+      "persona": "Producent modeli redukcyjnych",
+      "use": "Wytwarza modele samolotów, pojazdów i statków dla modelarzy i kolekcjonerów."
+    }
+  ],
+  "businessExamples": [
+    "Wydawnictwo gier planszowych",
+    "Manufaktura zabawek drewnianych Montessori",
+    "Producent pluszaków i maskotek B2B"
+  ],
+  "commonMistakes": [
+    "Wybór 32.40.Z zamiast 58.21.Z (działalność wydawnicza w zakresie gier komputerowych) — gry cyfrowe i mobilne to inny kod, nawet jeśli wydawane przez tę samą firmę.",
+    "Pomylenie z 47.65.Z (sprzedaż detaliczna gier i zabawek) — handel zabawkami bez ich produkcji podlega działowi 47."
+  ],
+  "taxNotes": "Producenci zabawek muszą spełniać wymogi normy EN 71 i znakowania CE, co wpływa na strukturę kosztów. Możliwe są ulgi na działalność badawczo-rozwojową przy projektowaniu nowych produktów. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "58.19.Z",
+  "name": "Pozostała działalność wydawnicza, z wyłączeniem w zakresie oprogramowania",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.19.Z obejmuje wydawanie publikacji, które nie mieszczą się w innych kategoriach — katalogów, plakatów, kart pocztowych, kalendarzy, formularzy, nut, atlasów oraz publikacji online niebędących gazetami ani czasopismami. Pasuje dla wydawców niszowych, wydawnictw kartograficznych i twórców treści cyfrowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawca kalendarzy i plakatów",
+      "use": "Drukuje i sprzedaje kalendarze ścienne, plakaty edukacyjne i reprodukcje artystyczne."
+    },
+    {
+      "persona": "Wydawnictwo kartograficzne",
+      "use": "Wydaje mapy turystyczne, atlasy i przewodniki w wersji papierowej i cyfrowej."
+    },
+    {
+      "persona": "Wydawca nut i partytur",
+      "use": "Publikuje nuty muzyczne, śpiewniki i podręczniki muzyczne dla szkół i wykonawców."
+    },
+    {
+      "persona": "Twórca treści online (newsletter / blog premium)",
+      "use": "Prowadzi płatny newsletter lub blog z subskrypcjami w modelu treści cyfrowych."
+    }
+  ],
+  "businessExamples": [
+    "Wydawnictwo map turystycznych",
+    "Sklep z plakatami i grafikami artystycznymi",
+    "Płatny newsletter ekspercki na Substack"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 58.11.Z (wydawanie książek) — książki mają osobny, węższy kod.",
+    "Wybór 58.19.Z zamiast 58.21.Z lub 58.29.Z — wydawanie oprogramowania (gier, aplikacji) ma odrębne klasy."
+  ],
+  "taxNotes": "Niektóre publikacje (mapy, nuty, książki) mogą korzystać z obniżonej stawki VAT na prasę i książki, inne (kalendarze, plakaty) — ze stawki podstawowej. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

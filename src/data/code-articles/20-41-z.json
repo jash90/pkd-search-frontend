@@ -1,0 +1,36 @@
+{
+  "code": "20.41.Z",
+  "name": "Produkcja mydła i detergentów, środków myjących i czyszczących",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.41.Z obejmuje produkcję mydeł toaletowych i gospodarczych, proszków i płynów do prania, płynów do mycia naczyń, środków czyszczących, odplamiaczy, wybielaczy i pasta do podłóg oraz wosków. To podstawowy kod dla producentów chemii gospodarczej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent proszków do prania",
+      "use": "Wytwarza proszki, kapsułki i płyny do prania pod marką własną i private label."
+    },
+    {
+      "persona": "Wytwórca mydeł i żeli",
+      "use": "Produkuje mydła w kostkach, mydła w płynie i żele pod prysznic."
+    },
+    {
+      "persona": "Producent chemii do naczyń",
+      "use": "Wytwarza płyny i tabletki do zmywarek dla rynku konsumenckiego i HoReCa."
+    },
+    {
+      "persona": "Zakład środków czyszczących",
+      "use": "Produkuje preparaty do łazienek, kuchni i czyszczenia podłóg."
+    }
+  ],
+  "businessExamples": [
+    "Producent proszków do prania marka własna",
+    "Wytwórnia mydeł naturalnych",
+    "Zakład produkcji płynów do naczyń"
+  ],
+  "commonMistakes": [
+    "Wybór 20.41.Z dla kosmetyków pielęgnacyjnych — szampony, balsamy i kremy to 20.42.Z.",
+    "Pomylenie z 20.20.B (środki dezynfekcyjne) — preparaty z deklaracją biobójczą mają osobny kod."
+  ],
+  "taxNotes": "Chemia gospodarcza objęta jest opłatą produktową, rozszerzoną odpowiedzialnością producenta i rozporządzeniem CLP w zakresie etykietowania. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

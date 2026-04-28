@@ -1,0 +1,36 @@
+{
+  "code": "38.33.Z",
+  "name": "Pozostałe unieszkodliwianie odpadów",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.33.Z to kategoria dla form unieszkodliwiania odpadów innych niż spalanie i składowanie — np. neutralizacja chemiczna, przechowywanie odpadów radioaktywnych, biologiczne unieszkodliwianie odpadów medycznych metodą autoklawowania, immobilizacja odpadów niebezpiecznych przed składowaniem.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład neutralizacji odpadów chemicznych",
+      "use": "Stabilizuje i unieszkodliwia chemikalia metodą reakcji chemicznych."
+    },
+    {
+      "persona": "Operator dezynfekcji odpadów medycznych",
+      "use": "Sterylizuje odpady zakaźne autoklawem przed dalszym postępowaniem."
+    },
+    {
+      "persona": "Zakład immobilizacji odpadów niebezpiecznych",
+      "use": "Stabilizuje cementem odpady przed deponowaniem na składowisku."
+    },
+    {
+      "persona": "Operator składowiska odpadów radioaktywnych",
+      "use": "Przyjmuje i przechowuje odpady promieniotwórcze niskoaktywne."
+    }
+  ],
+  "businessExamples": [
+    "Stacja autoklawowania odpadów medycznych",
+    "Zakład solidyfikacji popiołów niebezpiecznych",
+    "Neutralizacja kwasów i zasad poprodukcyjnych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.31.Z (spalanie bez odzysku energii) — pozostałe metody termiczne i niefizyczne mają kod 38.33.Z.",
+    "Wybór 38.33.Z zamiast 38.22.Z, gdy proces obejmuje rzeczywisty odzysk energii lub surowców."
+  ],
+  "taxNotes": "Działalność wymaga pozwoleń zintegrowanych i specjalistycznych zezwoleń sektorowych (np. atomistyka, odpady medyczne). Wpis do BDO i opłaty środowiskowe są obowiązkowe. Stawki sprawdź u doradcy podatkowego."
+}

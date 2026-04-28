@@ -1,0 +1,36 @@
+{
+  "code": "47.76.B",
+  "name": "Sprzedaż detaliczna żywych zwierząt domowych, karmy dla zwierząt domowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.76.B dotyczy detalicznej sprzedaży żywych zwierząt domowych (psy, koty, ptaki, gryzonie, ryby, gady) oraz karmy, akcesoriów i suplementów dla zwierząt w wyspecjalizowanych sklepach zoologicznych. Sprzedaż psów i kotów rasowych podlega odrębnym przepisom o ochronie zwierząt.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu zoologicznego",
+      "use": "Sprzedaje karmę, akcesoria i drobne zwierzęta domowe (chomiki, świnki, ryby)."
+    },
+    {
+      "persona": "Sieć petshopowa",
+      "use": "Operuje punktami typu Super-Zoo, Maxi Zoo, Kakadu z pełnym asortymentem."
+    },
+    {
+      "persona": "Sklep akwarystyczny",
+      "use": "Specjalizuje się w rybach akwariowych, akwariach i akcesoriach do hodowli."
+    },
+    {
+      "persona": "Sklep dla terrarystów",
+      "use": "Oferuje gady, płazy, terraria i karmę żywą (świerszcze, karaczany)."
+    }
+  ],
+  "businessExamples": [
+    "Sklep zoologiczny z karmą i drobnymi zwierzętami",
+    "Sklep akwarystyczny z rybami i akwariami",
+    "Sklep dla terrarystów z gadami i terrariami"
+  ],
+  "commonMistakes": [
+    "Wybór 47.76.B zamiast 01.49.Z — hodowla i rozmnażanie zwierząt to osobny kod (zwierzęta z hodowli własnej).",
+    "Pomylenie z 75.00.Z (działalność weterynaryjna) — jeśli głównie świadczysz usługi weterynaryjne, sprzedaż jest dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż zwierząt podlega regulacjom ochrony zwierząt i CITES (gatunki chronione). Obowiązuje kasa fiskalna z wyjątkami. Karmy mogą mieć różne stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

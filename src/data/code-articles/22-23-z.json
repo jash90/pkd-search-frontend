@@ -1,0 +1,36 @@
+{
+  "code": "22.23.Z",
+  "name": "Produkcja drzwi i okien z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.23.Z obejmuje produkcję stolarki otworowej z tworzyw sztucznych — okien PCV, drzwi balkonowych i wejściowych, rolet, parapetów wewnętrznych, przesuwnych systemów HS i bram garażowych z tworzyw. To kod dla zakładów stolarki PCV.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent okien PCV",
+      "use": "Wytwarza okna i drzwi balkonowe z profili PVC dla budownictwa mieszkaniowego."
+    },
+    {
+      "persona": "Zakład drzwi zewnętrznych z PCV",
+      "use": "Produkuje drzwi wejściowe i tarasowe z profili wzmacnianych stalą lub aluminium."
+    },
+    {
+      "persona": "Wytwórca rolet i okiennic",
+      "use": "Produkuje rolety zewnętrzne, żaluzje i okiennice z profili PVC."
+    },
+    {
+      "persona": "Producent systemów HS i przesuwnych",
+      "use": "Wytwarza wielkogabarytowe systemy podnoszono-przesuwne dla domów jednorodzinnych."
+    }
+  ],
+  "businessExamples": [
+    "Producent okien PCV dla deweloperów",
+    "Zakład drzwi wejściowych z PCV",
+    "Wytwórnia rolet zewnętrznych"
+  ],
+  "commonMistakes": [
+    "Wybór 22.23.Z dla okien drewnianych lub aluminiowych — okna drewniane to 16.23.Z, aluminiowe 25.12.Z.",
+    "Pomylenie z 43.32.Z (instalowanie stolarki) — sam montaż okien u klienta to usługa budowlana."
+  ],
+  "taxNotes": "Stolarka otworowa objęta jest oznakowaniem CE i deklaracją właściwości użytkowych zgodnie z normą EN 14351-1. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

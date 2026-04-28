@@ -1,0 +1,36 @@
+{
+  "code": "86.97.Z",
+  "name": "Pośrednictwo związane z działalnością lekarską, dentystyczną i pozostałą działalnością w zakresie opieki zdrowotnej",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.97.Z to pośrednictwo medyczne — platformy łączące pacjentów z lekarzami (np. ZnanyLekarz), agencje turystyki medycznej, brokerzy świadczeń zdrowotnych, agencje rekrutujące personel medyczny do placówek zagranicznych. Sami lekarze i placówki używają 86.21-86.23.Z lub 86.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator platformy rezerwacji wizyt",
+      "use": "Prowadzi serwis online rezerwacji wizyt u lekarzy - pobiera prowizję od potwierdzonych wizyt."
+    },
+    {
+      "persona": "Agencja turystyki medycznej",
+      "use": "Pośredniczy w wyjazdach pacjentów na leczenie za granicę - stomatologia, chirurgia plastyczna, in vitro."
+    },
+    {
+      "persona": "Broker świadczeń zdrowotnych",
+      "use": "Negocjuje pakiety medyczne dla firm i ubezpieczycieli, łączy pracodawców z sieciami placówek."
+    },
+    {
+      "persona": "Agencja rekrutująca personel medyczny",
+      "use": "Wyszukuje lekarzy, pielęgniarki dla placówek w Polsce i za granicą, prowadzi rekrutacje branżowe."
+    }
+  ],
+  "businessExamples": [
+    "Platforma online rezerwacji wizyt lekarskich",
+    "Agencja turystyki medycznej - wyjazdy na zabiegi do Turcji",
+    "Broker pakietów medycznych dla firm ubezpieczeniowych"
+  ],
+  "commonMistakes": [
+    "Wybór 86.97.Z dla działalności samego lekarza/placówki — pośrednictwo to inna działalność niż świadczenie usług medycznych.",
+    "Pomylenie z 78.10.Z (wyszukiwanie miejsc pracy) — agencje pracy medycznej mogą używać 78.10.Z, jeśli to ich główna działalność."
+  ],
+  "taxNotes": "Usługi pośrednictwa medycznego zwykle nie korzystają ze zwolnienia VAT (świadczenia w łańcuchu medycznym są zwolnione, ale pośrednictwo organizacyjne zwykle podlega VAT). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

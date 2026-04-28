@@ -1,0 +1,36 @@
+{
+  "code": "46.83.Z",
+  "name": "Sprzedaż hurtowa drewna, materiałów budowlanych i wyposażenia sanitarnego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.83.Z obejmuje sprzedaż hurtową drewna i wyrobów drewnopodobnych, materiałów budowlanych (cement, cegły, betony, izolacje, tynki, farby), stolarki okiennej i drzwiowej oraz wyposażenia sanitarnego (umywalki, wanny, baterie) — do hurtowni budowlanych, wykonawców i marketów DIY.",
+  "whoUsesIt": [
+    {
+      "persona": "Skład materiałów budowlanych",
+      "use": "Prowadzi sprzedaż hurtową cementu, betonu, izolacji i kruszyw dla wykonawców."
+    },
+    {
+      "persona": "Hurtownia drewna",
+      "use": "Sprzedaje tarcicę, płyty drewnopodobne i panele do stolarni i firm budowlanych."
+    },
+    {
+      "persona": "Dystrybutor wyposażenia łazienek",
+      "use": "Zaopatruje sklepy sanitarne w ceramikę, baterie i prysznice."
+    },
+    {
+      "persona": "Hurtownia stolarki",
+      "use": "Sprzedaje hurtowo okna i drzwi do firm budowlanych i deweloperskich."
+    }
+  ],
+  "businessExamples": [
+    "Skład budowlany z cementem, kruszywami i izolacjami",
+    "Hurtownia drewna i płyt OSB dla stolarzy",
+    "Dystrybutor ceramiki sanitarnej dla salonów łazienkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.83.Z dla sprzedaży detalicznej w markecie DIY — właściwy jest 47.52.Z.",
+    "Pomylenie z 46.84.Z (wyroby metalowe i hydraulika) — to dwa różne podklasy."
+  ],
+  "taxNotes": "Sprzedaż materiałów budowlanych podlega standardowym stawkom VAT (z wyjątkami dla budownictwa mieszkaniowego). Stawki sprawdź u doradcy podatkowego."
+}

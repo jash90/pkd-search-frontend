@@ -1,0 +1,36 @@
+{
+  "code": "60.10.Z",
+  "name": "Nadawanie programów radiofonicznych i dystrybucja nagrań dźwiękowych",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 60.10.Z obejmuje nadawanie programów radiowych w eterze (FM, DAB+) i online (radio internetowe, podcasty z modelem nadawczym), a także dystrybucję nagrań dźwiękowych na platformach streamingowych. To kod dla rozgłośni radiowych, internetowych radiostacji i agregatorów audio.",
+  "whoUsesIt": [
+    {
+      "persona": "Rozgłośnia radiowa FM",
+      "use": "Nadaje program radiowy z koncesją KRRiT na pasmo regionalne lub ogólnopolskie — utrzymanie z reklam."
+    },
+    {
+      "persona": "Operator radia internetowego",
+      "use": "Prowadzi rozgłośnię nadającą wyłącznie online — model utrzymania z reklam audio i subskrypcji."
+    },
+    {
+      "persona": "Wydawca podcastów",
+      "use": "Produkuje i dystrybuuje serie podcastowe na platformach (Spotify, Apple Podcasts) — model reklamowy lub subskrypcyjny."
+    },
+    {
+      "persona": "Operator audiobooków",
+      "use": "Wydaje i dystrybuuje audiobooki na platformach streamingowych i własnym serwisie subskrypcyjnym."
+    }
+  ],
+  "businessExamples": [
+    "Rozgłośnia regionalna na paśmie FM",
+    "Wydawca podcastów biznesowych",
+    "Platforma audiobooków subskrypcyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 60.10.Z zamiast 59.20.Z (działalność w zakresie nagrań dźwiękowych) — samo studio nagraniowe i produkcja muzyki bez nadawania to inny kod.",
+    "Pomylenie z 60.20.Z (nadawanie programów telewizyjnych) — emisja telewizji online, nawet z dużą zawartością audio, podlega kodowi telewizyjnemu."
+  ],
+  "taxNotes": "Działalność nadawcza wymaga koncesji KRRiT (dla nadawania w eterze) i podlega regulacjom audiowizualnym. Sprzedaż reklam radiowych rozliczana jest na zasadach ogólnych VAT. Stawki sprawdź u doradcy podatkowego."
+}

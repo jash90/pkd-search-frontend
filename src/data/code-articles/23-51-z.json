@@ -1,0 +1,36 @@
+{
+  "code": "23.51.Z",
+  "name": "Produkcja cementu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.51.Z obejmuje produkcję klinkieru cementowego oraz cementów portlandzkich, hutniczych, glinowych i specjalistycznych w zakładach cementowych z piecami obrotowymi. To bardzo kapitałochłonna działalność wielkiej skali, kluczowa dla budownictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Cementownia",
+      "use": "Wypala klinkier z mączki surowcowej i miele go z dodatkami na cementy CEM I-V."
+    },
+    {
+      "persona": "Producent cementów specjalnych",
+      "use": "Wytwarza cementy szybkowiążące, glinowe i odporne na siarczany dla zastosowań specjalnych."
+    },
+    {
+      "persona": "Wytwórca cementu hutniczego",
+      "use": "Produkuje cementy z dużym udziałem żużla wielkopiecowego o niskim śladzie węglowym."
+    },
+    {
+      "persona": "Mielarnia cementu (grinding station)",
+      "use": "Importuje klinkier i mieli go na cementy zgodne z normą EN 197-1."
+    }
+  ],
+  "businessExamples": [
+    "Cementownia z piecem obrotowym",
+    "Mielarnia cementu w porcie",
+    "Producent cementu glinowego ognioodpornego"
+  ],
+  "commonMistakes": [
+    "Wybór 23.51.Z dla produkcji betonu — beton towarowy i prefabrykaty to 23.63.Z lub 23.61.Z.",
+    "Pomylenie z 23.52.Z (wapno i gips) — wapno hydratyzowane i gips mają osobny kod."
+  ],
+  "taxNotes": "Cementownie objęte są systemem ETS, regulacjami CBAM oraz wymaganiami BAT/IPPC. Wybór formy opodatkowania zależy od skali i powiązań kapitałowych. Stawki sprawdź u doradcy podatkowego."
+}

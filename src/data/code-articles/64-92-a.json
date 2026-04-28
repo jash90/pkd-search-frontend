@@ -1,0 +1,36 @@
+{
+  "code": "64.92.A",
+  "name": "Działalność lombardów",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.92.A obejmuje działalność lombardów — udzielanie pożyczek pod zastaw ruchomości (biżuterii, elektroniki, pojazdów) i sprzedaż przedmiotów niewykupionych przez klientów w terminie. Pasuje dla stacjonarnych i internetowych lombardów oraz sieci lombardowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator lombardu stacjonarnego",
+      "use": "Prowadzi punkt zastawniczy — przyjmuje rzeczy w zastaw i udziela pożyczek krótkoterminowych."
+    },
+    {
+      "persona": "Lombard internetowy",
+      "use": "Świadczy usługi pożyczek pod zastaw zdalnie — z dostawą i wyceną online."
+    },
+    {
+      "persona": "Sieć lombardowa",
+      "use": "Prowadzi sieć punktów lombardowych pod jedną marką w wielu miastach."
+    },
+    {
+      "persona": "Lombard motoryzacyjny",
+      "use": "Specjalizuje się w pożyczkach pod zastaw samochodów z umową przewłaszczenia lub sprzedaży zwrotnej."
+    }
+  ],
+  "businessExamples": [
+    "Lokalny lombard stacjonarny",
+    "Sieciowy lombard z centralnym systemem wyceny",
+    "Lombard motoryzacyjny pod zastaw samochodów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.92.B (pozostałe formy udzielania kredytów) — pożyczki bez zastawu rzeczy mają osobną klasę.",
+    "Wybór 64.92.A zamiast 47.79.Z (sprzedaż detaliczna używanych towarów) — komis i sklep z używanymi rzeczami to inna kategoria, jeśli brak elementu pożyczkowego."
+  ],
+  "taxNotes": "Lombardy podlegają ustawie o lombardach (limit kosztów pozaodsetkowych, obowiązki rejestracyjne). Sprzedaż przedmiotów niewykupionych może być rozliczana na zasadach VAT marży. Stawki sprawdź u doradcy podatkowego."
+}

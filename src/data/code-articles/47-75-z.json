@@ -1,0 +1,36 @@
+{
+  "code": "47.75.Z",
+  "name": "Sprzedaż detaliczna kosmetyków i artykułów toaletowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.75.Z obejmuje detaliczną sprzedaż kosmetyków, perfum, środków higieny, mydeł, szamponów i artykułów toaletowych w wyspecjalizowanych sklepach. To kod dla drogerii, perfumerii, salonów kosmetycznych ze sprzedażą i sieci typu Rossmann/Hebe.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel drogerii",
+      "use": "Prowadzi drogerię z kosmetykami, środkami higieny i artykułami codziennego użytku."
+    },
+    {
+      "persona": "Franczyzobiorca sieci drogeryjnej",
+      "use": "Operuje punktem typu Rossmann, Hebe, Super-Pharm w galerii handlowej."
+    },
+    {
+      "persona": "Perfumeria niszowa",
+      "use": "Sprzedaje selekcjonowane perfumy niszowe i kosmetyki premium."
+    },
+    {
+      "persona": "Sklep z kosmetykami naturalnymi",
+      "use": "Oferuje kosmetyki bio, wegańskie i pielęgnację naturalną."
+    }
+  ],
+  "businessExamples": [
+    "Drogeria osiedlowa",
+    "Perfumeria niszowa z selekcjonowanymi markami",
+    "Sklep z kosmetykami naturalnymi i mydłami rzemieślniczymi"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.73.Z — leki i kosmetyki o działaniu leczniczym należą do apteki, nie drogerii.",
+    "Wybór 47.75.Z zamiast 96.02.Z, jeśli głównie świadczysz usługi kosmetyczne, a sprzedaż jest dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i odpowiednim limitom VAT. Kosmetyki objęte są standardową stawką VAT. Stawki sprawdź u doradcy podatkowego."
+}

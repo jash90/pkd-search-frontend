@@ -1,0 +1,36 @@
+{
+  "code": "47.12.Z",
+  "name": "Pozostała sprzedaż detaliczna niewyspecjalizowana",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.12.Z obejmuje sklepy z różnorodnym asortymentem niespożywczym, w których nie przeważa żywność — np. domy towarowe, sklepy z artykułami przemysłowymi, sklepy wszystko-za-pięć, bazary i targowiska. Sklepy z przewagą żywności klasyfikowane są pod 47.11.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel domu towarowego",
+      "use": "Prowadzi sklep wielobranżowy z odzieżą, AGD, kosmetykami i artykułami domowymi."
+    },
+    {
+      "persona": "Operator sklepu wszystko-za-pięć",
+      "use": "Prowadzi punkt z tanim, niespożywczym asortymentem (np. sieć Pepco, Action, TEDi)."
+    },
+    {
+      "persona": "Stoiskowy sprzedawca bazarowy",
+      "use": "Sprzedaje na bazarze różnorodne artykuły przemysłowe bez przewagi żywności."
+    },
+    {
+      "persona": "Sklep z artykułami sezonowymi",
+      "use": "Operuje sezonowymi punktami z dekoracjami świątecznymi, ogrodowymi czy plażowymi."
+    }
+  ],
+  "businessExamples": [
+    "Dom towarowy z wielokategorialnym asortymentem",
+    "Sklep dyskontowy typu Pepco lub Action",
+    "Stoisko bazarowe z artykułami przemysłowymi"
+  ],
+  "commonMistakes": [
+    "Wybór 47.12.Z dla sklepu z przewagą żywności — wtedy właściwy jest 47.11.Z.",
+    "Pomylenie z 47.91.Z (sprzedaż przez Internet) — 47.12.Z to sprzedaż stacjonarna."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej. Forma opodatkowania zależy od skali — drobni handlowcy często wybierają ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

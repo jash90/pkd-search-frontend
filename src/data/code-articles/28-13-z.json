@@ -1,0 +1,36 @@
+{
+  "code": "28.13.Z",
+  "name": "Produkcja pozostałych pomp i sprężarek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.13.Z obejmuje produkcję pomp i sprężarek do zastosowań ogólnych i przemysłowych — pomp wodnych, odśrodkowych, próżniowych, zatapialnych, dozujących, perystaltycznych, sprężarek tłokowych, śrubowych, spiralnych, dmuchaw oraz wentylatorów ciśnieniowych. To kod dla wytwórców urządzeń przepływowych dla wody, gazu i cieczy procesowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent pomp wodnych",
+      "use": "Wytwarza pompy obiegowe c.o., zatapialne i hydroforowe dla wodociągów i instalacji."
+    },
+    {
+      "persona": "Wytwórca sprężarek powietrza",
+      "use": "Produkuje sprężarki tłokowe i śrubowe dla warsztatów i zakładów przemysłowych."
+    },
+    {
+      "persona": "Producent pomp dozujących",
+      "use": "Wytwarza pompy membranowe i perystaltyczne dla branży chemicznej i farmaceutycznej."
+    },
+    {
+      "persona": "Wytwórca pomp próżniowych",
+      "use": "Produkuje pompy próżniowe dla laboratoriów, pakowania i procesów technologicznych."
+    }
+  ],
+  "businessExamples": [
+    "Producent pomp obiegowych dla c.o.",
+    "Wytwórnia sprężarek śrubowych dla przemysłu",
+    "Producent pomp dozujących dla branży chemicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 28.13.Z zamiast 28.12.Z (produkcja sprzętu hydraulicznego i pneumatycznego), gdy zakład wytwarza pompy stosowane w napędach hydraulicznych — siłowe pompy hydrauliczne to 28.12.Z.",
+    "Pomylenie z 28.25.Z (produkcja przemysłowych urządzeń chłodniczych i wentylacyjnych) — wentylatory osiowe i klimatyzacja to 28.25.Z."
+  ],
+  "taxNotes": "Produkcja pomp i sprężarek objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

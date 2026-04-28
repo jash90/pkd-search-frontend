@@ -1,0 +1,36 @@
+{
+  "code": "49.50.B",
+  "name": "Transport rurociągowy pozostałych towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.50.B dotyczy transportu rurociągowego pozostałych towarów — ropy naftowej, produktów rafinacji ropy, wody, ścieków, zawiesin (np. węgla brunatnego) oraz innych substancji ciekłych i półpłynnych. To kod dla operatorów rurociągów paliwowych, wodociągowych i tłoczni.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator rurociągu naftowego",
+      "use": "Przesyła ropę naftową rurociągami magistralnymi (np. PERN)."
+    },
+    {
+      "persona": "Operator rurociągu produktowego",
+      "use": "Transportuje paliwa rafinowane (benzynę, ON) do baz paliwowych."
+    },
+    {
+      "persona": "Spółka wodociągowa (przesył)",
+      "use": "Przesyła wodę pitną siecią magistralną do gmin (przesył, nie dystrybucja)."
+    },
+    {
+      "persona": "Operator tłoczni",
+      "use": "Eksploatuje stacje pompowe, tłocznie ropy lub wody na rurociągach."
+    }
+  ],
+  "businessExamples": [
+    "Operator rurociągu naftowego międzynarodowego",
+    "Spółka przesyłu paliw rafinowanych",
+    "Operator rurociągu wody dla aglomeracji"
+  ],
+  "commonMistakes": [
+    "Wybór 49.50.B zamiast 49.50.A — transport gazu ma osobny kod (49.50.A).",
+    "Pomylenie z 36.00.Z — pobór, uzdatnianie i dostarczanie wody odbiorcom końcowym to osobny kod sektora wodociągowego."
+  ],
+  "taxNotes": "Działalność regulowana — wymagane koncesje URE, decyzje środowiskowe i nadzór UDT. Stawki sprawdź u doradcy podatkowego."
+}

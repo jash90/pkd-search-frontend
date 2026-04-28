@@ -1,0 +1,36 @@
+{
+  "code": "46.34.B",
+  "name": "Sprzedaż hurtowa napojów bezalkoholowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.34.B obejmuje sprzedaż hurtową napojów bezalkoholowych — wody mineralnej, soków, napojów gazowanych, energetyków, izotoników — do sklepów, gastronomii i automatów. Sprzedaż napojów alkoholowych klasyfikowana jest pod 46.34.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia napojów",
+      "use": "Dostarcza wodę, soki i napoje gazowane do sklepów i restauracji."
+    },
+    {
+      "persona": "Dystrybutor energetyków",
+      "use": "Reprezentuje markę napojów energetyzujących przed sieciami stacji benzynowych."
+    },
+    {
+      "persona": "Operator automatów vendingowych",
+      "use": "Kupuje hurtowo napoje bezalkoholowe do swoich automatów w biurowcach i szkołach."
+    },
+    {
+      "persona": "Importer wód i soków premium",
+      "use": "Sprowadza wody mineralne i soki niszowe dla delikatesów i hoteli."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia napojów regionalna dla sklepów osiedlowych",
+    "Dystrybutor wód mineralnych dla biur i HoReCa",
+    "Importer napojów funkcjonalnych i energetyków"
+  ],
+  "commonMistakes": [
+    "Wybór 46.34.B zamiast 46.34.A, gdy w asortymencie są też napoje alkoholowe — wtedy potrzebny jest 46.34.A z koncesją.",
+    "Pomylenie z 47.25.Z (sprzedaż detaliczna napojów) — 46.34.B to handel hurtowy."
+  ],
+  "taxNotes": "Napoje słodzone podlegają opłacie cukrowej (od 2021 r.) — należy ją uwzględnić w rozliczeniach. Stawki VAT są zróżnicowane (woda, soki, napoje gazowane). Stawki sprawdź u doradcy podatkowego."
+}

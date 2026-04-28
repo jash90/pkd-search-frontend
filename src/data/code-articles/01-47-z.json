@@ -1,0 +1,36 @@
+{
+  "code": "01.47.Z",
+  "name": "Chów i hodowla drobiu",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.47.Z obejmuje chów kur (nieśnych i mięsnych), indyków, kaczek, gęsi, perlic, przepiórek oraz produkcję jaj konsumpcyjnych i wylęgowych. Polska jest największym producentem mięsa drobiowego w UE — kod ten jest jednym z najczęściej rejestrowanych w sektorze rolnym.",
+  "whoUsesIt": [
+    {
+      "persona": "Ferma brojlerów",
+      "use": "Prowadzi tucz kurcząt rzeźnych w cyklu kontraktowym z zakładami drobiarskimi."
+    },
+    {
+      "persona": "Hodowca kur niosek",
+      "use": "Produkuje jaja konsumpcyjne (klatki, ściółka, wolny wybieg, BIO) z odbiorem do pakowni."
+    },
+    {
+      "persona": "Producent gęsi i indyków",
+      "use": "Hoduje gęsi owsiane lub indyki ciężkie na rynek krajowy i eksport."
+    },
+    {
+      "persona": "Mała ferma drobiowa BIO",
+      "use": "Prowadzi ekstensywny chów na wolnym wybiegu, sprzedaje jaja i tuszki bezpośrednio konsumentom."
+    }
+  ],
+  "businessExamples": [
+    "Ferma brojlerów z 50 tys. ptaków",
+    "Producent jaj wolnowybiegowych",
+    "Hodowca gęsi owsianej"
+  ],
+  "commonMistakes": [
+    "Wybór 01.47.Z zamiast 10.12.Z, gdy działalność polega na uboju i rozbiorze drobiu — to przetwórstwo, nie hodowla.",
+    "Pomylenie z 01.49.Z (pozostałe zwierzęta), gdy hoduje się ptaki ozdobne lub egzotyczne — drób użytkowy ma własny kod."
+  ],
+  "taxNotes": "Chów drobiu zwykle jest działalnością rolniczą objętą podatkiem rolnym, ale duże fermy przemysłowe (powyżej progu DJP) stanowią działy specjalne produkcji rolnej. Obowiązują też ścisłe wymogi bioasekuracji (HPAI) i IRZ. Stawki sprawdź u doradcy podatkowego."
+}

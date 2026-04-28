@@ -1,0 +1,36 @@
+{
+  "code": "95.25.Z",
+  "name": "Naprawa i konserwacja zegarów, zegarków oraz biżuterii",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.25.Z obejmuje usługi zegarmistrzowskie i jubilerskie w zakresie naprawy — wymianę baterii, mechanizmów, czyszczenie, regulację zegarków i zegarów oraz naprawy biżuterii (rozciąganie, lutowanie, czyszczenie ultradźwiękowe). Pasuje dla jubilerów, zegarmistrzów i niezależnych serwisów.",
+  "whoUsesIt": [
+    {
+      "persona": "Zegarmistrz",
+      "use": "Naprawia mechanizmy zegarków, wymienia baterie, paski i elementy konstrukcji."
+    },
+    {
+      "persona": "Jubiler-renowator",
+      "use": "Naprawia uszkodzoną biżuterię, czyści ultradźwiękowo i przerabia stare wzory."
+    },
+    {
+      "persona": "Serwis zegarków luksusowych",
+      "use": "Specjalizuje się w naprawie zegarków marek premium i mechanizmów szwajcarskich."
+    },
+    {
+      "persona": "Punkt jubilersko-zegarmistrzowski w galerii",
+      "use": "Łączy szybkie naprawy z drobną sprzedażą akcesoriów zegarmistrzowskich."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia zegarmistrzowska z naprawą zegarków szwajcarskich",
+    "Mały punkt jubilerski z wymianą baterii i czyszczeniem biżuterii",
+    "Renowator antycznych zegarów ściennych"
+  ],
+  "commonMistakes": [
+    "Wybór 95.25.Z dla sprzedaży biżuterii i zegarków — handel detaliczny to 47.77.Z (sprzedaż detaliczna zegarków, zegarów i biżuterii).",
+    "Pomylenie z 32.12.Z (produkcja wyrobów jubilerskich) — wytwarzanie biżuterii na zamówienie to inna kategoria niż naprawa istniejącej."
+  ],
+  "taxNotes": "Obrót metalami szlachetnymi i wyrobami jubilerskimi podlega szczególnym przepisom dotyczącym ewidencji. Stawki sprawdź u doradcy podatkowego."
+}

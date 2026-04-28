@@ -1,0 +1,36 @@
+{
+  "code": "30.20.Z",
+  "name": "Produkcja lokomotyw kolejowych oraz taboru szynowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.20.Z obejmuje produkcję lokomotyw spalinowych i elektrycznych, wagonów osobowych i towarowych, zespołów trakcyjnych (EZT, SZT), tramwajów oraz pojazdów metra. To wąsko wyspecjalizowany kod używany przez zakłady taboru szynowego oraz firmy modernizujące pojazdy kolejowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład taboru kolejowego",
+      "use": "Produkuje EZT i lokomotywy dla przewoźników krajowych i zagranicznych w przetargach publicznych."
+    },
+    {
+      "persona": "Producent tramwajów",
+      "use": "Wytwarza nowe tramwaje niskopodłogowe dla operatorów miejskich (MPK, ZTM, Tramwaje Śląskie)."
+    },
+    {
+      "persona": "Zakład modernizacji wagonów",
+      "use": "Wykonuje gruntowne modernizacje wagonów osobowych — wymiana wnętrz, układów napędowych, systemów ATO."
+    },
+    {
+      "persona": "Producent wagonów towarowych",
+      "use": "Buduje wagony cysternowe, węglarki, platformy intermodalne dla operatorów cargo."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka EZT dla PKP Intercity",
+    "Producent tramwajów dla aglomeracji",
+    "Zakład modernizacji wagonów pasażerskich"
+  ],
+  "commonMistakes": [
+    "Wybór 30.20.Z zamiast 33.17.Z (naprawa pozostałego sprzętu transportowego) — sam serwis i naprawa taboru bez nowej produkcji to inny kod.",
+    "Pomylenie z 25.11.Z (konstrukcje metalowe) — produkcja samych części stalowych dostarczanych jako podzespół to inna klasyfikacja."
+  ],
+  "taxNotes": "Sprzedaż taboru często odbywa się w ramach zamówień publicznych z mechanizmem podzielonej płatności (split payment) i specyficznymi wymogami fakturowania. Możliwe są ulgi na działalność badawczo-rozwojową przy projektowaniu nowych konstrukcji. Stawki sprawdź u doradcy podatkowego."
+}

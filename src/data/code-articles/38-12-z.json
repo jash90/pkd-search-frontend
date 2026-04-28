@@ -1,0 +1,36 @@
+{
+  "code": "38.12.Z",
+  "name": "Zbieranie odpadów niebezpiecznych",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.12.Z dotyczy zbierania i transportu odpadów niebezpiecznych — zużytych olejów, akumulatorów, baterii, świetlówek, leków, odpadów medycznych, chemikaliów, odpadów zawierających azbest. Działalność wymaga specjalistycznych zezwoleń i procedur zgodnych z ustawą o odpadach.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma odbioru odpadów chemicznych",
+      "use": "Zbiera odpady niebezpieczne z zakładów przemysłowych i laboratoriów."
+    },
+    {
+      "persona": "Operator zbiórki odpadów medycznych",
+      "use": "Odbiera odpady ze szpitali, przychodni i gabinetów stomatologicznych."
+    },
+    {
+      "persona": "Punkt zbiórki zużytego sprzętu elektronicznego",
+      "use": "Skupuje akumulatory, świetlówki, ZSEE od konsumentów i firm."
+    },
+    {
+      "persona": "Firma usuwania azbestu",
+      "use": "Demontuje i transportuje wyroby azbestowe z dachów i elewacji."
+    }
+  ],
+  "businessExamples": [
+    "Zbiórka odpadów medycznych ze szpitali",
+    "Punkt skupu zużytych akumulatorów ołowiowych",
+    "Transport odpadów azbestowych ADR"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.11.Z (odpady inne niż niebezpieczne) — kluczowy jest kod odpadu zgodnie z katalogiem (gwiazdka oznacza odpad niebezpieczny).",
+    "Wybór 38.12.Z zamiast 38.22.Z (przetwarzanie odpadów niebezpiecznych), gdy firma faktycznie unieszkodliwia, a nie tylko zbiera."
+  ],
+  "taxNotes": "Zbiórka odpadów niebezpiecznych wymaga zezwolenia, wpisu do BDO oraz spełnienia wymogów ADR przy transporcie. Branża podlega rozliczeniom środowiskowym i opłatom marszałkowskim. Stawki sprawdź u doradcy podatkowego."
+}

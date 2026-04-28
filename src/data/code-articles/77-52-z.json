@@ -1,0 +1,36 @@
+{
+  "code": "77.52.Z",
+  "name": "Pośrednictwo w wynajmie i dzierżawie pozostałych dóbr materialnych oraz niefinansowych wartości niematerialnych i prawnych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.52.Z obejmuje pośrednictwo w wynajmie i dzierżawie pozostałych dóbr — sprzętu rekreacyjnego, maszyn przemysłowych, pojazdów ciężarowych, IP, znaków towarowych. To kod dla platform marketplace, brokerów i pośredników nieobjętych klasą 77.51.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Platforma marketplace wynajmu sprzętu",
+      "use": "Łączy wynajmujących z najemcami sprzętu (narzędzi, maszyn, sprzętu sportowego) — pobiera prowizję."
+    },
+    {
+      "persona": "Broker maszyn przemysłowych",
+      "use": "Pośredniczy w długoterminowym wynajmie maszyn produkcyjnych między dostawcami a fabrykami."
+    },
+    {
+      "persona": "Marketplace wynajmu jachtów / czarterów",
+      "use": "Agreguje oferty czarterów jachtów i pośredniczy w rezerwacjach klientów rekreacyjnych."
+    },
+    {
+      "persona": "Agent licencjonowania IP",
+      "use": "Pośredniczy w transakcjach licencyjnych znaków towarowych, patentów, know-how między stronami."
+    }
+  ],
+  "businessExamples": [
+    "Marketplace P2P wynajmu sprzętu narciarskiego i sportowego",
+    "Broker maszyn produkcyjnych dla branży przemysłowej",
+    "Platforma rezerwacji czarterów jachtów"
+  ],
+  "commonMistakes": [
+    "Wybór 77.52.Z zamiast 77.51.Z — pośrednictwo w wynajmie samochodów osobowych i kamperów ma osobny kod 77.51.Z.",
+    "Pomylenie z 77.39.Z — gdy firma sama wynajmuje sprzęt (a nie pośredniczy między stronami), właściwszy jest 77.39.Z."
+  ],
+  "taxNotes": "Pośrednictwo w wynajmie podlega standardowej stawce VAT. Wynagrodzenie najczęściej ma formę prowizji. Możliwy ryczałt według właściwej stawki lub inne formy opodatkowania w zależności od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

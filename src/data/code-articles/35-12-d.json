@@ -1,0 +1,36 @@
+{
+  "code": "35.12.D",
+  "name": "Energetyka biogazowa",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.D obejmuje produkcję energii elektrycznej z biogazu — gazu powstającego w procesie fermentacji materii organicznej (gnojowicy, kiszonek, odpadów spożywczych, osadów ściekowych). Kategoria dotyczy zarówno biogazowni rolniczych, jak i przemysłowych instalacji przy oczyszczalniach czy składowiskach odpadów.",
+  "whoUsesIt": [
+    {
+      "persona": "Rolnik prowadzący biogazownię",
+      "use": "Produkuje energię z gnojowicy i kiszonki kukurydzy z własnego gospodarstwa."
+    },
+    {
+      "persona": "Operator biogazowni przemysłowej",
+      "use": "Przetwarza odpady z zakładów spożywczych na biogaz i produkuje prąd."
+    },
+    {
+      "persona": "Zakład komunalny",
+      "use": "Wykorzystuje biogaz ze składowiska lub oczyszczalni do generacji energii."
+    },
+    {
+      "persona": "Spółka inwestycyjna OZE",
+      "use": "Buduje i eksploatuje biogazownie w modelu długoterminowych umów odbioru energii."
+    }
+  ],
+  "businessExamples": [
+    "Biogazownia rolnicza 0,5 MW przy gospodarstwie",
+    "Elektrownia biogazowa przy oczyszczalni ścieków",
+    "Mikrobiogazownia z odpadów restauracyjnych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.21.Z (wytwarzanie paliw gazowych), gdy firma produkuje biometan do zatłaczania do sieci, a nie energię elektryczną.",
+    "Wybór 35.12.D zamiast 38.21.Z (odzysk surowców), gdy główną działalnością jest przetwarzanie odpadów, a energia to produkt uboczny."
+  ],
+  "taxNotes": "Biogazownie korzystają z systemu aukcyjnego OZE, świadectw pochodzenia oraz preferencji w zakresie odbioru energii. Surowce rolnicze i odpadowe wpływają na rozliczenia VAT i CIT. Stawki sprawdź u doradcy podatkowego."
+}

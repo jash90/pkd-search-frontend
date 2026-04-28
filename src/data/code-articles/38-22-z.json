@@ -1,0 +1,36 @@
+{
+  "code": "38.22.Z",
+  "name": "Odzysk energii",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.22.Z obejmuje odzysk energii z odpadów — głównie spalanie odpadów komunalnych i przemysłowych w spalarniach (ITPOK) z odzyskiem ciepła i prądu, oraz produkcję paliwa alternatywnego RDF/SRF. To rosnący sektor w polityce gospodarki obiegu zamkniętego.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator spalarni odpadów ITPOK",
+      "use": "Spala odpady komunalne z odzyskiem energii cieplnej i elektrycznej."
+    },
+    {
+      "persona": "Producent paliwa alternatywnego RDF",
+      "use": "Przetwarza odpady wysokokaloryczne na paliwo dla cementowni."
+    },
+    {
+      "persona": "Cementownia współspalająca odpady",
+      "use": "Wykorzystuje RDF/SRF jako substytut paliw kopalnych w piecu cementowym."
+    },
+    {
+      "persona": "Operator instalacji termicznej w przemyśle",
+      "use": "Spala odpady własne lub przyjmowane z odzyskiem ciepła technologicznego."
+    }
+  ],
+  "businessExamples": [
+    "Spalarnia odpadów komunalnych z ciepłownią",
+    "Zakład produkcji paliwa RDF",
+    "Współspalanie w cementowni"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.31.Z (spalanie odpadów bez odzysku energii) — kluczowy jest fakt rzeczywistego odzysku energii, nie tylko termiczne unieszkodliwienie.",
+    "Wybór 38.22.Z zamiast 35.30.Z, gdy ciepło jest produkowane głównie z paliw konwencjonalnych, a odpady to dodatek."
+  ],
+  "taxNotes": "Spalarnie z odzyskiem energii korzystają ze świadectw pochodzenia (kogeneracja, OZE w części biodegradowalnej) i wymagają pozwoleń zintegrowanych. Branża objęta jest restrykcyjnymi normami emisyjnymi. Stawki sprawdź u doradcy podatkowego."
+}

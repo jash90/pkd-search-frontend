@@ -1,0 +1,36 @@
+{
+  "code": "25.62.Z",
+  "name": "Produkcja zamków i zawiasów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.62.Z obejmuje produkcję zamków drzwiowych, kłódek, zawiasów, klamek, okuć drzwiowych, zamków samochodowych i meblowych, zamków patentowych i elektronicznych oraz wkładek bębenkowych. To kod dla wytwórców okuć i zabezpieczeń dla budownictwa, motoryzacji i meblarstwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zamków drzwiowych",
+      "use": "Wytwarza zamki wielopunktowe i wkładki bębenkowe dla branży drzwi antywłamaniowych."
+    },
+    {
+      "persona": "Wytwórca okuć meblowych",
+      "use": "Produkuje zawiasy puszkowe, prowadnice szuflad i zamki do mebli."
+    },
+    {
+      "persona": "Producent kłódek",
+      "use": "Wytwarza kłódki mosiężne, stalowe i specjalistyczne (z alarmem, szyfrowe)."
+    },
+    {
+      "persona": "Wytwórca zamków elektronicznych",
+      "use": "Produkuje zamki hotelowe RFID, biometryczne i smart-locki dla obiektów."
+    }
+  ],
+  "businessExamples": [
+    "Producent zamków antywłamaniowych do drzwi",
+    "Wytwórnia zawiasów i okuć meblowych",
+    "Producent zamków hotelowych RFID"
+  ],
+  "commonMistakes": [
+    "Wybór 25.62.Z zamiast 26.30.Z (produkcja sprzętu telekomunikacyjnego), gdy zamek jest częścią złożonego systemu kontroli dostępu z elektroniką sieciową.",
+    "Pomylenie z 25.99.Z (produkcja pozostałych gotowych wyrobów metalowych) — okucia mają dedykowany kod 25.62.Z."
+  ],
+  "taxNotes": "Produkcja zamków i okuć objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali produkcji i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

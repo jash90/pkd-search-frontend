@@ -1,0 +1,36 @@
+{
+  "code": "85.32.D",
+  "name": "Szkoły specjalne przysposabiające do pracy",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.32.D obejmuje szkoły specjalne przysposabiające do pracy — placówki dla młodzieży z niepełnosprawnością intelektualną w stopniu umiarkowanym lub znacznym, ucząca prostych czynności zawodowych i samodzielności. Wczesne wspomaganie rozwoju to inne kody (85.10 lub 85.20), a ośrodki rehabilitacyjne to sekcja Q lub Q86.",
+  "whoUsesIt": [
+    {
+      "persona": "Specjalny ośrodek szkolno-wychowawczy",
+      "use": "Prowadzi szkołę przysposabiającą do pracy dla młodzieży z niepełnosprawnością wraz z internatem i opieką."
+    },
+    {
+      "persona": "Niepubliczna szkoła specjalna",
+      "use": "Stowarzyszenie lub fundacja prowadząca szkołę przygotowującą uczniów do zatrudnienia wspomaganego."
+    },
+    {
+      "persona": "Powiat prowadzący szkołę specjalną",
+      "use": "Organ samorządowy prowadzący publiczną szkołę specjalną dla młodzieży z orzeczeniem o potrzebie kształcenia specjalnego."
+    },
+    {
+      "persona": "Szkoła zespolona z warsztatami terapii zajęciowej",
+      "use": "Placówka łącząca edukację z warsztatami terapii zajęciowej dla osób z niepełnosprawnością."
+    }
+  ],
+  "businessExamples": [
+    "Publiczna szkoła specjalna przysposabiająca do pracy",
+    "Szkoła stowarzyszenia rodziców osób z niepełnosprawnością",
+    "Specjalny ośrodek szkolno-wychowawczy z wieloma placówkami"
+  ],
+  "commonMistakes": [
+    "Wybór 85.32.D dla zwykłej branżowej szkoły I lub II stopnia — szkoły specjalne mają węższą populację uczniów (orzeczenia) i specjalne podstawy programowe.",
+    "Pomylenie z 88.10.Z (pomoc społeczna bez zakwaterowania) — warsztaty terapii zajęciowej (WTZ) bez funkcji szkoły to inny kod."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych i uprawnienia szkoły specjalnej. Subwencja oświatowa dla szkół specjalnych jest wyższa ze względu na charakter pracy. Usługi edukacyjne często zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

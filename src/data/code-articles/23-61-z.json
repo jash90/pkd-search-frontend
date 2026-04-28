@@ -1,0 +1,36 @@
+{
+  "code": "23.61.Z",
+  "name": "Produkcja wyrobów budowlanych z betonu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.61.Z obejmuje produkcję prefabrykatów betonowych — bloczków, pustaków, płyt stropowych, schodów, słupów, krawężników, kostki brukowej, rur betonowych, studni kanalizacyjnych oraz galanterii betonowej. Kluczowy kod dla branży prefabrykacji.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kostki brukowej",
+      "use": "Wytwarza kostkę betonową, krawężniki i płyty chodnikowe dla branży drogowej i deweloperów."
+    },
+    {
+      "persona": "Zakład prefabrykacji stropów",
+      "use": "Produkuje płyty stropowe HC, sprężone i belki dla budownictwa mieszkaniowego."
+    },
+    {
+      "persona": "Wytwórca rur i studni betonowych",
+      "use": "Produkuje rury, studnie kanalizacyjne i zbiorniki dla infrastruktury wodno-kanalizacyjnej."
+    },
+    {
+      "persona": "Producent bloczków i pustaków",
+      "use": "Wytwarza bloczki betonowe, fundamentowe i pustaki keramzytowe."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia kostki brukowej",
+    "Zakład prefabrykacji stropów HC",
+    "Producent studni kanalizacyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.61.Z dla betonu towarowego — masa betonowa wożona betonomieszarką to 23.63.Z.",
+    "Pomylenie z 23.69.Z lub 23.66.Z (pozostałe wyroby z betonu) — drobna galanteria i elementy małej architektury mogą mieścić się tam."
+  ],
+  "taxNotes": "Prefabrykaty betonowe wymagają oznakowania CE i deklaracji DoP zgodnie z CPR i normami EN. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

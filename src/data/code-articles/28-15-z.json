@@ -1,0 +1,36 @@
+{
+  "code": "28.15.Z",
+  "name": "Produkcja łożysk, kół zębatych, przekładni zębatych i elementów napędowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.15.Z obejmuje produkcję łożysk kulkowych i wałeczkowych, kół zębatych, przekładni mechanicznych, sprzęgieł, łańcuchów napędowych i innych elementów przeniesienia napędu. To branża dostarczająca komponenty dla niemal całego przemysłu maszynowego — od motoryzacji po energetykę.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent łożysk technicznych",
+      "use": "Wytwarza łożyska standardowe i specjalistyczne dla przemysłu maszynowego i motoryzacyjnego."
+    },
+    {
+      "persona": "Zakład produkcji przekładni",
+      "use": "Produkuje reduktory, motoreduktory i przekładnie planetarne dla automatyki przemysłowej."
+    },
+    {
+      "persona": "Wytwórca kół zębatych na zamówienie",
+      "use": "Realizuje kontraktowe zlecenia frezowania kół zębatych według dokumentacji klienta."
+    },
+    {
+      "persona": "Producent sprzęgieł i hamulców",
+      "use": "Dostarcza sprzęgła cierne, elektromagnetyczne i hamulce dla maszyn przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka łożysk dla przemysłu motoryzacyjnego",
+    "Zakład produkujący przekładnie do robotów przemysłowych",
+    "Producent łańcuchów napędowych i kół łańcuchowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.11.Z (produkcja silników i turbin) — sam silnik to inny kod, elementy napędowe do niego mogą być pod 28.15.Z.",
+    "Wybór 25.62.Z (obróbka mechaniczna elementów metalowych) zamiast 28.15.Z, gdy faktycznie produkujesz gotowe wyroby napędowe pod własną marką."
+  ],
+  "taxNotes": "Produkcja przemysłowa elementów napędowych to typowa działalność produkcyjna z wysoką kapitałochłonnością i często z amortyzacją parku maszynowego. Wybór formy opodatkowania (skala, liniowy, ryczałt) zależy od skali firmy, eksportu i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

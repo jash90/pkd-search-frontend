@@ -1,0 +1,36 @@
+{
+  "code": "01.30.Z",
+  "name": "Rozmnażanie roślin",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.30.Z obejmuje rozmnażanie roślin do celów towarowych — produkcję sadzonek, rozsad, cebulek, bulw, kłączy oraz materiału szkółkarskiego. Dotyczy zarówno roślin ozdobnych, jak i użytkowych (warzywa, drzewa owocowe, byliny). To kod typowy dla szkółek roślin i gospodarstw nasiennych dostarczających materiał startowy dalej w łańcuchu produkcji.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel szkółki roślin ozdobnych",
+      "use": "Produkuje sadzonki bylin, krzewów i drzew ozdobnych dla centrów ogrodniczych i firm urządzających zieleń."
+    },
+    {
+      "persona": "Producent rozsady warzyw",
+      "use": "Wysiewa nasiona pomidorów, papryki czy ogórków i sprzedaje gotową rozsadę gospodarstwom warzywniczym."
+    },
+    {
+      "persona": "Szkółkarz drzew owocowych",
+      "use": "Szczepi i prowadzi sadzonki jabłoni, gruszy czy czereśni dla sadowników zakładających nowe sady."
+    },
+    {
+      "persona": "Hodowca roślin doniczkowych",
+      "use": "Rozmnaża rośliny pokojowe z sadzonek pędowych lub liściowych na potrzeby kwiaciarni i hurtowni."
+    }
+  ],
+  "businessExamples": [
+    "Szkółka bylin i krzewów ozdobnych pod Warszawą",
+    "Produkcja rozsady warzyw dla gospodarstw szklarniowych",
+    "Szkółka szczepionych drzew owocowych"
+  ],
+  "commonMistakes": [
+    "Mylenie z 01.19.Z (uprawa pozostałych roślin niewieloletnich) — jeśli kupujesz sadzonki i prowadzisz uprawę kwiatów ciętych, to nie jest rozmnażanie roślin.",
+    "Mylenie z 01.29.Z (uprawa pozostałych roślin wieloletnich) — finalna uprawa drzew lub krzewów na owoc/biomasę nie jest tym samym co produkcja materiału szkółkarskiego."
+  ],
+  "taxNotes": "Działalność szkółkarska może w części kwalifikować się jako działy specjalne produkcji rolnej, co wpływa na sposób opodatkowania i obowiązki VAT (m.in. status rolnika ryczałtowego). W zależności od skali i formy stosuje się skalę, liniowy lub ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

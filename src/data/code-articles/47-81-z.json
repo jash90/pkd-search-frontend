@@ -1,0 +1,36 @@
+{
+  "code": "47.81.Z",
+  "name": "Sprzedaż detaliczna pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.81.Z obejmuje detaliczną sprzedaż samochodów osobowych, dostawczych, ciężarowych, autobusów i innych pojazdów silnikowych (z wyłączeniem motocykli) klientom indywidualnym. To kod dla salonów dealerskich, komisów samochodowych i pośredników sprzedaży aut.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu dealerskiego",
+      "use": "Sprzedaje nowe samochody jednej lub kilku marek z autoryzacją producenta."
+    },
+    {
+      "persona": "Komis samochodowy",
+      "use": "Skupuje i sprzedaje samochody używane, krajowe i sprowadzane z zagranicy."
+    },
+    {
+      "persona": "Pośrednik sprzedaży aut",
+      "use": "Działa w modelu agencyjnym — łączy kupujących i sprzedających pojazdy."
+    },
+    {
+      "persona": "Salon samochodów elektrycznych",
+      "use": "Specjalizuje się w EV, prowadzi prezentacje i jazdy próbne pojazdów elektrycznych."
+    }
+  ],
+  "businessExamples": [
+    "Salon dealerski marki samochodowej",
+    "Komis aut używanych z gwarancją",
+    "Importer aut z USA i UE"
+  ],
+  "commonMistakes": [
+    "Wybór 47.81.Z zamiast 47.83.Z — motocykle mają osobny kod (47.83.Z).",
+    "Pomylenie z 45.11.Z — w PKD 2025 sprzedaż detaliczna pojazdów ma osobny kod 47.81.Z, kontekst zależy od klasyfikacji."
+  ],
+  "taxNotes": "Sprzedaż pojazdów podlega procedurze marży VAT (przy używanych) lub standardowej stawce VAT (przy nowych). Obowiązuje rejestracja jako podatnik VAT i ewidencja sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "11.04.Z",
+  "name": "Produkcja pozostałych niedestylowanych napojów fermentowanych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.04.Z obejmuje produkcję napojów fermentowanych nienależących do win gronowych, cydru ani piwa — wermutów na bazie wina, sake (ryżowe), kombuchy alkoholowej, hard seltzers fermentowanych. To wąska kategoria dla nieklasycznych alkoholi fermentowanych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wermutów i napojów aromatyzowanych",
+      "use": "Wytwarza aromatyzowane napoje na bazie wina dla rynku koktajlowego."
+    },
+    {
+      "persona": "Wytwórca sake",
+      "use": "Produkuje rzemieślnicze sake z ryżu metodą fermentacji wielokrotnej."
+    },
+    {
+      "persona": "Manufaktura kombuchy alkoholowej",
+      "use": "Produkuje kombuchę o podwyższonej zawartości alkoholu jako napój fermentowany."
+    },
+    {
+      "persona": "Producent hard seltzerów fermentowanych",
+      "use": "Wytwarza fermentowane napoje alkoholowe niskokaloryczne na bazie cukru/słodu."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura wermutów na bazie wina",
+    "Polska sakeownia z fermentacji ryżu",
+    "Producent kombuchy alkoholowej dla retailu"
+  ],
+  "commonMistakes": [
+    "Wybór 11.04.Z zamiast 11.05.Z — piwo (z fermentacji słodu) idzie do 11.05.Z, a fermentowane napoje niesłodowe do 11.04.Z.",
+    "Pomylenie z 11.01.Z (Destylowanie alkoholi) — sake jest fermentowane (nie destylowane), więc 11.04.Z, a destylat ryżowy to 11.01.Z."
+  ],
+  "taxNotes": "Niedestylowane napoje fermentowane objęte są akcyzą i wymogami składu podatkowego. Forma opodatkowania zależy od skali i kategorii produktu. Stawki sprawdź u doradcy podatkowego."
+}

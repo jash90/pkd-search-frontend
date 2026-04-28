@@ -1,0 +1,36 @@
+{
+  "code": "09.90.Z",
+  "name": "Działalność usługowa wspomagająca pozostałe górnictwo i wydobywanie",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 09.90.Z obejmuje usługi pomocnicze dla górnictwa innego niż naftowo-gazowe — wiercenia rozpoznawcze, próbne wydobycie, odwadnianie kopalń, ekspertyzy geologiczne, prace strzałowe na zlecenie. Nie obejmuje sondowań na potrzeby budownictwa (43.13.Z) ani fizycznego wydobycia surowców. To kod dla geologów, firm wiertniczych i wykonawców prac specjalistycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Geolog na działalności",
+      "use": "Wykonuje dokumentacje geologiczne złóż, projekty robót geologicznych i nadzór nad odwiertami rozpoznawczymi."
+    },
+    {
+      "persona": "Firma wierceń rozpoznawczych",
+      "use": "Wykonuje odwierty badawcze dla kopalń węgla, miedzi, kruszyw i wód podziemnych."
+    },
+    {
+      "persona": "Wykonawca prac strzałowych",
+      "use": "Świadczy usługi minerskie w kamieniołomach i kopalniach kruszyw — od projektu po odpalenie."
+    },
+    {
+      "persona": "Serwis odwadniania kopalń",
+      "use": "Obsługuje pompownie i instalacje odwadniające w czynnych zakładach górniczych."
+    }
+  ],
+  "businessExamples": [
+    "Firma wykonująca odwierty rozpoznawcze złóż kruszyw",
+    "Geolog dokumentujący złoża dla kopalń",
+    "Wykonawca robót strzałowych w kamieniołomie"
+  ],
+  "commonMistakes": [
+    "Wybór 09.90.Z zamiast 09.10.Z — usługi dla branży naftowo-gazowej mają osobny, węższy kod.",
+    "Mylenie z 43.13.Z (wykonywanie wykopów i wierceń geologiczno-inżynierskich) — sondowania pod fundamenty budynków to budownictwo, nie górnictwo."
+  ],
+  "taxNotes": "Usługi geologiczne i wiertnicze często rozliczane są ryczałtem lub liniowo, a wykonawstwo robót strzałowych wymaga uprawnień i koncesji oraz może podlegać szczególnym regulacjom akcyzowym dla materiałów wybuchowych. Stawki sprawdź u doradcy podatkowego."
+}

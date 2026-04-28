@@ -1,0 +1,36 @@
+{
+  "code": "29.10.C",
+  "name": "Produkcja autobusów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.10.C obejmuje produkcję autobusów miejskich, międzymiastowych, turystycznych i szkolnych, w tym autobusów elektrycznych, wodorowych i hybrydowych. Polska jest jednym z liderów europejskich w produkcji autobusów, szczególnie elektrycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka autobusów miejskich",
+      "use": "Produkuje niskopodłogowe autobusy elektryczne i CNG dla komunikacji miejskiej w Europie."
+    },
+    {
+      "persona": "Producent autobusów turystycznych",
+      "use": "Wytwarza komfortowe autokary klasy turystycznej dla przewoźników międzynarodowych."
+    },
+    {
+      "persona": "Wytwórca autobusów szkolnych",
+      "use": "Robi autobusy szkolne i specjalistyczne pojazdy dla transportu uczniów i osób z niepełnosprawnościami."
+    },
+    {
+      "persona": "Zakład produkcji autobusów wodorowych",
+      "use": "Buduje autobusy z napędem wodorowym (FCEV) dla zeroemisyjnej komunikacji miejskiej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka elektrycznych autobusów miejskich dla rynku UE",
+    "Producent autokarów turystycznych klasy premium",
+    "Zakład prototypowych autobusów wodorowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.20.Z (produkcja nadwozi) — same nadwozia do autobusów na obcym podwoziu to nie 29.10.C.",
+    "Wybór 49.31.Z (transport miejski) zamiast 29.10.C — przewóz osób autobusami to usługa, nie produkcja pojazdów."
+  ],
+  "taxNotes": "Produkcja autobusów to silnie projektowy biznes z dużymi kontraktami publicznymi i finansowaniem z funduszy unijnych. Forma opodatkowania zależy od struktury kontraktów, skali i polityki eksportowej. Stawki sprawdź u doradcy podatkowego."
+}

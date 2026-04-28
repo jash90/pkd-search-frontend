@@ -1,0 +1,36 @@
+{
+  "code": "58.13.Z",
+  "name": "Wydawanie czasopism i pozostałych periodyków",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.13.Z obejmuje wydawanie czasopism, magazynów i innych periodyków (tygodników, miesięczników, kwartalników) o tematyce specjalistycznej, hobbystycznej lub branżowej — w formie papierowej i cyfrowej. Pasuje dla wydawców magazynów lifestyle, branżowych, naukowych i hobbystycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawca magazynu lifestyle",
+      "use": "Publikuje miesięcznik o modzie, urodzie, wnętrzach lub kulinariach z reklamami premium."
+    },
+    {
+      "persona": "Wydawca czasopisma naukowego",
+      "use": "Wydaje kwartalnik akademicki z recenzowanymi artykułami w modelu open access lub prenumeraty."
+    },
+    {
+      "persona": "Wydawca magazynu branżowego",
+      "use": "Tworzy periodyk skierowany do specjalistów (IT, marketing, motoryzacja) z analizami rynku."
+    },
+    {
+      "persona": "Wydawca magazynu hobbystycznego",
+      "use": "Publikuje miesięcznik dla wędkarzy, modelarzy, kolekcjonerów lub miłośników gier."
+    }
+  ],
+  "businessExamples": [
+    "Miesięcznik o wnętrzach z e-wydaniem",
+    "Kwartalnik naukowy w modelu open access",
+    "Magazyn branżowy dla specjalistów IT"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 58.12.Z (wydawanie gazet) — dzienniki i tygodniki opinii mają osobny kod.",
+    "Wybór 58.13.Z zamiast 58.19.Z (pozostała działalność wydawnicza) — katalogi reklamowe, kalendarze i pocztówki to inna klasa."
+  ],
+  "taxNotes": "Wydawanie czasopism korzysta z preferencyjnej stawki VAT na prasę. Działalność może być prowadzona na zasadach ogólnych, liniowo lub ryczałtem. Stawki sprawdź u doradcy podatkowego."
+}

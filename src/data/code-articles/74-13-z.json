@@ -1,0 +1,36 @@
+{
+  "code": "74.13.Z",
+  "name": "Działalność w zakresie projektowania wnętrz",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.13.Z obejmuje projektowanie wnętrz mieszkalnych, biurowych, gastronomicznych i komercyjnych — aranżacje, dobór materiałów, wizualizacje 3D oraz nadzór autorski. To kod dla architektów wnętrz, projektantów aranżacji i studiów interior design.",
+  "whoUsesIt": [
+    {
+      "persona": "Architekt wnętrz",
+      "use": "Projektuje wnętrza domów, mieszkań i apartamentów — od koncepcji po wizualizacje i wybór materiałów."
+    },
+    {
+      "persona": "Studio interior design",
+      "use": "Realizuje projekty komercyjne — biurowce, restauracje, hotele, butiki — z pełnym nadzorem nad wykonawstwem."
+    },
+    {
+      "persona": "Projektant aranżacji freelance",
+      "use": "Świadczy usługi projektowania metrażowego, konsultacji online i moodboardów dla klientów indywidualnych."
+    },
+    {
+      "persona": "Specjalista home staging",
+      "use": "Aranżuje wnętrza pod sprzedaż lub wynajem — zwiększa atrakcyjność ofert nieruchomości."
+    }
+  ],
+  "businessExamples": [
+    "Studio projektowe wnętrz mieszkalnych premium",
+    "Projektant aranżacji biurowych dla firm IT",
+    "Freelancerka realizująca projekty mieszkań deweloperskich"
+  ],
+  "commonMistakes": [
+    "Wybór 74.13.Z zamiast 71.11.Z — projekty z ingerencją w konstrukcję, instalacje i funkcję budynku to architektura (71.11.Z).",
+    "Pomylenie z 47.78.Z (sprzedaż detaliczna) — gdy firma głównie sprzedaje meble i dekoracje, kod handlowy jest właściwszy."
+  ],
+  "taxNotes": "Działalność projektowania wnętrz często kwalifikuje się do ryczałtu według właściwej stawki (zależnie od interpretacji) albo IP Box przy projektach chronionych prawem autorskim. Usługi projektowe podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

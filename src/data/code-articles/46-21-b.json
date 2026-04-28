@@ -1,0 +1,36 @@
+{
+  "code": "46.21.B",
+  "name": "Sprzedaż hurtowa nieprzetworzonego tytoniu i pasz dla zwierząt",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.21.B obejmuje sprzedaż hurtową nieprzetworzonego tytoniu (suszu tytoniowego) oraz pasz i karm dla zwierząt gospodarskich i domowych. Pasuje do hurtowni paszowych, dystrybutorów karmy i firm zaopatrujących gospodarstwa rolne. Sprzedaż zboża i nasion oleistych klasyfikowana jest pod 46.21.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia paszowa",
+      "use": "Dostarcza pasze treściwe i mieszanki dla gospodarstw hodowlanych i ferm."
+    },
+    {
+      "persona": "Dystrybutor karmy dla zwierząt domowych",
+      "use": "Sprzedaje hurtowo karmę dla psów, kotów i drobnych zwierząt do sklepów zoologicznych."
+    },
+    {
+      "persona": "Skup tytoniu",
+      "use": "Skupuje liście tytoniu od plantatorów i sprzedaje hurtowo do zakładów przetwórczych."
+    },
+    {
+      "persona": "Firma zaopatrzeniowa rolnictwa",
+      "use": "Prowadzi sprzedaż hurtową pasz, dodatków paszowych i premiksów."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia pasz dla ferm drobiu i trzody chlewnej",
+    "Dystrybutor karm premium dla zwierząt domowych",
+    "Skup nieprzetworzonego tytoniu od plantatorów"
+  ],
+  "commonMistakes": [
+    "Wybór 46.21.B zamiast 46.21.A dla sprzedaży zboża lub rzepaku — to dwa różne podklasy.",
+    "Pomylenie z 47.76.Z (sprzedaż detaliczna kwiatów, roślin, nasion, pasz) — 46.21.B to handel hurtowy, nie detaliczny."
+  ],
+  "taxNotes": "Handel paszami i tytoniem podlega regulacjom branżowym (rejestry, certyfikaty); VAT i forma opodatkowania zależą od skali działalności. Sprzedaż tytoniu wymaga dodatkowych zezwoleń. Stawki sprawdź u doradcy podatkowego."
+}

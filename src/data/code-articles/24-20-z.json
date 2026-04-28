@@ -1,0 +1,36 @@
+{
+  "code": "24.20.Z",
+  "name": "Produkcja rur, przewodów, kształtowników zamkniętych i łączników, ze stali",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.20.Z obejmuje produkcję rur stalowych bez szwu i ze szwem, kształtowników zamkniętych (profili pustych), przewodów rurowych precyzyjnych oraz złączek (kolan, trójników, kołnierzy, redukcji). Nie obejmuje produkcji wyrobów hutniczych w postaci surowej (24.10.Z) ani produkcji rur z metali nieżelaznych (24.4).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent rur bez szwu",
+      "use": "Wytwarza rury walcowane na gorąco i ciągnione na zimno dla przemysłu energetycznego, naftowego i kotłowego."
+    },
+    {
+      "persona": "Wytwórnia rur ze szwem (HFI/SAW)",
+      "use": "Produkuje rury spawane wzdłużnie i spiralnie dla przesyłu wody, gazu, ścieków i konstrukcji."
+    },
+    {
+      "persona": "Producent profili pustych",
+      "use": "Wytwarza kształtowniki zamknięte kwadratowe, prostokątne i okrągłe dla budownictwa i mebli stalowych."
+    },
+    {
+      "persona": "Producent łączników rurowych",
+      "use": "Wytwarza kolanka, trójniki i kołnierze stalowe dla przemysłu petrochemicznego i instalacji wysokociśnieniowych."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia rur bezszwowych dla energetyki",
+    "Producent profili stalowych dla budownictwa",
+    "Manufaktura kołnierzy i łączników kutych"
+  ],
+  "commonMistakes": [
+    "Wybór 24.20.Z zamiast 25.21.Z — produkcja grzejników i kotłów centralnego ogrzewania to odrębna kategoria, mimo użycia rur jako półproduktu.",
+    "Mylenie z 22.21.Z (produkcja płyt, arkuszy, rur i kształtowników z tworzyw sztucznych) — rury PVC i PE to nie są wyroby ze stali."
+  ],
+  "taxNotes": "Produkcja rur stalowych podlega standardowym zasadom CIT/PIT i VAT, a obrót prętami i wyrobami ze stali bywa objęty mechanizmem odwrotnego obciążenia lub split payment. Stawki sprawdź u doradcy podatkowego."
+}

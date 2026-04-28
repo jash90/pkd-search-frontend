@@ -1,0 +1,36 @@
+{
+  "code": "43.31.Z",
+  "name": "Tynkowanie",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.31.Z dotyczy wykonywania tynków wewnętrznych i zewnętrznych — tradycyjnych cementowo-wapiennych, gipsowych, dekoracyjnych, mozaikowych, akrylowych, krzemianowych, silikonowych. To podstawowy kod dla firm tynkarskich i wykończeniowców specjalizujących się w obróbce ścian.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma tynkarska maszynowa",
+      "use": "Wykonuje tynki gipsowe maszynowe w nowych budynkach mieszkalnych."
+    },
+    {
+      "persona": "Wykonawca elewacji",
+      "use": "Realizuje tynki cienkowarstwowe na ociepleniach BSO."
+    },
+    {
+      "persona": "Specjalista tynków dekoracyjnych",
+      "use": "Aplikuje weneckie tynki, beton dekoracyjny, mozaiki w wnętrzach premium."
+    },
+    {
+      "persona": "Firma od tynków renowacyjnych",
+      "use": "Stosuje tynki renowacyjne na zawilgoconych murach zabytkowych."
+    }
+  ],
+  "businessExamples": [
+    "Tynki gipsowe w bloku mieszkalnym",
+    "Elewacja silikonowa na ociepleniu",
+    "Tynki dekoracyjne w restauracji"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.34.Z (malowanie i szklenie) — sama warstwa kolorystyczna na tynku to malowanie, ale aplikacja tynku barwionego to 43.31.Z.",
+    "Wybór 43.31.Z zamiast 43.23.Z, gdy działalność dotyczy systemów ociepleniowych jako całości — wówczas właściwy jest kod izolacji."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT przy podwykonawstwie. Usługi w obiektach mieszkalnych korzystają z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "43.91.Z",
+  "name": "Roboty murarskie",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.91.Z obejmuje roboty murarskie — wznoszenie ścian z cegły, bloczków, pustaków, kamienia, betonu komórkowego, prefabrykatów. Dotyczy zarówno murarzy pracujących przy budowie domów jednorodzinnych, jak i firm wyspecjalizowanych w murach z klinkieru, kominach czy renowacji murów zabytkowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Murarz z firmą jednoosobową",
+      "use": "Stawia ściany konstrukcyjne i działowe w domach jednorodzinnych."
+    },
+    {
+      "persona": "Brygada murarska na podwykonawstwie",
+      "use": "Realizuje stany surowe budynków mieszkalnych i komercyjnych."
+    },
+    {
+      "persona": "Firma od kominów i klinkieru",
+      "use": "Specjalizuje się w murach licowych z cegły klinkierowej i kominach."
+    },
+    {
+      "persona": "Wykonawca murów kamiennych",
+      "use": "Wykonuje mury z kamienia naturalnego, w tym renowacje zabytkowe."
+    }
+  ],
+  "businessExamples": [
+    "Stan surowy domu jednorodzinnego z bloczków silikatowych",
+    "Elewacja klinkierowa z fugowaniem",
+    "Renowacja muru kamiennego w obiekcie zabytkowym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.99.Z (pozostałe specjalistyczne roboty) — fundamenty, betonowanie i zbrojenie to 43.99.Z, sama murarka to 43.91.Z.",
+    "Wybór 43.91.Z zamiast 41.00.A, gdy firma realizuje całą budowę domu jako generalny wykonawca, a murarka jest tylko jej elementem."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Usługi w obiektach mieszkalnych korzystają z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

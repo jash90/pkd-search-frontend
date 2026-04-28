@@ -1,0 +1,36 @@
+{
+  "code": "95.32.Z",
+  "name": "Naprawa i konserwacja motocykli",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.32.Z obejmuje naprawę i konserwację motocykli, skuterów, motorowerów i quadów — w tym serwisy mechaniczne, blacharskie i lakiernicze dla pojazdów dwukołowych. Pasuje dla autoryzowanych serwisów marek motocyklowych i niezależnych warsztatów motocyklowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Mechanik motocyklowy",
+      "use": "Naprawia silniki motocykli, wymienia opony i prowadzi przeglądy okresowe."
+    },
+    {
+      "persona": "Autoryzowany serwis marki motocyklowej",
+      "use": "Realizuje naprawy gwarancyjne i serwisy zalecane przez producenta."
+    },
+    {
+      "persona": "Customizer motocykli",
+      "use": "Tuninguje i przerabia motocykle według indywidualnych projektów klientów."
+    },
+    {
+      "persona": "Serwis skuterów i motorowerów",
+      "use": "Specjalizuje się w pojazdach miejskich i flotach kurierskich."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny warsztat motocyklowy z serwisem sezonowym",
+    "Autoryzowany dealer-serwis marki motocyklowej",
+    "Pracownia customizacji motocykli klasycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 95.32.Z dla rowerów elektrycznych i hulajnóg — pojazdy bez homologacji motocyklowej klasyfikują się jako 95.29.Z (naprawa pozostałych artykułów osobistych).",
+    "Pomylenie z 95.31.A (naprawa mechaniczna pojazdów silnikowych z wyłączeniem motocykli) — kluczowe rozróżnienie to kategoria pojazdu."
+  ],
+  "taxNotes": "Działalność sezonowa motocyklowa wymaga starannego planowania finansowego. Sprzedaż części motocyklowych podlega standardowym zasadom VAT i ewidencji. Stawki sprawdź u doradcy podatkowego."
+}

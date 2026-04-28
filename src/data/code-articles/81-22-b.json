@@ -1,0 +1,36 @@
+{
+  "code": "81.22.B",
+  "name": "Pozostałe sprzątanie budynków i obiektów przemysłowych, gdzie indziej niesklasyfikowane",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.22.B to specjalistyczne sprzątanie wykraczające poza rutynowe — czyszczenie elewacji, mycie okien na wysokości, czyszczenie po remontach i pożarach, pranie wykładzin i tapicerek, czyszczenie zbiorników, hal przemysłowych. Codzienne sprzątanie biur i mieszkań to 81.21.Z, a kominiarstwo to 81.22.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma alpinistyczna do mycia elewacji",
+      "use": "Myje szklane fasady wieżowców i czyści elewacje budynków metodami alpinistycznymi."
+    },
+    {
+      "persona": "Specjalista od czyszczenia po remontach",
+      "use": "Wykonuje sprzątanie końcowe budów — usuwa pył, resztki materiałów, czyści powierzchnie przed odbiorem."
+    },
+    {
+      "persona": "Serwis czyszczenia tapicerek i wykładzin",
+      "use": "Pierze meble tapicerowane, dywany, wykładziny w domach, hotelach, biurach mobilnym sprzętem."
+    },
+    {
+      "persona": "Firma sprzątająca obiekty przemysłowe",
+      "use": "Czyści hale produkcyjne, zbiorniki, posadzki przemysłowe specjalistycznymi maszynami i środkami."
+    }
+  ],
+  "businessExamples": [
+    "Firma alpinistycznego mycia okien w wieżowcach",
+    "Serwis czyszczenia tapicerek i wykładzin u klientów",
+    "Sprzątanie pobudowlane mieszkań i domów po remontach"
+  ],
+  "commonMistakes": [
+    "Wybór 81.22.B dla codziennego sprzątania biur i mieszkań — to 81.21.Z (niespecjalistyczne sprzątanie).",
+    "Pomylenie z 81.23.A (dezynfekcja, dezynsekcja, deratyzacja) — czyszczenie nie obejmuje zwalczania szkodników i mikroorganizmów."
+  ],
+  "taxNotes": "Specjalistyczne sprzątanie często wymaga sprzętu i przeszkolonych pracowników (alpinizm przemysłowy, BHP wysokościowe). Skala lub liniowy przy zatrudnianiu, ryczałt przy działalności jednoosobowej. Stawki sprawdź u doradcy podatkowego."
+}

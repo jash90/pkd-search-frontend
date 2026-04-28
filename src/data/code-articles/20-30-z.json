@@ -1,0 +1,36 @@
+{
+  "code": "20.30.Z",
+  "name": "Produkcja farb, lakierów i podobnych powłok, farb drukarskich i mas uszczelniających",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.30.Z obejmuje produkcję farb, lakierów, emalii, bejc, podkładów, gruntów, mas szpachlowych i uszczelniających, farb drukarskich oraz materiałów malarskich na bazie wody, rozpuszczalników i proszkowych. Nie obejmuje produkcji barwników i pigmentów (20.12.Z) ani produkcji atramentów piśmiennych (20.59.Z) jako głównej działalności.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent farb dekoracyjnych",
+      "use": "Wytwarza farby do wnętrz i elewacji w technologii wodorozcieńczalnej, oferuje system kolorowania POS."
+    },
+    {
+      "persona": "Wytwórnia lakierów przemysłowych",
+      "use": "Produkuje lakiery proszkowe i ciekłe dla branży meblowej, motoryzacyjnej i metalowej."
+    },
+    {
+      "persona": "Producent farb drukarskich",
+      "use": "Komponuje farby offsetowe, fleksograficzne i UV dla drukarń opakowaniowych i etykietowych."
+    },
+    {
+      "persona": "Manufaktura mas uszczelniających i klejów MS",
+      "use": "Wytwarza silikony, polisulfidy i kleje hybrydowe MS dla budownictwa i przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Producent farb wodnych do wnętrz z systemem mieszalnikowym",
+    "Wytwórnia lakierów proszkowych dla branży meblowej",
+    "Manufaktura silikonów i klejów hybrydowych MS"
+  ],
+  "commonMistakes": [
+    "Wybór 20.30.Z zamiast 20.52.Z (produkcja klejów) — kleje konstrukcyjne i biurowe mają osobną klasę PKD.",
+    "Mylenie z 47.52.Z (sprzedaż detaliczna farb) — sklep z farbami to handel, a nie produkcja chemii budowlanej."
+  ],
+  "taxNotes": "Produkcja farb i lakierów podlega rygorom REACH, CLP, dyrektywom VOC oraz akcyzie na alkohol etylowy używany w niektórych formulacjach. Stawki sprawdź u doradcy podatkowego."
+}

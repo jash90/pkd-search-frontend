@@ -1,0 +1,36 @@
+{
+  "code": "69.20.C",
+  "name": "Działalność w zakresie audytu finansowego",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 69.20.C obejmuje badanie sprawozdań finansowych, przeglądy, audyty i inne usługi atestacyjne wykonywane przez biegłych rewidentów oraz firmy audytorskie. To kod dla podmiotów wpisanych na listę PIBR uprawnionych do badania ustawowego sprawozdań.",
+  "whoUsesIt": [
+    {
+      "persona": "Biegły rewident",
+      "use": "Bada sprawozdania finansowe spółek prowadzących pełną księgowość — zgodnie z KSB i ustawą o rachunkowości."
+    },
+    {
+      "persona": "Firma audytorska Big 4",
+      "use": "Świadczy usługi audytu, przeglądów i atestacji dla dużych klientów krajowych i międzynarodowych."
+    },
+    {
+      "persona": "Mała firma audytorska",
+      "use": "Bada sprawozdania średnich spółek — alternatywa dla Big 4 dla MŚP wymagających badania."
+    },
+    {
+      "persona": "Audytor wewnętrzny / forensic",
+      "use": "Świadczy specjalistyczne usługi audytu wewnętrznego, due diligence i forensic accounting."
+    }
+  ],
+  "businessExamples": [
+    "Spółka audytorska badająca sprawozdania średnich firm",
+    "Biegły rewident prowadzący indywidualną praktykę",
+    "Firma forensic accounting dla postępowań sądowych"
+  ],
+  "commonMistakes": [
+    "Wybór 69.20.C zamiast 69.20.A — gdy biuro prowadzi tylko księgi (bez badania), właściwy jest 69.20.A.",
+    "Pomylenie z 70.22.Z (doradztwo gospodarcze) — usługi doradcze biegłego (np. modelowanie finansowe) bez funkcji atestacyjnej mieszczą się w 70.22.Z."
+  ],
+  "taxNotes": "Działalność biegłego rewidenta wymaga wpisu na listę PIBR i obowiązkowego OC. Niezależność audytorska wyklucza świadczenie wielu usług doradczych dla badanego klienta. Usługi audytu podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

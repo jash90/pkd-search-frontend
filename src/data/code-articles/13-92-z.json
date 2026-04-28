@@ -1,0 +1,36 @@
+{
+  "code": "13.92.Z",
+  "name": "Produkcja wyrobów tekstylnych dla gospodarstw domowych i gotowych artykułów wyposażenia wnętrz",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.92.Z obejmuje produkcję pościeli, ręczników, obrusów, zasłon, narzut, kołder, poduszek oraz innych gotowych artykułów tekstylnych dla domu i wyposażenia wnętrz. To kod dla manufaktur tekstyliów domowych i producentów dekoracji wnętrzarskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent pościeli",
+      "use": "Szyje komplety pościeli z perkalu, satyny i lnu pod marką własną."
+    },
+    {
+      "persona": "Wytwórca kołder i poduszek",
+      "use": "Produkuje kołdry, poduszki oraz wkłady dla retailu i hoteli."
+    },
+    {
+      "persona": "Krawiec firm zaopatrzeniowych",
+      "use": "Szyje obrusy, serwetki i bieliznę stołową dla restauracji i hoteli."
+    },
+    {
+      "persona": "Producent zasłon i firan",
+      "use": "Szyje zasłony, firany i rolety na zamówienie indywidualne i hurtowe."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura pościeli z lnu pod marką lifestyle",
+    "Producent kołder i poduszek dla hoteli",
+    "Wytwórca zasłon i firan na wymiar"
+  ],
+  "commonMistakes": [
+    "Wybór 13.92.Z zamiast 13.91.Z — produkcja tkaniny metrażowej to 13.91.Z, a uszyte z niej tekstylia to 13.92.Z.",
+    "Pomylenie z 14.21.Z (Produkcja odzieży wierzchniej) — szlafroki i piżamy to odzież (14.21.Z lub 14.22.Z), a ręczniki i pościel to 13.92.Z."
+  ],
+  "taxNotes": "Produkcja tekstyliów domowych podlega standardowym stawkom VAT, a forma opodatkowania zależy od skali i kanałów sprzedaży (B2B vs detal). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "14.10.Z",
+  "name": "Produkcja odzieży dzianej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 14.10.Z obejmuje produkcję odzieży z dzianin — bluz, t-shirtów, swetrów, sukienek, dresów, bielizny i odzieży sportowej. Wlicza się tu zarówno krojenie i szycie odzieży z gotowych dzianin, jak i wykonywanie odzieży na maszynach dziewiarskich kształtowych (full fashion). Nie obejmuje samej produkcji dzianin (13.91.Z) ani odzieży tkanej (14.13.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Marka streetwear",
+      "use": "Projektuje i szyje bluzy, hoodies i t-shirty w niewielkich seriach na własną markę i private label."
+    },
+    {
+      "persona": "Producent odzieży sportowej",
+      "use": "Wytwarza koszulki funkcyjne, leginsy i dresy z dzianin technicznych dla branży fitness i klubów sportowych."
+    },
+    {
+      "persona": "Dziewiarnia swetrów",
+      "use": "Produkuje swetry i kardigany na maszynach kształtowych, eksportuje do butików w UE."
+    },
+    {
+      "persona": "Producent bielizny i wyrobów pończoszniczych",
+      "use": "Szyje bieliznę dzianą, koszulki nocne, skarpety i rajstopy."
+    }
+  ],
+  "businessExamples": [
+    "Marka streetwear szyjąca własne bluzy w Polsce",
+    "Producent leginsów i odzieży fitness",
+    "Dziewiarnia swetrów eksportująca do UE"
+  ],
+  "commonMistakes": [
+    "Wybór 14.10.Z zamiast 14.13.Z — odzież z tkanin (koszule, marynarki, spodnie tkane) to inna kategoria niż dzianina.",
+    "Mylenie z 13.91.Z (produkcja dzianin metrażowych) — sama produkcja materiału dzianego nie jest produkcją odzieży."
+  ],
+  "taxNotes": "Producenci odzieży korzystają ze standardowych zasad PIT/CIT i VAT, a sprzedaż do konsumentów w UE może rodzić obowiązki w OSS. Stawki sprawdź u doradcy podatkowego."
+}

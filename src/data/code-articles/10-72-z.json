@@ -1,0 +1,36 @@
+{
+  "code": "10.72.Z",
+  "name": "Produkcja sucharów, herbatników, konserwowanych wyrobów ciastkarskich i ciastek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.72.Z obejmuje produkcję wyrobów piekarniczych o długim terminie przydatności — herbatników, krakersów, sucharków, wafli, pierników i konserwowanych ciastek. Kluczowa różnica vs 10.71.Z to trwałość: produkty pakowane, suche, gotowe do dłuższego przechowywania.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka herbatników i ciasteczek",
+      "use": "Produkuje pakowane herbatniki i ciasteczka do sieci handlowych."
+    },
+    {
+      "persona": "Wytwórca pierników",
+      "use": "Wypieka pierniki sezonowe i całoroczne w opakowaniach detalicznych."
+    },
+    {
+      "persona": "Producent wafli",
+      "use": "Produkuje wafle w polewach i z nadzieniem, pakowane jednostkowo."
+    },
+    {
+      "persona": "Manufaktura sucharów / pieczywa chrupkiego",
+      "use": "Wytwarza sucharki, grzanki i pieczywo chrupkie z długim terminem ważności."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka pakowanych herbatników i ciastek",
+    "Manufaktura tradycyjnych pierników",
+    "Producent wafli czekoladowych dla retailu"
+  ],
+  "commonMistakes": [
+    "Wybór 10.72.Z zamiast 10.71.Z dla świeżego pieczywa i wyrobów cukierniczych o krótkim terminie — torty i drożdżówki idą do 10.71.Z.",
+    "Pomylenie z 10.82.Z (Produkcja kakao, czekolady i wyrobów cukierniczych) — wafelki w czekoladzie z dominującym wkładem czekolady mogą iść do 10.82.Z."
+  ],
+  "taxNotes": "Produkcja konserwowanych wyrobów ciastkarskich podlega standardowym stawkom VAT na artykuły spożywcze, a wybór formy opodatkowania zależy od skali, kosztów surowców i kanałów dystrybucji. Stawki sprawdź u doradcy podatkowego."
+}

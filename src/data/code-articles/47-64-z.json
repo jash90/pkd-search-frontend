@@ -1,0 +1,36 @@
+{
+  "code": "47.64.Z",
+  "name": "Sprzedaż detaliczna gier i zabawek",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.64.Z obejmuje detaliczną sprzedaż zabawek, gier planszowych, gier komputerowych, modeli, klocków, lalek i zabawek edukacyjnych w wyspecjalizowanych sklepach stacjonarnych. To kod dla sklepów z zabawkami, sklepów z grami planszowymi, modelarskich i hobbystycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu z zabawkami",
+      "use": "Prowadzi sklep dla dzieci z zabawkami klasycznymi i edukacyjnymi."
+    },
+    {
+      "persona": "Sklep z grami planszowymi",
+      "use": "Specjalizuje się w grach planszowych, karcianych i bitewnych z klubem graczy."
+    },
+    {
+      "persona": "Sklep modelarski",
+      "use": "Sprzedaje modele do sklejania, RC, pociągi modelowe i akcesoria do hobby."
+    },
+    {
+      "persona": "Sklep z grami video",
+      "use": "Oferuje gry konsolowe, akcesoria do PC i gaming gear."
+    }
+  ],
+  "businessExamples": [
+    "Sklep z grami planszowymi i klubem graczy",
+    "Sklep modelarski RC i kolejki",
+    "Sklep dla dzieci z zabawkami Montessori"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.40.Z (produkcja gier i zabawek) — jeśli sam produkujesz, potrzebny jest kod produkcyjny.",
+    "Wybór 47.64.Z zamiast 47.41.Z, jeśli głównym asortymentem są konsole i komputery, a gry to dodatek."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i obowiązkom certyfikacji zabawek (CE). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "25.12.Z",
+  "name": "Produkcja drzwi i okien z metalu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.12.Z obejmuje produkcję stolarki metalowej — okien i drzwi aluminiowych, stalowych, fasad słupowo-ryglowych, witryn, drzwi przeciwpożarowych, bram garażowych i przemysłowych oraz okien dachowych z metalu. To kod dla zakładów wytwarzających kompletną stolarkę pod zamówienie inwestorskie i sprzedaż detaliczną.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent okien aluminiowych",
+      "use": "Wytwarza okna i drzwi aluminiowe na zamówienie firm budowlanych i klientów indywidualnych."
+    },
+    {
+      "persona": "Wytwórca fasad słupowo-ryglowych",
+      "use": "Produkuje fasady aluminiowe i stalowe dla biurowców i obiektów handlowych."
+    },
+    {
+      "persona": "Producent bram garażowych i przemysłowych",
+      "use": "Wytwarza bramy segmentowe, rolowane i szybkobieżne dla magazynów i hal."
+    },
+    {
+      "persona": "Wytwórca drzwi przeciwpożarowych",
+      "use": "Produkuje certyfikowane drzwi EI30/EI60 dla budynków użyteczności publicznej."
+    }
+  ],
+  "businessExamples": [
+    "Producent okien i drzwi aluminiowych na zamówienie",
+    "Wytwórnia bram segmentowych dla magazynów",
+    "Producent fasad słupowo-ryglowych dla biurowców"
+  ],
+  "commonMistakes": [
+    "Wybór 25.12.Z zamiast 43.32.Z (zakładanie stolarki budowlanej), gdy firma głównie montuje stolarkę na budowie — produkcja to 25.12.Z, montaż to 43.32.Z.",
+    "Pomylenie z 16.23.Z (produkcja pozostałych wyrobów stolarskich i ciesielskich) — stolarka drewniana i okna PVC mają inne kody."
+  ],
+  "taxNotes": "Produkcja stolarki metalowej objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Łączenie produkcji z montażem może wpływać na klasyfikację świadczenia kompleksowego. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "72.20.Z",
+  "name": "Badania naukowe i prace rozwojowe w dziedzinie nauk społecznych i humanistycznych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 72.20.Z to badania naukowe i prace rozwojowe w obszarze ekonomii, socjologii, psychologii, prawa, historii, językoznawstwa i innych nauk społecznych oraz humanistycznych. Pasuje dla niezależnych instytutów badawczych, think tanków i naukowców prowadzących działalność komercyjną. Badania rynku i opinii mają osobny kod 73.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Think tank / instytut analityczny",
+      "use": "Prowadzi badania polityk publicznych, ekonomii i społeczeństwa, publikuje raporty."
+    },
+    {
+      "persona": "Niezależny badacz społeczny",
+      "use": "Realizuje projekty badawcze finansowane z grantów (NCN, NCBR, Horyzont Europa)."
+    },
+    {
+      "persona": "Instytut badań ekonomicznych",
+      "use": "Analizuje trendy makroekonomiczne, sektorowe i przygotowuje ekspertyzy dla biznesu."
+    },
+    {
+      "persona": "Spin-off humanistyczny",
+      "use": "Komercjalizuje wyniki badań językoznawczych lub kulturoznawczych (np. korpusy językowe, NLP)."
+    }
+  ],
+  "businessExamples": [
+    "Think tank ekonomiczny publikujący raporty makro",
+    "Instytut badań socjologicznych realizujący granty NCN",
+    "Spin-off uczelniany z obszaru lingwistyki komputerowej"
+  ],
+  "commonMistakes": [
+    "Wybór 72.20.Z dla badań rynkowych i sondażowych — to jest 73.20.Z (badanie rynku i opinii publicznej).",
+    "Pomylenie z 72.10.Z (B+R w naukach przyrodniczych i technicznych) — dyscyplina naukowa decyduje o klasyfikacji."
+  ],
+  "taxNotes": "Działalność B+R w naukach społecznych może być objęta ulgą badawczo-rozwojową przy spełnieniu warunków ustawowych. Granty publiczne i unijne mają specyficzne zasady rozliczania kosztów kwalifikowalnych. Stawki sprawdź u doradcy podatkowego."
+}

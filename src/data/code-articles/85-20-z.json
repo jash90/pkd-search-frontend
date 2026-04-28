@@ -1,0 +1,36 @@
+{
+  "code": "85.20.Z",
+  "name": "Szkoły podstawowe",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.20.Z obejmuje publiczne i niepubliczne szkoły podstawowe (klasy I-VIII), w tym szkoły z oddziałami sportowymi, dwujęzycznymi, integracyjnymi. Pasuje dla organów prowadzących niepubliczne szkoły podstawowe. Wczesna edukacja przedszkolna to 85.10.Z, a szkoły ponadpodstawowe to 85.31.Z lub 85.32.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Organ prowadzący szkołę niepubliczną",
+      "use": "Prowadzi szkołę podstawową z uprawnieniami szkoły publicznej, na podstawie wpisu do ewidencji."
+    },
+    {
+      "persona": "Stowarzyszenie / fundacja edukacyjna",
+      "use": "Prowadzi szkołę społeczną opartą na specyficznej metodyce (np. Waldorf, Montessori, demokratyczna)."
+    },
+    {
+      "persona": "Szkoła językowa / dwujęzyczna",
+      "use": "Prowadzi szkołę podstawową z poszerzonym programem języków obcych, często w trybie immersji."
+    },
+    {
+      "persona": "Mała szkoła podstawowa wiejska",
+      "use": "Prowadzi placówkę dla dzieci z lokalnej społeczności, czasem z oddziałami łączonymi."
+    }
+  ],
+  "businessExamples": [
+    "Niepubliczna szkoła podstawowa z metodą Montessori",
+    "Społeczna szkoła podstawowa prowadzona przez stowarzyszenie",
+    "Dwujęzyczna szkoła podstawowa polsko-angielska"
+  ],
+  "commonMistakes": [
+    "Wybór 85.20.Z dla oddziału przedszkolnego prowadzonego niezależnie — to jest 85.10.Z (placówki wychowania przedszkolnego).",
+    "Pomylenie z 85.59.B (pozaszkolne formy edukacji) — kursy uzupełniające i zajęcia popołudniowe to inny kod, nawet jeśli prowadzi je szkoła."
+  ],
+  "taxNotes": "Szkoły niepubliczne wymagają wpisu do ewidencji szkół niepublicznych i mogą otrzymywać dotację oświatową od gminy lub powiatu. Usługi w zakresie kształcenia są co do zasady zwolnione z VAT, a dotacja ma własne zasady rozliczania. Stawki sprawdź u doradcy podatkowego."
+}

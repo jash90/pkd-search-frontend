@@ -1,0 +1,36 @@
+{
+  "code": "38.23.Z",
+  "name": "Pozostały odzysk związany z odpadami",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.23.Z to kategoria zbiorcza dla form odzysku odpadów, których nie obejmują 38.21.Z (odzysk surowców) ani 38.22.Z (odzysk energii) — np. odzysk biologiczny (kompostowanie, fermentacja), odzysk w procesach budowlanych (rekultywacja), regeneracja olejów, odzysk substancji chemicznych z odpadów niebezpiecznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Kompostownia odpadów organicznych",
+      "use": "Przetwarza odpady BIO i zielone na kompost lub poprawkę glebową."
+    },
+    {
+      "persona": "Operator instalacji fermentacji bezgazowej",
+      "use": "Stabilizuje osady i odpady organiczne w procesach beztlenowych."
+    },
+    {
+      "persona": "Zakład regeneracji olejów silnikowych",
+      "use": "Odzyskuje frakcję olejową z przepracowanych olejów do ponownego użycia."
+    },
+    {
+      "persona": "Firma wykorzystująca odpady do rekultywacji",
+      "use": "Stosuje wybrane odpady do wypełniania wyrobisk i rekultywacji terenów."
+    }
+  ],
+  "businessExamples": [
+    "Kompostownia odpadów BIO z gospodarstw domowych",
+    "Regeneracja olejów przepracowanych",
+    "Stabilizacja osadów ściekowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.21.Z (odzysk surowców), gdy proces dotyczy plastiku, papieru lub metalu — tam właściwe są klasyczne kody recyklingu.",
+    "Wybór 38.23.Z zamiast 39.00.Z (rekultywacja), gdy główną działalnością jest oczyszczanie terenów skażonych, a nie odzysk z odpadów."
+  ],
+  "taxNotes": "Działalność wymaga zezwoleń na przetwarzanie odpadów, wpisu do BDO oraz spełnienia procedur zgodnie z hierarchią postępowania z odpadami. Stawki sprawdź u doradcy podatkowego."
+}

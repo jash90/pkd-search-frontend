@@ -1,0 +1,36 @@
+{
+  "code": "92.00.Z",
+  "name": "Działalność związana z grami hazardowymi",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 92.00.Z obejmuje gry hazardowe — kasyna, salony gier, zakłady wzajemne (bukmacherskie), loterie, gry na automatach, kasyna online. To działalność ściśle reglamentowana ustawą o grach hazardowych, wymagająca koncesji lub zezwolenia. Pasuje dla operatorów branży gamingowej. Gry komputerowe nie-hazardowe to 58.21.Z (wydawanie) lub 62.01.Z (produkcja).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator kasyna stacjonarnego",
+      "use": "Prowadzi kasyno na podstawie koncesji ministra finansów — gry stołowe, automaty."
+    },
+    {
+      "persona": "Bukmacher (zakłady wzajemne)",
+      "use": "Przyjmuje zakłady sportowe stacjonarnie i online na podstawie zezwolenia."
+    },
+    {
+      "persona": "Operator loterii",
+      "use": "Organizuje loterie pieniężne, fantowe lub promocyjne na podstawie zezwolenia."
+    },
+    {
+      "persona": "Operator gier online",
+      "use": "Prowadzi kasyno internetowe lub zakłady online z polską licencją (lub jako podmiot zagraniczny — z ograniczeniami)."
+    }
+  ],
+  "businessExamples": [
+    "Sieć salonów gier na automatach (poza monopolem państwa)",
+    "Bukmacher z zakładami sportowymi stacjonarnymi i online",
+    "Operator loterii promocyjnej dla marek FMCG"
+  ],
+  "commonMistakes": [
+    "Wybór 92.00.Z dla gier zręcznościowych i symulatorów bez elementu losowości i wygranej pieniężnej — automaty rozrywkowe nie-hazardowe to 93.29.Z.",
+    "Pomylenie z 58.21.Z (wydawanie gier komputerowych) — zwykłe gry mobilne nie są hazardem, jeśli nie zawierają zakładów o realne pieniądze."
+  ],
+  "taxNotes": "Gry hazardowe wymagają koncesji lub zezwolenia wydawanych przez ministra finansów oraz są objęte odrębnym podatkiem od gier. Znaczna część usług hazardowych jest zwolniona z VAT, ale podlega podatkowi od gier i specyficznym obowiązkom sprawozdawczym. Stawki sprawdź u doradcy podatkowego."
+}

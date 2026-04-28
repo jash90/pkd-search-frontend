@@ -1,0 +1,36 @@
+{
+  "code": "46.34.A",
+  "name": "Sprzedaż hurtowa napojów alkoholowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.34.A obejmuje sprzedaż hurtową napojów alkoholowych — piwa, wina, wódek, likierów i innych alkoholi — do sklepów, restauracji, hoteli i pubów. Wymaga koncesji na obrót hurtowy alkoholem. Sprzedaż napojów bezalkoholowych klasyfikowana jest pod 46.34.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia alkoholi",
+      "use": "Dostarcza piwo, wino i mocne alkohole do sklepów i lokali gastronomicznych."
+    },
+    {
+      "persona": "Importer win",
+      "use": "Sprowadza wina z winnic europejskich i pozaeuropejskich dla restauracji i delikatesów."
+    },
+    {
+      "persona": "Dystrybutor piwa rzemieślniczego",
+      "use": "Reprezentuje regionalne browary i dostarcza ich produkcję do pubów."
+    },
+    {
+      "persona": "Hurtownia HoReCa",
+      "use": "Zaopatruje hotele i restauracje w pełen asortyment alkoholi."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia alkoholi dla sieci sklepów monopolowych",
+    "Importer win z Europy i Nowego Świata",
+    "Dystrybutor craftowych piw dla pubów i restauracji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.34.A bez uzyskania koncesji na obrót hurtowy alkoholem — to wymóg ustawowy.",
+    "Pomylenie z 47.25.Z (sprzedaż detaliczna alkoholu w sklepach) — to różne formy handlu."
+  ],
+  "taxNotes": "Obrót hurtowy alkoholem wymaga koncesji oraz rozliczania akcyzy. Stawki VAT są standardowe, ale akcyza znacząco wpływa na cenę. Stawki sprawdź u doradcy podatkowego."
+}

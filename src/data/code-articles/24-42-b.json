@@ -1,0 +1,36 @@
+{
+  "code": "24.42.B",
+  "name": "Produkcja wyrobów z aluminium i stopów aluminium",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.42.B obejmuje produkcję wyrobów hutniczych z aluminium i jego stopów — blach, taśm, folii, prętów, drutu, rur oraz profili wyciskanych. To kod dla walcowni, ciągarni i tłoczni aluminium dostarczających półprodukty dla branży budowlanej, opakowaniowej, motoryzacyjnej i AGD.",
+  "whoUsesIt": [
+    {
+      "persona": "Tłocznia profili aluminiowych",
+      "use": "Wytłacza profile architektoniczne (okna, fasady) i przemysłowe metodą extruzji."
+    },
+    {
+      "persona": "Walcownia blach i folii aluminiowych",
+      "use": "Walcuje blachy, taśmy i folię aluminiową dla branży opakowaniowej i budowlanej."
+    },
+    {
+      "persona": "Producent rur i prętów aluminiowych",
+      "use": "Wytwarza rury bez szwu i pręty ciągnione dla branży motoryzacyjnej i klimatyzacji."
+    },
+    {
+      "persona": "Wytwórca drutu aluminiowego",
+      "use": "Produkuje drut do przewodów elektrycznych i spawalnictwa MIG aluminium."
+    }
+  ],
+  "businessExamples": [
+    "Tłocznia profili okiennych i fasadowych z aluminium",
+    "Walcownia folii aluminiowej dla branży spożywczej",
+    "Producent rur aluminiowych dla klimatyzacji"
+  ],
+  "commonMistakes": [
+    "Wybór 24.42.B zamiast 24.42.A, gdy zakład wyłącznie topi złom i produkuje wlewki — to wcześniejszy etap przerobu, kod 24.42.A.",
+    "Pomylenie z 25.12.Z (produkcja drzwi i okien z metalu) — wykonywanie kompletnych okien aluminiowych to kod 25.12.Z, a nie 24.42.B."
+  ],
+  "taxNotes": "Produkcja wyrobów aluminiowych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali zakładu, eksportu i kosztów surowca. Stawki sprawdź u doradcy podatkowego."
+}

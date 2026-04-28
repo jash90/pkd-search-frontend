@@ -1,0 +1,36 @@
+{
+  "code": "16.23.Z",
+  "name": "Produkcja pozostałych wyrobów stolarskich i ciesielskich dla budownictwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.23.Z obejmuje produkcję elementów drewnianych dla budownictwa innych niż drzwi/okna (16.25.Z) — schodów, balustrad, więźb dachowych, prefabrykowanych domów drewnianych, paneli ściennych, listew wykończeniowych i elementów ciesielskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent więźb dachowych",
+      "use": "Wytwarza prefabrykowane wiązary i więźby dla budownictwa jednorodzinnego."
+    },
+    {
+      "persona": "Wytwórca schodów drewnianych",
+      "use": "Produkuje schody na zamówienie z dębu, jesionu i buku."
+    },
+    {
+      "persona": "Producent domów drewnianych szkieletowych",
+      "use": "Prefabrykuje elementy domów szkieletowych do montażu na działce klienta."
+    },
+    {
+      "persona": "Wytwórca listew wykończeniowych i boazerii",
+      "use": "Produkuje listwy przypodłogowe, boazerie i panele ścienne z drewna."
+    }
+  ],
+  "businessExamples": [
+    "Producent więźb dachowych prefabrykowanych",
+    "Manufaktura schodów drewnianych na zamówienie",
+    "Fabryka domów szkieletowych do montażu"
+  ],
+  "commonMistakes": [
+    "Wybór 16.23.Z zamiast 16.25.Z (Drzwi i okna z drewna) — drzwi i okna mają osobny kod 16.25.Z.",
+    "Pomylenie z 43.32.Z (Zakładanie stolarki budowlanej) — montaż schodów u klienta to 43.32.Z, a produkcja schodów to 16.23.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów stolarskich podlega standardowym stawkom VAT, a sprzedaż z montażem w budownictwie mieszkalnym może podlegać preferencyjnym stawkom. Stawki sprawdź u doradcy podatkowego."
+}

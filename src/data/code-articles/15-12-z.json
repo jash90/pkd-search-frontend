@@ -1,0 +1,36 @@
+{
+  "code": "15.12.Z",
+  "name": "Produkcja toreb bagażowych, toreb ręcznych i podobnych wyrobów kaletniczych; produkcja wyrobów rymarskich z dowolnego materiału",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 15.12.Z obejmuje produkcję wyrobów kaletniczych — torebek, plecaków, walizek, portfeli, pasków, etui — oraz wyrobów rymarskich (uprzęży, siodeł, akcesoriów dla zwierząt). Materiał dowolny: skóra, tkanina, tworzywa sztuczne.",
+  "whoUsesIt": [
+    {
+      "persona": "Manufaktura torebek skórzanych",
+      "use": "Szyje torebki damskie i męskie pod marką premium oraz na zamówienie."
+    },
+    {
+      "persona": "Producent walizek i bagaży",
+      "use": "Wytwarza walizki na kółkach, plecaki podróżne i torby kabinowe dla retailu."
+    },
+    {
+      "persona": "Pracownia rymarska",
+      "use": "Wytwarza siodła, uprzęże i akcesoria dla jeźdźców oraz hodowców koni."
+    },
+    {
+      "persona": "Wytwórca portfeli i drobnej galanterii",
+      "use": "Produkuje portfele, etui na karty i akcesoria skórzane (D2C lub B2B)."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura torebek skórzanych premium",
+    "Pracownia rymarska produkująca siodła",
+    "Producent plecaków technicznych dla outdooru"
+  ],
+  "commonMistakes": [
+    "Wybór 15.12.Z zamiast 15.11.Z (Garbowanie skór) — wyprawa skóry surowej to 15.11.Z, a produkcja gotowych wyrobów ze skóry to 15.12.Z.",
+    "Pomylenie z 13.92.Z (Wyroby tekstylne dla gospodarstw domowych) — torba na zakupy z bawełny może iść do 15.12.Z, jeśli to galanteria torebkowa."
+  ],
+  "taxNotes": "Produkcja wyrobów kaletniczych podlega standardowym stawkom VAT, a forma opodatkowania zależy od skali, modelu sprzedaży i kosztów surowca. Stawki sprawdź u doradcy podatkowego."
+}

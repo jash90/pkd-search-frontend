@@ -1,0 +1,36 @@
+{
+  "code": "35.23.Z",
+  "name": "Handel paliwami gazowymi w systemie sieciowym",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.23.Z obejmuje obrót gazem ziemnym i biometanem w systemie sieciowym — kupno i sprzedaż na rynku hurtowym oraz sprzedaż detaliczną odbiorcom końcowym. Dotyczy spółek obrotu gazem, alternatywnych sprzedawców gazu i traderów na giełdzie.",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka obrotu gazem",
+      "use": "Sprzedaje gaz odbiorcom domowym i biznesowym jako alternatywny sprzedawca."
+    },
+    {
+      "persona": "Trader na rynku gazu",
+      "use": "Handluje gazem na TGE i rynkach OTC, zarządza portfelem kontraktów."
+    },
+    {
+      "persona": "Importer LNG sprzedający gaz w sieci",
+      "use": "Po regazyfikacji sprzedaje gaz odbiorcom przez system przesyłowy."
+    },
+    {
+      "persona": "Sprzedawca z urzędu",
+      "use": "Dostarcza gaz odbiorcom, którzy nie wybrali alternatywnego dostawcy."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny sprzedawca gazu dla biznesu",
+    "Trader gazu na giełdzie TGE",
+    "Spółka obrotu gazem ze źródeł zagranicznych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.22.Z (dystrybucja), gdy działalność polega tylko na sprzedaży, a sieć obsługuje OSDg.",
+    "Wybór 35.23.Z zamiast 47.78.Z, gdy firma sprzedaje gaz w butlach (LPG) — to handel detaliczny, nie sprzedaż w sieci."
+  ],
+  "taxNotes": "Sprzedaż gazu wymaga koncesji URE, akcyzy gazowej i uwzględnienia podatku od wydobycia kopalin u producenta. Sprzedaż detaliczna podlega regulacjom konsumenckim. Stawki sprawdź u doradcy podatkowego."
+}

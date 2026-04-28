@@ -1,0 +1,36 @@
+{
+  "code": "20.59.Z",
+  "name": "Produkcja pozostałych wyrobów chemicznych, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.59.Z to kod 'parasol' dla wyrobów chemicznych nieujętych w innych klasach działu 20 — m.in. atramentów drukarskich, klejów technicznych, materiałów wybuchowych cywilnych, świec, środków zapachowych, żelatyny, odczynników laboratoryjnych i smarów syntetycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent klejów technicznych",
+      "use": "Wytwarza kleje przemysłowe — montażowe, do drewna, opakowań i tapicerek."
+    },
+    {
+      "persona": "Wytwórca atramentów drukarskich",
+      "use": "Produkuje farby drukarskie offsetowe, fleksograficzne i atramenty do drukarek."
+    },
+    {
+      "persona": "Producent świec i zniczy",
+      "use": "Odlewa świece dekoracyjne, znicze nagrobne i podgrzewacze."
+    },
+    {
+      "persona": "Zakład odczynników laboratoryjnych",
+      "use": "Wytwarza chemikalia analityczne i diagnostyczne dla laboratoriów."
+    }
+  ],
+  "businessExamples": [
+    "Producent klejów do drewna i tapicerki",
+    "Wytwórnia świec zapachowych",
+    "Zakład produkcji atramentów drukarskich"
+  ],
+  "commonMistakes": [
+    "Wybór 20.59.Z dla kosmetyków zapachowych — perfumy i odświeżacze osobiste to 20.42.Z.",
+    "Pomylenie z 20.30.Z (farby i lakiery) — farby budowlane i przemysłowe mają osobny kod."
+  ],
+  "taxNotes": "Producenci materiałów wybuchowych cywilnych wymagają koncesji MSWiA, a większość wyrobów objęta jest REACH i CLP. Wybór formy opodatkowania zależy od skali i typu produktu. Stawki sprawdź u doradcy podatkowego."
+}

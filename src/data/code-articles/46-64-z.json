@@ -1,0 +1,36 @@
+{
+  "code": "46.64.Z",
+  "name": "Sprzedaż hurtowa pozostałych maszyn i urządzeń",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.64.Z obejmuje sprzedaż hurtową maszyn dla przemysłu spożywczego, włókienniczego, papierniczego, opakowaniowego oraz pozostałych maszyn nieujętych w kodach 46.61-46.63 — do zakładów produkcyjnych, fabryk i warsztatów. Pasuje do dystrybutorów maszyn pakujących, urządzeń przemysłowych i importerów.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor maszyn pakujących",
+      "use": "Sprzedaje pakowarki i etykieciarki do zakładów spożywczych i kosmetycznych."
+    },
+    {
+      "persona": "Importer maszyn dla przemysłu spożywczego",
+      "use": "Dostarcza piece, miksery i linie produkcyjne dla piekarni i mleczarni."
+    },
+    {
+      "persona": "Dystrybutor maszyn włókienniczych",
+      "use": "Sprzedaje krosna, dziewiarki i maszyny szwalnicze zakładom tekstylnym."
+    },
+    {
+      "persona": "Pośrednik dla maszyn drukarskich",
+      "use": "Reprezentuje producentów maszyn poligraficznych przed drukarniami."
+    }
+  ],
+  "businessExamples": [
+    "Dystrybutor maszyn pakujących dla branży spożywczej",
+    "Importer linii produkcyjnych dla piekarni",
+    "Dealer maszyn drukarskich dla drukarni"
+  ],
+  "commonMistakes": [
+    "Wybór 46.64.Z dla maszyn ujętych w 46.61-46.63 (rolnicze, obrabiarki, budowlane).",
+    "Pomylenie z 28.99.Z (produkcja pozostałych maszyn) — 46.64.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Sprzedaż maszyn przemysłowych podlega standardowym stawkom VAT. Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

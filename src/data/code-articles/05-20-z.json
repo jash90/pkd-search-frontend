@@ -1,0 +1,36 @@
+{
+  "code": "05.20.Z",
+  "name": "Wydobywanie węgla brunatnego (lignitu)",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 05.20.Z obejmuje odkrywkowe wydobywanie węgla brunatnego (lignitu) i jego pierwotne uszlachetnianie — kruszenie, suszenie, sortowanie i brykietowanie. Nie obejmuje produkcji energii elektrycznej z lignitu (35.11.Z) ani usług wspierających górnictwo (09.90.Z). Typowy kod dla dużych zagłębi odkrywkowych zaopatrujących elektrownie.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator kopalni odkrywkowej",
+      "use": "Eksploatuje pole wydobywcze, prowadzi zwałowanie nadkładu i transport urobku do zakładu przeróbki."
+    },
+    {
+      "persona": "Zakład brykietowania lignitu",
+      "use": "Suszy i prasuje węgiel brunatny w brykiety wykorzystywane w energetyce i ogrzewnictwie."
+    },
+    {
+      "persona": "Spółka rekultywująca pokopalniane tereny",
+      "use": "W ramach grupy górniczej prowadzi wydobycie i równolegle rekultywację wyrobisk."
+    },
+    {
+      "persona": "Dostawca paliwa dla elektrowni",
+      "use": "Sprzedaje urobek z odkrywki bezpośrednio do bloku energetycznego pracującego na lignicie."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia węgla brunatnego zaopatrująca elektrownię",
+    "Zakład brykietowania węgla brunatnego",
+    "Operator pola odkrywkowego z własnym układem przenośników"
+  ],
+  "commonMistakes": [
+    "Wybór 05.20.Z zamiast 05.10.Z dla wydobycia węgla kamiennego — to dwie różne klasy o odrębnych regulacjach.",
+    "Mylenie z 35.11.Z (wytwarzanie energii elektrycznej) — gdy ta sama grupa kapitałowa łączy wydobycie z produkcją prądu, każda spółka ma swój odrębny kod główny."
+  ],
+  "taxNotes": "Wydobycie węgla brunatnego wymaga koncesji geologicznej, podlega opłatom eksploatacyjnym oraz regulacjom środowiskowym i klimatycznym (EU ETS). Stawki sprawdź u doradcy podatkowego."
+}

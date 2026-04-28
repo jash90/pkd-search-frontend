@@ -1,0 +1,36 @@
+{
+  "code": "01.48.Z",
+  "name": "Chów i hodowla pozostałych zwierząt",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.48.Z to kosz na pozostałe gatunki zwierząt nieujęte w kodach 01.41–01.47 — w tym pszczoły (pasieki), króliki, jelenie i daniele hodowlane, strusie, ślimaki jadalne, owady jadalne oraz zwierzęta futerkowe (lisy, norki, szynszyle). To kod o bardzo różnorodnym zastosowaniu.",
+  "whoUsesIt": [
+    {
+      "persona": "Pszczelarz",
+      "use": "Prowadzi pasiekę produkującą miód, pyłek, propolis i wosk na sprzedaż lokalną."
+    },
+    {
+      "persona": "Hodowca królików",
+      "use": "Hoduje króliki na mięso lub futro, prowadząc fermę towarową."
+    },
+    {
+      "persona": "Producent ślimaków jadalnych",
+      "use": "Prowadzi ślimakarnię (Helix aspersa) z odbiorem do restauracji i przetwórni."
+    },
+    {
+      "persona": "Hodowca jeleni i danieli",
+      "use": "Prowadzi farmę zwierząt jeleniowatych na mięso (dziczyzna farmerska) i poroże."
+    }
+  ],
+  "businessExamples": [
+    "Pasieka 200 rodzin pszczelich",
+    "Ślimakarnia helixowa",
+    "Ferma jeleni szlachetnych"
+  ],
+  "commonMistakes": [
+    "Wybór 01.48.Z zamiast 03.22.Z dla hodowli ryb i akwakultury — ryby mają osobny kod w sekcji rybackiej.",
+    "Pomylenie z 01.62.Z (usługi wspomagające chów zwierząt), gdy świadczysz wyłącznie usługi pszczelarskie (np. zapylanie sadów), bez sprzedaży miodu."
+  ],
+  "taxNotes": "Pszczelarstwo do określonej liczby rodzin często korzysta z preferencji podatkowych jako działalność rolnicza, ale większe pasieki i fermy futerkowe mogą być działami specjalnymi produkcji rolnej. Sprawdź też RHD, VAT i wpis IRZ. Stawki sprawdź u doradcy podatkowego."
+}

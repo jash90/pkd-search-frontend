@@ -1,0 +1,36 @@
+{
+  "code": "52.22.A",
+  "name": "Działalność usługowa wspomagająca transport morski",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.22.A obejmuje działalność wspomagającą transport morski — eksploatację portów morskich, terminali kontenerowych, operacji przeładunkowych, pilotażu, holowania, cumowania i obsługi statków. To kod dla operatorów portowych, terminali, agentów morskich i firm pilotażowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator terminala kontenerowego",
+      "use": "Obsługuje przeładunki kontenerów ze statków i utrzymuje infrastrukturę portową."
+    },
+    {
+      "persona": "Agent morski (shipping agent)",
+      "use": "Reprezentuje armatorów w portach, organizuje obsługę statków i dokumentację celną."
+    },
+    {
+      "persona": "Pilot morski",
+      "use": "Prowadzi statki w portach i kanałach jako licencjonowany pilot portowy."
+    },
+    {
+      "persona": "Firma holownicza w porcie",
+      "use": "Świadczy usługi holownicze i cumownicze dla statków wchodzących do portu."
+    }
+  ],
+  "businessExamples": [
+    "Terminal kontenerowy DCT/Baltic Hub",
+    "Agencja morska dla armatorów",
+    "Firma pilotażowa portu Gdynia/Gdańsk"
+  ],
+  "commonMistakes": [
+    "Wybór 52.22.A zamiast 50.10.Z — transport morski pasażerski to przewóz, nie działalność wspomagająca.",
+    "Pomylenie z 52.29.A — agencje celne i spedycja morska klasyfikują się jako działalność wspomagająca, ale w grupie 52.29."
+  ],
+  "taxNotes": "Działalność portowa podlega regulacjom Urzędu Morskiego, certyfikatom ISPS i nadzorowi celnemu. Stawki sprawdź u doradcy podatkowego."
+}

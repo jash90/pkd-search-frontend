@@ -1,0 +1,36 @@
+{
+  "code": "32.20.Z",
+  "name": "Produkcja instrumentów muzycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.20.Z obejmuje produkcję instrumentów strunowych (gitary, skrzypce), klawiszowych (pianina, fortepiany), dętych (saksofony, trąbki), perkusyjnych oraz instrumentów elektronicznych. To właściwy kod dla lutników, fabryk instrumentów i producentów sprzętu muzycznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Lutnik",
+      "use": "Buduje skrzypce, altówki i wiolonczele na zamówienie muzyków klasycznych — sprzedaż przez galerię lutniczą."
+    },
+    {
+      "persona": "Producent gitar elektrycznych",
+      "use": "Wytwarza autorskie gitary i basy w małej manufakturze — eksport głównie do Europy Zachodniej."
+    },
+    {
+      "persona": "Fabryka pianin i fortepianów",
+      "use": "Produkuje seryjnie pianina dla szkół muzycznych i klientów indywidualnych."
+    },
+    {
+      "persona": "Producent instrumentów elektronicznych",
+      "use": "Buduje syntezatory, kontrolery MIDI i moduły efektów dla muzyków studyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia lutnicza budująca skrzypce",
+    "Manufaktura gitar custom-made",
+    "Producent perkusji akustycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 32.20.Z zamiast 33.19.Z (naprawa pozostałego sprzętu) — sam serwis i strojenie instrumentów bez ich produkcji to inny kod.",
+    "Pomylenie z 47.59.Z (sprzedaż detaliczna w sklepach muzycznych) — handel instrumentami bez produkcji podlega działowi 47."
+  ],
+  "taxNotes": "Działalność lutnicza często kwalifikuje się jako działalność rzemieślnicza lub artystyczna, co wpływa na dostępność preferencyjnych form opodatkowania. Wartość niematerialna pracy autorskiej może podlegać szczególnym zasadom rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

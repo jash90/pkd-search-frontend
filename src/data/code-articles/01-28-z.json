@@ -1,0 +1,36 @@
+{
+  "code": "01.28.Z",
+  "name": "Uprawa roślin przyprawowych i aromatycznych oraz roślin wykorzystywanych do produkcji leków i wyrobów farmaceutycznych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.28.Z obejmuje uprawę ziół przyprawowych (bazylia, oregano, tymianek, mięta), aromatycznych (lawenda, melisa) oraz roślin leczniczych (rumianek, mniszek, szałwia, dziurawiec). To popularny kod dla gospodarstw zielarskich, producentów ziół suszonych i surowca dla branży farmaceutycznej i kosmetycznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Gospodarstwo zielarskie",
+      "use": "Uprawia zioła lecznicze i aromatyczne na surowiec dla firm farmaceutycznych i ziołowych."
+    },
+    {
+      "persona": "Plantator lawendy",
+      "use": "Prowadzi plantację lawendy z możliwością agroturystyki i sprzedaży olejków."
+    },
+    {
+      "persona": "Producent ziół kulinarnych",
+      "use": "Uprawia bazylię, oregano, tymianek na świeży rynek i susze dla przemysłu spożywczego."
+    },
+    {
+      "persona": "Gospodarstwo ekologiczne",
+      "use": "Łączy uprawę ziół BIO ze sprzedażą bezpośrednią i kursami zielarskimi."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja lawendy z agroturystyką",
+    "Gospodarstwo zielarskie BIO",
+    "Producent surowca dla farmacji"
+  ],
+  "commonMistakes": [
+    "Wybór 01.28.Z zamiast 10.83.Z, gdy działalność polega na suszeniu, mieleniu i pakowaniu ziół kupowanych od innych producentów.",
+    "Pomylenie z 01.13.Z dla typowych warzyw (sałata, szczypiorek) — granica bywa cienka, ale zioła aromatyczne mają własny kod."
+  ],
+  "taxNotes": "Uprawa ziół jako działalność rolnicza zwykle jest objęta podatkiem rolnym, ale przetwórstwo własnych ziół (susze, olejki) może wymagać dodatkowej rejestracji i zmieniać kwalifikację VAT. Sprawdź też RHD i działy specjalne. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "99.00.Z",
+  "name": "Organizacje i zespoły eksterytorialne",
+  "section": "V",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 99.00.Z obejmuje działalność organizacji i zespołów eksterytorialnych — ambasad, konsulatów, misji dyplomatycznych, agencji ONZ, NATO, instytucji UE oraz innych organizacji międzynarodowych mających status eksterytorialny w Polsce. Pasuje dla placówek dyplomatycznych i międzynarodowych. Polskie organizacje pozarządowe i międzynarodowe stowarzyszenia bez statusu eksterytorialnego mają inne kody (np. 94.99.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Ambasada państwa obcego",
+      "use": "Reprezentuje swoje państwo w Polsce, prowadzi działalność dyplomatyczną i konsularną."
+    },
+    {
+      "persona": "Konsulat zawodowy lub honorowy",
+      "use": "Prowadzi obsługę obywateli swojego państwa i wsparcie w zakresie wiz, paszportów, pomocy prawnej."
+    },
+    {
+      "persona": "Agencja ONZ / instytucja międzynarodowa",
+      "use": "Prowadzi biuro krajowe (np. UNHCR, IOM, UNESCO) z zadaniami w obszarze swojego mandatu."
+    },
+    {
+      "persona": "Przedstawicielstwo instytucji UE / NATO",
+      "use": "Prowadzi biuro przedstawicielskie organizacji międzyrządowej z odpowiednim statusem."
+    }
+  ],
+  "businessExamples": [
+    "Ambasada państwa obcego w Warszawie",
+    "Biuro krajowe agencji ONZ",
+    "Konsulat honorowy obsługujący obywateli zagranicznych"
+  ],
+  "commonMistakes": [
+    "Wybór 99.00.Z przez polską fundację lub stowarzyszenie współpracujące międzynarodowo — bez statusu eksterytorialnego właściwy jest 94.99.Z (pozostałe organizacje członkowskie) lub inny kod statutowy.",
+    "Pomylenie z 84.21.Z (sprawy zagraniczne — administracja publiczna) — polskie MSZ używa 84.21.Z, a obce placówki dyplomatyczne w Polsce 99.00.Z."
+  ],
+  "taxNotes": "Organizacje eksterytorialne korzystają z immunitetów dyplomatycznych i konsularnych oraz odrębnych zasad podatkowych wynikających z konwencji wiedeńskich i umów międzynarodowych. Ich rozliczenia w Polsce nie podlegają typowym regułom CIT/VAT obowiązującym podmioty komercyjne. Stawki sprawdź u doradcy podatkowego."
+}

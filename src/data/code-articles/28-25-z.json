@@ -1,0 +1,36 @@
+{
+  "code": "28.25.Z",
+  "name": "Produkcja przemysłowych urządzeń chłodniczych, wentylacyjnych i klimatyzacyjnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.25.Z obejmuje produkcję urządzeń HVAC dla zastosowań przemysłowych i komercyjnych — chłodnic, agregatów, central wentylacyjnych, klimatyzatorów, witryn chłodniczych i komór mroźniczych. To branża obsługująca przemysł spożywczy, logistykę, sieci handlowe i farmację.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent agregatów chłodniczych",
+      "use": "Wytwarza agregaty sprężarkowe i skraplacze dla przemysłu spożywczego i logistyki."
+    },
+    {
+      "persona": "Fabryka central wentylacyjnych",
+      "use": "Produkuje centrale klimatyzacyjne i wentylacyjne dla hal produkcyjnych i obiektów komercyjnych."
+    },
+    {
+      "persona": "Wytwórca komór chłodniczych i mroźniczych",
+      "use": "Buduje modułowe komory chłodnicze dla supermarketów, masarni i mleczarni."
+    },
+    {
+      "persona": "Producent witryn chłodniczych",
+      "use": "Robi lady i regały chłodnicze dla sklepów spożywczych i punktów gastronomii."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka agregatów chłodniczych dla przemysłu spożywczego",
+    "Producent komór mroźniczych dla supermarketów",
+    "Zakład central wentylacyjnych z odzyskiem ciepła"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 27.51.Z (sprzęt AGD elektryczny) — domowe lodówki i klimatyzatory pokojowe to AGD, nie 28.25.Z.",
+    "Wybór 43.22.Z (instalacje wod-kan, gazowe i klimatyzacyjne) zamiast 28.25.Z — sam montaż to inna działalność niż produkcja urządzeń."
+  ],
+  "taxNotes": "Branża HVAC dla przemysłu wymaga znacznych inwestycji w technologię i certyfikaty F-gazy. Skala działalności i eksport wpływają na wybór formy opodatkowania oraz dostęp do ulg na innowacje. Stawki sprawdź u doradcy podatkowego."
+}

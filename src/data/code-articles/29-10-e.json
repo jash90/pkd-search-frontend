@@ -1,0 +1,36 @@
+{
+  "code": "29.10.E",
+  "name": "Produkcja pozostałych pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.10.E obejmuje produkcję pojazdów silnikowych nieklasyfikowanych w innych kodach grupy 29.10 — quadów, gokartów, pojazdów terenowych ATV/UTV, pojazdów wojskowych, pojazdów dla niepełnosprawnych i specjalnych pojazdów drogowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent quadów i UTV",
+      "use": "Wytwarza pojazdy terenowe (ATV, UTV, side-by-side) dla rekreacji i zastosowań rolniczych."
+    },
+    {
+      "persona": "Fabryka pojazdów wojskowych",
+      "use": "Produkuje pojazdy opancerzone, transportery i pojazdy specjalne dla sił zbrojnych."
+    },
+    {
+      "persona": "Wytwórca gokartów i mikrosamochodów",
+      "use": "Robi gokarty wyścigowe, pojazdy elektryczne dla osiedli i mikrosamochody do 50 km/h."
+    },
+    {
+      "persona": "Producent pojazdów dla osób z niepełnosprawnościami",
+      "use": "Buduje skutery elektryczne, mini-pojazdy mobilne i pojazdy dostosowane do potrzeb medycznych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka quadów i pojazdów UTV do zastosowań rolniczo-rekreacyjnych",
+    "Producent pojazdów wojskowych dla armii i służb",
+    "Zakład gokartów wyczynowych dla torów wyścigowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.91.Z (motocykle) — quad to nie motocykl, idzie pod 29.10.E.",
+    "Wybór 30.92.Z (rowery i wózki inwalidzkie) zamiast 29.10.E — wózki inwalidzkie elektryczne i skutery mobilne mogą być pod oba kody zależnie od konstrukcji."
+  ],
+  "taxNotes": "Branża niszowych pojazdów silnikowych obsługuje wąskie segmenty z dużym udziałem eksportu i specjalistycznych kontraktów. Forma opodatkowania zależy od skali, struktury klientów i ulg branżowych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "10.85.Z",
+  "name": "Wytwarzanie gotowych posiłków i dań",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.85.Z obejmuje produkcję gotowych dań — chłodzonych, mrożonych, w słoikach lub puszkach — przeznaczonych do podgrzania i spożycia. To kod dla wytwórców cateringów dietetycznych, mrożonych pierogów ze szpinakiem czy dań w słoikach (np. flaki, gołąbki).",
+  "whoUsesIt": [
+    {
+      "persona": "Catering dietetyczny / box pudełkowy",
+      "use": "Produkuje pakowane porcje na całe dni dietetyczne i dystrybuuje do klientów."
+    },
+    {
+      "persona": "Fabryka dań mrożonych",
+      "use": "Produkuje pizze, lasagne i gotowe dania mrożone dla sieci handlowych."
+    },
+    {
+      "persona": "Wytwórca dań w słoikach",
+      "use": "Konserwuje gołąbki, flaki, bigos w słoikach z długim terminem przydatności."
+    },
+    {
+      "persona": "Producent kanapek i sałatek do sklepów",
+      "use": "Codziennie wytwarza świeże kanapki i sałatki do dystrybucji w sieciach convenience."
+    }
+  ],
+  "businessExamples": [
+    "Catering dietetyczny z dostawą do drzwi",
+    "Fabryka pizz mrożonych pod markami własnymi",
+    "Manufaktura dań w słoikach (gołąbki, bigos)"
+  ],
+  "commonMistakes": [
+    "Wybór 10.85.Z zamiast 56.21.Z (Przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych — catering) — catering eventowy z obsługą to 56.21.Z, a nie produkcja.",
+    "Pomylenie z 10.13.Z (Produkcja wyrobów z mięsa) — gotowe danie zawierające mięso jako składnik jest 10.85.Z, a nie wyrób mięsny."
+  ],
+  "taxNotes": "Produkcja gotowych posiłków objęta jest stawkami VAT zależnymi od kategorii produktu i kanału sprzedaży. Forma opodatkowania zależy od skali, struktury kosztów i modelu sprzedaży (B2B vs detal). Stawki sprawdź u doradcy podatkowego."
+}

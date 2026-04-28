@@ -1,0 +1,36 @@
+{
+  "code": "23.43.Z",
+  "name": "Produkcja ceramicznych izolatorów i osłon izolacyjnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.43.Z obejmuje produkcję ceramicznych izolatorów elektrycznych — izolatorów wsporczych, liniowych, stacyjnych, przepustowych oraz osłon izolacyjnych dla linii energetycznych wysokiego, średniego i niskiego napięcia. To wąsko wyspecjalizowany kod.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent izolatorów liniowych",
+      "use": "Wytwarza izolatory ceramiczne dla linii energetycznych WN i SN."
+    },
+    {
+      "persona": "Wytwórca izolatorów wsporczych",
+      "use": "Produkuje izolatory dla rozdzielni elektroenergetycznych i transformatorów."
+    },
+    {
+      "persona": "Producent osłon przepustowych",
+      "use": "Wytwarza ceramiczne osłony do bezpieczników WN i przepustów transformatorowych."
+    },
+    {
+      "persona": "Wytwórca izolatorów trakcyjnych",
+      "use": "Produkuje izolatory dla sieci kolejowej, tramwajowej i metra."
+    }
+  ],
+  "businessExamples": [
+    "Producent izolatorów dla linii 110 kV",
+    "Wytwórnia izolatorów stacyjnych",
+    "Zakład osłon ceramicznych do transformatorów"
+  ],
+  "commonMistakes": [
+    "Wybór 23.43.Z dla izolatorów szklanych — szklane izolatory liniowe to 23.15.Z.",
+    "Pomylenie z 27.33.Z (osprzęt elektroinstalacyjny) — gniazda, włączniki i osprzęt instalacyjny mają osobny kod."
+  ],
+  "taxNotes": "Izolatory wymagają certyfikacji zgodnie z normami IEC i prób dielektrycznych. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

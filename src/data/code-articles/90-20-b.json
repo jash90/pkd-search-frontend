@@ -1,0 +1,36 @@
+{
+  "code": "90.20.B",
+  "name": "Działalność teatralna",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.20.B obejmuje działalność teatrów dramatycznych, lalkowych, muzycznych, operowych oraz baletu i teatrów tańca. Pasuje zarówno do instytucji publicznych, jak i prywatnych teatrów, grup teatralnych i impresariatów wystawiających spektakle.",
+  "whoUsesIt": [
+    {
+      "persona": "Teatr dramatyczny",
+      "use": "Prowadzi repertuar, produkuje spektakle i sprzedaje bilety widzom."
+    },
+    {
+      "persona": "Niezależna grupa teatralna",
+      "use": "Realizuje autorskie spektakle wystawiane w różnych miejscach i na festiwalach."
+    },
+    {
+      "persona": "Teatr lalek dla dzieci",
+      "use": "Wystawia przedstawienia dla najmłodszych w siedzibie i objazdowo."
+    },
+    {
+      "persona": "Producent musicali",
+      "use": "Wystawia spektakle muzyczne i objeżdża z nimi kraj jako produkcja komercyjna."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny teatr off w przestrzeni postindustrialnej",
+    "Teatr lalkowy z objazdowymi spektaklami szkolnymi",
+    "Produkcja musicalowa z trasą po największych miastach"
+  ],
+  "commonMistakes": [
+    "Wybór 90.20.B dla pojedynczego aktora lub aktorki — indywidualna działalność aktorska to 90.20.C (pozostała działalność związana z wystawianiem przedstawień artystycznych).",
+    "Pomylenie z 90.31.A (centra kultury, domy kultury) — instytucja udostępniająca sale na różne wydarzenia nie jest teatrem produkującym spektakle."
+  ],
+  "taxNotes": "Bilety na spektakle teatralne często korzystają z preferencyjnej stawki VAT. Twórcy spektakli (reżyserzy, scenografowie) mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich. Stawki sprawdź u doradcy podatkowego."
+}

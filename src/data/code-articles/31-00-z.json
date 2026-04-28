@@ -1,0 +1,36 @@
+{
+  "code": "31.00.Z",
+  "name": "Produkcja mebli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 31.00.Z obejmuje produkcję mebli kuchennych, biurowych, sypialnianych, ogrodowych oraz mebli na zamówienie z drewna, płyt MDF, tworzyw sztucznych i metalu. To podstawowy kod dla stolarzy meblowych, fabryk mebli i firm projektujących meble pod wymiar.",
+  "whoUsesIt": [
+    {
+      "persona": "Stolarz meblowy",
+      "use": "Wykonuje meble kuchenne, garderoby i zabudowy na wymiar dla klientów indywidualnych."
+    },
+    {
+      "persona": "Fabryka mebli skrzyniowych",
+      "use": "Produkuje seryjnie meble do sypialni, salonów i pokoi dziecięcych dla sieci handlowych."
+    },
+    {
+      "persona": "Producent mebli biurowych",
+      "use": "Wytwarza biurka, regały, fotele i meble systemowe dla biur i coworkingów."
+    },
+    {
+      "persona": "Marka mebli premium",
+      "use": "Projektuje i produkuje meble autorskie z drewna litego — sprzedaż przez własny showroom i sklep online."
+    }
+  ],
+  "businessExamples": [
+    "Stolarnia mebli kuchennych na wymiar",
+    "Fabryka mebli tapicerowanych",
+    "Producent mebli ogrodowych z drewna egzotycznego"
+  ],
+  "commonMistakes": [
+    "Wybór 31.00.Z zamiast 16.23.Z (produkcja stolarki budowlanej) — produkcja okien, drzwi i schodów z drewna to inny kod.",
+    "Pomylenie z 47.59.Z (sprzedaż detaliczna mebli) — sam handel meblami bez produkcji podlega działowi 47."
+  ],
+  "taxNotes": "Branża meblarska często korzysta z preferencyjnych form opodatkowania dla małych zakładów rzemieślniczych oraz ulg związanych z eksportem. Wybór formy zależy od skali produkcji, udziału kosztów materiałów i kanałów sprzedaży (B2B vs B2C). Stawki sprawdź u doradcy podatkowego."
+}

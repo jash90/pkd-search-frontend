@@ -1,0 +1,36 @@
+{
+  "code": "87.91.Z",
+  "name": "Pośrednictwo w zakresie pomocy społecznej z zakwaterowaniem",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 87.91.Z obejmuje pośredniczenie między osobami potrzebującymi opieki długoterminowej (osoby starsze, niepełnosprawne) a placówkami i opiekunami świadczącymi tę opiekę z zakwaterowaniem. Pasuje do agencji opieki, biur dobierających opiekunki i koordynujących pobyty w domach seniora. Nie obejmuje samego prowadzenia placówki (zob. 87.30.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja pośrednictwa opieki nad seniorami",
+      "use": "Łączy rodziny szukające opieki z domami seniora i wykwalifikowanym personelem."
+    },
+    {
+      "persona": "Biuro pośrednictwa pracy opiekunek",
+      "use": "Rekrutuje opiekunki do pracy w Polsce i za granicą u osób wymagających opieki całodobowej."
+    },
+    {
+      "persona": "Konsultant ds. opieki długoterminowej",
+      "use": "Doradza rodzinom w wyborze placówki i pomaga w formalnościach związanych z umieszczeniem bliskiego."
+    },
+    {
+      "persona": "Platforma online łącząca opiekunów z rodzinami",
+      "use": "Prowadzi serwis internetowy dopasowujący opiekunów do potrzeb klientów."
+    }
+  ],
+  "businessExamples": [
+    "Agencja opieki dla seniorów w Niemczech",
+    "Biuro pośrednictwa do domów spokojnej starości",
+    "Platforma online dla rodzin szukających opiekunek"
+  ],
+  "commonMistakes": [
+    "Wybór 87.91.Z, gdy firma faktycznie sama prowadzi dom opieki — wówczas właściwy jest kod 87.30.Z (pomoc społeczna z zakwaterowaniem dla osób starszych i niepełnosprawnych).",
+    "Pomylenie z 78.10.Z (działalność związana z wyszukiwaniem miejsc pracy) — pośrednictwo w zatrudnianiu opiekunek bez specjalizacji w opiece społecznej należy do działu 78."
+  ],
+  "taxNotes": "Usługi pośrednictwa zwykle są opodatkowane VAT na zasadach ogólnych. Forma opodatkowania (ryczałt, skala, podatek liniowy) zależy od skali działalności i charakteru kontraktów z partnerami zagranicznymi. Stawki sprawdź u doradcy podatkowego."
+}

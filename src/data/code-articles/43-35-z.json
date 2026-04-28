@@ -1,0 +1,36 @@
+{
+  "code": "43.35.Z",
+  "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.35.Z to kategoria zbiorcza dla robót wykończeniowych nieobjętych innymi kodami działu 43.3 — np. montaż sufitów podwieszanych, ścianek działowych G-K, akustycznych paneli ściennych, montaż listew przypodłogowych, montaż balustrad, drobnych elementów dekoracyjnych. To kod 'parasol' dla wykończeniowców.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma od sufitów podwieszanych",
+      "use": "Montuje sufity kasetonowe i G-K w biurach, sklepach, salach konferencyjnych."
+    },
+    {
+      "persona": "Wykonawca ścianek G-K",
+      "use": "Wykonuje ścianki działowe gipsowo-kartonowe w budynkach komercyjnych."
+    },
+    {
+      "persona": "Firma od adaptacji wnętrz",
+      "use": "Realizuje fit-out biurowy i drobne prace wykończeniowe."
+    },
+    {
+      "persona": "Wykonawca akustycznych wykończeń",
+      "use": "Montuje panele akustyczne i barytowe sufity w studiach i salach koncertowych."
+    }
+  ],
+  "businessExamples": [
+    "Sufity podwieszane w nowym biurowcu",
+    "Ścianki G-K w biurze typu open space",
+    "Akustyka studia nagraniowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.31.Z–43.34.Z, gdy działalność można jednoznacznie zaklasyfikować jako tynkowanie, posadzkarstwo lub malowanie.",
+    "Wybór 43.35.Z zamiast 41.00.B, gdy firma realizuje pełny fit-out jako generalny wykonawca."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Usługi w obiektach mieszkalnych korzystają z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

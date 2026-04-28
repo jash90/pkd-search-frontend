@@ -1,0 +1,36 @@
+{
+  "code": "25.52.Z",
+  "name": "Obróbka cieplna metali",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.52.Z obejmuje usługi obróbki cieplnej i cieplno-chemicznej metali — hartowanie, odpuszczanie, wyżarzanie, normalizowanie, nawęglanie, azotowanie, obróbkę próżniową oraz indukcyjną. To kod dla zakładów wykonujących uszlachetnianie cieplne narzędzi, części maszyn i elementów konstrukcyjnych na powierzonym materiale.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład obróbki cieplnej",
+      "use": "Hartuje i odpuszcza narzędzia, formy i części maszyn na zlecenie klientów."
+    },
+    {
+      "persona": "Hartownia indukcyjna",
+      "use": "Hartuje powierzchniowo wałki, koła zębate i elementy motoryzacyjne."
+    },
+    {
+      "persona": "Zakład azotowania",
+      "use": "Azotuje formy do tworzyw, wałki silnikowe i elementy o wymaganej wysokiej twardości."
+    },
+    {
+      "persona": "Hartownia próżniowa",
+      "use": "Wykonuje obróbkę cieplną stali narzędziowych w piecach próżniowych z gazem szlachetnym."
+    }
+  ],
+  "businessExamples": [
+    "Hartownia narzędzi i form do tworzyw",
+    "Zakład azotowania wałków silnikowych",
+    "Hartownia próżniowa stali narzędziowych"
+  ],
+  "commonMistakes": [
+    "Wybór 25.52.Z zamiast 25.51.Z (nakładanie powłok), gdy firma świadczy usługi galwanizacji lub malowania — powłoki to 25.51.Z, obróbka cieplna to 25.52.Z.",
+    "Pomylenie z 25.53.Z (obróbka mechaniczna), gdy zakład skrawa metale — szlifowanie, toczenie, frezowanie to 25.53.Z."
+  ],
+  "taxNotes": "Usługi obróbki cieplnej objęte są VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy świadczeniu B2B. Wybór formy opodatkowania zależy od skali zakładu i kosztów energii. Stawki sprawdź u doradcy podatkowego."
+}

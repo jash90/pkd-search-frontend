@@ -1,0 +1,36 @@
+{
+  "code": "47.61.Z",
+  "name": "Sprzedaż detaliczna książek",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.61.Z dotyczy detalicznej sprzedaży nowych książek w księgarniach stacjonarnych. Obejmuje księgarnie ogólne, specjalistyczne (np. dziecięce, naukowe), antykwariaty z nowym towarem oraz księgarnie firmowe wydawnictw. Sprzedaż książek używanych klasyfikuje się w 47.79.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel księgarni niezależnej",
+      "use": "Prowadzi małą księgarnię z selekcjonowanym asortymentem i kawiarnią."
+    },
+    {
+      "persona": "Franczyzobiorca sieci księgarskiej",
+      "use": "Operuje punktem typu Empik, Świat Książki w galerii handlowej."
+    },
+    {
+      "persona": "Księgarnia specjalistyczna",
+      "use": "Sprzedaje książki naukowe, akademickie, prawnicze lub artystyczne."
+    },
+    {
+      "persona": "Księgarnia dziecięca",
+      "use": "Specjalizuje się w literaturze dziecięcej i młodzieżowej z eventami."
+    }
+  ],
+  "businessExamples": [
+    "Niezależna księgarnia z kawą i czytelnią",
+    "Księgarnia akademicka przy uczelni",
+    "Księgarnia dla dzieci z warsztatami"
+  ],
+  "commonMistakes": [
+    "Wybór 47.61.Z zamiast 47.79.A — używane książki i antykwaryczne mają osobny kod.",
+    "Pomylenie z 58.11.Z (wydawanie książek) — jeśli sam wydajesz książki, potrzebujesz dodatkowego kodu wydawniczego."
+  ],
+  "taxNotes": "Sprzedaż książek podlega obniżonej stawce VAT. Obowiązuje kasa fiskalna z wyjątkami. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

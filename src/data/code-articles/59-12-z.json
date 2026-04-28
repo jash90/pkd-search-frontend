@@ -1,0 +1,36 @@
+{
+  "code": "59.12.Z",
+  "name": "Działalność postprodukcyjna związana z filmami, nagraniami wideo i programami telewizyjnymi",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 59.12.Z obejmuje obróbkę materiału po zakończeniu zdjęć — montaż wideo, kolor grading, efekty wizualne (VFX), animację, dubbing, miksowanie dźwięku i mastering. Pasuje dla studiów postprodukcyjnych, freelancerów-montażystów i kolorystów oraz studiów VFX i dubbingowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Montażysta freelancer",
+      "use": "Montuje filmy, seriale i reklamy w software'ach typu Premiere, DaVinci Resolve, Avid."
+    },
+    {
+      "persona": "Kolorysta",
+      "use": "Wykonuje korekcję barwną i color grading materiałów fabularnych i reklamowych."
+    },
+    {
+      "persona": "Studio VFX",
+      "use": "Realizuje efekty wizualne, kompozycje 3D i animację do filmów i seriali."
+    },
+    {
+      "persona": "Studio dubbingowe",
+      "use": "Nagrywa polską wersję językową filmów, seriali i bajek dla VOD i kin."
+    }
+  ],
+  "businessExamples": [
+    "Studio postprodukcji wideo dla reklam",
+    "Freelancer-kolorysta dla seriali HBO/Netflix",
+    "Studio dubbingowe dla animacji"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 59.11.Z (produkcja filmów) — kompletna realizacja produkcji od zdjęć po finał to inny kod.",
+    "Wybór 59.12.Z zamiast 90.03.Z (działalność twórcza) — czysta praca artystyczna reżysera i scenarzysty ma osobną klasę."
+  ],
+  "taxNotes": "Działalność postprodukcyjna często rozliczana ryczałtem lub liniowo. Honoraria autorskie mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich. IP Box dostępny przy własnych pracach twórczych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "26.51.Z",
+  "name": "Produkcja instrumentów i przyrządów pomiarowych, kontrolnych i nawigacyjnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.51.Z obejmuje produkcję przyrządów pomiarowych, kontrolnych, badawczych i nawigacyjnych — multimetrów, oscyloskopów, mierników środowiskowych, czujników przemysłowych, GPS, autopilotów, sond meteo, urządzeń do badań laboratoryjnych, wag elektronicznych oraz testerów. To kod dla zakładów wysokotechnologicznych dostarczających aparaturę kontrolno-pomiarową.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent mierników i oscyloskopów",
+      "use": "Wytwarza aparaturę elektroniczną dla laboratoriów R&D i serwisów."
+    },
+    {
+      "persona": "Wytwórca czujników przemysłowych",
+      "use": "Produkuje czujniki temperatury, ciśnienia, przepływu i poziomu dla automatyki."
+    },
+    {
+      "persona": "Producent urządzeń GPS i nawigacji",
+      "use": "Wytwarza moduły GPS, nawigacje samochodowe i autopiloty dla dronów."
+    },
+    {
+      "persona": "Wytwórca aparatury laboratoryjnej",
+      "use": "Produkuje spektrometry, chromatografy i analizatory dla labów badawczych."
+    }
+  ],
+  "businessExamples": [
+    "Producent mierników elektrycznych i oscyloskopów",
+    "Wytwórnia czujników przemysłowych dla automatyki",
+    "Producent modułów GPS i autopilotów do dronów"
+  ],
+  "commonMistakes": [
+    "Wybór 26.51.Z zamiast 26.20.Z (produkcja komputerów i urządzeń peryferyjnych), gdy zakład produkuje urządzenia komputerowe ogólnego przeznaczenia.",
+    "Pomylenie z 33.13.Z (naprawa urządzeń elektronicznych i optycznych) — sama naprawa aparatury pomiarowej to inny kod, produkcja to 26.51.Z."
+  ],
+  "taxNotes": "Produkcja aparatury pomiarowej objęta jest VAT na zasadach ogólnych. Branża wysokotechnologiczna często korzysta z ulg B+R i IP Box. Wybór formy opodatkowania zależy od skali, B+R i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

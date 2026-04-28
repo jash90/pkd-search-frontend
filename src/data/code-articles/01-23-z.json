@@ -1,0 +1,36 @@
+{
+  "code": "01.23.Z",
+  "name": "Uprawa drzew i krzewów owocowych cytrusowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.23.Z obejmuje uprawę cytryn, pomarańczy, limonek, mandarynek, grejpfrutów i innych cytrusów. W warunkach polskich jest praktycznie nieobecny w produkcji towarowej — pojawia się głównie przy działalności szklarniowej, demonstracyjnej oraz w plantacjach prowadzonych przez polskie firmy w basenie Morza Śródziemnego.",
+  "whoUsesIt": [
+    {
+      "persona": "Polski właściciel plantacji",
+      "use": "Prowadzi gaj cytrusowy w Hiszpanii lub Włoszech i rozlicza dochody w Polsce."
+    },
+    {
+      "persona": "Szklarnia kolekcjonerska",
+      "use": "Uprawia drzewka cytrusowe pod osłonami w celach ozdobnych i sprzedaży detalicznej."
+    },
+    {
+      "persona": "Producent szczepów i sadzonek",
+      "use": "Rozmnaża drzewka cytrusowe na sprzedaż dla hobbystów i ogrodników."
+    },
+    {
+      "persona": "Firma agroturystyczna",
+      "use": "Pokazuje uprawy cytrusów w szklarniach jako element atrakcji edukacyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Polski właściciel gaju w Hiszpanii",
+    "Szklarnia z drzewkami cytrusowymi",
+    "Producent sadzonek cytrusów"
+  ],
+  "commonMistakes": [
+    "Wybór 01.23.Z zamiast 01.30.Z (rozmnażanie roślin), jeśli głównie produkujesz sadzonki cytrusów w szkółce.",
+    "Pomylenie z 01.22.Z dla owoców tropikalnych nie-cytrusowych (banan, mango) — te mają osobną kategorię."
+  ],
+  "taxNotes": "Działalność rolnicza w Polsce zazwyczaj jest objęta podatkiem rolnym zamiast PIT, jednak uprawy szklarniowe mogą być działem specjalnym produkcji rolnej. Plantacje zagraniczne wymagają oceny w kontekście umów międzynarodowych. Stawki sprawdź u doradcy podatkowego."
+}

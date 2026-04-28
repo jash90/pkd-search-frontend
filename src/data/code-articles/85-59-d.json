@@ -1,0 +1,36 @@
+{
+  "code": "85.59.D",
+  "name": "Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.59.D to pozostała pozaszkolna edukacja niemieszcząca się w innych kodach — kursy hobbistyczne (gotowanie, rękodzieło), warsztaty rozwoju osobistego, kursy ezoteryczne, kursy mnemotechniki, szybkiego czytania, kreatywności. Konkretne specjalizacje (języki, sport, kursy zawodowe) mają własne kody 85.59.A-C.",
+  "whoUsesIt": [
+    {
+      "persona": "Trener rozwoju osobistego / coach",
+      "use": "Prowadzi warsztaty z efektywności, zarządzania czasem, pewności siebie dla klientów indywidualnych."
+    },
+    {
+      "persona": "Szkoła gotowania",
+      "use": "Organizuje warsztaty kulinarne dla amatorów — kuchnia włoska, sushi, pieczenie chleba w grupach hobbystycznych."
+    },
+    {
+      "persona": "Pracownia rękodzieła i sztuki użytkowej",
+      "use": "Prowadzi warsztaty ceramiki, makramy, witrażownictwa, mydlarstwa dla zainteresowanych hobbystycznie."
+    },
+    {
+      "persona": "Trener mnemotechnik / szybkiego czytania",
+      "use": "Uczy technik pamięciowych, szybkiego czytania, mind mappingu w formie kursów stacjonarnych i online."
+    }
+  ],
+  "businessExamples": [
+    "Szkoła gotowania - warsztaty kulinarne dla dorosłych",
+    "Pracownia ceramiczna prowadząca warsztaty hobbystyczne",
+    "Coach rozwoju osobistego prowadzący szkolenia online"
+  ],
+  "commonMistakes": [
+    "Wybór 85.59.D dla kursów zawodowych mających klarowne zastosowanie zawodowe — to 85.59.B, ten kod jest dla edukacji rekreacyjnej i hobbistycznej.",
+    "Pomylenie z 85.51.Z (edukacja sportowa) — warsztat fitness czy joga to raczej 85.51.Z, a pisanie kreatywne czy gotowanie to 85.59.D."
+  ],
+  "taxNotes": "Działalność hobbistyczna często dobrze pasuje do ryczałtu. Niektóre warsztaty mogą być zwolnione z VAT. Kasa fiskalna może być wymagana przy obsłudze klientów indywidualnych po przekroczeniu limitu. Stawki sprawdź u doradcy podatkowego."
+}

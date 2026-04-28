@@ -1,0 +1,36 @@
+{
+  "code": "47.69.A",
+  "name": "Sprzedaż detaliczna instrumentów muzycznych i nut",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.69.A obejmuje detaliczną sprzedaż instrumentów muzycznych, nut, akcesoriów muzycznych (struny, kostki, statywy) oraz sprzętu muzycznego (wzmacniacze, pedały, mikrofony) w wyspecjalizowanych sklepach. To kod dla sklepów muzycznych, sklepów z gitarami, fortepianami i sprzętem nagraniowym.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu muzycznego",
+      "use": "Sprzedaje gitary, klawisze, perkusje i akcesoria dla muzyków amatorów i pro."
+    },
+    {
+      "persona": "Salon fortepianów",
+      "use": "Specjalizuje się w fortepianach, pianinach i ich strojeniu oraz serwisie."
+    },
+    {
+      "persona": "Sklep z nutami",
+      "use": "Oferuje nuty drukowane, śpiewniki, partytury i podręczniki muzyczne."
+    },
+    {
+      "persona": "Sklep ze sprzętem nagraniowym",
+      "use": "Sprzedaje mikrofony, interfejsy audio, monitory i akcesoria do home studio."
+    }
+  ],
+  "businessExamples": [
+    "Sklep z gitarami i wzmacniaczami",
+    "Salon fortepianów ze strojeniem",
+    "Sklep dla DJ-ów z gramofonami i mikserami"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.20.Z (produkcja instrumentów muzycznych) — jeśli sam produkujesz, potrzebny jest kod produkcyjny.",
+    "Wybór 47.69.A zamiast 95.29.Z, jeśli głównie zajmujesz się serwisem i naprawą instrumentów."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i gwarancji konsumenckiej. Forma opodatkowania zależy od skali i marży. Stawki sprawdź u doradcy podatkowego."
+}

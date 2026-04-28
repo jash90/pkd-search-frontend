@@ -1,0 +1,36 @@
+{
+  "code": "46.11.B",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową pozostałych płodów rolnych, żywych zwierząt, surowców dla przemysłu tekstylnego i półproduktów",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.11.B obejmuje pośrednictwo w hurtowej sprzedaży pozostałych produktów rolnych (warzyw, owoców, chmielu), żywych zwierząt (bydło, trzoda chlewna, drób), surowców tekstylnych (wełna, len, skóry surowe) oraz rolniczych półproduktów. Agent działa na zlecenie producenta lub odbiorcy.",
+  "whoUsesIt": [
+    {
+      "persona": "Agent skupu zwierząt rzeźnych",
+      "use": "Pośredniczy w sprzedaży trzody i bydła między hodowcami a zakładami mięsnymi."
+    },
+    {
+      "persona": "Pośrednik handlu warzywami i owocami",
+      "use": "Łączy producentów z hurtowniami i sieciami handlowymi."
+    },
+    {
+      "persona": "Broker chmielu i surowców tekstylnych",
+      "use": "Pośredniczy w obrocie chmielem dla browarów lub wełną dla przemysłu tekstylnego."
+    },
+    {
+      "persona": "Agent skupu skór surowych",
+      "use": "Pośredniczy między ubojniami a zakładami garbarskimi."
+    }
+  ],
+  "businessExamples": [
+    "Pośrednictwo w skupie trzody chlewnej",
+    "Agent handlu warzywami z gospodarstw szklarniowych",
+    "Brokerstwo chmielu dla browarów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.11.A (zboża i nasiona oleiste) — zboża i rzepak mają osobny kod agencyjny.",
+    "Wybór 46.11.B zamiast 46.23.Z lub 46.32.Z, gdy firma sprzedaje zwierzęta lub mięso na własny rachunek."
+  ],
+  "taxNotes": "Działalność agencyjna rozliczana jest na podstawie prowizji. Skup zwierząt może wymagać dodatkowych zezwoleń weterynaryjnych. Stawki sprawdź u doradcy podatkowego."
+}

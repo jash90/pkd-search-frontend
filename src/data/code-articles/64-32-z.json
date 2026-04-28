@@ -1,0 +1,36 @@
+{
+  "code": "64.32.Z",
+  "name": "Działalność instytucji powierniczych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.32.Z obejmuje działalność trustów, fundacji, funduszy powierniczych i podobnych instytucji zarządzających aktywami w imieniu beneficjentów. Pasuje dla fundacji rodzinnych, fundacji prywatnych, trustów (w jurysdykcjach uznających) i podmiotów wykonujących powiernictwo majątkowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Fundacja rodzinna",
+      "use": "Zarządza majątkiem rodziny w sposób długoterminowy — sukcesja, ochrona aktywów, dystrybucja świadczeń."
+    },
+    {
+      "persona": "Fundacja prywatna",
+      "use": "Realizuje cele statutowe (filantropijne, edukacyjne) z majątku zgromadzonego na rzecz beneficjentów."
+    },
+    {
+      "persona": "Trust zagraniczny",
+      "use": "Zarządza aktywami w imieniu settlora i beneficjentów (głównie w jurysdykcjach common law)."
+    },
+    {
+      "persona": "Fundusz emerytalny pracowniczy",
+      "use": "Gromadzi i pomnaża środki uczestników na cele emerytalne (np. PPE, IKE-pracownicze)."
+    }
+  ],
+  "businessExamples": [
+    "Polska fundacja rodzinna do sukcesji firmy",
+    "Trust zagraniczny zarządzający aktywami",
+    "Fundusz powierniczy dla emerytów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.31.Z (fundusze inwestycyjne) — FIO/FIZ regulowane przez KNF mają osobny kod.",
+    "Wybór 64.32.Z zamiast 88.99.Z lub 94.99.Z — fundacje czysto charytatywne bez funkcji powierniczej klasyfikuje się inaczej."
+  ],
+  "taxNotes": "Polska fundacja rodzinna ma własny reżim CIT (zwolnienie z bieżącego CIT, opodatkowanie świadczeń u beneficjentów). Trusty zagraniczne wymagają analizy zgodności z polskim prawem. Stawki sprawdź u doradcy podatkowego."
+}

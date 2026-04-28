@@ -1,0 +1,36 @@
+{
+  "code": "66.22.Z",
+  "name": "Działalność agentów i brokerów ubezpieczeniowych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.22.Z obejmuje pośrednictwo ubezpieczeniowe — działalność agentów (związanych z konkretnymi ubezpieczycielami) oraz brokerów (niezależnych pośredników działających w imieniu klienta). To kod właściwy dla multiagencji, brokerów korporacyjnych i indywidualnych pośredników sprzedających polisy.",
+  "whoUsesIt": [
+    {
+      "persona": "Agent ubezpieczeniowy",
+      "use": "Sprzedaje polisy konkretnego towarzystwa (lub kilku) klientom indywidualnym i małym firmom."
+    },
+    {
+      "persona": "Broker ubezpieczeniowy",
+      "use": "Doradza klientom korporacyjnym przy wyborze polis i negocjuje warunki z wieloma ubezpieczycielami."
+    },
+    {
+      "persona": "Multiagencja ubezpieczeniowa",
+      "use": "Prowadzi sieć agentów oferujących polisy różnych towarzystw — porównuje oferty dla klienta."
+    },
+    {
+      "persona": "Insurtech / online porównywarka",
+      "use": "Udostępnia platformę cyfrową do zakupu polis OC, AC, mieszkaniowych z porównaniem ofert."
+    }
+  ],
+  "businessExamples": [
+    "Multiagencja sprzedająca OC i mieszkaniówkę",
+    "Broker ubezpieczeń korporacyjnych dla firm produkcyjnych",
+    "Internetowa porównywarka polis komunikacyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 66.22.Z zamiast 65.12.Z — sam zakład ubezpieczeń (a nie pośrednik) używa kodów z grupy 65.",
+    "Pomylenie z 66.19.Z (pozostała działalność finansowa) — pośrednictwo ubezpieczeniowe ma własny dedykowany kod 66.22.Z."
+  ],
+  "taxNotes": "Pośrednictwo ubezpieczeniowe wymaga wpisu do rejestru KNF (agent — przez ubezpieczyciela, broker — bezpośrednio). Usługi pośrednictwa ubezpieczeniowego są zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

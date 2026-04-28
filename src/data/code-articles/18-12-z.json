@@ -1,0 +1,36 @@
+{
+  "code": "18.12.Z",
+  "name": "Pozostałe drukowanie",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 18.12.Z obejmuje całe drukowanie poza gazetami — książki, katalogi, ulotki, plakaty, etykiety, opakowania, materiały reklamowe, formularze i druki akcydensowe. To podstawowy kod dla większości drukarń offsetowych, cyfrowych i fleksograficznych w Polsce.",
+  "whoUsesIt": [
+    {
+      "persona": "Drukarnia offsetowa",
+      "use": "Drukuje ulotki, katalogi, książki i materiały marketingowe dla agencji i firm."
+    },
+    {
+      "persona": "Drukarnia cyfrowa",
+      "use": "Realizuje krótkie nakłady, druki personalizowane i print-on-demand dla klientów online."
+    },
+    {
+      "persona": "Producent etykiet i opakowań",
+      "use": "Drukuje fleksograficznie etykiety samoprzylepne, opakowania foliowe i kartonowe."
+    },
+    {
+      "persona": "Drukarnia wielkoformatowa",
+      "use": "Wytwarza banery reklamowe, plakaty, oklejenia witryn i pojazdów."
+    }
+  ],
+  "businessExamples": [
+    "Drukarnia offsetowa książek i katalogów",
+    "Print-on-demand dla sklepów internetowych",
+    "Drukarnia wielkoformatowa banerów reklamowych"
+  ],
+  "commonMistakes": [
+    "Wybór 18.12.Z dla druku gazet codziennych — gazety mają osobny kod 18.11.Z.",
+    "Pomylenie z 18.13.Z (przygotowanie do druku) — jeśli firma robi tylko skład, DTP i wykonuje formy drukarskie bez fizycznego druku, właściwy jest 18.13.Z."
+  ],
+  "taxNotes": "Drukarnie często rozliczają się w modelu projektowym z różnymi stawkami VAT zależnie od produktu (książki, prasa, opakowania). Wybór formy opodatkowania zależy od skali zakładu i udziału eksportu. Stawki sprawdź u doradcy podatkowego."
+}

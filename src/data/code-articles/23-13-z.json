@@ -1,0 +1,36 @@
+{
+  "code": "23.13.Z",
+  "name": "Produkcja szkła gospodarczego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.13.Z obejmuje produkcję szkła gospodarczego — szklanek, kieliszków, butelek, słoików, dzbanków, naczyń żaroodpornych, świeczników i wyrobów dekoracyjnych ze szkła. To kod dla hut szkła opakowaniowego i gospodarczego.",
+  "whoUsesIt": [
+    {
+      "persona": "Huta szkła opakowaniowego",
+      "use": "Produkuje butelki, słoiki i pojemniki szklane dla branży spożywczej i kosmetycznej."
+    },
+    {
+      "persona": "Wytwórca szkła stołowego",
+      "use": "Produkuje szklanki, kieliszki i karafki dla HoReCa i rynku detalicznego."
+    },
+    {
+      "persona": "Producent szkła żaroodpornego",
+      "use": "Wytwarza naczynia kuchenne, dzbanki i pojemniki ze szkła borokrzemowego."
+    },
+    {
+      "persona": "Wytwórca szkła ozdobnego",
+      "use": "Produkuje świeczniki, wazony i wyroby dekoracyjne metodą hutniczą lub formową."
+    }
+  ],
+  "businessExamples": [
+    "Huta szkła butelkowego dla browarów",
+    "Producent szklanek i kieliszków HoReCa",
+    "Wytwórnia szkła żaroodpornego"
+  ],
+  "commonMistakes": [
+    "Wybór 23.13.Z dla szkła okiennego — szkło płaskie to 23.11.Z.",
+    "Pomylenie z 23.41.Z (porcelana stołowa) — talerze i kubki ceramiczne mają osobny kod."
+  ],
+  "taxNotes": "Szkło opakowaniowe objęte jest systemem kaucji i opłatą produktową. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

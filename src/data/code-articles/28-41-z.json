@@ -1,0 +1,36 @@
+{
+  "code": "28.41.Z",
+  "name": "Produkcja maszyn do formowania metalu i obrabiarek do metalu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.41.Z obejmuje produkcję obrabiarek do metalu — tokarek, frezarek, wiertarek, szlifierek przemysłowych, pras hydraulicznych, gilotyn, krawędziarek, central CNC. To kluczowa branża dla przemysłu maszynowego, motoryzacyjnego i obronnego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent obrabiarek CNC",
+      "use": "Wytwarza tokarki i centra obróbcze CNC z własnym systemem sterowania."
+    },
+    {
+      "persona": "Fabryka pras i gilotyn",
+      "use": "Produkuje prasy hydrauliczne, krawędziarki i gilotyny dla przemysłu blacharskiego."
+    },
+    {
+      "persona": "Wytwórca maszyn do cięcia laserowego",
+      "use": "Buduje wycinarki laserowe, plazmowe i wodne dla obróbki blach."
+    },
+    {
+      "persona": "Producent szlifierek przemysłowych",
+      "use": "Robi szlifierki płaskie, walcowe i bezkłowe dla zakładów obróbki precyzyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka tokarek CNC dla przemysłu motoryzacyjnego",
+    "Producent wycinarek laserowych światłowodowych",
+    "Zakład pras hydraulicznych do tłoczenia blach"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.42.Z (pozostałe narzędzia mechaniczne) — narzędzia do obróbki drewna, plastiku, kamienia idą tam, nie pod 28.41.Z.",
+    "Wybór 25.62.Z (obróbka mechaniczna) zamiast 28.41.Z — sama obróbka u klienta to usługa, nie produkcja maszyn."
+  ],
+  "taxNotes": "Producenci obrabiarek to typowo wysokokapitałowa branża z silnym wsparciem ulg B+R i ulg na robotyzację. Skala, eksport i rozwój własnego know-how kształtują strategię podatkową. Stawki sprawdź u doradcy podatkowego."
+}

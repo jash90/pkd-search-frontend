@@ -1,0 +1,36 @@
+{
+  "code": "90.11.Z",
+  "name": "Działalność literacka i działalność związana z komponowaniem muzyki",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.11.Z obejmuje działalność twórczą pisarzy, poetów, scenarzystów oraz kompozytorów muzyki — czyli osób tworzących utwory literackie i muzyczne na własny rachunek. Pasuje również dla autorów piszących pod pseudonimem oraz kompozytorów muzyki filmowej i reklamowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Pisarz / autor książek",
+      "use": "Tworzy powieści, opowiadania i książki popularnonaukowe, sprzedając prawa wydawcom."
+    },
+    {
+      "persona": "Scenarzysta filmowy i serialowy",
+      "use": "Pisze scenariusze na zlecenie producentów filmowych i platform streamingowych."
+    },
+    {
+      "persona": "Kompozytor muzyki",
+      "use": "Komponuje muzykę autorską, ścieżki dźwiękowe i jingle reklamowe."
+    },
+    {
+      "persona": "Tekściarz / autor piosenek",
+      "use": "Pisze teksty utworów dla wykonawców i wydawnictw muzycznych."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny pisarz publikujący powieści",
+    "Kompozytor muzyki filmowej",
+    "Scenarzysta seriali platformy streamingowej"
+  ],
+  "commonMistakes": [
+    "Wybór 90.11.Z dla działalności wydawniczej — wydawanie własnych książek (np. self-publishing z dystrybucją) bliżej jest kodom 58.11.Z (wydawanie książek).",
+    "Pomylenie z 90.03.Z (artystyczna i literacka działalność twórcza) z PKD 2007 — w PKD 2025 numeracja i podział uległy zmianom, sprawdź aktualną klasyfikację."
+  ],
+  "taxNotes": "Twórcy mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich (w ramach limitu rocznego). Honoraria autorskie mają specyficzne zasady opodatkowania VAT (zwolnienie podmiotowe lub preferencyjna stawka dla niektórych usług). Stawki sprawdź u doradcy podatkowego."
+}

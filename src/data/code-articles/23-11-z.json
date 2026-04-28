@@ -1,0 +1,36 @@
+{
+  "code": "23.11.Z",
+  "name": "Produkcja szkła płaskiego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.11.Z obejmuje produkcję szkła płaskiego w procesie float — szkła okiennego, taflowego, zbrojonego, mlecznego i szkła do produkcji luster. To bardzo kapitałochłonna działalność realizowana w hutach szkła z piecami float-glass.",
+  "whoUsesIt": [
+    {
+      "persona": "Huta szkła float",
+      "use": "Produkuje tafle szkła okiennego o standardowych grubościach dla budownictwa."
+    },
+    {
+      "persona": "Producent szkła do luster",
+      "use": "Wytwarza tafle bazowe pod nakładanie warstwy lustrzanej."
+    },
+    {
+      "persona": "Wytwórca szkła zbrojonego",
+      "use": "Produkuje tafle szkła z siatką stalową dla budownictwa przeciwpożarowego."
+    },
+    {
+      "persona": "Producent szkła barwionego w masie",
+      "use": "Wytwarza szkła brązowe, szare i grafitowe do elewacji i fasad."
+    }
+  ],
+  "businessExamples": [
+    "Huta szkła float dla budownictwa",
+    "Producent tafli pod produkcję luster",
+    "Wytwórnia szkła barwionego do fasad"
+  ],
+  "commonMistakes": [
+    "Wybór 23.11.Z dla obróbki szkła już wyprodukowanego — cięcie, hartowanie i laminacja to 23.12.Z.",
+    "Pomylenie z 23.13.Z (szkło gospodarcze) — szklanki, słoiki i butelki mają osobny kod."
+  ],
+  "taxNotes": "Huty szkła objęte są systemem ETS i wymogami BAT/IPPC. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "51.22.Z",
+  "name": "Transport kosmiczny",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 51.22.Z obejmuje transport kosmiczny — wynoszenie satelitów na orbitę, loty załogowe i bezzałogowe, transport ładunków na stacje orbitalne. To niszowy kod dla firm sektora kosmicznego — operatorów rakiet, dostawców usług launch oraz firm zajmujących się transportem orbitalnym.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator rakiet nośnych",
+      "use": "Wynosi satelity klientów na orbitę z własnych kosmodromów (np. SpaceX-style)."
+    },
+    {
+      "persona": "Firma launch services",
+      "use": "Pośredniczy w organizacji startów rakiet i integracji satelitów."
+    },
+    {
+      "persona": "Polski startup kosmiczny",
+      "use": "Rozwija mikrorakiety i platformy do wynoszenia małych satelitów (smallsat)."
+    },
+    {
+      "persona": "Konsorcjum agencji kosmicznych",
+      "use": "Realizuje misje załogowe i logistyczne na ISS oraz inne stacje orbitalne."
+    }
+  ],
+  "businessExamples": [
+    "Operator rakiety nośnej smallsat",
+    "Pośrednik launch services dla satelitów",
+    "Konsorcjum misji kosmicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 51.22.Z zamiast 72.19.Z — badania naukowe i rozwój technologii kosmicznych to osobny kod B+R.",
+    "Pomylenie z 30.30.Z — produkcja rakiet, satelitów i innych pojazdów kosmicznych to produkcja, nie transport."
+  ],
+  "taxNotes": "Działalność kosmiczna wymaga zezwoleń krajowych i międzynarodowych, certyfikacji bezpieczeństwa i ubezpieczeń startów. Stawki sprawdź u doradcy podatkowego."
+}

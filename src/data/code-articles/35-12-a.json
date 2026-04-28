@@ -1,0 +1,36 @@
+{
+  "code": "35.12.A",
+  "name": "Energetyka wiatrowa",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.A obejmuje wytwarzanie energii elektrycznej z elektrowni wiatrowych — zarówno lądowych (onshore) jak i morskich (offshore). To dynamicznie rozwijający się segment OZE w Polsce, ze szczególnym wzrostem inwestycji offshore na Bałtyku.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator farmy wiatrowej onshore",
+      "use": "Eksploatuje farmy wiatrowe na lądzie i sprzedaje energię na rynku hurtowym lub w PPA."
+    },
+    {
+      "persona": "Inwestor offshore na Morzu Bałtyckim",
+      "use": "Realizuje projekty morskich farm wiatrowych z umowami CfD z państwem."
+    },
+    {
+      "persona": "Spółka SPV dla projektu wiatrowego",
+      "use": "Spółka celowa do realizacji konkretnej farmy wiatrowej z finansowaniem projektowym."
+    },
+    {
+      "persona": "Wytwórca z mikroturbiny wiatrowej",
+      "use": "Eksploatuje pojedyncze turbiny wiatrowe w ramach prosumenta lub klastra energii."
+    }
+  ],
+  "businessExamples": [
+    "Operator farmy wiatrowej onshore o mocy 50 MW",
+    "Spółka offshore realizująca projekt morskiej farmy wiatrowej",
+    "Klaster energii z mikroturbinami wiatrowymi i fotowoltaiką"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.11.Z (źródła nieodnawialne) — wiatr jest OZE i idzie pod 35.12.A, nie pod konwencjonalną energetykę.",
+    "Wybór 42.22.Z (roboty inżynieryjne energetyki) zamiast 35.12.A — sama budowa farmy to inny kod, eksploatacja to 35.12.A."
+  ],
+  "taxNotes": "Energetyka wiatrowa korzysta z systemów wsparcia (CfD, aukcje OZE), umów PPA i specyficznych zasad rozliczeń podatkowych dla nieruchomości elektrowni. Strategia podatkowa wymaga uwzględnienia struktury finansowania projektowego. Stawki sprawdź u doradcy podatkowego."
+}

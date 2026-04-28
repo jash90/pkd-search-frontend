@@ -1,0 +1,36 @@
+{
+  "code": "01.14.Z",
+  "name": "Uprawa trzciny cukrowej",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.14.Z obejmuje wyłącznie uprawę trzciny cukrowej. W Polsce ze względu na klimat kod ten praktycznie nie jest stosowany w typowej działalności rolniczej — pojawia się głównie w międzynarodowych klasyfikacjach lub w działalności badawczej i niszowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Polski oddział firmy zagranicznej",
+      "use": "Rozlicza w Polsce działalność rolniczą prowadzoną na plantacjach trzciny za granicą."
+    },
+    {
+      "persona": "Stacja badawcza",
+      "use": "Prowadzi prace nad uprawami tropikalnymi w warunkach szklarniowych dla celów naukowych."
+    },
+    {
+      "persona": "Gospodarstwo demonstracyjne",
+      "use": "Pokazuje uprawy egzotyczne, w tym trzcinę cukrową, w ramach edukacji i agroturystyki."
+    },
+    {
+      "persona": "Importer surowca",
+      "use": "Posiada zaplecze plantacyjne za granicą i rejestruje działalność produkcyjną w Polsce."
+    }
+  ],
+  "businessExamples": [
+    "Demonstracyjna uprawa pod osłonami",
+    "Polski oddział plantatora tropikalnego",
+    "Stacja badań roślin egzotycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 01.14.Z zamiast 10.81.Z, gdy działalność dotyczy produkcji cukru z trzciny — to przetwórstwo, nie uprawa.",
+    "Pomylenie z 01.19.Z dla pozostałych upraw jednorocznych — trzcina cukrowa ma własny, dedykowany kod."
+  ],
+  "taxNotes": "Klasyczna działalność rolnicza podlega podatkowi rolnemu zamiast PIT, jednak nietypowe uprawy w warunkach kontrolowanych mogą być działami specjalnymi produkcji rolnej. Aspekty międzynarodowe (zagraniczne plantacje) wymagają osobnej analizy podatkowej. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "52.10.A",
+  "name": "Magazynowanie i przechowywanie zbóż i nasion oleistych",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.10.A dotyczy magazynowania i przechowywania zbóż (pszenicy, żyta, kukurydzy, jęczmienia) oraz nasion oleistych (rzepak, słonecznik, soja) w wyspecjalizowanych elewatorach, silosach i magazynach zbożowych. Często łączy się z usługami suszenia, czyszczenia i ochrony przechowalnianej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator elewatora zbożowego",
+      "use": "Przyjmuje, suszy i przechowuje zboże od rolników i firm skupowych."
+    },
+    {
+      "persona": "Spółka skupowa zbóż",
+      "use": "Skupuje zboże od rolników, magazynuje i odsprzedaje przetwórcom lub eksporterom."
+    },
+    {
+      "persona": "Właściciel silosów farmerskich",
+      "use": "Posiada własne silosy do przechowywania zbiorów z gospodarstwa lub na wynajem."
+    },
+    {
+      "persona": "Operator portu zbożowego",
+      "use": "Magazynuje zboże w portowych elewatorach przed eksportem morskim."
+    }
+  ],
+  "businessExamples": [
+    "Elewator zbożowy z suszarnią",
+    "Operator silosów rzepakowych",
+    "Magazyn portowy dla eksportu zbóż"
+  ],
+  "commonMistakes": [
+    "Wybór 52.10.A zamiast 52.10.B — pozostałe towary (mrożonki, ogólne ładunki) klasyfikują się jako 52.10.B.",
+    "Pomylenie z 01.61.Z — usługi wspomagające produkcję roślinną (np. zbiór, omłot na zlecenie) to inny kod."
+  ],
+  "taxNotes": "Magazyny zbożowe podlegają regulacjom KOWR i procedurom interwencyjnym (skupy interwencyjne). Stawki sprawdź u doradcy podatkowego."
+}

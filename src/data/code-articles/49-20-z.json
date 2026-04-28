@@ -1,0 +1,36 @@
+{
+  "code": "49.20.Z",
+  "name": "Transport kolejowy towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.20.Z obejmuje przewóz towarów koleją — masowych (węgiel, ruda, kruszywa), intermodalnych (kontenery), ciężkich i ponadgabarytowych. To kod dla licencjonowanych przewoźników kolejowych cargo i operatorów intermodalnych z dostępem do infrastruktury PKP PLK.",
+  "whoUsesIt": [
+    {
+      "persona": "Przewoźnik kolejowy cargo",
+      "use": "Realizuje przewozy towarów masowych (węgiel, kruszywa, paliwa) dla zakładów przemysłowych i elektrowni."
+    },
+    {
+      "persona": "Operator intermodalny",
+      "use": "Wozi kontenery z portów morskich do terminali lądowych i centrów logistycznych w głębi kraju."
+    },
+    {
+      "persona": "Spedytor kolejowy",
+      "use": "Organizuje pociągi maklerskie z innymi załadowcami — własna lokomotywa lub trakcja podzlecana."
+    },
+    {
+      "persona": "Bocznicowy przewoźnik dedykowany",
+      "use": "Świadczy usługi manewrowe i transport na odcinkach krótkodystansowych dla zakładów przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Operator pociągów intermodalnych na trasie Gdańsk–Łódź",
+    "Przewoźnik węgla z kopalni do elektrowni",
+    "Firma manewrowa na bocznicach huty"
+  ],
+  "commonMistakes": [
+    "Wybór 49.20.Z zamiast 49.10.Z (transport kolejowy pasażerski) — przewóz osób to inny kod, mimo że może odbywać się na tej samej infrastrukturze.",
+    "Pomylenie z 52.21.Z (działalność usługowa wspomagająca transport lądowy) — same usługi terminalowe i przeładunkowe bez własnego przewozu to inny kod."
+  ],
+  "taxNotes": "Działalność przewoźników kolejowych wymaga licencji UTK i certyfikatów bezpieczeństwa, a usługi transportowe rozliczane są zgodnie z mechanizmami właściwymi dla branży transportowej, w tym możliwością odwrotnego obciążenia w transakcjach unijnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "71.12.A",
+  "name": "Działalność w zakresie geodezji i kartografii",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.12.A obejmuje pomiary geodezyjne, sporządzanie map, opracowania kartograficzne, obsługę inwestycji budowlanych w zakresie geodezji oraz prace związane z ewidencją gruntów. To kod dla geodetów uprawnionych, biur geodezyjnych i firm wykonujących pomiary terenowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Geodeta uprawniony",
+      "use": "Wykonuje mapy do celów projektowych, podziały działek, wytyczenia obiektów dla inwestorów."
+    },
+    {
+      "persona": "Biuro geodezyjno-kartograficzne",
+      "use": "Realizuje kompleksową obsługę geodezyjną inwestycji deweloperskich i drogowych."
+    },
+    {
+      "persona": "Firma pomiarów GIS / dronowych",
+      "use": "Wykonuje pomiary fotogrametryczne, skanowanie laserowe i mapy z dronów dla branży inżynieryjnej."
+    },
+    {
+      "persona": "Specjalista geodezji inżynieryjnej",
+      "use": "Obsługuje projekty wielkopowierzchniowe — autostrady, koleje, wiatraki, sieci przesyłowe."
+    }
+  ],
+  "businessExamples": [
+    "Biuro geodezyjne obsługujące deweloperów",
+    "Firma pomiarów dronowych dla branży drogowej",
+    "Geodeta wytyczający domy jednorodzinne"
+  ],
+  "commonMistakes": [
+    "Wybór 71.12.A zamiast 71.12.B — projektowanie inżynieryjne (drogi, sieci) bez pomiarów geodezyjnych mieści się w 71.12.B.",
+    "Pomylenie z 74.90.Z — geodezja ma własny dedykowany kod, nie należy używać kategorii 'pozostała działalność'."
+  ],
+  "taxNotes": "Geodeta uprawniony musi mieć państwowe uprawnienia zawodowe i może być zobowiązany do ubezpieczenia OC. Działalność często kwalifikuje się do ryczałtu według właściwej stawki (z preferencją dla wolnych zawodów). Usługi geodezyjne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

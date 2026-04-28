@@ -1,0 +1,36 @@
+{
+  "code": "52.22.B",
+  "name": "Działalność usługowa wspomagająca transport wodny śródlądowy",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.22.B obejmuje usługi wspierające żeglugę śródlądową — obsługę śluz, przystani, nabrzeży rzecznych, pilotaż i cumowanie statków na rzekach, kanałach i jeziorach. Pasuje dla podmiotów świadczących usługi nawigacyjne, manewrowe i utrzymaniowe na drogach wodnych w głębi lądu.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator przystani rzecznej",
+      "use": "Prowadzi marinę śródlądową, oferuje cumowanie, tankowanie i obsługę jednostek pasażerskich oraz towarowych."
+    },
+    {
+      "persona": "Pilot żeglugi śródlądowej",
+      "use": "Wprowadza barki i statki rzeczne do portów, śluz i odcinków o trudnej nawigacji."
+    },
+    {
+      "persona": "Firma obsługująca śluzy i kanały",
+      "use": "Zapewnia obsługę techniczną i nawigacyjną na drogach wodnych zarządzanych przez Wody Polskie."
+    },
+    {
+      "persona": "Operator stacji bunkrowej",
+      "use": "Dostarcza paliwo i wodę pitną dla jednostek pływających na rzekach i kanałach."
+    }
+  ],
+  "businessExamples": [
+    "Marina rzeczna z miejscami cumowniczymi i bunkrowaniem",
+    "Pilotaż barek towarowych na Odrze",
+    "Obsługa techniczna śluz i przepraw promowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.22.A (wspomaganie transportu morskiego) — usługi w portach morskich i na wodach przybrzeżnych mają osobny kod.",
+    "Wybór 52.22.B zamiast 50.40.Z (transport wodny śródlądowy towarów) — sama przewozowa działalność statku to inny kod."
+  ],
+  "taxNotes": "Działalność wspomagająca transport wodny może być rozliczana na zasadach ogólnych, ryczałcie lub liniowo, w zależności od skali i struktury usług. Część przychodów (np. z usług publicznych) może podlegać szczególnym regulacjom VAT i akcyzy paliwowej. Stawki sprawdź u doradcy podatkowego."
+}

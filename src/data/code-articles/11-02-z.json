@@ -1,0 +1,36 @@
+{
+  "code": "11.02.Z",
+  "name": "Produkcja win gronowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.02.Z obejmuje produkcję win z winogron — białych, czerwonych, różowych, musujących, wzmacnianych. Również wino bezalkoholowe z winogron. Polska scena winiarska rośnie szybko, a kod ten dotyczy zarówno małych winnic, jak i dużych zakładów.",
+  "whoUsesIt": [
+    {
+      "persona": "Winnica / winiarnia rzemieślnicza",
+      "use": "Produkuje wina ze swoich winogron i sprzedaje w degustacjach i online."
+    },
+    {
+      "persona": "Producent win musujących",
+      "use": "Wytwarza wina musujące metodą tradycyjną lub Charmat dla rynku premium."
+    },
+    {
+      "persona": "Wytwórca win wzmacnianych",
+      "use": "Produkuje wina typu porto, sherry lub wermut z dodatkiem alkoholu."
+    },
+    {
+      "persona": "Manufaktura win bezalkoholowych",
+      "use": "Produkuje wina dealkoholizowane dla rynku premium-sober oraz na rynki specyficzne."
+    }
+  ],
+  "businessExamples": [
+    "Małopolska winnica z degustacjami i sprzedażą bezpośrednią",
+    "Producent win musujących metodą tradycyjną",
+    "Wytwórca wermutu i win aromatyzowanych"
+  ],
+  "commonMistakes": [
+    "Wybór 11.02.Z zamiast 11.03.Z (Produkcja cydru i innych owocowych napojów fermentowanych) — wina z innych owoców niż winogrona idą do 11.03.Z.",
+    "Pomylenie z 11.01.Z (Destylowanie alkoholi) — wino fermentowane to 11.02.Z, a destylat z wina (brandy) to 11.01.Z."
+  ],
+  "taxNotes": "Produkcja win gronowych objęta jest akcyzą i specyficznymi obowiązkami składu podatkowego, a winnice mogą korzystać z preferencji dla małych producentów. Stawki sprawdź u doradcy podatkowego."
+}

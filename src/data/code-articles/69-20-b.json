@@ -1,0 +1,36 @@
+{
+  "code": "69.20.B",
+  "name": "Doradztwo podatkowe",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 69.20.B obejmuje czynności doradztwa podatkowego — udzielanie porad, opinii i wyjaśnień, sporządzanie deklaracji oraz reprezentowanie podatników przed organami i sądami. To kod zarezerwowany dla licencjonowanych doradców podatkowych wpisanych na listę KIDP.",
+  "whoUsesIt": [
+    {
+      "persona": "Doradca podatkowy",
+      "use": "Prowadzi indywidualną kancelarię — porady, optymalizacja, reprezentacja w postępowaniach KAS i sądach."
+    },
+    {
+      "persona": "Kancelaria doradztwa podatkowego",
+      "use": "Spółka doradców obsługująca firmy w skomplikowanych sprawach VAT, CIT, cen transferowych."
+    },
+    {
+      "persona": "Specjalista cen transferowych",
+      "use": "Sporządza dokumentację transfer pricing dla grup kapitałowych i międzynarodowych korporacji."
+    },
+    {
+      "persona": "Doradca IP Box / R&D",
+      "use": "Wspiera firmy IT i innowacyjne we wdrażaniu ulg podatkowych (IP Box, B+R, ulga na robotyzację)."
+    }
+  ],
+  "businessExamples": [
+    "Kancelaria doradztwa podatkowego specjalizująca się w VAT",
+    "Doradca obsługujący IP Box dla branży IT",
+    "Spółka doradcza skupiona na cenach transferowych"
+  ],
+  "commonMistakes": [
+    "Wybór 69.20.B zamiast 69.20.A — prowadzenie ksiąg i bieżącej obsługi księgowej to 69.20.A, a nie doradztwo podatkowe.",
+    "Pomylenie z 69.10.Z (działalność prawnicza) — adwokat/radca prawny zajmujący się podatkami stosuje 69.10.Z, doradca podatkowy — 69.20.B."
+  ],
+  "taxNotes": "Doradca podatkowy musi mieć wpis na listę KIDP, obowiązkowe OC i przestrzega tajemnicy zawodowej. Usługi doradcze podlegają standardowej stawce VAT. Wielu doradców korzysta z ryczałtu według właściwej stawki dla wolnych zawodów lub skali. Stawki sprawdź u doradcy podatkowego."
+}

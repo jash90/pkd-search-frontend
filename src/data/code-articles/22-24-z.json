@@ -1,0 +1,36 @@
+{
+  "code": "22.24.Z",
+  "name": "Produkcja wyrobów dla budownictwa z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.24.Z obejmuje produkcję wyrobów budowlanych z tworzyw sztucznych — paneli ściennych i sufitowych, listew, podsufitek, zbiorników, rynien, szamb, sidingu, paneli podłogowych winylowych LVT/SPC oraz osłon i pokryć dachowych. Wąska specjalizacja w grupie 22.2.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent paneli winylowych LVT",
+      "use": "Wytwarza panele podłogowe SPC i LVT dla budownictwa mieszkaniowego i komercyjnego."
+    },
+    {
+      "persona": "Wytwórca rynien z PCV",
+      "use": "Produkuje rynny dachowe, rury spustowe i akcesoria odwodnieniowe."
+    },
+    {
+      "persona": "Producent zbiorników i szamb",
+      "use": "Formuje rotacyjnie zbiorniki na wodę, szamba i zbiorniki na deszczówkę."
+    },
+    {
+      "persona": "Wytwórca sidingu winylowego",
+      "use": "Produkuje siding zewnętrzny, podsufitki i listwy elewacyjne."
+    }
+  ],
+  "businessExamples": [
+    "Producent paneli winylowych SPC",
+    "Wytwórnia rynien PCV",
+    "Zakład produkcji szamb i zbiorników"
+  ],
+  "commonMistakes": [
+    "Wybór 22.24.Z dla okien i drzwi z PCV — stolarka otworowa to 22.23.Z.",
+    "Pomylenie z 22.21.Z (płyty i rury) — surowe profile, rury i arkusze mają osobny kod."
+  ],
+  "taxNotes": "Wyroby budowlane wymagają oznakowania CE i deklaracji DoP zgodnie z CPR. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

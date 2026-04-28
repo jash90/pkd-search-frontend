@@ -1,0 +1,36 @@
+{
+  "code": "10.89.C",
+  "name": "Produkcja roślinnych substytutów dla jaj, nabiału i innych produktów mlecznych, z wyłączeniem napojów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.89.C obejmuje produkcję wegańskich substytutów nabiału — serów roślinnych, jogurtów, masła, śmietany, twarogu oraz substytutów jaj. Z wyłączeniem napojów (mleko owsiane, sojowe — te idą do 11.07.Z). To wyspecjalizowany kod dla manufaktur plant-based dairy.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent serów roślinnych",
+      "use": "Wytwarza wegańskie sery z nerkowców, soi i kokosa do sklepów ze zdrową żywnością."
+    },
+    {
+      "persona": "Manufaktura jogurtów roślinnych",
+      "use": "Produkuje jogurty kokosowe, sojowe i owsiane w opakowaniach detalicznych."
+    },
+    {
+      "persona": "Wytwórca substytutów jaj",
+      "use": "Produkuje płynne lub sproszkowane substytuty jaj na bazie białek roślinnych."
+    },
+    {
+      "persona": "Producent wegańskiego masła i śmietany",
+      "use": "Wytwarza margaryny premium i kremy roślinne jako alternatywy dla nabiału."
+    }
+  ],
+  "businessExamples": [
+    "Producent wegańskich serów z nerkowców",
+    "Manufaktura jogurtów kokosowych",
+    "Wytwórca roślinnych substytutów jaj w płynie"
+  ],
+  "commonMistakes": [
+    "Wybór 10.89.C zamiast 11.07.Z (Produkcja napojów bezalkoholowych) — mleko owsiane, sojowe czy migdałowe jako napój idzie do 11.07.Z.",
+    "Pomylenie z 10.51.Z (Przetwórstwo mleka) — substytuty roślinne to nie mleko, więc nie idą do 10.51.Z."
+  ],
+  "taxNotes": "Roślinne substytuty nabiału podlegają standardowym stawkom VAT, a forma opodatkowania zależy od skali produkcji i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

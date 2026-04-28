@@ -1,0 +1,36 @@
+{
+  "code": "85.59.B",
+  "name": "Kursy i szkolenia związane ze zdobywaniem wiedzy, umiejętności i kwalifikacji zawodowych w formach pozaszkolnych",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.59.B obejmuje pozaszkolne kursy zawodowe i szkolenia — od krótkich warsztatów po wielomiesięczne kursy kwalifikacji. Najczęstsze: BHP, kasy fiskalne, kursy IT, programowanie, sprzedaż, coaching, kursy księgowe, copywriting. Odróżnia się od szkół (85.31-85.33) brakiem statusu szkoły w systemie oświaty.",
+  "whoUsesIt": [
+    {
+      "persona": "Trener biznesu prowadzący szkolenia firmowe",
+      "use": "Prowadzi warsztaty z negocjacji, sprzedaży, zarządzania zespołem dla działów HR korporacji."
+    },
+    {
+      "persona": "Bootcamp programistyczny",
+      "use": "Organizuje intensywne kursy programowania (3-6 miesięcy) przygotowujące do pracy w IT."
+    },
+    {
+      "persona": "Specjalista BHP / szkoleniowiec",
+      "use": "Prowadzi obowiązkowe kursy BHP, ochrony przeciwpożarowej i pierwszej pomocy w firmach."
+    },
+    {
+      "persona": "Twórca kursów online (e-learning)",
+      "use": "Sprzedaje gotowe kursy wideo na własnej platformie lub w serwisach typu Udemy, Teachable."
+    }
+  ],
+  "businessExamples": [
+    "Bootcamp programistyczny z gwarancją zatrudnienia",
+    "Trener biznesu prowadzący warsztaty z negocjacji w firmach",
+    "Twórca kursów online z marketingu cyfrowego"
+  ],
+  "commonMistakes": [
+    "Wybór 85.59.B dla nauki języków obcych — to osobny kod 85.59.A, mimo wspólnej klasy 85.59.",
+    "Pomylenie z 70.22.Z (doradztwo biznesowe) — szkolenia są edukacją, a doradztwo wymaga indywidualnego rozwiązywania problemów klienta."
+  ],
+  "taxNotes": "Kursy i szkolenia często są zwolnione z VAT jako usługi kształcenia zawodowego (przy spełnieniu warunków). Ryczałt często korzystny dla trenerów soloowych, skala/liniowy przy większej skali. Możliwy wpis do RIS (Rejestr Instytucji Szkoleniowych). Stawki sprawdź u doradcy podatkowego."
+}

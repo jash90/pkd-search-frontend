@@ -1,0 +1,36 @@
+{
+  "code": "77.22.Z",
+  "name": "Wypożyczanie i dzierżawa pozostałych artykułów użytku osobistego i domowego",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.22.Z obejmuje wypożyczanie artykułów użytku osobistego i domowego — odzieży (suknie ślubne, fraki), tekstyliów, książek (biblioteki komercyjne), nagrań, instrumentów muzycznych, mebli, zastaw stołowych. To kod dla wypożyczalni nieobjętych innymi klasami.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia sukien ślubnych",
+      "use": "Udostępnia suknie ślubne, fraki, smokingi i akcesoria pannom młodym i panom młodym."
+    },
+    {
+      "persona": "Wypożyczalnia mebli eventowych",
+      "use": "Wynajmuje meble, krzesła, stoły, dekoracje na wesela, eventy firmowe i imprezy okolicznościowe."
+    },
+    {
+      "persona": "Wypożyczalnia instrumentów muzycznych",
+      "use": "Udostępnia instrumenty uczniom, muzykom i szkołom muzycznym — krótko- i długoterminowo."
+    },
+    {
+      "persona": "Wypożyczalnia kostiumów / strojów",
+      "use": "Oferuje kostiumy karnawałowe, sceniczne, historyczne na imprezy, sesje, produkcje filmowe."
+    }
+  ],
+  "businessExamples": [
+    "Salon sukien ślubnych z wypożyczalnią",
+    "Firma wynajmu mebli eventowych dla branży weselnej",
+    "Wypożyczalnia kostiumów dla branży filmowej"
+  ],
+  "commonMistakes": [
+    "Wybór 77.22.Z zamiast 77.21.Z — sprzęt sportowy i rekreacyjny ma osobny kod 77.21.Z.",
+    "Pomylenie z 47.71.Z (sprzedaż detaliczna odzieży) — gdy firma sprzedaje odzież (a nie wynajmuje), właściwszy jest kod handlowy."
+  ],
+  "taxNotes": "Wypożyczanie artykułów osobistych i domowych może kwalifikować się do ryczałtu według właściwej stawki. Usługi wynajmu podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

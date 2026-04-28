@@ -8,8 +8,12 @@ import {
   buildOgImageUrl,
   codeToSlug,
   makeBreadcrumbSchema,
+  makeCodePageSchema,
+  makeFaqSchema,
+  truncate,
 } from '../lib/seo';
 import Footer from './Footer';
+import CodeArticle, { getCodeArticle } from './CodeArticle';
 
 interface RelatedCategory {
   slug: string;
@@ -41,40 +45,118 @@ const CodePage = () => {
     return <Navigate to="/" replace />;
   }
 
+  const article = getCodeArticle(entry.code);
+  const sectionLetter = article?.section;
+  const pkdIndexHref = sectionLetter
+    ? `/pkd-2025#sekcja-${sectionLetter.toLowerCase()}`
+    : '/pkd-2025';
+
   const canonical = `${SITE_URL}/kod-pkd/${codeToSlug(entry.code)}`;
-  const pageTitle = `Kod PKD ${entry.code} — ${entry.name} | kodypkd.app`;
-  const pageDescription = `Kod PKD ${entry.code}: ${entry.name}. Sprawdź pełny opis, podobne kody PKD 2025 i kategorie działalności, w których ten kod jest wybierany najczęściej.`;
+  const pageTitle = `PKD ${entry.code} — ${entry.name} (PKD 2025) | kodypkd.app`;
+
+  // Description: prefer the curated/article intro (more meaningful in SERP).
+  // Fall back to the static descr from codes.json, finally to a templated string.
+  const descriptionSource =
+    article?.intro ||
+    entry.descr ||
+    `Kod PKD ${entry.code}: ${entry.name}. Pełny opis, podobne kody PKD 2025 i przykłady firm, które używają tego kodu.`;
+  const pageDescription = truncate(descriptionSource);
+
+  // Long-tail keywords from personas + business examples
+  const keywordParts: string[] = [
+    entry.code,
+    `PKD ${entry.code}`,
+    `kod PKD ${entry.code}`,
+    entry.name,
+    'PKD 2025',
+    ...(article?.whoUsesIt.map((p) => p.persona) ?? []),
+    ...(article?.businessExamples ?? []),
+  ];
+  const pageKeywords = Array.from(new Set(keywordParts)).slice(0, 18).join(', ');
 
   const breadcrumb = makeBreadcrumbSchema([
     { name: 'Strona główna', url: '/' },
-    { name: 'Kody PKD', url: '/' },
+    { name: 'Lista PKD 2025', url: `${SITE_URL}/pkd-2025` },
     { name: `Kod ${entry.code}`, url: canonical },
   ]);
+
+  const codeSchema = makeCodePageSchema({
+    code: entry.code,
+    name: entry.name,
+    description: pageDescription,
+    url: canonical,
+    image: '',  // filled in below to avoid double computation
+    sectionLetter,
+    sectionName: undefined,
+  });
 
   const ogImage = buildOgImageUrl({
     title: `PKD ${entry.code}`,
     subtitle: entry.name,
     badge: 'Kod PKD 2025',
   });
+  const ogImageAlt = `Kod PKD ${entry.code} — ${entry.name} | kodypkd.app`;
+
+  // Patch the schema with the OG image now that we have it
+  (codeSchema as { image: string }).image = ogImage;
+
+  // FAQPage schema built from article: who uses it + common mistakes
+  const faqItems: { question: string; answer: string }[] = [];
+  if (article) {
+    faqItems.push({
+      question: `Kto może używać kodu PKD ${entry.code}?`,
+      answer: article.whoUsesIt
+        .map((p) => `${p.persona} — ${p.use}`)
+        .join(' '),
+    });
+    if (article.commonMistakes.length > 0) {
+      faqItems.push({
+        question: `Jakie są częste pomyłki przy wyborze kodu ${entry.code}?`,
+        answer: article.commonMistakes.join(' '),
+      });
+    }
+    faqItems.push({
+      question: `Jakie są kwestie podatkowe dla kodu ${entry.code}?`,
+      answer: article.taxNotes,
+    });
+  }
 
   return (
     <>
       <Head>
         <title>{pageTitle}</title>
         <meta name="description" content={pageDescription} />
-        <meta
-          name="keywords"
-          content={`${entry.code}, PKD ${entry.code}, kod PKD ${entry.code}, ${entry.name}, PKD 2025`}
-        />
+        <meta name="keywords" content={pageKeywords} />
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+        <meta property="og:site_name" content="kodypkd.app" />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="article" />
         <meta property="og:url" content={canonical} />
         <meta property="og:locale" content="pl_PL" />
         <meta property="og:image" content={ogImage} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={ogImageAlt} />
+        {sectionLetter && (
+          <meta property="article:section" content={`Sekcja ${sectionLetter}`} />
+        )}
+        {article?.generatedAt && (
+          <meta property="article:modified_time" content={article.generatedAt} />
+        )}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
         <meta name="twitter:image" content={ogImage} />
+        <meta name="twitter:image:alt" content={ogImageAlt} />
         <link rel="canonical" href={canonical} />
+        <link rel="alternate" hrefLang="pl" href={canonical} />
+        <link rel="alternate" hrefLang="x-default" href={canonical} />
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+        <script type="application/ld+json">{JSON.stringify(codeSchema)}</script>
+        {faqItems.length > 0 && (
+          <script type="application/ld+json">{JSON.stringify(makeFaqSchema(faqItems))}</script>
+        )}
       </Head>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col">
@@ -84,6 +166,12 @@ const CodePage = () => {
               <li>
                 <Link to="/" className="hover:text-blue-600">
                   Strona główna
+                </Link>
+                <span className="px-2">/</span>
+              </li>
+              <li>
+                <Link to={pkdIndexHref} className="hover:text-blue-600">
+                  Lista PKD 2025{sectionLetter ? ` · sekcja ${sectionLetter}` : ''}
                 </Link>
                 <span className="px-2">/</span>
               </li>
@@ -110,6 +198,8 @@ const CodePage = () => {
             <h2 className="text-xl font-semibold text-gray-800 mb-3">Opis kodu {entry.code}</h2>
             <p className="text-gray-700 leading-relaxed whitespace-pre-line">{entry.descr}</p>
           </article>
+
+          {article ? <CodeArticle data={article} /> : null}
 
           {entry.relatedCategories.length > 0 && (
             <section className="mb-8">

@@ -1,0 +1,36 @@
+{
+  "code": "42.11.Z",
+  "name": "Roboty związane z budową dróg i autostrad",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.11.Z obejmuje budowę i przebudowę dróg, autostrad, ulic, dróg dojazdowych, parkingów, lotnisk i pasów startowych. Dotyczy zarówno generalnych wykonawców kontraktów GDDKiA, jak i mniejszych firm drogowych realizujących drogi gminne, parkingi czy nawierzchnie przemysłowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Generalny wykonawca autostrad",
+      "use": "Realizuje wieloletnie kontrakty GDDKiA na budowę autostrad i dróg ekspresowych."
+    },
+    {
+      "persona": "Lokalna firma drogowa",
+      "use": "Buduje i remontuje drogi gminne, chodniki i ścieżki rowerowe."
+    },
+    {
+      "persona": "Wykonawca nawierzchni asfaltowych",
+      "use": "Specjalizuje się w układaniu mas bitumicznych dla parkingów i osiedli."
+    },
+    {
+      "persona": "Firma od pasów startowych lotniskowych",
+      "use": "Wykonuje specjalistyczne nawierzchnie betonowe pod ruch lotniczy."
+    }
+  ],
+  "businessExamples": [
+    "Budowa odcinka drogi ekspresowej S1",
+    "Remont nawierzchni dróg gminnych",
+    "Parkingi i drogi wewnętrzne dla galerii handlowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.12.Z (drogi szynowe) — torowiska tramwajowe i kolejowe mają osobny kod, nawet jeśli wbudowane w jezdnię.",
+    "Wybór 42.11.Z zamiast 43.99.Z, gdy firma wykonuje tylko frezowanie, oznakowanie poziome lub uszczelnianie nawierzchni jako wąską specjalizację."
+  ],
+  "taxNotes": "Branża drogowa objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy podwykonawstwie. Kontrakty publiczne wymagają zabezpieczeń i gwarancji. Stawki sprawdź u doradcy podatkowego."
+}

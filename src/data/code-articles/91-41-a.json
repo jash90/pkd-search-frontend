@@ -1,0 +1,36 @@
+{
+  "code": "91.41.A",
+  "name": "Działalność ogrodów botanicznych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.41.A obejmuje działalność ogrodów botanicznych, palmiarni, arboretów i ogrodów dendrologicznych — czyli instytucji gromadzących i udostępniających kolekcje roślin w celach naukowych, edukacyjnych i rekreacyjnych. Pasuje zarówno do uniwersyteckich, jak i samodzielnych ogrodów botanicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator ogrodu botanicznego",
+      "use": "Udostępnia zwiedzającym kolekcje roślin, prowadzi działalność naukową i edukacyjną."
+    },
+    {
+      "persona": "Zarządca palmiarni",
+      "use": "Prowadzi obiekt z roślinami egzotycznymi otwarty dla publiczności."
+    },
+    {
+      "persona": "Operator arboretum",
+      "use": "Pielęgnuje i udostępnia kolekcję drzew i krzewów na terenach parkowych."
+    },
+    {
+      "persona": "Botaniczny ogród uniwersytecki",
+      "use": "Łączy badania naukowe z funkcją edukacyjną dla studentów i zwiedzających."
+    }
+  ],
+  "businessExamples": [
+    "Ogród botaniczny z biletami wstępu i programem edukacyjnym",
+    "Palmiarnia miejska z roślinnością tropikalną",
+    "Arboretum z kolekcją drzew i krzewów ozdobnych"
+  ],
+  "commonMistakes": [
+    "Wybór 91.41.A dla parku miejskiego ogólnodostępnego — zwykłe parki bez funkcji kolekcjonerskiej i naukowej klasyfikują się raczej w 81.30.Z (usługi związane z zagospodarowaniem terenów zieleni).",
+    "Pomylenie z 91.41.B (ogrody zoologiczne) — kluczowe rozróżnienie to specjalizacja: rośliny vs zwierzęta."
+  ],
+  "taxNotes": "Bilety wstępu do ogrodów botanicznych mogą korzystać z preferencyjnej stawki VAT. Działalność naukowa i edukacyjna może mieć odrębne zasady rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

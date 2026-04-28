@@ -1,0 +1,36 @@
+{
+  "code": "28.96.Z",
+  "name": "Produkcja maszyn do obróbki gumy lub tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.96.Z obejmuje produkcję maszyn do przetwórstwa tworzyw sztucznych i gumy — wtryskarek, wytłaczarek, prasformierek, blow-moldingów, maszyn do produkcji folii, butelek PET i wyrobów gumowych. To branża dostarczająca fundament dla całego przemysłu opakowaniowego i automotive.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wtryskarek",
+      "use": "Wytwarza wtryskarki hydrauliczne i elektryczne dla zakładów produkujących detale z plastiku."
+    },
+    {
+      "persona": "Fabryka wytłaczarek",
+      "use": "Produkuje linie wytłaczarek do rur, profili PCV i folii termokurczliwej."
+    },
+    {
+      "persona": "Wytwórca maszyn do butelek PET",
+      "use": "Buduje urządzenia rozdmuchowe i kompletne linie produkcji butelek z preform."
+    },
+    {
+      "persona": "Producent maszyn dla branży gumowej",
+      "use": "Robi prasy wulkanizacyjne i mieszarki dla zakładów oponiarskich i wyrobów technicznych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka wtryskarek elektrycznych dla detali precyzyjnych",
+    "Producent linii wytłaczarek do rur PE i PP",
+    "Zakład maszyn rozdmuchowych do butelek PET"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 22.21.Z (produkcja płyt, arkuszy, rur z tworzyw) — sama produkcja wyrobów to inny kod niż produkcja maszyn do nich.",
+    "Wybór 28.41.Z (obrabiarki do metalu) zamiast 28.96.Z — nawet jeśli maszyna obrabia metalowe formy, służy do przetwórstwa plastiku."
+  ],
+  "taxNotes": "Branża maszyn dla przetwórstwa tworzyw to silnie konkurencyjny rynek z dużym udziałem importu z Azji. Eksport, ulgi B+R i robotyzacja wpływają na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

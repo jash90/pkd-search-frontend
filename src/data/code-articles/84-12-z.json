@@ -1,0 +1,36 @@
+{
+  "code": "84.12.Z",
+  "name": "Kierowanie działalnością usługową w zakresie ochrony zdrowia, edukacji, kultury oraz pozostałych usług społecznych",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.12.Z to administracyjne kierowanie sektorami społecznymi — zdrowiem (NFZ, ministerstwo zdrowia), edukacją (kuratoria, ministerstwo oświaty), kulturą i pomocą społeczną. Dotyczy organów administracji nadzorujących te dziedziny, nie świadczeniodawców (lekarze 86.xx, szkoły 85.xx).",
+  "whoUsesIt": [
+    {
+      "persona": "Narodowy Fundusz Zdrowia (oddziały)",
+      "use": "Finansuje świadczenia zdrowotne, kontraktuje placówki, prowadzi ubezpieczenie zdrowotne."
+    },
+    {
+      "persona": "Kuratorium oświaty",
+      "use": "Nadzoruje szkoły publiczne i niepubliczne w województwie, prowadzi sprawy nauczycieli i programów."
+    },
+    {
+      "persona": "Wydział kultury w urzędzie miasta",
+      "use": "Zarządza polityką kulturalną gminy — instytucjami kultury, dotacjami, wydarzeniami kulturalnymi."
+    },
+    {
+      "persona": "Ośrodek pomocy społecznej (OPS) - sfera kierowania",
+      "use": "Prowadzi politykę pomocy społecznej w gminie — świadczenia, opieka, programy wsparcia."
+    }
+  ],
+  "businessExamples": [
+    "Oddział wojewódzki NFZ kontraktujący świadczenia zdrowotne",
+    "Kuratorium nadzorujące szkoły w regionie",
+    "Wydział polityki społecznej w urzędzie wojewódzkim"
+  ],
+  "commonMistakes": [
+    "Wybór 84.12.Z przez podmiot świadczący usługi medyczne, edukacyjne czy kulturalne — to wykonawcy używają kodów 86.xx, 85.xx, 90.xx, a nie 84.12.Z (administracyjne kierowanie).",
+    "Pomylenie z 84.11.Z (ogólne kierowanie administracją publiczną) — 84.12.Z dotyczy konkretnie obszarów społecznych, 84.11.Z to ogólna administracja."
+  ],
+  "taxNotes": "Działalność jednostek sektora finansów publicznych podlega odrębnym regulacjom — ustawa o finansach publicznych, ustawy ustrojowe poszczególnych instytucji. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "30.13.Z",
+  "name": "Produkcja wojskowych okrętów i jednostek pływających",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.13.Z obejmuje produkcję okrętów wojennych i specjalistycznych jednostek pływających dla sił zbrojnych — fregat, korwet, okrętów podwodnych, niszczycieli min, okrętów patrolowych. To wąska, wysoce regulowana branża obronna.",
+  "whoUsesIt": [
+    {
+      "persona": "Stocznia okrętów wojennych",
+      "use": "Buduje fregaty, korwety i niszczyciele min dla Marynarki Wojennej i odbiorców zagranicznych."
+    },
+    {
+      "persona": "Producent okrętów podwodnych",
+      "use": "Wytwarza okręty podwodne klasyczne i atomowe w ścisłej współpracy z państwem."
+    },
+    {
+      "persona": "Fabryka okrętów patrolowych",
+      "use": "Produkuje OPV (Offshore Patrol Vessels) dla straży granicznej i marynarki wojennej."
+    },
+    {
+      "persona": "Wytwórca jednostek wsparcia wojskowego",
+      "use": "Robi okręty wsparcia, transportowe i ratownicze dla potrzeb militarnych."
+    }
+  ],
+  "businessExamples": [
+    "Stocznia produkująca korwety dla Marynarki Wojennej RP",
+    "Fabryka okrętów patrolowych dla straży granicznej",
+    "Zakład budowy specjalistycznych jednostek minowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.11.Z (cywilne statki) — statki służb cywilnych (np. straż pożarna morska) mogą być klasyfikowane pod 30.11.Z lub 30.13.Z zależnie od przeznaczenia.",
+    "Wybór 25.40.Z (broń i amunicja) zamiast 30.13.Z — sam okręt to platforma pływająca, uzbrojenie to inny kod."
+  ],
+  "taxNotes": "Branża zbrojeniowa korzysta z preferencyjnych zasad rozliczeń kontraktów państwowych i specjalnych regulacji eksportowych (zezwolenia MSZ). Forma opodatkowania wymaga indywidualnego podejścia. Stawki sprawdź u doradcy podatkowego."
+}

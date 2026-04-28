@@ -1,0 +1,36 @@
+{
+  "code": "28.29.Z",
+  "name": "Produkcja pozostałych maszyn ogólnego przeznaczenia, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.29.Z to zbiorcza kategoria dla maszyn ogólnego przeznaczenia, które nie pasują do bardziej szczegółowych kodów — wagi, filtry przemysłowe, urządzenia do pakowania, dystrybutory, urządzenia czyszczące i inne. Pasuje dla producentów wyposażenia uniwersalnego dla wielu branż.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent maszyn pakujących",
+      "use": "Wytwarza linie pakujące, foliarki i etykieciarki dla przemysłu spożywczego i kosmetycznego."
+    },
+    {
+      "persona": "Fabryka wag przemysłowych",
+      "use": "Produkuje wagi platformowe, najazdowe i precyzyjne wagi laboratoryjne."
+    },
+    {
+      "persona": "Wytwórca urządzeń filtracyjnych",
+      "use": "Robi filtry przemysłowe, separatory i odpylacze dla zakładów produkcyjnych."
+    },
+    {
+      "persona": "Producent maszyn czyszczących",
+      "use": "Buduje myjnie wysokociśnieniowe, zamiatarki i urządzenia do czyszczenia parą."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka linii pakujących próżniowych dla mięsa i sera",
+    "Producent przemysłowych myjni wysokociśnieniowych",
+    "Zakład wag samochodowych i platformowych"
+  ],
+  "commonMistakes": [
+    "Wybór 28.29.Z, gdy jest dokładniejszy kod — np. produkcja chłodnic powinna iść pod 28.25.Z, a nie pod kategorię zbiorczą.",
+    "Pomylenie z 33.20.Z (instalowanie maszyn) — sama produkcja to 28.29.Z, instalacja u klienta to inny kod."
+  ],
+  "taxNotes": "Producent maszyn uniwersalnych często działa w modelu B2B z długim cyklem sprzedaży. Forma opodatkowania zależy od skali, eksportu, polityki amortyzacji i ulg na badania i rozwój. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "64.21.Z",
+  "name": "Działalność spółek holdingowych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.21.Z obejmuje działalność spółek holdingowych — posiadanie i zarządzanie udziałami lub akcjami w innych spółkach bez prowadzenia ich bieżącej działalności operacyjnej. Pasuje dla holdingów grup kapitałowych, spółek matek i podmiotów inwestycyjnych typu Special Purpose Vehicle (SPV).",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka matka grupy kapitałowej",
+      "use": "Posiada udziały w spółkach zależnych i kontroluje strategię całej grupy."
+    },
+    {
+      "persona": "Holding rodzinny",
+      "use": "Skupia majątek rodziny w jednej spółce zarządzającej udziałami w przedsiębiorstwach."
+    },
+    {
+      "persona": "SPV inwestycyjny",
+      "use": "Spółka celowa założona do nabycia konkretnej inwestycji lub udziałów (np. w transakcjach M&A)."
+    },
+    {
+      "persona": "Holding finansowy",
+      "use": "Zarządza pakietami udziałów w spółkach z różnych branż jako element strategii inwestycyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Spółka matka grupy kapitałowej IT",
+    "Holding rodzinny zarządzający firmami",
+    "SPV do akwizycji nieruchomości"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.22.Z (spółki pozyskujące finansowanie) — spółka emitująca obligacje na rzecz grupy ma osobny kod.",
+    "Wybór 64.21.Z zamiast 70.10.Z (działalność zarządzania holdingami) — gdy spółka aktywnie zarządza i świadczy usługi, a nie tylko posiada udziały."
+  ],
+  "taxNotes": "Spółki holdingowe mogą korzystać z preferencji w postaci zwolnienia partycypacyjnego (dywidendy i sprzedaż udziałów) po spełnieniu warunków polskiego reżimu PSH. Wymaga starannej analizy struktury i celów. Stawki sprawdź u doradcy podatkowego."
+}

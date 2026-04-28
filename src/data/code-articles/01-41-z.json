@@ -1,0 +1,36 @@
+{
+  "code": "01.41.Z",
+  "name": "Chów i hodowla bydła mlecznego",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.41.Z obejmuje chów krów mlecznych, produkcję surowego mleka oraz cielęta od krów mlecznych. To podstawowy kod dla polskich gospodarstw mlecznych — Polska jest jednym z największych producentów mleka w UE, a kod ten jest kluczowy dla farm dostarczających surowiec do mleczarni.",
+  "whoUsesIt": [
+    {
+      "persona": "Farma mleczna",
+      "use": "Hoduje stado krów mlecznych z dostawą mleka do mleczarni lub spółdzielni."
+    },
+    {
+      "persona": "Gospodarstwo rodzinne",
+      "use": "Prowadzi mniejsze stado mleczne, sprzedaje mleko spółdzielczo i odchowuje cielęta."
+    },
+    {
+      "persona": "Producent mleka ekologicznego",
+      "use": "Posiada certyfikat BIO, dostarcza mleko premium do wyspecjalizowanych skupów."
+    },
+    {
+      "persona": "Hodowca rasy mlecznej",
+      "use": "Pracuje hodowlanie nad doskonaleniem rasy HF lub Jersey, sprzedaje jałówki hodowlane."
+    }
+  ],
+  "businessExamples": [
+    "Farma 200 krów na Podlasiu",
+    "Gospodarstwo mleczne BIO",
+    "Hodowca rasy Holstein-Friesian"
+  ],
+  "commonMistakes": [
+    "Wybór 01.41.Z zamiast 10.51.Z, gdy gospodarstwo prowadzi też przetwórstwo mleka (sery, jogurty) — wówczas potrzebny jest osobny kod produkcji mleczarskiej.",
+    "Pomylenie z 01.42.Z (chów pozostałego bydła i bawołów) — bydło opasowe i bawoły mają własny kod, nie są mleczne."
+  ],
+  "taxNotes": "Hodowla bydła mlecznego to klasyczna działalność rolnicza objęta podatkiem rolnym. Przetwórstwo własnego mleka może podlegać RHD lub działom specjalnym. Sprawdź też zasady VAT (ryczałt rolniczy vs. czynny) i kwoty mleczne. Stawki sprawdź u doradcy podatkowego."
+}

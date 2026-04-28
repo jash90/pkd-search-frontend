@@ -1,0 +1,36 @@
+{
+  "code": "25.53.Z",
+  "name": "Obróbka mechaniczna elementów metalowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.53.Z obejmuje usługi obróbki skrawaniem elementów metalowych — toczenie, frezowanie CNC, szlifowanie, wiercenie, gwintowanie, dłutowanie, cięcie laserowe, plazmowe i strumieniem wody, a także elektrodrążenie (EDM). To podstawowy kod dla zakładów obróbki precyzyjnej, narzędziowni i podwykonawców branży maszynowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład obróbki CNC",
+      "use": "Toczy i frezuje na CNC części maszyn na zlecenie producentów urządzeń."
+    },
+    {
+      "persona": "Narzędziownia",
+      "use": "Wykonuje formy wtryskowe, tłoczniki i przyrządy specjalne dla przemysłu."
+    },
+    {
+      "persona": "Firma cięcia laserowego",
+      "use": "Tnie blachy laserem światłowodowym dla branży konstrukcyjnej i metalowej."
+    },
+    {
+      "persona": "Zakład elektrodrążenia (EDM)",
+      "use": "Drąży elektroerozyjnie skomplikowane kształty w stalach hartowanych i węglikach."
+    }
+  ],
+  "businessExamples": [
+    "Zakład obróbki CNC części maszyn",
+    "Narzędziownia produkująca formy wtryskowe",
+    "Firma cięcia laserowego blach"
+  ],
+  "commonMistakes": [
+    "Wybór 25.53.Z zamiast 25.62.Z, jeśli istniał wcześniej w innej numeracji — w PKD 2025 obróbka mechaniczna ma osobny kod 25.53.Z (zamiast wcześniejszego 25.62.Z z PKD 2007).",
+    "Pomylenie z 33.12.Z (naprawa i konserwacja maszyn) — obróbka serwisowa w ramach naprawy maszyn klienta to 33.12.Z, nie 25.53.Z."
+  ],
+  "taxNotes": "Usługi obróbki mechanicznej objęte są VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy świadczeniu B2B. Wybór formy opodatkowania zależy od skali zakładu, parku maszynowego i struktury klientów. Stawki sprawdź u doradcy podatkowego."
+}

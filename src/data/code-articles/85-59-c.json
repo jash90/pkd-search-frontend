@@ -1,0 +1,36 @@
+{
+  "code": "85.59.C",
+  "name": "Placówki doskonalenia nauczycieli",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.59.C dotyczy placówek doskonalenia nauczycieli — instytucji prowadzących szkolenia, studia podyplomowe i kursy doskonalące dla nauczycieli i kadry oświatowej. Obejmuje akredytowane ośrodki metodyczne i centra rozwoju nauczycieli. Wymaga akredytacji kuratora. Inne kursy zawodowe to 85.59.B, a uczelnie wyższe to 85.42.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Wojewódzka placówka doskonalenia nauczycieli",
+      "use": "Prowadzi kursy doskonalące, konferencje metodyczne i wsparcie nauczycieli w województwie."
+    },
+    {
+      "persona": "Niepubliczna akredytowana placówka",
+      "use": "Stowarzyszenie lub fundacja z akredytacją kuratora prowadząca specjalistyczne szkolenia metodyczne dla nauczycieli."
+    },
+    {
+      "persona": "Centrum metodyczne przedmiotowe",
+      "use": "Specjalizuje się w doskonaleniu nauczycieli konkretnego przedmiotu — np. matematyki, języków obcych, informatyki."
+    },
+    {
+      "persona": "Placówka doskonalenia przy uczelni",
+      "use": "Jednostka organizacyjna uczelni prowadząca studia podyplomowe i kursy doskonalące dla nauczycieli."
+    }
+  ],
+  "businessExamples": [
+    "Wojewódzkie centrum doskonalenia nauczycieli",
+    "Niepubliczna akredytowana placówka szkoleniowa dla nauczycieli",
+    "Centrum metodyczne nauczycieli języka angielskiego"
+  ],
+  "commonMistakes": [
+    "Wybór 85.59.C bez akredytacji kuratora oświaty — placówka doskonalenia wymaga akredytacji, bez niej szkolenia są pod 85.59.B.",
+    "Pomylenie z 85.42.B (szkolnictwo wyższe magisterskie) — studia podyplomowe to zwykle 85.42, kursy doskonalące to 85.59.C."
+  ],
+  "taxNotes": "Wymagana akredytacja kuratora dla statusu placówki doskonalenia nauczycieli. Usługi edukacyjne często zwolnione z VAT. Forma opodatkowania zależy od formy prawnej (osoba fizyczna, spółka, fundacja). Stawki sprawdź u doradcy podatkowego."
+}

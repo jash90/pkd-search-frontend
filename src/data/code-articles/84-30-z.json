@@ -1,0 +1,36 @@
+{
+  "code": "84.30.Z",
+  "name": "Obowiązkowe ubezpieczenia społeczne",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.30.Z obejmuje administrowanie obowiązkowymi systemami ubezpieczeń społecznych i zdrowotnych przez podmioty publiczne — ZUS, KRUS, NFZ i podobne instytucje. To kod dla jednostek państwowych i ich jednostek pomocniczych, nie dla firm prywatnych. Prywatne ubezpieczenia klasyfikuje się pod 65.11.Z lub 65.12.Z, a zarządzanie funduszami emerytalnymi pod 66.30.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład Ubezpieczeń Społecznych (ZUS)",
+      "use": "Pobiera składki, wypłaca świadczenia (emerytury, renty, zasiłki) i prowadzi ewidencję ubezpieczonych."
+    },
+    {
+      "persona": "Kasa Rolniczego Ubezpieczenia Społecznego (KRUS)",
+      "use": "Administruje ubezpieczeniem społecznym rolników i ich rodzin."
+    },
+    {
+      "persona": "Narodowy Fundusz Zdrowia (NFZ) — w części składkowej",
+      "use": "Pobiera składki zdrowotne i finansuje świadczenia opieki zdrowotnej."
+    },
+    {
+      "persona": "Jednostka pomocnicza systemu ubezpieczeń",
+      "use": "Wspiera obsługę administracyjną obowiązkowych ubezpieczeń (np. wyspecjalizowane biura terenowe)."
+    }
+  ],
+  "businessExamples": [
+    "Oddział ZUS obsługujący płatników składek",
+    "Placówka terenowa KRUS w regionie rolniczym",
+    "Centrum obsługi ubezpieczonych NFZ"
+  ],
+  "commonMistakes": [
+    "Wybór 84.30.Z przez prywatne firmy ubezpieczeniowe — komercyjne ubezpieczenia majątkowe to 65.12.Z, a życiowe to 65.11.Z.",
+    "Pomylenie z 66.30.Z (zarządzanie funduszami) — administrowanie systemem składkowym to inny kod niż zarządzanie aktywami funduszy."
+  ],
+  "taxNotes": "Obowiązkowe ubezpieczenia społeczne są domeną sektora publicznego i podlegają specyficznym regulacjom finansów publicznych, a nie typowym zasadom rozliczeń komercyjnych. Stawki sprawdź u doradcy podatkowego."
+}

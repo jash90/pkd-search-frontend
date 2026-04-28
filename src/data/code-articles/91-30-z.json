@@ -1,0 +1,36 @@
+{
+  "code": "91.30.Z",
+  "name": "Działalność w zakresie konserwacji i renowacji oraz pozostała działalność wspomagająca na rzecz dziedzictwa kulturowego",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.30.Z obejmuje konserwację i renowację zabytków, dzieł sztuki, archiwaliów i obiektów dziedzictwa kulturowego — prace konserwatorskie i restauratorskie wykonywane przez konserwatorów dzieł sztuki i specjalistyczne pracownie. Pasuje dla konserwatorów, pracowni renowacji obiektów zabytkowych i firm działających na rzecz instytucji kultury. Sama działalność muzeów to 91.02.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Konserwator dzieł sztuki",
+      "use": "Wykonuje prace konserwatorskie obrazów, rzeźb, mebli zabytkowych w pracowni i w terenie."
+    },
+    {
+      "persona": "Pracownia renowacji zabytków",
+      "use": "Prowadzi prace przy elewacjach kamienic zabytkowych, polichromiach kościelnych, wystroju wnętrz."
+    },
+    {
+      "persona": "Specjalista konserwacji archiwaliów / książek",
+      "use": "Konserwuje stare druki, dokumenty, mapy, zbiory bibliotek i archiwów."
+    },
+    {
+      "persona": "Firma wspierająca instytucje kultury",
+      "use": "Świadczy usługi techniczne dla muzeów — montaż wystaw, transport i opakowanie eksponatów."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia konserwacji obrazów i ikon",
+    "Firma renowacji elewacji zabytkowych",
+    "Konserwator książek i archiwaliów dla bibliotek"
+  ],
+  "commonMistakes": [
+    "Wybór 91.30.Z dla zwykłych prac remontowo-budowlanych w obiektach zabytkowych — bez kwalifikacji konserwatorskich i nadzoru właściwy jest 43.39.Z lub 43.99.Z.",
+    "Pomylenie z 91.02.Z (działalność muzeów) — pracownia konserwatorska wewnątrz muzeum jest częścią działalności muzealnej, niezależna pracownia używa 91.30.Z."
+  ],
+  "taxNotes": "Prace konserwatorskie przy obiektach wpisanych do rejestru zabytków wymagają pozwolenia wojewódzkiego konserwatora zabytków i odpowiednich kwalifikacji wykonawcy. Niektóre prace mogą korzystać z preferencyjnych mechanizmów podatkowych dla dziedzictwa kulturowego. Stawki sprawdź u doradcy podatkowego."
+}

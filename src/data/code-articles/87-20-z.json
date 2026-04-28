@@ -1,0 +1,36 @@
+{
+  "code": "87.20.Z",
+  "name": "Pomoc społeczna z zakwaterowaniem dla osób z zaburzeniami psychicznymi lub uzależnieniami",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 87.20.Z obejmuje placówki stacjonarne dla osób z zaburzeniami psychicznymi, niepełnosprawnością intelektualną oraz uzależnieniami — domy pomocy społecznej dla tych grup, ośrodki leczenia uzależnień w systemie pobytowym. Pasuje dla operatorów ośrodków terapeutycznych i DPS-ów wyspecjalizowanych. Leczenie szpitalne psychiatryczne to 86.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Ośrodek terapii uzależnień stacjonarny",
+      "use": "Prowadzi terapię alkoholizmu, narkomanii, uzależnień behawioralnych w trybie pobytowym."
+    },
+    {
+      "persona": "DPS dla osób z zaburzeniami psychicznymi",
+      "use": "Zapewnia całodobową opiekę osobom z chorobami psychicznymi, niewymagającym hospitalizacji."
+    },
+    {
+      "persona": "DPS dla osób z niepełnosprawnością intelektualną",
+      "use": "Prowadzi opiekę i wsparcie codzienne osób z niepełnosprawnością intelektualną."
+    },
+    {
+      "persona": "Ośrodek MONAR / wspólnota terapeutyczna",
+      "use": "Prowadzi długoterminową terapię i resocjalizację osób uzależnionych w systemie pobytowym."
+    }
+  ],
+  "businessExamples": [
+    "Ośrodek leczenia uzależnień prowadzony przez fundację",
+    "DPS dla osób przewlekle psychicznie chorych",
+    "Wspólnota terapeutyczna dla młodzieży z uzależnieniami"
+  ],
+  "commonMistakes": [
+    "Wybór 87.20.Z dla szpitala psychiatrycznego z leczeniem ostrym — to jest 86.10.Z (działalność szpitali).",
+    "Pomylenie z 88.99.Z (pozostała pomoc społeczna bez zakwaterowania) — terapia ambulatoryjna i grupy wsparcia bez pobytu to inny kod."
+  ],
+  "taxNotes": "Placówki tego typu wymagają zezwoleń wojewody i wpisu do odpowiednich rejestrów. Świadczenia pomocy społecznej i opieki medycznej są w znacznym zakresie zwolnione z VAT, a finansowanie publiczne ma odrębne zasady rozliczania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "47.27.Z",
+  "name": "Sprzedaż detaliczna pozostałej żywności",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.27.Z obejmuje detaliczną sprzedaż żywności w wyspecjalizowanych sklepach niesklasyfikowanych w innych kodach grupy 47.2 — m.in. sklepy z mięsem, rybami, owocami, warzywami, nabiałem, zdrową żywnością, herbatami i kawami, produktami delikatesowymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu mięsnego",
+      "use": "Prowadzi sklep z mięsem, wędlinami i przetworami od lokalnych dostawców."
+    },
+    {
+      "persona": "Sprzedawca w warzywniaku",
+      "use": "Oferuje świeże owoce, warzywa i kiszonki na osiedlu."
+    },
+    {
+      "persona": "Sklep ze zdrową żywnością",
+      "use": "Sprzedaje produkty bio, bezglutenowe, wegańskie i suplementy spożywcze."
+    },
+    {
+      "persona": "Delikatesy / herbaciarnia",
+      "use": "Oferuje selekcjonowane herbaty, kawy, sery, oliwy i produkty importowane."
+    }
+  ],
+  "businessExamples": [
+    "Sklep mięsno-wędliniarski",
+    "Warzywniak osiedlowy",
+    "Sklep ze zdrową żywnością i bio"
+  ],
+  "commonMistakes": [
+    "Wybór 47.27.Z zamiast 47.11.Z (sprzedaż w sklepach niewyspecjalizowanych) — jeśli prowadzisz sklep ogólnospożywczy, prawidłowy jest 47.11.Z.",
+    "Pomylenie z 10.13.Z (produkcja wędlin) — jeśli sam produkujesz, a sklep to forma dystrybucji, główny kod powinien być produkcyjny."
+  ],
+  "taxNotes": "Sprzedaż żywności wymaga rejestracji sanepid i przestrzegania HACCP. Obowiązuje kasa fiskalna. Wybór formy opodatkowania zależy od skali i marży. Stawki sprawdź u doradcy podatkowego."
+}

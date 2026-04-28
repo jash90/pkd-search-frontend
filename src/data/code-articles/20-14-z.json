@@ -1,0 +1,36 @@
+{
+  "code": "20.14.Z",
+  "name": "Produkcja pozostałych podstawowych chemikaliów organicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.14.Z obejmuje produkcję podstawowych chemikaliów organicznych — węglowodorów (etylenu, propylenu, benzenu), alkoholi przemysłowych, kwasów organicznych, eterów, aldehydów oraz monomerów do produkcji tworzyw sztucznych. To kod dla petrochemii i wielkiej chemii organicznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład petrochemiczny",
+      "use": "Produkuje etylen, propylen i butadien w procesach krakingu parowego."
+    },
+    {
+      "persona": "Wytwórca alkoholi przemysłowych",
+      "use": "Produkuje metanol, etanol skażony i wyższe alkohole dla rozpuszczalników i syntez."
+    },
+    {
+      "persona": "Producent kwasów organicznych",
+      "use": "Wytwarza kwas octowy, mrówkowy i cytrynowy dla przemysłu spożywczego i chemicznego."
+    },
+    {
+      "persona": "Zakład produkcji monomerów",
+      "use": "Dostarcza styren, chlorek winylu i akrylany dla producentów tworzyw."
+    }
+  ],
+  "businessExamples": [
+    "Petrochemia produkująca etylen i propylen",
+    "Wytwórnia metanolu przemysłowego",
+    "Producent kwasu octowego technicznego"
+  ],
+  "commonMistakes": [
+    "Wybór 20.14.Z dla produkcji tworzyw sztucznych — polimery w formach podstawowych to 20.16.Z.",
+    "Pomylenie z 20.13.Z (chemikalia nieorganiczne) — kwasy mineralne i sole klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Petrochemia objęta jest systemem ETS i akcyzą na niektóre produkty. Wybór formy opodatkowania zależy od skali zakładu i powiązań kapitałowych. Stawki sprawdź u doradcy podatkowego."
+}

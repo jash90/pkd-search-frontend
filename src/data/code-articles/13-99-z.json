@@ -1,0 +1,36 @@
+{
+  "code": "13.99.Z",
+  "name": "Produkcja pozostałych wyrobów tekstylnych, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.99.Z to kod 'parasol' dla pozostałych wyrobów tekstylnych — koronki ręcznie wykonywanej, haftów metrażowych, tasiemek, lampasów, pomponów, taśm samochodowych ozdobnych, włókien tekstylnych metalizowanych. Stosowany dla nietypowych produktów tekstylnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent haftów i koronek dekoracyjnych",
+      "use": "Wytwarza koronki ręcznie i maszynowo dla bielizny, sukni ślubnych i mody."
+    },
+    {
+      "persona": "Wytwórca tasiemek i pasmanterii",
+      "use": "Produkuje wstążki, lampasy, taśmy ozdobne dla mody, prezentów i pakowania."
+    },
+    {
+      "persona": "Manufaktura filcu artystycznego",
+      "use": "Produkuje filce ręcznie i przemysłowo dla rękodzieła oraz akcesoriów."
+    },
+    {
+      "persona": "Producent włókien metalizowanych",
+      "use": "Wytwarza nici i włókna metalizowane do mody, jubilerstwa i tekstyliów ozdobnych."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura ręcznie wykonywanej koronki",
+    "Producent wstążek i pasmanterii dla mody",
+    "Wytwórca filcu dla rękodzieła i obuwia"
+  ],
+  "commonMistakes": [
+    "Wybór 13.99.Z zamiast 13.91.Z — koronka maszynowa metrażowa idzie do 13.91.Z (dzianiny), a artystyczna i ozdobna do 13.99.Z.",
+    "Pomylenie z 14.13.Z dla wyrobów dziewiarskich — gotowa odzież z koronki to dział 14, a sama koronka jako półprodukt to 13.99.Z."
+  ],
+  "taxNotes": "Pozostałe wyroby tekstylne podlegają standardowym stawkom VAT, a forma opodatkowania zależy od skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "94.12.Z",
+  "name": "Działalność członkowskich organizacji zawodowych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.12.Z obejmuje działalność organizacji zrzeszających przedstawicieli zawodów regulowanych i specjalistycznych — izb lekarskich, adwokackich, architektów, inżynierów, biegłych rewidentów. Organizacje te dbają o standardy zawodowe, prowadzą rejestry i reprezentują interesy zawodowe członków.",
+  "whoUsesIt": [
+    {
+      "persona": "Izba lekarska",
+      "use": "Prowadzi rejestr lekarzy, sprawuje pieczę nad etyką zawodową, organizuje szkolenia."
+    },
+    {
+      "persona": "Izba adwokacka / radców prawnych",
+      "use": "Nadzoruje wykonywanie zawodu prawnika, prowadzi aplikację i egzaminy."
+    },
+    {
+      "persona": "Stowarzyszenie architektów / inżynierów",
+      "use": "Reprezentuje zawód, ustala standardy i prowadzi egzaminy uprawniające."
+    },
+    {
+      "persona": "Stowarzyszenie zawodowe specjalistów IT / księgowych",
+      "use": "Łączy specjalistów branżowych, prowadzi certyfikacje i wydaje rekomendacje."
+    }
+  ],
+  "businessExamples": [
+    "Okręgowa izba lekarska z funkcją samorządową",
+    "Stowarzyszenie księgowych prowadzące certyfikaty",
+    "Izba doradców podatkowych ze szkoleniami członków"
+  ],
+  "commonMistakes": [
+    "Wybór 94.12.Z dla zrzeszenia pracodawców i przedsiębiorców — to klasyfikuje się jako 94.11.Z (organizacje komercyjne i pracodawców).",
+    "Pomylenie z 85.59.B (pozostałe pozaszkolne formy edukacji) — szkolenia zawodowe organizowane komercyjnie poza ramami samorządu zawodowego to inna kategoria."
+  ],
+  "taxNotes": "Samorządy zawodowe (np. izby lekarskie) mają ustawowy status i odrębne zasady finansowania. Składki członkowskie mogą być zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

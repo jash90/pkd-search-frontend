@@ -1,0 +1,36 @@
+{
+  "code": "47.21.Z",
+  "name": "Sprzedaż detaliczna owoców i warzyw",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.21.Z obejmuje sprzedaż detaliczną świeżych, mrożonych, suszonych i konserwowanych owoców i warzyw w wyspecjalizowanych sklepach, na bazarach i straganach. Pasuje do warzywniaków, kupców rynkowych i sklepów z owocami premium. Sprzedaż hurtowa to 46.31.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel warzywniaka",
+      "use": "Prowadzi mały sklep z warzywami i owocami w dzielnicy mieszkaniowej."
+    },
+    {
+      "persona": "Sprzedawca bazarowy",
+      "use": "Operuje stoiskiem z warzywami i owocami na targu lub bazarze."
+    },
+    {
+      "persona": "Sklep z owocami premium",
+      "use": "Specjalizuje się w owocach egzotycznych, organicznych lub regionalnych."
+    },
+    {
+      "persona": "Operator stoiska w hali targowej",
+      "use": "Prowadzi punkt sprzedaży świeżych warzyw w hali kupieckiej."
+    }
+  ],
+  "businessExamples": [
+    "Warzywniak osiedlowy z lokalnymi i sezonowymi produktami",
+    "Stoisko bazarowe z owocami i warzywami",
+    "Sklep premium z owocami egzotycznymi i bio"
+  ],
+  "commonMistakes": [
+    "Wybór 47.21.Z dla sprzedaży hurtowej — wtedy właściwy jest 46.31.Z.",
+    "Pomylenie z 47.11.Z, gdy sklep oferuje pełen asortyment spożywczy z owocami jako jednym z elementów."
+  ],
+  "taxNotes": "Świeże owoce i warzywa korzystają z obniżonej stawki VAT. Sprzedaż detaliczna podlega kasie fiskalnej (z możliwymi zwolnieniami przy niskich obrotach). Stawki sprawdź u doradcy podatkowego."
+}

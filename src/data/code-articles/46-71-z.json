@@ -1,0 +1,36 @@
+{
+  "code": "46.71.Z",
+  "name": "Sprzedaż hurtowa pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.71.Z obejmuje sprzedaż hurtową samochodów osobowych, dostawczych, ciężarowych, autobusów, naczep i przyczep — od importerów i dealerów do dystrybutorów, firm flotowych i sieci dealerskich. Sprzedaż motocykli klasyfikowana jest pod 46.73.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Importer marki samochodowej",
+      "use": "Reprezentuje markę (generalny importer) i zaopatruje sieć dealerską w nowe auta."
+    },
+    {
+      "persona": "Dystrybutor samochodów ciężarowych",
+      "use": "Sprzedaje hurtowo ciągniki siodłowe i naczepy do firm transportowych."
+    },
+    {
+      "persona": "Dealer flotowy",
+      "use": "Specjalizuje się w sprzedaży hurtowej aut osobowych dla firm i flot."
+    },
+    {
+      "persona": "Importer aut używanych",
+      "use": "Sprowadza auta z UE i sprzedaje hurtowo do komisów i pośredników."
+    }
+  ],
+  "businessExamples": [
+    "Generalny importer marki samochodowej",
+    "Dystrybutor samochodów ciężarowych dla branży transportowej",
+    "Importer aut używanych z Niemiec"
+  ],
+  "commonMistakes": [
+    "Wybór 46.71.Z dla sprzedaży motocykli — właściwy jest 46.73.Z.",
+    "Pomylenie z 47.31 (sprzedaż detaliczna paliw) lub 45.11.Z (sprzedaż detaliczna aut) — 46.71.Z dotyczy wyłącznie hurtu."
+  ],
+  "taxNotes": "Obrót pojazdami podlega akcyzie samochodowej i specjalnym przepisom VAT (m.in. VAT-marża dla używanych). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

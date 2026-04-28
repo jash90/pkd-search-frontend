@@ -1,0 +1,36 @@
+{
+  "code": "84.21.Z",
+  "name": "Sprawy zagraniczne",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.21.Z obejmuje działalność dyplomatyczną i konsularną państwa — Ministerstwo Spraw Zagranicznych, ambasady, konsulaty, misje dyplomatyczne, pomoc rozwojową. Dotyczy wyłącznie organów państwowych. Działalność prywatna typu pośrednictwo wizowe ma inne kody, np. 79.11.Z lub 82.99.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Ministerstwo Spraw Zagranicznych",
+      "use": "Prowadzi politykę zagraniczną państwa, koordynuje placówki dyplomatyczne i konsularne."
+    },
+    {
+      "persona": "Ambasada / konsulat RP za granicą",
+      "use": "Reprezentuje Polskę, prowadzi sprawy obywatelskie i wizowe dla obywateli RP i obcokrajowców."
+    },
+    {
+      "persona": "Agencja pomocy rozwojowej państwa",
+      "use": "Realizuje programy współpracy międzynarodowej, pomocy humanitarnej i rozwojowej dla krajów partnerskich."
+    },
+    {
+      "persona": "Instytut polski za granicą",
+      "use": "Prowadzi działalność dyplomacji kulturalnej — promocję kultury polskiej w innych krajach."
+    }
+  ],
+  "businessExamples": [
+    "Ambasada RP w państwie obcym prowadząca sprawy konsularne",
+    "MSZ koordynujący politykę zagraniczną państwa",
+    "Instytut Polski promujący kulturę polską w stolicach europejskich"
+  ],
+  "commonMistakes": [
+    "Wybór 84.21.Z przez agencje wizowe i biura podróży pośredniczące w wizach — to działalność komercyjna pod 79.11.Z lub 82.99.B.",
+    "Pomylenie z 84.22.Z (obrona narodowa) — sprawy wojskowe i obronność to inny kod, nie sprawy zagraniczne."
+  ],
+  "taxNotes": "Działalność państwa w zakresie spraw zagranicznych finansowana z budżetu państwa, nie podlega standardowym formom opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

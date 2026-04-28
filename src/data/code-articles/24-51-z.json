@@ -1,0 +1,36 @@
+{
+  "code": "24.51.Z",
+  "name": "Odlewnictwo żeliwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.51.Z obejmuje odlewanie wyrobów z żeliwa szarego, sferoidalnego i ciągliwego — bloków silników, korpusów maszyn, elementów infrastruktury (włazy kanalizacyjne, kraty, hydranty), rur, kotłów i grzejników. To kod dla odlewni żeliwnych dostarczających odlewy dla motoryzacji, energetyki i komunalnej infrastruktury.",
+  "whoUsesIt": [
+    {
+      "persona": "Odlewnia żeliwa motoryzacyjnego",
+      "use": "Produkuje bloki silników, głowice i tarcze hamulcowe z żeliwa szarego."
+    },
+    {
+      "persona": "Odlewnia infrastruktury komunalnej",
+      "use": "Wytwarza włazy kanalizacyjne, kratki ściekowe i hydranty z żeliwa sferoidalnego."
+    },
+    {
+      "persona": "Producent rur kanalizacyjnych żeliwnych",
+      "use": "Odlewa rury i kształtki dla budownictwa wodno-kanalizacyjnego."
+    },
+    {
+      "persona": "Odlewnia korpusów maszyn",
+      "use": "Wykonuje korpusy obrabiarek, pomp i sprężarek przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Odlewnia żeliwa dla branży motoryzacyjnej",
+    "Producent włazów kanalizacyjnych z żeliwa sferoidalnego",
+    "Wytwórca grzejników żeliwnych centralnego ogrzewania"
+  ],
+  "commonMistakes": [
+    "Wybór 24.51.Z zamiast 24.52.Z (odlewnictwo staliwa) — staliwo i żeliwo różnią się zawartością węgla i mają osobne kody.",
+    "Pomylenie z 25.99.Z (produkcja pozostałych gotowych wyrobów metalowych), gdy zakład wykonuje obróbkę i montaż gotowych odlewów — sama odlewnia to 24.51.Z."
+  ],
+  "taxNotes": "Odlewnictwo objęte jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali odlewni, energochłonności i struktury klientów. Stawki sprawdź u doradcy podatkowego."
+}

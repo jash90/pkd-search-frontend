@@ -1,0 +1,36 @@
+{
+  "code": "41.00.B",
+  "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 41.00.B obejmuje kompleksowe wznoszenie budynków niemieszkalnych — biurowców, hal magazynowych, zakładów produkcyjnych, hoteli, szpitali, szkół, galerii handlowych, obiektów sportowych. To kod generalnego wykonawcy lub inwestora realizującego inwestycje komercyjne, przemysłowe i użyteczności publicznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Generalny wykonawca biurowca",
+      "use": "Realizuje kompleksową budowę obiektu biurowego od fundamentów po fit-out."
+    },
+    {
+      "persona": "Firma stawiająca hale magazynowe",
+      "use": "Buduje hale logistyczne i centra dystrybucyjne dla operatorów."
+    },
+    {
+      "persona": "Wykonawca obiektów przemysłowych",
+      "use": "Realizuje budowę zakładów produkcyjnych pod konkretnych inwestorów."
+    },
+    {
+      "persona": "Firma budowlana segmentu publicznego",
+      "use": "Wznosi szkoły, szpitale i obiekty użyteczności publicznej z przetargów."
+    }
+  ],
+  "businessExamples": [
+    "Budowa hali logistycznej 30 000 m²",
+    "Wznoszenie biurowca klasy A",
+    "Wykonawstwo obiektu szpitalnego z przetargu"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 41.00.A (budynki mieszkalne) — obiekty hybrydowe (apartamenty + biura) klasyfikuje się według dominującego przeznaczenia.",
+    "Wybór 41.00.B zamiast 42.99.Z, gdy obiekt jest typową budowlą inżynierską (np. wieża, silos), a nie budynkiem."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy świadczeniu usług na rzecz innego podatnika. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "24.44.Z",
+  "name": "Produkcja miedzi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.44.Z obejmuje hutnictwo i rafinację miedzi — produkcję miedzi blister, miedzi katodowej (elektrolitycznej), wlewków, drutu nawojowego, rur, blach i taśm miedzianych oraz stopów (mosiądz, brąz). Klasyfikacja obejmuje też odzysk miedzi z kabli i elektroniki.",
+  "whoUsesIt": [
+    {
+      "persona": "Huta miedzi",
+      "use": "Produkuje miedź katodową z koncentratów rud i złomu w procesie elektrolizy."
+    },
+    {
+      "persona": "Walcownia drutu miedzianego",
+      "use": "Wytwarza drut nawojowy dla producentów silników elektrycznych i transformatorów."
+    },
+    {
+      "persona": "Producent rur miedzianych",
+      "use": "Wytwarza rury miedziane dla instalacji sanitarnych i klimatyzacji."
+    },
+    {
+      "persona": "Wytwórca stopów miedzi",
+      "use": "Topi mosiądze i brązy w postaci wlewków dla odlewni i kuźni."
+    }
+  ],
+  "businessExamples": [
+    "Producent drutu nawojowego dla silników elektrycznych",
+    "Wytwórca rur miedzianych dla instalacji",
+    "Zakład wytwarzający mosiądze i brązy"
+  ],
+  "commonMistakes": [
+    "Wybór 24.44.Z zamiast 24.54.A (odlewnictwo miedzi i stopów miedzi), gdy zakład wykonuje odlewy gotowe — odlewnictwo to odrębny kod.",
+    "Pomylenie z 27.32.Z (produkcja przewodów i kabli), gdy zakład produkuje gotowe kable izolowane — sama produkcja drutu miedzianego to 24.44.Z."
+  ],
+  "taxNotes": "Produkcja i obrót miedzią objęte są VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów miedzianych. Wybór formy opodatkowania zależy od skali huty, kosztu surowca i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

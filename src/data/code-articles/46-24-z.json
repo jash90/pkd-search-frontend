@@ -1,0 +1,36 @@
+{
+  "code": "46.24.Z",
+  "name": "Sprzedaż hurtowa skór",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.24.Z obejmuje sprzedaż hurtową skór surowych, wyprawionych i półproduktów skórzanych — od rzeźni i garbarni do producentów obuwia, galanterii i odzieży skórzanej. Pasuje do firm handlowych w przemyśle skórzanym, importerów skór i pośredników. Sprzedaż wyrobów gotowych ze skóry (galanteria, obuwie) klasyfikowana jest pod 46.16.Z lub 46.49.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia skór wyprawionych",
+      "use": "Dostarcza skóry licowe i welurowe do producentów obuwia i galanterii."
+    },
+    {
+      "persona": "Importer skór egzotycznych",
+      "use": "Sprowadza skóry zagraniczne dla manufaktur galanterii premium."
+    },
+    {
+      "persona": "Pośrednik w handlu skórami surowymi",
+      "use": "Kojarzy rzeźnie z garbarniami w obrocie surowcem skórzanym."
+    },
+    {
+      "persona": "Dystrybutor materiałów obuwniczych",
+      "use": "Sprzedaje skóry, podszewki i półprodukty zakładom obuwniczym."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia skór dla zakładów obuwniczych",
+    "Importer skór egzotycznych dla produkcji galanterii",
+    "Pośrednik w obrocie skórami surowymi rzeźnia–garbarnia"
+  ],
+  "commonMistakes": [
+    "Wybór 46.24.Z dla sprzedaży gotowych wyrobów skórzanych — wtedy właściwy jest 46.16.Z lub 46.49.Z.",
+    "Pomylenie z 15.11.Z (wyprawa skór) — 46.24.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Handel skórami egzotycznymi może wymagać zezwoleń CITES. VAT i forma opodatkowania zależą od skali. Stawki sprawdź u doradcy podatkowego."
+}

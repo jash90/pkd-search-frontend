@@ -1,0 +1,36 @@
+{
+  "code": "25.21.Z",
+  "name": "Produkcja grzejników centralnego ogrzewania, wytwornic pary i kotłów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.21.Z obejmuje produkcję grzejników centralnego ogrzewania (panelowych, członowych, dekoracyjnych, łazienkowych), kotłów grzewczych niskiego ciśnienia, wytwornic pary, podgrzewaczy wody przepływowych oraz nagrzewnic powietrza. To kod dla zakładów dostarczających elementy systemów grzewczych dla budownictwa mieszkalnego i przemysłowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent grzejników panelowych",
+      "use": "Wytwarza stalowe grzejniki płytowe dla budownictwa mieszkaniowego."
+    },
+    {
+      "persona": "Wytwórca kotłów c.o.",
+      "use": "Produkuje kotły gazowe, olejowe i na paliwo stałe dla domów i obiektów."
+    },
+    {
+      "persona": "Producent grzejników łazienkowych",
+      "use": "Wytwarza dekoracyjne grzejniki drabinkowe i rurowe ze stali i aluminium."
+    },
+    {
+      "persona": "Wytwórca nagrzewnic przemysłowych",
+      "use": "Produkuje nagrzewnice powietrzne i wymienniki dla wentylacji i procesów technologicznych."
+    }
+  ],
+  "businessExamples": [
+    "Producent grzejników panelowych dla budownictwa",
+    "Wytwórnia kotłów gazowych c.o.",
+    "Producent dekoracyjnych grzejników łazienkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 25.21.Z zamiast 28.21.Z (produkcja pieców, palenisk i palników), gdy zakład produkuje piece przemysłowe i palniki — to inny dział.",
+    "Pomylenie z 27.51.Z (produkcja elektrycznego sprzętu gospodarstwa domowego) — bojlery elektryczne dla AGD mają kod 27.51.Z."
+  ],
+  "taxNotes": "Produkcja urządzeń grzewczych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Niektóre urządzenia podlegają obowiązkowi homologacji i wymagań ekoprojektu. Stawki sprawdź u doradcy podatkowego."
+}

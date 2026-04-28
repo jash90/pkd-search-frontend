@@ -1,0 +1,36 @@
+{
+  "code": "47.73.Z",
+  "name": "Sprzedaż detaliczna wyrobów farmaceutycznych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.73.Z obejmuje detaliczną sprzedaż leków, suplementów, środków higieny osobistej i produktów medycznych w aptekach ogólnodostępnych i punktach aptecznych. Działalność wymaga zezwolenia z Wojewódzkiego Inspektoratu Farmaceutycznego oraz farmaceuty kierownika.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel apteki",
+      "use": "Prowadzi aptekę ogólnodostępną z lekami na receptę i bez recepty."
+    },
+    {
+      "persona": "Farmaceuta — magister farmacji",
+      "use": "Otwiera własną aptekę zgodnie z zasadą „apteka dla aptekarza”."
+    },
+    {
+      "persona": "Sieć aptek",
+      "use": "Operuje wieloma punktami aptecznymi w ramach jednej grupy kapitałowej."
+    },
+    {
+      "persona": "Punkt apteczny w małej miejscowości",
+      "use": "Prowadzi placówkę o ograniczonym asortymencie tam, gdzie nie ma apteki pełnej."
+    }
+  ],
+  "businessExamples": [
+    "Apteka osiedlowa z dyżurami nocnymi",
+    "Sieć aptek w galeriach handlowych",
+    "Punkt apteczny w małej miejscowości"
+  ],
+  "commonMistakes": [
+    "Wybór 47.73.Z zamiast 47.74.Z — wyroby medyczne i ortopedyczne mają osobny kod.",
+    "Pomylenie z 47.75.Z — kosmetyki bez wskazań leczniczych klasyfikują się jako 47.75.Z, nie apteczny."
+  ],
+  "taxNotes": "Działalność apteczna wymaga zezwoleń, kasy fiskalnej i ścisłej ewidencji leków. Leki mają obniżoną stawkę VAT, część jest refundowana przez NFZ. Stawki sprawdź u doradcy podatkowego."
+}

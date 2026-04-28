@@ -1,0 +1,36 @@
+{
+  "code": "46.50.Z",
+  "name": "Sprzedaż hurtowa urządzeń technologii informacyjnej i komunikacyjnej",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.50.Z obejmuje hurtową sprzedaż komputerów, serwerów, monitorów, oprogramowania pudełkowego, sprzętu sieciowego, telefonów komórkowych i akcesoriów IT. To kod dla dystrybutorów IT, hurtowni elektroniki i resellerów B2B sprzedających do firm i sklepów detalicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor IT",
+      "use": "Prowadzi hurtownię komputerów, serwerów i komponentów — sprzedaż do resellerów, integratorów i firm."
+    },
+    {
+      "persona": "Reseller B2B",
+      "use": "Importuje sprzęt sieciowy (Cisco, Juniper) i sprzedaje firmom korporacyjnym wraz z usługą dostawy."
+    },
+    {
+      "persona": "Hurtownia telefonów",
+      "use": "Dystrybuuje telefony komórkowe i akcesoria do salonów GSM oraz sklepów internetowych."
+    },
+    {
+      "persona": "Dostawca oprogramowania pudełkowego",
+      "use": "Sprzedaje licencje OEM Windows, antywirusy i pakiety biurowe sklepom IT i partnerom integratorskim."
+    }
+  ],
+  "businessExamples": [
+    "Dystrybutor sprzętu serwerowego",
+    "Hurtownia akcesoriów GSM",
+    "Reseller licencji oprogramowania B2B"
+  ],
+  "commonMistakes": [
+    "Wybór 46.50.Z zamiast 47.40.Z (sprzedaż detaliczna narzędzi ICT) — sprzedaż klientom indywidualnym to detal, a nie hurt.",
+    "Pomylenie z 62.09.Z (pozostała działalność usługowa w zakresie IT) — sama instalacja i wsparcie bez sprzedaży sprzętu to inny kod."
+  ],
+  "taxNotes": "Hurtowa sprzedaż elektroniki (telefony, laptopy, konsole, dyski) podlega obowiązkowemu mechanizmowi podzielonej płatności (split payment) przy fakturach powyżej progu z załącznika nr 15. Wybór formy opodatkowania zależy od skali obrotów. Stawki sprawdź u doradcy podatkowego."
+}

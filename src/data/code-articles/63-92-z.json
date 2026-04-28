@@ -1,0 +1,36 @@
+{
+  "code": "63.92.Z",
+  "name": "Pozostała działalność usługowa w zakresie informacji",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.92.Z obejmuje pozostałe usługi informacyjne — udostępnianie baz danych, agregację informacji, telefoniczne linie informacyjne, biura wycinków prasowych i serwisy danych specjalistycznych. Pasuje dla operatorów portali informacyjnych B2B, firm dostarczających dane (data-as-a-service) i dostawców informacji branżowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dostawca data-as-a-service",
+      "use": "Sprzedaje dostęp do baz danych branżowych (rejestry, dane finansowe, dane rynkowe) przez API."
+    },
+    {
+      "persona": "Operator portalu B2B z bazami",
+      "use": "Prowadzi serwis z bazą firm, kontraktów lub wskaźników dostępną w modelu subskrypcyjnym."
+    },
+    {
+      "persona": "Biuro informacji telefonicznej / call center",
+      "use": "Świadczy linie informacyjne, infolinie i biuro numerów (B2B i B2C)."
+    },
+    {
+      "persona": "Agregator danych otwartych",
+      "use": "Pobiera, czyści i udostępnia dane otwarte (open data) administracji w postaci użytkowej."
+    }
+  ],
+  "businessExamples": [
+    "Serwis B2B z bazą polskich firm i raportami",
+    "Dostawca danych finansowych przez API",
+    "Operator infolinii branżowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.91.Z (wyszukiwarki) — usługa wyszukiwania jako główny produkt ma osobną klasę.",
+    "Wybór 63.92.Z zamiast 60.31.Z (agencje informacyjne) — produkcja własnych newsów dla mediów to inny kod."
+  ],
+  "taxNotes": "Sprzedaż dostępu do baz przez API klientom UE wymaga OSS. Możliwy ryczałt (przy spełnieniu limitów), liniowy lub zasady ogólne. IP Box dostępny przy własnych algorytmach. Stawki sprawdź u doradcy podatkowego."
+}

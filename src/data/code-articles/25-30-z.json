@@ -1,0 +1,36 @@
+{
+  "code": "25.30.Z",
+  "name": "Produkcja broni i amunicji",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.30.Z obejmuje produkcję broni palnej wojskowej, myśliwskiej, sportowej i pneumatycznej, broni białej, amunicji, naboi, granatów oraz części do broni. Wlicza się tu również produkcję rakiet i pocisków. Nie obejmuje produkcji materiałów wybuchowych jako takich (20.51.Z) ani produkcji pojazdów wojskowych (29.10.Z, 30.40.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład zbrojeniowy",
+      "use": "Wytwarza broń strzelecką i amunicję dla wojska, policji i służb specjalnych w ramach koncesji MSWiA."
+    },
+    {
+      "persona": "Producent broni myśliwskiej i sportowej",
+      "use": "Wytwarza sztucery, strzelby i karabinki sportowe dla rynku cywilnego z koncesjonowanym obrotem."
+    },
+    {
+      "persona": "Wytwórnia amunicji sportowej",
+      "use": "Snaryżuje naboje pistoletowe, karabinowe i myśliwskie dla strzelnic, klubów i myśliwych."
+    },
+    {
+      "persona": "Producent broni pneumatycznej",
+      "use": "Wytwarza wiatrówki PCP i sprężynowe oraz akcesoria niewymagające pozwolenia."
+    }
+  ],
+  "businessExamples": [
+    "Zakład zbrojeniowy produkujący broń dla wojska",
+    "Wytwórnia amunicji sportowej i myśliwskiej",
+    "Producent broni pneumatycznej PCP"
+  ],
+  "commonMistakes": [
+    "Wybór 25.30.Z zamiast 47.78.Z — sprzedaż detaliczna broni i amunicji w sklepie myśliwskim/strzeleckim to handel, nie produkcja.",
+    "Mylenie z 20.51.Z (produkcja materiałów wybuchowych) — sama produkcja prochów strzelniczych i ładunków miotających może wpadać w klasę chemiczną, mimo powiązania z amunicją."
+  ],
+  "taxNotes": "Produkcja broni i amunicji wymaga koncesji MSWiA, podlega obrotowi reglamentowanemu, kontroli ITAR/EU dual-use i specyficznemu reżimowi akcyzowemu dla niektórych wyrobów. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "82.92.Z",
+  "name": "Działalność związana z pakowaniem",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.92.Z to usługi pakowania na zlecenie — konfekcjonowanie, etykietowanie, pakowanie próbek, foliowanie, kompletowanie zestawów promocyjnych, pakowanie e-commerce (fulfilment). Pakowanie własnych produktów do sprzedaży nie jest osobną działalnością — to element produkcji. Magazynowanie towarów to 52.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma fulfilment dla e-commerce",
+      "use": "Pakuje i wysyła zamówienia w imieniu sklepów internetowych — outsourcing logistyki magazynowej."
+    },
+    {
+      "persona": "Konfekcjoner kosmetyków i suplementów",
+      "use": "Pakuje na zlecenie marek produkty w blistry, butelki, opakowania zbiorcze i etykietuje je."
+    },
+    {
+      "persona": "Firma pakująca zestawy promocyjne",
+      "use": "Tworzy zestawy gratisów, próbek i promocji dla działów marketingu — kompletowanie i foliowanie."
+    },
+    {
+      "persona": "Pakowalnia żywności",
+      "use": "Pakuje na zlecenie produkty spożywcze w atmosferze kontrolowanej, etykietuje i przygotowuje do dystrybucji."
+    }
+  ],
+  "businessExamples": [
+    "Firma fulfilment obsługująca sklepy internetowe (B2C)",
+    "Konfekcjonowanie kosmetyków na zlecenie marek własnych",
+    "Pakowalnia zestawów promocyjnych dla agencji marketingowych"
+  ],
+  "commonMistakes": [
+    "Wybór 82.92.Z, gdy pakujesz wyłącznie własne wyroby produkowane przez firmę — to element właściwej działalności produkcyjnej (np. 10.xx.Z dla żywności).",
+    "Pomylenie z 52.10.B (magazynowanie i przechowywanie pozostałych towarów) — samo magazynowanie bez pakowania to inny kod."
+  ],
+  "taxNotes": "Pakowanie na zlecenie wiąże się często z umowami B2B i powierzchnią magazynową. Skala lub liniowy korzystne przy kosztach pracowniczych i magazynowych. VAT zwykle obowiązkowy. Przy pakowaniu żywności wymagane decyzje sanepidu. Stawki sprawdź u doradcy podatkowego."
+}

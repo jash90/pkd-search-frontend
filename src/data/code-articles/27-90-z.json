@@ -1,0 +1,36 @@
+{
+  "code": "27.90.Z",
+  "name": "Produkcja pozostałego sprzętu elektrycznego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.90.Z obejmuje produkcję urządzeń elektrycznych nigdzie indziej niesklasyfikowanych — m.in. izolatorów, sprzętu do spawania, lutownic, elektrycznych dzwonków i urządzeń sygnalizacyjnych, urządzeń ultradźwiękowych przemysłowych, generatorów impulsów, ładowarek do pojazdów elektrycznych, ogrodzeń elektrycznych. Nie obejmuje sprzętu oświetleniowego (27.40.Z) ani AGD (27.5).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent ładowarek EV",
+      "use": "Wytwarza stacje ładowania pojazdów elektrycznych AC i DC dla operatorów sieci i użytkowników prywatnych."
+    },
+    {
+      "persona": "Wytwórnia sprzętu spawalniczego",
+      "use": "Produkuje spawarki MMA, MIG/MAG, TIG i plazmowe dla przemysłu i warsztatów."
+    },
+    {
+      "persona": "Producent UPS i zasilaczy awaryjnych",
+      "use": "Wytwarza zasilacze bezprzerwowe, prostowniki przemysłowe i inwertory dla branży IT i przemysłu."
+    },
+    {
+      "persona": "Manufaktura sprzętu elektrycznego specjalistycznego",
+      "use": "Wytwarza elektronikę BHP, sygnalizatory świetlne, ogrodzenia elektryczne i alarmy techniczne."
+    }
+  ],
+  "businessExamples": [
+    "Producent stacji ładowania EV AC/DC",
+    "Wytwórnia spawarek MIG/MAG dla przemysłu",
+    "Producent UPS dla serwerowni"
+  ],
+  "commonMistakes": [
+    "Wybór 27.90.Z zamiast 27.11.Z — silniki, prądnice i transformatory mają osobną klasę produkcji urządzeń elektrycznych.",
+    "Mylenie z 27.12.Z (produkcja aparatury rozdzielczej i sterowniczej energii elektrycznej) — rozdzielnice, wyłączniki i bezpieczniki nie wpadają w klasę pozostałego sprzętu."
+  ],
+  "taxNotes": "Sprzęt elektryczny podlega WEEE, ROHS, dyrektywom LVD/EMC i standardowym zasadom CIT/PIT i VAT. Innowacyjne produkty (np. systemy EV) mogą korzystać z ulgi B+R. Stawki sprawdź u doradcy podatkowego."
+}

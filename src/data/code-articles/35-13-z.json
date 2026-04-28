@@ -1,0 +1,36 @@
+{
+  "code": "35.13.Z",
+  "name": "Przesyłanie energii elektrycznej",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.13.Z dotyczy przesyłu energii elektrycznej sieciami wysokich i najwyższych napięć — od elektrowni do węzłów rozdzielczych. To działalność operatorów systemu przesyłowego (OSP), w Polsce realizowana głównie przez PSE. Nie obejmuje dystrybucji do odbiorcy końcowego (35.14.Z) ani handlu energią (35.15.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator systemu przesyłowego (OSP)",
+      "use": "Zarządza siecią najwyższych napięć i bilansuje krajowy system elektroenergetyczny."
+    },
+    {
+      "persona": "Spółka utrzymująca linie przesyłowe",
+      "use": "Świadczy usługi eksploatacji i konserwacji sieci wysokich napięć."
+    },
+    {
+      "persona": "Operator transgranicznych linii energetycznych",
+      "use": "Zarządza interkonektorami z systemami państw sąsiednich."
+    },
+    {
+      "persona": "Spółka celowa pod inwestycje sieciowe",
+      "use": "Buduje i utrzymuje wybrane odcinki sieci 220/400 kV."
+    }
+  ],
+  "businessExamples": [
+    "Operator linii przesyłowej 400 kV",
+    "Spółka utrzymaniowa stacji transformatorowych WN",
+    "Operator interkonektora HVDC"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.14.Z (dystrybucja energii) — przesył to wysokie napięcia, dystrybucja to średnie i niskie napięcia do odbiorcy końcowego.",
+    "Wybór 35.13.Z zamiast 42.22.Z, gdy firma faktycznie buduje, a nie eksploatuje linie energetyczne."
+  ],
+  "taxNotes": "Działalność przesyłowa wymaga koncesji URE i podlega ścisłej regulacji taryfowej. Spółki operatorskie objęte są mechanizmem unbundlingu właścicielskiego. Stawki sprawdź u doradcy podatkowego."
+}

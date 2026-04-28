@@ -1,0 +1,36 @@
+{
+  "code": "30.12.Z",
+  "name": "Produkcja łodzi wypoczynkowych i sportowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.12.Z obejmuje produkcję łodzi rekreacyjnych i sportowych — jachtów żaglowych, motorowych, motorówek, kajaków, łodzi wiosłowych, pontonów RIB, skuterów wodnych. Polska jest jednym z największych producentów jachtów w Europie.",
+  "whoUsesIt": [
+    {
+      "persona": "Stocznia jachtowa",
+      "use": "Produkuje jachty żaglowe i motorowe z laminatu i aluminium dla rynku europejskiego."
+    },
+    {
+      "persona": "Fabryka kajaków i łodzi wiosłowych",
+      "use": "Wytwarza kajaki rekreacyjne, sportowe i łodzie wiosłowe z plastiku rotomoldingowego."
+    },
+    {
+      "persona": "Producent pontonów RIB i motorówek",
+      "use": "Robi pontony półsztywne RIB i motorówki dla rekreacji, ratownictwa i służb."
+    },
+    {
+      "persona": "Wytwórca skuterów wodnych i mniejszych jednostek",
+      "use": "Buduje skutery wodne, łodzie elektryczne i mniejsze jednostki dla wypożyczalni."
+    }
+  ],
+  "businessExamples": [
+    "Stocznia jachtów żaglowych eksportująca do Europy Zachodniej",
+    "Producent kajaków rotomoldowanych dla turystyki wodnej",
+    "Zakład pontonów RIB dla ratownictwa i rekreacji"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.11.Z (statki cywilne komercyjne) — promy turystyczne i statki pasażerskie idą tam, łodzie rekreacyjne tutaj.",
+    "Wybór 32.30.Z (sprzęt sportowy) zamiast 30.12.Z — kajaki sportowe wciąż są łodziami i klasyfikuje się je pod 30.12.Z."
+  ],
+  "taxNotes": "Branża jachtowa w Polsce ma silnie eksportowy charakter z wykorzystaniem ulg na innowacje i programów wsparcia eksportu. Forma opodatkowania zależy od skali, modelu sprzedaży i polityki celnej. Stawki sprawdź u doradcy podatkowego."
+}

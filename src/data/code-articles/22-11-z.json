@@ -1,0 +1,36 @@
+{
+  "code": "22.11.Z",
+  "name": "Produkcja, bieżnikowanie i regenerowanie opon z gumy oraz produkcja dętek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.11.Z obejmuje produkcję nowych opon do samochodów osobowych, ciężarowych, autobusów, maszyn rolniczych i przemysłowych oraz bieżnikowanie i regenerację opon używanych. Obejmuje również produkcję dętek, ochraniaczy i pasków bieżnikujących.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka opon samochodowych",
+      "use": "Produkuje opony letnie, zimowe i całoroczne dla rynku OE i wymiennego."
+    },
+    {
+      "persona": "Zakład bieżnikowania opon ciężarowych",
+      "use": "Regeneruje opony TIR i autobusowe metodą zimną i gorącą."
+    },
+    {
+      "persona": "Producent opon przemysłowych",
+      "use": "Wytwarza opony do wózków widłowych, maszyn rolniczych i pojazdów budowlanych."
+    },
+    {
+      "persona": "Wytwórca opon rowerowych",
+      "use": "Produkuje opony i dętki rowerowe oraz do hulajnóg elektrycznych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka opon osobowych premium",
+    "Zakład bieżnikowania opon TIR",
+    "Producent opon do wózków widłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 22.11.Z dla wymiany opon w warsztacie — to usługa 45.20.Z (konserwacja pojazdów).",
+    "Pomylenie z 22.12.Z (pozostałe wyroby z gumy) — uszczelki, węże i pasy gumowe mają osobny kod."
+  ],
+  "taxNotes": "Branża oponiarska objęta jest opłatą produktową i obowiązkiem zbierania opon zużytych. Wybór formy opodatkowania zależy od skali i powiązań z grupami międzynarodowymi. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "77.40.B",
+  "name": "Pozostała dzierżawa własności intelektualnej i podobnych produktów, z wyłączeniem prac chronionych prawem autorskim",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.40.B obejmuje dzierżawę i licencjonowanie własności intelektualnej innej niż prace autorskie — patentów, znaków towarowych, wzorów przemysłowych, know-how, franczyzy. To kod dla firm zarządzających portfelami patentowymi, licencjodawców i franczyzodawców.",
+  "whoUsesIt": [
+    {
+      "persona": "Licencjodawca patentów",
+      "use": "Udziela licencji na patenty technologiczne firmom produkcyjnym — pobiera royalties z licencjonowanych technologii."
+    },
+    {
+      "persona": "Franczyzodawca",
+      "use": "Licencjonuje swoją markę, know-how i system biznesowy franczyzobiorcom (gastronomia, retail, usługi)."
+    },
+    {
+      "persona": "Właściciel portfela znaków towarowych",
+      "use": "Zarządza znakami i logotypami marek, udziela licencji producentom i dystrybutorom."
+    },
+    {
+      "persona": "Firma transferu technologii",
+      "use": "Komercjalizuje wynalazki uczelni i laboratoriów — sprzedaje licencje przemysłowi."
+    }
+  ],
+  "businessExamples": [
+    "Spółka franczyzowa licencjonująca markę gastronomiczną",
+    "Holding patentowy w branży medtech",
+    "Firma transferu technologii przy uczelni technicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 77.40.B zamiast 77.40.A — domeny internetowe mają osobny kod 77.40.A.",
+    "Pomylenie z 74.91.Z (rzecznicy patentowi) — gdy działalność to obsługa zgłoszeń i ochrony IP (a nie samo licencjonowanie), właściwszy jest 74.91.Z."
+  ],
+  "taxNotes": "Licencjonowanie IP może być rozliczane jako przychody z praw majątkowych (specjalne reguły CIT/PIT) lub w ramach działalności gospodarczej. Royalties międzynarodowe podlegają zasadom DTT (umowy o unikaniu podwójnego opodatkowania) i WHT. Stawki sprawdź u doradcy podatkowego."
+}

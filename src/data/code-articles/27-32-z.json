@@ -1,0 +1,36 @@
+{
+  "code": "27.32.Z",
+  "name": "Produkcja pozostałych elektronicznych i elektrycznych przewodów i kabli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.32.Z obejmuje produkcję izolowanych przewodów i kabli z miedzi i aluminium do dowolnego napięcia — kabli energetycznych, instalacyjnych, sterowniczych, sygnałowych, koncentrycznych, telekomunikacyjnych miedzianych oraz przewodów elastycznych i wielożyłowych. To podstawowy kod dla kablowni dostarczających okablowanie dla budownictwa, energetyki i automatyki.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kabli energetycznych",
+      "use": "Wytwarza kable SN i nn dla sieci dystrybucyjnych i przemysłu."
+    },
+    {
+      "persona": "Wytwórca przewodów instalacyjnych",
+      "use": "Produkuje przewody YDY, YKY i drabinkowe dla budownictwa mieszkaniowego i komercyjnego."
+    },
+    {
+      "persona": "Producent kabli sterowniczych",
+      "use": "Wytwarza kable sygnałowe i sterownicze dla automatyki przemysłowej."
+    },
+    {
+      "persona": "Wytwórca kabli koncentrycznych i sieciowych",
+      "use": "Produkuje kable LAN UTP/STP, kable RG dla telekomunikacji miedzianej."
+    }
+  ],
+  "businessExamples": [
+    "Producent kabli energetycznych SN i nn",
+    "Wytwórnia przewodów instalacyjnych dla budownictwa",
+    "Producent kabli sieciowych UTP kategorii 6/6A"
+  ],
+  "commonMistakes": [
+    "Wybór 27.32.Z zamiast 27.31.Z (produkcja kabli światłowodowych) — światłowody mają osobny kod 27.31.Z, miedź i aluminium to 27.32.Z.",
+    "Pomylenie z 27.33.Z (produkcja sprzętu instalacyjnego) — gniazdka, wyłączniki i puszki to sprzęt instalacyjny, sam przewód to 27.32.Z."
+  ],
+  "taxNotes": "Produkcja kabli i przewodów objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów stalowych i miedzianych. Wybór formy opodatkowania zależy od skali zakładu i kosztów surowca. Stawki sprawdź u doradcy podatkowego."
+}

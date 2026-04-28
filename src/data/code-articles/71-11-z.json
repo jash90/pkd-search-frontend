@@ -1,0 +1,36 @@
+{
+  "code": "71.11.Z",
+  "name": "Działalność w zakresie architektury",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.11.Z obejmuje projektowanie architektoniczne budynków i zespołów urbanistycznych, sporządzanie projektów budowlanych, doradztwo i nadzór architektoniczny. To kod właściwy dla pracowni architektonicznych, urbanistów i architektów prowadzących indywidualną praktykę.",
+  "whoUsesIt": [
+    {
+      "persona": "Pracownia architektoniczna",
+      "use": "Projektuje budynki mieszkalne, biurowe, użyteczności publicznej — od koncepcji po projekt wykonawczy."
+    },
+    {
+      "persona": "Architekt freelancer",
+      "use": "Realizuje indywidualne zlecenia (domy jednorodzinne, adaptacje, projekty wnętrz architektonicznych)."
+    },
+    {
+      "persona": "Urbanista",
+      "use": "Sporządza miejscowe plany zagospodarowania, koncepcje urbanistyczne, opracowania planistyczne."
+    },
+    {
+      "persona": "Architekt krajobrazu",
+      "use": "Projektuje przestrzenie zewnętrzne — parki, place, ogrody, infrastrukturę zieloną."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia projektująca osiedla deweloperskie",
+    "Architekt freelancer specjalizujący się w domach pasywnych",
+    "Studio architektury krajobrazu"
+  ],
+  "commonMistakes": [
+    "Wybór 71.11.Z zamiast 74.13.Z — projektowanie wnętrz (bez ingerencji w konstrukcję) ma osobny kod 74.13.Z.",
+    "Pomylenie z 71.12.B (inżynieria) — projekty konstrukcyjne, instalacyjne i czysto inżynieryjne mieszczą się w grupie 71.12."
+  ],
+  "taxNotes": "Architekci mogą korzystać z ryczałtu (najczęściej według stawki dla wolnych zawodów) lub skali/liniowego, w zależności od skali kosztów i charakteru zleceń. Wymagane uprawnienia budowlane do projektowania i wpis do izby architektów. Usługi architektoniczne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

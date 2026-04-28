@@ -1,0 +1,36 @@
+{
+  "code": "47.74.Z",
+  "name": "Sprzedaż detaliczna wyrobów medycznych i ortopedycznych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.74.Z obejmuje detaliczną sprzedaż wyrobów medycznych — wózków inwalidzkich, kul, protez, aparatów słuchowych, sprzętu rehabilitacyjnego, pieluchomajtek, wkładek ortopedycznych — w wyspecjalizowanych sklepach. To kod dla sklepów ortopedycznych, sklepów ze sprzętem rehabilitacyjnym i punktów protetyki słuchu.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu ortopedycznego",
+      "use": "Sprzedaje obuwie ortopedyczne, wkładki, ortezy i kołnierze szyjne."
+    },
+    {
+      "persona": "Sklep ze sprzętem rehabilitacyjnym",
+      "use": "Oferuje wózki inwalidzkie, balkoniki, łóżka rehabilitacyjne na refundację NFZ."
+    },
+    {
+      "persona": "Punkt protetyki słuchu",
+      "use": "Sprzedaje aparaty słuchowe, prowadzi badania audiometryczne i dopasowuje sprzęt."
+    },
+    {
+      "persona": "Sklep medyczny dla seniorów",
+      "use": "Oferuje pieluchomajtki, sprzęt do pielęgnacji i drobne wyroby medyczne."
+    }
+  ],
+  "businessExamples": [
+    "Sklep ortopedyczny z dopasowywaniem wkładek",
+    "Punkt protetyki słuchu z badaniem",
+    "Sklep medyczny z refundacją NFZ"
+  ],
+  "commonMistakes": [
+    "Wybór 47.74.Z zamiast 47.73.Z — leki sprzedaje się w aptekach (47.73.Z), nie w sklepach medycznych.",
+    "Pomylenie z 86.90.E (działalność paramedyczna) — jeśli głównie świadczysz usługi rehabilitacyjne, sprzedaż to dodatek."
+  ],
+  "taxNotes": "Wyroby medyczne mają obniżoną stawkę VAT i mogą być refundowane przez NFZ. Wymagana ewidencja wyrobów oraz kasa fiskalna. Stawki sprawdź u doradcy podatkowego."
+}

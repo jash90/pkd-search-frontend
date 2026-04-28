@@ -1,0 +1,36 @@
+{
+  "code": "66.11.Z",
+  "name": "Zarządzanie rynkami finansowymi",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.11.Z obejmuje działalność polegającą na organizowaniu i nadzorowaniu rynków finansowych — giełd papierów wartościowych, towarowych oraz innych zorganizowanych platform obrotu. To kod dla podmiotów prowadzących infrastrukturę rynkową, nie dla samych inwestorów ani maklerów.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator giełdy papierów wartościowych",
+      "use": "Prowadzi platformę obrotu akcjami, obligacjami i instrumentami pochodnymi (np. GPW)."
+    },
+    {
+      "persona": "Operator giełdy towarowej",
+      "use": "Organizuje obrót energią, gazem, metalami szlachetnymi czy płodami rolnymi (np. TGE)."
+    },
+    {
+      "persona": "Izba rozliczeniowa",
+      "use": "Świadczy usługi clearingowe i zabezpiecza rozliczenia transakcji giełdowych."
+    },
+    {
+      "persona": "Operator alternatywnego systemu obrotu (ASO)",
+      "use": "Prowadzi mniejsze platformy notowań spółek (np. NewConnect, Catalyst)."
+    }
+  ],
+  "businessExamples": [
+    "Giełda Papierów Wartościowych w Warszawie",
+    "Towarowa Giełda Energii",
+    "Izba rozliczeniowa instrumentów pochodnych"
+  ],
+  "commonMistakes": [
+    "Wybór 66.11.Z zamiast 66.12.Z — biuro maklerskie pośredniczące w obrocie używa 66.12.Z, nie 66.11.Z.",
+    "Pomylenie z 66.19.Z (pozostała działalność wspomagająca) — zarządzanie samym rynkiem to wąska kategoria zarezerwowana dla operatorów infrastruktury."
+  ],
+  "taxNotes": "Działalność ta wymaga zezwoleń KNF i podlega ścisłemu nadzorowi regulacyjnemu (MiFID II, ustawa o obrocie instrumentami finansowymi). Usługi finansowe co do zasady są zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

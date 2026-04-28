@@ -1,0 +1,36 @@
+{
+  "code": "85.10.Z",
+  "name": "Placówki wychowania przedszkolnego",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.10.Z obejmuje przedszkola, oddziały przedszkolne, punkty przedszkolne i zespoły wychowania przedszkolnego dla dzieci do rozpoczęcia edukacji szkolnej. Pasuje dla niepublicznych przedszkoli, klubów malucha działających jako placówki przedszkolne. Żłobki (dzieci do 3 lat) klasyfikuje się pod 88.91.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel niepublicznego przedszkola",
+      "use": "Prowadzi przedszkole z wpisem do ewidencji szkół i placówek niepublicznych."
+    },
+    {
+      "persona": "Operator sieci przedszkoli",
+      "use": "Zarządza kilkoma placówkami przedszkolnymi w jednym lub wielu miastach."
+    },
+    {
+      "persona": "Przedszkole językowe / Montessori",
+      "use": "Prowadzi przedszkole o profilu specjalistycznym (anglojęzyczne, metoda Montessori, Reggio Emilia)."
+    },
+    {
+      "persona": "Punkt przedszkolny / zespół wychowania przedszkolnego",
+      "use": "Prowadzi małą placówkę dla dzieci 3-5 lat, często w mniejszej miejscowości."
+    }
+  ],
+  "businessExamples": [
+    "Niepubliczne przedszkole anglojęzyczne",
+    "Sieć przedszkoli Montessori w mieście",
+    "Punkt przedszkolny w gminie wiejskiej"
+  ],
+  "commonMistakes": [
+    "Wybór 85.10.Z dla żłobka lub klubu malucha (dzieci do 3 lat) — żłobki to 88.91.Z (opieka dzienna nad dziećmi).",
+    "Pomylenie z 85.20.Z (szkoły podstawowe) — oddziały zerowe w szkołach podstawowych mogą wymagać innej klasyfikacji w zależności od formy organizacyjnej."
+  ],
+  "taxNotes": "Placówki przedszkolne wymagają wpisu do ewidencji prowadzonej przez gminę i mogą otrzymywać dotację oświatową. Usługi edukacji przedszkolnej co do zasady są zwolnione z VAT, a dotacje oświatowe nie są przychodem opodatkowanym na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

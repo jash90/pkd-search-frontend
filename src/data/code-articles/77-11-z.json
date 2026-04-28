@@ -1,0 +1,36 @@
+{
+  "code": "77.11.Z",
+  "name": "Wynajem i dzierżawa samochodów osobowych i lekkich pojazdów silnikowych, w tym motocykli",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.11.Z obejmuje wynajem i dzierżawę samochodów osobowych, dostawczych do 3,5 t oraz motocykli — krótkoterminowy (rent-a-car) i długoterminowy (leasing operacyjny, CFM, abonament). To kod dla wypożyczalni aut, firm CFM i operatorów car-sharingu.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia rent-a-car",
+      "use": "Wynajmuje samochody osobowe na dni i tygodnie — turystom, podróżującym służbowo, klientom warsztatów."
+    },
+    {
+      "persona": "Operator CFM / leasing operacyjny",
+      "use": "Oferuje długoterminowy najem aut firmowych z pełną obsługą serwisową dla klientów biznesowych."
+    },
+    {
+      "persona": "Operator car-sharingu",
+      "use": "Udostępnia auta na minuty/godziny w aplikacji mobilnej w miastach."
+    },
+    {
+      "persona": "Wypożyczalnia aut premium / sportowych",
+      "use": "Wynajmuje luksusowe i sportowe samochody — eventy, weekendy, sesje zdjęciowe."
+    }
+  ],
+  "businessExamples": [
+    "Sieć wypożyczalni rent-a-car przy lotniskach",
+    "Operator CFM obsługujący floty firmowe",
+    "Aplikacja car-sharingu w aglomeracji miejskiej"
+  ],
+  "commonMistakes": [
+    "Wybór 77.11.Z zamiast 77.12.Z — wynajem samochodów ciężarowych powyżej 3,5 t ma osobny kod 77.12.Z.",
+    "Pomylenie z 49.32.Z (taksówki) — gdy firma świadczy usługi przewozu z kierowcą (a nie wynajmuje sam pojazd), właściwszy jest dział 49."
+  ],
+  "taxNotes": "Wynajem długoterminowy (CFM) i krótkoterminowy podlegają standardowej stawce VAT. Branża korzysta z określonych zasad odliczeń VAT od pojazdów (częściowe lub pełne odliczenie w zależności od użytkowania). Wybór formy opodatkowania zależy od skali floty i finansowania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "98.10.Z",
+  "name": "Gospodarstwa domowe produkujące wyroby na własne potrzeby",
+  "section": "U",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 98.10.Z obejmuje produkcję dóbr przez gospodarstwa domowe wyłącznie na własne potrzeby — uprawy żywności na własny stół, hodowla zwierząt domowych do konsumpcji własnej, samodzielna budowa lub remont własnego domu, wytwarzanie odzieży dla rodziny. To kod statystyczny dla gospodarstw nieprowadzących sprzedaży. Działalność rolnicza ze sprzedażą to kody działu 01, a sprzedaż własnych wyrobów z gospodarstwa to RHD (rolniczy handel detaliczny).",
+  "whoUsesIt": [
+    {
+      "persona": "Gospodarstwo z samowystarczalną uprawą",
+      "use": "Uprawia warzywa, owoce i hoduje zwierzęta wyłącznie na własne potrzeby rodziny."
+    },
+    {
+      "persona": "Rodzina budująca dom systemem gospodarczym",
+      "use": "Buduje lub remontuje własny dom siłami rodziny, bez sprzedaży usług na zewnątrz."
+    },
+    {
+      "persona": "Gospodarstwo wytwarzające żywność na własny użytek",
+      "use": "Robi przetwory, pieczywo, wędliny dla domowników, bez wprowadzania do obrotu."
+    },
+    {
+      "persona": "Gospodarstwo szyjące odzież dla rodziny",
+      "use": "Wytwarza odzież i drobne wyroby tekstylne na potrzeby gospodarstwa, bez sprzedaży."
+    }
+  ],
+  "businessExamples": [
+    "Rodzinne gospodarstwo z warzywnikiem i drobiem na własny stół",
+    "Samodzielna budowa domu jednorodzinnego siłami rodziny",
+    "Domowa produkcja przetworów i pieczywa dla gospodarstwa"
+  ],
+  "commonMistakes": [
+    "Wybór 98.10.Z przez rolnika, który sprzedaje nadwyżki produkcji — sprzedaż produktów gospodarstwa to działalność rolnicza (kody działu 01) lub rolniczy handel detaliczny.",
+    "Pomylenie z 96.09.Z (pozostała indywidualna działalność usługowa) — 98.10.Z dotyczy wyłącznie produkcji bez wprowadzania do obrotu, nie usług świadczonych odpłatnie."
+  ],
+  "taxNotes": "Kod 98.10.Z odzwierciedla wyłącznie produkcję na własne potrzeby i nie wiąże się z prowadzeniem działalności gospodarczej; nie generuje typowych obowiązków podatkowych ani kasowych. Pojawienie się sprzedaży zmienia kwalifikację — wówczas konieczna jest analiza pod kątem działalności rolniczej, RHD lub działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

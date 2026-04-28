@@ -1,0 +1,36 @@
+{
+  "code": "10.41.Z",
+  "name": "Produkcja olejów i pozostałych tłuszczów płynnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.41.Z obejmuje produkcję surowych i rafinowanych olejów roślinnych — rzepakowego, słonecznikowego, sojowego, oliwy z oliwek, lnianego, a także tłoczenie tłuszczów zwierzęcych płynnych. To kluczowy kod dla polskiej branży tłuszczowej, zwłaszcza producentów oleju rzepakowego (Polska to czołowy producent w UE).",
+  "whoUsesIt": [
+    {
+      "persona": "Olejarnia rzemieślnicza",
+      "use": "Tłoczy oleje na zimno z rzepaku, lnu, dyni i orzechów dla rynku premium."
+    },
+    {
+      "persona": "Zakład rafinacji oleju",
+      "use": "Rafinuje oleje surowe na masową skalę dla branży spożywczej i HoReCa."
+    },
+    {
+      "persona": "Producent oleju BIO",
+      "use": "Tłoczy oleje ekologiczne z certyfikowanych nasion z dystrybucją w sklepach BIO."
+    },
+    {
+      "persona": "Eksporter oleju rzepakowego",
+      "use": "Wytwarza olej rzepakowy w dużych zakładach na rynek krajowy i eksport."
+    }
+  ],
+  "businessExamples": [
+    "Olejarnia tłocząca olej lniany",
+    "Zakład rafinacji oleju rzepakowego",
+    "Producent oliwy z oliwek pod marką"
+  ],
+  "commonMistakes": [
+    "Wybór 10.41.Z zamiast 10.42.Z (produkcja margaryny), gdy produkty końcowe to tłuszcze stałe lub półpłynne typu margaryna i smarowidła.",
+    "Pomylenie z 19.20.Z, gdy zakład produkuje biopaliwa (biodiesel) z olejów roślinnych — to przemysł paliwowy, nie spożywczy."
+  ],
+  "taxNotes": "Produkcja olejów spożywczych wymaga zatwierdzenia sanepidu i HACCP. Działalność CIT/PIT z VAT-em na zasadach ogólnych; oleje spożywcze często objęte preferencyjną stawką VAT, a olej do biopaliw podlega akcyzie. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "60.20.Z",
+  "name": "Nadawanie programów telewizyjnych ogólnodostępnych i abonamentowych oraz dystrybucja nagrań wideo",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 60.20.Z obejmuje nadawanie programów telewizyjnych w eterze (DVB-T2), satelitarnie, kablowo i przez internet (IPTV, OTT), a także dystrybucję nagrań wideo na platformach streamingowych. To kod dla nadawców TV, operatorów platform VoD (Player, TVP VOD) i serwisów streamingowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Nadawca telewizyjny",
+      "use": "Nadaje program telewizyjny ogólnodostępny lub tematyczny z koncesją KRRiT — utrzymanie z reklam i abonamentów."
+    },
+    {
+      "persona": "Operator platformy VoD",
+      "use": "Prowadzi serwis streamingowy z licencjonowaną zawartością wideo — model SVOD, AVOD lub TVOD."
+    },
+    {
+      "persona": "Telewizja internetowa",
+      "use": "Prowadzi kanał online z transmisjami live i archiwum wideo — koncesja audiowizualna w modelu OTT."
+    },
+    {
+      "persona": "Dystrybutor produkcji wideo",
+      "use": "Sprzedaje licencje na filmy i seriale do telewizji oraz platform streamingowych — pośrednictwo w obrocie prawami."
+    }
+  ],
+  "businessExamples": [
+    "Stacja telewizyjna ogólnodostępna",
+    "Platforma VoD ze streamingiem filmów",
+    "Telewizja internetowa tematyczna"
+  ],
+  "commonMistakes": [
+    "Wybór 60.20.Z zamiast 59.11.Z (produkcja filmów) — sama produkcja seriali i filmów bez emisji własnym kanałem to inny kod.",
+    "Pomylenie z 61.10.Z (działalność w zakresie telekomunikacji przewodowej) — operator sieci kablowej dostarczający program telewizji innych nadawców to telekomunikacja, nie nadawanie."
+  ],
+  "taxNotes": "Działalność telewizyjna i VoD podlega regulacji KRRiT, a nadawcy ponoszą opłaty audiowizualne. Sprzedaż reklam i subskrypcji rozliczana jest zgodnie ze standardowymi zasadami VAT. Stawki sprawdź u doradcy podatkowego."
+}

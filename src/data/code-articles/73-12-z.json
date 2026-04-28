@@ -1,0 +1,36 @@
+{
+  "code": "73.12.Z",
+  "name": "Reklama poprzez środki masowego przekazu",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 73.12.Z obejmuje sprzedaż czasu i miejsca reklamowego w mediach — telewizji, radiu, prasie, internecie, outdoor — oraz pośrednictwo w handlu reklamą. To kod właściwy dla biur reklamy mediów, sieci sprzedaży powierzchni reklamowych i media housów.",
+  "whoUsesIt": [
+    {
+      "persona": "Dom mediowy",
+      "use": "Planuje i realizuje zakup mediów dla klientów — TV, prasa, digital, OOH na dużą skalę."
+    },
+    {
+      "persona": "Biuro reklamy stacji TV / radia",
+      "use": "Sprzedaje bloki reklamowe i sponsoringi w stacjach telewizyjnych lub radiowych."
+    },
+    {
+      "persona": "Sieć reklamy outdoor",
+      "use": "Wynajmuje powierzchnie billboardowe, citylighty, ekrany cyfrowe reklamodawcom."
+    },
+    {
+      "persona": "Sieć sprzedaży reklamy online",
+      "use": "Pośredniczy w sprzedaży powierzchni reklamowych portali, aplikacji i sieci programmatic."
+    }
+  ],
+  "businessExamples": [
+    "Dom mediowy obsługujący duże marki FMCG",
+    "Sieć reklamy outdoor zarządzająca billboardami",
+    "Sieć sprzedaży reklam programmatic"
+  ],
+  "commonMistakes": [
+    "Wybór 73.12.Z zamiast 73.11.Z — gdy firma tworzy kreacje i kampanie (a nie tylko sprzedaje miejsce w mediach), właściwszy jest 73.11.Z.",
+    "Pomylenie z 60.10.Z / 60.20.Z (działalność radiowa/telewizyjna) — same media (nadawcy) mają własne kody w dziale 60."
+  ],
+  "taxNotes": "Pośrednictwo w sprzedaży miejsca reklamowego często kwalifikuje się do ryczałtu według właściwej stawki. Usługi sprzedaży powierzchni reklamowej podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

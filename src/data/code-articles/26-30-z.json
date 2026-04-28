@@ -1,0 +1,36 @@
+{
+  "code": "26.30.Z",
+  "name": "Produkcja sprzętu (tele)komunikacyjnego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.30.Z obejmuje produkcję sprzętu telekomunikacyjnego — central telefonicznych, routerów, switchy, modemów, urządzeń radiowych, anten, stacji bazowych, telefonów komórkowych i stacjonarnych, sprzętu radiotelefonicznego oraz urządzeń sieci IP. Nie obejmuje produkcji elektroniki użytkowej (26.40.Z) ani usług telekomunikacyjnych (61.xx).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent routerów i switchy",
+      "use": "Wytwarza urządzenia sieciowe dla operatorów telekomunikacyjnych, ISP i klientów biznesowych."
+    },
+    {
+      "persona": "Wytwórnia stacji bazowych i anten",
+      "use": "Projektuje i produkuje sprzęt radiowy dla sieci komórkowych 4G/5G oraz systemów dyspozytorskich."
+    },
+    {
+      "persona": "Producent telefonów IP i central",
+      "use": "Wytwarza telefony VoIP, IP PBX i sprzęt do unified communications dla biznesu."
+    },
+    {
+      "persona": "Wytwórnia radiotelefonów profesjonalnych",
+      "use": "Produkuje radiotelefony PMR/DMR/TETRA dla służb mundurowych, energetyki i transportu."
+    }
+  ],
+  "businessExamples": [
+    "Producent routerów dla operatorów ISP",
+    "Wytwórnia anten i sprzętu radiowego dla 5G",
+    "Producent radiotelefonów DMR dla służb"
+  ],
+  "commonMistakes": [
+    "Wybór 26.30.Z zamiast 26.40.Z — sprzęt audio-wideo dla konsumentów (głośniki, telewizory, soundbary) klasyfikowany jest w elektronice powszechnego użytku.",
+    "Mylenie z 61.10.Z lub 61.20.Z — operator sieci telekomunikacyjnej świadczy usługi, a nie produkuje sprzęt."
+  ],
+  "taxNotes": "Sprzęt telekomunikacyjny podlega regulacjom UKE, certyfikacji CE/RED i specjalnym zasadom obrotu (split payment, odwrotne obciążenie w niektórych transakcjach). Innowacyjne firmy korzystają z B+R i IP Box. Stawki sprawdź u doradcy podatkowego."
+}

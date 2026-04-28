@@ -1,0 +1,36 @@
+{
+  "code": "46.62.Z",
+  "name": "Sprzedaż hurtowa obrabiarek",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.62.Z obejmuje sprzedaż hurtową obrabiarek do metalu i drewna — tokarek, frezarek, wiertarek, szlifierek, central CNC, pras i pił przemysłowych — do zakładów obróbczych, warsztatów stolarskich i przemysłowych. Pasuje do dystrybutorów maszyn CNC, importerów obrabiarek i firm serwisowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor obrabiarek CNC",
+      "use": "Sprzedaje centra obróbcze i tokarki CNC zakładom przemysłowym."
+    },
+    {
+      "persona": "Importer maszyn do obróbki drewna",
+      "use": "Dostarcza piły, frezarki i centra do stolarni i zakładów meblarskich."
+    },
+    {
+      "persona": "Dealer obrabiarek używanych",
+      "use": "Skupuje i sprzedaje używane maszyny przemysłowe po przeglądzie."
+    },
+    {
+      "persona": "Pośrednik w handlu prasami",
+      "use": "Reprezentuje producentów pras hydraulicznych i mechanicznych przed przemysłem."
+    }
+  ],
+  "businessExamples": [
+    "Dystrybutor centrów CNC dla zakładów metalowych",
+    "Importer maszyn do obróbki drewna dla stolarni",
+    "Dealer używanych obrabiarek przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.62.Z dla sprzedaży maszyn rolniczych (właściwy 46.61.Z) lub budowlanych (właściwy 46.63.Z).",
+    "Pomylenie z 28.41.Z (produkcja obrabiarek) — 46.62.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Sprzedaż maszyn przemysłowych zwykle podlega standardowym stawkom VAT. Forma opodatkowania zależy od skali — często stosowana liniówka. Stawki sprawdź u doradcy podatkowego."
+}

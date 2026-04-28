@@ -1,0 +1,36 @@
+{
+  "code": "43.60.Z",
+  "name": "Pośrednictwo w zakresie specjalistycznych usług budowlanych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.60.Z obejmuje pośrednictwo i kojarzenie podwykonawców budowlanych z generalnymi wykonawcami i inwestorami — bez samodzielnego wykonywania robót. To kod dla platform, brokerów budowlanych i agentów branżowych łączących firmy specjalistyczne z zleceniodawcami.",
+  "whoUsesIt": [
+    {
+      "persona": "Platforma pośrednictwa budowlanego",
+      "use": "Prowadzi serwis online łączący inwestorów z podwykonawcami (elektrycy, dekarze, instalatorzy) — model prowizyjny."
+    },
+    {
+      "persona": "Broker robót specjalistycznych",
+      "use": "Pośredniczy w pozyskiwaniu zleceń dla firm palowych, izolacyjnych i wykończeniowych w zamian za prowizję."
+    },
+    {
+      "persona": "Agent firm wykończeniowych",
+      "use": "Reprezentuje grupę specjalistycznych ekip wykończeniowych przed deweloperami i fit-out managerami."
+    },
+    {
+      "persona": "Konsultant pozyskiwania zleceń",
+      "use": "Pomaga zagranicznym firmom budowlanym wejść na polski rynek poprzez kojarzenie z lokalnymi partnerami."
+    }
+  ],
+  "businessExamples": [
+    "Platforma marketplace dla branży budowlanej",
+    "Broker zleceń dla firm specjalistycznych",
+    "Agent zagranicznych podwykonawców na polskim rynku"
+  ],
+  "commonMistakes": [
+    "Wybór 43.60.Z zamiast 43.39.Z (wykonywanie pozostałych robót budowlanych wykończeniowych) — jeśli firma sama wykonuje roboty, a nie tylko pośredniczy, właściwy jest kod wykonawczy.",
+    "Pomylenie z 70.22.Z (doradztwo gospodarcze) — ogólne doradztwo bez aspektu kojarzenia stron to inny kod."
+  ],
+  "taxNotes": "Działalność czysto pośrednicza nie podlega mechanizmowi podzielonej płatności typowemu dla wykonawstwa budowlanego, a wynagrodzenie prowizyjne rozliczane jest na zasadach ogólnych. Wybór formy opodatkowania zależy od modelu rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

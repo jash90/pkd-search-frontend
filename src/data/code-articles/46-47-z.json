@@ -1,0 +1,36 @@
+{
+  "code": "46.47.Z",
+  "name": "Sprzedaż hurtowa mebli do użytku domowego, biurowego i sklepowego, dywanów i sprzętu oświetleniowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.47.Z obejmuje sprzedaż hurtową mebli (kuchennych, biurowych, sklepowych, do salonu i sypialni), dywanów, wykładzin oraz lamp i sprzętu oświetleniowego — od producentów do salonów meblowych, deweloperów, biur projektowych i sieci handlowych. Sprzedaż detaliczna mebli klasyfikowana jest pod 47.59.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia meblowa",
+      "use": "Dystrybuuje meble polskich producentów do salonów meblowych i e-commerce."
+    },
+    {
+      "persona": "Dystrybutor mebli biurowych",
+      "use": "Wyposaża biura i open space'y w fotele, biurka i meble systemowe."
+    },
+    {
+      "persona": "Importer dywanów",
+      "use": "Sprowadza dywany z Turcji i Iranu dla sklepów wnętrzarskich."
+    },
+    {
+      "persona": "Dystrybutor oświetlenia",
+      "use": "Sprzedaje hurtowo lampy designerskie do salonów oświetleniowych i biur projektowych."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia mebli kuchennych dla sieci salonów",
+    "Dystrybutor mebli biurowych dla deweloperów",
+    "Importer dywanów orientalnych dla sklepów wnętrzarskich"
+  ],
+  "commonMistakes": [
+    "Wybór 46.47.Z dla sprzedaży detalicznej w salonie meblowym — właściwy jest 47.59.Z.",
+    "Pomylenie z 31.09.Z (produkcja mebli) — 46.47.Z to handel."
+  ],
+  "taxNotes": "Sprzedaż mebli podlega standardowym stawkom VAT. Forma opodatkowania zależy od skali — większe hurtownie zwykle wybierają liniówkę. Stawki sprawdź u doradcy podatkowego."
+}

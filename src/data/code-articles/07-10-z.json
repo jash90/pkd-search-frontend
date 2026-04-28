@@ -1,0 +1,36 @@
+{
+  "code": "07.10.Z",
+  "name": "Górnictwo rud żelaza",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 07.10.Z obejmuje wydobywanie rud żelaza w kopalniach podziemnych i odkrywkowych oraz ich wzbogacanie — kruszenie, mielenie, magnetyczną separację i grudkowanie. Nie obejmuje produkcji surówki czy stali (24.10.Z) ani wydobycia rud nieżelaznych (07.21–07.29). To kod dla wyspecjalizowanych zakładów wydobywczych dostarczających koncentrat do hut.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator kopalni rud żelaza",
+      "use": "Prowadzi eksploatację złoża, kruszy urobek i wzbogaca koncentrat metodami magnetycznymi."
+    },
+    {
+      "persona": "Zakład grudkowania koncentratu (peletyzacja)",
+      "use": "Wytwarza grudki rudy (pelety) o wymaganych parametrach metalurgicznych dla hut."
+    },
+    {
+      "persona": "Mała kopalnia historyczna / muzealna z produkcją",
+      "use": "Wydobywa rudę darniową lub limonit na ograniczoną skalę dla rzemiosła i metalurgii eksperymentalnej."
+    },
+    {
+      "persona": "Spółka recyklingu odpadów rudnych",
+      "use": "Przetwarza zwały dawnych kopalń i odzyskuje wartościowe frakcje żelaza z hałd poprzemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia rud żelaza z zakładem przeróbki",
+    "Zakład produkcji peletów rudnych",
+    "Operator hałd poeksploatacyjnych z odzyskiem żelaza"
+  ],
+  "commonMistakes": [
+    "Wybór 07.10.Z zamiast 24.10.Z — produkcja surówki, stali i wyrobów hutniczych to przetwórstwo, nie górnictwo.",
+    "Mylenie z 07.29.Z (górnictwo pozostałych rud metali nieżelaznych) — wydobycie miedzi czy cynku ma osobne kody."
+  ],
+  "taxNotes": "Działalność wydobywcza podlega koncesjonowaniu, opłatom eksploatacyjnym i restrykcyjnym wymogom środowiskowym i BHP. Stawki sprawdź u doradcy podatkowego."
+}

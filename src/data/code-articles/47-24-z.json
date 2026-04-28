@@ -1,0 +1,36 @@
+{
+  "code": "47.24.Z",
+  "name": "Sprzedaż detaliczna pieczywa, ciast, wyrobów ciastkarskich i cukierniczych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.24.Z obejmuje detaliczną sprzedaż chleba, bułek, ciast, ciastek, czekolady i innych słodyczy w wyspecjalizowanych sklepach. Dotyczy zarówno klasycznych piekarni i cukierni z własnym wypiekiem, jak i punktów odsprzedaży gotowych wyrobów dostarczanych z zewnątrz.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel piekarni rzemieślniczej",
+      "use": "Sprzedaje pieczywo i drożdżówki własnej produkcji w sklepie firmowym."
+    },
+    {
+      "persona": "Cukiernik z lokalem stacjonarnym",
+      "use": "Prowadzi cukiernię z ciastami, tortami i deserami na miejscu lub na wynos."
+    },
+    {
+      "persona": "Franczyzobiorca sieci piekarniczej",
+      "use": "Operuje punktem typu Lubaszka, Bread or Dead, Putka w mieście."
+    },
+    {
+      "persona": "Sprzedawca pralinek i czekolady",
+      "use": "Prowadzi butik czekolady i wyrobów cukierniczych premium."
+    }
+  ],
+  "businessExamples": [
+    "Piekarnia osiedlowa z własnym wypiekiem",
+    "Cukiernia z tortami okolicznościowymi",
+    "Butik czekoladek rzemieślniczych"
+  ],
+  "commonMistakes": [
+    "Wybór 47.24.Z zamiast 10.71.Z (produkcja pieczywa) — jeśli głównie produkujesz, a sprzedaż jest dodatkiem, prawidłowy jest kod produkcyjny.",
+    "Pomylenie z 56.10.B (lokal gastronomiczny) — gdy serwujesz kawę i ciastka do konsumpcji na miejscu jako głównej działalności, to gastronomia."
+  ],
+  "taxNotes": "Sprzedaż detaliczna żywności podlega kasie fiskalnej i obowiązkom sanitarnym (HACCP, sanepid). Wybór formy opodatkowania zależy od skali, kosztów surowców i sposobu produkcji. Stawki sprawdź u doradcy podatkowego."
+}

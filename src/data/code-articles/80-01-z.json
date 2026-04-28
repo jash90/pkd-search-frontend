@@ -1,0 +1,36 @@
+{
+  "code": "80.01.Z",
+  "name": "Działalność detektywistyczna i działalność ochroniarska w zakresie ochrony osobistej",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 80.01.Z obejmuje usługi detektywistyczne (zbieranie informacji, ustalenia, obserwacja) oraz ochronę osobistą — bodyguardów, ochronę VIP-ów, asystę przy transporcie wartości pieniężnych. Wymaga licencji detektywa lub kwalifikowanego pracownika ochrony i koncesji MSWiA. Ochrona obiektów (budynków, magazynów) bez ochrony osób to 80.09.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Licencjonowany detektyw",
+      "use": "Prowadzi sprawy zlecone przez klientów — sprawy rozwodowe, weryfikacje, ustalenia majątkowe, obserwacje."
+    },
+    {
+      "persona": "Agencja ochrony osobistej (bodyguard)",
+      "use": "Zatrudnia pracowników z licencją do ochrony VIP-ów, polityków, biznesmenów i ich rodzin."
+    },
+    {
+      "persona": "Specjalista bezpieczeństwa konwojów",
+      "use": "Zapewnia asystę przy transporcie gotówki, kosztowności i dóbr o wysokiej wartości."
+    },
+    {
+      "persona": "Detektyw gospodarczy",
+      "use": "Weryfikuje kontrahentów firm, prowadzi due diligence, sprawy nadużyć pracowniczych i kradzieży."
+    }
+  ],
+  "businessExamples": [
+    "Biuro detektywistyczne obsługujące klientów indywidualnych i firmy",
+    "Agencja ochrony VIP-ów z bodyguardami licencjonowanymi",
+    "Firma zajmująca się ochroną osobistą celebrytów i polityków"
+  ],
+  "commonMistakes": [
+    "Rozpoczęcie działalności bez koncesji MSWiA i licencji — działalność detektywistyczna i ochronna jest reglamentowana, brak uprawnień to przestępstwo.",
+    "Pomylenie z 80.09.Z (ochrona obiektów, monitoring, dozór) — jeśli chronisz tylko mienie i budynki, nie osoby — używaj 80.09.Z."
+  ],
+  "taxNotes": "Działalność wymaga koncesji MSWiA i odpowiednich licencji (detektyw, kwalifikowany pracownik ochrony fizycznej). Forma opodatkowania zwykle skala lub liniowy ze względu na koszty pracownicze. VAT obowiązkowy po przekroczeniu limitu. Stawki sprawdź u doradcy podatkowego."
+}

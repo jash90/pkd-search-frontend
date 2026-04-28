@@ -1,0 +1,36 @@
+{
+  "code": "64.92.B",
+  "name": "Pozostałe formy udzielania kredytów, gdzie indziej niesklasyfikowane",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.92.B obejmuje udzielanie pożyczek i kredytów konsumenckich oraz firmowych przez instytucje pożyczkowe niebędące bankami — pożyczki online, chwilówki, pożyczki ratalne, finansowanie B2B oraz BNPL (buy-now-pay-later). Pasuje dla instytucji pożyczkowych, fintechów BNPL i firm faktoringowych w klasycznym ujęciu.",
+  "whoUsesIt": [
+    {
+      "persona": "Instytucja pożyczkowa online",
+      "use": "Udziela krótkoterminowych pożyczek przez aplikację — chwilówki, ratalne, refinansujące."
+    },
+    {
+      "persona": "Operator BNPL",
+      "use": "Finansuje zakupy w sklepach internetowych w modelu odroczonej płatności lub rat."
+    },
+    {
+      "persona": "Firma faktoringowa",
+      "use": "Wykupuje wierzytelności firm i finansuje obrót — faktoring pełny, niepełny, odwrócony."
+    },
+    {
+      "persona": "Pożyczki firmowe peer-to-business",
+      "use": "Platforma kojarząca inwestorów z firmami szukającymi finansowania pozabankowego."
+    }
+  ],
+  "businessExamples": [
+    "Instytucja pożyczkowa online z aplikacją mobilną",
+    "Operator BNPL dla e-commerce",
+    "Faktor finansujący MŚP"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.19.Z (pośrednictwo pieniężne) — banki, SKOK-i i banki spółdzielcze mają osobny kod.",
+    "Wybór 64.92.B zamiast 64.92.A (lombardy) — pożyczki pod zastaw rzeczy klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Instytucje pożyczkowe podlegają wpisowi do rejestru instytucji pożyczkowych KNF i limitom kosztów pozaodsetkowych. VAT w usługach finansowych zwykle zwolniony. Stawki sprawdź u doradcy podatkowego."
+}

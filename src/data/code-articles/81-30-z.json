@@ -1,0 +1,36 @@
+{
+  "code": "81.30.Z",
+  "name": "Działalność usługowa związana z zagospodarowaniem terenów zieleni",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.30.Z to usługi ogrodnicze i pielęgnacja zieleni — projektowanie i zakładanie ogrodów, koszenie trawników, pielęgnacja drzew, obsługa terenów zielonych przy obiektach komercyjnych. Pasuje dla ogrodników, firm ogrodniczych i operatorów terenów zieleni. Sprzedaż roślin to 47.76.Z, projektowanie krajobrazu to 71.11.Z (architekci krajobrazu).",
+  "whoUsesIt": [
+    {
+      "persona": "Firma ogrodnicza",
+      "use": "Zakłada i pielęgnuje ogrody przydomowe — koszenie, nasadzenia, system nawadniania."
+    },
+    {
+      "persona": "Pielęgnacja terenów zielonych przy biurowcach",
+      "use": "Obsługuje firmy i deweloperów — utrzymanie trawników, żywopłotów, drzew na zlecenie."
+    },
+    {
+      "persona": "Arborysta / pielęgnacja drzew",
+      "use": "Przycina, leczy i wycina drzewa — w parkach, przy drogach, w prywatnych ogrodach."
+    },
+    {
+      "persona": "Wykonawca terenów zieleni",
+      "use": "Realizuje projekty publiczne — parki, place miejskie, tereny przy drogach (z przetargów)."
+    }
+  ],
+  "businessExamples": [
+    "Firma ogrodnicza zakładająca ogrody przy domach",
+    "Arborysta wykonujący przycinki drzew na zlecenie gmin",
+    "Wykonawca utrzymania zieleni przy biurowcach"
+  ],
+  "commonMistakes": [
+    "Wybór 81.30.Z dla projektowania ogrodów bez wykonawstwa — sam projekt krajobrazu to często 71.11.Z (architektura).",
+    "Pomylenie z 01.30.Z (rozmnażanie roślin) lub 47.76.Z (sprzedaż roślin) — produkcja w szkółce i sprzedaż detaliczna to inne kody niż usługi ogrodnicze."
+  ],
+  "taxNotes": "Usługi ogrodnicze często rozliczane są w ryczałcie lub na zasadach ogólnych, możliwe jest zwolnienie podmiotowe z VAT przy niskich obrotach. Sezonowość i zatrudnienie pomocników sezonowych mogą wpływać na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "49.33.Z",
+  "name": "Transport pasażerski na żądanie pojazdem z kierowcą",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.33.Z obejmuje przewozy pasażerskie na żądanie pojazdem z kierowcą — taksówki, przewozy przez aplikacje typu Uber, Bolt, Free Now, oraz inne usługi przewozu osób na zlecenie. To kluczowy kod dla taksówkarzy i kierowców platformowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Kierowca taksówki",
+      "use": "Świadczy klasyczne usługi taksówkowe z licencją taksówkarza w danej gminie."
+    },
+    {
+      "persona": "Kierowca aplikacyjny (Uber/Bolt)",
+      "use": "Prowadzi działalność jako kierowca platformowy z licencją na przewóz osób."
+    },
+    {
+      "persona": "Korporacja taksówkowa",
+      "use": "Operuje flotą taksówek z dyspozytornią i aplikacją do zamawiania kursów."
+    },
+    {
+      "persona": "Kierowca z własnym samochodem",
+      "use": "Świadczy przewozy klientów premium na zamówienie — chauffeur service."
+    }
+  ],
+  "businessExamples": [
+    "Indywidualny taksówkarz z licencją",
+    "Kierowca w aplikacjach Uber/Bolt",
+    "Korporacja taksówek z aplikacją własną"
+  ],
+  "commonMistakes": [
+    "Wybór 49.33.Z bez licencji taksówki — od 2020 r. kierowcy aplikacyjni muszą mieć licencję na przewóz osób (TAXI lub OTP).",
+    "Pomylenie z 49.32.Z — wynajem auta z kierowcą na dłuższe trasy/eventy to przewóz nierozkładowy okazjonalny."
+  ],
+  "taxNotes": "Taksówkarze często rozliczają się ryczałtem ewidencjonowanym. Wymagana licencja na przewóz osób, kasa fiskalna i odpowiednie zezwolenia. Stawki sprawdź u doradcy podatkowego."
+}

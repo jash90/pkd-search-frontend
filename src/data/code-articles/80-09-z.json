@@ -1,0 +1,36 @@
+{
+  "code": "80.09.Z",
+  "name": "Działalność ochroniarska, gdzie indziej niesklasyfikowana",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 80.09.Z dotyczy ochrony fizycznej obiektów i mienia — dozór budynków, ochrona magazynów, fabryk, sklepów, monitoring zdarzeń, obsługa systemów alarmowych. Nie obejmuje ochrony osobistej VIP-ów ani usług detektywistycznych — te są pod 80.01.Z. Instalacja systemów alarmowych (techniczna) to 43.21.Z lub 80.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja ochrony obiektów",
+      "use": "Zatrudnia kwalifikowanych pracowników ochrony do dozoru fabryk, magazynów, biurowców."
+    },
+    {
+      "persona": "Firma monitoringu i interwencji",
+      "use": "Obsługuje centra monitoringu z grupą interwencyjną reagującą na alarmy w obiektach klientów."
+    },
+    {
+      "persona": "Pracownik ochrony jednoosobowy",
+      "use": "Świadczy usługi dozoru w pojedynkę — np. ochrona placów budowy, parkingów, imprez."
+    },
+    {
+      "persona": "Operator usług konwojowych",
+      "use": "Zapewnia ochronę transportów towarowych i przewozu wartości pieniężnych."
+    }
+  ],
+  "businessExamples": [
+    "Agencja ochrony fizycznej budynków biurowych i osiedli mieszkaniowych",
+    "Centrum monitoringu obiektów handlowych z grupą interwencyjną",
+    "Firma dozoru placów budowy i obiektów przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 80.09.Z dla ochrony osobistej (bodyguardów, ochrony VIP) — to 80.01.Z wraz z usługami detektywistycznymi.",
+    "Pomylenie z 80.20.Z (działalność ochroniarska w zakresie obsługi systemów bezpieczeństwa) — instalacja i serwis alarmów to inny kod niż fizyczny dozór."
+  ],
+  "taxNotes": "Wymagana jest koncesja MSWiA na działalność ochronną i kwalifikowani pracownicy z licencją. Skala lub liniowy są częste przy zatrudnianiu pracowników. VAT obowiązkowy po przekroczeniu limitu. Stawki sprawdź u doradcy podatkowego."
+}

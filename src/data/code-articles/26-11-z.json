@@ -1,0 +1,36 @@
+{
+  "code": "26.11.Z",
+  "name": "Produkcja elementów elektronicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.11.Z obejmuje produkcję elementów elektronicznych biernych i czynnych — układów scalonych, mikroprocesorów, tranzystorów, diod, kondensatorów, rezystorów, transformatorów elektronicznych, czujników półprzewodnikowych, ogniw fotowoltaicznych oraz wyświetlaczy LCD/OLED. To kod dla zakładów półprzewodnikowych i producentów komponentów elektronicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent układów scalonych",
+      "use": "Wytwarza chipy scalone i mikrokontrolery w technologiach CMOS i BiCMOS."
+    },
+    {
+      "persona": "Wytwórca elementów biernych",
+      "use": "Produkuje rezystory, kondensatory ceramiczne, tantalowe i elektrolityczne."
+    },
+    {
+      "persona": "Producent ogniw fotowoltaicznych",
+      "use": "Wytwarza ogniwa krzemowe i moduły PV dla branży OZE."
+    },
+    {
+      "persona": "Wytwórca wyświetlaczy LCD/OLED",
+      "use": "Produkuje panele wyświetlaczy dla telewizorów, monitorów i urządzeń przenośnych."
+    }
+  ],
+  "businessExamples": [
+    "Producent mikrokontrolerów i układów scalonych",
+    "Wytwórnia ogniw fotowoltaicznych krzemowych",
+    "Producent kondensatorów elektrolitycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 26.11.Z zamiast 26.12.Z (produkcja elektronicznych obwodów drukowanych) — same płytki PCB wchodzą do 26.12.Z.",
+    "Pomylenie z 27.90.Z (produkcja pozostałego sprzętu elektrycznego), gdy zakład wytwarza elementy elektromechaniczne, a nie półprzewodnikowe."
+  ],
+  "taxNotes": "Produkcja elementów elektronicznych objęta jest VAT na zasadach ogólnych. Branża wysokotechnologiczna często korzysta z ulgi B+R, IP Box i wsparcia inwestycyjnego (PSI). Wybór formy opodatkowania zależy od skali, struktury B+R i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

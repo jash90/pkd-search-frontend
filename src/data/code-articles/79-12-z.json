@@ -1,0 +1,36 @@
+{
+  "code": "79.12.Z",
+  "name": "Działalność organizatorów turystyki",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 79.12.Z to działalność touroperatora — samodzielne tworzenie i sprzedaż imprez turystycznych łączących co najmniej dwie usługi (np. transport + nocleg + program). Touroperator odpowiada za całość imprezy wobec klienta i musi mieć wpis do rejestru oraz gwarancję ubezpieczeniową. Jeśli tylko sprzedajesz cudze pakiety — używaj 79.11.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Touroperator wyjazdów wakacyjnych",
+      "use": "Tworzy własne pakiety all inclusive — czarteruje samolot, kontraktuje hotele, sprzedaje pod własną marką."
+    },
+    {
+      "persona": "Organizator wycieczek tematycznych",
+      "use": "Układa wyjazdy specjalistyczne — kulinarne, narciarskie, kulturalne — i sprzedaje je bezpośrednio i przez agentów."
+    },
+    {
+      "persona": "Firma obozów i kolonii",
+      "use": "Organizuje wyjazdy dla dzieci i młodzieży — transport, zakwaterowanie, animację, kadrę pedagogiczną."
+    },
+    {
+      "persona": "Specjalista incentive travel",
+      "use": "Tworzy wyjazdy motywacyjne dla firm — szkolenia w atrakcyjnych destynacjach, integracje, eventy."
+    }
+  ],
+  "businessExamples": [
+    "Touroperator wycieczek autokarowych po Europie",
+    "Biuro organizujące wyjazdy narciarskie z transferem i skipassem",
+    "Firma incentive travel dla klientów korporacyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 79.12.Z bez wpisu do rejestru organizatorów turystyki i bez gwarancji — to wymagania ustawowe, brak grozi karami i zakazem działalności.",
+    "Pomylenie z 79.11.Z (agent turystyczny) — agent sprzedaje cudze pakiety na prowizji, organizator tworzy własne i odpowiada za nie."
+  ],
+  "taxNotes": "Touroperatorzy często stosują VAT marżę (procedura szczególna dla biur podróży) — VAT płaci się od marży, nie od pełnej wartości imprezy. Wymagana jest gwarancja ubezpieczeniowa lub bankowa oraz wpis do rejestru w urzędzie marszałkowskim. Stawki sprawdź u doradcy podatkowego."
+}

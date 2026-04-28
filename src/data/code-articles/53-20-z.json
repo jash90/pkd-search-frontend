@@ -1,0 +1,36 @@
+{
+  "code": "53.20.Z",
+  "name": "Pozostała działalność pocztowa i kurierska",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 53.20.Z obejmuje usługi kurierskie, ekspresowe doręczanie paczek, przesyłki e-commerce, paczkomaty oraz operatorów pocztowych nieobjętych obowiązkiem powszechnym. To podstawowy kod dla DPD, DHL, InPost, FedEx, GLS i lokalnych firm kurierskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator sieci paczkomatów",
+      "use": "Prowadzi sieć automatów do odbioru paczek dla klientów e-commerce — odbiór 24/7 bez kuriera."
+    },
+    {
+      "persona": "Firma kurierska ekspresowa",
+      "use": "Doręcza przesyłki paczkowe i ekspresowe między miastami w trybie next-day-delivery dla e-sklepów."
+    },
+    {
+      "persona": "Lokalny dostawca last-mile",
+      "use": "Realizuje doręczenia ostatniej mili dla dużych operatorów lub bezpośrednio dla sklepów internetowych."
+    },
+    {
+      "persona": "Operator paczek międzynarodowych",
+      "use": "Świadczy odprawę celną i doręczenia transgraniczne dla przesyłek B2C i B2B."
+    }
+  ],
+  "businessExamples": [
+    "Sieć paczkomatów dla e-commerce",
+    "Firma kurierska B2B i B2C",
+    "Operator last-mile w aglomeracji"
+  ],
+  "commonMistakes": [
+    "Wybór 53.20.Z zamiast 53.10.Z (operator wyznaczony) — kod 53.10.Z dotyczy tylko Poczty Polskiej jako operatora powszechnego, prywatni kurierzy zawsze używają 53.20.Z.",
+    "Pomylenie z 49.41.Z (transport drogowy towarów) — kurier dostarczający paczki klientom końcowym to działalność pocztowa, a nie transport ciężarowy."
+  ],
+  "taxNotes": "Usługi kurierskie nie korzystają ze zwolnienia VAT przysługującego operatorowi wyznaczonemu i podlegają podstawowym zasadom rozliczeń. Działalność wymaga wpisu do rejestru operatorów pocztowych UKE. Stawki sprawdź u doradcy podatkowego."
+}

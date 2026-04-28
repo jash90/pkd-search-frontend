@@ -1,0 +1,36 @@
+{
+  "code": "23.99.Z",
+  "name": "Produkcja pozostałych wyrobów z mineralnych surowców niemetalicznych, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.99.Z to kategoria 'parasol' dla produkcji wyrobów z mineralnych surowców niemetalicznych, których nie obejmują wcześniejsze klasy działu 23 — m.in. wyroby z włókien azbestu i grafitu, materiały izolacyjne mineralne, wełna mineralna, wyroby z miki i bitumu czy sztuczne kamienie do mielenia. Stosowany przez wytwórców niszowych materiałów technicznych i izolacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wełny mineralnej",
+      "use": "Wytwarza maty i płyty izolacyjne ze skały bazaltowej lub szlaki dla budownictwa."
+    },
+    {
+      "persona": "Wytwórca wyrobów z grafitu i miki",
+      "use": "Produkuje uszczelki, elektrody i izolatory dla przemysłu elektrycznego oraz hutniczego."
+    },
+    {
+      "persona": "Producent materiałów bitumicznych",
+      "use": "Wytwarza papę i materiały hydroizolacyjne na bazie asfaltu i wypełniaczy mineralnych."
+    },
+    {
+      "persona": "Zakład produkcji asfaltobetonu",
+      "use": "Mieszanki mineralno-bitumiczne dostarczane firmom drogowym i wykonawcom infrastruktury."
+    }
+  ],
+  "businessExamples": [
+    "Producent wełny mineralnej i mat izolacyjnych",
+    "Wytwórca pap i materiałów hydroizolacyjnych",
+    "Zakład produkujący uszczelki grafitowe i mikowe"
+  ],
+  "commonMistakes": [
+    "Wybór 23.99.Z, gdy faktycznie produkowane są wyroby ścierne (kod 23.91.Z) lub wyroby z kamienia (kod 23.70.B) — te kategorie mają własne, dokładniejsze klasy.",
+    "Pomylenie z 23.20.Z (produkcja wyrobów ogniotrwałych) — wyroby ogniotrwałe ze specjalistycznych mas ceramicznych nie wchodzą do 23.99.Z."
+  ],
+  "taxNotes": "Działalność wytwórcza w obszarze materiałów technicznych i izolacyjnych podlega VAT na zasadach ogólnych, a sprzedaż do firm budowlanych może wymagać mechanizmu podzielonej płatności. Wybór formy opodatkowania zależy od skali produkcji, struktury kosztów i udziału eksportu. Stawki sprawdź u doradcy podatkowego."
+}

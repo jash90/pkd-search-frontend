@@ -1,0 +1,36 @@
+{
+  "code": "77.12.Z",
+  "name": "Wynajem i dzierżawa samochodów ciężarowych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.12.Z obejmuje wynajem i dzierżawę pojazdów ciężarowych powyżej 3,5 t — ciągników siodłowych, naczep, autobusów, samochodów specjalistycznych. To kod dla firm wynajmujących sprzęt transportowy do branży logistycznej, budowlanej i przemysłowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia ciągników siodłowych",
+      "use": "Wynajmuje TIR-y i naczepy firmom transportowym — krótko- i długoterminowo."
+    },
+    {
+      "persona": "Operator CFM ciężarowego",
+      "use": "Oferuje długoterminowy najem flot ciężarowych dla branży logistycznej i przemysłowej."
+    },
+    {
+      "persona": "Wypożyczalnia autobusów",
+      "use": "Wynajmuje autobusy turystyczne i miejskie operatorom przewozów oraz biurom turystycznym."
+    },
+    {
+      "persona": "Wynajem pojazdów specjalistycznych",
+      "use": "Udostępnia samochody chłodnie, cysterny, wywrotki, śmieciarki dla klientów branżowych."
+    }
+  ],
+  "businessExamples": [
+    "Operator CFM oferujący ciągniki siodłowe firmom transportowym",
+    "Wypożyczalnia autokarów turystycznych",
+    "Wynajem samochodów chłodni dla branży spożywczej"
+  ],
+  "commonMistakes": [
+    "Wybór 77.12.Z zamiast 77.11.Z — wynajem pojazdów dostawczych poniżej 3,5 t to kod 77.11.Z.",
+    "Pomylenie z 49.41.Z (transport drogowy towarów) — gdy firma sama świadczy usługę przewozu (a nie tylko wynajmuje pojazd bez kierowcy), właściwszy jest dział 49."
+  ],
+  "taxNotes": "Wynajem pojazdów ciężarowych podlega standardowej stawce VAT. Pełne odliczenie VAT od pojazdów ciężarowych jest możliwe (w przeciwieństwie do osobowych). Branża korzysta z różnych form finansowania (leasing, kredyt, własność). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "85.52.Z",
+  "name": "Pozostałe formy edukacji artystycznej",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.52.Z to nauczanie sztuki poza systemem szkół artystycznych — szkoły muzyczne prywatne (nieuznawane), nauka tańca, malarstwa, fotografii, aktorstwa, śpiewu. Obejmuje warsztaty artystyczne i szkółki dla dzieci. Państwowe szkoły artystyczne (muzyczne, plastyczne) mają inne kody w grupie 85.20-85.32.",
+  "whoUsesIt": [
+    {
+      "persona": "Nauczyciel muzyki / pianisty",
+      "use": "Prowadzi prywatne lekcje gry na instrumencie w domu uczniów lub własnej pracowni."
+    },
+    {
+      "persona": "Szkoła tańca",
+      "use": "Prowadzi zajęcia tańca towarzyskiego, hip-hop, baletu, salsy dla dzieci i dorosłych w grupach."
+    },
+    {
+      "persona": "Pracownia malarska / studio rysunku",
+      "use": "Organizuje warsztaty plastyczne dla dorosłych i kursy przygotowujące do egzaminów z rysunku na ASP."
+    },
+    {
+      "persona": "Szkoła aktorska / studio gry aktorskiej",
+      "use": "Prowadzi zajęcia aktorskie i przygotowujące do egzaminów do szkół teatralnych."
+    }
+  ],
+  "businessExamples": [
+    "Szkoła tańca prowadząca kursy salsy i bachaty",
+    "Studio fotograficzne uczące fotografii cyfrowej i obróbki",
+    "Prywatna szkoła muzyczna - lekcje gitary i pianina"
+  ],
+  "commonMistakes": [
+    "Wybór 85.52.Z dla działalności artysty wykonawcy (koncerty, występy) — to 90.01.Z (działalność związana z wystawianiem przedstawień artystycznych), nie nauczanie.",
+    "Pomylenie z 85.20.Z (szkolnictwo podstawowe artystyczne państwowe) — jeśli prowadzisz państwową szkołę muzyczną z subwencją, to inny kod."
+  ],
+  "taxNotes": "Działalność edukacyjno-artystyczna często mieści się w ryczałcie. Niektóre usługi edukacyjne mogą być zwolnione z VAT (np. kursy nauczane przez nauczycieli na własny rachunek). Stawki sprawdź u doradcy podatkowego."
+}

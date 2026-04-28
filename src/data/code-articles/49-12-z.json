@@ -1,0 +1,36 @@
+{
+  "code": "49.12.Z",
+  "name": "Pozostały szynowy transport pasażerski",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.12.Z dotyczy lekkiego szynowego transportu pasażerskiego — tramwajów, metra, kolejek dojazdowych, kolejek górskich, pociągów aglomeracyjnych pasażerskich (poza ciężkim transportem 49.11.Z). To kod dla operatorów MPK, przewoźników metra i lekkich kolei miejskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Miejskie przedsiębiorstwo komunikacyjne",
+      "use": "Prowadzi linie tramwajowe w aglomeracji, najczęściej jako spółka samorządowa."
+    },
+    {
+      "persona": "Operator metra",
+      "use": "Realizuje przewozy podziemne metrem (np. Warszawa)."
+    },
+    {
+      "persona": "Operator kolejki dojazdowej",
+      "use": "Prowadzi linię kolei wąskotorowej lub dojazdowej (np. WKD)."
+    },
+    {
+      "persona": "Operator kolejki turystycznej",
+      "use": "Realizuje przewozy zabytkowymi kolejkami wąskotorowymi dla turystów."
+    }
+  ],
+  "businessExamples": [
+    "Miejski przewoźnik tramwajowy",
+    "Operator metra w Warszawie",
+    "Kolejka wąskotorowa retro w regionie turystycznym"
+  ],
+  "commonMistakes": [
+    "Wybór 49.12.Z zamiast 49.11.Z — pociągi dalekobieżne i regionalne ciężkie to 49.11.Z.",
+    "Pomylenie z 49.34.Z — kolejki linowe i wyciągi narciarskie mają osobny kod."
+  ],
+  "taxNotes": "Komunikacja miejska podlega umowom z samorządem (SLA) i refundacji biletów ulgowych. Wymagane uprawnienia i certyfikaty bezpieczeństwa. Stawki sprawdź u doradcy podatkowego."
+}

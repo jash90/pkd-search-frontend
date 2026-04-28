@@ -1,0 +1,36 @@
+{
+  "code": "52.24.A",
+  "name": "Przeładunek towarów w portach morskich",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.24.A obejmuje załadunek, rozładunek i przeładunek towarów (kontenerów, drobnicy, towarów masowych) w portach morskich. Pasuje dla operatorów terminali kontenerowych, masowych i ro-ro oraz firm sztauerskich obsługujących statki morskie.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator terminala kontenerowego",
+      "use": "Przeładowuje kontenery między statkiem a placem składowym lub środkami transportu lądowego."
+    },
+    {
+      "persona": "Firma sztauerska",
+      "use": "Załadowuje i rozładowuje statki — drobnicę, towary ponadgabarytowe i masowe (węgiel, zboże)."
+    },
+    {
+      "persona": "Operator terminala ro-ro",
+      "use": "Obsługuje przeładunek pojazdów i ładunków tocznych ze statków typu ro-ro."
+    },
+    {
+      "persona": "Firma dźwigowa portowa",
+      "use": "Wynajmuje suwnice, dźwigi mobilne i operatorów do operacji przeładunkowych w portach."
+    }
+  ],
+  "businessExamples": [
+    "Terminal kontenerowy w porcie głębokowodnym",
+    "Operator masowy obsługujący przeładunek węgla i zbóż",
+    "Firma sztauerska wynajmująca brygady portowe"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.10.B (magazynowanie towarów w portach) — samo składowanie bez operacji przeładunkowych to inny kod.",
+    "Wybór 52.24.A zamiast 52.24.B/C — przeładunek w portach śródlądowych lub poza portami ma odrębne kody."
+  ],
+  "taxNotes": "Działalność przeładunkowa w portach morskich rozliczana jest najczęściej na zasadach ogólnych, z wysokimi nakładami inwestycyjnymi i amortyzacją sprzętu. Część usług dla przewoźników międzynarodowych może korzystać z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

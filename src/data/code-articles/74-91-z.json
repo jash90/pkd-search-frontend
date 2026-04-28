@@ -1,0 +1,36 @@
+{
+  "code": "74.91.Z",
+  "name": "Działalność rzeczników patentowych i działalność marketingowa",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.91.Z obejmuje działalność rzeczników patentowych — pomoc w uzyskaniu i ochronie praw własności przemysłowej (patenty, wzory, znaki towarowe) — oraz pośrednictwo w obrocie patentami i działalność marketingową w tym obszarze. To kod dla kancelarii patentowych i specjalistów IP.",
+  "whoUsesIt": [
+    {
+      "persona": "Rzecznik patentowy",
+      "use": "Reprezentuje klientów w postępowaniach przed UPRP, EUIPO, WIPO — zgłoszenia patentów, wzorów, znaków towarowych."
+    },
+    {
+      "persona": "Kancelaria własności intelektualnej",
+      "use": "Świadczy kompleksowe usługi IP — od strategii ochrony, przez zgłoszenia, po spory i komercjalizację."
+    },
+    {
+      "persona": "Konsultant ds. komercjalizacji wynalazków",
+      "use": "Pomaga uczelniom i wynalazcom wprowadzić technologie na rynek — licencjonowanie, transfer technologii."
+    },
+    {
+      "persona": "Broker patentowy",
+      "use": "Pośredniczy w sprzedaży i licencjonowaniu portfeli patentowych między firmami."
+    }
+  ],
+  "businessExamples": [
+    "Kancelaria patentowa specjalizująca się w branży tech",
+    "Rzecznik patentowy obsługujący zgłoszenia znaków towarowych",
+    "Broker patentowy łączący wynalazców z inwestorami"
+  ],
+  "commonMistakes": [
+    "Wybór 74.91.Z zamiast 69.10.Z — gdy ochronę IP prowadzi adwokat lub radca prawny (a nie rzecznik patentowy), właściwszy jest 69.10.Z.",
+    "Pomylenie z 73.11.Z (agencja reklamowa) — działalność marketingowa w tym kodzie dotyczy specyficznie obrotu patentami, nie ogólnej reklamy."
+  ],
+  "taxNotes": "Rzecznik patentowy musi mieć państwowe uprawnienia i wpis na listę PIRP, obowiązkowe OC. Działalność może korzystać z ryczałtu według stawki dla wolnych zawodów lub innych form opodatkowania. Usługi rzecznika podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

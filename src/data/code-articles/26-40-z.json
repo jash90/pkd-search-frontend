@@ -1,0 +1,36 @@
+{
+  "code": "26.40.Z",
+  "name": "Produkcja elektronicznego sprzętu powszechnego użytku",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.40.Z obejmuje produkcję elektroniki użytkowej — telewizorów, monitorów do TV, sprzętu audio domowego, soundbarów, słuchawek, radioodbiorników, kamer i aparatów cyfrowych konsumenckich, dyktafonów, konsoli do gier oraz pilotów. Nie obejmuje produkcji komputerów (26.20.Z), telefonów (26.30.Z) ani sprzętu profesjonalnego studio.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent telewizorów i monitorów",
+      "use": "Wytwarza telewizory LED/OLED i monitory rozrywkowe dla rynku konsumenckiego pod marką własną lub OEM."
+    },
+    {
+      "persona": "Wytwórnia sprzętu audio Hi-Fi",
+      "use": "Produkuje wzmacniacze, kolumny i streamery audio dla audiofilów i kin domowych."
+    },
+    {
+      "persona": "Producent soundbarów i głośników BT",
+      "use": "Wytwarza głośniki bezprzewodowe Bluetooth i soundbary dla rynku masowego."
+    },
+    {
+      "persona": "Manufaktura słuchawek",
+      "use": "Projektuje i produkuje słuchawki TWS, nauszne i dokanałowe dla marek lifestyle."
+    }
+  ],
+  "businessExamples": [
+    "Producent telewizorów LED pod marką własną",
+    "Manufaktura wzmacniaczy Hi-Fi premium",
+    "Wytwórnia słuchawek TWS"
+  ],
+  "commonMistakes": [
+    "Wybór 26.40.Z zamiast 26.20.Z — monitory komputerowe klasyfikowane są łącznie z urządzeniami peryferyjnymi do komputerów.",
+    "Mylenie z 47.43.Z (sprzedaż detaliczna sprzętu RTV) — sklep z telewizorami to handel, nie produkcja, nawet przy oferowaniu marki własnej."
+  ],
+  "taxNotes": "Elektronika użytkowa objęta jest WEEE, ROHS, dyrektywami EuP/ErP i standardowymi zasadami CIT/PIT i VAT, a importerzy ponoszą obowiązki rejestracyjne BDO. Stawki sprawdź u doradcy podatkowego."
+}

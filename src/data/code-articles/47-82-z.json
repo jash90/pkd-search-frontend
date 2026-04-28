@@ -1,0 +1,36 @@
+{
+  "code": "47.82.Z",
+  "name": "Sprzedaż detaliczna części i akcesoriów do pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.82.Z dotyczy detalicznej sprzedaży części zamiennych, akcesoriów, opon, olejów i kosmetyków samochodowych do pojazdów silnikowych (z wyłączeniem motocykli). To kod dla sklepów motoryzacyjnych, sklepów z oponami, sklepów car audio i punktów wymiany oleju ze sprzedażą.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu motoryzacyjnego",
+      "use": "Sprzedaje części zamienne, klocki hamulcowe, filtry i drobne akcesoria do aut."
+    },
+    {
+      "persona": "Sklep z oponami i felgami",
+      "use": "Oferuje opony letnie/zimowe, felgi aluminiowe i oferuje wulkanizację."
+    },
+    {
+      "persona": "Sklep car audio",
+      "use": "Sprzedaje radia samochodowe, nagłośnienie, kamery cofania i akcesoria audio."
+    },
+    {
+      "persona": "Sklep z kosmetykami samochodowymi",
+      "use": "Oferuje produkty do mycia, woski, polituty, akcesoria detailingowe."
+    }
+  ],
+  "businessExamples": [
+    "Sklep motoryzacyjny z częściami zamiennymi",
+    "Sklep z oponami i serwisem wulkanizacyjnym",
+    "Sklep z kosmetykami samochodowymi i detailingiem"
+  ],
+  "commonMistakes": [
+    "Wybór 47.82.Z zamiast 47.83.Z — części do motocykli klasyfikują się jako 47.83.Z.",
+    "Pomylenie z 45.20.Z — naprawa pojazdów (warsztat) ma osobny kod, sprzedaż części to 47.82.Z."
+  ],
+  "taxNotes": "Sprzedaż części samochodowych podlega standardowej stawce VAT i kasie fiskalnej. Niektóre części regenerowane mogą korzystać z procedury marży. Stawki sprawdź u doradcy podatkowego."
+}

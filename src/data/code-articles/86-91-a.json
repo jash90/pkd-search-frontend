@@ -1,0 +1,36 @@
+{
+  "code": "86.91.A",
+  "name": "Działalność w zakresie diagnostyki obrazowej",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.91.A obejmuje pracownie diagnostyki obrazowej — RTG, USG, tomografia komputerowa (TK), rezonans magnetyczny (MR), mammografia, densytometria. Dotyczy ośrodków oferujących badania jako usługę. Praktyki lekarskie wykorzystujące USG do własnej diagnostyki to 86.21.Z lub 86.22.Z, a laboratoria analityczne to 86.91.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Pracownia RTG i TK",
+      "use": "Wykonuje badania obrazowe na zlecenie lekarzy - RTG, tomografię, USG dla pacjentów z różnych przychodni."
+    },
+    {
+      "persona": "Centrum diagnostyki obrazowej",
+      "use": "Operuje multimodalnym ośrodkiem z RTG, TK, MR, USG - kontrakt NFZ i klienci prywatni."
+    },
+    {
+      "persona": "Pracownia ultrasonograficzna",
+      "use": "Specjalizuje się w USG narządów wewnętrznych, USG ciąży, dopplera, badań ginekologicznych."
+    },
+    {
+      "persona": "Mobilne studio diagnostyczne",
+      "use": "Świadczy badania w mobilnym ambulansie - mammobus, RTG-bus dla zakładów pracy i mniejszych miejscowości."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia RTG i tomografii w ośrodku medycznym",
+    "Centrum rezonansu magnetycznego z kontraktem NFZ",
+    "Mobilna pracownia mammograficzna obsługująca programy profilaktyczne"
+  ],
+  "commonMistakes": [
+    "Wybór 86.91.A przez praktykę lekarską wykonującą USG na pacjentach jako część konsultacji — to 86.21.Z lub 86.22.Z, 86.91.A to wyodrębniona pracownia diagnostyczna.",
+    "Pomylenie z 86.91.B (laboratoria analityczne) — laboratoria krwi i biochemii to inny kod, mimo wspólnej klasy 86.91."
+  ],
+  "taxNotes": "Usługi diagnostyki obrazowej w celach leczniczych są zwolnione z VAT. Wymaga zezwoleń sanepidu i PAA dla aparatów RTG. Skala lub liniowy zwykle korzystne ze względu na wysokie koszty sprzętu. Stawki sprawdź u doradcy podatkowego."
+}

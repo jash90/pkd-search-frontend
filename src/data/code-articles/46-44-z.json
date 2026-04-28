@@ -1,0 +1,36 @@
+{
+  "code": "46.44.Z",
+  "name": "Sprzedaż hurtowa wyrobów porcelanowych, ceramicznych i szklanych oraz środków czyszczących",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.44.Z obejmuje sprzedaż hurtową porcelany, ceramiki użytkowej, wyrobów szklanych (szklanki, talerze, wazony) oraz środków czyszczących, detergentów i chemii gospodarczej — do sklepów, gastronomii, hoteli i sieci handlowych. Sprzedaż detaliczna porcelany to 47.59.Z, a chemii gospodarczej 47.75.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia porcelany i szkła",
+      "use": "Dystrybuuje serwisy stołowe, kieliszki i naczynia do hoteli i restauracji."
+    },
+    {
+      "persona": "Dystrybutor chemii gospodarczej",
+      "use": "Sprzedaje hurtowo środki czyszczące i detergenty do sklepów i firm sprzątających."
+    },
+    {
+      "persona": "Importer ceramiki użytkowej",
+      "use": "Sprowadza naczynia ceramiczne z Portugalii czy Włoch dla delikatesów."
+    },
+    {
+      "persona": "Dostawca HoReCa",
+      "use": "Specjalizuje się w wyposażeniu zastawy i chemii dla hoteli i restauracji."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia porcelany hotelowej dla sieci HoReCa",
+    "Dystrybutor chemii gospodarczej dla supermarketów",
+    "Importer ceramiki dekoracyjnej dla sklepów wyposażenia wnętrz"
+  ],
+  "commonMistakes": [
+    "Wybór 46.44.Z dla sprzedaży detalicznej — wtedy właściwy jest 47.59.Z lub 47.75.Z.",
+    "Pomylenie z 23.41.Z (produkcja ceramicznych wyrobów stołowych) — 46.44.Z to handel."
+  ],
+  "taxNotes": "Stawki VAT są standardowe. Niektóre środki chemiczne wymagają rejestracji REACH/CLP. Stawki sprawdź u doradcy podatkowego."
+}

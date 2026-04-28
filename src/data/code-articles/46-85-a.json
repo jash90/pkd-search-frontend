@@ -1,0 +1,36 @@
+{
+  "code": "46.85.A",
+  "name": "Sprzedaż hurtowa chemicznych nawozów i środków ochrony roślin",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.85.A obejmuje sprzedaż hurtową nawozów mineralnych (azotowych, fosforowych, potasowych, wieloskładnikowych) oraz środków ochrony roślin (pestycydy, herbicydy, fungicydy) — do gospodarstw rolnych, kooperatyw i hurtowni agro. Sprzedaż pozostałych wyrobów chemicznych klasyfikowana jest pod 46.85.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia agrochemiczna",
+      "use": "Dostarcza nawozy i środki ochrony roślin do gospodarstw i sklepów rolnych."
+    },
+    {
+      "persona": "Dystrybutor regionalny producenta nawozów",
+      "use": "Reprezentuje markę nawozów (np. Anwil, Grupa Azoty) przed rolnikami."
+    },
+    {
+      "persona": "Importer środków ochrony roślin",
+      "use": "Sprowadza pestycydy z UE i sprzedaje hurtowo do dystrybutorów rolnych."
+    },
+    {
+      "persona": "Skład agro",
+      "use": "Operuje magazynem nawozów dla lokalnych rolników i kooperatyw."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia nawozów dla gospodarstw rolnych",
+    "Dystrybutor środków ochrony roślin",
+    "Skład agro przy elewatorze regionalnym"
+  ],
+  "commonMistakes": [
+    "Wybór 46.85.A dla sprzedaży chemii innej niż agro — właściwy jest 46.85.B.",
+    "Pomylenie z 20.15.Z (produkcja nawozów) — 46.85.A to handel."
+  ],
+  "taxNotes": "Sprzedaż środków ochrony roślin wymaga zezwolenia i prowadzenia ewidencji obrotu. Nawozy mają obniżone stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

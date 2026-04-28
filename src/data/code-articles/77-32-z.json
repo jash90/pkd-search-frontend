@@ -1,0 +1,36 @@
+{
+  "code": "77.32.Z",
+  "name": "Wynajem i dzierżawa maszyn i urządzeń budowlanych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.32.Z obejmuje wynajem maszyn i urządzeń budowlanych — koparek, ładowarek, dźwigów, rusztowań, podestów, sprzętu drogowego, narzędzi elektrycznych. To kod dla wypożyczalni sprzętu budowlanego, operatorów flot maszyn oraz dystrybutorów oferujących wynajem.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia maszyn budowlanych",
+      "use": "Wynajmuje koparki, ładowarki, walce, agregaty firmom budowlanym i klientom indywidualnym."
+    },
+    {
+      "persona": "Firma wynajmu rusztowań",
+      "use": "Udostępnia rusztowania elewacyjne, podesty robocze i podnośniki nożycowe dla budów."
+    },
+    {
+      "persona": "Wypożyczalnia narzędzi elektronarzędzi",
+      "use": "Oferuje wiertarki, młoty, agregaty, generatory dla majsterkowiczów i małych firm wykonawczych."
+    },
+    {
+      "persona": "Operator floty żurawi",
+      "use": "Wynajmuje żurawie samojezdne i wieżowe dla dużych projektów budowlanych — często z operatorem."
+    }
+  ],
+  "businessExamples": [
+    "Wypożyczalnia koparek i ładowarek dla branży budowlanej",
+    "Firma wynajmu rusztowań elewacyjnych",
+    "Wypożyczalnia elektronarzędzi w marketach budowlanych"
+  ],
+  "commonMistakes": [
+    "Wybór 77.32.Z zamiast 77.31.Z — gdy maszyny są typowo rolnicze (kombajny, opryskiwacze), właściwszy jest 77.31.Z.",
+    "Pomylenie z 43.99.Z — gdy firma wykonuje roboty budowlane sprzętem (a nie tylko wynajmuje), właściwsze są kody działu 43."
+  ],
+  "taxNotes": "Wynajem maszyn budowlanych podlega standardowej stawce VAT. Branża budowlana korzysta z mechanizmu split payment przy określonych transakcjach. Wybór formy opodatkowania zależy od skali floty i finansowania. Stawki sprawdź u doradcy podatkowego."
+}

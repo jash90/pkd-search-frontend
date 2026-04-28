@@ -1,0 +1,36 @@
+{
+  "code": "46.89.Z",
+  "name": "Pozostała sprzedaż hurtowa wyspecjalizowana, gdzie indziej niesklasyfikowana",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.89.Z to kategoria zbiorcza obejmująca wyspecjalizowaną sprzedaż hurtową niewchodzącą w żaden inny kod grupy 46 — np. szkła użytkowego, drogich kamieni, antyków, znaczków, monet. Pasuje do firm o niszowej, wyspecjalizowanej ofercie hurtowej. Jeśli sprzedajesz różnorodne kategorie bez specjalizacji, użyj 46.90.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia wyspecjalizowana niszowo",
+      "use": "Dystrybuuje produkty unikalne (np. antyki, dzieła sztuki) do galerii i kolekcjonerów."
+    },
+    {
+      "persona": "Importer dóbr kolekcjonerskich",
+      "use": "Sprowadza monety, znaczki i inne przedmioty kolekcjonerskie dla domów aukcyjnych."
+    },
+    {
+      "persona": "Dystrybutor produktów specjalistycznych",
+      "use": "Reprezentuje producentów niszowych produktów technologicznych przed odbiorcami B2B."
+    },
+    {
+      "persona": "Pośrednik handlowy w wąskiej kategorii",
+      "use": "Specjalizuje się w jednym, wyjątkowym asortymencie spoza standardu PKD."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia antyków i dzieł sztuki dla galerii",
+    "Importer monet i znaczków dla domów aukcyjnych",
+    "Dystrybutor specjalistycznych produktów branżowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.89.Z, gdy działalność wpisuje się w istniejący kod grupy 46.4-46.8 (np. meble — 46.47.Z).",
+    "Pomylenie z 46.90.Z (sprzedaż niewyspecjalizowana) — 46.89.Z dotyczy wyłącznie wyspecjalizowanych nisz."
+  ],
+  "taxNotes": "Stawki VAT zależą od konkretnego asortymentu. Antyki i dzieła sztuki podlegają specjalnym przepisom (VAT-marża). Stawki sprawdź u doradcy podatkowego."
+}

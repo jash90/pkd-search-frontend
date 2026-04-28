@@ -1,0 +1,36 @@
+{
+  "code": "16.25.Z",
+  "name": "Produkcja drzwi i okien z drewna",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.25.Z obejmuje produkcję drzwi i okien z drewna — drzwi wewnętrznych, zewnętrznych, garażowych, okien skrzynkowych, ościeżnic, futryn, parapetów drewnianych, witryn. To kod dla stolarni produkujących drzwi i okna jako gotowe elementy.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent drzwi wewnętrznych",
+      "use": "Wytwarza drzwi pokojowe z MDF, drewna litego i okleiny dla retailu."
+    },
+    {
+      "persona": "Wytwórca okien drewnianych",
+      "use": "Produkuje okna drewniane i drewniano-aluminiowe na zamówienie indywidualne."
+    },
+    {
+      "persona": "Manufaktura drzwi zewnętrznych",
+      "use": "Produkuje drzwi wejściowe drewniane z izolacją termiczną i akustyczną."
+    },
+    {
+      "persona": "Producent ościeżnic i parapetów",
+      "use": "Wytwarza ościeżnice, futryny i parapety drewniane jako akcesoria do drzwi."
+    }
+  ],
+  "businessExamples": [
+    "Producent drzwi wewnętrznych pokojowych",
+    "Manufaktura okien drewnianych na zamówienie",
+    "Wytwórca drzwi zewnętrznych z dębu"
+  ],
+  "commonMistakes": [
+    "Wybór 16.25.Z zamiast 25.12.Z (Produkcja metalowych elementów stolarki budowlanej) — drzwi i okna stalowe to 25.12.Z, a drewniane to 16.25.Z.",
+    "Pomylenie z 22.23.Z (Wyroby z tworzyw sztucznych dla budownictwa) — okna PVC to 22.23.Z, a drewniane to 16.25.Z."
+  ],
+  "taxNotes": "Produkcja drzwi i okien drewnianych podlega standardowym stawkom VAT, a sprzedaż z montażem w budownictwie mieszkalnym może podlegać preferencyjnym stawkom. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "11.07.Z",
+  "name": "Produkcja napojów bezalkoholowych i wód butelkowanych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.07.Z obejmuje produkcję napojów gazowanych, soków, nektarów, wód mineralnych i źródlanych, napojów energetycznych, izotonicznych oraz roślinnych napojów typu mleko owsiane/sojowe (jako napój). To duży kod dla rozlewni i wytwórców napojów.",
+  "whoUsesIt": [
+    {
+      "persona": "Rozlewnia wody mineralnej",
+      "use": "Pozyskuje i butelkuje wodę mineralną oraz źródlaną dla retailu i HoReCa."
+    },
+    {
+      "persona": "Producent napojów gazowanych",
+      "use": "Wytwarza cole, lemoniady i napoje smakowe pod marką własną lub w licencji."
+    },
+    {
+      "persona": "Tłocznia soków",
+      "use": "Produkuje soki NFC, smoothies i nektary z owoców i warzyw."
+    },
+    {
+      "persona": "Manufaktura napojów roślinnych",
+      "use": "Produkuje mleko owsiane, sojowe, migdałowe jako napoje w kartonach i butelkach."
+    }
+  ],
+  "businessExamples": [
+    "Rozlewnia wody źródlanej pod marką własną",
+    "Producent napojów energetycznych dla retailu",
+    "Tłocznia soków NFC z lokalnych jabłek"
+  ],
+  "commonMistakes": [
+    "Wybór 11.07.Z zamiast 11.05.Z — piwo bezalkoholowe to nadal 11.05.Z (proces piwowarski), a nie 11.07.Z.",
+    "Pomylenie z 10.32.Z (Produkcja soków z owoców i warzyw) — koncentraty i przeciery owocowe to 10.32.Z, a gotowy sok do picia w butelce to 11.07.Z."
+  ],
+  "taxNotes": "Napoje bezalkoholowe — szczególnie słodzone — mogą podlegać tzw. opłacie cukrowej oraz różnym stawkom VAT zależnie od kategorii. Stawki sprawdź u doradcy podatkowego."
+}

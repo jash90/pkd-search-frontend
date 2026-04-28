@@ -1,0 +1,36 @@
+{
+  "code": "23.44.Z",
+  "name": "Produkcja pozostałych technicznych wyrobów ceramicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.44.Z obejmuje produkcję ceramiki technicznej — części z ceramiki krzemowej, korundowej i cyrkonowej dla przemysłu chemicznego, elektronicznego i medycznego, zaworów, łożysk, dysz, wykładzin pieców i ceramiki balistycznej. Wąska specjalizacja w grupie 23.4.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent ceramiki technicznej",
+      "use": "Wytwarza części z tlenku glinu i cyrkonu dla przemysłu maszynowego i medycznego."
+    },
+    {
+      "persona": "Wytwórca dysz i zaworów ceramicznych",
+      "use": "Produkuje odporne na ścieranie dysze do śrutowania, malowania i przemysłu chemicznego."
+    },
+    {
+      "persona": "Producent ceramiki balistycznej",
+      "use": "Wytwarza płyty ceramiczne do kamizelek kuloodpornych i osłon pojazdów."
+    },
+    {
+      "persona": "Wytwórca substratów elektronicznych",
+      "use": "Produkuje płytki ceramiczne dla układów scalonych i elektroniki mocy."
+    }
+  ],
+  "businessExamples": [
+    "Producent dysz korundowych do śrutownic",
+    "Wytwórnia ceramiki balistycznej",
+    "Zakład substratów Al2O3 dla elektroniki"
+  ],
+  "commonMistakes": [
+    "Wybór 23.44.Z dla wyrobów codziennego użytku z porcelany — talerze i kubki to 23.41.Z.",
+    "Pomylenie z 23.20.Z (wyroby ogniotrwałe) — wymurówki pieców i wyroby ogniotrwałe mają osobny kod."
+  ],
+  "taxNotes": "Ceramika balistyczna i wojskowa wymaga koncesji oraz certyfikatów zgodnych z STANAG. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

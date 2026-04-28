@@ -1,0 +1,36 @@
+{
+  "code": "03.22.Z",
+  "name": "Akwakultura w wodach śródlądowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 03.22.Z obejmuje hodowlę ryb słodkowodnych w stawach, sadzach jeziorowych i obiegach recyrkulacyjnych (RAS) — karpia, pstrąga, suma, jesiotra, troci, a także raki i inne organizmy wodne. To podstawowy kod dla polskich gospodarstw stawowych i hodowli pstrąga.",
+  "whoUsesIt": [
+    {
+      "persona": "Gospodarstwo karpiowe",
+      "use": "Prowadzi tradycyjną hodowlę karpia w stawach ziemnych z odłowem przedświątecznym."
+    },
+    {
+      "persona": "Pstrągarnia",
+      "use": "Hoduje pstrąga tęczowego w obiegach przepływowych, sprzedaje świeżą i wędzoną rybę."
+    },
+    {
+      "persona": "Farma RAS",
+      "use": "Prowadzi nowoczesny obieg recyrkulacyjny do hodowli suma afrykańskiego lub jesiotra."
+    },
+    {
+      "persona": "Hodowca raków",
+      "use": "Prowadzi niszową hodowlę raków szlachetnych na rynki restauracyjne."
+    }
+  ],
+  "businessExamples": [
+    "Stawy karpiowe w Dolinie Baryczy",
+    "Pstrągarnia w górach świętokrzyskich",
+    "Farma RAS z sumem afrykańskim"
+  ],
+  "commonMistakes": [
+    "Wybór 03.22.Z zamiast 10.20.Z (przetwarzanie ryb), gdy działalność polega głównie na wędzeniu, filetowaniu i pakowaniu ryb kupowanych od innych.",
+    "Pomylenie z 03.12.Z (rybołówstwo śródlądowe), gdy łowisz dzikie ryby w jeziorach, a nie hodujesz w kontrolowanych warunkach."
+  ],
+  "taxNotes": "Akwakultura słodkowodna może być działalnością rolniczą (hodowla stawowa) lub działem specjalnym produkcji rolnej (intensywne RAS). Wymagane są pozwolenia wodnoprawne, sprawdź też VAT, RHD i dotacje EFMR. Stawki sprawdź u doradcy podatkowego."
+}
