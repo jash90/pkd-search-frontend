@@ -1,0 +1,36 @@
+{
+  "code": "08.12.Z",
+  "name": "Wydobywanie żwiru, piasku, gliny i kaolinu",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.12.Z obejmuje eksploatację kopalni żwiru, piasku budowlanego i kwarcowego, gliny ceramicznej oraz kaolinu. To popularny kod dla małych i średnich kopalni odkrywkowych zaopatrujących lokalny rynek budowlany — Polska ma rozproszoną sieć takich obiektów.",
+  "whoUsesIt": [
+    {
+      "persona": "Kopalnia żwiru",
+      "use": "Eksploatuje złoże żwiru dla betoniarni, drogownictwa i firm budowlanych w regionie."
+    },
+    {
+      "persona": "Piaskownia",
+      "use": "Wydobywa piasek do murarstwa, betonów, do podbudowy i dla branży szklarskiej."
+    },
+    {
+      "persona": "Wydobywca gliny ceramicznej",
+      "use": "Pozyskuje glinę dla cegielni i zakładów produkujących wyroby ceramiczne."
+    },
+    {
+      "persona": "Kopalnia kaolinu",
+      "use": "Wydobywa kaolin dla przemysłu papierniczego, ceramicznego i kosmetycznego."
+    }
+  ],
+  "businessExamples": [
+    "Żwirownia obsługująca betoniarnie",
+    "Piaskownia dla drogowców",
+    "Kopalnia gliny dla cegielni"
+  ],
+  "commonMistakes": [
+    "Wybór 08.12.Z zamiast 23.61.Z (produkcja wyrobów betonowych), gdy działalność łączy wydobycie z produkcją mieszanek betonowych — wówczas potrzebny dodatkowy kod produkcyjny.",
+    "Pomylenie z 08.11.Z, gdy kopalnia eksploatuje skały zwięzłe (granit, wapień), a nie luźne kruszywa — to osobny kod."
+  ],
+  "taxNotes": "Wydobycie wymaga koncesji (starosta/marszałek województwa) i opłat eksploatacyjnych, a rekultywacja terenu pokopalnianego musi być zabezpieczona finansowo. Działalność CIT/PIT z VAT-em na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

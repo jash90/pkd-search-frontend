@@ -6,6 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const POPULAR_PATH = resolve(__dirname, '..', 'src', 'data', 'popular-queries.json');
+const PKD2025_PATH = resolve(__dirname, 'pkd2025', 'pkd2025-codes.json');
 const OUT_PATH = resolve(__dirname, '..', 'src', 'data', 'codes.json');
 
 const RELATED_CODES_LIMIT = 5;
@@ -22,6 +23,19 @@ interface PopularQuery {
   curatedCodes: CuratedCode[];
 }
 
+interface Pkd2025Entry {
+  code: string;
+  name: string;
+  section: string;
+  sectionName: string;
+  division: string;
+  divisionName: string;
+  group: string;
+  groupName: string;
+  class: string;
+  className: string;
+}
+
 interface CodeEntry {
   code: string;
   name: string;
@@ -31,62 +45,103 @@ interface CodeEntry {
 }
 
 const queries = JSON.parse(readFileSync(POPULAR_PATH, 'utf8')) as PopularQuery[];
+const pkd2025 = JSON.parse(readFileSync(PKD2025_PATH, 'utf8')) as Pkd2025Entry[];
 
-// Map: code -> { firstSeen entry, set of category slugs containing it, sibling codes }
-const codeMeta = new Map<
+// Build curated metadata from popular-queries (categories + descr + sibling hints)
+const curatedMeta = new Map<
   string,
-  {
-    name: string;
-    descr: string;
-    categorySlugs: Set<string>;
-    siblings: Map<string, string>;
-  }
+  { descr: string; categorySlugs: Set<string>; siblings: Map<string, string> }
 >();
-
 const categoryBySlug = new Map<string, { slug: string; label: string }>();
 for (const q of queries) {
   categoryBySlug.set(q.slug, { slug: q.slug, label: q.label });
-}
-
-for (const q of queries) {
   for (const c of q.curatedCodes) {
     if (!c?.code) continue;
-    let meta = codeMeta.get(c.code);
+    let meta = curatedMeta.get(c.code);
     if (!meta) {
-      meta = {
-        name: c.name,
-        descr: c.descr,
-        categorySlugs: new Set(),
-        siblings: new Map(),
-      };
-      codeMeta.set(c.code, meta);
+      meta = { descr: c.descr ?? '', categorySlugs: new Set(), siblings: new Map() };
+      curatedMeta.set(c.code, meta);
     } else if (!meta.descr && c.descr) {
-      // Prefer the first non-empty description we see
       meta.descr = c.descr;
-      meta.name = c.name;
     }
     meta.categorySlugs.add(q.slug);
-    for (const sibling of q.curatedCodes) {
-      if (sibling.code && sibling.code !== c.code && !meta.siblings.has(sibling.code)) {
-        meta.siblings.set(sibling.code, sibling.name);
+    for (const sib of q.curatedCodes) {
+      if (sib.code && sib.code !== c.code && !meta.siblings.has(sib.code)) {
+        meta.siblings.set(sib.code, sib.name);
       }
     }
   }
 }
 
-const codes: CodeEntry[] = Array.from(codeMeta.entries())
-  .map(([code, meta]) => ({
-    code,
-    name: meta.name,
-    descr: meta.descr,
-    relatedCategories: Array.from(meta.categorySlugs)
-      .map((slug) => categoryBySlug.get(slug))
-      .filter((x): x is { slug: string; label: string } => Boolean(x)),
-    relatedCodes: Array.from(meta.siblings.entries())
-      .slice(0, RELATED_CODES_LIMIT)
-      .map(([siblingCode, siblingName]) => ({ code: siblingCode, name: siblingName })),
-  }))
+// Helper: nearest siblings within same PKD 2025 class, then group, then division
+const pkdByCode = new Map(pkd2025.map((e) => [e.code, e] as const));
+const nearestSiblings = (entry: Pkd2025Entry, limit: number): { code: string; name: string }[] => {
+  const out: { code: string; name: string }[] = [];
+  const seen = new Set<string>([entry.code]);
+  const tiers: ((e: Pkd2025Entry) => boolean)[] = [
+    (e) => e.class === entry.class,
+    (e) => e.group === entry.group,
+    (e) => e.division === entry.division,
+  ];
+  for (const tier of tiers) {
+    for (const candidate of pkd2025) {
+      if (out.length >= limit) break;
+      if (seen.has(candidate.code)) continue;
+      if (tier(candidate)) {
+        out.push({ code: candidate.code, name: candidate.name });
+        seen.add(candidate.code);
+      }
+    }
+    if (out.length >= limit) break;
+  }
+  return out;
+};
+
+const codes: CodeEntry[] = pkd2025
+  .map<CodeEntry>((entry) => {
+    const curated = curatedMeta.get(entry.code);
+
+    // descr precedence: curated → constructed classification fallback.
+    // Article intro is rendered separately via <CodeArticle>, so we deliberately
+    // don't reuse it here — otherwise the same paragraph would appear twice
+    // on the page for non-curated codes.
+    const descr =
+      curated?.descr ||
+      `${entry.name}. Kod PKD 2025 z sekcji ${entry.section} (${entry.sectionName.toLowerCase()}), dział ${entry.division} (${entry.divisionName}).`;
+
+    const relatedCategories = curated
+      ? Array.from(curated.categorySlugs)
+          .map((slug) => categoryBySlug.get(slug))
+          .filter((x): x is { slug: string; label: string } => Boolean(x))
+      : [];
+
+    // Curated siblings first; fill remainder with PKD 2025 nearest siblings.
+    const siblingMap = new Map<string, string>();
+    if (curated) {
+      for (const [code, name] of curated.siblings) {
+        if (siblingMap.size >= RELATED_CODES_LIMIT) break;
+        if (pkdByCode.has(code)) siblingMap.set(code, name);
+      }
+    }
+    if (siblingMap.size < RELATED_CODES_LIMIT) {
+      for (const sib of nearestSiblings(entry, RELATED_CODES_LIMIT - siblingMap.size)) {
+        if (!siblingMap.has(sib.code)) siblingMap.set(sib.code, sib.name);
+        if (siblingMap.size >= RELATED_CODES_LIMIT) break;
+      }
+    }
+
+    return {
+      code: entry.code,
+      name: entry.name,
+      descr,
+      relatedCategories,
+      relatedCodes: Array.from(siblingMap.entries()).map(([code, name]) => ({ code, name })),
+    };
+  })
   .sort((a, b) => a.code.localeCompare(b.code));
 
 writeFileSync(OUT_PATH, `${JSON.stringify(codes, null, 2)}\n`, 'utf8');
-console.log(`[codes] wrote ${codes.length} unique codes to ${OUT_PATH}`);
+const withCurated = codes.filter((c) => c.relatedCategories.length > 0).length;
+console.log(
+  `[codes] wrote ${codes.length} codes to ${OUT_PATH} (${withCurated} curated, ${codes.length - withCurated} from PKD 2025 with classification fallback)`,
+);

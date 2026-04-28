@@ -1,0 +1,36 @@
+{
+  "code": "18.14.Z",
+  "name": "Introligatorstwo i podobne usługi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 18.14.Z obejmuje oprawianie i wykończenie druków — szycie i klejenie książek, oprawę twardą i miękką, laminowanie, tłoczenie, lakierowanie UV, wykrawanie, bigowanie oraz pakowanie blistrowe. To kod dla introligatorni i firm wykonujących obróbkę pokrewszą po wydruku.",
+  "whoUsesIt": [
+    {
+      "persona": "Introligatornia książkowa",
+      "use": "Wykonuje oprawę twardą i miękką książek, albumów i monografii dla wydawnictw."
+    },
+    {
+      "persona": "Zakład uszlachetniania druków",
+      "use": "Lakieruje UV, laminuje i tłoczy folią materiały reklamowe i opakowania premium."
+    },
+    {
+      "persona": "Firma wykrawania i bigowania",
+      "use": "Realizuje wykrojniki i obróbkę pudełek kartonowych dla branży opakowaniowej."
+    },
+    {
+      "persona": "Introligator rękodzielniczy",
+      "use": "Oprawia kroniki, dyplomy i prace dyplomowe oraz odnawia stare książki."
+    }
+  ],
+  "businessExamples": [
+    "Introligatornia książek dla wydawnictw",
+    "Zakład lakierowania UV i laminacji",
+    "Pracownia opraw kronik i prac dyplomowych"
+  ],
+  "commonMistakes": [
+    "Wybór 18.14.Z, gdy firma głównie drukuje, a oprawa jest tylko etapem produkcji — wówczas właściwy jest 18.12.Z.",
+    "Pomylenie z 91.01.A (działalność bibliotek) — konserwacja zbiorów bibliotecznych jako usługa wewnętrzna biblioteki to inna klasyfikacja."
+  ],
+  "taxNotes": "Introligatornie często działają jako podwykonawcy drukarń, co wpływa na cykl płatności i rozliczenia VAT B2B. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

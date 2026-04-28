@@ -1,0 +1,36 @@
+{
+  "code": "20.20.B",
+  "name": "Produkcja środków dezynfekujących",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.20.B obejmuje produkcję środków dezynfekujących i biobójczych — preparatów na bazie chloru, alkoholu, czwartorzędowych soli amonowych, nadtlenków oraz środków do dezynfekcji powierzchni, narzędzi i wody. To kod regulowany rozporządzeniem BPR.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent środków dezynfekcyjnych",
+      "use": "Wytwarza preparaty alkoholowe do rąk i powierzchni dla branży medycznej i HoReCa."
+    },
+    {
+      "persona": "Wytwórca chemii basenowej",
+      "use": "Produkuje chlor, brom i preparaty do uzdatniania wody w basenach kąpielowych."
+    },
+    {
+      "persona": "Zakład środków biobójczych",
+      "use": "Wytwarza środki do dezynfekcji w przetwórstwie spożywczym i hodowlach zwierząt."
+    },
+    {
+      "persona": "Producent płynów do dezynfekcji wody",
+      "use": "Dostarcza preparaty chloru i podchlorynu sodu do uzdatniania wody pitnej."
+    }
+  ],
+  "businessExamples": [
+    "Producent płynów do dezynfekcji rąk",
+    "Wytwórnia chemii basenowej",
+    "Zakład środków do dezynfekcji w spożywczce"
+  ],
+  "commonMistakes": [
+    "Wybór 20.20.B dla zwykłych detergentów — środki czyszczące bez właściwości biobójczych to 20.41.Z.",
+    "Pomylenie z 20.20.A (pestycydy) — środki ochrony roślin mają osobny kod."
+  ],
+  "taxNotes": "Środki biobójcze wymagają rejestracji w Urzędzie Rejestracji Produktów Leczniczych oraz zgodności z BPR. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

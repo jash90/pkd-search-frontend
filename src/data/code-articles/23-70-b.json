@@ -1,0 +1,36 @@
+{
+  "code": "23.70.B",
+  "name": "Produkcja pozostałych wyrobów z kamienia oraz cięcie, formowanie i wykończanie kamienia",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.70.B obejmuje cięcie, formowanie i wykończanie kamienia naturalnego do dowolnych zastosowań innych niż nagrobne — parapety, blaty kuchenne i łazienkowe, elementy elewacji, schody, posadzki, płyty chodnikowe, kostki brukowe oraz dekoracje ogrodowe. To główny kod dla nowoczesnych zakładów kamieniarskich pracujących z architekturą i wnętrzami.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład produkcji blatów kamiennych",
+      "use": "Wytwarza blaty kuchenne i łazienkowe z granitu, marmuru i kwarcytu na wymiar."
+    },
+    {
+      "persona": "Producent elementów elewacji",
+      "use": "Tnie i poleruje płyty kamienne dla firm budowlanych i pracowni architektonicznych."
+    },
+    {
+      "persona": "Kamieniarz wykonujący posadzki i schody",
+      "use": "Realizuje schody zewnętrzne, posadzki tarasowe i okładziny kominków."
+    },
+    {
+      "persona": "Producent kostki brukowej i krawężników",
+      "use": "Obrabia mechanicznie kamień łamany na elementy małej architektury i nawierzchni."
+    }
+  ],
+  "businessExamples": [
+    "Zakład wykonujący blaty granitowe na wymiar",
+    "Producent płyt elewacyjnych z marmuru i piaskowca",
+    "Kamieniarz dostarczający parapety i schody"
+  ],
+  "commonMistakes": [
+    "Wybór 23.70.B zamiast 23.70.A, gdy działalność dotyczy wyłącznie nagrobków — branża pogrzebowa ma odrębny, węższy kod.",
+    "Pomylenie z 23.99.Z (pozostałe wyroby z mineralnych surowców niemetalicznych) — kamień obrabiany mechanicznie wchodzi do 23.70.B, a nie do kategorii ogólnej."
+  ],
+  "taxNotes": "Produkcja kamieniarska podlega VAT na zasadach ogólnych, a sprzedaż B2B na rzecz wykonawców budowlanych często wiąże się z mechanizmem podzielonej płatności. Wybór formy opodatkowania zależy od skali zakładu i udziału zleceń pod konkretnego klienta. Stawki sprawdź u doradcy podatkowego."
+}

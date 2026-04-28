@@ -1,0 +1,36 @@
+{
+  "code": "53.10.Z",
+  "name": "Działalność pocztowa objęta obowiązkiem świadczenia usług powszechnych (operatora publicznego)",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 53.10.Z obejmuje działalność operatora wyznaczonego (publicznego) świadczącego powszechne usługi pocztowe — odbiór, przewóz i doręczanie listów, paczek, przekazów oraz druków bezadresowych. W Polsce wyłącznym operatorem wyznaczonym jest Poczta Polska S.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator wyznaczony (Poczta Polska)",
+      "use": "Świadczy powszechne usługi pocztowe na terytorium kraju w sieci placówek i punktów odbioru."
+    },
+    {
+      "persona": "Spółka zależna operatora publicznego",
+      "use": "Realizuje wybrane procesy logistyczne i sortownicze w ramach grupy kapitałowej operatora wyznaczonego."
+    },
+    {
+      "persona": "Filia regionalna operatora",
+      "use": "Obsługuje powszechne usługi pocztowe na poziomie regionu lub województwa."
+    },
+    {
+      "persona": "Centrum sortownicze operatora",
+      "use": "Sortuje i przygotowuje przesyłki do dystrybucji w ramach sieci powszechnej."
+    }
+  ],
+  "businessExamples": [
+    "Centrala operatora wyznaczonego",
+    "Regionalne dyrekcje operatora pocztowego",
+    "Centrum sortownicze przesyłek powszechnych"
+  ],
+  "commonMistakes": [
+    "Wybór 53.10.Z przez prywatne firmy kurierskie — ten kod jest zarezerwowany dla operatora wyznaczonego, prywatne kurierzy używają 53.20.Z.",
+    "Pomylenie z 53.20.Z (pozostała działalność pocztowa i kurierska) — usługi nieobjęte obowiązkiem powszechnym (kurier ekspresowy, paczki e-commerce) to inny kod."
+  ],
+  "taxNotes": "Powszechne usługi pocztowe operatora wyznaczonego korzystają ze zwolnienia z VAT na podstawie art. 43 ustawy o VAT, co odróżnia je od konkurencyjnych usług kurierskich. Stawki sprawdź u doradcy podatkowego."
+}

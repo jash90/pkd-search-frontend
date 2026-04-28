@@ -1,0 +1,36 @@
+{
+  "code": "33.20.Z",
+  "name": "Instalowanie maszyn przemysłowych, sprzętu i wyposażenia",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.20.Z obejmuje montaż i uruchamianie linii produkcyjnych, maszyn przemysłowych, urządzeń kontrolno-pomiarowych oraz wyposażenia laboratoryjnego u klienta. To kod typowy dla integratorów, firm serwisowych i podwykonawców uruchamiających maszyny po zakupie.",
+  "whoUsesIt": [
+    {
+      "persona": "Integrator linii produkcyjnych",
+      "use": "Montuje i uruchamia kompletne linie pakujące, rozlewnicze lub montażowe w fabrykach klientów."
+    },
+    {
+      "persona": "Firma serwisowa",
+      "use": "Wykonuje pierwsze uruchomienie (commissioning) maszyn CNC, robotów przemysłowych i obrabiarek."
+    },
+    {
+      "persona": "Specjalista automatyki przemysłowej",
+      "use": "Programuje sterowniki PLC, panele HMI i systemy SCADA podczas instalacji maszyn."
+    },
+    {
+      "persona": "Podwykonawca producenta maszyn",
+      "use": "Realizuje montaż urządzeń u klienta końcowego w imieniu producenta z zagranicy."
+    }
+  ],
+  "businessExamples": [
+    "Integrator robotów przemysłowych",
+    "Firma uruchamiająca linie rozlewnicze w browarach",
+    "Specjalista montażu maszyn CNC"
+  ],
+  "commonMistakes": [
+    "Wybór 33.20.Z zamiast 33.12.Z (naprawa maszyn) — bieżące naprawy i konserwacje pracujących maszyn to inny kod.",
+    "Pomylenie z 43.21.Z (instalacje elektryczne) — montaż instalacji budowlanych w obiekcie to roboty budowlane, nie instalacja maszyn."
+  ],
+  "taxNotes": "Usługi instalacyjne na rzecz podatników VAT mogą podlegać mechanizmowi podzielonej płatności (split payment), zwłaszcza przy wyższych wartościach kontraktów. Wybór formy opodatkowania zależy od struktury kosztów i modelu pracy (B2B, kontrakty międzynarodowe). Stawki sprawdź u doradcy podatkowego."
+}

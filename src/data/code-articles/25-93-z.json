@@ -1,0 +1,36 @@
+{
+  "code": "25.93.Z",
+  "name": "Produkcja wyrobów z drutu, łańcuchów i sprężyn",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.93.Z obejmuje produkcję wyrobów gotowych z drutu — gwoździ, zszywek, siatek (zgrzewanych, plecionych, ogrodzeniowych), łańcuchów (technicznych, ozdobnych, do podnoszenia), sprężyn (śrubowych, talerzowych, naciskowych), drutu kolczastego oraz koszy i drobnych konstrukcji drucianych. To kod dla zakładów obróbki drutu w wyroby gotowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent gwoździ i zszywek",
+      "use": "Wytwarza gwoździe stolarskie, budowlane i zszywki tapicerskie z drutu stalowego."
+    },
+    {
+      "persona": "Wytwórca siatek ogrodzeniowych",
+      "use": "Produkuje siatki zgrzewane, leśne i panele ogrodzeniowe z drutu ocynkowanego."
+    },
+    {
+      "persona": "Sprężyniarnia",
+      "use": "Wytwarza sprężyny śrubowe, talerzowe i specjalne na zamówienie przemysłu."
+    },
+    {
+      "persona": "Producent łańcuchów technicznych",
+      "use": "Wytwarza łańcuchy do podnoszenia, kotwiczne i transportowe dla logistyki i okrętownictwa."
+    }
+  ],
+  "businessExamples": [
+    "Producent gwoździ budowlanych i zszywek",
+    "Wytwórnia siatek ogrodzeniowych zgrzewanych",
+    "Sprężyniarnia produkująca sprężyny techniczne"
+  ],
+  "commonMistakes": [
+    "Wybór 25.93.Z zamiast 24.34.Z (produkcja drutu) — sam drut w zwojach to 24.34.Z, dopiero wyroby gotowe z drutu wchodzą do 25.93.Z.",
+    "Pomylenie z 25.94.Z (produkcja złączy i śrub) — wkręty, śruby, nakrętki mają osobny kod 25.94.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów z drutu objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali produkcji i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

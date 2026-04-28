@@ -1,0 +1,36 @@
+{
+  "code": "20.12.Z",
+  "name": "Produkcja barwników i pigmentów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.12.Z obejmuje produkcję barwników syntetycznych i naturalnych, pigmentów organicznych i nieorganicznych, lakierów barwiących oraz środków rozjaśniających stosowanych w przemyśle tekstylnym, farbiarskim, kosmetycznym i spożywczym. To kod dla wytwórców pigmentów dostarczających surowce do dalszego przetwórstwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent pigmentów nieorganicznych",
+      "use": "Wytwarza tlenki tytanu, żelaza i chromu dla przemysłu farb i lakierów."
+    },
+    {
+      "persona": "Wytwórca barwników do tekstyliów",
+      "use": "Produkuje barwniki kadziowe, dyspersyjne i reaktywne dla farbiarni."
+    },
+    {
+      "persona": "Producent barwników spożywczych",
+      "use": "Dostarcza certyfikowane barwniki E-numer dla przemysłu cukierniczego i napojów."
+    },
+    {
+      "persona": "Zakład pigmentów kosmetycznych",
+      "use": "Wytwarza miki, perły i pigmenty do produkcji kosmetyków kolorowych."
+    }
+  ],
+  "businessExamples": [
+    "Producent dwutlenku tytanu jako pigmentu",
+    "Wytwórnia barwników reaktywnych do tkanin",
+    "Producent barwników spożywczych E"
+  ],
+  "commonMistakes": [
+    "Wybór 20.12.Z dla produkcji gotowych farb — produkcja farb i lakierów to 20.30.Z.",
+    "Pomylenie z 20.59.Z (pozostałe wyroby chemiczne) — atramenty drukarskie i tonery klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Produkcja barwników wymaga rejestracji REACH dla substancji chemicznych wprowadzanych na rynek UE. Wybór formy opodatkowania zależy od skali zakładu i udziału eksportu. Stawki sprawdź u doradcy podatkowego."
+}

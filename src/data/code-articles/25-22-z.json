@@ -1,0 +1,36 @@
+{
+  "code": "25.22.Z",
+  "name": "Produkcja pozostałych zbiorników, cystern i pojemników metalowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.22.Z obejmuje produkcję dużych zbiorników i pojemników metalowych — cystern paliwowych, zbiorników magazynowych, silosów stalowych, naczyń pod ciśnieniem (UDT), reaktorów chemicznych, beczek transportowych oraz pojemników na gaz. To kod dla zakładów spawalniczych specjalizujących się w wielkogabarytowych konstrukcjach zamkniętych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zbiorników paliwowych",
+      "use": "Wytwarza naziemne i podziemne zbiorniki na paliwo dla stacji benzynowych i logistyki."
+    },
+    {
+      "persona": "Wytwórca silosów stalowych",
+      "use": "Produkuje silosy na zboże, pasze i materiały sypkie dla rolnictwa i przemysłu."
+    },
+    {
+      "persona": "Producent reaktorów chemicznych",
+      "use": "Wykonuje aparaty pod ciśnieniem dla branży chemicznej i farmaceutycznej (UDT)."
+    },
+    {
+      "persona": "Wytwórca cystern transportowych",
+      "use": "Produkuje cysterny do przewozu paliw, mleka i chemii spełniające normy ADR."
+    }
+  ],
+  "businessExamples": [
+    "Producent zbiorników paliwowych podziemnych",
+    "Wytwórnia silosów stalowych dla rolnictwa",
+    "Producent reaktorów chemicznych pod nadzorem UDT"
+  ],
+  "commonMistakes": [
+    "Wybór 25.22.Z zamiast 25.91.Z (produkcja pojemników metalowych) — beczki i pojemniki o pojemności do 300 l mają kod 25.91.Z, większe wchodzą do 25.22.Z.",
+    "Pomylenie z 29.20.Z (produkcja nadwozi do pojazdów silnikowych), gdy cysterna jest zabudową na podwoziu samochodowym — wówczas właściwy może być kod 29.20.Z."
+  ],
+  "taxNotes": "Produkcja zbiorników i naczyń ciśnieniowych podlega nadzorowi UDT i wymaga certyfikacji spawaczy i procedur. VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Stawki sprawdź u doradcy podatkowego."
+}

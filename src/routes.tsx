@@ -8,6 +8,7 @@ import Samples from './components/Samples';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import ArticlesIndex from './components/ArticlesIndex';
 import ArticleRoute from './components/ArticleRoute';
+import Pkd2025Index from './components/Pkd2025Index';
 import popularQueries from './data/popular-queries.json';
 import codes from './data/codes.json';
 import { articles } from './content/articles';
@@ -83,6 +84,11 @@ export const routes: RouteRecord[] = [
         Component: ArticleRoute,
         entry: 'src/components/ArticleRoute.tsx',
         getStaticPaths: () => articles.map((a) => `/artykuly/${a.slug}`),
+      },
+      {
+        path: 'pkd-2025',
+        Component: Pkd2025Index,
+        entry: 'src/components/Pkd2025Index.tsx',
       },
       {
         path: 'kody-pkd/:query',

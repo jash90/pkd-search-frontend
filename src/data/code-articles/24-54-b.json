@@ -1,0 +1,36 @@
+{
+  "code": "24.54.B",
+  "name": "Odlewnictwo pozostałych metali nieżelaznych, gdzie indziej niesklasyfikowane",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.54.B obejmuje odlewnictwo metali nieżelaznych nieobjętych pozostałymi klasami grupy 24.5 — głównie cynku, ołowiu, cyny, niklu, tytanu oraz stopów na ich bazie. Klasyfikacja obejmuje też odlewy kompozytowe i ze stopów specjalistycznych dla przemysłu chemicznego i medycznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Odlewnia cynku ciśnieniowa",
+      "use": "Wytwarza odlewy cynkowe (zamak) dla motoryzacji, AGD i sprzętu elektrycznego."
+    },
+    {
+      "persona": "Producent odlewów ołowianych",
+      "use": "Wykonuje obciążniki, balasty i osłony radiologiczne z ołowiu i jego stopów."
+    },
+    {
+      "persona": "Odlewnia tytanu",
+      "use": "Wytwarza odlewy tytanowe dla branży lotniczej, medycznej i chemicznej."
+    },
+    {
+      "persona": "Wytwórca odlewów ze stopów specjalistycznych",
+      "use": "Produkuje odlewy z kobaltu i niklu dla turbin gazowych i wymienników ciepła."
+    }
+  ],
+  "businessExamples": [
+    "Odlewnia ciśnieniowa cynku (zamak) dla motoryzacji",
+    "Producent odlewów ołowianych do osłon radiologicznych",
+    "Odlewnia tytanu dla implantów medycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 24.54.B zamiast 24.54.A, gdy zakład odlewa miedź i jej stopy — mosiądze i brązy mają odrębny kod 24.54.A.",
+    "Pomylenie z 24.53.Z (odlewnictwo metali lekkich) — aluminium i magnez mają własny kod 24.53.Z."
+  ],
+  "taxNotes": "Odlewnictwo metali nieżelaznych objęte jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali odlewni, specyfiki stopów i klientów. Stawki sprawdź u doradcy podatkowego."
+}

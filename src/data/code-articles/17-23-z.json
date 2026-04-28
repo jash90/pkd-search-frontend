@@ -1,0 +1,36 @@
+{
+  "code": "17.23.Z",
+  "name": "Produkcja artykułów papierniczych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.23.Z obejmuje produkcję papieru biurowego i artykułów papierniczych — kopert, papieru do drukarek, zeszytów, notesów, rejestrów, papieru samokopiującego, etykiet i papierów ozdobnych. To kod dla wytwórców materiałów piśmiennych i biurowych z papieru.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zeszytów szkolnych",
+      "use": "Wytwarza zeszyty, bruliony, notesy oraz bloki rysunkowe na sezon szkolny."
+    },
+    {
+      "persona": "Zakład produkcji kopert",
+      "use": "Tnie i klei koperty pocztowe, biurowe oraz okolicznościowe w różnych formatach."
+    },
+    {
+      "persona": "Wytwórca papieru biurowego",
+      "use": "Konfekcjonuje papier ksero A4/A3, papier samokopiujący i wstęgi do drukarek paragonowych."
+    },
+    {
+      "persona": "Producent etykiet papierowych",
+      "use": "Drukuje i nawija etykiety samoprzylepne na rolki dla logistyki i produkcji."
+    }
+  ],
+  "businessExamples": [
+    "Producent zeszytów i bloków rysunkowych",
+    "Zakład produkcji kopert pocztowych",
+    "Wytwórca etykiet samoprzylepnych w rolkach"
+  ],
+  "commonMistakes": [
+    "Wybór 17.23.Z zamiast 17.22.Z (artykuły higieniczne) — papier toaletowy i ręczniki to osobny kod.",
+    "Pomylenie z 18.12.Z (pozostałe drukowanie) — jeśli głównym profilem jest druk, a nie produkcja papierowych form, wybierz 18.12.Z."
+  ],
+  "taxNotes": "Sprzedaż artykułów papierniczych podlega standardowej stawce VAT, a sezonowość (powrót do szkoły) wpływa na cykl produkcyjny i magazynowy. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

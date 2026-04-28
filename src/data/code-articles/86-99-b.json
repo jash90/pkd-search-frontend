@@ -1,0 +1,36 @@
+{
+  "code": "86.99.B",
+  "name": "Działalność dietetyczna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.99.B dotyczy działalności dietetyków — konsultacji dietetycznych, układania jadłospisów, prowadzenia terapii żywieniowych w chorobach (cukrzyca, otyłość, alergie pokarmowe). Catering dietetyczny to 56.21.Z, a sprzedaż suplementów diety to 47.73.Z lub 47.91.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Dietetyk prowadzący gabinet",
+      "use": "Konsultuje pacjentów stacjonarnie i online - układa indywidualne plany żywieniowe, prowadzi długoterminową współpracę."
+    },
+    {
+      "persona": "Dietetyk kliniczny w poradni",
+      "use": "Pracuje w poradni medycznej z pacjentami chorymi - dietoterapia w cukrzycy, chorobach nerek, jelit, onkologii."
+    },
+    {
+      "persona": "Dietetyk sportowy",
+      "use": "Współpracuje ze sportowcami i klubami - układa diety pod konkretne dyscypliny i okresy treningowe."
+    },
+    {
+      "persona": "Online'owy dietetyk",
+      "use": "Świadczy usługi przez aplikację/platformę - jadłospisy, monitoring postępów, konsultacje wideo z klientami w całej Polsce."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet dietetyczny prowadzący konsultacje stacjonarne i online",
+    "Dietetyk kliniczny pracujący z pacjentami z cukrzycą",
+    "Dietetyk sportowy współpracujący z klubem piłkarskim"
+  ],
+  "commonMistakes": [
+    "Wybór 86.99.B dla cateringu dietetycznego (dostarczanie posiłków) — to 56.21.Z (przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych).",
+    "Pomylenie z 47.73.Z (sprzedaż suplementów w aptece) — sprzedaż produktów spożywczych i suplementów to inna działalność niż konsultacje dietetyczne."
+  ],
+  "taxNotes": "Usługi dietetyka mogą być zwolnione z VAT, jeśli służą celom medycznym (terapia żywieniowa choroby) - kwestia często sporna, warto wystąpić o interpretację. Ryczałt często korzystny dla soloowej działalności. Możliwe obowiązki RODO z uwagi na dane medyczne klientów. Stawki sprawdź u doradcy podatkowego."
+}

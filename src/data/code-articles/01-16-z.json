@@ -1,0 +1,36 @@
+{
+  "code": "01.16.Z",
+  "name": "Uprawa roślin włóknistych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.16.Z obejmuje uprawę lnu, konopi włóknistych, juty, sizalu i innych roślin dostarczających surowca włókienniczego. W Polsce dynamicznie rośnie znaczenie konopi włóknistych (CBD i włókno) — uprawa wymaga jednak rejestracji w KOWR i posiadania kontraktu.",
+  "whoUsesIt": [
+    {
+      "persona": "Plantator konopi włóknistych",
+      "use": "Uprawia konopie na włókno i nasiona, posiadając wymagane zezwolenie KOWR."
+    },
+    {
+      "persona": "Gospodarstwo lniarskie",
+      "use": "Specjalizuje się w uprawie lnu na włókno dla manufaktur tekstylnych."
+    },
+    {
+      "persona": "Producent surowca CBD",
+      "use": "Uprawia legalne odmiany konopi (THC poniżej dozwolonego progu) na cele paszowe i kosmetyczne."
+    },
+    {
+      "persona": "Kooperatywa rolnicza",
+      "use": "Organizuje uprawy roślin włóknistych dla kontrahentów branży tekstylnej i biokompozytów."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja konopi włóknistych z certyfikatem",
+    "Gospodarstwo lniarskie na Podlasiu",
+    "Producent surowca dla biokompozytów"
+  ],
+  "commonMistakes": [
+    "Wybór 01.16.Z zamiast 13.10.A (przygotowanie i przędzenie włókien tekstylnych), gdy działalność obejmuje też roszenie i obróbkę słomy lnianej do postaci włókna.",
+    "Pomylenie z 01.28.Z, gdy uprawiane są konopie głównie do ekstraktów leczniczych — wówczas profil aromatyczno-leczniczy."
+  ],
+  "taxNotes": "Uprawa roślin włóknistych jako działalność rolnicza zwykle podlega podatkowi rolnemu, jednak konopie wymagają zezwolenia i mogą wpływać na klasyfikację VAT. Warto rozważyć też rejestrację jako rolnik ryczałtowy. Stawki sprawdź u doradcy podatkowego."
+}

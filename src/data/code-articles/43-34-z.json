@@ -1,0 +1,36 @@
+{
+  "code": "43.34.Z",
+  "name": "Malowanie i szklenie",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.34.Z obejmuje malowanie wewnętrzne i zewnętrzne budynków, szklenie okien, witryn, fasad oraz montaż szkła w stolarce. Dotyczy zarówno klasycznych malarzy pokojowych, jak i firm specjalizujących się w malowaniu obiektów przemysłowych, antykorozyjnych powłok stalowych czy malowania proszkowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Malarz pokojowy",
+      "use": "Maluje ściany i sufity w mieszkaniach, biurach, lokalach usługowych."
+    },
+    {
+      "persona": "Firma malowania elewacji",
+      "use": "Maluje fasady budynków metodą natryskową i dekoracyjną."
+    },
+    {
+      "persona": "Wykonawca powłok antykorozyjnych",
+      "use": "Maluje konstrukcje stalowe (mosty, hale) farbami antykorozyjnymi."
+    },
+    {
+      "persona": "Firma szklarska",
+      "use": "Szkli witryny sklepowe, balkony, drzwi i tafle szyb dekoracyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Malowanie mieszkania po remoncie",
+    "Powłoki antykorozyjne na konstrukcji stalowej",
+    "Szklenie witryny sklepowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.31.Z (tynkowanie) — sama warstwa malarska to 43.34.Z, ale tynk barwiony to 43.31.Z.",
+    "Wybór 43.34.Z zamiast 43.32.Z, gdy firma głównie wstawia szyby w stolarce okiennej (montaż okna), a nie świadczy usług szklarskich."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Usługi w obiektach mieszkalnych korzystają z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.22.Z",
+  "name": "Sprzedaż hurtowa kwiatów i roślin",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.22.Z obejmuje sprzedaż hurtową kwiatów ciętych, roślin doniczkowych, sadzonek, cebul i materiału szkółkarskiego — od producentów (gospodarstw ogrodniczych) lub importerów do kwiaciarni, marketów ogrodniczych i firm dekoratorskich. Sprzedaż detaliczna kwiatów to 47.76.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia kwiatowa",
+      "use": "Sprowadza kwiaty z aukcji holenderskich i rozprowadza je do kwiaciarni."
+    },
+    {
+      "persona": "Szkółka roślin",
+      "use": "Sprzedaje hurtowo sadzonki drzew, krzewów i bylin do centrów ogrodniczych."
+    },
+    {
+      "persona": "Importer roślin doniczkowych",
+      "use": "Dostarcza rośliny tropikalne do sieci marketów budowlanych i ogrodowych."
+    },
+    {
+      "persona": "Producent kwiatów ciętych",
+      "use": "Hodowlana firma sprzedająca własne róże lub tulipany hurtowo do dystrybutorów."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia kwiatowa przy lotnisku z importem z Holandii",
+    "Szkółka drzew owocowych dla centrów ogrodniczych",
+    "Producent roślin doniczkowych dostarczający do marketów DIY"
+  ],
+  "commonMistakes": [
+    "Wybór 46.22.Z zamiast 47.76.Z, gdy sprzedaż jest detaliczna w kwiaciarni dla klientów końcowych.",
+    "Pomylenie z 01.30.Z (rozmnażanie roślin) — produkcja sadzonek to inny kod, sprzedaż hurtowa to 46.22.Z."
+  ],
+  "taxNotes": "Sprzedaż produktów ogrodniczych może korzystać z obniżonej stawki VAT na żywe rośliny; forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "10.82.Z",
+  "name": "Produkcja kakao, czekolady i wyrobów cukierniczych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.82.Z obejmuje przetwórstwo kakao (z ziarna do masy/proszku), produkcję czekolady oraz wyrobów cukierniczych — cukierków, batonów, pralin, gum do żucia, lukrecji. To kod dla czekoladziarni, fabryk słodyczy i manufaktur pralin.",
+  "whoUsesIt": [
+    {
+      "persona": "Manufaktura czekolady",
+      "use": "Produkuje tabliczki czekolady bean-to-bar i praliny rzemieślnicze."
+    },
+    {
+      "persona": "Fabryka słodyczy",
+      "use": "Wytwarza cukierki, batony, żelki i drażetki w masowej skali dla retailu."
+    },
+    {
+      "persona": "Producent pralin",
+      "use": "Tworzy luksusowe praliny i bombonierki na rynek premium oraz prezentowy."
+    },
+    {
+      "persona": "Wytwórca proszku i masy kakaowej",
+      "use": "Przerabia ziarna kakao na półprodukty dla przemysłu cukierniczego."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura czekolady bean-to-bar",
+    "Fabryka cukierków i batonów dla supermarketów",
+    "Atelier pralin premium na zamówienie"
+  ],
+  "commonMistakes": [
+    "Wybór 10.82.Z zamiast 10.72.Z dla wafelków i ciastek pokrywanych czekoladą — jeżeli dominuje wypiek, to 10.72.Z.",
+    "Pomylenie z 10.81.Z (Produkcja cukru) — cukier jako surowiec to 10.81.Z, a wyroby z cukru to 10.82.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów cukierniczych podlega standardowej stawce VAT na słodycze, a forma opodatkowania zależy od skali, kosztów kakao i czekolady oraz kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

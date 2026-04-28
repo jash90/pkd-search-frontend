@@ -1,0 +1,36 @@
+{
+  "code": "47.53.Z",
+  "name": "Sprzedaż detaliczna dywanów, chodników i innych pokryć podłogowych oraz pokryć ściennych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.53.Z obejmuje detaliczną sprzedaż dywanów, chodników, wykładzin, paneli podłogowych, parkietów oraz tapet i innych pokryć ściennych w wyspecjalizowanych sklepach. Dotyczy także sklepów oferujących pomiar i montaż jako usługę dodatkową.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu dywanów",
+      "use": "Sprzedaje dywany maszynowe i ręcznie tkane oraz chodniki różnych formatów."
+    },
+    {
+      "persona": "Salon podłóg drewnianych",
+      "use": "Oferuje deski, parkiety, panele laminowane i winylowe wraz z doradztwem."
+    },
+    {
+      "persona": "Sklep z wykładzinami",
+      "use": "Prowadzi sprzedaż wykładzin PCV, dywanowych i obiektowych z usługą cięcia."
+    },
+    {
+      "persona": "Salon tapet i okładzin ściennych",
+      "use": "Oferuje tapety klasyczne, fototapety i panele dekoracyjne na ściany."
+    }
+  ],
+  "businessExamples": [
+    "Salon dywanów perskich i nowoczesnych",
+    "Sklep z panelami podłogowymi i parkietem",
+    "Salon tapet i fototapet z mieszalnikiem kolorów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.52.Z — drobne materiały budowlane mają osobny kod, dywany i panele to 47.53.Z.",
+    "Wybór 47.53.Z zamiast 43.33.Z, jeśli głównie zajmujesz się montażem i wykończeniem podłóg, a nie sprzedażą towaru."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej. Usługi montażu, jeśli są dominujące, mogą wymagać dodatkowego kodu z sekcji F (budownictwo). Stawki sprawdź u doradcy podatkowego."
+}

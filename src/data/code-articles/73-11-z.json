@@ -1,0 +1,36 @@
+{
+  "code": "73.11.Z",
+  "name": "Działalność agencji reklamowych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 73.11.Z obejmuje pełnozakresową działalność agencji reklamowych — tworzenie kampanii, projektowanie kreacji, zakup mediów, planowanie strategii marketingowej, prowadzenie kampanii digital i offline. To kod dla agencji full-service, butikowych studiów kreatywnych i specjalistów performance marketingu.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja reklamowa full-service",
+      "use": "Tworzy kompleksowe kampanie marketingowe — strategia, kreacja, produkcja, mediaplan."
+    },
+    {
+      "persona": "Agencja performance / digital",
+      "use": "Prowadzi kampanie Google Ads, Meta Ads, programmatic — rozliczane od efektu (CPL, CPA, ROAS)."
+    },
+    {
+      "persona": "Studio kreatywne / butikowa agencja",
+      "use": "Specjalizuje się w brandingu, kampaniach kreatywnych, kierunkach artystycznych dla wybranych klientów."
+    },
+    {
+      "persona": "Freelancer marketingowy",
+      "use": "Świadczy usługi marketingu (social media, content, ads) jako jednoosobowa działalność dla małych firm."
+    }
+  ],
+  "businessExamples": [
+    "Agencja digital marketingu prowadząca kampanie Meta i Google",
+    "Butikowe studio brandingowe dla startupów",
+    "Freelancer od social media marketingu"
+  ],
+  "commonMistakes": [
+    "Wybór 73.11.Z zamiast 73.12.Z — gdy firma głównie sprzedaje powierzchnię reklamową w mediach (a nie tworzy kampanii), właściwszy jest 73.12.Z.",
+    "Pomylenie z 70.21.Z (PR i komunikacja) — działalność stricte PR-owa ma własny kod 73.30.B, a doradztwo komunikacyjne — 70.21.Z."
+  ],
+  "taxNotes": "Działalność reklamowa często kwalifikuje się do ryczałtu według właściwej stawki (usługi reklamowe i pośrednictwa w sprzedaży miejsca reklamowego), choć duże agencje wybierają liniowy lub skalę. Usługi reklamowe podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

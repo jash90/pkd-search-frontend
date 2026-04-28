@@ -1,0 +1,36 @@
+{
+  "code": "38.21.Z",
+  "name": "Odzysk surowców",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.21.Z obejmuje przetwarzanie odpadów innych niż niebezpieczne w celu odzyskania surowców wtórnych — sortowanie, kruszenie, granulację, regranulację plastiku, przerób makulatury, recykling szkła czy metali. To kategoria dla zakładów recyklingowych i sortowni.",
+  "whoUsesIt": [
+    {
+      "persona": "Sortownia odpadów komunalnych",
+      "use": "Segreguje zmieszane odpady i wydziela surowce wtórne do dalszego przerobu."
+    },
+    {
+      "persona": "Zakład regranulacji plastiku",
+      "use": "Przetwarza folie, butelki PET na regranulat dla przemysłu tworzyw."
+    },
+    {
+      "persona": "Przerób makulatury",
+      "use": "Skupuje, sortuje i prasuje papier do produkcji nowego papieru."
+    },
+    {
+      "persona": "Punkt skupu i przerobu złomu",
+      "use": "Skupuje złom stalowy, kolorowy, fragmentuje i sprzedaje hutom."
+    }
+  ],
+  "businessExamples": [
+    "Sortownia odpadów selektywnych",
+    "Zakład recyklingu PET",
+    "Skup i przerób złomu stalowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.11.Z (zbieranie odpadów) — sam odbiór i transport bez przerobu to 38.11.Z, dopiero przetwarzanie kwalifikuje do 38.21.Z.",
+    "Wybór 38.21.Z zamiast 24.45.Z (produkcja metali nieżelaznych), gdy firma wytwarza już gotowy metal z recyklingu."
+  ],
+  "taxNotes": "Recykling wymaga zezwoleń na przetwarzanie odpadów, wpisu do BDO i spełnienia wymogów BAT. Branża korzysta z mechanizmów rozszerzonej odpowiedzialności producenta (ROP). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.36.Z",
+  "name": "Sprzedaż hurtowa cukru, czekolady i wyrobów cukierniczych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.36.Z obejmuje sprzedaż hurtową cukru, słodyczy, czekolady, wyrobów cukierniczych, ciastek i pieczywa cukierniczego — do sklepów, hurtowni spożywczych, cukierni i HoReCa. Sprzedaż detaliczna słodyczy klasyfikowana jest pod 47.24.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia słodyczy",
+      "use": "Zaopatruje sklepy osiedlowe i kioski w czekolady, cukierki i ciastka."
+    },
+    {
+      "persona": "Dystrybutor cukru i półproduktów cukierniczych",
+      "use": "Sprzedaje hurtowo cukier, dekoracje i półprodukty dla cukierni i piekarni."
+    },
+    {
+      "persona": "Importer czekolady premium",
+      "use": "Sprowadza czekolady i pralinki z Belgii, Szwajcarii i Włoch dla delikatesów."
+    },
+    {
+      "persona": "Dostawca prezentowy",
+      "use": "Specjalizuje się w hurtowej sprzedaży słodyczy okolicznościowych dla firm i sieci."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia słodyczy dla sklepów spożywczych",
+    "Dystrybutor czekolady premium dla delikatesów",
+    "Hurtownia półproduktów cukierniczych dla cukierni"
+  ],
+  "commonMistakes": [
+    "Wybór 46.36.Z dla sprzedaży detalicznej w sklepie ze słodyczami — właściwy jest 47.24.Z.",
+    "Pomylenie z 10.82.Z (produkcja kakao i wyrobów cukierniczych) — 46.36.Z to handel."
+  ],
+  "taxNotes": "Wyroby cukiernicze mają zróżnicowane stawki VAT. Niektóre słodzone produkty podlegają opłacie cukrowej. Stawki sprawdź u doradcy podatkowego."
+}

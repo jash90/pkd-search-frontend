@@ -1,0 +1,36 @@
+{
+  "code": "86.23.Z",
+  "name": "Praktyka dentystyczna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.23.Z dotyczy gabinetów stomatologicznych — dentystów ogólnych, ortodontów, chirurgów stomatologicznych, protetyków, periodontologów, stomatologów dziecięcych. Higienistki stomatologiczne pracujące samodzielnie to 86.99.A, a laboratoria techniki dentystycznej to 32.50.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Dentysta ogólny",
+      "use": "Prowadzi gabinet stomatologiczny przyjmujący pacjentów na zachowawczą stomatologię, leczenie kanałowe, profilaktykę."
+    },
+    {
+      "persona": "Ortodonta",
+      "use": "Specjalizuje się w aparatach ortodontycznych - zarówno klasycznych, jak i nakładkowych typu Invisalign."
+    },
+    {
+      "persona": "Chirurg stomatologiczny / implantolog",
+      "use": "Wykonuje implanty zębowe, ekstrakcje skomplikowane, regenerację kości i drobne zabiegi chirurgiczne jamy ustnej."
+    },
+    {
+      "persona": "Klinika stomatologiczna",
+      "use": "Operuje wieloosobową klinikę z dentystami różnych specjalności, własnym RTG i pracownią protetyczną."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet dentystyczny z leczeniem zachowawczym i estetycznym",
+    "Klinika ortodontyczna z aparatami stałymi i Invisalign",
+    "Centrum implantologii i chirurgii stomatologicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 86.23.Z dla pracowni technika dentystycznego (produkcja koron, mostów) — to 32.50.Z (produkcja urządzeń medycznych).",
+    "Pomylenie z 86.21.Z lub 86.22.Z (praktyka lekarska) — stomatolodzy mają osobny kod, mimo bycia lekarzami."
+  ],
+  "taxNotes": "Stomatolodzy zwykle wybierają liniowy lub skalę z uwagi na wysokie koszty (sprzęt, materiały, asystenci, czynsz). Większość usług stomatologicznych zwolniona z VAT (leczenie, profilaktyka), ale stomatologia czysto estetyczna może podlegać VAT. Wymaga wpisu do rejestru w izbie lekarskiej. Stawki sprawdź u doradcy podatkowego."
+}

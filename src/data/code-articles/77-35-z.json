@@ -1,0 +1,36 @@
+{
+  "code": "77.35.Z",
+  "name": "Wynajem i dzierżawa środków transportu lotniczego",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.35.Z obejmuje wynajem samolotów, helikopterów, szybowców i innych statków powietrznych — bez załogi (dry lease) lub w formule wet lease. To kod dla operatorów lotnictwa biznesowego, czarterowego, aeroklubów oraz firm leasingu lotniczego.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator lotnictwa biznesowego",
+      "use": "Wynajmuje samoloty biznesowe (private jets) klientom korporacyjnym i indywidualnym."
+    },
+    {
+      "persona": "Wypożyczalnia śmigłowców",
+      "use": "Udostępnia helikoptery na transfery VIP, fotografię lotniczą, obsługę offshore lub ratownictwo."
+    },
+    {
+      "persona": "Aeroklub / szkoła lotnicza",
+      "use": "Wynajmuje samoloty i szybowce członkom oraz uczniom kursów lotniczych."
+    },
+    {
+      "persona": "Firma leasingu samolotów (dry lease)",
+      "use": "Oddaje statki powietrzne w długoterminowy najem liniom lotniczym i operatorom."
+    }
+  ],
+  "businessExamples": [
+    "Operator private jet dla klientów korporacyjnych",
+    "Aeroklub wynajmujący samoloty członkom",
+    "Firma wynajmu śmigłowców do prac specjalnych"
+  ],
+  "commonMistakes": [
+    "Wybór 77.35.Z zamiast 51.10.Z (transport lotniczy pasażerski) — gdy firma świadczy usługi przewozu, a nie wynajmuje sam pojazd, właściwszy jest 51.10.Z.",
+    "Pomylenie z 77.39.Z — środki transportu lotniczego mają dedykowaną klasę, nie należy ich klasyfikować jako 'pozostałe'."
+  ],
+  "taxNotes": "Działalność wymaga zezwoleń ULC (Urząd Lotnictwa Cywilnego) — w zależności od rodzaju operacji (AOC, ATO). Wynajem międzynarodowy może podlegać szczególnym zasadom VAT (zerowa stawka przy operacjach międzynarodowych). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "01.26.Z",
+  "name": "Uprawa drzew oleistych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.26.Z obejmuje uprawę drzew dostarczających owoców i nasion oleistych — głównie oliwek, palmy oleistej, palmy kokosowej. W warunkach polskich kod ten praktycznie nie ma zastosowania w produkcji towarowej, pojawia się głównie przy działalności badawczej, demonstracyjnej lub plantacjach zagranicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Polski właściciel gaju oliwnego",
+      "use": "Prowadzi plantację oliwek w Hiszpanii, Włoszech lub Grecji i rozlicza dochody w Polsce."
+    },
+    {
+      "persona": "Stacja badawcza",
+      "use": "Bada zachowanie odmian oliwek odpornych na chłód w warunkach polskich."
+    },
+    {
+      "persona": "Szklarnia kolekcjonerska",
+      "use": "Uprawia drzewka oliwne i palmy kokosowe pod osłonami w celach demonstracyjnych."
+    },
+    {
+      "persona": "Producent oliwy z własnego gaju",
+      "use": "Uprawia oliwki za granicą i sprzedaje oliwę butelkowaną pod własną marką w Polsce."
+    }
+  ],
+  "businessExamples": [
+    "Polski gaj oliwny we Włoszech",
+    "Demonstracyjna szklarnia oliwkowa",
+    "Producent oliwy pod własną marką"
+  ],
+  "commonMistakes": [
+    "Wybór 01.26.Z zamiast 10.41.Z (produkcja olejów), gdy działalność polega głównie na tłoczeniu oliwy z importowanych owoców.",
+    "Pomylenie z 01.11.Z, gdzie znajdują się rośliny oleiste jednoroczne (rzepak, słonecznik) — drzewa oleiste to osobna kategoria."
+  ],
+  "taxNotes": "Klasyczna działalność rolnicza nie podlega PIT, ale jest objęta podatkiem rolnym; uprawy zagraniczne wymagają analizy umów o unikaniu podwójnego opodatkowania. Produkcja własnej oliwy może wymagać osobnej rejestracji. Stawki sprawdź u doradcy podatkowego."
+}

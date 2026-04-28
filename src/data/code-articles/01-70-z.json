@@ -1,0 +1,36 @@
+{
+  "code": "01.70.Z",
+  "name": "Łowiectwo i pozyskiwanie zwierząt łownych, włączając działalność usługową",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.70.Z obejmuje łowiectwo, odłów żywych zwierząt i pozyskiwanie zwierzyny oraz powiązane usługi — w tym prowadzenie hodowli zwierzyny dziko żyjącej w warunkach gospodarstwa łowieckiego oraz organizację polowań. Nie obejmuje produkcji skór z odpadów ubojowych ani organizacji safari turystycznych. Typowy kod dla kół łowieckich i firm obsługujących obwody łowieckie.",
+  "whoUsesIt": [
+    {
+      "persona": "Koło łowieckie",
+      "use": "Prowadzi gospodarkę łowiecką w obwodzie, organizuje polowania zbiorowe, sprzedaje tusze zwierzyny do skupów."
+    },
+    {
+      "persona": "Organizator polowań dewizowych",
+      "use": "Obsługuje myśliwych z zagranicy — przygotowuje polowania, zapewnia podprowadzających i logistykę."
+    },
+    {
+      "persona": "Hodowca zwierzyny w fermie",
+      "use": "Prowadzi zamknięte ośrodki hodowli danieli, jeleni czy bażantów na zasiedlanie obwodów."
+    },
+    {
+      "persona": "Punkt skupu dziczyzny",
+      "use": "Skupuje tusze od myśliwych i przekazuje je do dalszej obróbki lub dystrybucji."
+    }
+  ],
+  "businessExamples": [
+    "Ośrodek hodowli zwierzyny prowadzony przez koło łowieckie",
+    "Firma organizująca polowania dewizowe",
+    "Ferma bażantów dostarczająca ptaki do zasiedleń"
+  ],
+  "commonMistakes": [
+    "Mylenie z 01.49.Z (chów i hodowla pozostałych zwierząt) — fermy zwierząt futerkowych czy strusi to chów, nie łowiectwo.",
+    "Mylenie z 79.90.A (działalność pilotów wycieczek i przewodników) — sama organizacja wyjazdów myśliwskich bez gospodarki łowieckiej to inna działalność."
+  ],
+  "taxNotes": "Działalność łowiecka i obrót dziczyzną podlegają specyficznym regulacjom sanitarnym i weterynaryjnym, a koła łowieckie często działają jako stowarzyszenia. Wybór formy opodatkowania zależy od formy prawnej (działalność gospodarcza, stowarzyszenie) i charakteru przychodów. Stawki sprawdź u doradcy podatkowego."
+}

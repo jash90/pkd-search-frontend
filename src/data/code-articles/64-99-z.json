@@ -1,0 +1,36 @@
+{
+  "code": "64.99.Z",
+  "name": "Pozostała finansowa działalność usługowa, z wyłączeniem ubezpieczeń i funduszy emerytalnych, gdzie indziej niesklasyfikowana",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.99.Z obejmuje pozostałe usługi finansowe nieujęte w innych klasach — m.in. działalność dealerów walutowych, kantorów internetowych, instytucji pieniądza elektronicznego, platform crowdfundingowych, działalność związaną z aktywami cyfrowymi (kryptowaluty) oraz pozostałe niszowe usługi finansowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Kantor internetowy",
+      "use": "Świadczy usługi wymiany walut online dla klientów detalicznych i firm."
+    },
+    {
+      "persona": "Giełda kryptowalutowa / VASP",
+      "use": "Prowadzi platformę wymiany walut wirtualnych — wpisana do rejestru działalności w zakresie walut wirtualnych."
+    },
+    {
+      "persona": "Operator crowdfundingu udziałowego",
+      "use": "Prowadzi platformę pozyskiwania kapitału przez emisje udziałowe (equity crowdfunding ECSP)."
+    },
+    {
+      "persona": "Doradca M&A / corporate finance",
+      "use": "Realizuje transakcje fuzji i przejęć, przygotowuje wyceny i dokumentację dla inwestorów."
+    }
+  ],
+  "businessExamples": [
+    "Kantor internetowy z aplikacją mobilną",
+    "Polska giełda kryptowalutowa zarejestrowana jako VASP",
+    "Platforma crowdfundingu udziałowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 66.19.Z (działalność wspomagająca usługi finansowe) — usługi pomocnicze (broker, doradca) mają osobny kod.",
+    "Wybór 64.99.Z zamiast 64.92.B — gdy działalność polega na udzielaniu pożyczek, a nie wymianie walut/aktywów."
+  ],
+  "taxNotes": "Działalność związana z walutami wirtualnymi podlega wpisowi do rejestru VASP. Wymiana kryptowalut na PLN/EUR jest zwolniona z VAT. Działalność niszowa wymaga indywidualnej analizy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "65.11.Z",
+  "name": "Działalność w zakresie ubezpieczeń na życie",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 65.11.Z obejmuje działalność towarzystw ubezpieczeń prowadzących ubezpieczenia osobowe — na życie, posagowe, rentowe oraz polisy z funduszem kapitałowym (UFK). Pasuje wyłącznie dla zakładów ubezpieczeń z licencją KNF — nie dla agentów ani brokerów ubezpieczeniowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Towarzystwo ubezpieczeń na życie",
+      "use": "Oferuje polisy ochronne na życie, dożycie i posagowe — wypłaca świadczenia w razie zdarzenia."
+    },
+    {
+      "persona": "Ubezpieczyciel z UFK",
+      "use": "Prowadzi polisy z funduszem kapitałowym, gdzie część składki jest inwestowana."
+    },
+    {
+      "persona": "Towarzystwo ubezpieczeń wzajemnych życiowych",
+      "use": "Świadczy ubezpieczenia na życie w formie spółdzielczej (TUW)."
+    },
+    {
+      "persona": "Ubezpieczyciel grupowy pracowniczy",
+      "use": "Oferuje grupowe ubezpieczenia na życie dla pracowników firm i ich rodzin."
+    }
+  ],
+  "businessExamples": [
+    "TU oferujące polisy na życie i dożycie",
+    "Ubezpieczyciel z polisami UFK i emerytalnymi",
+    "Towarzystwo ubezpieczeń wzajemnych życiowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 65.12.Z (pozostałe ubezpieczenia osobowe i majątkowe) — ubezpieczenia majątkowe, OC i komunikacyjne mają osobny kod.",
+    "Wybór 65.11.Z zamiast 66.22.Z (działalność agentów i brokerów) — pośrednicy ubezpieczeniowi nie są zakładami ubezpieczeń."
+  ],
+  "taxNotes": "Towarzystwa ubezpieczeń na życie podlegają specyficznym regulacjom Solvency II, podatkowi od niektórych instytucji finansowych oraz odrębnym zasadom CIT (rezerwy techniczno-ubezpieczeniowe). VAT w usługach ubezpieczeniowych jest zwolniony. Stawki sprawdź u doradcy podatkowego."
+}

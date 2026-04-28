@@ -1,0 +1,36 @@
+{
+  "code": "28.42.Z",
+  "name": "Produkcja pozostałych narzędzi mechanicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.42.Z obejmuje produkcję obrabiarek i narzędzi do materiałów innych niż metal — drewna, kamienia, tworzyw sztucznych, betonu, szkła. Pasuje dla producentów maszyn stolarskich, kamieniarskich i do przetwórstwa tworzyw.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent maszyn stolarskich",
+      "use": "Wytwarza piły, frezarki, strugarki i okleiniarki dla zakładów stolarskich."
+    },
+    {
+      "persona": "Fabryka maszyn kamieniarskich",
+      "use": "Produkuje piły mostowe, polerki i CNC do obróbki granitu i marmuru."
+    },
+    {
+      "persona": "Wytwórca obrabiarek do tworzyw sztucznych",
+      "use": "Buduje frezarki i wycinarki CNC do plexi, PCV i kompozytów."
+    },
+    {
+      "persona": "Producent maszyn do obróbki szkła",
+      "use": "Robi szlifierki, wiertarki i piły do szkła dla branży szklarskiej i meblarskiej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka centrów obróbczych CNC do drewna",
+    "Producent maszyn do cięcia kamienia naturalnego",
+    "Zakład pilarek tarczowych dla stolarni i tartaków"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.41.Z (obrabiarki do metalu) — kierować się typem materiału, nie zasadą działania maszyny.",
+    "Wybór 28.49.Z (nieistniejący w PKD 2025) — pozostałe narzędzia mechaniczne klasyfikuje się pod 28.42.Z."
+  ],
+  "taxNotes": "Branża maszyn dla obróbki drewna i kamienia często operuje w niszowych segmentach z dużym udziałem eksportu. Forma opodatkowania zależy od skali, sezonowości i polityki inwestycyjnej. Stawki sprawdź u doradcy podatkowego."
+}

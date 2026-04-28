@@ -1,0 +1,36 @@
+{
+  "code": "35.15.Z",
+  "name": "Handel energią elektryczną",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.15.Z obejmuje obrót energią elektryczną — kupno i sprzedaż energii na rynku hurtowym (TGE) oraz sprzedaż detaliczną do odbiorców końcowych. Dotyczy spółek obrotu, niezależnych dostawców prądu (alternatywnych sprzedawców) oraz traderów na rynku energii.",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka obrotu energią elektryczną",
+      "use": "Sprzedaje prąd gospodarstwom domowym i firmom jako alternatywny sprzedawca."
+    },
+    {
+      "persona": "Trader na rynku energii",
+      "use": "Handluje energią na giełdzie TGE i rynkach OTC."
+    },
+    {
+      "persona": "Sprzedawca z urzędu (TPA)",
+      "use": "Dostarcza energię odbiorcom, którzy nie zmienili sprzedawcy."
+    },
+    {
+      "persona": "Agregator energii",
+      "use": "Łączy wytwórców i odbiorców, oferując zarządzanie portfelem energii."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny sprzedawca prądu dla MŚP",
+    "Trader energii na TGE",
+    "Agregator usług elastyczności i bilansowania"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.14.Z (dystrybucja), gdy faktyczną działalnością jest tylko sprzedaż energii — handel nie wymaga sieci, dystrybucja tak.",
+    "Wybór 35.15.Z zamiast 35.12.A–F (wytwarzanie), gdy firma sprzedaje energię z własnych źródeł — produkcja jest wówczas głównym kodem."
+  ],
+  "taxNotes": "Działalność obrotu wymaga koncesji URE, akcyzy od energii elektrycznej i rozliczeń ze świadectwami pochodzenia. Sprzedaż detaliczna podlega regulacjom konsumenckim. Stawki sprawdź u doradcy podatkowego."
+}

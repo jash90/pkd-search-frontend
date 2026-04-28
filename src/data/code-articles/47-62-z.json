@@ -1,0 +1,36 @@
+{
+  "code": "47.62.Z",
+  "name": "Sprzedaż detaliczna gazet i pozostałych periodyków oraz artykułów papierniczych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.62.Z obejmuje detaliczną sprzedaż gazet, czasopism, magazynów, biuletynów oraz artykułów papierniczych (zeszyty, długopisy, papier biurowy, akcesoria szkolne) w wyspecjalizowanych sklepach. To kod dla saloników prasowych, kiosków i sklepów papierniczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel saloniku prasowego",
+      "use": "Prowadzi punkt z prasą, papierosami i drobnym asortymentem typu Ruch, Kolporter."
+    },
+    {
+      "persona": "Sklep papierniczy",
+      "use": "Sprzedaje zeszyty, długopisy, plecaki, artykuły szkolne i biurowe."
+    },
+    {
+      "persona": "Sklep dla artystów",
+      "use": "Oferuje papiery do malowania, bloki rysunkowe, farby i pędzle dla amatorów."
+    },
+    {
+      "persona": "Punkt prasowy w galerii",
+      "use": "Operuje stoiskiem z magazynami, gazetami i drobnym asortymentem."
+    }
+  ],
+  "businessExamples": [
+    "Salonik prasowy na dworcu",
+    "Sklep papierniczy obok szkoły",
+    "Sklep dla artystów z papierem akwarelowym"
+  ],
+  "commonMistakes": [
+    "Wybór 47.62.Z zamiast 47.78.Z, jeśli sklep głównie sprzedaje artykuły biurowe i materiały do hobby, a prasa jest minimalna.",
+    "Pomylenie z 58.13.Z (wydawanie gazet) — jeśli sam wydajesz prasę, potrzebujesz kodu wydawniczego."
+  ],
+  "taxNotes": "Prasa podlega obniżonej stawce VAT. Sprzedaż papierosów (jeśli prowadzona w salonikach) wymaga zezwoleń. Obowiązuje kasa fiskalna z wyjątkami. Stawki sprawdź u doradcy podatkowego."
+}

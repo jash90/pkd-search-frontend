@@ -1,0 +1,36 @@
+{
+  "code": "11.03.Z",
+  "name": "Produkcja cydru i pozostałych owocowych napojów fermentowanych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.03.Z obejmuje produkcję cydru jabłkowego, perry (z gruszek), miodów pitnych oraz win z innych owoców niż winogrona — porzeczki, śliwki, wiśnie, aronie, dziki bez. To kod dla cydrowni, miodosytni i wytwórców win owocowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Cydrownia (cidery)",
+      "use": "Produkuje cydry jabłkowe wytrawne i półsłodkie z lokalnych odmian jabłek."
+    },
+    {
+      "persona": "Miodosytnia",
+      "use": "Wytwarza miody pitne — półtoraki, dwójniaki, trójniaki — w stylu tradycyjnym."
+    },
+    {
+      "persona": "Wytwórca win owocowych",
+      "use": "Produkuje wina z porzeczek, wiśni, śliwek dla rynku regionalnego."
+    },
+    {
+      "persona": "Producent perry (cydru z gruszek)",
+      "use": "Wytwarza musujące perry jako alternatywę dla cydru jabłkowego."
+    }
+  ],
+  "businessExamples": [
+    "Cydrownia rzemieślnicza z lokalnych jabłek",
+    "Miodosytnia produkująca miody pitne",
+    "Wytwórca win z czarnej porzeczki i aronii"
+  ],
+  "commonMistakes": [
+    "Wybór 11.03.Z zamiast 11.02.Z (Produkcja win gronowych) — wina z winogron mają osobny kod 11.02.Z.",
+    "Pomylenie z 11.07.Z (Napoje bezalkoholowe) — niefermentowany sok jabłkowy to 11.07.Z, a fermentowany cydr to 11.03.Z."
+  ],
+  "taxNotes": "Produkcja cydru i napojów fermentowanych objęta jest akcyzą, a małe wytwórnie mogą korzystać z preferencyjnych stawek dla mikroproducentów. Stawki sprawdź u doradcy podatkowego."
+}

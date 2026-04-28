@@ -1,0 +1,36 @@
+{
+  "code": "66.29.Z",
+  "name": "Działalność wspomagająca ubezpieczenia i fundusze emerytalne, gdzie indziej niesklasyfikowana",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.29.Z to kategoria zbiorcza dla pozostałych usług wspomagających rynek ubezpieczeń i emerytur, których nie da się przypisać do innych klas — np. konsulting ubezpieczeniowy, administrowanie polisami, szkolenia branżowe czy pośrednictwo w zarządzaniu funduszami emerytalnymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Konsultant ubezpieczeniowy",
+      "use": "Doradza firmom przy projektowaniu programów benefitowych, polis grupowych i ryzyk korporacyjnych."
+    },
+    {
+      "persona": "Administrator programów PPK / PPE",
+      "use": "Obsługuje pracownicze plany kapitałowe i emerytalne dla pracodawców (rekord, raporty, korespondencja)."
+    },
+    {
+      "persona": "Firma szkoleniowa branży ubezpieczeniowej",
+      "use": "Prowadzi kursy dla agentów, brokerów i pracowników towarzystw (egzaminy, certyfikaty)."
+    },
+    {
+      "persona": "Specjalista risk management",
+      "use": "Wspiera firmy w identyfikacji ryzyk i doborze odpowiednich produktów ubezpieczeniowych."
+    }
+  ],
+  "businessExamples": [
+    "Doradca ds. benefitów pracowniczych",
+    "Firma obsługująca administrację PPK",
+    "Centrum szkoleń dla agentów ubezpieczeniowych"
+  ],
+  "commonMistakes": [
+    "Wybór 66.29.Z zamiast 66.22.Z — sprzedaż polis przez agenta to klasyczne pośrednictwo (66.22.Z), nie kategoria 'pozostała'.",
+    "Pomylenie z 66.21.Z (likwidacja szkód) — gdy głównym profilem jest wycena szkód, kod 66.21.Z jest właściwszy."
+  ],
+  "taxNotes": "W zależności od charakteru usług część może być zwolniona z VAT (czynności pośrednictwa), a część opodatkowana (doradztwo, szkolenia, administracja). Stawki sprawdź u doradcy podatkowego."
+}

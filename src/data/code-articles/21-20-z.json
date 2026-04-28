@@ -1,0 +1,36 @@
+{
+  "code": "21.20.Z",
+  "name": "Produkcja leków i pozostałych wyrobów farmaceutycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 21.20.Z obejmuje produkcję leków gotowych — tabletek, kapsułek, ampułek, maści, syropów, szczepionek, wyrobów medycznych zawierających substancje czynne, surowic, środków antykoncepcyjnych i diagnostycznych. Wlicza się tu konfekcjonowanie i pakowanie leków. Nie obejmuje produkcji API (21.10.Z) ani sprzedaży hurtowej (46.46.Z) i detalicznej (47.73.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent leków generycznych",
+      "use": "Wytwarza tabletki, kapsułki i preparaty parenteralne na licencji dossier rejestracyjnego URPL."
+    },
+    {
+      "persona": "Firma biotechnologiczna z lekami biologicznymi",
+      "use": "Produkuje przeciwciała monoklonalne i biopodobne w technologii fill & finish."
+    },
+    {
+      "persona": "Wytwórnia leków OTC i ziołowych",
+      "use": "Produkuje preparaty bez recepty, wyciągi ziołowe lecznicze i leki tradycyjne roślinne."
+    },
+    {
+      "persona": "Zakład produkcji szczepionek",
+      "use": "Wytwarza szczepionki ludzkie i weterynaryjne w warunkach GMP z wysokim reżimem bezpieczeństwa."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia tabletek generycznych w standardzie GMP",
+    "Zakład biotechnologii fill & finish leków biologicznych",
+    "Producent leków OTC i suplementów leczniczych"
+  ],
+  "commonMistakes": [
+    "Wybór 21.20.Z zamiast 10.89.Z — suplementy diety jako żywność specjalnego przeznaczenia są klasyfikowane w sekcji żywności, nie farmacji.",
+    "Mylenie z 32.50.Z (produkcja urządzeń, instrumentów oraz wyrobów medycznych) — same wyroby medyczne bez substancji czynnej (np. opatrunki, strzykawki) to odrębny kod."
+  ],
+  "taxNotes": "Produkcja leków wymaga zezwolenia GIF i zgodności z GMP, podlega regulacjom URPL i specjalnym stawkom VAT na produkty lecznicze. Innowacyjne projekty mogą korzystać z B+R i IP Box. Stawki sprawdź u doradcy podatkowego."
+}

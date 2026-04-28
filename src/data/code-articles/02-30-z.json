@@ -1,0 +1,36 @@
+{
+  "code": "02.30.Z",
+  "name": "Pozyskiwanie dziko rosnących produktów leśnych, z wyłączeniem drewna",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 02.30.Z obejmuje zbiór dziko rosnących płodów runa leśnego — grzybów, jagód, ziół, mchu, choinek, żywicy, kory, korzeni i nasion drzew. Dotyczy zarówno indywidualnych zbieraczy działających komercyjnie, jak i punktów skupu organizujących zbiór. Nie obejmuje uprawnej produkcji owoców jagodowych ani plantacji choinek (te ostatnie to 02.10.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Punkt skupu runa leśnego",
+      "use": "Skupuje od zbieraczy borówki, jagody, kurki i podgrzybki, sortuje i sprzedaje przetwórniom lub eksporterom."
+    },
+    {
+      "persona": "Zbieracz ziół na działalności",
+      "use": "Pozyskuje pokrzywę, dziurawiec, malinę leśną i inne zioła dla firm zielarskich i kosmetycznych."
+    },
+    {
+      "persona": "Producent choinek z lasu",
+      "use": "Pozyskuje świerki i jodły z dziko rosnących drzewostanów na sprzedaż sezonową."
+    },
+    {
+      "persona": "Hurtownik grzybów",
+      "use": "Organizuje sieć skupu grzybów świeżych i suszonych, sprzedaje na targach hurtowych i do gastronomii."
+    }
+  ],
+  "businessExamples": [
+    "Punkt skupu jagód i grzybów na Podlasiu",
+    "Hurtownia ziół dziko rosnących dla branży kosmetycznej",
+    "Sezonowy skup choinek z drzewostanów leśnych"
+  ],
+  "commonMistakes": [
+    "Mylenie z 01.25.Z (uprawa pozostałych drzew i krzewów owocowych oraz orzechów) — uprawa borówki amerykańskiej na plantacji to nie jest pozyskiwanie z runa.",
+    "Wybór 02.30.Z zamiast 10.39.Z, jeśli głównym przychodem jest przetwórstwo (suszenie, mrożenie, marynaty) zebranych płodów."
+  ],
+  "taxNotes": "Skup płodów runa leśnego od ludności ma specyficzne zasady dokumentowania (umowy kupna z osobami fizycznymi, ryczałt od skupu), a obrót i przetwórstwo wiążą się z VAT i regulacjami sanitarnymi. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "82.99.B",
+  "name": "Działalność wspomagająca prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowana",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.99.B to szeroki kosz na usługi wspierające biznes, których nie obejmują inne kody — np. licytacje publiczne, obsługa kart lojalnościowych, kody kreskowe, pisanie tekstów na zlecenie biznesowe, działalność czytaczy mikroprintów, organizacja kongresów (jeśli nie 82.30.Z). Konkretne specjalizacje (księgowość, prawnicze, marketing) mają osobne kody.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator programów lojalnościowych B2B",
+      "use": "Obsługuje punktowe programy lojalnościowe sieci handlowych, zarządza kartami i naliczaniem nagród."
+    },
+    {
+      "persona": "Firma stenograficzna / transkrypcji biznesowej",
+      "use": "Sporządza protokoły i transkrypcje z posiedzeń zarządów, walnych zgromadzeń, konferencji."
+    },
+    {
+      "persona": "Specjalista licytacji i aukcji",
+      "use": "Prowadzi aukcje publiczne (poza dziełami sztuki) — sprzęt firmowy, samochody, nieruchomości w imieniu zleceniodawcy."
+    },
+    {
+      "persona": "Firma usług czytania kodów kreskowych / archiwizacji",
+      "use": "Świadczy usługi numerowania, etykietowania i archiwizacji dokumentów dla firm i instytucji."
+    }
+  ],
+  "businessExamples": [
+    "Operator programu lojalnościowego dla sieci stacji paliw",
+    "Biuro stenograficzne obsługujące zgromadzenia spółek",
+    "Firma prowadząca aukcje sprzętu poleasingowego"
+  ],
+  "commonMistakes": [
+    "Wybór 82.99.B dla działalności mającej własny kod (np. księgowość 69.20.Z, doradztwo 70.22.Z) — ten kod używa się tylko wtedy, gdy nic innego nie pasuje.",
+    "Pomylenie z 82.30.Z (organizacja targów i konferencji) — pełna organizacja eventów ma własny kod, nie 82.99.B."
+  ],
+  "taxNotes": "Forma opodatkowania zależy mocno od konkretnej specjalizacji. Przy usługach niskokosztowych ryczałt jest często korzystny, przy zatrudnianiu pracowników skala lub liniowy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.42.Z",
+  "name": "Sprzedaż hurtowa odzieży i obuwia",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.42.Z obejmuje sprzedaż hurtową gotowej odzieży, obuwia, bielizny i akcesoriów odzieżowych — od producentów lub importerów do sklepów detalicznych, butików, e-commerce i sieci. Sprzedaż detaliczna odzieży klasyfikowana jest pod 47.71.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia odzieży",
+      "use": "Dystrybuuje odzież damską, męską i dziecięcą do butików i sklepów stacjonarnych."
+    },
+    {
+      "persona": "Importer odzieży",
+      "use": "Sprowadza odzież z Azji lub Turcji i sprzedaje hurtowo do sieci i e-commerce."
+    },
+    {
+      "persona": "Dystrybutor obuwia",
+      "use": "Reprezentuje marki obuwnicze przed siecią sklepów detalicznych."
+    },
+    {
+      "persona": "Dostawca odzieży roboczej",
+      "use": "Sprzedaje hurtowo odzież ochronną i mundury dla firm i instytucji."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia odzieży damskiej dla butików",
+    "Importer obuwia z Włoch i Hiszpanii",
+    "Dystrybutor odzieży roboczej dla branży budowlanej"
+  ],
+  "commonMistakes": [
+    "Wybór 46.42.Z dla sprzedaży detalicznej w sklepie — właściwy jest 47.71.Z (odzież) lub 47.72.Z (obuwie).",
+    "Pomylenie z 14.13.Z (produkcja odzieży) — 46.42.Z to wyłącznie handel."
+  ],
+  "taxNotes": "Stawki VAT na odzież i obuwie są standardowe (z wyjątkami dla odzieży dziecięcej). Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

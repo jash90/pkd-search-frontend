@@ -1,0 +1,36 @@
+{
+  "code": "97.00.Z",
+  "name": "Gospodarstwa domowe zatrudniające pracowników",
+  "section": "U",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 97.00.Z obejmuje gospodarstwa domowe występujące jako pracodawca — zatrudniające pomoce domowe, opiekunki dzieci, opiekunki osób starszych, ogrodników, kucharzy, kierowców na potrzeby rodziny. Pasuje dla rodzin, które rejestrują się jako płatnik składek dla pracownika domowego. Komercyjne agencje opieki domowej mają osobny kod 88.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Rodzina zatrudniająca nianię",
+      "use": "Zatrudnia opiekunkę dziecka na umowę o pracę lub umowę uaktywniającą (z dofinansowaniem ZUS)."
+    },
+    {
+      "persona": "Rodzina zatrudniająca opiekunkę osoby starszej",
+      "use": "Zatrudnia opiekunkę dla seniora w domu — na umowę o pracę lub zlecenia."
+    },
+    {
+      "persona": "Gospodarstwo z pomocą domową",
+      "use": "Zatrudnia pomoc domową do sprzątania, gotowania i prac codziennych w domu."
+    },
+    {
+      "persona": "Gospodarstwo zatrudniające ogrodnika lub kierowcę",
+      "use": "Zatrudnia osobę do utrzymania ogrodu lub do obsługi prywatnego transportu rodziny."
+    }
+  ],
+  "businessExamples": [
+    "Rodzina rejestrująca nianię w ramach umowy uaktywniającej",
+    "Gospodarstwo domowe zatrudniające opiekunkę seniora",
+    "Rodzina zatrudniająca pomoc domową na umowę o pracę"
+  ],
+  "commonMistakes": [
+    "Wybór 97.00.Z przez agencję opieki domowej, która kieruje opiekunki do rodzin — komercyjna agencja używa 88.10.Z lub 78.20.Z, nie 97.00.Z.",
+    "Pomylenie z 88.91.Z (opieka dzienna nad dziećmi) — niania zatrudniona przez rodzinę to 97.00.Z, ale żłobek lub klub malucha to 88.91.Z."
+  ],
+  "taxNotes": "Gospodarstwo domowe jako pracodawca zgłasza się do ZUS i odprowadza składki za pracownika; w przypadku niań możliwa jest umowa uaktywniająca z dofinansowaniem składek przez budżet państwa. Gospodarstwo domowe jako pracodawca nie prowadzi działalności gospodarczej w rozumieniu CEIDG. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.19.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową niewyspecjalizowaną",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.19.Z to pośrednictwo handlowe w sprzedaży hurtowej różnorodnych grup towarów — agent reprezentuje wielu dostawców z odmiennych branż lub działa jako uniwersalny przedstawiciel handlowy. Działa na prowizji i nie przejmuje własności towaru. Jeśli specjalizujesz się w konkretnej kategorii (meble, żywność, odzież), wybierz kod 46.11-46.18.",
+  "whoUsesIt": [
+    {
+      "persona": "Multi-przedstawiciel handlowy",
+      "use": "Reprezentuje jednocześnie kilku producentów z różnych branż przed siecią klientów B2B."
+    },
+    {
+      "persona": "Agencja handlowa eksport-import",
+      "use": "Kojarzy zagranicznych dostawców z polskimi importerami w wielu kategoriach."
+    },
+    {
+      "persona": "Broker handlowy",
+      "use": "Świadczy usługi pośrednictwa w jednorazowych transakcjach hurtowych różnymi towarami."
+    },
+    {
+      "persona": "Konsultant handlowy B2B",
+      "use": "Łączy strony transakcji hurtowych w zamian za prowizję sukcesową."
+    }
+  ],
+  "businessExamples": [
+    "Multibranżowa agencja przedstawicielska B2B",
+    "Broker eksport-import różnych kategorii towarów",
+    "Niezależny handlowiec reprezentujący kilka marek"
+  ],
+  "commonMistakes": [
+    "Wybór 46.19.Z, gdy faktycznie specjalizujesz się w jednej branży — wtedy właściwy jest kod 46.11-46.18.",
+    "Pomylenie z 46.90.Z (sprzedaż hurtowa niewyspecjalizowana) — 46.90.Z dotyczy kupowania i odsprzedaży, a 46.19.Z tylko pośrednictwa."
+  ],
+  "taxNotes": "Prowizje agencyjne rozliczane są skalą, liniówką lub ryczałtem (przy spełnieniu warunków) i podlegają VAT na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

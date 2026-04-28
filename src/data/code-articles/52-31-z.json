@@ -1,0 +1,36 @@
+{
+  "code": "52.31.Z",
+  "name": "Pośrednictwo w transporcie towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.31.Z obejmuje spedycję i pośrednictwo w organizacji transportu towarów — bez wykonywania samego przewozu. Pasuje dla spedytorów, brokerów frachtowych i agentów morskich/lotniczych, którzy łączą nadawcę z przewoźnikiem i organizują dokumentację, ubezpieczenie oraz kontrolę przesyłki.",
+  "whoUsesIt": [
+    {
+      "persona": "Spedytor międzynarodowy",
+      "use": "Organizuje transport drogowy, kolejowy lub morski — dobiera przewoźnika i odpowiada za dokumentację."
+    },
+    {
+      "persona": "Broker frachtowy",
+      "use": "Łączy nadawców z przewoźnikami na giełdach transportowych (Trans, Timocom)."
+    },
+    {
+      "persona": "Agent morski / lotniczy",
+      "use": "Rezerwuje miejsce na statku lub samolocie i obsługuje formalności konosamentowe (B/L, AWB)."
+    },
+    {
+      "persona": "Spedytor projektowy",
+      "use": "Organizuje transporty ponadgabarytowe i wielomodalne (heavy lift, project cargo)."
+    }
+  ],
+  "businessExamples": [
+    "Biuro spedycyjne na giełdzie transportowej",
+    "Agent morski organizujący przewozy kontenerowe",
+    "Broker frachtowy specjalizujący się w transporcie chłodniczym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 49.41.Z (transport drogowy towarów) — wykonywanie przewozu własnymi pojazdami to inny kod.",
+    "Wybór 52.31.Z zamiast 52.25.Z (działalność logistyczna) — pełne zarządzanie łańcuchem dostaw klienta to logistyka, a nie sama spedycja."
+  ],
+  "taxNotes": "Spedycja może być prowadzona na zasadach ogólnych, liniowo lub na ryczałcie (przy spełnieniu limitów). Usługi dla zagranicznych odbiorców często rozliczane są poza VAT polskim (reverse charge). Stawki sprawdź u doradcy podatkowego."
+}

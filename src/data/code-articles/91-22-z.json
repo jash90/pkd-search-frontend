@@ -1,0 +1,36 @@
+{
+  "code": "91.22.Z",
+  "name": "Działalność związana z miejscami historycznymi i pomnikami",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.22.Z obejmuje działalność związaną z udostępnianiem i utrzymaniem miejsc historycznych, zabytków, pomników, twierdz, zamków i obiektów dziedzictwa kulturowego. Pasuje dla operatorów takich obiektów — zarówno publicznych instytucji, jak i prywatnych podmiotów zarządzających zabytkami.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator zamku turystycznego",
+      "use": "Udostępnia zwiedzającym zabytkowy zamek, organizuje przewodnictwo i imprezy plenerowe."
+    },
+    {
+      "persona": "Zarządca twierdzy / fortyfikacji",
+      "use": "Prowadzi obiekt zabytkowy z funkcją turystyczną i edukacyjną."
+    },
+    {
+      "persona": "Administracja miejsca pamięci narodowej",
+      "use": "Zarządza miejscem upamiętnienia, prowadzi działalność informacyjną i ekspozycyjną."
+    },
+    {
+      "persona": "Prywatny właściciel pałacu udostępnianego do zwiedzania",
+      "use": "Odrestaurowany obiekt zabytkowy oferuje jako atrakcję turystyczną z biletami wstępu."
+    }
+  ],
+  "businessExamples": [
+    "Zamek udostępniany dla turystów z biletami wstępu",
+    "Miejsce pamięci z muzeum i ścieżką edukacyjną",
+    "Pałac z parkiem otwarty do zwiedzania i organizacji eventów"
+  ],
+  "commonMistakes": [
+    "Wybór 91.22.Z dla muzeum w zabytkowym budynku — jeśli głównym profilem jest gromadzenie i ekspozycja zbiorów, właściwy jest 91.21.A (działalność muzeów).",
+    "Pomylenie z 79.90.C (działalność pilotów wycieczek i przewodników turystycznych) — przewodnictwo to usługa, a 91.22.Z dotyczy operowania samym obiektem."
+  ],
+  "taxNotes": "Bilety wstępu do zabytków mogą korzystać z preferencyjnej stawki VAT dla działalności kulturalnej. Konserwacja zabytków może być wspierana z dotacji konserwatorskich. Stawki sprawdź u doradcy podatkowego."
+}

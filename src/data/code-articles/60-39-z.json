@@ -1,0 +1,36 @@
+{
+  "code": "60.39.Z",
+  "name": "Pozostała działalność związana z dystrybucją treści",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 60.39.Z obejmuje pozostałe formy dystrybucji treści — agregację newsów, monitoring mediów, udostępnianie treści w modelu B2B oraz inne usługi nieobjęte klasami radia, TV i agencji informacyjnych. Pasuje dla agregatorów contentowych, firm monitoringu mediów i operatorów platform dystrybucji treści.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma monitoringu mediów",
+      "use": "Śledzi i archiwizuje wzmianki o klientach w prasie, radiu, TV i internecie — sprzedaje raporty."
+    },
+    {
+      "persona": "Agregator newsów",
+      "use": "Zbiera treści z wielu źródeł i dystrybuuje je przez API, RSS lub portal własny."
+    },
+    {
+      "persona": "Operator platformy podcastowej",
+      "use": "Hostuje i dystrybuuje podcasty wielu twórców do dystrybutorów (Spotify, Apple)."
+    },
+    {
+      "persona": "Dystrybutor treści B2B",
+      "use": "Licencjonuje materiały tekstowe i graficzne dla portali, aplikacji i wydawnictw."
+    }
+  ],
+  "businessExamples": [
+    "Firma monitoringu mediów dla działów PR",
+    "Agregator newsów branżowych z API",
+    "Platforma hostingowa podcastów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 60.31.Z (agencje informacyjne) — produkcja własnych newsów ma osobną klasę.",
+    "Wybór 60.39.Z zamiast 63.91.Z (wyszukiwarki internetowe) lub 63.99.Z — niektóre platformy treści klasyfikuje się w sekcji informacji."
+  ],
+  "taxNotes": "Działalność dystrybucyjna często rozliczana na zasadach ogólnych lub liniowo. Sprzedaż licencji za granicę może być rozliczana w trybie reverse charge. Stawki sprawdź u doradcy podatkowego."
+}

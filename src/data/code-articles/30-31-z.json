@@ -1,0 +1,36 @@
+{
+  "code": "30.31.Z",
+  "name": "Produkcja cywilnych statków powietrznych, statków kosmicznych i podobnych maszyn",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.31.Z obejmuje produkcję cywilnych samolotów, śmigłowców, dronów, szybowców, balonów, satelitów, sond kosmicznych i ich głównych komponentów (silniki lotnicze, awionika strukturalna). Pasuje dla zakładów lotniczych i firm space tech.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka samolotów cywilnych",
+      "use": "Produkuje samoloty pasażerskie, biznesowe i ogólnego przeznaczenia (GA) dla rynku cywilnego."
+    },
+    {
+      "persona": "Producent dronów komercyjnych",
+      "use": "Wytwarza drony przemysłowe, rolnicze, dostawcze i specjalistyczne UAV dla rynku B2B."
+    },
+    {
+      "persona": "Zakład produkcji satelitów",
+      "use": "Buduje mikrosatelity, satelity obserwacyjne i komunikacyjne dla branży kosmicznej."
+    },
+    {
+      "persona": "Wytwórca śmigłowców cywilnych",
+      "use": "Robi śmigłowce dla EMS, służb ratunkowych, korporacji i rynku prywatnego."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka samolotów dla lotnictwa ogólnego (GA)",
+    "Producent dronów rolniczych i geodezyjnych",
+    "Startup space tech budujący mikrosatelity obserwacyjne"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.32.Z (wojskowe statki powietrzne) — drony Bayraktar/wojskowe samoloty idą tam, cywilne tutaj.",
+    "Wybór 33.16.Z (naprawa statków powietrznych) zamiast 30.31.Z — serwis MRO to inny kod niż produkcja nowych maszyn."
+  ],
+  "taxNotes": "Branża aerospace i space tech korzysta z silnych ulg B+R, IP Box i programów ESA/POIR. Strategia podatkowa zależy od skali, etapu R&D i polityki własności intelektualnej. Stawki sprawdź u doradcy podatkowego."
+}

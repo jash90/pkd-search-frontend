@@ -1,0 +1,36 @@
+{
+  "code": "28.12.Z",
+  "name": "Produkcja sprzętu i wyposażenia do napędu hydraulicznego i pneumatycznego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.12.Z obejmuje produkcję komponentów hydrauliki i pneumatyki siłowej — siłowników (cylindrów) hydraulicznych i pneumatycznych, pomp i silników hydraulicznych, zaworów rozdzielających, dystrybutorów, węży hydraulicznych, agregatów zasilających i kompletnych systemów napędu. To kod dla wytwórców elementów wykonawczych dla maszyn budowlanych, rolniczych i przemysłowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent siłowników hydraulicznych",
+      "use": "Wytwarza cylindry hydrauliczne dla maszyn budowlanych, rolniczych i ciężarówek wywrotek."
+    },
+    {
+      "persona": "Wytwórca pomp hydraulicznych",
+      "use": "Produkuje pompy zębate, łopatkowe i tłoczkowe dla układów napędowych maszyn."
+    },
+    {
+      "persona": "Producent zaworów hydraulicznych i pneumatycznych",
+      "use": "Wytwarza zawory rozdzielające, dławiące i bezpieczeństwa dla automatyki przemysłowej."
+    },
+    {
+      "persona": "Wytwórca agregatów hydraulicznych",
+      "use": "Produkuje kompletne zasilacze hydrauliczne ze zbiornikiem, pompą i sterowaniem."
+    }
+  ],
+  "businessExamples": [
+    "Producent siłowników hydraulicznych dla maszyn budowlanych",
+    "Wytwórnia pomp hydraulicznych zębatych i tłoczkowych",
+    "Producent agregatów hydraulicznych dla pras przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 28.12.Z zamiast 28.13.Z (produkcja pozostałych pomp i sprężarek) — pompy ogólnego przeznaczenia (do wody, paliw) i sprężarki powietrza wchodzą do 28.13.Z.",
+    "Pomylenie z 28.14.Z (produkcja pozostałych kurków i zaworów) — zawory ogólnego przeznaczenia (sanitarne, gazowe) mają kod 28.14.Z."
+  ],
+  "taxNotes": "Produkcja komponentów hydrauliki objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali, eksportu i udziału usług serwisowych. Stawki sprawdź u doradcy podatkowego."
+}

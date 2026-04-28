@@ -1,0 +1,36 @@
+{
+  "code": "13.94.Z",
+  "name": "Produkcja wyrobów powroźniczych, lin, szpagatów i wyrobów sieciowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.94.Z obejmuje produkcję lin, sznurów, szpagatów, sieci rybackich, sportowych, ochronnych oraz innych wyrobów powroźniczych z włókien naturalnych i syntetycznych. To kod dla powroźni, sieciarni i producentów lin technicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Powroźnia",
+      "use": "Produkuje liny i szpagaty z konopi, juty, polipropylenu dla rolnictwa i transportu."
+    },
+    {
+      "persona": "Wytwórca sieci rybackich",
+      "use": "Produkuje sieci, takle i sznury dla rybołówstwa morskiego i akwakultury."
+    },
+    {
+      "persona": "Producent sieci sportowych i ochronnych",
+      "use": "Produkuje siatki bramkowe, ogrodzeniowe, do placów zabaw i obiektów sportowych."
+    },
+    {
+      "persona": "Wytwórca lin technicznych i alpinistycznych",
+      "use": "Produkuje liny do wspinaczki, prac na wysokości oraz przemysłu offshore."
+    }
+  ],
+  "businessExamples": [
+    "Powroźnia produkująca liny żeglarskie",
+    "Wytwórca sieci sportowych dla obiektów",
+    "Producent lin alpinistycznych z certyfikacją UIAA"
+  ],
+  "commonMistakes": [
+    "Wybór 13.94.Z zamiast 13.96.Z (Pozostałe techniczne wyroby tekstylne) — niespecyficzne tkaniny techniczne idą do 13.96.Z, a liny i sieci do 13.94.Z.",
+    "Pomylenie z 22.29.Z (Produkcja pozostałych wyrobów z tworzyw sztucznych) — liny PP/PE z włókien syntetycznych to nadal 13.94.Z, jeśli głównym procesem jest powroźnictwo."
+  ],
+  "taxNotes": "Wyroby powroźnicze podlegają standardowym stawkom VAT, a forma opodatkowania zależy od skali i struktury kosztów surowca. Stawki sprawdź u doradcy podatkowego."
+}

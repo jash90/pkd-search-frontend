@@ -1,0 +1,36 @@
+{
+  "code": "55.30.Z",
+  "name": "Pola kempingowe i pola namiotowe",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 55.30.Z obejmuje prowadzenie pól kempingowych, namiotowych i kempingów dla pojazdów rekreacyjnych (kamperów). Pasuje dla operatorów kempingów, glampingów, pól namiotowych nad jeziorami i miejsc postojowych dla kamperów świadczących krótkoterminowe zakwaterowanie pod gołym niebem.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator kempingu",
+      "use": "Prowadzi pola pod namioty, przyczepy i kampery z infrastrukturą sanitarną i mediami."
+    },
+    {
+      "persona": "Właściciel glampingu",
+      "use": "Oferuje luksusowe namioty (safari, jurty) i domki tipi z pełnym wyposażeniem."
+    },
+    {
+      "persona": "Gospodarstwo agroturystyczne z polem namiotowym",
+      "use": "Udostępnia plac pod namioty dla turystów rowerowych i pieszych."
+    },
+    {
+      "persona": "Stop kamperowy",
+      "use": "Prowadzi miejsca postojowe dla kamperów z punktem chemii, prądem i wodą."
+    }
+  ],
+  "businessExamples": [
+    "Kemping nad jeziorem z miejscami pod namioty i kampery",
+    "Glamping z safari-tents w górach",
+    "Stop kamperowy z infrastrukturą serwisową"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 55.20.Z (obiekty noclegowe turystyczne i krótkotrwałego zakwaterowania) — domki letniskowe i pokoje gościnne mają osobny kod.",
+    "Wybór 55.30.Z zamiast 93.29.B (parki rozrywki) — jeśli głównym profilem jest atrakcja, a nie nocleg."
+  ],
+  "taxNotes": "Działalność kempingowa często sezonowa — można rozliczać ryczałtem lub na zasadach ogólnych. Usługi noclegowe podlegają obniżonej stawce VAT, a refundacja mediów może mieć inną klasyfikację. Stawki sprawdź u doradcy podatkowego."
+}

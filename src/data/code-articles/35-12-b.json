@@ -1,0 +1,36 @@
+{
+  "code": "35.12.B",
+  "name": "Energetyka słoneczna",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.B obejmuje wytwarzanie energii elektrycznej w elektrowniach fotowoltaicznych — od dachowych instalacji prosumenckich po wielkoskalowe farmy słoneczne. Kategoria dotyczy produkcji prądu ze słońca, niezależnie od mocy instalacji, ale nie obejmuje samego montażu paneli (to 43.21.Z) ani handlu energią (35.15.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator farmy fotowoltaicznej",
+      "use": "Prowadzi naziemną elektrownię słoneczną i sprzedaje wyprodukowaną energię do sieci."
+    },
+    {
+      "persona": "Prosument biznesowy z dużą instalacją PV",
+      "use": "Firma produkuje energię na własne potrzeby i wprowadza nadwyżki do sieci."
+    },
+    {
+      "persona": "Spółka celowa SPV inwestująca w PV",
+      "use": "Posiada portfel projektów fotowoltaicznych i czerpie przychody z produkcji energii."
+    },
+    {
+      "persona": "Spółdzielnia energetyczna",
+      "use": "Wytwarza energię słoneczną dla członków spółdzielni i lokalnych odbiorców."
+    }
+  ],
+  "businessExamples": [
+    "Farma fotowoltaiczna 1 MW na gruntach rolnych klasy IV",
+    "Dachowa elektrownia PV na hali magazynowej",
+    "Carport fotowoltaiczny na parkingu galerii handlowej"
+  ],
+  "commonMistakes": [
+    "Wybór 35.12.B zamiast 43.21.Z, gdy faktycznie firma tylko montuje panele u klientów (instalacja to roboty elektryczne, nie produkcja energii).",
+    "Pomylenie z 35.15.Z (handel energią elektryczną) — sprzedaż wyprodukowanej energii to nadal element 35.12.B, ale obrót cudzą energią wymaga 35.15.Z."
+  ],
+  "taxNotes": "Produkcja energii ze źródeł odnawialnych objęta jest systemem aukcyjnym, świadectwami pochodzenia i regulacjami URE. Dochody ze sprzedaży energii podlegają opodatkowaniu, a inwestycja może korzystać z ulg na nowe technologie. Stawki sprawdź u doradcy podatkowego."
+}

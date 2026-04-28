@@ -1,0 +1,36 @@
+{
+  "code": "85.61.Z",
+  "name": "Pośrednictwo w zakresie prowadzenia kursów i korepetycji",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.61.Z dotyczy pośrednictwa edukacyjnego — platform łączących korepetytorów z uczniami, agencji rekrutujących nauczycieli prywatnych, marketplace'ów kursów online. Sami pośrednicy nie uczą — zarabiają na prowizji. Jeśli prowadzisz kursy — używaj 85.59.A-D w zależności od zakresu.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator platformy korepetycji online",
+      "use": "Prowadzi serwis łączący uczniów z korepetytorami — pobiera prowizję od opłacanych lekcji."
+    },
+    {
+      "persona": "Agencja korepetycji domowych",
+      "use": "Wyszukuje i rekomenduje korepetytorów rodzicom uczniów w zamian za jednorazową opłatę lub prowizję."
+    },
+    {
+      "persona": "Marketplace kursów online",
+      "use": "Hostuje kursy tworzone przez niezależnych twórców (typu Udemy) i pobiera prowizję od sprzedaży."
+    },
+    {
+      "persona": "Broker szkoleniowy B2B",
+      "use": "Pośredniczy między firmami a trenerami w organizacji szkoleń wewnętrznych — dobiera trenerów i programy."
+    }
+  ],
+  "businessExamples": [
+    "Platforma korepetycji online z rezerwacją lekcji",
+    "Agencja pośrednictwa korepetycji domowych w mieście",
+    "Marketplace kursów online z prowizją od sprzedaży"
+  ],
+  "commonMistakes": [
+    "Wybór 85.61.Z, gdy faktycznie sam prowadzisz kursy — to 85.59.A-D w zależności od specjalizacji. Pośrednictwo to tylko łączenie nauczycieli z uczniami.",
+    "Pomylenie z 78.10.Z (działalność związana z wyszukiwaniem miejsc pracy) — agencje pracy nauczycieli to 78.10.Z, nie 85.61.Z."
+  ],
+  "taxNotes": "Pośrednictwo edukacyjne podlega VAT od prowizji (nie od pełnej wartości lekcji). Skala lub liniowy są częste przy platformach z infrastrukturą IT. Ryczałt możliwy przy małej działalności. Stawki sprawdź u doradcy podatkowego."
+}

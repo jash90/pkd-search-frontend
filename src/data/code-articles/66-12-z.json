@@ -1,0 +1,36 @@
+{
+  "code": "66.12.Z",
+  "name": "Działalność maklerska związana z rynkiem papierów wartościowych i towarów giełdowych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.12.Z obejmuje pośrednictwo w zawieraniu transakcji na rynkach papierów wartościowych, instrumentów pochodnych oraz towarów giełdowych — działalność klasycznego biura maklerskiego. To kod dla domów maklerskich, brokerów i firm inwestycyjnych obsługujących klientów detalicznych i instytucjonalnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dom maklerski",
+      "use": "Wykonuje zlecenia kupna-sprzedaży akcji, obligacji i instrumentów pochodnych na rzecz klientów."
+    },
+    {
+      "persona": "Broker FX / CFD",
+      "use": "Pośredniczy w handlu walutami i kontraktami różnic kursowych dla traderów."
+    },
+    {
+      "persona": "Broker towarów giełdowych",
+      "use": "Realizuje transakcje na rynku energii, metali czy surowców rolnych w imieniu klientów."
+    },
+    {
+      "persona": "Internetowa platforma inwestycyjna",
+      "use": "Udostępnia aplikację do samodzielnego inwestowania w akcje i ETF-y z prowizją od transakcji."
+    }
+  ],
+  "businessExamples": [
+    "Dom maklerski obsługujący zlecenia na GPW",
+    "Broker FX z licencją KNF",
+    "Aplikacja mobilna do inwestowania w akcje"
+  ],
+  "commonMistakes": [
+    "Wybór 66.12.Z zamiast 66.30.Z (zarządzanie aktywami) — gdy firma świadczy usługi asset management, a nie tylko wykonuje zlecenia.",
+    "Pomylenie z 66.19.Z (pozostała działalność wspomagająca usługi finansowe) — pośrednictwo maklerskie to specyficzna kategoria wymagająca licencji KNF."
+  ],
+  "taxNotes": "Działalność maklerska wymaga zezwolenia KNF (firma inwestycyjna w rozumieniu ustawy o obrocie instrumentami finansowymi) i podlega regulacjom MiFID II. Większość usług maklerskich jest zwolniona z VAT. Stawki sprawdź u doradcy podatkowego."
+}

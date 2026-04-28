@@ -1,0 +1,36 @@
+{
+  "code": "22.12.Z",
+  "name": "Produkcja pozostałych wyrobów z gumy",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.12.Z obejmuje produkcję wyrobów gumowych poza oponami — uszczelek, węży, pasów napędowych i transportowych, mat, nawierzchni gumowych, rękawic, gum technicznych oraz wyrobów wulkanizowanych. To kod dla zakładów wulkanizacji i przetwórstwa kauczuku.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent uszczelek gumowych",
+      "use": "Wytwarza uszczelki techniczne dla motoryzacji, sanitariatu i przemysłu maszynowego."
+    },
+    {
+      "persona": "Wytwórca węży gumowych",
+      "use": "Produkuje węże ssawne, ciśnieniowe i hydrauliczne dla budownictwa i rolnictwa."
+    },
+    {
+      "persona": "Producent mat i nawierzchni gumowych",
+      "use": "Wytwarza maty antypoślizgowe, nawierzchnie placów zabaw i siłowni."
+    },
+    {
+      "persona": "Zakład pasów transportowych",
+      "use": "Produkuje pasy przenośnikowe dla górnictwa, logistyki i przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia uszczelek samochodowych",
+    "Producent mat na place zabaw",
+    "Zakład pasów transportowych dla logistyki"
+  ],
+  "commonMistakes": [
+    "Wybór 22.12.Z dla opon — produkcja, bieżnikowanie i regeneracja opon to 22.11.Z.",
+    "Pomylenie z 32.50.Z (wyroby medyczne) — rękawice chirurgiczne i sprzęt medyczny mają osobny kod."
+  ],
+  "taxNotes": "Wyroby gumowe podlegają REACH oraz wymaganiom branżowym (np. motoryzacyjnym IATF 16949). Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

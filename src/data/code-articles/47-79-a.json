@@ -1,0 +1,36 @@
+{
+  "code": "47.79.A",
+  "name": "Sprzedaż detaliczna używanych lub antykwarycznych książek",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.79.A obejmuje detaliczną sprzedaż książek używanych, antykwarycznych i bibliofilskich w wyspecjalizowanych antykwariatach. Dotyczy zarówno klasycznych antykwariatów stacjonarnych, jak i punktów skupu i odsprzedaży książek z drugiej ręki.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel antykwariatu",
+      "use": "Skupuje i odsprzedaje książki używane, w tym wydania historyczne i kolekcjonerskie."
+    },
+    {
+      "persona": "Punkt skupu książek",
+      "use": "Skupuje książki na wagę i odsprzedaje je w sklepie lub przez platformy."
+    },
+    {
+      "persona": "Antykwariusz specjalistyczny",
+      "use": "Specjalizuje się w danej dziedzinie — sztuka, militaria, regionalia, judaika."
+    },
+    {
+      "persona": "Bibliofil-handlarz",
+      "use": "Sprzedaje pierwsze wydania, książki sygnowane przez autorów i białe kruki."
+    }
+  ],
+  "businessExamples": [
+    "Antykwariat z białymi krukami i pierwszymi wydaniami",
+    "Punkt skupu i sprzedaży podręczników szkolnych",
+    "Antykwariat specjalistyczny z literaturą prawniczą"
+  ],
+  "commonMistakes": [
+    "Wybór 47.79.A zamiast 47.61.Z, jeśli sprzedajesz głównie nowe książki — antykwariat dotyczy używanych.",
+    "Pomylenie z 47.79.B — antyki rozumiane jako stare przedmioty mają osobny kod, książki antykwaryczne mieszczą się w 47.79.A."
+  ],
+  "taxNotes": "Sprzedaż używanych książek może korzystać z procedury marży VAT. Obowiązuje kasa fiskalna z wyjątkami. Stawki sprawdź u doradcy podatkowego."
+}

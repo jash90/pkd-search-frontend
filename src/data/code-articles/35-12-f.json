@@ -1,0 +1,36 @@
+{
+  "code": "35.12.F",
+  "name": "Wytwarzanie energii elektrycznej z pozostałych źródeł odnawialnych",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.F to kategoria zbiorcza dla produkcji energii z OZE niezakwalifikowanych do osobnych podklas — np. biomasy stałej (zrębki, pellet, słoma), energii fal i pływów, czy wodoru z OZE. To kod 'parasol' dla nietypowych technologii odnawialnych. Energia wiatrowa ma osobny kod 35.12.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator elektrociepłowni na biomasę",
+      "use": "Spala zrębki drzewne i słomę w celu produkcji energii elektrycznej."
+    },
+    {
+      "persona": "Pilotażowa elektrownia wodorowa",
+      "use": "Produkuje prąd z wodoru wytworzonego z OZE w ogniwach paliwowych."
+    },
+    {
+      "persona": "Zakład energetyki odnawialnej hybrydowej",
+      "use": "Łączy nietypowe technologie OZE (np. biomasa + magazyn ciepła)."
+    },
+    {
+      "persona": "Spółka R&D w obszarze OZE",
+      "use": "Testuje innowacyjne źródła odnawialne na skalę demonstracyjną."
+    }
+  ],
+  "businessExamples": [
+    "Elektrownia na biomasę leśną 5 MW",
+    "Pilotaż ogniw paliwowych zasilanych wodorem z PV",
+    "Mała elektrownia falowa na Bałtyku"
+  ],
+  "commonMistakes": [
+    "Wybór 35.12.F zamiast 35.12.D, gdy energia produkowana jest z biogazu (biogaz ma własny kod, nie mieści się w 35.12.F).",
+    "Pomylenie z 35.30.Z, gdy biomasa wytwarza głównie ciepło, a nie energię elektryczną — wówczas właściwy jest kod ciepłowniczy."
+  ],
+  "taxNotes": "Działalność OZE objęta jest systemem aukcyjnym, świadectwami pochodzenia oraz ulgami inwestycyjnymi. Wybór technologii wpływa na klasyfikację w ramach systemu wsparcia. Stawki sprawdź u doradcy podatkowego."
+}

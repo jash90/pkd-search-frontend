@@ -1,0 +1,36 @@
+{
+  "code": "71.12.B",
+  "name": "Pozostała działalność w zakresie inżynierii i związane z nią doradztwo techniczne",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.12.B obejmuje projektowanie inżynieryjne — konstrukcji budowlanych, instalacji, sieci, dróg, mostów oraz doradztwo techniczne, nadzory inwestorskie i kierowanie budowami. To szeroki kod właściwy dla biur projektowych, inżynierów konstruktorów, instalatorów i ekspertów technicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Biuro projektowe konstrukcyjne",
+      "use": "Projektuje konstrukcje stalowe, żelbetowe, drewniane budynków i obiektów inżynieryjnych."
+    },
+    {
+      "persona": "Projektant instalacji sanitarnych / elektrycznych",
+      "use": "Sporządza projekty branżowe HVAC, elektryczne, wod-kan, gazowe dla budynków i obiektów."
+    },
+    {
+      "persona": "Inspektor nadzoru inwestorskiego",
+      "use": "Kontroluje przebieg budowy w imieniu inwestora, weryfikuje jakość i zgodność z projektem."
+    },
+    {
+      "persona": "Konsultant techniczny inżynierii",
+      "use": "Świadczy ekspertyzy, opinie techniczne, analizy efektywności energetycznej dla branży budowlanej."
+    }
+  ],
+  "businessExamples": [
+    "Biuro projektowe konstrukcji budowlanych",
+    "Projektant instalacji HVAC dla obiektów komercyjnych",
+    "Inspektor nadzoru kompleksów deweloperskich"
+  ],
+  "commonMistakes": [
+    "Wybór 71.12.B zamiast 71.11.Z — projekty architektoniczne (formy, funkcji, estetyki) to 71.11.Z, nie 71.12.B.",
+    "Pomylenie z 41.20.Z — gdy firma realizuje budowę (a nie tylko projektuje czy nadzoruje), właściwsze są kody działu 41."
+  ],
+  "taxNotes": "Inżynierowie z uprawnieniami budowlanymi muszą być wpisani do izby inżynierów. Działalność inżynierska może korzystać z ryczałtu według stawki dla wolnych zawodów lub innych form opodatkowania. Usługi projektowe i doradztwo techniczne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

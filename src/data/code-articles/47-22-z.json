@@ -1,0 +1,36 @@
+{
+  "code": "47.22.Z",
+  "name": "Sprzedaż detaliczna mięsa i wyrobów z mięsa",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.22.Z obejmuje sprzedaż detaliczną świeżego, mrożonego i przetworzonego mięsa, drobiu, dziczyzny oraz wędlin i wyrobów mięsnych w wyspecjalizowanych sklepach — mięsnych, masarniach, sklepach firmowych zakładów mięsnych. Sprzedaż ryb klasyfikowana jest pod 47.23.Z, a sprzedaż hurtowa pod 46.32.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu mięsnego",
+      "use": "Prowadzi tradycyjny sklep z mięsem i wędlinami z lokalnych zakładów."
+    },
+    {
+      "persona": "Operator sklepu firmowego zakładu mięsnego",
+      "use": "Prowadzi punkt sprzedaży marki własnej zakładów mięsnych."
+    },
+    {
+      "persona": "Sprzedawca w hali targowej",
+      "use": "Operuje stoiskiem mięsnym w hali kupieckiej z tradycyjną wagą."
+    },
+    {
+      "persona": "Sklep z mięsem ekologicznym",
+      "use": "Specjalizuje się w mięsie z certyfikatem bio i z hodowli ekstensywnej."
+    }
+  ],
+  "businessExamples": [
+    "Sklep mięsny osiedlowy z wędlinami tradycyjnymi",
+    "Sklep firmowy zakładu mięsnego",
+    "Stoisko mięsne w hali targowej"
+  ],
+  "commonMistakes": [
+    "Wybór 47.22.Z dla sprzedaży hurtowej — wtedy właściwy jest 46.32.Z.",
+    "Pomylenie z 10.13.Z (przetwórstwo mięsa) — sklep mięsny tylko sprzedaje, nie wytwarza wędlin (chyba że ma osobny zakład)."
+  ],
+  "taxNotes": "Sprzedaż mięsa wymaga rejestracji w PIW i spełnienia rygorów sanitarnych. Stawki VAT na mięso są obniżone. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

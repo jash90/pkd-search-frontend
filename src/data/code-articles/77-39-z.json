@@ -1,0 +1,36 @@
+{
+  "code": "77.39.Z",
+  "name": "Wynajem i dzierżawa pozostałych maszyn, urządzeń oraz dóbr materialnych, gdzie indziej niesklasyfikowane",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.39.Z to kategoria zbiorcza dla wynajmu maszyn i urządzeń nieobjętych innymi klasami grupy 77.3 — np. kontenerów, wagonów, sprzętu eventowego, sprzętu medycznego, urządzeń przemysłowych, sprzętu pomiarowego. Stosowany przez wynajmujących nietypowe lub specjalistyczne dobra inwestycyjne.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia kontenerów",
+      "use": "Wynajmuje kontenery biurowe, mieszkalne, magazynowe na place budowy i tymczasowe potrzeby firm."
+    },
+    {
+      "persona": "Firma wynajmu sprzętu eventowego",
+      "use": "Udostępnia namioty, sceny, oświetlenie, nagłośnienie dla organizatorów imprez i festiwali."
+    },
+    {
+      "persona": "Wynajem sprzętu medycznego",
+      "use": "Oferuje łóżka rehabilitacyjne, koncentratory tlenu, sprzęt rehabilitacyjny dla pacjentów i placówek."
+    },
+    {
+      "persona": "Operator wynajmu sprzętu specjalistycznego",
+      "use": "Udostępnia sprzęt pomiarowy, urządzenia testujące, maszyny przemysłowe dla branży produkcyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Firma wynajmu kontenerów dla budów i przemysłu",
+    "Wypożyczalnia namiotów i sprzętu eventowego",
+    "Wynajem sprzętu medycznego dla pacjentów domowych"
+  ],
+  "commonMistakes": [
+    "Wybór 77.39.Z zamiast 77.32.Z — gdy maszyny są typowo budowlane (koparki, dźwigi), właściwszy jest 77.32.Z.",
+    "Pomylenie z 68.20.Z — wynajem nieruchomości (a nie maszyn lub kontenerów jako ruchomości) ma własny kod 68.20.Z."
+  ],
+  "taxNotes": "Wynajem maszyn i sprzętu podlega standardowej stawce VAT. Wybór formy opodatkowania zależy od skali działalności i charakteru wynajmowanych dóbr. Branża eventowa dodatkowo może być rozliczana sezonowo. Stawki sprawdź u doradcy podatkowego."
+}

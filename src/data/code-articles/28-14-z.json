@@ -1,0 +1,36 @@
+{
+  "code": "28.14.Z",
+  "name": "Produkcja pozostałych kurków i zaworów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.14.Z obejmuje produkcję armatury przemysłowej i sanitarnej — kurków, zaworów (kulowych, klapowych, motylkowych, grzybkowych, zwrotnych, bezpieczeństwa), reduktorów ciśnienia, baterii sanitarnych, zaworów termostatycznych c.o. oraz zaworów regulacyjnych dla branży chemicznej, naftowej i komunalnej. To kod dla armatury przepływowej innej niż hydraulika siłowa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent armatury sanitarnej",
+      "use": "Wytwarza baterie umywalkowe, zlewozmywakowe i wannowe dla branży łazienkowej."
+    },
+    {
+      "persona": "Wytwórca zaworów przemysłowych",
+      "use": "Produkuje zawory kulowe, motylkowe i bezpieczeństwa dla branży chemicznej i naftowej."
+    },
+    {
+      "persona": "Producent zaworów termostatycznych",
+      "use": "Wytwarza głowice i zawory termostatyczne dla grzejników c.o."
+    },
+    {
+      "persona": "Wytwórca reduktorów ciśnienia",
+      "use": "Produkuje reduktory gazowe i wodne dla instalacji budowlanych i przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Producent armatury sanitarnej (baterie łazienkowe)",
+    "Wytwórnia zaworów kulowych dla przemysłu",
+    "Producent zaworów termostatycznych do grzejników"
+  ],
+  "commonMistakes": [
+    "Wybór 28.14.Z zamiast 28.12.Z (produkcja sprzętu hydraulicznego i pneumatycznego) — zawory siłowe do hydrauliki maszynowej mają kod 28.12.Z.",
+    "Pomylenie z 25.62.Z (produkcja zamków i zawiasów) — okucia łazienkowe (uchwyty) mogą wchodzić do 25.99.Z, zawory i baterie do 28.14.Z."
+  ],
+  "taxNotes": "Produkcja armatury objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Armatura sanitarna z metali kolorowych może wymagać znaków próby. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

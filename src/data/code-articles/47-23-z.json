@@ -1,0 +1,36 @@
+{
+  "code": "47.23.Z",
+  "name": "Sprzedaż detaliczna ryb, skorupiaków i mięczaków",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.23.Z obejmuje sprzedaż detaliczną świeżych, mrożonych, wędzonych i konserwowanych ryb, skorupiaków, mięczaków i owoców morza w wyspecjalizowanych sklepach rybnych, na targach i w halach. Sprzedaż hurtowa ryb klasyfikowana jest pod 46.32.Z. Przygotowywanie i sprzedaż dań rybnych na miejscu to 56.10.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu rybnego",
+      "use": "Prowadzi sklep z świeżymi i mrożonymi rybami oraz owocami morza."
+    },
+    {
+      "persona": "Sprzedawca w hali targowej",
+      "use": "Operuje stoiskiem rybnym z chłodnią w hali kupieckiej."
+    },
+    {
+      "persona": "Operator sklepu firmowego nadmorskiego",
+      "use": "Prowadzi sklep z lokalnie złowionymi rybami w miejscowości nadmorskiej."
+    },
+    {
+      "persona": "Sklep z owocami morza premium",
+      "use": "Specjalizuje się w importowanych owocach morza dla wymagających klientów."
+    }
+  ],
+  "businessExamples": [
+    "Sklep rybny z chłodnią w mieście wojewódzkim",
+    "Stoisko rybne w hali targowej",
+    "Sklep z owocami morza premium dla restauracji i klientów detalicznych"
+  ],
+  "commonMistakes": [
+    "Wybór 47.23.Z dla sprzedaży hurtowej — wtedy właściwy jest 46.32.Z.",
+    "Pomylenie z 56.10.A (gastronomia), gdy ryby przygotowywane są do spożycia na miejscu."
+  ],
+  "taxNotes": "Sprzedaż ryb wymaga rejestracji w PIW i spełnienia rygorów łańcucha chłodniczego. Stawki VAT na ryby są obniżone. Stawki sprawdź u doradcy podatkowego."
+}

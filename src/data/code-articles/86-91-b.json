@@ -1,0 +1,36 @@
+{
+  "code": "86.91.B",
+  "name": "Działalność samodzielnych laboratoriów medycznych",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.91.B dotyczy laboratoriów diagnostyki medycznej — analizy krwi, moczu, badania mikrobiologiczne, hormonalne, genetyczne, histopatologia. Obejmuje sieci punktów pobrań i centralne laboratoria. Diagnostyka obrazowa (USG, RTG) to 86.91.A, a apteki to 47.73.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Centralne laboratorium analityczne",
+      "use": "Wykonuje analizy biochemiczne, hematologiczne, immunologiczne na zlecenie placówek medycznych i prywatne."
+    },
+    {
+      "persona": "Sieć punktów pobrań",
+      "use": "Operuje siecią punktów pobierania krwi w wielu miastach z centralnym laboratorium analizującym próbki."
+    },
+    {
+      "persona": "Laboratorium genetyczne",
+      "use": "Wykonuje testy DNA, badania prenatalne, panele genetyczne, ojcostwa - na zlecenie lekarzy i pacjentów prywatnych."
+    },
+    {
+      "persona": "Pracownia histopatologii",
+      "use": "Przygotowuje preparaty histologiczne i diagnozuje materiał operacyjny i biopsje pobrane przez chirurgów."
+    }
+  ],
+  "businessExamples": [
+    "Sieć punktów pobrań z centralnym laboratorium",
+    "Laboratorium genetyczne z testami DNA i prenatalnymi",
+    "Pracownia histopatologii obsługująca szpitale onkologiczne"
+  ],
+  "commonMistakes": [
+    "Wybór 86.91.B dla pracowni diagnostyki obrazowej — to 86.91.A, mimo wspólnej klasy.",
+    "Pomylenie z 72.19.Z (badania naukowe) — laboratoria komercyjne diagnostyczne to 86.91.B, badania naukowe i rozwojowe to 72.19.Z."
+  ],
+  "taxNotes": "Usługi diagnostyki laboratoryjnej w celach medycznych są zwolnione z VAT. Wymaga wpisu do rejestru podmiotów wykonujących działalność leczniczą. Skala lub liniowy zwykle korzystne ze względu na koszty sprzętu, odczynników i pracowników. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "17.12.Z",
+  "name": "Produkcja papieru i tektury",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.12.Z obejmuje produkcję papieru w rolach i arkuszach oraz tektury — papieru gazetowego, drukowego, pakowego, higienicznego (rolki bazowe), tektury falistej (warstwy bazowej), papieru workowego. To kod dla papierni, czyli zakładów wytwarzających rolki bazowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Papiernia (zakład papierniczy)",
+      "use": "Produkuje papier drukowy, gazetowy lub pakowy w rolach przemysłowych."
+    },
+    {
+      "persona": "Producent tektury falistej",
+      "use": "Wytwarza tekturę falistą z masy celulozowej i makulatury dla wytwórców opakowań."
+    },
+    {
+      "persona": "Wytwórca papieru higienicznego (jumbo rolls)",
+      "use": "Produkuje rolki bazowe (jumbo) papieru toaletowego i ręczników do dalszej konfekcji."
+    },
+    {
+      "persona": "Producent papieru specjalistycznego",
+      "use": "Wytwarza papier samokopiujący, fotograficzny, banknotowy lub bibułkę cygaretową."
+    }
+  ],
+  "businessExamples": [
+    "Papiernia produkująca papier drukowy w rolach",
+    "Producent tektury falistej dla branży opakowań",
+    "Wytwórca jumbo rolls do dalszej konfekcji higienicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 17.12.Z zamiast 17.21.Z (Opakowania z papieru i tektury) — produkcja gotowych pudełek z tektury to 17.21.Z, a sama tektura w rolach to 17.12.Z.",
+    "Pomylenie z 17.11.Z (Produkcja masy włóknistej) — masa to półprodukt (17.11.Z), a papier jako rolki to 17.12.Z."
+  ],
+  "taxNotes": "Produkcja papieru i tektury podlega standardowym stawkom VAT i specyficznym regulacjom środowiskowym. Forma opodatkowania zależy od skali produkcji. Stawki sprawdź u doradcy podatkowego."
+}

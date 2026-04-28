@@ -1,0 +1,36 @@
+{
+  "code": "77.40.A",
+  "name": "Działalność związana z dzierżawą i rejestracją nazw domen internetowych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.40.A obejmuje działalność rejestratorów domen internetowych oraz dzierżawę i obrót nazwami domen — sprzedaż, parkowanie, dropcatching. To kod dla rejestratorów akredytowanych, marketplace'ów domen oraz inwestorów domenowych zajmujących się obrotem premium domain names.",
+  "whoUsesIt": [
+    {
+      "persona": "Rejestrator domen",
+      "use": "Sprzedaje rejestrację domen .pl, .com, .eu i innych klientom indywidualnym i firmom — często w pakiecie z hostingiem."
+    },
+    {
+      "persona": "Marketplace domen",
+      "use": "Pośredniczy w sprzedaży domen między inwestorami a kupującymi (escrow, aukcje, pośrednictwo)."
+    },
+    {
+      "persona": "Inwestor domenowy (domainer)",
+      "use": "Kupuje, parkuje i sprzedaje domeny premium z portfela jako inwestycję długoterminową."
+    },
+    {
+      "persona": "Hosting provider z domenami",
+      "use": "Łączy sprzedaż domen z usługami hostingowymi i serwerami VPS w jednej ofercie pakietowej."
+    }
+  ],
+  "businessExamples": [
+    "Akredytowany rejestrator domen .pl i .com",
+    "Marketplace domenowy z aukcjami",
+    "Inwestor portfolio domen premium"
+  ],
+  "commonMistakes": [
+    "Wybór 77.40.A zamiast 63.11.Z — gdy główną działalnością jest hosting i przetwarzanie danych, właściwszy jest 63.11.Z.",
+    "Pomylenie z 77.40.B — domeny mają dedykowaną klasę 77.40.A, inne IP (znaki towarowe, patenty) klasyfikuje się w 77.40.B."
+  ],
+  "taxNotes": "Sprzedaż i dzierżawa domen podlega standardowej stawce VAT. Inwestowanie w domeny może być traktowane jako działalność gospodarcza lub kapitałowa — zależy od skali i regularności obrotu. Stawki sprawdź u doradcy podatkowego."
+}

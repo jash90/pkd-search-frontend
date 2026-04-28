@@ -1,0 +1,36 @@
+{
+  "code": "85.59.A",
+  "name": "Nauka języków obcych",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.59.A obejmuje nauczanie języków obcych poza systemem szkolnym — szkoły językowe, lektoraty, kursy online, korepetycje językowe, kursy biznesowe. Obejmuje też szkoły języka polskiego dla obcokrajowców. Tłumaczenia to 74.30.Z, a szkoły publiczne z językami w programie to 85.20-85.32.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel szkoły językowej",
+      "use": "Prowadzi szkołę z lektorami nauczającymi angielskiego, niemieckiego, hiszpańskiego dla dzieci i dorosłych."
+    },
+    {
+      "persona": "Lektor freelancer / korepetytor językowy",
+      "use": "Prowadzi indywidualne lekcje stacjonarnie i online, przygotowuje do egzaminów (FCE, CAE, IELTS, Goethe)."
+    },
+    {
+      "persona": "Platforma e-learningowa językowa",
+      "use": "Oferuje kursy online z wideolekcjami, ćwiczeniami i interakcją z nauczycielami przez wideokonferencje."
+    },
+    {
+      "persona": "Trener języka biznesowego",
+      "use": "Prowadzi szkolenia językowe w firmach — angielski biznesowy, prezentacje, negocjacje z native speakerami."
+    }
+  ],
+  "businessExamples": [
+    "Stacjonarna szkoła językowa z lektorami angielskiego",
+    "Korepetytor języka angielskiego online",
+    "Platforma e-learningowa do nauki hiszpańskiego"
+  ],
+  "commonMistakes": [
+    "Wybór 85.59.A dla działalności tłumaczeniowej — tłumaczenia ustne i pisemne to 74.30.Z, nawet jeśli jest się anglistą.",
+    "Pomylenie z 85.59.B (kursy zawodowe) — kursy języka specjalistycznego (np. medyczny angielski) zwykle pod 85.59.A jako nauka języka, kursy zawodowe pozajęzykowe to 85.59.B."
+  ],
+  "taxNotes": "Nauka języków często korzysta ze zwolnienia z VAT (usługi nauczania prywatnego przez nauczycieli). Ryczałt często bardzo korzystny przy działalności jednoosobowej. Skala/liniowy przy zatrudnianiu lektorów. Stawki sprawdź u doradcy podatkowego."
+}

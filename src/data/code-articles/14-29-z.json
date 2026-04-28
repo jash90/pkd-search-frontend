@@ -1,0 +1,36 @@
+{
+  "code": "14.29.Z",
+  "name": "Produkcja pozostałej odzieży i dodatków do odzieży, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 14.29.Z to kod 'parasol' dla pozostałych wyrobów odzieżowych — kapeluszy i czapek tekstylnych, szalików, krawatów, rękawic tekstylnych, pasków, akcesoriów odzieżowych. Również strojów teatralnych, scenicznych i karnawałowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent czapek i kapeluszy",
+      "use": "Wytwarza czapki, kapelusze tekstylne i akcesoria nakrycia głowy pod marką własną."
+    },
+    {
+      "persona": "Manufaktura krawatów i muszek",
+      "use": "Szyje krawaty, muszki i poszetki dla mody męskiej formalnej."
+    },
+    {
+      "persona": "Producent strojów teatralnych",
+      "use": "Szyje kostiumy sceniczne, taneczne i karnawałowe na zamówienie."
+    },
+    {
+      "persona": "Wytwórca rękawic tekstylnych i szalików",
+      "use": "Produkuje rękawiczki, szaliki, kominy i akcesoria zimowe."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura krawatów i akcesoriów męskich",
+    "Producent czapek i beanies pod marką streetwear",
+    "Pracownia kostiumów teatralnych"
+  ],
+  "commonMistakes": [
+    "Wybór 14.29.Z zamiast 14.21.Z (Produkcja odzieży wierzchniej) — koszule, marynarki i ubrania główne idą do 14.21.Z, a tylko dodatki do 14.29.Z.",
+    "Pomylenie z 32.99.Z (Pozostała produkcja) — biżuteria i ozdoby twarde to 32.13.Z/32.99.Z, a tekstylne dodatki do 14.29.Z."
+  ],
+  "taxNotes": "Produkcja akcesoriów odzieżowych podlega standardowej stawce VAT, a forma opodatkowania zależy od skali i modelu sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "35.24.Z",
+  "name": "Magazynowanie paliw gazowych w ramach usług zaopatrzenia sieciowego",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.24.Z dotyczy magazynowania gazu ziemnego w podziemnych magazynach (PMG) — w wyeksploatowanych złożach, kawernach solnych lub warstwach wodonośnych. To kluczowa działalność dla bezpieczeństwa energetycznego, realizowana w Polsce przez wyspecjalizowanych operatorów systemu magazynowania.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator systemu magazynowania (OSM)",
+      "use": "Zarządza podziemnymi magazynami gazu i świadczy usługi magazynowe."
+    },
+    {
+      "persona": "Spółka eksploatująca kawerny solne",
+      "use": "Buduje i utrzymuje kawerny do magazynowania gazu."
+    },
+    {
+      "persona": "Inwestor PMG w wyeksploatowanym złożu",
+      "use": "Zagospodarowuje stare złoże gazu do celów magazynowych."
+    },
+    {
+      "persona": "Trader rezerwujący pojemności magazynowe",
+      "use": "Wynajmuje pojemność i zarządza rotacją gazu w magazynie."
+    }
+  ],
+  "businessExamples": [
+    "Operator podziemnego magazynu gazu",
+    "Magazyn gazu w kawernach solnych",
+    "Konwersja złoża wyeksploatowanego na PMG"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.10.B (magazynowanie i przechowywanie towarów pozostałych) — magazynowanie gazu w sieci ma osobny kod 35.24.Z.",
+    "Wybór 35.24.Z zamiast 06.20.Z (wydobywanie gazu ziemnego), gdy firma głównie wydobywa gaz, a magazyn jest jedynie elementem infrastruktury."
+  ],
+  "taxNotes": "Operator magazynowania wymaga koncesji URE i podlega regulacji taryfowej. Inwestycje w PMG mogą korzystać z unijnych mechanizmów wsparcia bezpieczeństwa energetycznego. Stawki sprawdź u doradcy podatkowego."
+}

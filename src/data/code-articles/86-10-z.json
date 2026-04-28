@@ -1,0 +1,36 @@
+{
+  "code": "86.10.Z",
+  "name": "Działalność szpitali",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.10.Z obejmuje działalność szpitali ogólnych, specjalistycznych, klinik, sanatoriów oraz zakładów opiekuńczo-leczniczych zapewniających leczenie stacjonarne. Pasuje dla podmiotów leczniczych prowadzących stacjonarne i całodobowe świadczenia zdrowotne. Praktyki lekarskie ambulatoryjne klasyfikuje się pod 86.21.Z lub 86.22.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Szpital publiczny (SPZOZ)",
+      "use": "Prowadzi leczenie stacjonarne w ramach kontraktu z NFZ, świadczenia ratunkowe i specjalistyczne."
+    },
+    {
+      "persona": "Szpital prywatny",
+      "use": "Świadczy odpłatne usługi szpitalne, część z kontraktem z NFZ, pozostałe komercyjne."
+    },
+    {
+      "persona": "Klinika specjalistyczna",
+      "use": "Prowadzi stacjonarne leczenie w wąskiej dziedzinie (chirurgia jednego dnia, ortopedia, kardiologia)."
+    },
+    {
+      "persona": "Sanatorium / zakład opiekuńczo-leczniczy",
+      "use": "Prowadzi leczenie sanatoryjne, rehabilitację stacjonarną i opiekę długoterminową."
+    }
+  ],
+  "businessExamples": [
+    "Prywatna klinika chirurgii jednego dnia",
+    "Szpital wojewódzki z oddziałami specjalistycznymi",
+    "Sanatorium uzdrowiskowe z kontraktem NFZ"
+  ],
+  "commonMistakes": [
+    "Wybór 86.10.Z dla przychodni i poradni ambulatoryjnych bez bazy łóżkowej — to jest 86.21.Z (praktyka lekarska ogólna) lub 86.22.Z (specjalistyczna).",
+    "Pomylenie z 87.10.Z (pomoc społeczna z opieką pielęgniarską) — domy opieki bez statusu podmiotu leczniczego to inny kod."
+  ],
+  "taxNotes": "Działalność szpitali wymaga wpisu do rejestru podmiotów wykonujących działalność leczniczą i spełnienia wymogów sanitarnych. Usługi w zakresie opieki medycznej są co do zasady zwolnione z VAT, jednak część świadczeń pobocznych może podlegać opodatkowaniu. Stawki sprawdź u doradcy podatkowego."
+}

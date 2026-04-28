@@ -1,0 +1,36 @@
+{
+  "code": "22.21.Z",
+  "name": "Produkcja płyt, arkuszy, rur i kształtowników z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.21.Z obejmuje produkcję półproduktów z tworzyw sztucznych w procesach wytłaczania i kalandrowania — płyt, arkuszy, folii, rur, profili, kształtowników i taśm z PE, PP, PVC, PET, PC i innych polimerów. To kod dla zakładów ekstruzji półfabrykatów dla dalszego przetwórstwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent rur z tworzyw sztucznych",
+      "use": "Wytwarza rury PVC, PE i PP dla wodociągów, kanalizacji i instalacji wewnętrznych."
+    },
+    {
+      "persona": "Wytwórca płyt PCV i HDPE",
+      "use": "Produkuje płyty komorowe, lite i piankowe dla reklamy, budownictwa i przemysłu."
+    },
+    {
+      "persona": "Producent profili okiennych",
+      "use": "Wytłacza profile PVC dla producentów stolarki okiennej i drzwiowej."
+    },
+    {
+      "persona": "Zakład produkcji folii",
+      "use": "Wytwarza folie LDPE, HDPE i wielowarstwowe dla opakowań i rolnictwa."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia rur PVC dla kanalizacji",
+    "Producent profili PVC do okien",
+    "Zakład folii rolniczych i ogrodniczych"
+  ],
+  "commonMistakes": [
+    "Wybór 22.21.Z dla okien gotowych — drzwi i okna z PCV to 22.23.Z.",
+    "Pomylenie z 22.22.Z (opakowania z tworzyw) — torby, folia bąbelkowa i pojemniki opakowaniowe mają osobny kod."
+  ],
+  "taxNotes": "Produkcja tworzyw sztucznych objęta jest opłatą produktową, ROP i regulacjami SUP. Wybór formy opodatkowania zależy od skali i udziału eksportu. Stawki sprawdź u doradcy podatkowego."
+}

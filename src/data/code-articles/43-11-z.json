@@ -1,0 +1,36 @@
+{
+  "code": "43.11.Z",
+  "name": "Rozbiórka i burzenie obiektów budowlanych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.11.Z dotyczy rozbiórki i wyburzania budynków, budowli i obiektów inżynierskich — od domów jednorodzinnych po zakłady przemysłowe i konstrukcje wielkogabarytowe. Obejmuje także rozbiórkę kominów, wyburzenia z użyciem materiałów wybuchowych oraz uporządkowanie placu po wyburzeniu.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma rozbiórkowa",
+      "use": "Wykonuje wyburzenia budynków przed nowymi inwestycjami deweloperskimi."
+    },
+    {
+      "persona": "Specjalista wyburzeń kontrolowanych",
+      "use": "Realizuje wyburzenia z użyciem materiałów wybuchowych (kominów, hal)."
+    },
+    {
+      "persona": "Wykonawca demontażu konstrukcji stalowych",
+      "use": "Demontuje hale, mosty i obiekty przemysłowe z odzyskiem złomu."
+    },
+    {
+      "persona": "Firma rozbiórki obiektów azbestowych",
+      "use": "Demontuje budynki zawierające azbest zgodnie z procedurami."
+    }
+  ],
+  "businessExamples": [
+    "Rozbiórka starej hali fabrycznej",
+    "Wyburzenie komina elektrowni metodą wybuchową",
+    "Demontaż wiaduktu drogowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.12.Z (przygotowanie terenu) — samo niwelowanie terenu i wykopy bez wyburzenia obiektu kwalifikują do 43.12.Z.",
+    "Wybór 43.11.Z zamiast 38.12.Z, gdy firma głównie zbiera odpady niebezpieczne (np. azbest), a nie wyburza budynki."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Wyburzenia z odpadami niebezpiecznymi wymagają wpisu do BDO i specjalistycznych zezwoleń. Stawki sprawdź u doradcy podatkowego."
+}

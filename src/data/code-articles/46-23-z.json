@@ -1,0 +1,36 @@
+{
+  "code": "46.23.Z",
+  "name": "Sprzedaż hurtowa żywych zwierząt",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.23.Z obejmuje sprzedaż hurtową żywych zwierząt — bydła, trzody chlewnej, drobiu, owiec, koni — do gospodarstw, rzeźni i ośrodków hodowlanych. Pasuje do skupów żywca, pośredników w handlu zwierzętami oraz firm transportujących zwierzęta na rynek. Sprzedaż detaliczna zwierząt domowych to 47.76.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Skup żywca",
+      "use": "Prowadzi punkt skupu bydła i trzody od rolników z dostawą do rzeźni."
+    },
+    {
+      "persona": "Hurtownik drobiu",
+      "use": "Pośredniczy w sprzedaży kurcząt, indyków i kaczek pomiędzy fermami a zakładami mięsnymi."
+    },
+    {
+      "persona": "Handlarz koni",
+      "use": "Skupuje konie hodowlane lub robocze i sprzedaje je do gospodarstw i stadnin."
+    },
+    {
+      "persona": "Pośrednik na targach zwierząt",
+      "use": "Operuje na targowiskach żywca, kojarząc rolników z kupującymi."
+    }
+  ],
+  "businessExamples": [
+    "Skup bydła i trzody chlewnej z dostawą do zakładu mięsnego",
+    "Hurtowy handel drobiem dla zakładów drobiarskich",
+    "Pośrednik w handlu końmi rasowymi"
+  ],
+  "commonMistakes": [
+    "Wybór 46.23.Z dla sprzedaży detalicznej zwierząt domowych — właściwy jest 47.76.Z.",
+    "Pomylenie z 01.4 (chów i hodowla zwierząt) — kod 46.23.Z dotyczy handlu, nie hodowli."
+  ],
+  "taxNotes": "Handel żywymi zwierzętami wymaga rejestracji w PIW (powiatowy inspektorat weterynarii) oraz dokumentów weterynaryjnych. VAT i forma opodatkowania zależą od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

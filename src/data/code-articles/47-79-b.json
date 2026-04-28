@@ -1,0 +1,36 @@
+{
+  "code": "47.79.B",
+  "name": "Sprzedaż detaliczna antyków",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.79.B dotyczy detalicznej sprzedaży antyków — przedmiotów o wartości historycznej, kolekcjonerskiej lub artystycznej, zazwyczaj starszych niż 100 lat. Obejmuje meble antyczne, srebra, porcelanę, biżuterię, militaria, monety i inne wyroby kolekcjonerskie sprzedawane w salonach antykwarycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu antyków",
+      "use": "Skupuje i sprzedaje meble, obrazy, zegary, srebra i porcelanę z dawnych epok."
+    },
+    {
+      "persona": "Antykwariusz specjalistyczny",
+      "use": "Specjalizuje się w jednej dziedzinie — biżuteria, militaria, ikony, judaika."
+    },
+    {
+      "persona": "Marszand antyków",
+      "use": "Pośredniczy w sprzedaży antyków na rynku wtórnym i aukcjach."
+    },
+    {
+      "persona": "Sklep z bibelotami",
+      "use": "Sprzedaje drobne przedmioty kolekcjonerskie, bibeloty, vintage."
+    }
+  ],
+  "businessExamples": [
+    "Salon antyków z meblami i obrazami",
+    "Antykwariat z biżuterią i srebrami",
+    "Sklep vintage z bibelotami z PRL"
+  ],
+  "commonMistakes": [
+    "Wybór 47.79.B zamiast 47.69.B — sztuka współczesna i nowe dzieła sztuki klasyfikują się jako 47.69.B.",
+    "Pomylenie z 47.79.C — pozostałe artykuły używane (odzież second-hand, rzeczy codziennego użytku) mają kod 47.79.C."
+  ],
+  "taxNotes": "Antyki podlegają procedurze marży VAT i ścisłej ewidencji. Niektóre przedmioty (zabytki, sztuka sakralna) wymagają zezwolenia na wywóz za granicę. Stawki sprawdź u doradcy podatkowego."
+}

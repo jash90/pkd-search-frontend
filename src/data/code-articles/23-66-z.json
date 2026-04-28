@@ -1,0 +1,36 @@
+{
+  "code": "23.66.Z",
+  "name": "Produkcja pozostałych wyrobów z betonu, cementu i gipsu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.66.Z to kod 'parasol' dla wyrobów z betonu, cementu i gipsu nieujętych w innych klasach grupy 23.6 — m.in. galanterii betonowej (donic, ławek, koszy, kwietników), figurek ogrodowych, blatów betonowych, mebli betonowych oraz drobnych elementów małej architektury.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent galanterii betonowej",
+      "use": "Wytwarza donice, ławki i kosze parkowe dla samorządów i deweloperów."
+    },
+    {
+      "persona": "Wytwórca blatów betonowych",
+      "use": "Produkuje na zamówienie blaty kuchenne, umywalki i meble z betonu architektonicznego."
+    },
+    {
+      "persona": "Producent figurek ogrodowych",
+      "use": "Odlewa figurki, fontanny i ozdoby z betonu do ogrodów i parków."
+    },
+    {
+      "persona": "Wytwórca elementów małej architektury",
+      "use": "Produkuje słupki betonowe, donice miejskie i elementy strefy parkingowej."
+    }
+  ],
+  "businessExamples": [
+    "Producent ławek i koszy parkowych",
+    "Pracownia blatów z betonu architektonicznego",
+    "Wytwórca donic miejskich"
+  ],
+  "commonMistakes": [
+    "Wybór 23.66.Z dla kostki brukowej i prefabrykatów konstrukcyjnych — typowe wyroby budowlane z betonu to 23.61.Z.",
+    "Pomylenie z 23.63.Z (masa betonowa) — beton towarowy w betonomieszarce ma osobny kod."
+  ],
+  "taxNotes": "Galanteria betonowa dla przestrzeni publicznej często sprzedawana jest w przetargach publicznych. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

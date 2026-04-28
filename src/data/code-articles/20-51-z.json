@@ -1,0 +1,36 @@
+{
+  "code": "20.51.Z",
+  "name": "Produkcja biopaliw płynnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.51.Z obejmuje produkcję ciekłych biopaliw — bioetanolu z surowców rolnych, biodiesla (FAME) z olejów roślinnych i tłuszczów zwierzęcych, HVO oraz biopaliw drugiej generacji. To kod dla zakładów estryfikacji i fermentacji produkujących paliwa odnawialne.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórnia bioetanolu",
+      "use": "Produkuje bioetanol odwodniony z kukurydzy, pszenicy lub melasy do mieszania z benzyną."
+    },
+    {
+      "persona": "Producent biodiesla (FAME)",
+      "use": "Estryfikuje oleje roślinne i tłuszcze odpadowe do estrów metylowych kwasów tłuszczowych."
+    },
+    {
+      "persona": "Zakład produkcji HVO",
+      "use": "Wytwarza uwodorniony olej roślinny jako zamiennik oleju napędowego."
+    },
+    {
+      "persona": "Producent biopaliw zaawansowanych",
+      "use": "Przetwarza odpady lignocelulozowe i ścieki na biopaliwa drugiej generacji."
+    }
+  ],
+  "businessExamples": [
+    "Gorzelnia rolnicza produkująca bioetanol",
+    "Zakład estryfikacji biodiesla z rzepaku",
+    "Producent HVO z odpadowych olejów"
+  ],
+  "commonMistakes": [
+    "Wybór 20.51.Z dla destylacji alkoholu spożywczego — produkcja wyrobów spirytusowych to 11.01.Z.",
+    "Pomylenie z 19.20.Z (rafinacja ropy) — paliwa kopalne mają osobny kod."
+  ],
+  "taxNotes": "Biopaliwa objęte są systemem certyfikacji KZR INiG/REDcert oraz akcyzą i opłatą zastępczą NCW. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

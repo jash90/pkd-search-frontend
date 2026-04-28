@@ -1,0 +1,36 @@
+{
+  "code": "74.99.Z",
+  "name": "Wszelka pozostała działalność profesjonalna, naukowa i techniczna, gdzie indziej niesklasyfikowana",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.99.Z to szeroka kategoria zbiorcza dla działalności profesjonalnej, naukowej lub technicznej, której nie da się przypisać do żadnej innej klasy działu 74. Stosowany m.in. przez konsultantów branżowych, doradców niszowych, ekspertów technicznych i nietypowe specjalności profesjonalne.",
+  "whoUsesIt": [
+    {
+      "persona": "Konsultant ESG / sustainability",
+      "use": "Doradza firmom w raportowaniu ESG, dekarbonizacji i zrównoważonym rozwoju."
+    },
+    {
+      "persona": "Specjalista BHP",
+      "use": "Świadczy usługi z zakresu bezpieczeństwa i higieny pracy dla firm — szkolenia, dokumentacja, audyty."
+    },
+    {
+      "persona": "Konsultant ochrony środowiska",
+      "use": "Sporządza ekspertyzy środowiskowe, raporty oddziaływania, doradztwo w pozwoleniach środowiskowych."
+    },
+    {
+      "persona": "Niezależny ekspert branżowy",
+      "use": "Doradza w wąskiej specjalizacji (np. rolnictwo precyzyjne, technologie spożywcze) bez wpisania w typowe kody 70-73."
+    }
+  ],
+  "businessExamples": [
+    "Konsultant ESG dla średnich firm produkcyjnych",
+    "Inspektor BHP obsługujący kilkanaście firm",
+    "Ekspert ochrony środowiska prowadzący ekspertyzy"
+  ],
+  "commonMistakes": [
+    "Wybór 74.99.Z zamiast 70.22.Z — ogólne doradztwo w zarządzaniu i biznesie ma własny kod 70.22.Z.",
+    "Pomylenie z 71.20.C (badania techniczne) — gdy działalność to laboratoryjne badania i analizy, kod 71.20.C jest właściwszy."
+  ],
+  "taxNotes": "Forma opodatkowania zależy od dokładnego charakteru świadczonych usług — różne stawki ryczałtu, liniowy lub skala. Usługi profesjonalne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

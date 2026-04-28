@@ -1,0 +1,36 @@
+{
+  "code": "91.11.Z",
+  "name": "Działalność bibliotek",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.11.Z obejmuje działalność bibliotek wszystkich typów — publicznych, naukowych, specjalistycznych, szkolnych, mediatek i bibliotek cyfrowych — w tym gromadzenie, udostępnianie i upowszechnianie zbiorów. Pasuje zarówno do publicznych instytucji, jak i prywatnych podmiotów świadczących usługi biblioteczne.",
+  "whoUsesIt": [
+    {
+      "persona": "Biblioteka publiczna",
+      "use": "Gromadzi zbiory, udostępnia książki i prowadzi działalność czytelniczą dla mieszkańców."
+    },
+    {
+      "persona": "Biblioteka naukowa / uczelniana",
+      "use": "Wspiera procesy badawcze i dydaktykę, udostępnia bazy i zasoby naukowe."
+    },
+    {
+      "persona": "Mediateka",
+      "use": "Łączy funkcje biblioteki z dostępem do mediów cyfrowych, gier i narzędzi DIY."
+    },
+    {
+      "persona": "Operator biblioteki cyfrowej",
+      "use": "Udostępnia zdigitalizowane zbiory online jako instytucja kultury lub partner samorządu."
+    }
+  ],
+  "businessExamples": [
+    "Miejska biblioteka publiczna z filiami osiedlowymi",
+    "Biblioteka naukowa w instytucie badawczym",
+    "Mediateka z pracownią cyfrową dla młodzieży"
+  ],
+  "commonMistakes": [
+    "Wybór 91.11.Z dla księgarni lub wypożyczalni komercyjnej — sprzedaż książek to 47.61.Z, a wypożyczanie komercyjne książek/filmów wpisuje się raczej w 77.22.Z lub 77.29.Z.",
+    "Pomylenie z 91.12.Z (działalność archiwów) — archiwa zajmują się głównie dokumentacją historyczną, a nie zbiorami bibliotecznymi do bieżącego udostępniania."
+  ],
+  "taxNotes": "Biblioteki publiczne są instytucjami kultury z odrębnymi zasadami finansowania. Komercyjne usługi biblioteczne podlegają VAT i mogą korzystać z preferencyjnych stawek dla działalności kulturalnej. Stawki sprawdź u doradcy podatkowego."
+}

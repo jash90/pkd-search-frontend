@@ -1,0 +1,36 @@
+{
+  "code": "82.40.Z",
+  "name": "Pośrednictwo w zakresie działalności wspomagającej prowadzenie działalności gospodarczej, gdzie indziej niesklasyfikowane",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.40.Z obejmuje pośrednictwo w usługach wspomagających biznes, niesklasyfikowane gdzie indziej — agregatorzy podwykonawców, marketplace'y B2B usług biznesowych, brokerzy specjalistycznych usług firmowych. Pasuje dla firm pośredniczących między dostawcami usług biznesowych a klientami. Konkretne specjalizacje (rekrutacja, ubezpieczenia, kredyty) mają własne kody.",
+  "whoUsesIt": [
+    {
+      "persona": "Marketplace usług biznesowych B2B",
+      "use": "Łączy firmy z dostawcami usług (np. tłumaczeń, marketingu) i pobiera prowizję."
+    },
+    {
+      "persona": "Broker usług biurowych",
+      "use": "Pośredniczy w zakupie pakietów obsługi back-office, archiwizacji, FM."
+    },
+    {
+      "persona": "Pośrednik podwykonawców",
+      "use": "Łączy klientów korporacyjnych z mniejszymi dostawcami i koordynuje współpracę."
+    },
+    {
+      "persona": "Platforma porównująca usługi B2B",
+      "use": "Umożliwia firmom porównanie ofert (np. księgowych, prawników, agencji) i kontakt z dostawcami."
+    }
+  ],
+  "businessExamples": [
+    "Platforma B2B łącząca firmy z agencjami marketingowymi",
+    "Broker pakietów usług FM dla małych firm",
+    "Marketplace zbierający oferty tłumaczy i ich klientów"
+  ],
+  "commonMistakes": [
+    "Wybór 82.40.Z, gdy konkretne pośrednictwo ma swój własny kod — np. rekrutacja to 78.10.Z, pośrednictwo finansowe to 66.19.Z, ubezpieczenia to 66.22.Z.",
+    "Pomylenie z 70.20.Z (doradztwo w zarządzaniu) — sam consulting bez pośrednictwa transakcyjnego to inny kod."
+  ],
+  "taxNotes": "Pośrednictwo B2B podlega VAT, a model przychodu (prowizja, abonament, success fee) wpływa na moment rozpoznawania przychodu i kosztów. Pośrednictwo regulowane (np. finansowe) wymaga osobnych zezwoleń. Stawki sprawdź u doradcy podatkowego."
+}

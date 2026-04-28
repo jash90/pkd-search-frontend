@@ -1,0 +1,36 @@
+{
+  "code": "02.40.Z",
+  "name": "Działalność usługowa związana z leśnictwem",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 02.40.Z obejmuje usługi dla leśnictwa wykonywane na zlecenie — inwentaryzacje, plany urządzenia lasu, ekspertyzy, ochronę lasu przed szkodnikami, nadzór nad zalesieniami, transport drewna w lesie. Nie obejmuje pozyskiwania drewna (02.20.Z) ani fizycznej gospodarki leśnej prowadzonej na własnym gruncie. Typowy kod dla biur urządzania lasu i specjalistów leśnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Specjalista urządzania lasu",
+      "use": "Sporządza plany urządzenia lasu, uproszczone plany i inwentaryzacje stanu lasu dla właścicieli prywatnych i samorządów."
+    },
+    {
+      "persona": "Firma transportu drewna w lesie",
+      "use": "Wykonuje zrywkę i podwóz drewna z powierzchni zrębowych do dróg wywozowych za pomocą forwarderów."
+    },
+    {
+      "persona": "Doradca leśny",
+      "use": "Świadczy konsultacje dla właścicieli lasów w zakresie cięć, certyfikacji FSC/PEFC i programów rolno-środowiskowych."
+    },
+    {
+      "persona": "Firma ochrony lasu",
+      "use": "Wykonuje zabiegi przeciwko szkodnikom owadzim i grzybowym oraz nadzór nad odnowieniami."
+    }
+  ],
+  "businessExamples": [
+    "Biuro urządzania lasu sporządzające plany dla samorządów",
+    "Firma forwarderowa wykonująca zrywkę dla ZUL-i",
+    "Konsultant leśny prowadzący certyfikacje FSC"
+  ],
+  "commonMistakes": [
+    "Wybór 02.40.Z zamiast 02.20.Z, gdy faktycznie firma pozyskuje drewno (wycinka, sortowanie surowca), a nie tylko świadczy usługi pomocnicze.",
+    "Mylenie z 71.12.Z (działalność w zakresie inżynierii i związane z nią doradztwo techniczne) — projektowanie dróg leśnych na zlecenie inwestora może wpadać w usługi inżynierskie."
+  ],
+  "taxNotes": "Usługi leśne często rozliczane są na zasadach ogólnych albo ryczałtem, a relacje z Lasami Państwowymi i samorządami rodzą obowiązki VAT i przetargowe. Stawki sprawdź u doradcy podatkowego."
+}

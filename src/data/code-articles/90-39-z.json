@@ -1,0 +1,36 @@
+{
+  "code": "90.39.Z",
+  "name": "Pozostała działalność wspomagająca działalność twórczą i działalność związaną z wystawianiem przedstawień artystycznych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.39.Z obejmuje usługi wspierające twórców i artystów wykonawców — np. agencje artystyczne, menedżerstwo gwiazd, impresariaty, produkcję techniczną wydarzeń, scenografię i obsługę produkcji teatralnej. Nie obejmuje samej działalności twórczej (zob. 90.11–90.13) ani wystawiania spektakli (90.20.A–C).",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja artystyczna",
+      "use": "Reprezentuje muzyków i aktorów, negocjuje kontrakty i koordynuje występy."
+    },
+    {
+      "persona": "Menedżer artysty",
+      "use": "Prowadzi karierę pojedynczego artysty — buduje wizerunek, planuje trasy i wydawnictwa."
+    },
+    {
+      "persona": "Firma produkcyjna eventów artystycznych",
+      "use": "Realizuje techniczną stronę koncertów i festiwali (scena, dźwięk, światło, scenografia)."
+    },
+    {
+      "persona": "Impresariat koncertowy",
+      "use": "Organizuje trasy, sprowadza artystów zagranicznych i sprzedaje bilety na koncerty."
+    }
+  ],
+  "businessExamples": [
+    "Agencja menedżerska prowadząca karierę muzyków",
+    "Impresariat sprowadzający zagranicznych artystów",
+    "Firma produkująca koncerty i festiwale od strony technicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 90.39.Z dla samego artysty — artysta prowadzący własną działalność wybiera 90.20.C (pozostała działalność związana z wystawianiem przedstawień artystycznych).",
+    "Pomylenie z 82.30.Z (działalność związana z organizacją targów, wystaw i kongresów) — eventy biznesowe i targowe to inna kategoria niż produkcja artystyczna."
+  ],
+  "taxNotes": "Usługi pośrednictwa i menedżerskie podlegają standardowemu VAT. Forma opodatkowania zależy od skali kosztów (zatrudnienie, podróże, prowizje). Stawki sprawdź u doradcy podatkowego."
+}

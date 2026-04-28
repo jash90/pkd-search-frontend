@@ -1,0 +1,36 @@
+{
+  "code": "41.00.A",
+  "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 41.00.A obejmuje kompleksowe wznoszenie budynków mieszkalnych — domów jednorodzinnych, bloków, apartamentowców, kamienic. To kod generalnego wykonawcy lub dewelopera realizującego inwestycję mieszkaniową od fundamentów po stan deweloperski. Nie obejmuje robót specjalistycznych (dział 43) ani sprzedaży nieruchomości.",
+  "whoUsesIt": [
+    {
+      "persona": "Generalny wykonawca budynków mieszkalnych",
+      "use": "Realizuje kompleksową budowę bloków lub osiedli na zlecenie dewelopera."
+    },
+    {
+      "persona": "Deweloper mieszkaniowy budujący własnym personelem",
+      "use": "Buduje i sprzedaje mieszkania w modelu in-house, bez podwykonawców na całość."
+    },
+    {
+      "persona": "Firma budująca domy jednorodzinne",
+      "use": "Realizuje domy pod klucz dla klientów indywidualnych."
+    },
+    {
+      "persona": "Wykonawca domów modułowych mieszkalnych",
+      "use": "Wznosi domy z prefabrykatów na działkach klientów."
+    }
+  ],
+  "businessExamples": [
+    "Generalne wykonawstwo bloku wielorodzinnego",
+    "Budowa osiedla domów szeregowych",
+    "Domy jednorodzinne pod klucz w technologii tradycyjnej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 41.00.B (budynki niemieszkalne) — kluczowe jest przeznaczenie obiektu, nie technologia wykonania.",
+    "Wybór 41.00.A zamiast 41.10.Z (realizacja projektów budowlanych — deweloperska), gdy firma działa jako deweloper sprzedający mieszkania, a nie wykonawca robót."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy świadczeniu usług na rzecz innego podatnika. Sprzedaż mieszkań korzysta z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

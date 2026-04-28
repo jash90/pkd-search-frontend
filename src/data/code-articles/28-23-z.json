@@ -1,0 +1,36 @@
+{
+  "code": "28.23.Z",
+  "name": "Produkcja maszyn i sprzętu biurowego, z wyłączeniem komputerów i urządzeń peryferyjnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.23.Z obejmuje produkcję maszyn biurowych takich jak kserokopiarki, niszczarki, bindownice, laminatory, kalkulatory biurkowe, frankownice i podobne urządzenia. Wyłącza komputery i drukarki komputerowe (te są w dziale 26).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent niszczarek dokumentów",
+      "use": "Wytwarza niszczarki biurowe i przemysłowe zgodne z normami DIN."
+    },
+    {
+      "persona": "Fabryka urządzeń do introligatorni biurowej",
+      "use": "Produkuje bindownice, laminatory i gilotyny biurowe."
+    },
+    {
+      "persona": "Wytwórca kalkulatorów i kas fiskalnych",
+      "use": "Robi kalkulatory biurowe, kasy rejestrujące i terminale POS."
+    },
+    {
+      "persona": "Producent maszyn kopertujących",
+      "use": "Buduje maszyny do kopertowania, frankowania i obsługi korespondencji masowej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka niszczarek dokumentów dla biur i instytucji",
+    "Producent profesjonalnych laminatorów i bindownic",
+    "Zakład wytwarzający kasy fiskalne i terminale płatnicze"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 26.20.Z (produkcja komputerów i urządzeń peryferyjnych) — drukarki komputerowe i monitory idą tam, nie pod 28.23.Z.",
+    "Wybór 28.99.Z (pozostałe maszyny specjalnego przeznaczenia) zamiast 28.23.Z dla typowego sprzętu biurowego."
+  ],
+  "taxNotes": "Branża sprzętu biurowego konkuruje z importem z Azji, co wpływa na marże i model biznesowy. Skala działalności, eksport i poziom innowacyjności określają wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "16.11.Z",
+  "name": "Produkcja wyrobów tartacznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.11.Z obejmuje pierwszą obróbkę drewna w tartaku — cięcie kłód na deski, belki, łaty, krawędziaki, podkłady kolejowe oraz suszenie i strugnięcie wstępne tarcicy. To podstawowy kod dla tartaków przerabiających surowiec drzewny.",
+  "whoUsesIt": [
+    {
+      "persona": "Tartak",
+      "use": "Tnie kłody iglaste i liściaste na deski, belki i krawędziaki dla budownictwa."
+    },
+    {
+      "persona": "Producent tarcicy konstrukcyjnej",
+      "use": "Wytwarza tarcicę konstrukcyjną klasy C24 dla budownictwa szkieletowego."
+    },
+    {
+      "persona": "Tartak rzemieślniczy",
+      "use": "Tnie drewno na zamówienie indywidualne — deski egzotyczne, dębowe, jesionowe."
+    },
+    {
+      "persona": "Producent podkładów kolejowych i palet drewnianych",
+      "use": "Wytwarza grube przekroje drewna na podkłady i półprodukty palet."
+    }
+  ],
+  "businessExamples": [
+    "Tartak iglasty z drewnem konstrukcyjnym",
+    "Tartak liściasty z drewnem dębowym i bukowym",
+    "Producent tarcicy klasy C24 dla budownictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 16.11.Z zamiast 16.12.Z (Obróbka i wykończanie wyrobów tartacznych) — heblowanie, frezowanie i wykończanie tarcicy to 16.12.Z.",
+    "Pomylenie z 02.20.Z (Pozyskiwanie drewna) — wycinka i pozyskiwanie kłód z lasu to 02.20.Z, a tarcica to 16.11.Z."
+  ],
+  "taxNotes": "Tartaki podlegają standardowym zasadom VAT i specyficznym regulacjom dotyczącym pochodzenia drewna (FLEGT/EUTR/EUDR). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

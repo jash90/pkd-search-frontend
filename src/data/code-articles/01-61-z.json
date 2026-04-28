@@ -1,0 +1,36 @@
+{
+  "code": "01.61.Z",
+  "name": "Działalność usługowa wspomagająca produkcję roślinną",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.61.Z obejmuje usługi świadczone na rzecz innych rolników — orkę, siew, opryski, koszenie, zbiór kombajnem, sadzenie, a także konserwację urządzeń rolniczych. To kod dla firm usługowych w rolnictwie, kontraktowych usługodawców maszynowych i tzw. usług kombajnowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma usług kombajnowych",
+      "use": "Świadczy zbiór zbóż, rzepaku i kukurydzy kombajnami dla okolicznych gospodarstw."
+    },
+    {
+      "persona": "Wykonawca oprysków",
+      "use": "Wykonuje opryski środkami ochrony roślin sprzętem dronowym lub samobieżnym."
+    },
+    {
+      "persona": "Usługi maszynowe",
+      "use": "Wynajmuje ciągniki z operatorem do orki, talerzowania, siewu i wałowania."
+    },
+    {
+      "persona": "Pielęgnacja sadów",
+      "use": "Świadczy usługi cięcia drzew owocowych, kosztowania trawy i nawożenia w sadach."
+    }
+  ],
+  "businessExamples": [
+    "Firma usług kombajnowych na Lubelszczyźnie",
+    "Operator dronów do oprysków",
+    "Wynajem ciągnika z osprzętem"
+  ],
+  "commonMistakes": [
+    "Wybór 01.61.Z zamiast 77.31.Z (wynajem maszyn rolniczych bez operatora), gdy maszyny są wynajmowane bez obsługi — to wynajem, nie usługa.",
+    "Pomylenie z 01.62.Z, gdy usługi dotyczą zwierząt (inseminacja, strzyżenie owiec) — produkcja zwierzęca ma własny kod usługowy."
+  ],
+  "taxNotes": "Usługi rolnicze świadczone na rzecz innych gospodarstw są zwykle działalnością gospodarczą, a nie rolniczą — podlegają PIT/CIT i VAT na zasadach ogólnych. Możliwy ryczałt ewidencjonowany przy mniejszej skali. Stawki sprawdź u doradcy podatkowego."
+}

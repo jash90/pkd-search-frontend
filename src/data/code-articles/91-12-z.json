@@ -1,0 +1,36 @@
+{
+  "code": "91.12.Z",
+  "name": "Działalność archiwów",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.12.Z obejmuje działalność archiwów państwowych i niepaństwowych — gromadzenie, opracowywanie, zabezpieczanie i udostępnianie materiałów archiwalnych. Pasuje również dla firm świadczących usługi archiwizacji i digitalizacji dokumentów dla podmiotów zewnętrznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Archiwum państwowe",
+      "use": "Przechowuje akta historyczne i dokumenty urzędowe, udostępnia je badaczom i obywatelom."
+    },
+    {
+      "persona": "Archiwum zakładowe / firmowe",
+      "use": "Prowadzi archiwum przedsiębiorstwa lub instytucji jako odrębny podmiot lub usługę."
+    },
+    {
+      "persona": "Firma archiwizacyjna outsourcingowa",
+      "use": "Przechowuje, porządkuje i digitalizuje dokumenty klientów biznesowych."
+    },
+    {
+      "persona": "Archiwum społeczne / kościelne",
+      "use": "Gromadzi i udostępnia dokumentację historyczną organizacji lub wspólnoty wyznaniowej."
+    }
+  ],
+  "businessExamples": [
+    "Firma świadcząca outsourcing archiwizacji dokumentów księgowych",
+    "Archiwum diecezjalne z udostępnianiem zbiorów badaczom",
+    "Centrum archiwizacji cyfrowej dla samorządów"
+  ],
+  "commonMistakes": [
+    "Wybór 91.12.Z dla niszczenia dokumentów — usługi niszczenia dokumentów to 38.21.Z (obróbka i usuwanie odpadów innych niż niebezpieczne) lub 82.19.Z.",
+    "Pomylenie z 63.11.Z (przetwarzanie danych, hosting) — sam hosting plików klientów bez funkcji archiwalnych to inna kategoria."
+  ],
+  "taxNotes": "Komercyjna archiwizacja i digitalizacja dokumentów podlega standardowemu VAT. Archiwa państwowe mają odrębny tryb finansowania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "25.51.Z",
+  "name": "Nakładanie powłok na metale",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.51.Z obejmuje usługi nakładania powłok ochronnych i dekoracyjnych na metale — cynkowanie ogniowe, galwanizację (chromowanie, niklowanie, miedziowanie), anodowanie aluminium, malowanie proszkowe, lakierowanie, fosforanowanie oraz powłoki PVD i CVD. To kod dla zakładów świadczących usługi na powierzonym materiale i wykończeniowych operacji powierzchniowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Cynkownia ogniowa",
+      "use": "Pokrywa konstrukcje stalowe powłoką cynku metodą zanurzeniową dla branży budowlanej."
+    },
+    {
+      "persona": "Galwanizernia",
+      "use": "Niklowanie, chromowanie, cynkowanie galwaniczne elementów dla motoryzacji i AGD."
+    },
+    {
+      "persona": "Lakiernia proszkowa",
+      "use": "Maluje proszkowo profile aluminiowe, ogrodzenia, meble metalowe i części maszyn."
+    },
+    {
+      "persona": "Zakład anodowania aluminium",
+      "use": "Anoduje profile architektoniczne i elementy dekoracyjne z aluminium."
+    }
+  ],
+  "businessExamples": [
+    "Cynkownia ogniowa konstrukcji stalowych",
+    "Lakiernia proszkowa profili aluminiowych",
+    "Galwanizernia chromująca elementy motoryzacyjne"
+  ],
+  "commonMistakes": [
+    "Wybór 25.51.Z zamiast 25.61.Z — kod 25.61.Z to dawne 'obróbka metali', obecnie obróbka i powłoki są rozdzielone (25.51.Z dla powłok, 25.52.Z dla obróbki cieplnej, 25.53.Z dla mechanicznej).",
+    "Pomylenie z 43.34.Z (malowanie i szklenie) — malowanie konstrukcji bezpośrednio na budowie wchodzi do 43.34.Z, malowanie w zakładzie do 25.51.Z."
+  ],
+  "taxNotes": "Usługi nakładania powłok objęte są VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy świadczeniu B2B na rzecz innych podatników. Wybór formy opodatkowania zależy od skali zakładu i kosztów chemii. Stawki sprawdź u doradcy podatkowego."
+}

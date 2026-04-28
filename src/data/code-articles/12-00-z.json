@@ -1,0 +1,36 @@
+{
+  "code": "12.00.Z",
+  "name": "Produkcja wyrobów tytoniowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 12.00.Z obejmuje produkcję papierosów, cygar, cygaretek, tytoniu fajkowego i do skręcania, tabaki oraz wyrobów nowatorskich (podgrzewacze, saszetki nikotynowe). Wlicza się tu również suszenie i fermentację liści tytoniu. Nie obejmuje samej uprawy tytoniu (01.15.Z) ani sprzedaży detalicznej wyrobów tytoniowych (47.26.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent papierosów",
+      "use": "Wytwarza papierosy markowe i private label w zakładzie objętym akcyzą, prowadzi pełną logistykę banderolowania."
+    },
+    {
+      "persona": "Manufaktura cygar",
+      "use": "Produkuje cygara premium z importowanego tytoniu długiego, sprzedaje w humidorach i sklepach specjalistycznych."
+    },
+    {
+      "persona": "Producent tytoniu do skręcania",
+      "use": "Cina, aromatyzuje i pakuje tytoń RYO oraz tytoń fajkowy w opakowania zgodne z dyrektywą TPD."
+    },
+    {
+      "persona": "Producent saszetek nikotynowych",
+      "use": "Wytwarza woreczki z nikotyną bez tytoniu (nicotine pouches) na rynek polski i UE."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka papierosów ze składem podatkowym akcyzy",
+    "Manufaktura cygar premium",
+    "Producent saszetek nikotynowych"
+  ],
+  "commonMistakes": [
+    "Wybór 12.00.Z zamiast 47.26.Z — sama sprzedaż papierosów w sklepie czy kiosku to handel detaliczny, nie produkcja.",
+    "Mylenie z 01.15.Z (uprawa tytoniu) — gospodarstwo dostarczające liście do fermentacji nie jest jeszcze producentem wyrobów tytoniowych."
+  ],
+  "taxNotes": "Produkcja wyrobów tytoniowych objęta jest reżimem akcyzowym (skład podatkowy, banderole), VAT, regulacjami TPD/SUP oraz licznymi obowiązkami sprawozdawczymi. Stawki sprawdź u doradcy podatkowego."
+}

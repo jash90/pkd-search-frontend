@@ -1,0 +1,36 @@
+{
+  "code": "33.17.Z",
+  "name": "Naprawa i konserwacja pozostałego cywilnego sprzętu transportowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.17.Z obejmuje naprawę i konserwację cywilnego sprzętu transportowego nieklasyfikowanego pod 33.15.Z (statki) czy 33.16.Z (samoloty) — głównie taboru kolejowego, tramwajów, metra, wagonów towarowych i pojazdów szynowych. Pasuje dla zakładów taboru i firm utrzymania ruchu kolejowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład napraw taboru kolejowego",
+      "use": "Realizuje naprawy główne, modernizacje i przeglądy lokomotyw oraz wagonów."
+    },
+    {
+      "persona": "Firma utrzymania tramwajów",
+      "use": "Świadczy serwis tramwajów dla zakładów komunikacji miejskiej w Polsce."
+    },
+    {
+      "persona": "Warsztat naprawy wagonów towarowych",
+      "use": "Naprawia wagony cysterny, węglarki i platformy dla operatorów towarowych."
+    },
+    {
+      "persona": "Serwis pojazdów metra",
+      "use": "Konserwuje i remontuje pojazdy metra dla operatorów komunikacji szynowej."
+    }
+  ],
+  "businessExamples": [
+    "Zakład napraw lokomotyw spalinowych i elektrycznych",
+    "Firma utrzymania tramwajów dla zakładu komunikacji miejskiej",
+    "Warsztat naprawy wagonów towarowych dla PKP Cargo"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.15.Z (statki) lub 33.16.Z (samoloty) — kolejowy sprzęt szynowy idzie pod 33.17.Z, nie pod inne kody działu 33.1.",
+    "Wybór 30.20.Z (produkcja taboru kolejowego) zamiast 33.17.Z — produkcja to inny kod niż serwis."
+  ],
+  "taxNotes": "Branża napraw taboru kolejowego operuje w modelu kontraktów wieloletnich z państwowymi zamawiającymi i specjalnymi zasadami rozliczeń. Forma opodatkowania zależy od skali, struktury kontraktów i polityki amortyzacji. Stawki sprawdź u doradcy podatkowego."
+}

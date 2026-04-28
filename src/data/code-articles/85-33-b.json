@@ -1,0 +1,36 @@
+{
+  "code": "85.33.B",
+  "name": "Kolegia pracowników służb społecznych",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.33.B dotyczy kolegiów pracowników służb społecznych — placówek policealnych przygotowujących do pracy w pomocy społecznej, opiece nad osobami starszymi i niepełnosprawnymi. To wyodrębniona kategoria szkół policealnych. Inne kierunki policealne mają kod 85.33.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Województwo prowadzące kolegium służb społecznych",
+      "use": "Samorząd województwa prowadzi publiczne kolegium kształcące pracowników socjalnych i opiekunów."
+    },
+    {
+      "persona": "Niepubliczne kolegium pracowników społecznych",
+      "use": "Stowarzyszenie lub fundacja prowadząca kolegium przygotowujące do zawodu pracownika socjalnego."
+    },
+    {
+      "persona": "Kolegium z internatem dla dorosłych",
+      "use": "Placówka kształcąca w trybie zaocznym osoby pracujące w domach pomocy społecznej i ośrodkach pomocy."
+    },
+    {
+      "persona": "Kolegium przy uczelni",
+      "use": "Placówka funkcjonująca przy uczelni wyższej, prowadząca równoległe kształcenie policealne w służbach społecznych."
+    }
+  ],
+  "businessExamples": [
+    "Wojewódzkie kolegium pracowników służb społecznych",
+    "Niepubliczne kolegium kształcące opiekunów osób starszych",
+    "Kolegium pracowników socjalnych przy uczelni publicznej"
+  ],
+  "commonMistakes": [
+    "Wybór 85.33.B dla zwykłej szkoły policealnej (kosmetyka, administracja) — to 85.33.A, ten kod jest tylko dla kolegiów służb społecznych.",
+    "Pomylenie z 85.59.B (kursy zawodowe) — kolegium to szkoła policealna w systemie oświaty, nie krótki kurs."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych. Usługi edukacyjne często zwolnione z VAT. Możliwa dotacja samorządowa po uzyskaniu uprawnień szkoły publicznej. Stawki sprawdź u doradcy podatkowego."
+}

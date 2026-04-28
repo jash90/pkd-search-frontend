@@ -1,0 +1,36 @@
+{
+  "code": "24.46.Z",
+  "name": "Wytwarzanie paliw jądrowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.46.Z obejmuje wytwarzanie paliw jądrowych — przerób rud uranu i toru, wzbogacanie uranu, produkcję paliwa reaktorowego (pelety UO2, kasety paliwowe), a także produkcję izotopów radioaktywnych do zastosowań medycznych i przemysłowych. To kod dla podmiotów działających pod nadzorem dozoru jądrowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład wzbogacania uranu",
+      "use": "Wzbogaca uran do poziomu reaktorowego metodą wirówkową lub dyfuzyjną."
+    },
+    {
+      "persona": "Producent kaset paliwowych",
+      "use": "Wytwarza pelety UO2 i kompletne zestawy paliwowe dla elektrowni jądrowych."
+    },
+    {
+      "persona": "Wytwórca izotopów medycznych",
+      "use": "Produkuje radioizotopy (Tc-99m, Mo-99) dla diagnostyki i radioterapii."
+    },
+    {
+      "persona": "Zakład przerobu paliwa wypalonego",
+      "use": "Odzyskuje uran i pluton z paliwa wypalonego w cyklu zamkniętym."
+    }
+  ],
+  "businessExamples": [
+    "Producent kaset paliwowych dla elektrowni jądrowych",
+    "Wytwórca izotopów medycznych do diagnostyki",
+    "Zakład wzbogacania uranu cywilnego"
+  ],
+  "commonMistakes": [
+    "Wybór 24.46.Z zamiast 35.11.Z (wytwarzanie energii elektrycznej), gdy podmiot prowadzi elektrownię jądrową — produkcja energii to inny kod, paliwo to 24.46.Z.",
+    "Pomylenie z 21.20.Z (produkcja leków), gdy zakład produkuje radiofarmaceutyki — same izotopy promieniotwórcze są w 24.46.Z, ale gotowe leki radiofarmaceutyczne wchodzą do 21.20.Z."
+  ],
+  "taxNotes": "Działalność jądrowa wymaga zezwoleń Państwowej Agencji Atomistyki, ubezpieczeń OC i podlega szczególnym przepisom o ochronie przed promieniowaniem. Wybór formy opodatkowania zależy od formy prawnej i skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "52.10.B",
+  "name": "Magazynowanie i przechowywanie pozostałych towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.10.B obejmuje magazynowanie pozostałych towarów (poza zbożem) — w tym chłodnie, magazyny celne, składy paliw, magazyny logistyczne, samoobsługowe boksy magazynowe (self-storage), magazyny e-commerce i fulfillment. To podstawowy kod dla branży logistyki magazynowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator centrum logistycznego",
+      "use": "Świadczy usługi magazynowania dla firm e-commerce i sieci handlowych."
+    },
+    {
+      "persona": "Firma fulfillment",
+      "use": "Magazynuje, kompletuje i wysyła zamówienia w imieniu sklepów online."
+    },
+    {
+      "persona": "Operator chłodni",
+      "use": "Specjalizuje się w przechowywaniu produktów spożywczych w niskich temperaturach."
+    },
+    {
+      "persona": "Operator self-storage",
+      "use": "Wynajmuje boksy magazynowe klientom indywidualnym i małym firmom."
+    }
+  ],
+  "businessExamples": [
+    "Centrum logistyczne dla e-commerce",
+    "Chłodnia dla branży spożywczej",
+    "Self-storage z boksami do wynajęcia"
+  ],
+  "commonMistakes": [
+    "Wybór 52.10.B zamiast 52.10.A — magazyny zbóż i nasion oleistych mają osobny kod.",
+    "Pomylenie z 52.29.C — spedycja i organizacja przewozu to działalność wspomagająca, a nie magazynowanie."
+  ],
+  "taxNotes": "Magazyny celne, składy podatkowe i chłodnie wymagają osobnych zezwoleń i nadzoru. Self-storage często rozliczany ryczałtem. Stawki sprawdź u doradcy podatkowego."
+}

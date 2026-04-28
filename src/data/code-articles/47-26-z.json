@@ -1,0 +1,36 @@
+{
+  "code": "47.26.Z",
+  "name": "Sprzedaż detaliczna wyrobów tytoniowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.26.Z obejmuje detaliczną sprzedaż papierosów, cygar, tytoniu, e-papierosów i akcesoriów tytoniowych w wyspecjalizowanych sklepach. Dotyczy m.in. trafik, sklepów z fajkami i tytoniami, vape shopów oraz punktów z e-papierosami.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel trafiki",
+      "use": "Prowadzi mały punkt z papierosami, gazetami i drobnymi artykułami."
+    },
+    {
+      "persona": "Sklep z fajkami i tytoniami",
+      "use": "Specjalizuje się w fajkach, cygarach i tytoniach do palenia premium."
+    },
+    {
+      "persona": "Vape shop",
+      "use": "Sprzedaje e-papierosy, liquidy i akcesoria do waporyzacji."
+    },
+    {
+      "persona": "Punkt z saszetkami nikotynowymi",
+      "use": "Oferuje produkty nikotynowe alternatywne (snusy, pouchesy)."
+    }
+  ],
+  "businessExamples": [
+    "Trafika z prasą i papierosami",
+    "Cigar lounge ze sprzedażą cygar",
+    "Vape shop z e-liquidami"
+  ],
+  "commonMistakes": [
+    "Sprzedaż wyrobów tytoniowych wymaga zezwoleń i podlega akcyzie — sam kod PKD nie zwalnia z obowiązków.",
+    "Pomylenie z 47.62.Z (gazety i papier) — jeśli głównym asortymentem jest prasa, a tytoń to dodatek, lepiej dobrać 47.62.Z jako główny."
+  ],
+  "taxNotes": "Wyroby tytoniowe podlegają akcyzie i ścisłym regulacjom. Obowiązuje kasa fiskalna i banderole. Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

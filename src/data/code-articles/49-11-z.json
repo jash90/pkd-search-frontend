@@ -1,0 +1,36 @@
+{
+  "code": "49.11.Z",
+  "name": "Transport kolejowy pasażerski ciężki",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.11.Z obejmuje pasażerski transport kolejowy ciężki — przewozy pasażerów pociągami dalekobieżnymi, regionalnymi, międzymiastowymi i międzynarodowymi po liniach normalnotorowych. To kod dla operatorów kolejowych prowadzących przewozy międzymiastowe i regionalne.",
+  "whoUsesIt": [
+    {
+      "persona": "Państwowy operator kolejowy",
+      "use": "Prowadzi przewozy międzymiastowe typu Intercity, Express, EuroCity."
+    },
+    {
+      "persona": "Regionalny operator kolejowy",
+      "use": "Realizuje przewozy aglomeracyjne i regionalne na zlecenie samorządu."
+    },
+    {
+      "persona": "Prywatny przewoźnik kolejowy",
+      "use": "Konkurencja na rynku przewozów liberalizowanym (np. ARP, Leo Express)."
+    },
+    {
+      "persona": "Operator pociągów turystycznych",
+      "use": "Prowadzi specjalne przewozy retro, panoramiczne, wycieczkowe pociągi parowe."
+    }
+  ],
+  "businessExamples": [
+    "Państwowy operator pociągów Intercity",
+    "Regionalny przewoźnik aglomeracyjny",
+    "Operator pociągu turystycznego z parowozem"
+  ],
+  "commonMistakes": [
+    "Wybór 49.11.Z zamiast 49.12.Z — tramwaje, metro i kolejki dojazdowe (lekki transport szynowy) klasyfikują się jako 49.12.Z.",
+    "Pomylenie z 49.20.Z — przewóz towarów koleją to osobny kod transportu towarowego."
+  ],
+  "taxNotes": "Działalność kolejowa wymaga licencji UTK i certyfikatu bezpieczeństwa. Często działa na zlecenie samorządów ze stałymi umowami przewozowymi. Stawki sprawdź u doradcy podatkowego."
+}

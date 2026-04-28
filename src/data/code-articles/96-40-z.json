@@ -1,0 +1,36 @@
+{
+  "code": "96.40.Z",
+  "name": "Pośrednictwo w zakresie usług indywidualnych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.40.Z obejmuje pośrednictwo w usługach indywidualnych — platformy łączące klientów z fryzjerami, kosmetyczkami, masażystami, korepetytorami, opiekunkami. Pasuje dla aplikacji bookingowych, marketplace'ów usług osobistych i agregatorów beauty / wellness. Same usługi indywidualne mają własne kody (96.21.Z, 96.22.Z, 96.04.Z itp.).",
+  "whoUsesIt": [
+    {
+      "persona": "Marketplace usług beauty",
+      "use": "Prowadzi platformę z rezerwacją wizyt u fryzjerów, kosmetyczek, masażystów (np. typu Booksy)."
+    },
+    {
+      "persona": "Aplikacja łącząca klientów z opiekunkami",
+      "use": "Łączy rodziny z nianiami, opiekunkami seniorów, opiekunami dziennymi (po stronie pośrednika)."
+    },
+    {
+      "persona": "Platforma korepetycji",
+      "use": "Łączy uczniów z korepetytorami i pobiera prowizję od zrealizowanych lekcji."
+    },
+    {
+      "persona": "Agregator usług wellness / fitness",
+      "use": "Sprzedaje karnety i sesje u trenerów, fizjoterapeutów, masażystów w modelu marketplace."
+    }
+  ],
+  "businessExamples": [
+    "Aplikacja do rezerwacji wizyt fryzjerskich i kosmetycznych",
+    "Marketplace korepetycji online i stacjonarnych",
+    "Platforma łącząca rodziców z opiekunkami dla dzieci"
+  ],
+  "commonMistakes": [
+    "Wybór 96.40.Z, gdy świadczona jest usługa we własnym imieniu i na własny rachunek — wtedy właściwy jest kod usługi (np. 96.21.Z dla fryzjera, 96.22.Z dla kosmetyczki).",
+    "Pomylenie z 82.40.Z (pośrednictwo w pozostałych usługach biznesowych) — usługi indywidualne (B2C) mają osobny, nowszy kod 96.40.Z w PKD 2025."
+  ],
+  "taxNotes": "Pośrednictwo w usługach indywidualnych to typowo działalność prowizyjna podlegająca VAT, w której rozliczenia z usługodawcami (twórcami) mogą wymagać paragonów / faktur i zgodności z RODO. Odpowiedzialność za jakość usługi zależy od konstrukcji umowy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "20.16.Z",
+  "name": "Produkcja tworzyw sztucznych w formach podstawowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.16.Z obejmuje produkcję polimerów w formach podstawowych — granulatu PE, PP, PVC, PS, PET, ABS, poliamidów oraz żywic epoksydowych, fenolowych i poliestrowych. To kod dla zakładów polimeryzacji dostarczających surowiec dla przetwórców tworzyw.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład polimeryzacji",
+      "use": "Produkuje granulat polietylenu i polipropylenu w reaktorach na skalę przemysłową."
+    },
+    {
+      "persona": "Wytwórca PVC i PET",
+      "use": "Polimeryzuje chlorek winylu i tereftalan etylenu dla przemysłu opakowań i budownictwa."
+    },
+    {
+      "persona": "Producent żywic technicznych",
+      "use": "Dostarcza żywice epoksydowe, fenolowe i poliestrowe dla kompozytów i powłok."
+    },
+    {
+      "persona": "Wytwórca regranulatu z recyklingu",
+      "use": "Produkuje regranulat z odzysku odpadów tworzyw sztucznych jako surowiec wtórny."
+    }
+  ],
+  "businessExamples": [
+    "Zakład produkcji granulatu PE",
+    "Wytwórnia żywic epoksydowych",
+    "Producent regranulatu PET z recyklingu"
+  ],
+  "commonMistakes": [
+    "Wybór 20.16.Z dla produkcji opakowań lub elementów z tworzyw — przetwórstwo to 22.21–22.26.",
+    "Pomylenie z 20.17.Z (kauczuk syntetyczny) — kauczuki SBR, NBR czy butadienowe mają osobny kod."
+  ],
+  "taxNotes": "Produkcja tworzyw sztucznych objęta jest opłatą produktową (rozszerzona odpowiedzialność producenta) oraz regulacjami SUP. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

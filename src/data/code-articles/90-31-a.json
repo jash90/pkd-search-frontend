@@ -1,0 +1,36 @@
+{
+  "code": "90.31.A",
+  "name": "Działalność centrów kultury, domów i ośrodków kultury, klubów i świetlic",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.31.A obejmuje działalność lokalnych instytucji kultury — domów kultury, centrów kultury, klubów osiedlowych i świetlic — które organizują zajęcia, wydarzenia i udostępniają przestrzeń na działania kulturalne i społeczne. Pasuje zarówno do samorządowych instytucji, jak i prywatnych klubów kulturalnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Gminny ośrodek kultury",
+      "use": "Organizuje zajęcia dla mieszkańców, wystawy i wydarzenia kulturalne w gminie."
+    },
+    {
+      "persona": "Centrum kultury w mieście",
+      "use": "Prowadzi sale prób, warsztaty artystyczne i koordynuje życie kulturalne dzielnicy."
+    },
+    {
+      "persona": "Klub osiedlowy / świetlica",
+      "use": "Oferuje zajęcia dla dzieci i dorosłych, organizuje spotkania społecznościowe."
+    },
+    {
+      "persona": "Prywatne centrum kultury",
+      "use": "Komercyjnie wynajmuje przestrzeń artystom, prowadzi warsztaty i spotkania autorskie."
+    }
+  ],
+  "businessExamples": [
+    "Gminny ośrodek kultury z kółkiem teatralnym i zespołem ludowym",
+    "Centrum kultury z galerią i kawiarnią autorską",
+    "Klub osiedlowy z zajęciami dla seniorów i dzieci"
+  ],
+  "commonMistakes": [
+    "Wybór 90.31.A dla teatru lub orkiestry — instytucja produkująca spektakle to 90.20.B (teatry), a koncerty 90.20.A (orkiestry, chóry).",
+    "Pomylenie z 85.52.Z (pozaszkolne formy edukacji artystycznej) — kiedy głównym profilem są regularne kursy taneczne, plastyczne czy muzyczne, kod ten może być właściwszy."
+  ],
+  "taxNotes": "Samorządowe instytucje kultury mają odrębne zasady rozliczeń (dotacje, ustawa o organizowaniu i prowadzeniu działalności kulturalnej). Komercyjne podmioty kulturalne podlegają standardowemu VAT i CIT/PIT. Stawki sprawdź u doradcy podatkowego."
+}

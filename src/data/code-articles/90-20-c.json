@@ -1,0 +1,36 @@
+{
+  "code": "90.20.C",
+  "name": "Pozostała działalność związana z wystawianiem przedstawień artystycznych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.20.C obejmuje pozostałą działalność wykonawczą artystów scenicznych — solistów, aktorów, tancerzy, muzyków występujących indywidualnie, kabaretu, cyrku, magii, stand-upu i innych form widowiska scenicznego. To kategoria dla artystów występujących na własny rachunek poza zespołami.",
+  "whoUsesIt": [
+    {
+      "persona": "Aktor / aktorka",
+      "use": "Występuje w spektaklach teatralnych, filmach i serialach na podstawie umów z producentami."
+    },
+    {
+      "persona": "Stand-uper",
+      "use": "Występuje na scenach klubów komediowych z autorskimi programami solo."
+    },
+    {
+      "persona": "Solista wokalny / instrumentalista",
+      "use": "Daje recitale, koncerty i występy na zaproszenie organizatorów."
+    },
+    {
+      "persona": "Iluzjonista / artysta cyrkowy",
+      "use": "Wykonuje pokazy magii, akrobatyki lub żonglerki na imprezach i scenach."
+    }
+  ],
+  "businessExamples": [
+    "Stand-uper z trasą koncertową po klubach",
+    "Aktor freelancer grający w produkcjach filmowych",
+    "Iluzjonista występujący na firmowych eventach"
+  ],
+  "commonMistakes": [
+    "Wybór 90.20.C dla działalności zespołu lub teatru — wówczas właściwsze są 90.20.A (orkiestry, chóry) lub 90.20.B (teatry).",
+    "Pomylenie z 79.90.C (działalność pilotów wycieczek i przewodników turystycznych) lub 85.52.Z (edukacja artystyczna) — występy publiczne to inna kategoria niż usługi turystyczne czy nauczanie."
+  ],
+  "taxNotes": "Artyści sceniczni mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich w ramach limitu rocznego. Honoraria z umów o dzieło z prawami autorskimi mają specyficzne zasady opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

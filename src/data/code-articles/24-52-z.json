@@ -1,0 +1,36 @@
+{
+  "code": "24.52.Z",
+  "name": "Odlewnictwo staliwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.52.Z obejmuje odlewanie wyrobów ze staliwa węglowego, niskostopowego i wysokostopowego — odlewów dla branży kolejowej (zestawy kołowe, ramy wózków), górniczej (młoty, łańcuchy), zbrojeniowej i ciężkich maszyn. Staliwo cechuje wyższa wytrzymałość niż żeliwo i jest stosowane przy obciążeniach udarowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Odlewnia staliwa dla kolei",
+      "use": "Wytwarza zestawy kołowe, ramy wózków wagonów i elementy zwrotnic."
+    },
+    {
+      "persona": "Producent odlewów dla górnictwa",
+      "use": "Wytwarza ostrza, młoty kruszarek i części maszyn urabiających."
+    },
+    {
+      "persona": "Odlewnia staliwa stopowego",
+      "use": "Wytwarza odlewy ze staliwa nierdzewnego i żaroodpornego dla energetyki i chemii."
+    },
+    {
+      "persona": "Wytwórca odlewów ciężkich konstrukcji",
+      "use": "Wykonuje korpusy walcarek, młotów hutniczych i pras."
+    }
+  ],
+  "businessExamples": [
+    "Odlewnia staliwa dla taboru kolejowego",
+    "Producent odlewów ze staliwa nierdzewnego dla energetyki",
+    "Wytwórca elementów odlewanych dla górnictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 24.52.Z zamiast 24.51.Z (odlewnictwo żeliwa) — żeliwo to materiał o wyższej zawartości węgla, ma odrębny kod.",
+    "Pomylenie z 25.50.Z (kucie, prasowanie, wytłaczanie i walcowanie metali), gdy elementy są kute, a nie odlewane — to inne procesy technologiczne."
+  ],
+  "taxNotes": "Odlewnictwo staliwa objęte jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali odlewni i energochłonności procesu. Stawki sprawdź u doradcy podatkowego."
+}

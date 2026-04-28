@@ -1,0 +1,36 @@
+{
+  "code": "10.61.Z",
+  "name": "Wytwarzanie produktów przemiału zbóż",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.61.Z obejmuje produkcję mąki pszennej, żytniej, owsianej, kukurydzianej, ryżowej, kasz, otrąb, płatków zbożowych i podobnych wyrobów uzyskiwanych przez przemiał zbóż. To podstawowy kod dla młynów, producentów płatków oraz kasz — sektor o silnej pozycji w polskim rolnictwie i przetwórstwie.",
+  "whoUsesIt": [
+    {
+      "persona": "Młyn rolniczy",
+      "use": "Mieli pszenicę i żyto na mąki dla piekarni przemysłowych i rzemieślniczych."
+    },
+    {
+      "persona": "Producent płatków śniadaniowych",
+      "use": "Wytwarza płatki owsiane, kukurydziane i mieszanki musli na rynek retail."
+    },
+    {
+      "persona": "Wytwórnia kasz",
+      "use": "Produkuje kaszę gryczaną, jaglaną, jęczmienną i pęczak w opakowaniach detalicznych."
+    },
+    {
+      "persona": "Młyn rzemieślniczy BIO",
+      "use": "Produkuje mąki ekologiczne z kamiennego mielenia dla piekarni rzemieślniczych i klientów detalicznych."
+    }
+  ],
+  "businessExamples": [
+    "Młyn pszenny dla piekarni",
+    "Producent płatków owsianych",
+    "Wytwórnia kasz pod marką własną"
+  ],
+  "commonMistakes": [
+    "Wybór 10.61.Z zamiast 10.71.Z (produkcja pieczywa), gdy działalność polega głównie na pieczeniu chleba i bułek z własnej mąki — to piekarnictwo.",
+    "Pomylenie z 01.11.Z, gdy uprawiasz zboża i jedynie sprzedajesz ziarno — przemiał zaczyna się dopiero od mielenia na mąkę."
+  ],
+  "taxNotes": "Działalność młynarska wymaga zatwierdzenia sanepidu, HACCP i zgodności z normami znakowania mąk. Działalność CIT/PIT z VAT-em na zasadach ogólnych; mąka i kasze często objęte preferencyjną stawką VAT, sprawdź też mechanizm split payment dla zboża. Stawki sprawdź u doradcy podatkowego."
+}

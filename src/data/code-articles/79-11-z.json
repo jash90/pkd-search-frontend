@@ -1,0 +1,36 @@
+{
+  "code": "79.11.Z",
+  "name": "Działalność agentów turystycznych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 79.11.Z dotyczy pośrednictwa w sprzedaży gotowych imprez turystycznych, biletów lotniczych, kolejowych i autokarowych oraz rezerwacji hoteli i wycieczek przygotowanych przez touroperatorów. Agent działa w imieniu organizatora, nie tworzy własnych pakietów. Jeśli sam łączysz przelot, hotel i atrakcje w jeden produkt — potrzebujesz 79.12.Z (organizator turystyki).",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel biura podróży (agent)",
+      "use": "Sprzedaje gotowe wczasy i wycieczki touroperatorów (Itaka, TUI, Rainbow) klientom indywidualnym."
+    },
+    {
+      "persona": "Agent turystyczny online",
+      "use": "Prowadzi stronę z porównywarką ofert i pośredniczy w rezerwacjach przez systemy IATA/GDS."
+    },
+    {
+      "persona": "Specjalista od podróży korporacyjnych",
+      "use": "Obsługuje rezerwacje biznesowe firm — bilety lotnicze, hotele, transfery dla pracowników."
+    },
+    {
+      "persona": "Konsultant ds. wyjazdów grupowych",
+      "use": "Pośredniczy w sprzedaży obozów, kolonii i pielgrzymek organizowanych przez touroperatorów."
+    }
+  ],
+  "businessExamples": [
+    "Stacjonarne biuro agenta turystycznego z ofertami kilku touroperatorów",
+    "Internetowy agent sprzedający bilety lotnicze i pakiety hotelowe",
+    "Agencja obsługująca podróże służbowe firm (business travel)"
+  ],
+  "commonMistakes": [
+    "Wybór 79.11.Z zamiast 79.12.Z, gdy faktycznie samodzielnie tworzysz pakiet (przelot + hotel + transfer) — to już organizator turystyki, wymaga wpisu do rejestru i gwarancji.",
+    "Pomylenie z 79.90.A (działalność pilotów wycieczek i przewodników turystycznych) — oprowadzanie grup to inna działalność niż pośrednictwo w sprzedaży."
+  ],
+  "taxNotes": "Agent turystyczny zazwyczaj rozlicza VAT od prowizji (nie od pełnej wartości imprezy). Forma opodatkowania zależy od skali — przy niskich kosztach częsty jest ryczałt, przy stacjonarnym biurze i pracownikach — skala lub liniowy. Wymagany jest wpis do rejestru organizatorów turystyki i pośredników turystycznych. Stawki sprawdź u doradcy podatkowego."
+}

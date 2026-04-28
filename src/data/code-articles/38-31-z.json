@@ -1,0 +1,36 @@
+{
+  "code": "38.31.Z",
+  "name": "Spalanie odpadów bez odzysku energii",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.31.Z dotyczy termicznego unieszkodliwiania odpadów — spalania w instalacjach, w których nie odzyskuje się znaczącej ilości energii. To kategoria coraz bardziej niszowa, ponieważ nowe spalarnie w UE muszą spełniać wymogi efektywnego odzysku energii. Dotyczy m.in. spalania odpadów medycznych i niektórych niebezpiecznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator spalarni odpadów medycznych",
+      "use": "Termicznie unieszkodliwia odpady zakaźne i patomorficzne ze szpitali."
+    },
+    {
+      "persona": "Spalarnia odpadów niebezpiecznych",
+      "use": "Niszczy chemikalia, substancje toksyczne, leki przeterminowane."
+    },
+    {
+      "persona": "Mała mobilna instalacja spalania",
+      "use": "Unieszkodliwia odpady zwierzęce kategorii 1 i 2."
+    },
+    {
+      "persona": "Operator instalacji termicznego rozkładu",
+      "use": "Spala specjalistyczne odpady przemysłowe bez generacji energii."
+    }
+  ],
+  "businessExamples": [
+    "Spalarnia odpadów medycznych szpitalna",
+    "Instalacja spalania odpadów weterynaryjnych",
+    "Spalarnia chemikaliów przeterminowanych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.22.Z (odzysk energii) — jeśli spalarnia produkuje ciepło lub prąd dla sieci, kwalifikuje się do 38.22.Z.",
+    "Wybór 38.31.Z zamiast 38.32.Z, gdy odpady są składowane, a nie termicznie unieszkodliwiane."
+  ],
+  "taxNotes": "Spalarnie wymagają pozwoleń zintegrowanych, ścisłego monitoringu emisji i są objęte restrykcyjnymi normami środowiskowymi. Branża rozlicza opłaty środowiskowe i marszałkowskie. Stawki sprawdź u doradcy podatkowego."
+}

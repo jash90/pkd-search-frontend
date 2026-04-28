@@ -1,0 +1,36 @@
+{
+  "code": "74.11.Z",
+  "name": "Działalność w zakresie wzornictwa przemysłowego i projektowania mody",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.11.Z obejmuje projektowanie wzornictwa przemysłowego (industrial design) — kształtu, formy i ergonomii produktów oraz projektowanie mody, odzieży i akcesoriów. To kod dla projektantów produktów, mebli, sprzętów AGD oraz designerów odzieży i akcesoriów.",
+  "whoUsesIt": [
+    {
+      "persona": "Projektant wzornictwa przemysłowego",
+      "use": "Projektuje formy produktów (mebli, AGD, gadżetów) dla producentów — od koncepcji po prototyp."
+    },
+    {
+      "persona": "Projektant mody",
+      "use": "Tworzy kolekcje odzieży i akcesoriów dla własnej marki lub na zlecenie domów mody."
+    },
+    {
+      "persona": "Studio product design",
+      "use": "Świadczy usługi projektowe dla startupów hardware'owych — od idei do gotowego produktu konsumenckiego."
+    },
+    {
+      "persona": "Projektant biżuterii i akcesoriów",
+      "use": "Projektuje kolekcje biżuterii, dodatków i akcesoriów premium dla marek fashion lub własnej linii."
+    }
+  ],
+  "businessExamples": [
+    "Studio industrial design projektujące meble i AGD",
+    "Projektantka mody prowadząca własną markę",
+    "Studio produktowe dla startupów hardware'owych"
+  ],
+  "commonMistakes": [
+    "Wybór 74.11.Z zamiast 74.12.Z — projektowanie graficzne (logo, layouty, ilustracje) to 74.12.Z, a nie wzornictwo przemysłowe.",
+    "Pomylenie z 14.13.Z (produkcja odzieży) — gdy firma sama produkuje i sprzedaje odzież, właściwsze są kody działu 14."
+  ],
+  "taxNotes": "Działalność projektowa może kwalifikować się do ryczałtu według właściwej stawki (zależnie od interpretacji), liniowego, IP Box (przy projektach chronionych prawem autorskim) lub skali. Usługi projektowe podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

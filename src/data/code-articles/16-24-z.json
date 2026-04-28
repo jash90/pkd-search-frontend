@@ -1,0 +1,36 @@
+{
+  "code": "16.24.Z",
+  "name": "Produkcja opakowań drewnianych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.24.Z obejmuje produkcję opakowań drewnianych — palet euro, palet jednorazowych, skrzyń transportowych, beczek, bębnów drewnianych, kratownic, opakowań specjalnych. To kod dla wytwórców palet i skrzyń logistycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent palet euro i jednorazowych",
+      "use": "Produkuje palety EPAL, EUR i jednorazowe dla logistyki i przemysłu."
+    },
+    {
+      "persona": "Wytwórca skrzyń eksportowych",
+      "use": "Produkuje skrzynie zgodne z ISPM-15 do eksportu maszyn i ciężkich ładunków."
+    },
+    {
+      "persona": "Producent beczek drewnianych",
+      "use": "Bednarz wytwarza beczki dębowe dla winiarni, destylarni i piwowarów."
+    },
+    {
+      "persona": "Wytwórca opakowań specjalistycznych",
+      "use": "Produkuje skrzynki na wino, drewniane pudełka prezentowe oraz opakowania dla rękodzieła."
+    }
+  ],
+  "businessExamples": [
+    "Producent palet EPAL dla branży FMCG",
+    "Bednarstwo produkujące beczki dla destylarni",
+    "Wytwórca skrzyń eksportowych ISPM-15"
+  ],
+  "commonMistakes": [
+    "Wybór 16.24.Z zamiast 17.21.Z (Opakowania z papieru i tektury) — pudełka kartonowe to 17.21.Z, a drewniane skrzynie i palety to 16.24.Z.",
+    "Pomylenie z 16.28.Z (Pozostałe wyroby z drewna) — palety i skrzynie zawsze idą do 16.24.Z, a inne drewniane wyroby do 16.28.Z."
+  ],
+  "taxNotes": "Produkcja opakowań drewnianych podlega standardowym stawkom VAT, a opakowania eksportowe wymagają znaku ISPM-15. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "52.25.Z",
+  "name": "Działalność logistyczna",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.25.Z obejmuje kompleksowe zarządzanie łańcuchem dostaw — planowanie, koordynację i kontrolę przepływu towarów oraz informacji od dostawcy do odbiorcy. Pasuje dla operatorów logistycznych 3PL/4PL, firm zarządzających dystrybucją oraz integratorów logistyki kontraktowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator 3PL",
+      "use": "Zarządza magazynowaniem, kompletacją i dystrybucją towarów klienta jako outsourcing logistyki."
+    },
+    {
+      "persona": "Integrator 4PL",
+      "use": "Optymalizuje cały łańcuch dostaw klienta — wybiera przewoźników, magazyny i systemy IT."
+    },
+    {
+      "persona": "Firma e-commerce fulfillment",
+      "use": "Obsługuje zamówienia sklepów internetowych — przyjęcie, kompletacja, pakowanie i wysyłka."
+    },
+    {
+      "persona": "Konsultant logistyczny",
+      "use": "Doradza w zakresie projektowania sieci dystrybucji, wyboru WMS i optymalizacji kosztów transportu."
+    }
+  ],
+  "businessExamples": [
+    "Operator 3PL prowadzący magazyn dla sieci handlowej",
+    "Centrum fulfillment dla sklepów internetowych",
+    "Firma 4PL koordynująca dostawy międzynarodowe"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.10.A (magazynowanie i przechowywanie) — sam wynajem powierzchni magazynowej to inny kod.",
+    "Wybór 52.25.Z zamiast 52.29.C (działalność pozostałych agencji transportowych) — czysta spedycja bez zarządzania łańcuchem dostaw to inny kod."
+  ],
+  "taxNotes": "Działalność logistyczna zwykle rozliczana na zasadach ogólnych lub liniowo. Część usług dla przewoźników międzynarodowych może korzystać z preferencji VAT, a inwestycje w WMS i automatykę kwalifikują się do amortyzacji. Stawki sprawdź u doradcy podatkowego."
+}

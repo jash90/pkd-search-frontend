@@ -1,6 +1,7 @@
 import { ImageResponse } from '@vercel/og';
 
-export const config = { runtime: 'edge' };
+// Runs on Vercel Node.js (Fluid Compute) — @vercel/og no longer reliably
+// bundles for the legacy Edge runtime, so we leave the runtime at default.
 
 const INTER_REGULAR = 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-400-normal.ttf';
 const INTER_BOLD = 'https://cdn.jsdelivr.net/fontsource/fonts/inter@latest/latin-700-normal.ttf';

@@ -1,0 +1,36 @@
+{
+  "code": "49.31.Z",
+  "name": "Transport drogowy pasażerski rozkładowy",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.31.Z obejmuje regularny pasażerski transport drogowy w komunikacji miejskiej i podmiejskiej — autobusy, mikrobusy i trolejbusy poruszające się według rozkładu jazdy w obrębie aglomeracji. To kod dla MPK, MZA, prywatnych operatorów linii miejskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Miejskie przedsiębiorstwo komunikacyjne",
+      "use": "Operuje autobusami miejskimi w komunikacji aglomeracyjnej."
+    },
+    {
+      "persona": "Prywatny przewoźnik miejski",
+      "use": "Realizuje przewozy linii miejskich na zlecenie ZTM/ZIKiT."
+    },
+    {
+      "persona": "Operator komunikacji podmiejskiej",
+      "use": "Łączy aglomerację z gminami podmiejskimi liniami autobusowymi."
+    },
+    {
+      "persona": "Operator trolejbusów",
+      "use": "Prowadzi linię trolejbusową w mieście (np. Lublin, Gdynia, Tychy)."
+    }
+  ],
+  "businessExamples": [
+    "MPK z liniami autobusowymi w aglomeracji",
+    "Prywatny przewoźnik na zlecenie ZTM",
+    "Operator komunikacji podmiejskiej"
+  ],
+  "commonMistakes": [
+    "Wybór 49.31.Z zamiast 49.39.Z — międzymiastowe linie autobusowe (PKS, FlixBus) to 49.39.Z.",
+    "Pomylenie z 49.32.Z — przewozy okazjonalne i nierozkładowe (taksówki, busy na zamówienie) klasyfikują się jako 49.32.Z."
+  ],
+  "taxNotes": "Komunikacja miejska podlega licencjom transportowym, certyfikacjom kierowców i umowom z organizatorem (samorządem). Refundacja biletów ulgowych przez budżet. Stawki sprawdź u doradcy podatkowego."
+}

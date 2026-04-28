@@ -1,0 +1,36 @@
+{
+  "code": "35.40.Z",
+  "name": "Działalność brokerów i agentów w zakresie energii elektrycznej i gazu ziemnego",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.40.Z obejmuje pośrednictwo w obrocie energią elektryczną i gazem ziemnym — usługi brokerskie, doradztwo w wyborze sprzedawcy, organizację przetargów na zakup energii oraz pośrednictwo na giełdzie TGE. To kod dla firm pośredniczących, nie dla samych sprzedawców.",
+  "whoUsesIt": [
+    {
+      "persona": "Broker energetyczny",
+      "use": "Przeprowadza przetargi na zakup energii dla dużych firm i samorządów — wynagrodzenie prowizyjne."
+    },
+    {
+      "persona": "Doradca ds. zakupu energii",
+      "use": "Audytuje umowy i rekomenduje zmianę sprzedawcy energii i gazu dla klientów MŚP."
+    },
+    {
+      "persona": "Agent TGE",
+      "use": "Pośredniczy w transakcjach na Towarowej Giełdzie Energii w imieniu klientów przemysłowych."
+    },
+    {
+      "persona": "Platforma porównująca taryfy",
+      "use": "Prowadzi serwis online porównujący oferty sprzedawców energii dla gospodarstw domowych."
+    }
+  ],
+  "businessExamples": [
+    "Broker energetyczny dla dużej fabryki",
+    "Doradca zakupowy dla samorządu",
+    "Platforma porównywarki taryf prądu i gazu"
+  ],
+  "commonMistakes": [
+    "Wybór 35.40.Z zamiast 35.14.Z (handel energią elektryczną) — własna sprzedaż energii do odbiorców końcowych to inny kod, wymagający koncesji URE.",
+    "Pomylenie z 70.22.Z (doradztwo w zakresie zarządzania) — ogólne doradztwo biznesowe bez specjalizacji energetycznej to inny kod."
+  ],
+  "taxNotes": "Działalność brokerska w energetyce wymaga zwykle wpisu lub koncesji URE w zakresie pośrednictwa, a wynagrodzenie prowizyjne podlega standardowym zasadom rozliczeń VAT. Wybór formy opodatkowania zależy od skali i modelu rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

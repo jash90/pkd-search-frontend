@@ -1,0 +1,36 @@
+{
+  "code": "46.90.Z",
+  "name": "Sprzedaż hurtowa niewyspecjalizowana",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.90.Z obejmuje hurtową sprzedaż szerokiego, niewyspecjalizowanego asortymentu — gdy firma handluje bardzo różnorodnymi towarami z wielu branż jednocześnie. To kod typowy dla cash & carry, hurtowni mieszanych, importerów wielobranżowych i platform handlu zagranicznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia cash & carry",
+      "use": "Prowadzi sklep wielobranżowy dla firm — żywność, chemia, biuro, AGD, narzędzia w jednym miejscu."
+    },
+    {
+      "persona": "Importer wielobranżowy z Azji",
+      "use": "Sprowadza towary z Chin (zabawki, elektronika, dom i ogród) i sprzedaje hurtowo polskim sklepom."
+    },
+    {
+      "persona": "Platforma B2B marketplace",
+      "use": "Pośredniczy w sprzedaży towarów z różnych kategorii do detalistów — model SaaS plus marża transakcyjna."
+    },
+    {
+      "persona": "Eksporter wielobranżowy",
+      "use": "Skupuje towary różnych kategorii w Polsce i eksportuje je na rynki Europy Wschodniej."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia cash & carry dla MŚP",
+    "Importer towarów wielobranżowych z Chin",
+    "Eksporter zaopatrujący sieci na Wschodzie"
+  ],
+  "commonMistakes": [
+    "Wybór 46.90.Z, gdy firma faktycznie specjalizuje się w jednej kategorii — w takim wypadku właściwy jest kod wyspecjalizowany (np. 46.49.Z, 46.69.Z).",
+    "Pomylenie z 47.19.Z (pozostała sprzedaż detaliczna w niewyspecjalizowanych sklepach) — sklepy ogólnospożywcze i wielobranżowe dla konsumentów to detal."
+  ],
+  "taxNotes": "Hurtownie wielobranżowe muszą weryfikować, czy poszczególne kategorie towarów (paliwa, elektronika, stal) podlegają mechanizmowi podzielonej płatności (split payment) z załącznika nr 15. Możliwe są procedury VAT-OSS przy sprzedaży transgranicznej. Stawki sprawdź u doradcy podatkowego."
+}

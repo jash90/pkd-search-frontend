@@ -1,0 +1,36 @@
+{
+  "code": "49.41.Z",
+  "name": "Transport drogowy towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.41.Z obejmuje krajowy i międzynarodowy drogowy transport towarów — przewozy ciężarówkami, busami, chłodniami, cysternami, lawetami. To podstawowy kod dla firm transportowych, kurierów ciężarowych, operatorów flot i niezależnych kierowców z własnym pojazdem.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel firmy transportowej",
+      "use": "Operuje flotą ciężarówek realizujących krajowe i międzynarodowe przewozy."
+    },
+    {
+      "persona": "Niezależny kierowca z ciężarówką",
+      "use": "Prowadzi działalność jako jednoosobowy przewoźnik z własnym pojazdem."
+    },
+    {
+      "persona": "Firma chłodnicza",
+      "use": "Specjalizuje się w przewozach ADR, chłodniczych lub paletowych."
+    },
+    {
+      "persona": "Operator lawety",
+      "use": "Wykonuje przewozy pojazdów (sprowadzanie aut, transport awaryjny)."
+    }
+  ],
+  "businessExamples": [
+    "Firma transportowa z 20 ciężarówkami",
+    "Kierowca z własnym TIR-em — międzynarodówka",
+    "Operator lawety do sprowadzania aut z UE"
+  ],
+  "commonMistakes": [
+    "Wybór 49.41.Z zamiast 49.42.Z — przeprowadzki mieszkaniowe i biurowe mają osobny kod (49.42.Z).",
+    "Pomylenie z 52.29.C — spedycja i organizacja przewozu (bez własnej floty) to działalność wspomagająca transport."
+  ],
+  "taxNotes": "Wymagana licencja transportowa (krajowa/międzynarodowa), tachografy, ubezpieczenie OCP. Możliwy ryczałt lub liniówka — wybór zależy od kosztów paliwa i pojazdu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "96.10.Z",
+  "name": "Pranie i czyszczenie wyrobów tekstylnych i futrzarskich",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.10.Z obejmuje pralnie chemiczne i wodne, pralnie samoobsługowe, pralnie przemysłowe oraz czyszczenie futer, dywanów i obić tapicerskich. Pasuje dla operatorów pralni stacjonarnych, mobilnych i przemysłowych obsługujących hotele, gastronomię i klientów indywidualnych. Sprzedaż detergentów to 47.75.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel pralni chemicznej",
+      "use": "Prowadzi pralnię osiedlową lub w galerii — czyszczenie odzieży, garniturów, sukni ślubnych."
+    },
+    {
+      "persona": "Operator pralni samoobsługowej",
+      "use": "Udostępnia maszyny pralnicze i suszarki na żetony / kartę w lokalu lub wolnostojącym kontenerze."
+    },
+    {
+      "persona": "Pralnia przemysłowa",
+      "use": "Pierze pościel hotelową, odzież roboczą i obrusy gastronomiczne dla klientów B2B."
+    },
+    {
+      "persona": "Mobilny serwis prania dywanów i tapicerek",
+      "use": "Czyści dywany i meble w domach klientów — z podjazdem i sprzętem ekstrakcyjnym."
+    }
+  ],
+  "businessExamples": [
+    "Pralnia chemiczna w galerii handlowej",
+    "Pralnia przemysłowa obsługująca hotele",
+    "Mobilny serwis prania tapicerek samochodowych i meblowych"
+  ],
+  "commonMistakes": [
+    "Wybór 96.10.Z dla samej sprzedaży środków piorących i akcesoriów — to jest 47.75.Z (sprzedaż detaliczna kosmetyków i środków czystości).",
+    "Pomylenie z 81.22.Z (specjalistyczne sprzątanie budynków) — czyszczenie wykładzin na miejscu w ramach pełnego sprzątania obiektów to inny kod."
+  ],
+  "taxNotes": "Pralnie podlegają obowiązkom kasy fiskalnej w sprzedaży detalicznej oraz wymogom środowiskowym dotyczącym chemii pralniczej i ścieków. Forma opodatkowania (skala, liniowy, ryczałt) zależy od skali i kosztów stałych. Stawki sprawdź u doradcy podatkowego."
+}

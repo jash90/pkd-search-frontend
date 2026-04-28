@@ -1,0 +1,36 @@
+{
+  "code": "28.95.Z",
+  "name": "Produkcja maszyn dla przemysłu papierniczego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.95.Z obejmuje produkcję maszyn dla papiernictwa i tektury — maszyn papierniczych, kalandrów, krajarek, urządzeń do pulpy celulozowej i przetwórstwa tektury falistej. Pasuje dla wąskich, specjalistycznych producentów wyposażenia papierni.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent maszyn papierniczych",
+      "use": "Wytwarza maszyny do produkcji papieru, tektury i celulozy dla zakładów papierniczych."
+    },
+    {
+      "persona": "Fabryka maszyn do tektury falistej",
+      "use": "Produkuje tekturnice, klejarki i wycinarki dla branży opakowaniowej."
+    },
+    {
+      "persona": "Wytwórca krajarek i przekrojarek papieru",
+      "use": "Buduje krajarki rolowe, gilotyny i krajarki książkowe dla introligatorni."
+    },
+    {
+      "persona": "Producent urządzeń do pulpy",
+      "use": "Robi rozwłókniacze, sortowniki i urządzenia do oczyszczania pulpy celulozowej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka maszyn do produkcji tektury falistej",
+    "Producent krajarek rolowych dla zakładów papierniczych",
+    "Zakład urządzeń do recyklingu makulatury"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 17.11.Z (produkcja masy włóknistej) — sama produkcja celulozy to inny kod niż produkcja maszyn do niej.",
+    "Wybór 28.99.Z (pozostałe maszyny specjalne) zamiast 28.95.Z dla typowych maszyn papierniczych."
+  ],
+  "taxNotes": "Producenci maszyn papierniczych pracują w modelu projektowym z dużymi kontraktami i długim cyklem produkcji. Forma opodatkowania powinna uwzględniać specyfikę rozliczeń kontraktowych i ulgi B+R. Stawki sprawdź u doradcy podatkowego."
+}

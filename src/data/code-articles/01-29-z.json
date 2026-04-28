@@ -1,0 +1,36 @@
+{
+  "code": "01.29.Z",
+  "name": "Uprawa pozostałych roślin wieloletnich",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.29.Z to kosz na pozostałe uprawy wieloletnie nieujęte w bardziej szczegółowych kodach grupy 01.2 — między innymi choinki, drzewa szybkorosnące do produkcji biomasy (wierzba energetyczna, miskant), uprawy plantacyjne kauczuku oraz inne rośliny wieloletnie do celów technicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent choinek",
+      "use": "Prowadzi plantację jodły kaukaskiej i świerków na sprzedaż sezonową."
+    },
+    {
+      "persona": "Plantator wierzby energetycznej",
+      "use": "Uprawia wierzbę i miskant na biomasę dla elektrociepłowni i biogazowni."
+    },
+    {
+      "persona": "Plantacja roślin technicznych",
+      "use": "Uprawia rośliny wieloletnie na cele przemysłowe niesklasyfikowane gdzie indziej."
+    },
+    {
+      "persona": "Gospodarstwo agroleśne",
+      "use": "Łączy uprawy wieloletnie z gospodarką leśną na potrzeby zrównoważonego rolnictwa."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja choinek bożonarodzeniowych",
+    "Uprawa wierzby energetycznej",
+    "Gospodarstwo agroleśne z miskantem"
+  ],
+  "commonMistakes": [
+    "Wybór 01.29.Z zamiast 02.10.Z (gospodarka leśna), gdy działalność polega na produkcji drewna z lasów, nie z plantacji rolnych.",
+    "Pomylenie z 01.30.Z (rozmnażanie roślin), gdy głównie produkujesz sadzonki choinek lub wierzby do dalszej odsprzedaży."
+  ],
+  "taxNotes": "Plantacje wieloletnie to klasyczna działalność rolnicza objęta podatkiem rolnym, jednak choinki i biomasa mogą podlegać VAT-owi i specyficznym przepisom (np. akcyza energetyczna, zielone certyfikaty). Sprawdź też dotacje dla biomasy. Stawki sprawdź u doradcy podatkowego."
+}

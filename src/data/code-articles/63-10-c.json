@@ -1,0 +1,36 @@
+{
+  "code": "63.10.C",
+  "name": "Działalność w zakresie serwerów sieci dostarczania treści (content delivery network)",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.10.C obejmuje prowadzenie sieci CDN — dystrybucję treści cyfrowych (strony, wideo, pliki, oprogramowanie) z geograficznie rozproszonych serwerów brzegowych. Pasuje dla operatorów CDN, dostawców edge computing i firm świadczących akcelerację dostarczania treści.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator CDN",
+      "use": "Prowadzi globalną sieć serwerów brzegowych — dostarcza strony i wideo blisko użytkowników końcowych."
+    },
+    {
+      "persona": "Dostawca video CDN / live streaming",
+      "use": "Specjalizuje się w dostarczaniu wideo na żywo i VOD do platform streamingowych."
+    },
+    {
+      "persona": "Operator edge computing",
+      "use": "Wynajmuje moce obliczeniowe na brzegu sieci dla aplikacji wymagających niskich opóźnień."
+    },
+    {
+      "persona": "Reseller CDN",
+      "use": "Odsprzedaje pakiety od globalnych CDN-ów (Cloudflare, Akamai) z dodatkowymi usługami."
+    }
+  ],
+  "businessExamples": [
+    "Polski operator CDN dla mediów",
+    "Dostawca video CDN dla platform streamingowych",
+    "Operator edge computing dla IoT"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.10.A (kolokacja i chmura) — generyczna chmura IaaS ma osobną klasę.",
+    "Wybór 63.10.C zamiast 61.10.A (IXP) — wymiana ruchu między operatorami to inna kategoria."
+  ],
+  "taxNotes": "Sprzedaż usług CDN klientom z UE wymaga OSS, a klientom spoza UE — najczęściej reverse charge. Inwestycje w infrastrukturę objęte amortyzacją. Stawki sprawdź u doradcy podatkowego."
+}

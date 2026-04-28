@@ -1,0 +1,36 @@
+{
+  "code": "86.22.Z",
+  "name": "Praktyka lekarska specjalistyczna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.22.Z dotyczy gabinetów lekarzy specjalistów — kardiologów, dermatologów, ginekologów, ortopedów, okulistów, chirurgów ambulatoryjnych itd. Obejmuje wszystkie specjalizacje medyczne poza POZ (86.21.Z) i stomatologią (86.23.Z). Diagnostyka obrazowa to 86.91.A, a fizjoterapia to 86.95.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Specjalista prowadzący prywatny gabinet",
+      "use": "Lekarz po specjalizacji (np. dermatolog, kardiolog) przyjmuje pacjentów prywatnie i/lub w ramach NFZ."
+    },
+    {
+      "persona": "Chirurg ambulatoryjny",
+      "use": "Wykonuje drobne zabiegi chirurgiczne w gabinecie - usuwanie znamion, drobne operacje plastyczne, urazówka."
+    },
+    {
+      "persona": "Spółka prowadząca klinikę specjalistyczną",
+      "use": "Operuje multispecjalistyczną kliniką z wieloma lekarzami różnych specjalności pod jednym dachem."
+    },
+    {
+      "persona": "Lekarz medycyny estetycznej",
+      "use": "Wykonuje zabiegi medycyny estetycznej - botox, kwas hialuronowy, laser, mezoterapia (jako lekarz)."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet kardiologa z prywatną praktyką i NFZ",
+    "Klinika medycyny estetycznej prowadzona przez lekarza",
+    "Wieloosobowa specjalistyczna klinika lekarska"
+  ],
+  "commonMistakes": [
+    "Wybór 86.22.Z dla praktyki POZ / lekarza rodzinnego — to 86.21.Z. Lekarz specjalista pracujący jako POZ używa 86.21.Z.",
+    "Pomylenie z 96.02.Z (fryzjerstwo i pozostałe zabiegi kosmetyczne) — kosmetyczka wykonująca zabiegi nielekarskie używa 96.02.Z, nie 86.22.Z."
+  ],
+  "taxNotes": "Lekarze specjaliści zwykle stosują liniowy lub skalę. Usługi medyczne (profilaktyka, leczenie) są zwolnione z VAT, ale niektóre usługi (np. medycyna estetyczna) mogą podlegać VAT — opinia indywidualna jest wskazana. Wymaga wpisu do rejestru praktyk w izbie lekarskiej. Stawki sprawdź u doradcy podatkowego."
+}

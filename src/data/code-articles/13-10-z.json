@@ -1,0 +1,36 @@
+{
+  "code": "13.10.Z",
+  "name": "Przygotowanie i przędzenie włókien tekstylnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.10.Z obejmuje przygotowanie włókien naturalnych (bawełna, len, wełna, jedwab) i chemicznych do przędzenia oraz produkcję przędzy w różnych systemach (zgrzebny, czesankowy, jedwabnictwo). Nie obejmuje produkcji włókien chemicznych (20.60.Z) ani tkania (13.20.Z). Typowy kod dla przędzalni i firm przygotowujących surowiec włókienniczy.",
+  "whoUsesIt": [
+    {
+      "persona": "Przędzalnia bawełny",
+      "use": "Czesze i przędzie bawełnę na potrzeby tkalni i dzianin oraz produkcji wyrobów technicznych."
+    },
+    {
+      "persona": "Producent przędzy wełnianej",
+      "use": "Sortuje wełnę owczą, czyści i przędzie ją na nici dziewiarskie i tkackie."
+    },
+    {
+      "persona": "Manufaktura przędzy lnianej",
+      "use": "Roszą, międli i przędzie len, oferuje przędzę ekologiczną dla rzemiosła i marek slow fashion."
+    },
+    {
+      "persona": "Producent przędzy syntetycznej",
+      "use": "Skręca i teksturuje filamenty z poliestru i poliamidu w przędze odzieżowe i techniczne."
+    }
+  ],
+  "businessExamples": [
+    "Przędzalnia bawełny dla branży dziewiarskiej",
+    "Manufaktura przędzy lnianej eko",
+    "Zakład teksturowania przędzy syntetycznej"
+  ],
+  "commonMistakes": [
+    "Wybór 13.10.Z zamiast 20.60.Z — produkcja włókien chemicznych (np. wytłaczanie filamentów z polimeru) to chemia, a nie włókiennictwo.",
+    "Mylenie z 13.20.Z (produkcja tkanin) — tkanie i dzianie to dalsze etapy procesu, nie wpadają do przędzalnictwa."
+  ],
+  "taxNotes": "Przemysł tekstylny korzysta ze standardowych zasad opodatkowania (skala, liniowy, ryczałt) z VAT, a eksport do UE i poza nią wymaga prawidłowego rozliczania WDT/eksportu. Stawki sprawdź u doradcy podatkowego."
+}

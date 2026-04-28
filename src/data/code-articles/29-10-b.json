@@ -1,0 +1,36 @@
+{
+  "code": "29.10.B",
+  "name": "Produkcja samochodów osobowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.10.B obejmuje produkcję samochodów osobowych — od kompaktów, sedanów i SUV-ów po samochody luksusowe i sportowe, w tym pojazdy elektryczne (BEV) i hybrydowe (HEV/PHEV). To kluczowy kod dla fabryk samochodów osobowych w Polsce.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka samochodów osobowych",
+      "use": "Montuje samochody osobowe w modelu CKD lub pełnej produkcji dla koncernów motoryzacyjnych."
+    },
+    {
+      "persona": "Producent samochodów elektrycznych",
+      "use": "Wytwarza pojazdy elektryczne (BEV) z własnymi platformami napędowymi i bateriami."
+    },
+    {
+      "persona": "Wytwórca samochodów niszowych i kit cars",
+      "use": "Robi małoseryjne samochody sportowe, repliki i pojazdy dostosowane do indywidualnych zamówień."
+    },
+    {
+      "persona": "Zakład produkujący samochody luksusowe i sportowe",
+      "use": "Tworzy samochody klasy premium i supersportowe w niskoseryjnej produkcji."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka kompaktowych samochodów osobowych dla rynku europejskiego",
+    "Producent rodzimych samochodów elektrycznych BEV",
+    "Zakład małoseryjnej produkcji samochodów sportowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.10.D (pojazdy do przewozu towarów) — vany dostawcze do 3,5 t i pickupy mogą być klasyfikowane różnie zależnie od konstrukcji.",
+    "Wybór 29.20.Z (nadwozia) zamiast 29.10.B — sama produkcja nadwozi bez kompletnego pojazdu to inny kod."
+  ],
+  "taxNotes": "Produkcja samochodów osobowych w Polsce często odbywa się w specjalnych strefach ekonomicznych z pomocą publiczną i ulgami inwestycyjnymi. Strategia podatkowa zależy od skali, eksportu i polityki transferowej grupy. Stawki sprawdź u doradcy podatkowego."
+}

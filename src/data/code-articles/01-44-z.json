@@ -1,0 +1,36 @@
+{
+  "code": "01.44.Z",
+  "name": "Chów i hodowla wielbłądów i zwierząt wielbłądowatych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.44.Z obejmuje chów wielbłądów, lam, alpak, wikunii i guanak. W Polsce to kod stosowany rzadko — głównie przez hodowców alpak (które stają się coraz popularniejsze w agroturystyce) oraz niszowe gospodarstwa egzotyczne.",
+  "whoUsesIt": [
+    {
+      "persona": "Hodowca alpak",
+      "use": "Prowadzi stado alpak na produkcję włókna, sprzedaż zwierząt i agroturystykę."
+    },
+    {
+      "persona": "Farma agroturystyczna",
+      "use": "Łączy hodowlę alpak lub lam z usługami turystycznymi (spacery, sesje zdjęciowe)."
+    },
+    {
+      "persona": "Producent włókna alpaki",
+      "use": "Specjalizuje się w pozyskiwaniu i przygotowaniu wełny alpaki dla manufaktur dziewiarskich."
+    },
+    {
+      "persona": "Niszowe ZOO-gospodarstwo",
+      "use": "Utrzymuje wielbłądy i lamy jako atrakcję edukacyjną i turystyczną."
+    }
+  ],
+  "businessExamples": [
+    "Farma alpak z agroturystyką",
+    "Hodowca lam i wełny alpaczej",
+    "Mini-ZOO z wielbłądami"
+  ],
+  "commonMistakes": [
+    "Wybór 01.44.Z zamiast 91.04.Z (ogrody zoologiczne), gdy działalność jest typowo turystyczno-edukacyjna z biletowaniem wstępu.",
+    "Pomylenie z 01.45.Z (chów owiec i kóz), gdy stado obejmuje też owce — jeśli alpaki są dodatkiem, główny kod może być inny."
+  ],
+  "taxNotes": "Hodowla zwierząt egzotycznych to działalność rolnicza objęta podatkiem rolnym, ale agroturystyka i sprzedaż usług mogą wymagać dodatkowej rejestracji działalności gospodarczej. Sprawdź też zasady VAT i wpis IRZ. Stawki sprawdź u doradcy podatkowego."
+}

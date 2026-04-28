@@ -1,0 +1,36 @@
+{
+  "code": "16.22.Z",
+  "name": "Produkcja gotowych parkietów podłogowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.22.Z obejmuje produkcję gotowych parkietów drewnianych — parkietu klasycznego, deski warstwowej, paneli laminowanych imitujących drewno, mozaik parkietowych. Wykończonych do montażu (czasem już olejowanych lub lakierowanych fabrycznie).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent parkietu warstwowego",
+      "use": "Produkuje deski warstwowe (3-warstwowe) z wykończeniem fabrycznym."
+    },
+    {
+      "persona": "Wytwórca paneli laminowanych",
+      "use": "Produkuje panele HDF z dekoracyjną warstwą laminatu dla retailu."
+    },
+    {
+      "persona": "Manufaktura parkietu klasycznego",
+      "use": "Produkuje parkiet jodełkowy, klepkę i mozaiki dębowe premium."
+    },
+    {
+      "persona": "Producent desek tarasowych z drewna",
+      "use": "Wytwarza deski tarasowe z drewna egzotycznego i krajowego z impregnacją."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura parkietu jodełkowego dla rynku premium",
+    "Fabryka paneli laminowanych dla sieci handlowych",
+    "Producent desek tarasowych z drewna egzotycznego"
+  ],
+  "commonMistakes": [
+    "Wybór 16.22.Z zamiast 16.21.Z — sama produkcja płyt HDF/MDF jako półprodukt to 16.21.Z, a gotowy panel laminowany to 16.22.Z.",
+    "Pomylenie z 43.33.Z (Posadzkarstwo) — montaż parkietu u klienta to 43.33.Z, a produkcja parkietu to 16.22.Z."
+  ],
+  "taxNotes": "Produkcja parkietów i paneli podlega standardowym stawkom VAT, a forma opodatkowania zależy od skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

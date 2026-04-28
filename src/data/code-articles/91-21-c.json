@@ -1,0 +1,36 @@
+{
+  "code": "91.21.C",
+  "name": "Działalność pozostałych podmiotów prezentujących kolekcje dzieł sztuki",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.21.C obejmuje działalność podmiotów prezentujących kolekcje dzieł sztuki, które nie są muzeami (91.21.A) ani galeriami komercyjnymi (91.21.B) — np. fundacje artystyczne, kolekcje korporacyjne udostępniane publiczności, prywatne kolekcje z misją edukacyjną. To kategoria pośrednia dla niszowych form prezentacji sztuki.",
+  "whoUsesIt": [
+    {
+      "persona": "Fundacja artystyczna z kolekcją",
+      "use": "Udostępnia zwiedzającym kolekcję założyciela, prowadzi działalność edukacyjną i wystawienniczą."
+    },
+    {
+      "persona": "Kolekcja korporacyjna",
+      "use": "Firma udostępnia publicznie własną kolekcję sztuki w siedzibie lub odrębnej przestrzeni."
+    },
+    {
+      "persona": "Prywatne centrum sztuki",
+      "use": "Niezależny podmiot z autorską kolekcją otwartą dla zwiedzających poza modelem muzealnym."
+    },
+    {
+      "persona": "Stowarzyszenie kolekcjonerskie",
+      "use": "Prezentuje członkowskie kolekcje na rotacyjnych wystawach z wstępem dla publiczności."
+    }
+  ],
+  "businessExamples": [
+    "Fundacja artystyczna udostępniająca kolekcję założyciela",
+    "Galeria korporacyjna firmy z otwartymi wystawami",
+    "Niezależne centrum sztuki z autorskim programem"
+  ],
+  "commonMistakes": [
+    "Wybór 91.21.C, gdy podmiot ma status muzeum z wpisu do rejestru — wówczas właściwy jest 91.21.A.",
+    "Pomylenie z 91.21.B (galerie sztuki) — kluczowe rozróżnienie to brak głównego profilu komercyjnej sprzedaży dzieł."
+  ],
+  "taxNotes": "Wstęp do tego typu placówek może korzystać z preferencyjnych stawek VAT dla działalności kulturalnej. Fundacje korzystają ze zwolnień dla działalności statutowej. Stawki sprawdź u doradcy podatkowego."
+}

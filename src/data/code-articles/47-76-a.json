@@ -1,0 +1,36 @@
+{
+  "code": "47.76.A",
+  "name": "Sprzedaż detaliczna kwiatów, roślin, nasion, nawozów i środków ochrony roślin",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.76.A obejmuje detaliczną sprzedaż kwiatów ciętych, roślin doniczkowych, sadzonek, nasion, ziemi, nawozów, doniczek i środków ochrony roślin w wyspecjalizowanych sklepach. To kod dla kwiaciarni, sklepów ogrodniczych, centrów ogrodniczych i kiosków z kwiatami.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel kwiaciarni",
+      "use": "Prowadzi kwiaciarnię ze sprzedażą bukietów, kompozycji i roślin doniczkowych."
+    },
+    {
+      "persona": "Centrum ogrodnicze",
+      "use": "Oferuje sadzonki, krzewy, drzewka, nasiona i akcesoria ogrodnicze."
+    },
+    {
+      "persona": "Florysta z usługami eventowymi",
+      "use": "Sprzedaje kwiaty i prowadzi dekoracje weselne oraz wieńce pogrzebowe."
+    },
+    {
+      "persona": "Sklep ogrodniczy",
+      "use": "Specjalizuje się w nawozach, środkach ochrony roślin i ziemiach do upraw."
+    }
+  ],
+  "businessExamples": [
+    "Kwiaciarnia z dostawą tego samego dnia",
+    "Centrum ogrodnicze z roślinami i sadzonkami",
+    "Sklep ogrodniczy z nawozami i nasionami"
+  ],
+  "commonMistakes": [
+    "Wybór 47.76.A zamiast 47.76.B — żywe zwierzęta domowe i karma mają osobny kod (47.76.B).",
+    "Pomylenie z 01.30.Z (rozmnażanie roślin) — jeśli sam produkujesz sadzonki, potrzebny jest kod uprawowy."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej z wyjątkami. Kwiaty mogą mieć obniżoną stawkę VAT, środki ochrony roślin — standardową. Stawki sprawdź u doradcy podatkowego."
+}

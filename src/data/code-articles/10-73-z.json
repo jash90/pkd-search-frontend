@@ -1,0 +1,36 @@
+{
+  "code": "10.73.Z",
+  "name": "Produkcja wyrobów mącznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.73.Z obejmuje produkcję makaronów, klusek, pierogów, kuskusu i podobnych wyrobów mącznych — zarówno świeżych, jak i suszonych, nadziewanych lub bez. To kod dla makaroniarni i wytwórców pierogów, niezależnie od skali produkcji.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka makaronu",
+      "use": "Produkuje makarony suche w opakowaniach detalicznych dla retailu i HoReCa."
+    },
+    {
+      "persona": "Wytwórca pierogów",
+      "use": "Lepi i pakuje pierogi mrożone z różnymi nadzieniami dla sklepów i sieci."
+    },
+    {
+      "persona": "Manufaktura makaronów świeżych",
+      "use": "Produkuje świeże makarony jajeczne na rynek lokalny i dla restauracji."
+    },
+    {
+      "persona": "Producent kuskusu / klusek",
+      "use": "Wytwarza kluski śląskie, kopytka, kuskus jako gotowe produkty mączne."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia pierogów mrożonych dla supermarketów",
+    "Manufaktura świeżego makaronu jajecznego",
+    "Fabryka makaronu suchego pod marką własną"
+  ],
+  "commonMistakes": [
+    "Wybór 10.73.Z zamiast 10.85.Z (Wytwarzanie gotowych posiłków i dań) — gotowe dania z makaronem (np. lasagne mrożone) to 10.85.Z.",
+    "Pomylenie z 10.71.Z dla wyrobów piekarniczych — pierogi i makaron to wyroby mączne, a nie pieczywo."
+  ],
+  "taxNotes": "Wyroby mączne podlegają obniżonej stawce VAT na artykuły spożywcze, a forma opodatkowania zależy od skali produkcji i kosztów. Stawki sprawdź u doradcy podatkowego."
+}

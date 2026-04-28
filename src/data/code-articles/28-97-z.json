@@ -1,0 +1,36 @@
+{
+  "code": "28.97.Z",
+  "name": "Produkcja maszyn do wytwarzania przyrostowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.97.Z to nowy kod w PKD 2025 dla produkcji drukarek 3D i maszyn do wytwarzania przyrostowego (additive manufacturing) — FDM, SLA, SLS, SLM, DMLS i innych technologii. Pasuje dla producentów drukarek 3D dla rynku konsumenckiego, profesjonalnego i przemysłowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent drukarek 3D FDM/SLA",
+      "use": "Wytwarza drukarki 3D dla rynku DIY, edukacji i profesjonalnego prototypowania."
+    },
+    {
+      "persona": "Fabryka przemysłowych systemów AM",
+      "use": "Produkuje przemysłowe maszyny do druku metalu (SLM, EBM) dla branży lotniczej i medycznej."
+    },
+    {
+      "persona": "Wytwórca drukarek SLS dla zastosowań prototypowych",
+      "use": "Buduje urządzenia laserowe spiekania proszków polimerowych dla zakładów R&D."
+    },
+    {
+      "persona": "Producent dużych formatowych drukarek 3D",
+      "use": "Robi drukarki 3D do druku betonem i kompozytami dla budownictwa i architektury."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka drukarek 3D FDM dla edukacji i hobby",
+    "Producent przemysłowych drukarek SLM do druku metalem",
+    "Zakład wielkogabarytowych drukarek 3D do druku betonem"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.41.Z (obrabiarki do metalu) — drukarki 3D do metalu to wytwarzanie przyrostowe, nie obróbka, więc 28.97.Z.",
+    "Wybór 26.20.Z (komputery i urządzenia peryferyjne) zamiast 28.97.Z — drukarka 3D nie jest peryferium komputera w rozumieniu PKD."
+  ],
+  "taxNotes": "Producenci drukarek 3D to często startupy technologiczne korzystające z ulg B+R, IP Box i programów dotacyjnych dla deeptechu. Skala, eksport i innowacyjność wpływają na strategię podatkową. Stawki sprawdź u doradcy podatkowego."
+}

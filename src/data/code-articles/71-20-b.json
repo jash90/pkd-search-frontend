@@ -1,0 +1,36 @@
+{
+  "code": "71.20.B",
+  "name": "Kontrola i wydawanie opinii o stanie technicznym przewodów kominowych oraz wentylacyjnych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.20.B obejmuje przeglądy i opinie techniczne dotyczące przewodów kominowych, dymowych, spalinowych i wentylacyjnych — działalność mistrzów kominiarskich. To kod dla firm i indywidualnych specjalistów wykonujących obowiązkowe okresowe kontrole zgodne z prawem budowlanym.",
+  "whoUsesIt": [
+    {
+      "persona": "Mistrz kominiarski",
+      "use": "Wykonuje obowiązkowe roczne i okresowe przeglądy kominów oraz wystawia protokoły dla właścicieli."
+    },
+    {
+      "persona": "Firma kominiarska",
+      "use": "Obsługuje wspólnoty mieszkaniowe, spółdzielnie i deweloperów w zakresie kontroli i czyszczenia kominów."
+    },
+    {
+      "persona": "Specjalista wentylacji mechanicznej",
+      "use": "Bada i opiniuje stan instalacji wentylacyjnych w budynkach komercyjnych i przemysłowych."
+    },
+    {
+      "persona": "Zakład kominiarski sieciowy",
+      "use": "Świadczy usługi w określonym rejonie z umowami stałymi z gminami i administratorami."
+    }
+  ],
+  "businessExamples": [
+    "Zakład kominiarski obsługujący wspólnoty mieszkaniowe",
+    "Mistrz kominiarski wykonujący przeglądy w domach jednorodzinnych",
+    "Firma badająca wentylację mechaniczną w biurowcach"
+  ],
+  "commonMistakes": [
+    "Wybór 71.20.B zamiast 81.22.Z — gdy firma głównie czyści kominy i kanały wentylacyjne (a nie wystawia opinii), właściwszy może być 81.22.Z.",
+    "Pomylenie z 71.20.C — pozostałe badania techniczne mają osobny kod, kominiarstwo to dedykowana kategoria."
+  ],
+  "taxNotes": "Działalność kominiarska wymaga uprawnień (mistrz kominiarski) i wpisu do rejestru. Usługi podlegają standardowej stawce VAT lub preferencyjnej stawce VAT przy mieszkalnictwie objętym społecznym programem mieszkaniowym. Stawki sprawdź u doradcy podatkowego."
+}

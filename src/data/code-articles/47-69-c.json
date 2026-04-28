@@ -1,0 +1,36 @@
+{
+  "code": "47.69.C",
+  "name": "Sprzedaż detaliczna pozostałych wyrobów związanych z kulturą i rekreacją, gdzie indziej niesklasyfikowana",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.69.C to kod „zbiorczy” dla detalicznej sprzedaży wyrobów kultury i rekreacji nieobjętych innymi kodami grupy 47.6 — m.in. znaczków pocztowych, monet kolekcjonerskich, pamiątek, rękodzieła, dewocjonaliów i specjalistycznych artykułów hobby.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu numizmatycznego",
+      "use": "Sprzedaje monety kolekcjonerskie, banknoty i akcesoria numizmatyczne."
+    },
+    {
+      "persona": "Sklep filatelistyczny",
+      "use": "Oferuje znaczki pocztowe, koperty FDC i akcesoria filatelistyczne."
+    },
+    {
+      "persona": "Sklep z dewocjonaliami",
+      "use": "Sprzedaje przedmioty kultu religijnego, świece, różańce, ikony."
+    },
+    {
+      "persona": "Sklep z pamiątkami",
+      "use": "Oferuje pamiątki turystyczne i regionalne w atrakcyjnych lokalizacjach."
+    }
+  ],
+  "businessExamples": [
+    "Sklep numizmatyczny z monetami kolekcjonerskimi",
+    "Sklep z dewocjonaliami przy parafii",
+    "Sklep z pamiątkami turystycznymi w starówce"
+  ],
+  "commonMistakes": [
+    "Wybór 47.69.C zamiast 47.78.Z, jeśli nie ma kategorii niesklasyfikowanej w grupie 47.6 — czasem wystarczy szerszy kod.",
+    "Pomylenie z 47.79.B — stare monety i znaczki kolekcjonerskie używane mogą podpadać pod antykwariat."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej z wyjątkami. Numizmatyka i filatelistyka mogą korzystać z procedury marży VAT. Stawki sprawdź u doradcy podatkowego."
+}

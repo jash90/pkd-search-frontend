@@ -1,0 +1,36 @@
+{
+  "code": "08.99.Z",
+  "name": "Pozostałe górnictwo i wydobywanie, gdzie indziej niesklasyfikowane",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.99.Z to kosz na pozostałe rodzaje górnictwa nieujęte w bardziej szczegółowych kodach — w tym wydobywanie kamieni szlachetnych i półszlachetnych, asfaltu naturalnego, mineralnych pigmentów, łupków bitumicznych, ścierniw naturalnych. Stosowany rzadko, głównie przy niszowych i specjalistycznych zastosowaniach.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydobywca bursztynu",
+      "use": "Pozyskuje bursztyn bałtycki metodą hydraulicznego rozmywania na podstawie koncesji."
+    },
+    {
+      "persona": "Producent kamieni półszlachetnych",
+      "use": "Wydobywa kamienie ozdobne (ametyst, agat) dla branży jubilerskiej i kamieniarskiej."
+    },
+    {
+      "persona": "Spółka niszowa surowcowa",
+      "use": "Eksploatuje niewielkie złoża surowców specjalistycznych dla przemysłu chemicznego lub kosmetycznego."
+    },
+    {
+      "persona": "Wydobywca pigmentów mineralnych",
+      "use": "Pozyskuje minerały barwiące dla farb, ceramiki i materiałów budowlanych."
+    }
+  ],
+  "businessExamples": [
+    "Wydobywca bursztynu pomorskiego",
+    "Niszowa kopalnia ametystu",
+    "Producent pigmentów mineralnych"
+  ],
+  "commonMistakes": [
+    "Wybór 08.99.Z zamiast 32.12.Z (produkcja wyrobów jubilerskich), gdy działalność polega głównie na obróbce i sprzedaży gotowych wyrobów z kamieni.",
+    "Pomylenie z 08.11.Z, gdy wydobywany jest typowy kamień ozdobny budowlany (granit, piaskowiec) — te mają osobny kod."
+  ],
+  "taxNotes": "Wydobycie wymaga koncesji geologiczno-górniczej i opłat eksploatacyjnych — wydobycie bursztynu na plaży jest oddzielnie regulowane. Działalność CIT/PIT z VAT-em na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "23.91.Z",
+  "name": "Produkcja wyrobów ściernych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.91.Z obejmuje produkcję wyrobów ściernych — papierów ściernych, tarcz tnących i szlifierskich, kamieni szlifierskich, ściernic, past polerskich oraz proszków ściernych z elektrokorundu, węglika krzemu czy diamentu syntetycznego. To kod dla wyspecjalizowanych zakładów dostarczających materiały eksploatacyjne dla przemysłu metalowego, drzewnego i budowlanego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent tarcz tnących i szlifierskich",
+      "use": "Wytwarza tarcze do cięcia stali i kamienia dla warsztatów i firm budowlanych."
+    },
+    {
+      "persona": "Zakład produkcji papieru ściernego",
+      "use": "Wytwarza arkusze i krążki ścierne na bazie tlenku glinu lub węglika krzemu."
+    },
+    {
+      "persona": "Producent ściernic i kamieni szlifierskich",
+      "use": "Wykonuje ściernice trzpieniowe i kamienie do szlifowania metalu i narzędzi."
+    },
+    {
+      "persona": "Wytwórca past polerskich i proszków ściernych",
+      "use": "Dostarcza materiały eksploatacyjne dla branży jubilerskiej, optycznej i obróbki metali."
+    }
+  ],
+  "businessExamples": [
+    "Producent tarcz tnących do stali i kamienia",
+    "Zakład wytwarzający papier ścierny w arkuszach i rolkach",
+    "Producent ściernic do szlifierek przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.91.Z zamiast 28.49.Z (pozostałe narzędzia mechaniczne), gdy główną działalnością są elektronarzędzia, w których ścierniwo jest tylko częścią produktu.",
+    "Pomylenie z 23.99.Z (pozostałe wyroby z mineralnych surowców niemetalicznych) — wyroby ścierne mają własny dedykowany kod 23.91.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów ściernych to działalność wytwórcza objęta VAT na zasadach ogólnych, ze sprzedażą głównie B2B do hurtowni narzędziowych i firm produkcyjnych. Wybór formy opodatkowania zależy od skali produkcji, eksportu i kosztów surowców. Stawki sprawdź u doradcy podatkowego."
+}

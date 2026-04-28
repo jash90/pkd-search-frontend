@@ -1,0 +1,36 @@
+{
+  "code": "24.53.Z",
+  "name": "Odlewnictwo metali lekkich",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.53.Z obejmuje odlewnictwo metali lekkich — głównie aluminium, magnezu i ich stopów — metodami ciśnieniowymi, kokilowymi i piaskowymi. To kod dla odlewni produkujących bloki silników, głowice, felgi, obudowy elektroniczne i części lotnicze, gdzie istotny jest niski ciężar przy zachowaniu wytrzymałości.",
+  "whoUsesIt": [
+    {
+      "persona": "Odlewnia ciśnieniowa aluminium",
+      "use": "Produkuje bloki silników, głowice i obudowy skrzyń biegów dla motoryzacji."
+    },
+    {
+      "persona": "Producent felg aluminiowych",
+      "use": "Odlewa felgi samochodowe metodą niskociśnieniową lub grawitacyjną."
+    },
+    {
+      "persona": "Odlewnia magnezu",
+      "use": "Wytwarza odlewy magnezowe dla branży lotniczej i elektroniki konsumenckiej."
+    },
+    {
+      "persona": "Wytwórca obudów elektronicznych",
+      "use": "Odlewa ciśnieniowo obudowy z aluminium dla branży telekomunikacyjnej i AGD."
+    }
+  ],
+  "businessExamples": [
+    "Odlewnia ciśnieniowa aluminium dla motoryzacji",
+    "Producent felg aluminiowych do samochodów",
+    "Odlewnia magnezu dla branży lotniczej"
+  ],
+  "commonMistakes": [
+    "Wybór 24.53.Z zamiast 24.42.B (produkcja wyrobów z aluminium), gdy firma walcuje lub wyciska profile — to różne procesy.",
+    "Pomylenie z 24.54.A (odlewnictwo miedzi i stopów miedzi) — odlewy z miedzi i mosiądzu mają odrębny kod."
+  ],
+  "taxNotes": "Odlewnictwo metali lekkich objęte jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali odlewni, energochłonności i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

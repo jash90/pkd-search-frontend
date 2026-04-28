@@ -1,0 +1,36 @@
+{
+  "code": "46.37.Z",
+  "name": "Sprzedaż hurtowa herbaty, kawy, kakao i przypraw",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.37.Z obejmuje sprzedaż hurtową kawy (ziarnistej, mielonej, rozpuszczalnej), herbaty, kakao oraz przypraw i ziół — do sklepów, kawiarni, restauracji i palarni kawy. Pasuje do hurtowni branży kawowej, importerów i dystrybutorów. Sprzedaż detaliczna to 47.29.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Importer kawy speciality",
+      "use": "Sprowadza zielone ziarno z plantacji w Etiopii czy Kolumbii dla palarni rzemieślniczych."
+    },
+    {
+      "persona": "Hurtownia kawy i herbaty",
+      "use": "Dystrybuuje markowe kawy i herbaty do sklepów i HoReCa."
+    },
+    {
+      "persona": "Dystrybutor przypraw",
+      "use": "Dostarcza zioła i mieszanki przyprawowe do restauracji, piekarni i mięsnych."
+    },
+    {
+      "persona": "Pośrednik kakao",
+      "use": "Sprzedaje kakao w proszku i półprodukty dla cukierni i czekoladziarni."
+    }
+  ],
+  "businessExamples": [
+    "Importer kawy speciality dla palarni rzemieślniczych",
+    "Hurtownia herbat liściastych dla sklepów delikatesowych",
+    "Dystrybutor przypraw kuchennych dla restauracji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.37.Z dla sprzedaży detalicznej kawy w sklepie — właściwy jest 47.29.Z.",
+    "Pomylenie z 10.83.Z (przetwórstwo herbaty i kawy — palenie, mielenie) — 46.37.Z to wyłącznie handel."
+  ],
+  "taxNotes": "Stawki VAT na kawę, herbatę i przyprawy są zróżnicowane. Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

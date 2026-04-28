@@ -1,0 +1,36 @@
+{
+  "code": "30.92.Z",
+  "name": "Produkcja rowerów i wózków inwalidzkich",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.92.Z obejmuje produkcję rowerów (klasycznych, e-bike pedelec, MTB, gravel, BMX), wózków inwalidzkich (manualnych i elektrycznych do 25 km/h), wózków dziecięcych i ich części. Polska to jeden z największych producentów rowerów w Europie.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka rowerów",
+      "use": "Produkuje rowery miejskie, MTB, gravel i e-bike dla globalnych marek i rynku własnego."
+    },
+    {
+      "persona": "Producent wózków inwalidzkich",
+      "use": "Wytwarza wózki manualne, elektryczne i specjalistyczne wózki sportowe dla osób z niepełnosprawnościami."
+    },
+    {
+      "persona": "Wytwórca komponentów rowerowych",
+      "use": "Robi ramy, koła, siodła i akcesoria rowerowe dla producentów OEM i aftermarket."
+    },
+    {
+      "persona": "Zakład produkcji wózków dziecięcych",
+      "use": "Buduje wózki dziecięce, spacerówki i fotele dziecięce z eksportem na rynki UE."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka e-bike dla rynku zachodnioeuropejskiego",
+    "Producent specjalistycznych wózków inwalidzkich aktywnych",
+    "Zakład premium wózków dziecięcych dla rynku premium"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.91.Z (motocykle) — rowery elektryczne pedelec do 25 km/h z asystą to rowery, nie motocykle.",
+    "Wybór 32.99.Z (wyroby pozostałe) zamiast 30.92.Z dla wózków inwalidzkich — wózki klasyfikuje się tutaj, nie jako wyroby medyczne."
+  ],
+  "taxNotes": "Branża rowerowa w Polsce ma silnie eksportowy profil z wykorzystaniem SSE, ulg B+R i programów wsparcia e-mobility. Forma opodatkowania zależy od skali, modelu sprzedaży i polityki cenowej. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "84.23.Z",
+  "name": "Wymiar sprawiedliwości",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.23.Z obejmuje sądy, prokuraturę, instytucje wymiaru sprawiedliwości, więziennictwo (Służba Więzienna), kuratorską służbę sądową. Dotyczy wyłącznie organów państwowych wymiaru sprawiedliwości. Działalność prawnicza prywatna (kancelarie adwokackie, radcowskie, notarialne) to kody w 69.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Sąd rejonowy / okręgowy",
+      "use": "Rozpoznaje sprawy cywilne, karne, gospodarcze, rodzinne — wydaje wyroki i postanowienia."
+    },
+    {
+      "persona": "Prokuratura",
+      "use": "Prowadzi postępowania przygotowawcze, oskarża w sprawach karnych, nadzoruje śledztwa Policji."
+    },
+    {
+      "persona": "Zakład karny / areszt śledczy",
+      "use": "Wykonuje kary pozbawienia wolności i tymczasowe aresztowania — Służba Więzienna."
+    },
+    {
+      "persona": "Sądowy kurator zawodowy",
+      "use": "Wykonuje obowiązki probacji, nadzór nad warunkowo zwolnionymi i nieletnimi w sprawach rodzinnych."
+    }
+  ],
+  "businessExamples": [
+    "Sąd Rejonowy rozpatrujący sprawy cywilne i karne",
+    "Prokuratura Okręgowa prowadząca postępowania przygotowawcze",
+    "Zakład karny wykonujący kary pozbawienia wolności"
+  ],
+  "commonMistakes": [
+    "Wybór 84.23.Z przez kancelarie prawne i notarialne — prywatna działalność prawnicza to 69.10.Z, ten kod jest dla organów państwowych wymiaru sprawiedliwości.",
+    "Pomylenie z 84.24.Z (porządek publiczny) — Policja i służby specjalne mają osobny kod, nie wspólny z sądami."
+  ],
+  "taxNotes": "Organy wymiaru sprawiedliwości finansowane z budżetu państwa, nie podlegają standardowym formom opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

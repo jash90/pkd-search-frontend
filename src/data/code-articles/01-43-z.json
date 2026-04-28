@@ -1,0 +1,36 @@
+{
+  "code": "01.43.Z",
+  "name": "Chów i hodowla koni i pozostałych zwierząt koniowatych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.43.Z obejmuje chów koni (sportowych, rekreacyjnych, hodowlanych, pociągowych), osłów, mułów i innych zwierząt koniowatych. Sama nauka jazdy konnej i prowadzenie stajni rekreacyjnej zwykle dodatkowo wymaga kodu z sekcji R (rekreacja) lub P (edukacja).",
+  "whoUsesIt": [
+    {
+      "persona": "Stadnina koni",
+      "use": "Hoduje konie sportowe lub rekreacyjne, sprzedaje źrebaki i konie dorosłe."
+    },
+    {
+      "persona": "Gospodarstwo agroturystyczne",
+      "use": "Łączy hodowlę koni z usługami pensjonatu konnego i nauką jazdy."
+    },
+    {
+      "persona": "Hodowca koni rasowych",
+      "use": "Pracuje hodowlanie nad doskonaleniem rasy (np. polski koń szlachetny półkrwi, huzul)."
+    },
+    {
+      "persona": "Stajnia pensjonatowa",
+      "use": "Utrzymuje konie należące do klientów, sprzedaje też pasze i akcesoria jeździeckie."
+    }
+  ],
+  "businessExamples": [
+    "Stadnina koni rekreacyjnych",
+    "Hodowca koni szlachetnych półkrwi",
+    "Pensjonat z hodowlą huzulów"
+  ],
+  "commonMistakes": [
+    "Wybór 01.43.Z zamiast 93.19.Z (działalność sportowa), gdy główną aktywnością jest nauka jazdy konnej i obozy jeździeckie — wówczas dodatkowo lub zamiast tego kodu sportowego.",
+    "Pomylenie z 01.62.Z (usługi wspomagające chów zwierząt), gdy świadczysz wyłącznie usługi pensjonatowe bez własnej hodowli."
+  ],
+  "taxNotes": "Chów koni jako działalność rolnicza zwykle jest objęty podatkiem rolnym, jednak duże stadniny i działalność rekreacyjna mogą wymagać działalności gospodarczej. Sprawdź też zasady VAT i ewentualne dotacje hodowlane. Stawki sprawdź u doradcy podatkowego."
+}

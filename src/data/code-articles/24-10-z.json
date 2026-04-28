@@ -1,0 +1,36 @@
+{
+  "code": "24.10.Z",
+  "name": "Produkcja surówki, żelazostopów, żeliwa i stali oraz wyrobów hutniczych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.10.Z obejmuje pierwotną produkcję metali żelaznych — surówki w wielkim piecu, stali w konwertorach tlenowych i piecach elektrycznych, żelazostopów, żeliwa, a także wyrobów hutniczych: kęsów, kęsisk, prętów, blach grubych, walcówki, taśm i kształtowników stalowych. Nie obejmuje produkcji rur (24.20.Z) ani odlewów (24.5).",
+  "whoUsesIt": [
+    {
+      "persona": "Huta zintegrowana",
+      "use": "Prowadzi pełny ciąg metalurgiczny od wielkiego pieca przez konwertor i ciągłe odlewanie po walcownie."
+    },
+    {
+      "persona": "Mini-mill (huta elektryczna)",
+      "use": "Wytwarza stal w piecach łukowych z złomu, walcuje pręty żebrowane i kształtowniki."
+    },
+    {
+      "persona": "Producent żelazostopów",
+      "use": "Wytwarza żelazomangan, żelazokrzem i inne stopy w piecach żuślowych dla hutnictwa stali."
+    },
+    {
+      "persona": "Walcownia blach na zimno i gorąco",
+      "use": "Walcuje blachy ze slabów dostarczanych z hut zintegrowanych dla branży motoryzacyjnej i AGD."
+    }
+  ],
+  "businessExamples": [
+    "Huta zintegrowana z pełnym cyklem produkcyjnym",
+    "Mini-mill produkujący pręty żebrowane ze złomu",
+    "Walcownia blach gorącowalcowanych dla motoryzacji"
+  ],
+  "commonMistakes": [
+    "Wybór 24.10.Z zamiast 24.20.Z — produkcja rur i przewodów stalowych ma odrębną klasę PKD.",
+    "Mylenie z 25.50.Z (kucie, prasowanie, wytłaczanie metali) — dalsze przetwórstwo wyrobów hutniczych w wyroby gotowe to inna sekcja."
+  ],
+  "taxNotes": "Hutnictwo to branża energochłonna podlegająca ETS, regulacjom CBAM, ulgom dla energochłonnych oraz standardowym zasadom CIT i VAT z mechanizmem odwrotnego obciążenia w niektórych transakcjach. Stawki sprawdź u doradcy podatkowego."
+}

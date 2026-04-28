@@ -1,0 +1,36 @@
+{
+  "code": "16.27.Z",
+  "name": "Wykończanie wyrobów drewnianych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.27.Z obejmuje wykończanie wyrobów drewnianych — lakierowanie, malowanie, olejowanie, woskowanie, bejcowanie, polerowanie, patynowanie elementów drewnianych dostarczonych przez klienta. To kod dla zakładów świadczących usługi wykończenia powierzchniowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Lakiernia drewna",
+      "use": "Lakieruje meble, schody, drzwi i parkiety na zamówienie producentów."
+    },
+    {
+      "persona": "Zakład olejowania i woskowania",
+      "use": "Olejuje powierzchnie drewniane parkietów i mebli ekologicznymi środkami."
+    },
+    {
+      "persona": "Renowator powierzchni drewnianych",
+      "use": "Bejcuje, patynuje i wykańcza meble antykwaryczne oraz nowe wyroby stylizowane."
+    },
+    {
+      "persona": "Zakład malowania mebli na zlecenie",
+      "use": "Maluje fronty mebli i elementy drewniane proszkowo i natryskowo."
+    }
+  ],
+  "businessExamples": [
+    "Lakiernia natryskowa dla producentów mebli",
+    "Zakład olejowania parkietów i schodów",
+    "Renowator mebli z patynowaniem i bejcowaniem"
+  ],
+  "commonMistakes": [
+    "Wybór 16.27.Z zamiast 31.01.Z (Produkcja mebli biurowych) — produkcja całego mebla z wykończeniem to 31.01.Z lub 31.09.Z, a samo wykończanie powierzchni to 16.27.Z.",
+    "Pomylenie z 43.34.Z (Malowanie i szklenie) — lakierowanie wnętrz u klienta (drzwi, parkiety in-situ) to 43.34.Z, a w zakładzie to 16.27.Z."
+  ],
+  "taxNotes": "Wykończanie drewna podlega standardowym stawkom VAT, a usługi z dostawą materiału do budownictwa mieszkalnego mogą podlegać preferencyjnym stawkom. Stawki sprawdź u doradcy podatkowego."
+}

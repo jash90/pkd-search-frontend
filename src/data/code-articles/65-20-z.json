@@ -1,0 +1,36 @@
+{
+  "code": "65.20.Z",
+  "name": "Działalność w zakresie reasekuracji",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 65.20.Z obejmuje działalność towarzystw reasekuracji — przyjmowanie ryzyk od ubezpieczycieli pierwotnych w zamian za część składki. To wąsko wyspecjalizowany kod dla zakładów reasekuracji (cesjonariuszy) działających na rynku B2B z ubezpieczycielami.",
+  "whoUsesIt": [
+    {
+      "persona": "Towarzystwo reasekuracji",
+      "use": "Przyjmuje ryzyka majątkowe i osobowe od ubezpieczycieli polskich i zagranicznych — pakiety traktatowe."
+    },
+    {
+      "persona": "Reasekurator branżowy",
+      "use": "Specjalizuje się w jednym segmencie ryzyk — np. cyber, katastrofy naturalne, ubezpieczenia rolne, lotnicze."
+    },
+    {
+      "persona": "Captive reasekuracyjny grupy",
+      "use": "Spółka reasekuracyjna w ramach grupy kapitałowej obsługująca ryzyka ubezpieczeniowe macierzystej grupy."
+    },
+    {
+      "persona": "Międzynarodowy oddział reasekuracji",
+      "use": "Polski oddział globalnego reasekuratora obsługujący rynek Europy Środkowo-Wschodniej."
+    }
+  ],
+  "businessExamples": [
+    "Krajowe towarzystwo reasekuracji majątkowej",
+    "Captive reasekuracyjny dużej grupy energetycznej",
+    "Oddział międzynarodowego reasekuratora"
+  ],
+  "commonMistakes": [
+    "Wybór 65.20.Z zamiast 65.12.Z (pozostałe ubezpieczenia osobowe oraz ubezpieczenia majątkowe) — sama sprzedaż polis ubezpieczeniowych klientom końcowym to inny kod.",
+    "Pomylenie z 66.22.Z (działalność agentów i brokerów ubezpieczeniowych) — pośrednictwo w zawieraniu umów ubezpieczeniowych to inny kod niż przyjmowanie ryzyk reasekuracyjnych."
+  ],
+  "taxNotes": "Działalność reasekuracyjna podlega nadzorowi KNF i wymaga licencji jako towarzystwo reasekuracji, a usługi reasekuracji są zwolnione z VAT na podstawie art. 43 ustawy o VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "39.00.Z",
+  "name": "Działalność związana z rekultywacją i pozostała działalność usługowa związana z gospodarką odpadami",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 39.00.Z obejmuje rekultywację terenów skażonych i poprzemysłowych, oczyszczanie gleby z metali ciężkich i substancji ropopochodnych, usuwanie azbestu, dekontaminację oraz działalność usługową przy katastrofach ekologicznych. To wąski kod dla wyspecjalizowanych firm środowiskowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma rekultywacyjna",
+      "use": "Przywraca tereny pokopalniane, składowiska i hałdy do stanu umożliwiającego nowe zagospodarowanie."
+    },
+    {
+      "persona": "Specjalista usuwania azbestu",
+      "use": "Demontuje pokrycia eternitowe z budynków, pakuje i przekazuje na uprawnione składowisko."
+    },
+    {
+      "persona": "Firma dekontaminacyjna",
+      "use": "Oczyszcza gleby skażone substancjami ropopochodnymi po wyciekach na stacjach paliw lub w bazach paliwowych."
+    },
+    {
+      "persona": "Operator usuwania skutków zdarzeń",
+      "use": "Reaguje na rozlewy chemiczne, awarie cystern i pożary składowisk — neutralizacja i sprzątanie."
+    }
+  ],
+  "businessExamples": [
+    "Firma rekultywująca tereny pokopalniane",
+    "Specjalista demontażu azbestu",
+    "Operator dekontaminacji po wyciekach"
+  ],
+  "commonMistakes": [
+    "Wybór 39.00.Z zamiast 38.22.Z (przetwarzanie odpadów niebezpiecznych) — sama obróbka odpadów w instalacji to inny kod niż usługa rekultywacji terenu.",
+    "Pomylenie z 43.12.Z (przygotowanie terenu pod budowę) — typowe roboty ziemne pod inwestycję bez aspektu środowiskowego to inny kod."
+  ],
+  "taxNotes": "Usługi rekultywacyjne wymagają decyzji środowiskowych i zezwoleń marszałka województwa, a kontrakty często finansowane są z funduszy NFOŚiGW lub UE, co wpływa na rozliczenia VAT. Stawki sprawdź u doradcy podatkowego."
+}

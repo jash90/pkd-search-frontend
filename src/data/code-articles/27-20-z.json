@@ -1,0 +1,36 @@
+{
+  "code": "27.20.Z",
+  "name": "Produkcja baterii i akumulatorów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.20.Z obejmuje produkcję ogniw galwanicznych pierwotnych (baterii jednorazowych — alkaliczne, litowe, cynkowo-węglowe) oraz akumulatorów wtórnych (kwasowo-ołowiowych, niklowo-kadmowych, niklowo-wodorkowych, litowo-jonowych, LiFePO4) w postaci pojedynczych ogniw, modułów i pakietów. Nie obejmuje produkcji superkondensatorów ani recyklingu baterii (38.32.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent akumulatorów rozruchowych",
+      "use": "Wytwarza akumulatory ołowiowe SLI dla motoryzacji, AGM dla aplikacji cyklicznych i UPS."
+    },
+    {
+      "persona": "Fabryka ogniw litowo-jonowych",
+      "use": "Produkuje ogniwa Li-Ion i moduły bateryjne dla branży e-mobility i magazynów energii."
+    },
+    {
+      "persona": "Wytwórnia pakietów bateryjnych BMS",
+      "use": "Składa pakiety z ogniw zakupionych, projektuje BMS i obudowy dla elektronarzędzi i e-rowerów."
+    },
+    {
+      "persona": "Producent baterii pierwotnych",
+      "use": "Wytwarza baterie alkaliczne, litowe pastylkowe i specjalistyczne dla rynku konsumenckiego i wojska."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka akumulatorów ołowiowych SLI",
+    "Wytwórnia pakietów Li-Ion dla e-rowerów",
+    "Producent baterii alkalicznych pod marką własną"
+  ],
+  "commonMistakes": [
+    "Wybór 27.20.Z zamiast 38.32.Z — recykling baterii i odzysk metali z zużytych ogniw to gospodarka odpadami, nie produkcja.",
+    "Mylenie z 27.11.Z (produkcja silników, prądnic i transformatorów) — generatory energii to inna kategoria niż chemiczne źródła prądu."
+  ],
+  "taxNotes": "Produkcja baterii podlega rygorom unijnym (rozporządzenie o bateriach, REACH, BDO), opłacie produktowej i standardowym zasadom CIT/PIT i VAT. Innowacyjne projekty bateryjne mogą korzystać z B+R i ulg strefowych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "08.92.Z",
+  "name": "Wydobywanie torfu",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.92.Z obejmuje wydobywanie torfu, jego brykietowanie i wstępną obróbkę. Torf wykorzystywany jest jako podłoże w ogrodnictwie, surowiec balneologiczny, paliwo lokalne oraz w lecznictwie. W Polsce wydobycie torfu jest mocno ograniczone przepisami środowiskowymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent podłoży ogrodniczych",
+      "use": "Wydobywa torf na potrzeby produkcji podłoży uprawowych i mieszanek ziemiowych."
+    },
+    {
+      "persona": "Uzdrowisko balneologiczne",
+      "use": "Eksploatuje torf borowinowy dla zabiegów leczniczych w sanatoriach."
+    },
+    {
+      "persona": "Producent brykietu torfowego",
+      "use": "Wydobywa torf i przerabia go na brykiety opałowe dla rynków lokalnych."
+    },
+    {
+      "persona": "Lokalny zakład wydobywczy",
+      "use": "Pozyskuje torf na potrzeby rolnictwa, leśnictwa i zastosowań technicznych."
+    }
+  ],
+  "businessExamples": [
+    "Torfownia produkcji podłoży",
+    "Wydobywca borowiny dla uzdrowiska",
+    "Lokalna kopalnia torfu opałowego"
+  ],
+  "commonMistakes": [
+    "Wybór 08.92.Z zamiast 20.15.Z, gdy główną działalnością jest mieszanie torfu z dodatkami i pakowanie podłoży ogrodniczych — to produkcja chemiczna/ogrodnicza.",
+    "Pomylenie z 02.30.Z (zbieranie produktów leśnych), gdy pozyskujesz wyłącznie ściółkę leśną i mech, a nie torf z torfowiska."
+  ],
+  "taxNotes": "Wydobycie torfu wymaga koncesji i pozwoleń środowiskowych — torfowiska są często objęte ochroną Natura 2000. Działalność CIT/PIT z VAT-em na zasadach ogólnych; uzdrowiska mogą stosować preferencyjne reżimy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "95.24.Z",
+  "name": "Naprawa i konserwacja mebli i wyposażenia domowego",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.24.Z obejmuje naprawę i renowację mebli oraz wyposażenia domowego — tapicerowanie, naprawę mebli drewnianych, renowację antyków, naprawę ram i krzeseł. Pasuje dla tapicerów, stolarzy meblowych i pracowni renowacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Tapicer",
+      "use": "Wymienia obicia, sprężyny i wypełnienia kanap, foteli i krzeseł na zamówienie klientów."
+    },
+    {
+      "persona": "Stolarz meblowy",
+      "use": "Naprawia i restauruje meble drewniane, łączy uszkodzone elementy."
+    },
+    {
+      "persona": "Pracownia renowacji antyków",
+      "use": "Specjalizuje się w odnawianiu zabytkowych mebli z zachowaniem oryginalnych technik."
+    },
+    {
+      "persona": "Mobilna usługa naprawy mebli",
+      "use": "Świadczy drobne naprawy u klienta — rozkręcanie, montaż, regulacja zawiasów."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia tapicerska z renowacją kanap i krzeseł",
+    "Studio renowacji antyków drewnianych",
+    "Mobilna ekipa montażowo-naprawcza mebli IKEA"
+  ],
+  "commonMistakes": [
+    "Wybór 95.24.Z dla produkcji nowych mebli na zamówienie — produkcja mebli to 31.01–31.09 (różne klasy działu 31).",
+    "Pomylenie z 43.32.Z (zakładanie stolarki budowlanej) — montaż mebli wbudowanych jako element wykończenia wnętrz to inna kategoria."
+  ],
+  "taxNotes": "Renowacja antyków może wymagać dokumentowania pochodzenia obiektów. Drobne pracownie często wybierają ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

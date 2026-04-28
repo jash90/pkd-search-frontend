@@ -1,0 +1,36 @@
+{
+  "code": "27.51.Z",
+  "name": "Produkcja elektrycznego sprzętu gospodarstwa domowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.51.Z obejmuje produkcję dużego i małego AGD elektrycznego — lodówek, zamrażarek, pralek, suszarek, zmywarek, kuchenek, mikrofal, ekspresów do kawy, blenderów, odkurzaczy, żelazek, suszarek do włosów oraz innych urządzeń elektrycznych dla domu. To kod dla wytwórców kompletnych urządzeń AGD pod marką własną lub OEM.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent dużego AGD",
+      "use": "Wytwarza pralki, lodówki i zmywarki dla rynku europejskiego."
+    },
+    {
+      "persona": "Wytwórca małego AGD",
+      "use": "Produkuje czajniki, tostery, miksery i ekspresy do kawy."
+    },
+    {
+      "persona": "Producent odkurzaczy",
+      "use": "Wytwarza odkurzacze workowe, bezworkowe i robotyczne dla rynku detalicznego."
+    },
+    {
+      "persona": "Wytwórca AGD do pielęgnacji",
+      "use": "Produkuje suszarki, prostownice, golarki elektryczne i depilatory."
+    }
+  ],
+  "businessExamples": [
+    "Producent pralek i zmywarek pod marką własną",
+    "Wytwórnia ekspresów do kawy i czajników",
+    "Producent robotów odkurzających"
+  ],
+  "commonMistakes": [
+    "Wybór 27.51.Z zamiast 28.25.Z (produkcja przemysłowych urządzeń chłodniczych i wentylacyjnych) — chłodziarki i klimatyzacja przemysłowa to 28.25.Z, AGD domowe to 27.51.Z.",
+    "Pomylenie z 27.52.Z (produkcja nieelektrycznego sprzętu gospodarstwa domowego) — kuchenki gazowe i piecyki bez prądu mają kod 27.52.Z."
+  ],
+  "taxNotes": "Produkcja AGD elektrycznego objęta jest VAT na zasadach ogólnych. Wymagane oznakowania CE, klas energetycznych (etykieta energetyczna UE) i opłaty BDO za produkty. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

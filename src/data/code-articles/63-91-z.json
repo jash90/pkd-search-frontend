@@ -1,0 +1,36 @@
+{
+  "code": "63.91.Z",
+  "name": "Działalność wyszukiwarek internetowych",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.91.Z obejmuje prowadzenie wyszukiwarek internetowych — indeksowanie zawartości stron, udostępnianie wyników wyszukiwania i monetyzację przez reklamy lub API. Pasuje dla operatorów wyszukiwarek ogólnych, niszowych (vertical search) oraz wyszukiwarek branżowych typu marketplace search.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator wyszukiwarki ogólnej",
+      "use": "Prowadzi wyszukiwarkę webową z własnym crawlerem i indeksem (np. lokalna alternatywa)."
+    },
+    {
+      "persona": "Operator vertical search",
+      "use": "Buduje wyszukiwarkę branżową (np. ofert pracy, mieszkań, lotów, kodów PKD)."
+    },
+    {
+      "persona": "Dostawca wyszukiwarki dla intranetów",
+      "use": "Sprzedaje rozwiązania enterprise search dla firm — indeksowanie wewnętrznych zasobów."
+    },
+    {
+      "persona": "Operator porównywarki cen",
+      "use": "Prowadzi porównywarkę produktów lub usług z modelem prowizyjnym lub CPC."
+    }
+  ],
+  "businessExamples": [
+    "Wyszukiwarka ofert pracy z agregacją z wielu źródeł",
+    "Porównywarka cen produktów elektronicznych",
+    "Wyszukiwarka kodów PKD dla przedsiębiorców"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.92.Z (pozostała działalność w zakresie informacji) — agregatory danych bez funkcji wyszukiwania mają inny kod.",
+    "Wybór 63.91.Z zamiast 73.12.D (sprzedaż miejsca na cele reklamowe w mediach elektronicznych) — gdy głównym przychodem są reklamy, a usługa wyszukiwania jest poboczna."
+  ],
+  "taxNotes": "Wyszukiwarki monetyzowane przez reklamy programmatic mają specyficzne rozliczenia VAT (m.in. usługi cyfrowe, OSS). Możliwa kwalifikacja do IP Box przy własnych algorytmach. Stawki sprawdź u doradcy podatkowego."
+}

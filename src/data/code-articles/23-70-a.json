@@ -1,0 +1,36 @@
+{
+  "code": "23.70.A",
+  "name": "Produkcja nagrobków, grobowców i płyt nagrobnych z kamienia",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.70.A obejmuje cięcie, formowanie i wykończanie kamienia naturalnego (granit, marmur, piaskowiec) wyłącznie pod kątem produkcji nagrobków, pomników nagrobnych, grobowców i płyt nagrobnych. To wąsko sprofilowany kod dla zakładów kamieniarskich obsługujących branżę pogrzebową.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład kamieniarski",
+      "use": "Wytwarza nagrobki granitowe i marmurowe na zamówienie rodzin oraz w stałym asortymencie."
+    },
+    {
+      "persona": "Producent grobowców",
+      "use": "Buduje grobowce rodzinne i piwniczki cmentarne z elementów kamiennych."
+    },
+    {
+      "persona": "Rzeźbiarz nagrobny",
+      "use": "Wykonuje rzeźby figuralne, krzyże i ozdobne elementy nagrobne z kamienia."
+    },
+    {
+      "persona": "Hurtownia kamienia z usługą docinki",
+      "use": "Sprzedaje płyty nagrobne docinane na wymiar dla zakładów pogrzebowych."
+    }
+  ],
+  "businessExamples": [
+    "Zakład kamieniarski produkujący nagrobki granitowe",
+    "Pracownia rzeźbiarska wykonująca pomniki cmentarne",
+    "Producent grobowców rodzinnych z kamienia naturalnego"
+  ],
+  "commonMistakes": [
+    "Wybór 23.70.A zamiast 23.70.B, gdy firma wytwarza również parapety, blaty kuchenne czy elementy elewacji — szerszy zakres wymaga kodu 23.70.B.",
+    "Pomylenie z 96.03.Z (pogrzeby i działalność pokrewna) — sprzedaż nagrobków w ramach kompleksowych usług pogrzebowych klasyfikuje się inaczej niż sama produkcja kamieniarska."
+  ],
+  "taxNotes": "Produkcja kamieniarska to klasyczna działalność wytwórcza objęta VAT na zasadach ogólnych, często z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali przerobu kamienia, kosztów surowca i zatrudnienia. Stawki sprawdź u doradcy podatkowego."
+}

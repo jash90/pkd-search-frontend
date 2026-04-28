@@ -1,0 +1,36 @@
+{
+  "code": "49.39.Z",
+  "name": "Pozostały transport lądowy pasażerski, gdzie indziej niesklasyfikowany",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.39.Z obejmuje pozostały lądowy transport pasażerski niesklasyfikowany w innych kodach — m.in. międzymiastowe linie autobusowe (PKS, FlixBus), przewozy turystyczne, transport zaprzęgami konnymi, riksze i specjalne przewozy lądowe. To kod dla większości międzymiastowych przewoźników autobusowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Przewoźnik PKS",
+      "use": "Realizuje regularne kursy międzymiastowe i międzywojewódzkie autobusami."
+    },
+    {
+      "persona": "Operator FlixBus / podobnych marek",
+      "use": "Prowadzi międzynarodowe i międzymiastowe przewozy autokarowe według rozkładu."
+    },
+    {
+      "persona": "Firma busowa",
+      "use": "Realizuje przewozy busowe na trasach krajowych i międzynarodowych."
+    },
+    {
+      "persona": "Operator dorożek konnych",
+      "use": "Świadczy turystyczne przewozy zaprzęgami konnymi (np. Kraków, Zakopane)."
+    }
+  ],
+  "businessExamples": [
+    "Przewoźnik PKS na trasach regionalnych",
+    "Bus do pracy z PL do DE/NL",
+    "Dorożki konne w Krakowie"
+  ],
+  "commonMistakes": [
+    "Wybór 49.39.Z zamiast 49.31.Z — komunikacja miejska aglomeracyjna to 49.31.Z, międzymiastowa to 49.39.Z.",
+    "Pomylenie z 79.12.Z — organizacja wycieczek z autokarem to działalność biura podróży, sam autokar to przewóz."
+  ],
+  "taxNotes": "Wymagana licencja na transport krajowy/międzynarodowy, certyfikaty kierowców i tachografy. Stawki sprawdź u doradcy podatkowego."
+}

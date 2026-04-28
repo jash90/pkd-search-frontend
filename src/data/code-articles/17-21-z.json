@@ -1,0 +1,36 @@
+{
+  "code": "17.21.Z",
+  "name": "Produkcja papieru falistego, tektury falistej oraz opakowań z papieru i tektury",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.21.Z obejmuje produkcję tektury falistej (z gotowych rolek papieru) oraz opakowań z papieru i tektury — pudełek klapowych, fasonowych, kartonów, tub kartonowych, worków papierowych, wytłoczek z masy papierowej. To kod dla wytwórców opakowań kartonowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórca pudeł kartonowych",
+      "use": "Produkuje pudełka klapowe i fasonowe dla branży e-commerce, FMCG i logistyki."
+    },
+    {
+      "persona": "Producent tektury falistej",
+      "use": "Wytwarza arkusze tektury 3-warstwowej, 5-warstwowej i 7-warstwowej dla dalszej obróbki."
+    },
+    {
+      "persona": "Manufaktura kartonów premium",
+      "use": "Produkuje pudełka prezentowe, sztywne kartony do kosmetyków i produktów luksusowych."
+    },
+    {
+      "persona": "Wytwórca worków papierowych i tub",
+      "use": "Produkuje worki papierowe, tuby kartonowe i opakowania dla branży budowlanej oraz spożywczej."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórca pudeł kartonowych dla e-commerce",
+    "Producent kartonów premium do kosmetyków",
+    "Manufaktura tub kartonowych dla branży budowlanej"
+  ],
+  "commonMistakes": [
+    "Wybór 17.21.Z zamiast 17.12.Z — produkcja samego papieru w rolach to 17.12.Z, a wyrobów z papieru (pudełka, worki) to 17.21.Z.",
+    "Pomylenie z 16.24.Z (Opakowania drewniane) — drewniane skrzynie i palety to 16.24.Z, a kartonowe pudła to 17.21.Z."
+  ],
+  "taxNotes": "Produkcja opakowań z papieru i tektury podlega standardowym stawkom VAT i regulacjom dotyczącym opakowań (np. ROP, opłata produktowa). Stawki sprawdź u doradcy podatkowego."
+}

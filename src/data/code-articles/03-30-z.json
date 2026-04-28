@@ -1,0 +1,36 @@
+{
+  "code": "03.30.Z",
+  "name": "Działalność usługowa wspomagająca rybołówstwo i akwakulturę",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 03.30.Z obejmuje usługi pomocnicze dla rybołówstwa i akwakultury — m.in. inspekcje stad ryb, transport żywych ryb, doradztwo dla hodowców, czyszczenie i konserwację stawów hodowlanych, obsługę portów rybackich i sortowanie połowów. Nie obejmuje samego połowu (03.11/03.12) ani hodowli ryb (03.21/03.22). Typowy kod dla firm serwisowych dla branży rybackiej.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma transportu żywych ryb",
+      "use": "Przewozi narybek i ryby konsumpcyjne specjalistycznymi cysternami między hodowlami i punktami sprzedaży."
+    },
+    {
+      "persona": "Doradca dla gospodarstw rybackich",
+      "use": "Doradza w zakresie żywienia, profilaktyki chorób i optymalizacji obsad w stawach karpiowych i pstrągowych."
+    },
+    {
+      "persona": "Serwis sprzętu rybackiego",
+      "use": "Konserwuje sieci, podbieraki, napowietrzacze i pompy w gospodarstwach akwakultury."
+    },
+    {
+      "persona": "Operator usług w porcie rybackim",
+      "use": "Świadczy usługi sortowania, ważenia i schładzania połowów dla kutrów na nabrzeżu."
+    }
+  ],
+  "businessExamples": [
+    "Firma przewożąca narybek między hodowlami",
+    "Doradztwo weterynaryjno-hodowlane dla stawów karpiowych",
+    "Serwis napowietrzaczy i pomp w obiektach pstrągowych"
+  ],
+  "commonMistakes": [
+    "Wybór 03.30.Z zamiast 03.22.Z, jeśli firma faktycznie hoduje ryby słodkowodne, a nie tylko świadczy usługi dla innych hodowców.",
+    "Mylenie z 75.00.Z (działalność weterynaryjna) — leczenie ryb przez lekarza weterynarii to usługa weterynaryjna, a nie ogólne wsparcie hodowli."
+  ],
+  "taxNotes": "Usługi dla akwakultury mogą podlegać specjalnym stawkom VAT na produkty rolne i wymagać rejestracji u Inspekcji Weterynaryjnej. Forma opodatkowania zależy od skali (skala, liniowy, ryczałt). Stawki sprawdź u doradcy podatkowego."
+}

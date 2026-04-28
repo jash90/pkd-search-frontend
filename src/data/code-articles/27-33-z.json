@@ -1,0 +1,36 @@
+{
+  "code": "27.33.Z",
+  "name": "Produkcja sprzętu instalacyjnego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.33.Z obejmuje produkcję sprzętu instalacyjnego elektrycznego — gniazd, wyłączników, ściemniaczy, puszek instalacyjnych, listew zasilających, koryt kablowych, korytek, drabinek kablowych, opraw bezpiecznikowych oraz osprzętu modułowego. To kod dla wytwórców osprzętu elektrotechnicznego dla budownictwa i instalatorów.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent gniazd i wyłączników",
+      "use": "Wytwarza osprzęt instalacyjny dla budownictwa mieszkaniowego i komercyjnego."
+    },
+    {
+      "persona": "Wytwórca koryt i drabinek kablowych",
+      "use": "Produkuje system tras kablowych dla obiektów przemysłowych i budynków."
+    },
+    {
+      "persona": "Producent listew i przedłużaczy",
+      "use": "Wytwarza listwy zasilające z zabezpieczeniami przepięciowymi dla biur i domów."
+    },
+    {
+      "persona": "Wytwórca puszek i osprzętu modułowego",
+      "use": "Produkuje puszki podtynkowe, natynkowe i osprzęt na szynę DIN."
+    }
+  ],
+  "businessExamples": [
+    "Producent gniazd i wyłączników instalacyjnych",
+    "Wytwórnia koryt kablowych dla obiektów przemysłowych",
+    "Producent listew zasilających z ochroną przepięciową"
+  ],
+  "commonMistakes": [
+    "Wybór 27.33.Z zamiast 27.12.Z (produkcja aparatury rozdzielczej), gdy zakład produkuje rozdzielnice — gotowe rozdzielnice to 27.12.Z, sam osprzęt instalacyjny to 27.33.Z.",
+    "Pomylenie z 27.40.Z (produkcja elektrycznego sprzętu oświetleniowego) — oprawy oświetleniowe mają osobny kod 27.40.Z."
+  ],
+  "taxNotes": "Produkcja osprzętu elektroinstalacyjnego objęta jest VAT na zasadach ogólnych. Wymagane są certyfikaty bezpieczeństwa CE i deklaracje zgodności. Wybór formy opodatkowania zależy od skali produkcji i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

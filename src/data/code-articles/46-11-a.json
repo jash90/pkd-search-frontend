@@ -1,0 +1,36 @@
+{
+  "code": "46.11.A",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową zbóż i nasion oleistych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.11.A obejmuje działalność agentów i pośredników sprzedających na zlecenie zboża (pszenicę, kukurydzę, jęczmień, żyto) oraz nasiona oleiste (rzepak, słonecznik, soję). Agent nie kupuje towaru na własny rachunek — pośredniczy między rolnikiem/producentem a odbiorcą hurtowym, otrzymując prowizję.",
+  "whoUsesIt": [
+    {
+      "persona": "Niezależny agent zbożowy",
+      "use": "Pośredniczy w sprzedaży zboża z gospodarstw do młynów i punktów skupu."
+    },
+    {
+      "persona": "Broker rynku rolnego",
+      "use": "Zawiera kontrakty na dostawy zbóż między producentami a przetwórcami."
+    },
+    {
+      "persona": "Przedstawiciel grupy producentów rolnych",
+      "use": "Reprezentuje rolników w negocjacjach z odbiorcami hurtowymi."
+    },
+    {
+      "persona": "Agent eksportowy zbożowy",
+      "use": "Pośredniczy w sprzedaży zboża i rzepaku do odbiorców zagranicznych."
+    }
+  ],
+  "businessExamples": [
+    "Pośrednictwo w skupie zbóż dla młynów",
+    "Brokerstwo kontraktów rzepakowych",
+    "Agent eksportu pszenicy paszowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.21.Z (sprzedaż hurtowa zbóż na własny rachunek) — agent działa na zlecenie, nie kupuje towaru.",
+    "Wybór 46.11.A zamiast 01.11.Z, gdy faktycznie firma uprawia zboża, a nie pośredniczy w handlu."
+  ],
+  "taxNotes": "Działalność agencyjna rozliczana jest na podstawie prowizji. Może podlegać systemowi VAT z odwrotnym obciążeniem przy niektórych transakcjach. Stawki sprawdź u doradcy podatkowego."
+}

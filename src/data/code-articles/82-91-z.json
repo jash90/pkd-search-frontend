@@ -1,0 +1,36 @@
+{
+  "code": "82.91.Z",
+  "name": "Działalność świadczona przez agencje inkasa i biura kredytowe",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.91.Z obejmuje windykację należności, prowadzenie biur kredytowych, ocenę zdolności kredytowej i historii płatniczej. Działalność dotyczy windykacji zewnętrznej (na zlecenie) i raportowania kredytowego — np. baz dłużników. Nie obejmuje samego udzielania kredytów (64.92.Z) ani działalności komorniczej.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja windykacji polubownej",
+      "use": "Odzyskuje wierzytelności na zlecenie firm — wezwania, telefony, mediacje przedsądowe z dłużnikami."
+    },
+    {
+      "persona": "Biuro informacji kredytowej",
+      "use": "Prowadzi bazy danych o historii płatniczej osób i firm, sprzedaje raporty bankom i firmom pożyczkowym."
+    },
+    {
+      "persona": "Firma skupująca długi",
+      "use": "Kupuje portfele wierzytelności od banków i firm, samodzielnie prowadzi windykację we własnym imieniu."
+    },
+    {
+      "persona": "Specjalista windykacji terenowej",
+      "use": "Świadczy usługi mobilnej windykacji — wizyty u dłużników, ustalenia adresowe, negocjacje na miejscu."
+    }
+  ],
+  "businessExamples": [
+    "Agencja windykacji obsługująca firmy telekomunikacyjne i pożyczkowe",
+    "Biuro raportowania kredytowego B2B",
+    "Firma skupująca portfele długów konsumenckich"
+  ],
+  "commonMistakes": [
+    "Wybór 82.91.Z dla czynności komorniczych — egzekucja sądowa to wyłącznie zawód komornika sądowego, nie działalność gospodarcza pod tym kodem.",
+    "Pomylenie z 69.10.Z (działalność prawnicza) — windykacja sądowa prowadzona przez kancelarię to działalność prawnicza, nie inkaso."
+  ],
+  "taxNotes": "Działalność windykacyjna podlega regulacjom (m.in. ustawa o kredycie konsumenckim, RODO, etyka windykacyjna). Skala lub liniowy są częste przy zatrudnianiu pracowników. VAT obowiązkowy po przekroczeniu limitu. Stawki sprawdź u doradcy podatkowego."
+}

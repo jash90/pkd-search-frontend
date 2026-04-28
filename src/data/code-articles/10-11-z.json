@@ -1,0 +1,36 @@
+{
+  "code": "10.11.Z",
+  "name": "Przetwarzanie i konserwowanie mięsa, z wyłączeniem mięsa z drobiu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.11.Z obejmuje ubój zwierząt rzeźnych (bydło, świnie, owce, kozy, konie, dziczyzna), rozbiór tusz, produkcję mięsa świeżego, schłodzonego, mrożonego oraz solonego — z wyłączeniem drobiu, który ma osobny kod 10.12.Z. To podstawowy kod dla zakładów mięsnych i ubojni czerwonego mięsa.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład mięsny",
+      "use": "Prowadzi ubój wieprzowiny i wołowiny, rozbiór tusz oraz pakowanie mięsa świeżego."
+    },
+    {
+      "persona": "Ubojnia rzemieślnicza",
+      "use": "Świadczy usługi uboju dla rolników indywidualnych i mniejszych dostawców mięsa."
+    },
+    {
+      "persona": "Mała ubojnia gospodarcza",
+      "use": "Prowadzi ubój ze sprzedażą bezpośrednią w kanale RHD i restauracjach."
+    },
+    {
+      "persona": "Producent dziczyzny",
+      "use": "Skupuje i obrabia tusze zwierząt łownych dla rynku premium i restauracji."
+    }
+  ],
+  "businessExamples": [
+    "Zakład mięsny z ubojnią wieprzowiny",
+    "Mała ubojnia gospodarcza",
+    "Producent dziczyzny premium"
+  ],
+  "commonMistakes": [
+    "Wybór 10.11.Z zamiast 10.13.Z, gdy działalność polega głównie na produkcji wędlin, kiełbas i konserw mięsnych — to osobny kod produkcji wyrobów z mięsa.",
+    "Pomylenie z 10.12.Z, gdy zakład ubija drób (kurczęta, indyki, gęsi) — drób ma własny kod."
+  ],
+  "taxNotes": "Działalność ubojowa wymaga uprawnień IW, dopuszczeń weterynaryjnych i HACCP. Działalność CIT/PIT z VAT-em na zasadach ogólnych — sprawdź też zasady mechanizmu split payment dla mięsa i akcyzę paliwową dla chłodni. Stawki sprawdź u doradcy podatkowego."
+}

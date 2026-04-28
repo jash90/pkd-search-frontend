@@ -1,0 +1,36 @@
+{
+  "code": "30.91.Z",
+  "name": "Produkcja motocykli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.91.Z obejmuje produkcję motocykli, skuterów, motorowerów i pojazdów dwukołowych z silnikiem (spalinowym lub elektrycznym), w tym ich silników i głównych podzespołów. Pasuje dla producentów motocykli klasycznych, sportowych, off-road i e-motocykli.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka motocykli klasycznych",
+      "use": "Produkuje motocykle drogowe, naked, cruiser i adventure dla rynku europejskiego."
+    },
+    {
+      "persona": "Producent motocykli elektrycznych",
+      "use": "Wytwarza e-motocykle, e-skutery i e-motorowery dla zeroemisyjnej mobilności miejskiej."
+    },
+    {
+      "persona": "Wytwórca motocykli wyczynowych",
+      "use": "Robi motocykle sportowe, supersport i wyczynowe maszyny do motorsportu."
+    },
+    {
+      "persona": "Zakład produkcji skuterów i motorowerów",
+      "use": "Buduje skutery komunikacyjne i motorowery do 50 cm3 dla rynku miejskiego."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka motocykli adventure i enduro dla rynku europejskiego",
+    "Producent elektrycznych skuterów miejskich",
+    "Zakład produkcji motocykli wyczynowych do MX i SX"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.10.E (pozostałe pojazdy silnikowe) — quady to nie motocykle, idą pod 29.10.E.",
+    "Wybór 30.92.Z (rowery) zamiast 30.91.Z — rowery elektryczne (pedelec) z asystą do 25 km/h to nadal rowery, nie motocykle."
+  ],
+  "taxNotes": "Branża motocyklowa w Polsce to nisza z dużym udziałem eksportu i specjalizacji w produktach niszowych. Forma opodatkowania zależy od skali, ulg na innowacje (e-mobility) i polityki eksportowej. Stawki sprawdź u doradcy podatkowego."
+}

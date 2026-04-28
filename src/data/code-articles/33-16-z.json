@@ -1,0 +1,36 @@
+{
+  "code": "33.16.Z",
+  "name": "Naprawa i konserwacja cywilnych statków powietrznych i statków kosmicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.16.Z obejmuje serwis MRO (Maintenance, Repair, Overhaul) cywilnych samolotów, śmigłowców, dronów i sprzętu kosmicznego — przeglądy okresowe, remonty silników, modernizacje awioniki, naprawy strukturalne. To wąska, wysoce regulowana branża z certyfikatem EASA Part-145.",
+  "whoUsesIt": [
+    {
+      "persona": "Stacja MRO certyfikowana EASA",
+      "use": "Wykonuje przeglądy bazowe (C-check, D-check) samolotów dla linii lotniczych."
+    },
+    {
+      "persona": "Serwis silników lotniczych",
+      "use": "Realizuje naprawy główne i przeglądy turbinowych silników lotniczych dla przewoźników."
+    },
+    {
+      "persona": "Warsztat naprawy śmigłowców",
+      "use": "Świadczy usługi serwisu śmigłowców EMS, korporacyjnych i prywatnych."
+    },
+    {
+      "persona": "Firma serwisu dronów komercyjnych",
+      "use": "Naprawia profesjonalne drony dla branży agro, geodezyjnej i przemysłowej."
+    }
+  ],
+  "businessExamples": [
+    "Stacja obsługi technicznej samolotów A320/B737",
+    "Warsztat naprawy śmigłowców EC135/AW139",
+    "Centrum remontu silników turbośmigłowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.17.Z (pozostały sprzęt transportowy) — samoloty to 33.16.Z, kolej i tramwaje to 33.17.Z.",
+    "Wybór 30.31.Z (produkcja samolotów) zamiast 33.16.Z — produkcja nowych jednostek to inny kod niż serwis."
+  ],
+  "taxNotes": "Branża lotniczego MRO podlega restrykcyjnym regulacjom (EASA, FAR Part-145) i specjalnym zasadom rozliczania VAT (zerowa stawka na usługi dla przewoźników międzynarodowych). Strategia podatkowa wymaga specjalistycznej konsultacji. Stawki sprawdź u doradcy podatkowego."
+}

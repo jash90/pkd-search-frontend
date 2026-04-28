@@ -1,0 +1,36 @@
+{
+  "code": "52.24.C",
+  "name": "Przeładunek towarów w pozostałych punktach przeładunkowych",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.24.C obejmuje przeładunek towarów w lokalizacjach innych niż porty morskie i śródlądowe — terminalach kolejowych, drogowych, lotniczych centrach cargo czy bocznicach przemysłowych. Pasuje dla operatorów terminali przeładunkowych, baz logistycznych i hubów intermodalnych poza portami.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator terminala kolejowego",
+      "use": "Przeładowuje kontenery i naczepy między pociągami a samochodami ciężarowymi w terminalach lądowych."
+    },
+    {
+      "persona": "Firma cargo lotnicza",
+      "use": "Obsługuje przeładunek towarów w terminalu cargo na lotnisku — przyjęcie, sortowanie, ekspedycja."
+    },
+    {
+      "persona": "Operator bazy paliw",
+      "use": "Przeładowuje paliwa płynne i gazowe między cysternami kolejowymi a samochodowymi."
+    },
+    {
+      "persona": "Firma świadcząca usługi crossdock",
+      "use": "Realizuje przepływ towarów bez magazynowania — między dwoma środkami transportu drogowego."
+    }
+  ],
+  "businessExamples": [
+    "Terminal kontenerowy kolejowo-drogowy w głębi kraju",
+    "Cargo handler na lotnisku przeładowujący przesyłki express",
+    "Baza paliwowa z przeładunkiem cysternowym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.24.A/B (przeładunek w portach morskich/śródlądowych) — lokalizacja decyduje o właściwym kodzie.",
+    "Wybór 52.24.C zamiast 52.10.A (magazynowanie towarów) — jeśli głównym przedmiotem jest składowanie, a nie przeładunek."
+  ],
+  "taxNotes": "Działalność przeładunkowa zwykle prowadzona na zasadach ogólnych. Inwestycje w sprzęt podlegają amortyzacji, a usługi międzynarodowe mogą korzystać z preferencji VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "43.21.Z",
+  "name": "Wykonywanie instalacji elektrycznych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.21.Z obejmuje wykonywanie instalacji elektrycznych w budynkach i obiektach — instalacje siłowe, oświetleniowe, niskoprądowe (alarm, monitoring, LAN, domofon), montaż rozdzielnic, paneli fotowoltaicznych, ładowarek do aut elektrycznych, oświetlenia drogowego. To podstawowy kod dla elektryków instalatorów.",
+  "whoUsesIt": [
+    {
+      "persona": "Elektryk z firmą jednoosobową",
+      "use": "Wykonuje instalacje elektryczne w domach jednorodzinnych i mieszkaniach."
+    },
+    {
+      "persona": "Firma od fotowoltaiki",
+      "use": "Montuje panele PV i podłącza je do instalacji budynku."
+    },
+    {
+      "persona": "Wykonawca instalacji niskoprądowych",
+      "use": "Realizuje sieci LAN, alarmy, monitoring i automatykę budynkową."
+    },
+    {
+      "persona": "Firma od ładowarek EV",
+      "use": "Instaluje stacje ładowania samochodów elektrycznych w domach i firmach."
+    }
+  ],
+  "businessExamples": [
+    "Instalacja elektryczna domu jednorodzinnego",
+    "Montaż instalacji PV 10 kWp z magazynem energii",
+    "Stacje ładowania EV w parkingu firmowym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.12.B (energetyka słoneczna) — montaż paneli to 43.21.Z, produkcja energii to 35.12.B.",
+    "Wybór 43.21.Z zamiast 42.22.Z, gdy firma buduje sieci zewnętrzne wysokich napięć, a nie instalacje wewnętrzne."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Wykonawcy potrzebują uprawnień SEP do prac przy instalacjach elektrycznych. Stawki sprawdź u doradcy podatkowego."
+}

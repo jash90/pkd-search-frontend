@@ -1,0 +1,36 @@
+{
+  "code": "23.14.Z",
+  "name": "Produkcja włókien szklanych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.14.Z obejmuje produkcję włókien szklanych — wełny szklanej do izolacji termicznej i akustycznej, mat, tkanin szklanych, rovingów do kompozytów oraz włókien szklanych do produkcji wzmocnień. To kod dla zakładów wytwarzających włókna ze stopu szkła.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wełny szklanej",
+      "use": "Wytwarza maty i panele izolacyjne dla budownictwa i przemysłu."
+    },
+    {
+      "persona": "Wytwórca rovingów szklanych",
+      "use": "Produkuje włókna szklane ciągłe do produkcji laminatów i kompozytów."
+    },
+    {
+      "persona": "Producent tkanin szklanych",
+      "use": "Wytwarza tkaniny i siatki z włókna szklanego do elewacji i kompozytów."
+    },
+    {
+      "persona": "Zakład siatek elewacyjnych",
+      "use": "Produkuje siatki z włókna szklanego do systemów ociepleń ETICS."
+    }
+  ],
+  "businessExamples": [
+    "Producent wełny szklanej do izolacji",
+    "Wytwórnia rovingów dla łodzi z laminatu",
+    "Zakład siatek elewacyjnych ETICS"
+  ],
+  "commonMistakes": [
+    "Wybór 23.14.Z dla wyrobów z włókna szklanego (np. łodzi) — gotowe laminaty to 22.29.Z lub branżowe kody.",
+    "Pomylenie z 23.99.Z (pozostałe wyroby mineralne) — wełna mineralna z bazaltu to inny kod."
+  ],
+  "taxNotes": "Materiały izolacyjne wymagają deklaracji DoP zgodnie z CPR i certyfikatu reakcji na ogień. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

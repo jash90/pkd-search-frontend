@@ -1,0 +1,36 @@
+{
+  "code": "29.20.Z",
+  "name": "Produkcja nadwozi do pojazdów silnikowych, z wyłączeniem motocykli; produkcja przyczep i naczep",
+  "section": "C",
+      "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.20.Z obejmuje produkcję nadwozi do samochodów ciężarowych, autobusów i busów, a także wytwarzanie przyczep, naczep i kontenerów transportowych. To właściwy kod dla zabudów specjalistycznych — chłodni, wywrotek, izoterm, lawet czy cystern.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład zabudów specjalistycznych",
+      "use": "Buduje nadwozia chłodnicze, izotermy lub furgony na podwoziach dostawczych klientów."
+    },
+    {
+      "persona": "Producent przyczep i naczep",
+      "use": "Wytwarza naczepy plandekowe, niskopodwoziowe lub cysterny dla firm transportowych."
+    },
+    {
+      "persona": "Wytwórnia lawet i przyczep lekkich",
+      "use": "Produkuje przyczepy do samochodów osobowych — lawety, przyczepy bagażowe, przyczepy do przewozu zwierząt."
+    },
+    {
+      "persona": "Firma karoseryjna",
+      "use": "Wykonuje zabudowy na pojazdach specjalnych — wozy strażackie, ambulanse, śmieciarki."
+    }
+  ],
+  "businessExamples": [
+    "Producent naczep chłodniczych dla branży FMCG",
+    "Zakład zabudów pożarniczych i ratowniczych",
+    "Wytwórnia lawet i przyczep podłodziowych"
+  ],
+  "commonMistakes": [
+    "Wybór 29.20.Z zamiast 29.10.E (produkcja samochodów ciężarowych) — produkcja kompletnego pojazdu z podwoziem to inny kod.",
+    "Pomylenie z 45.20.Z (naprawa pojazdów) — przebudowa i serwis nadwozi w ramach naprawy podlega innej klasyfikacji."
+  ],
+  "taxNotes": "Branża wytwarzania zabudów objęta jest mechanizmem podzielonej płatności (split payment) i wymogami homologacyjnymi wpływającymi na rozliczenia VAT przy sprzedaży końcowej. Wybór formy opodatkowania zależy od skali produkcji i modelu sprzedaży B2B vs B2C. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "50.10.Z",
+  "name": "Transport morski i przybrzeżny pasażerski",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 50.10.Z obejmuje regularne i wycieczkowe przewozy pasażerów statkami morskimi i przybrzeżnymi — promy, statki wycieczkowe, tramwaje wodne między portami i wycieczki morskie. To kod dla operatorów promów Bałtyku, statków pasażerskich i armatorów lokalnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator promów bałtyckich",
+      "use": "Obsługuje regularną linię promową Polska–Skandynawia z pasażerami pieszymi i pojazdami."
+    },
+    {
+      "persona": "Armator wycieczkowy",
+      "use": "Organizuje rejsy wycieczkowe wzdłuż wybrzeża, do portów Bałtyku lub na Hel z Trójmiasta."
+    },
+    {
+      "persona": "Operator tramwaju wodnego",
+      "use": "Prowadzi sezonowe linie pasażerskie w obrębie zatoki (Sopot, Gdynia, Gdańsk, Półwysep Helski)."
+    },
+    {
+      "persona": "Lokalny armator",
+      "use": "Obsługuje krótkie rejsy między wyspami i przystaniami przybrzeżnymi (Świnoujście, Jamno)."
+    }
+  ],
+  "businessExamples": [
+    "Operator promu Świnoujście–Ystad",
+    "Armator wycieczek po Zatoce Gdańskiej",
+    "Sezonowy tramwaj wodny do Helu"
+  ],
+  "commonMistakes": [
+    "Wybór 50.10.Z zamiast 50.30.Z (transport wodny śródlądowy pasażerski) — rejsy po jeziorach, rzekach i kanałach to transport śródlądowy, nie morski.",
+    "Pomylenie z 50.20.Z (transport morski towarów) — przewóz pojazdów ciężarowych statkiem ro-ro to nadal pasażerski, jeśli głównym pasażerem jest kierowca z ładunkiem na kółkach (zależnie od interpretacji)."
+  ],
+  "taxNotes": "Międzynarodowy transport morski objęty jest specyficznymi zasadami VAT (m.in. zwolnieniami i odwrotnym obciążeniem) oraz regulacjami IMO i konwencjami bezpieczeństwa. Wybór formy opodatkowania zależy od bandery i struktury floty. Stawki sprawdź u doradcy podatkowego."
+}

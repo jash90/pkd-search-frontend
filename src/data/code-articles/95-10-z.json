@@ -1,0 +1,36 @@
+{
+  "code": "95.10.Z",
+  "name": "Naprawa i konserwacja komputerów i sprzętu (tele)komunikacyjnego",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.10.Z obejmuje naprawę i serwis komputerów stacjonarnych, laptopów, smartfonów, tabletów i sprzętu telekomunikacyjnego — wymianę podzespołów, serwis płyt głównych, odzyskiwanie danych. Pasuje dla serwisów IT, punktów naprawy telefonów i specjalistów elektroniki użytkowej. Sprzedaż komputerów to 47.41.Z, a usługi IT to 62.01.Z lub 62.02.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis komputerowy",
+      "use": "Naprawia laptopy i komputery stacjonarne — wymiana SSD, RAM, czyszczenie, reinstalacja systemu."
+    },
+    {
+      "persona": "Punkt naprawy telefonów",
+      "use": "Wymienia ekrany, baterie, złącza w smartfonach i tabletach (Apple, Samsung, inne)."
+    },
+    {
+      "persona": "Specjalista odzyskiwania danych",
+      "use": "Przywraca dane z uszkodzonych dysków HDD, SSD i pamięci flash w warunkach klasy ISO."
+    },
+    {
+      "persona": "Serwis sprzętu sieciowego / telekomunikacyjnego",
+      "use": "Naprawia routery, switche, sprzęt VoIP i centralki telefoniczne dla firm."
+    }
+  ],
+  "businessExamples": [
+    "Serwis laptopów i komputerów stacjonarnych",
+    "Punkt naprawy iPhone'ów i smartfonów Android",
+    "Laboratorium odzyskiwania danych z uszkodzonych dysków"
+  ],
+  "commonMistakes": [
+    "Wybór 95.10.Z dla świadczenia usług informatycznych (programowanie, administracja sieci) — to jest 62.01.Z (programowanie) lub 62.02.Z (doradztwo IT).",
+    "Pomylenie z 95.21.Z (naprawa elektroniki użytkowej — np. telewizorów, audio) — komputery i telefony mają osobny kod 95.10.Z."
+  ],
+  "taxNotes": "Serwis sprzętu IT może być rozliczany w różnych formach (skala, liniowy, ryczałt), z możliwością zwolnienia podmiotowego z VAT przy niskich obrotach. Sprzedaż części zamiennych z usługą może wpływać na strukturę faktury. Stawki sprawdź u doradcy podatkowego."
+}

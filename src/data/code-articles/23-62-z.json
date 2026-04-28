@@ -1,0 +1,36 @@
+{
+  "code": "23.62.Z",
+  "name": "Produkcja wyrobów budowlanych z gipsu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.62.Z obejmuje produkcję wyrobów z gipsu dla budownictwa — płyt gipsowo-kartonowych, płyt gipsowo-włóknowych, bloczków gipsowych, sztukaterii, listew dekoracyjnych oraz prefabrykowanych elementów ściennych z gipsu. To kod dla branży suchej zabudowy.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent płyt gipsowo-kartonowych",
+      "use": "Wytwarza płyty GK i GKBI dla suchej zabudowy ścian, sufitów i poddaszy."
+    },
+    {
+      "persona": "Wytwórca bloczków gipsowych",
+      "use": "Produkuje bloczki gipsowe lite i komorowe dla ścian działowych."
+    },
+    {
+      "persona": "Producent sztukaterii",
+      "use": "Wytwarza listwy, rozety, gzymsy i ozdoby gipsowe dla wnętrz klasycznych."
+    },
+    {
+      "persona": "Zakład płyt gipsowo-włóknowych",
+      "use": "Produkuje płyty Fermacell i wyroby kompozytowe gipsowo-celulozowe."
+    }
+  ],
+  "businessExamples": [
+    "Producent płyt GK do suchej zabudowy",
+    "Wytwórnia bloczków gipsowych",
+    "Pracownia sztukaterii dekoracyjnej"
+  ],
+  "commonMistakes": [
+    "Wybór 23.62.Z dla samej produkcji gipsu — surowiec gipsowy prażony to 23.52.Z.",
+    "Pomylenie z 43.39.Z (sucha zabudowa) — montaż płyt GK u klienta to usługa budowlana."
+  ],
+  "taxNotes": "Wyroby gipsowe wymagają oznakowania CE zgodnie z EN 520 i deklaracji DoP. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

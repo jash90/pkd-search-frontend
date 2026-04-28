@@ -1,0 +1,36 @@
+{
+  "code": "46.31.Z",
+  "name": "Sprzedaż hurtowa owoców i warzyw",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.31.Z obejmuje sprzedaż hurtową świeżych, mrożonych i przetworzonych owoców i warzyw — od producentów rolnych przez giełdy hurtowe do sklepów, gastronomii i przetwórni. Pasuje do hurtowni warzywno-owocowych, importerów i firm dystrybucyjnych. Sprzedaż detaliczna w sklepie to 47.21.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia warzywno-owocowa",
+      "use": "Operuje na giełdzie hurtowej i zaopatruje sklepy oraz restauracje w świeże produkty."
+    },
+    {
+      "persona": "Importer owoców egzotycznych",
+      "use": "Sprowadza banany, ananasy, cytrusy i sprzedaje hurtowo do sieci handlowych."
+    },
+    {
+      "persona": "Dystrybutor sezonowy",
+      "use": "Skupuje truskawki, jabłka i inne owoce sezonowe od sadowników na rynek krajowy."
+    },
+    {
+      "persona": "Dostawca dla HoReCa",
+      "use": "Specjalizuje się w dostawach świeżych warzyw i owoców do restauracji i hoteli."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia warzyw na bronisze",
+    "Importer owoców egzotycznych dla sieci handlowych",
+    "Dostawca świeżych produktów dla restauracji premium"
+  ],
+  "commonMistakes": [
+    "Wybór 46.31.Z dla sprzedaży detalicznej — wtedy właściwy jest 47.21.Z.",
+    "Pomylenie z 10.39.Z (przetwórstwo owoców i warzyw) — 46.31.Z to handel, nie produkcja przetworów."
+  ],
+  "taxNotes": "Świeże owoce i warzywa korzystają z obniżonej stawki VAT. Forma opodatkowania zależy od skali — większe hurtownie zwykle wybierają liniówkę. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "43.32.Z",
+  "name": "Zakładanie stolarki budowlanej",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.32.Z obejmuje montaż stolarki budowlanej — okien, drzwi, witryn, bram garażowych, fasad aluminiowych, zabudów wnękowych, zabudów meblowych na wymiar. Dotyczy zarówno producentów montujących własne wyroby, jak i firm wyłącznie montażowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma od montażu okien i drzwi",
+      "use": "Montuje stolarkę okienną PCV i aluminiową w nowych budynkach i przy wymianach."
+    },
+    {
+      "persona": "Wykonawca fasad aluminiowych",
+      "use": "Realizuje słupowo-ryglowe fasady i ślusarkę aluminiową w biurowcach."
+    },
+    {
+      "persona": "Firma od zabudów wnękowych",
+      "use": "Wykonuje szafy wnękowe i garderoby na wymiar w mieszkaniach."
+    },
+    {
+      "persona": "Stolarz budowlany",
+      "use": "Wykonuje i montuje stolarkę drewnianą — drzwi wewnętrzne, balustrady, schody."
+    }
+  ],
+  "businessExamples": [
+    "Wymiana okien w bloku mieszkalnym",
+    "Fasada aluminiowa w nowym biurowcu",
+    "Szafy wnękowe na wymiar"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 16.23.Z (produkcja wyrobów stolarskich) — sama produkcja to 16.23.Z, montaż u klienta to 43.32.Z.",
+    "Wybór 43.32.Z zamiast 31.02.Z, gdy firma głównie produkuje meble kuchenne, a montaż jest jedynie elementem usługi."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Wymiana stolarki w domach mieszkalnych korzysta z preferencyjnej stawki VAT i ulgi termomodernizacyjnej. Stawki sprawdź u doradcy podatkowego."
+}

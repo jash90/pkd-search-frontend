@@ -1,0 +1,36 @@
+{
+  "code": "33.15.Z",
+  "name": "Naprawa i konserwacja cywilnych statków i łodzi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.15.Z obejmuje remonty, modernizacje i konserwację cywilnych statków morskich, śródlądowych oraz łodzi rekreacyjnych — w tym dokowanie, czyszczenie kadłubów, malowanie, wymianę silników, modernizację wyposażenia. Pasuje dla stoczni remontowych i serwisów jachtowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Stocznia remontowa",
+      "use": "Realizuje remonty kadłubowe, dokowania i modernizacje statków komercyjnych dla armatorów."
+    },
+    {
+      "persona": "Marina i serwis jachtowy",
+      "use": "Świadczy usługi konserwacji, malowania i remontów jachtów dla właścicieli prywatnych."
+    },
+    {
+      "persona": "Specjalistyczny serwis silników okrętowych",
+      "use": "Naprawia i serwisuje silniki morskie — diesle, zaburtowe i wewnątrzburtowe."
+    },
+    {
+      "persona": "Warsztat napraw łodzi sportowych",
+      "use": "Naprawia łodzie wyścigowe, motorówki sportowe i specjalistyczne jednostki rekreacyjne."
+    }
+  ],
+  "businessExamples": [
+    "Stocznia remontowa dla statków towarowych",
+    "Marina z pełnym serwisem jachtowym (mast-up, zimowanie)",
+    "Specjalistyczny serwis silników zaburtowych Yamaha/Mercury"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.11.Z (produkcja statków) — budowa nowego statku to inny kod niż jego późniejszy remont.",
+    "Wybór 33.18.Z (naprawa wojskowych jednostek) zamiast 33.15.Z — cywilne statki i łodzie idą pod 33.15.Z."
+  ],
+  "taxNotes": "Serwis statków i łodzi może łączyć się z preferencyjnymi rozliczeniami dla branży morskiej (tonażówka), a remonty pod banderą zagraniczną mogą podlegać szczególnym regulacjom VAT. Forma opodatkowania wymaga specjalistycznej konsultacji. Stawki sprawdź u doradcy podatkowego."
+}

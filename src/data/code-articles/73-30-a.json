@@ -1,0 +1,36 @@
+{
+  "code": "73.30.A",
+  "name": "Działalność lobbingowa",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 73.30.A obejmuje zawodową działalność lobbingową — reprezentowanie interesów klientów w procesie stanowienia prawa, kontaktach z administracją i parlamentem. To kod właściwy dla zawodowych lobbystów wpisanych do rejestru oraz firm GR (Government Relations) działających w ramach ustawy o lobbingu.",
+  "whoUsesIt": [
+    {
+      "persona": "Zawodowy lobbysta",
+      "use": "Reprezentuje interesy klientów wobec organów władzy publicznej, zgłasza zainteresowanie projektami aktów prawnych."
+    },
+    {
+      "persona": "Firma Government Relations",
+      "use": "Obsługuje korporacje w relacjach z administracją — monitoring legislacji, konsultacje publiczne, GR strategy."
+    },
+    {
+      "persona": "Konsultant ds. polityk publicznych",
+      "use": "Doradza branżom w wpływaniu na regulacje (np. ESG, energia, telekom, zdrowie)."
+    },
+    {
+      "persona": "Lobbysta branżowy / izbowy",
+      "use": "Reprezentuje konkretne organizacje pracodawców w negocjacjach legislacyjnych z rządem."
+    }
+  ],
+  "businessExamples": [
+    "Firma Government Relations dla korporacji energetycznych",
+    "Zawodowy lobbysta wpisany do rejestru MSWiA",
+    "Doradca polityk publicznych dla izb branżowych"
+  ],
+  "commonMistakes": [
+    "Wybór 73.30.A zamiast 73.30.B — gdy działalność to klasyczny PR i komunikacja korporacyjna (a nie wpływ na legislację), właściwszy jest 73.30.B.",
+    "Pomylenie z 70.21.Z (PR i komunikacja) — gdy nie ma elementu lobbingowego (w rozumieniu ustawy o lobbingu), kod 70.21.Z może być właściwszy."
+  ],
+  "taxNotes": "Zawodowa działalność lobbingowa wymaga wpisu do rejestru prowadzonego przez MSWiA i podlega ustawie o działalności lobbingowej w procesie stanowienia prawa. Usługi lobbingowe podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

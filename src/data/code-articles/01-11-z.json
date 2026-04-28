@@ -1,0 +1,36 @@
+{
+  "code": "01.11.Z",
+  "name": "Uprawa zbóż innych niż ryż, roślin strączkowych i roślin oleistych na nasiona",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.11.Z obejmuje uprawę pszenicy, żyta, owsa, jęczmienia, kukurydzy, grochu, fasoli, soi, rzepaku, słonecznika i innych roślin oleistych przeznaczonych na nasiona — z wyłączeniem ryżu, który ma osobny kod 01.12.Z. To główny kod dla typowych polskich gospodarstw rolnych nastawionych na produkcję polową.",
+  "whoUsesIt": [
+    {
+      "persona": "Rolnik indywidualny",
+      "use": "Prowadzi gospodarstwo polowe z uprawą zbóż i rzepaku na sprzedaż do skupu."
+    },
+    {
+      "persona": "Spółdzielnia rolna",
+      "use": "Uprawia zboża i strączkowe na większym areale, łącząc grunty członków spółdzielni."
+    },
+    {
+      "persona": "Gospodarstwo rodzinne",
+      "use": "Łączy uprawę zbóż z hodowlą zwierząt, zboże częściowo wykorzystuje na pasze."
+    },
+    {
+      "persona": "Producent nasion siewnych",
+      "use": "Uprawia kwalifikowany materiał siewny zbóż i strączkowych dla hodowli roślin."
+    }
+  ],
+  "businessExamples": [
+    "Gospodarstwo zbożowo-rzepakowe na Mazowszu",
+    "Producent nasion soi i grochu",
+    "Spółdzielnia rolna uprawiająca pszenicę"
+  ],
+  "commonMistakes": [
+    "Wybór 01.11.Z zamiast 01.12.Z dla uprawy ryżu — ryż jest wyłączony i ma osobny kod.",
+    "Pomylenie z 01.13.Z, gdy gospodarstwo uprawia warzywa i rośliny korzeniowe (ziemniaki, marchew, buraki) — to kategoria warzywnicza."
+  ],
+  "taxNotes": "Działalność rolnicza w klasycznym ujęciu nie podlega podatkowi dochodowemu, lecz podatkowi rolnemu, choć działy specjalne i przetwórstwo mogą zmieniać kwalifikację. Warto sprawdzić zasady VAT-u rolniczego (ryczałtowy vs. czynny) i ewentualne zwolnienia. Stawki sprawdź u doradcy podatkowego."
+}

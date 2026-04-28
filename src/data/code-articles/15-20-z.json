@@ -1,0 +1,36 @@
+{
+  "code": "15.20.Z",
+  "name": "Produkcja obuwia",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 15.20.Z obejmuje produkcję obuwia z różnych materiałów — skóry, tworzyw sztucznych, gumy, tekstyliów oraz obuwia ochronnego, sportowego, ortopedycznego i obuwia dla dzieci. Wlicza się tu również produkcję getrów, ochraniaczy oraz wycinanie elementów cholewek. Nie obejmuje sprzedaży detalicznej obuwia (47.72.Z) ani produkcji elementów z drewna (16.29.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Manufaktura obuwia skórzanego",
+      "use": "Szyje ręcznie i półprzemysłowo eleganckie obuwie męskie i damskie z naturalnej skóry."
+    },
+    {
+      "persona": "Producent obuwia sportowego",
+      "use": "Wytwarza buty do biegania, trekkingowe i halówki dla marek sieciowych i własnych."
+    },
+    {
+      "persona": "Zakład obuwia ortopedycznego",
+      "use": "Produkuje obuwie indywidualne na zlecenie pacjentów z dysfunkcjami stóp i pacjentów po urazach."
+    },
+    {
+      "persona": "Producent obuwia ochronnego (BHP)",
+      "use": "Wytwarza buty robocze z certyfikatami EN ISO dla budownictwa, przemysłu i służb mundurowych."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura obuwia szytego metodą Goodyear welt",
+    "Producent obuwia ortopedycznego refundowanego z NFZ",
+    "Zakład produkcji butów ochronnych z certyfikatem EN ISO"
+  ],
+  "commonMistakes": [
+    "Wybór 15.20.Z zamiast 15.12.Z (produkcja toreb, walizek i wyrobów rymarskich) — wyroby skórzane inne niż obuwie mają osobną klasę.",
+    "Mylenie z 47.72.Z (sprzedaż detaliczna obuwia) — sklep z butami nie jest producentem, nawet jeśli sprzedaje markę własną wykonaną u podwykonawcy."
+  ],
+  "taxNotes": "Produkcja obuwia korzysta ze standardowych zasad PIT/CIT i VAT, a obuwie ortopedyczne i ochronne podlega specyficznym regulacjom (refundacja NFZ, certyfikacja CE). Stawki sprawdź u doradcy podatkowego."
+}

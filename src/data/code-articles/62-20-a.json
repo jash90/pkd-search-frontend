@@ -1,0 +1,36 @@
+{
+  "code": "62.20.A",
+  "name": "Działalność w zakresie cyberbezpieczeństwa",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 62.20.A obejmuje doradztwo, audyty i wdrożenia w zakresie cyberbezpieczeństwa — testy penetracyjne, SOC, zarządzanie podatnościami, ochronę przed zagrożeniami i compliance (np. NIS2, ISO 27001). Pasuje dla firm pentest, konsultantów bezpieczeństwa, operatorów SOC i specjalistów GRC.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma pentest / red team",
+      "use": "Wykonuje testy penetracyjne aplikacji, sieci i infrastruktury — raporty zgodne z OWASP."
+    },
+    {
+      "persona": "Operator SOC (Security Operations Center)",
+      "use": "Monitoruje 24/7 incydenty bezpieczeństwa klientów w modelu MSSP (managed security)."
+    },
+    {
+      "persona": "Konsultant GRC",
+      "use": "Doradza w zakresie zgodności z normami (ISO 27001, NIS2, RODO) i przygotowuje audyty."
+    },
+    {
+      "persona": "Architekt bezpieczeństwa freelancer",
+      "use": "Projektuje architekturę bezpieczeństwa, polityki i procesy dla klientów B2B."
+    }
+  ],
+  "businessExamples": [
+    "Firma pentest dla banków i fintechów",
+    "Operator SOC dla średnich przedsiębiorstw",
+    "Konsultant ISO 27001 i NIS2"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 62.10.B (pozostała działalność programistyczna) — programowanie aplikacji bezpieczeństwa to inny kod.",
+    "Wybór 62.20.A zamiast 62.20.B (doradztwo IT bez specjalizacji w cyberbezpieczeństwie) — ogólne IT consulting ma osobną klasę."
+  ],
+  "taxNotes": "Działalność cyberbezpieczeństwa może korzystać z IP Box (przy własnych narzędziach) i ulgi B+R. Możliwy ryczałt według właściwej stawki przy spełnieniu warunków lub podatek liniowy. Stawki sprawdź u doradcy podatkowego."
+}

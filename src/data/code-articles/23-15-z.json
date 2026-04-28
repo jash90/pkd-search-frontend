@@ -1,0 +1,36 @@
+{
+  "code": "23.15.Z",
+  "name": "Produkcja i obróbka pozostałego szkła, włączając szkło techniczne",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.15.Z obejmuje produkcję szkła technicznego i specjalistycznego — szkła laboratoryjnego, optycznego, do oświetlenia (klosze, kineskopy, żarówki), izolatorów elektrycznych, szkła zegarmistrzowskiego oraz półfabrykatów do okularów.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent szkła laboratoryjnego",
+      "use": "Wytwarza zlewki, kolby, probówki i aparaturę szklaną dla laboratoriów."
+    },
+    {
+      "persona": "Wytwórca szkła optycznego",
+      "use": "Produkuje pryzmaty, soczewki i półfabrykaty optyczne dla branży foto i wojskowej."
+    },
+    {
+      "persona": "Producent kloszy oświetleniowych",
+      "use": "Wytwarza klosze, abażury i elementy szklane do opraw oświetleniowych."
+    },
+    {
+      "persona": "Zakład izolatorów szklanych",
+      "use": "Produkuje izolatory szklane dla linii energetycznych wysokiego napięcia."
+    }
+  ],
+  "businessExamples": [
+    "Producent szkła laboratoryjnego",
+    "Wytwórnia kloszy do lamp",
+    "Zakład soczewek optycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.15.Z dla soczewek do okularów na zamówienie — szlifowanie soczewek na receptę to 32.50.Z.",
+    "Pomylenie z 23.13.Z (szkło gospodarcze) — wyroby użytkowe codziennego użytku mają osobny kod."
+  ],
+  "taxNotes": "Szkło techniczne dla branży medycznej i optycznej wymaga zgodności z normami branżowymi. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

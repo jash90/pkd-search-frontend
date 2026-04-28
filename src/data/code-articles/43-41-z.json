@@ -1,0 +1,36 @@
+{
+  "code": "43.41.Z",
+  "name": "Wykonywanie konstrukcji i pokryć dachowych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.41.Z dotyczy wykonywania konstrukcji dachowych (więźb drewnianych, konstrukcji stalowych) oraz pokryć — dachówką, blachodachówką, gontem, papą, membranami EPDM/PVC, dachów zielonych. To kod dla dekarzy i firm specjalizujących się w robotach dachowych, w tym dachach płaskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma dekarska",
+      "use": "Wykonuje pokrycia dachówką i blachodachówką w domach jednorodzinnych."
+    },
+    {
+      "persona": "Wykonawca dachów płaskich",
+      "use": "Realizuje pokrycia papą termozgrzewalną i membranami na halach i blokach."
+    },
+    {
+      "persona": "Firma od więźb drewnianych",
+      "use": "Wykonuje konstrukcje dachowe drewniane w budynkach mieszkalnych."
+    },
+    {
+      "persona": "Specjalista dachów zielonych",
+      "use": "Realizuje dachy zielone ekstensywne i intensywne na obiektach komercyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Pokrycie blachodachówką domu jednorodzinnego",
+    "Dach płaski hali magazynowej z membraną",
+    "Dach zielony na biurowcu"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.42.Z (pozostałe specjalistyczne roboty), gdy montaż konstrukcji stalowej dachu wykonuje firma specjalizująca się w konstrukcjach.",
+    "Wybór 43.41.Z zamiast 43.91.Z, gdy roboty dotyczą głównie murów i kominów, a dach jest tylko elementem."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Termomodernizacja dachu w domach mieszkalnych korzysta z ulgi termomodernizacyjnej i programów dotacyjnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "16.28.Z",
+  "name": "Produkcja pozostałych wyrobów z drewna oraz wyrobów z korka, słomy i materiałów używanych do wyplatania",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.28.Z to kod 'parasol' dla pozostałych wyrobów z drewna nie objętych innymi pozycjami — narzędzi z drewna, ramek, statuetek, drewnianej galanterii, wyrobów z korka (korki do wina, korkowe maty), wyrobów ze słomy i wikliny (kosze, plecionki).",
+  "whoUsesIt": [
+    {
+      "persona": "Plecionkarz / wikliniarz",
+      "use": "Wyplata kosze, meble ogrodowe i drobne wyroby użytkowe z wikliny."
+    },
+    {
+      "persona": "Producent korków do wina",
+      "use": "Wytwarza korki naturalne i aglomerowane dla winiarni i destylarni."
+    },
+    {
+      "persona": "Wytwórca drewnianej galanterii",
+      "use": "Produkuje deski do krojenia, ramki, statuetki, zabawki edukacyjne z drewna."
+    },
+    {
+      "persona": "Manufaktura mat słomianych i ekowyrobów",
+      "use": "Produkuje rolety bambusowe, maty słomiane oraz dekoracje ze słomy."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura wyrobów z wikliny — koszy i mebli ogrodowych",
+    "Producent korków do wina dla winnic",
+    "Wytwórca drewnianej galanterii na rynek prezentowy"
+  ],
+  "commonMistakes": [
+    "Wybór 16.28.Z zamiast 31.09.Z (Produkcja pozostałych mebli) — meble wiklinowe i z bambusa idą do 31.09.Z, a drobne wyroby z wikliny do 16.28.Z.",
+    "Pomylenie z 32.40.Z (Produkcja gier i zabawek) — drewniane zabawki to 32.40.Z, a drewniana galanteria użytkowa to 16.28.Z."
+  ],
+  "taxNotes": "Pozostałe wyroby z drewna podlegają standardowej stawce VAT, a forma opodatkowania zależy od skali i modelu sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

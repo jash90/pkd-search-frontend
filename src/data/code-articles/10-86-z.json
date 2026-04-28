@@ -1,0 +1,36 @@
+{
+  "code": "10.86.Z",
+  "name": "Produkcja artykułów spożywczych homogenizowanych i żywności dietetycznej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.86.Z obejmuje produkcję żywności specjalistycznej — odżywek dla niemowląt, mlek modyfikowanych, żywności medycznej, dietetycznej (np. dla diabetyków, bezglutenowej), odżywek sportowych w formie żywności oraz produktów homogenizowanych. To wąska, regulowana kategoria.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent mlek dla niemowląt",
+      "use": "Wytwarza mleka modyfikowane i kaszki dla najmłodszych zgodnie z wymogami formuł."
+    },
+    {
+      "persona": "Wytwórca żywności medycznej",
+      "use": "Produkuje preparaty enteralne i specjalistyczne diety dla pacjentów szpitalnych."
+    },
+    {
+      "persona": "Producent żywności bezglutenowej / dla diabetyków",
+      "use": "Wytwarza pieczywo, makarony i przekąski bezglutenowe lub niskocukrowe."
+    },
+    {
+      "persona": "Wytwórca odżywek sportowych w formie żywności",
+      "use": "Produkuje batony białkowe, gainery i shake'y w formie żywnościowej (nie suplementów)."
+    }
+  ],
+  "businessExamples": [
+    "Producent mleka modyfikowanego dla niemowląt",
+    "Manufaktura żywności bezglutenowej",
+    "Wytwórca specjalistycznych diet medycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 10.86.Z zamiast 10.89.A (Produkcja suplementów diety) — kapsułki, tabletki i sproszkowane suplementy to 10.89.A, a nie żywność.",
+    "Pomylenie z 21.20.Z (Produkcja leków) — żywność specjalnego przeznaczenia medycznego to 10.86.Z, a leki to 21.20.Z."
+  ],
+  "taxNotes": "Żywność dietetyczna i homogenizowana podlega specyficznym regulacjom GIS, a stawki VAT zależą od kategorii produktu i statusu rejestracyjnego. Stawki sprawdź u doradcy podatkowego."
+}

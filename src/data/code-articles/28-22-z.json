@@ -1,0 +1,36 @@
+{
+  "code": "28.22.Z",
+  "name": "Produkcja urządzeń podnośnikowych i przeładunkowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.22.Z obejmuje produkcję dźwigów, suwnic, wciągarek, wózków widłowych, przenośników, podestów ruchomych i innych urządzeń do podnoszenia i transportu wewnątrzzakładowego. Pasuje dla producentów sprzętu logistycznego, magazynowego i budowlanego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wózków widłowych",
+      "use": "Wytwarza wózki widłowe spalinowe, elektryczne i czołowe dla magazynów i logistyki."
+    },
+    {
+      "persona": "Fabryka suwnic i żurawi",
+      "use": "Produkuje suwnice halowe, bramowe i żurawie warsztatowe na zamówienie."
+    },
+    {
+      "persona": "Wytwórca przenośników taśmowych",
+      "use": "Robi linie przenośników i sortowników dla zakładów produkcyjnych i e-commerce."
+    },
+    {
+      "persona": "Producent podestów i platform ruchomych",
+      "use": "Buduje podesty nożycowe, masztowe i platformy dla budowlanki i przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka suwnic dla hut i odlewni",
+    "Producent automatycznych systemów regałowych",
+    "Zakład produkujący wciągarki łańcuchowe i linowe"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.12.Z (naprawa i konserwacja maszyn) — sama naprawa dźwigów to inny kod, produkcja idzie pod 28.22.Z.",
+    "Wybór 28.92.Z (maszyny dla górnictwa i budownictwa) zamiast 28.22.Z dla żurawi budowlanych — żurawie wieżowe i mobilne to jednak 28.22.Z."
+  ],
+  "taxNotes": "Produkcja urządzeń dźwigowych podlega obowiązkowej certyfikacji UDT, co wpływa na koszty i strukturę firmy. Skala produkcji i eksport determinują wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

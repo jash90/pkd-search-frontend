@@ -1,0 +1,36 @@
+{
+  "code": "86.99.A",
+  "name": "Opieka farmaceutyczna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.99.A obejmuje opiekę farmaceutyczną świadczoną przez farmaceutów — przeglądy lekowe, konsultacje farmaceutyczne, edukację pacjentów w zakresie leków, opiekę nad pacjentami przewlekle chorymi. Sprzedaż leków w aptece to 47.73.Z, a hurtownie farmaceutyczne to 46.46.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Farmaceuta świadczący opiekę farmaceutyczną",
+      "use": "Wykonuje przeglądy lekowe, edukuje pacjentów w zakresie polipragmazji, prowadzi konsultacje w aptece."
+    },
+    {
+      "persona": "Centrum opieki farmaceutycznej",
+      "use": "Specjalistyczna placówka skupiająca się na konsultacjach farmaceutycznych, niesprzedająca leków - wyłącznie usługi."
+    },
+    {
+      "persona": "Farmaceuta szpitalny / kliniczny",
+      "use": "Świadczy konsultacje na oddziałach szpitalnych - dobór leków, monitorowanie terapii, optymalizacja farmakoterapii."
+    },
+    {
+      "persona": "Apteka świadcząca usługi opieki farmaceutycznej",
+      "use": "Apteka oferująca obok sprzedaży leków przeglądy lekowe i konsultacje farmaceutyczne jako odrębną usługę."
+    }
+  ],
+  "businessExamples": [
+    "Apteka świadcząca opiekę farmaceutyczną dla seniorów",
+    "Centrum konsultacji farmaceutycznych przy szpitalu",
+    "Farmaceuta freelancer wykonujący przeglądy lekowe"
+  ],
+  "commonMistakes": [
+    "Wybór 86.99.A dla apteki sprzedającej leki — sama sprzedaż to 47.73.Z (sprzedaż detaliczna wyrobów farmaceutycznych w aptekach), 86.99.A to wyłącznie usługi opieki farmaceutycznej.",
+    "Pomylenie z 46.46.Z (sprzedaż hurtowa wyrobów farmaceutycznych) — hurtownia leków to inny kod, niezwiązany z usługami opieki."
+  ],
+  "taxNotes": "Wymaga prawa wykonywania zawodu farmaceuty i wpisu do rejestru. Usługi opieki farmaceutycznej w celach medycznych mogą być zwolnione z VAT. Forma opodatkowania zależy od formy prawnej i skali. Stawki sprawdź u doradcy podatkowego."
+}

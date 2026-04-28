@@ -1,0 +1,36 @@
+{
+  "code": "66.21.Z",
+  "name": "Działalność związana z oceną ryzyka i szacowaniem poniesionych strat",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.21.Z obejmuje działalność rzeczoznawców, likwidatorów szkód i niezależnych ekspertów oceniających ryzyko ubezpieczeniowe oraz szacujących wysokość strat po zdarzeniach objętych polisą. To kod dla profesjonalistów wspierających proces likwidacji szkód.",
+  "whoUsesIt": [
+    {
+      "persona": "Likwidator szkód komunikacyjnych",
+      "use": "Wycenia szkody pojazdowe na zlecenie ubezpieczycieli lub kierowców (niezależna ekspertyza)."
+    },
+    {
+      "persona": "Rzeczoznawca majątkowy ubezpieczeniowy",
+      "use": "Szacuje straty po pożarach, zalaniach i innych zdarzeniach losowych w nieruchomościach."
+    },
+    {
+      "persona": "Aktuariusz",
+      "use": "Wykonuje analizy ryzyka i kalkulacje rezerw techniczno-ubezpieczeniowych dla zakładów ubezpieczeń."
+    },
+    {
+      "persona": "Firma loss adjustment",
+      "use": "Obsługuje duże szkody korporacyjne (przemysłowe, transportowe) na zlecenie ubezpieczycieli."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny likwidator szkód komunikacyjnych",
+    "Biuro rzeczoznawców pożarowych",
+    "Aktuariusz pracujący jako konsultant"
+  ],
+  "commonMistakes": [
+    "Wybór 66.21.Z zamiast 66.22.Z — agent czy broker ubezpieczeniowy używa kodu 66.22.Z, a nie 66.21.Z.",
+    "Pomylenie z 71.20.C (badania techniczne) — rzeczoznawstwo czysto techniczne bez kontekstu ubezpieczeniowego mieści się w 71.20.C."
+  ],
+  "taxNotes": "Działalność rzeczoznawcza i likwidacyjna co do zasady podlega VAT. Specjalistyczne uprawnienia (aktuariusz, rzeczoznawca majątkowy) mogą wymagać wpisu do odpowiednich rejestrów. Stawki sprawdź u doradcy podatkowego."
+}

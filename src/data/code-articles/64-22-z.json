@@ -1,0 +1,36 @@
+{
+  "code": "64.22.Z",
+  "name": "Działalność spółek pozyskujących finansowanie na rzecz innych podmiotów",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.22.Z obejmuje działalność spółek specjalnego przeznaczenia (SPV), które pozyskują finansowanie (przez emisję obligacji, pożyczki bankowe lub inne instrumenty) i przekazują je powiązanym podmiotom. Pasuje dla spółek emisyjnych w grupach kapitałowych oraz finansowych SPV w transakcjach sekurytyzacyjnych i obligacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka emisyjna w grupie kapitałowej",
+      "use": "Emituje obligacje korporacyjne na rynku i finansuje spółki operacyjne z grupy."
+    },
+    {
+      "persona": "SPV sekurytyzacyjny",
+      "use": "Skupuje portfele wierzytelności (kredyty, leasingi) i finansuje je emisją papierów wartościowych."
+    },
+    {
+      "persona": "Finansowy SPV nieruchomościowy",
+      "use": "Pozyskuje kapitał na realizację inwestycji deweloperskiej w spółce powiązanej."
+    },
+    {
+      "persona": "Spółka faktoringowa wewnętrzna",
+      "use": "Zapewnia finansowanie obrotowe dla spółek z grupy poprzez wykup wierzytelności."
+    }
+  ],
+  "businessExamples": [
+    "SPV emitujący obligacje korporacyjne dla grupy",
+    "Spółka sekurytyzacyjna portfeli leasingowych",
+    "Finansowy SPV deweloperski"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.21.Z (spółki holdingowe) — pasywne posiadanie udziałów to inny kod.",
+    "Wybór 64.22.Z zamiast 64.99.Z (pozostała finansowa działalność) — gdy spółka świadczy usługi finansowe, a nie pozyskuje finansowanie dla powiązanych."
+  ],
+  "taxNotes": "SPV finansowe podlegają regulacjom o cenach transferowych, tzw. cienkiej kapitalizacji oraz przepisom o podmiotach holdingowych. VAT w usługach finansowych zwykle zwolniony. Stawki sprawdź u doradcy podatkowego."
+}

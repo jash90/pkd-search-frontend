@@ -1,0 +1,36 @@
+{
+  "code": "46.86.Z",
+  "name": "Sprzedaż hurtowa pozostałych półproduktów",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.86.Z obejmuje sprzedaż hurtową półproduktów dla przemysłu nieujętych w pozostałych kodach grupy 46.8 — papieru i tektury w formach przemysłowych, kartonu opakowaniowego, surowców szklarskich, włókien naturalnych i syntetycznych. Pasuje do dystrybutorów surowców i półproduktów dla zakładów przetwórczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor papieru opakowaniowego",
+      "use": "Sprzedaje papier i tekturę falistą do drukarni i zakładów opakowaniowych."
+    },
+    {
+      "persona": "Hurtownia surowców szklarskich",
+      "use": "Dostarcza piasek kwarcowy i surowce do hut szkła."
+    },
+    {
+      "persona": "Importer włókien przemysłowych",
+      "use": "Sprowadza włókna syntetyczne do zakładów tekstylnych i włókienniczych."
+    },
+    {
+      "persona": "Dystrybutor półproduktów drewnianych",
+      "use": "Sprzedaje sklejkę, fornir i forniry techniczne dla zakładów meblowych."
+    }
+  ],
+  "businessExamples": [
+    "Dystrybutor papieru i tektury dla drukarni",
+    "Hurtownia półproduktów drewnianych dla zakładów meblowych",
+    "Importer włókien syntetycznych dla branży tekstylnej"
+  ],
+  "commonMistakes": [
+    "Wybór 46.86.Z dla wyrobów chemicznych — właściwy jest 46.85.B.",
+    "Pomylenie z 17.12.Z (produkcja papieru) — 46.86.Z to wyłącznie handel."
+  ],
+  "taxNotes": "Stawki VAT na półprodukty są standardowe. Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

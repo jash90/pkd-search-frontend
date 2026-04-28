@@ -1,0 +1,36 @@
+{
+  "code": "43.13.Z",
+  "name": "Wykonywanie wykopów i wierceń geologiczno-inżynierskich",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.13.Z dotyczy specjalistycznych wierceń i wykopów badawczych dla potrzeb geologii inżynierskiej — odwierty pod fundamenty, geotermia płytka, sondy CPT/DMT, wiercenia hydrogeologiczne, odkrywki gruntowe, rdzeniowe wiercenia eksploracyjne. To kod dla firm geotechnicznych, nie dla wydobycia surowców.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma geotechniczna",
+      "use": "Wykonuje odwierty i sondowania CPT przed projektem fundamentów."
+    },
+    {
+      "persona": "Wykonawca odwiertów geotermii płytkiej",
+      "use": "Wierci pionowe wymienniki ciepła pod pompy ciepła gruntowe."
+    },
+    {
+      "persona": "Hydrogeolog wierceniowy",
+      "use": "Wykonuje studnie głębinowe i odwierty obserwacyjne."
+    },
+    {
+      "persona": "Firma badań gruntowych",
+      "use": "Realizuje odkrywki, sondowania i pobiera próbki dla projektantów."
+    }
+  ],
+  "businessExamples": [
+    "Odwierty geotechniczne pod biurowiec",
+    "Pionowe wymienniki ciepła pod pompę ciepła",
+    "Studnia głębinowa do nawadniania"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 09.10.Z (działalność wspomagająca eksploatację złóż), gdy wiercenia służą wydobyciu ropy lub gazu — wówczas właściwy jest kod górniczy.",
+    "Wybór 43.13.Z zamiast 71.12.Z, gdy firma głównie świadczy usługi projektowe (geologia, geotechnika), a nie wykonuje wierceń."
+  ],
+  "taxNotes": "Wiercenia hydrogeologiczne wymagają operatów wodnoprawnych i pozwoleń. Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Stawki sprawdź u doradcy podatkowego."
+}

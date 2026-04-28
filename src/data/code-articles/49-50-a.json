@@ -1,0 +1,36 @@
+{
+  "code": "49.50.A",
+  "name": "Transport rurociągowy paliw gazowych",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.50.A obejmuje transport rurociągowy gazu ziemnego i innych paliw gazowych — przesył siecią gazociągów wysokiego, średniego i niskiego ciśnienia. To kod dla operatorów systemów gazowych (OSP, OSD), spółek dystrybucyjnych i spółek przesyłowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator systemu przesyłowego (OSP)",
+      "use": "Zarządza siecią gazociągów wysokiego ciśnienia w skali kraju (np. Gaz-System)."
+    },
+    {
+      "persona": "Operator systemu dystrybucyjnego (OSD)",
+      "use": "Dostarcza gaz do odbiorców końcowych siecią dystrybucyjną."
+    },
+    {
+      "persona": "Spółka tranzytowa",
+      "use": "Przesyła gaz przez Polskę z innych krajów do odbiorców międzynarodowych."
+    },
+    {
+      "persona": "Operator regionalny",
+      "use": "Zarządza lokalną siecią gazową na obszarze gminy lub regionu."
+    }
+  ],
+  "businessExamples": [
+    "Operator systemu przesyłowego gazu",
+    "Lokalna spółka gazownicza",
+    "Operator gazociągu tranzytowego"
+  ],
+  "commonMistakes": [
+    "Wybór 49.50.A zamiast 49.50.B — transport innych towarów rurociągami (ropa, woda) ma osobny kod.",
+    "Pomylenie z 35.22.Z — handel paliwami gazowymi i sprzedaż gazu odbiorcom to osobny kod sektora energetycznego."
+  ],
+  "taxNotes": "Działalność regulowana — wymaga koncesji URE, taryf gazowych i nadzoru technicznego. Stawki sprawdź u doradcy podatkowego."
+}

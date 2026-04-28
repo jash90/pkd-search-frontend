@@ -1,0 +1,36 @@
+{
+  "code": "86.94.Z",
+  "name": "Działalność pielęgniarska i położnicza",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.94.Z obejmuje samodzielną praktykę pielęgniarską i położniczą — pielęgniarki środowiskowe, długoterminowej opieki domowej, położne POZ, doulle, pielęgniarki szkolne, opieka nad seniorami. Lekarze to 86.21-86.23.Z, a opieka społeczna z zakwaterowaniem (DPS) to grupa 87.",
+  "whoUsesIt": [
+    {
+      "persona": "Pielęgniarka prowadząca praktykę",
+      "use": "Świadczy usługi pielęgniarskie w domu pacjenta - iniekcje, opatrunki, opieka długoterminowa, kontrakt NFZ."
+    },
+    {
+      "persona": "Położna POZ",
+      "use": "Prowadzi opiekę nad kobietami w ciąży i po porodzie, pielęgnację noworodków, prowadzi szkołę rodzenia."
+    },
+    {
+      "persona": "Pielęgniarska firma opieki domowej",
+      "use": "Operuje siecią pielęgniarek środowiskowych obsługujących pacjentów obłożnie chorych w domach."
+    },
+    {
+      "persona": "Doula",
+      "use": "Wspiera kobiety przed, w trakcie i po porodzie - towarzyszenie emocjonalne i praktyczne, niemedyczne."
+    }
+  ],
+  "businessExamples": [
+    "Pielęgniarska praktyka indywidualna z kontraktem NFZ",
+    "Firma opieki długoterminowej w domach pacjentów",
+    "Położna prowadząca szkołę rodzenia i wizyty patronażowe"
+  ],
+  "commonMistakes": [
+    "Wybór 86.94.Z dla opieki nad osobami starszymi nie wymagającej kwalifikacji medycznych — to 88.10.Z (pomoc społeczna bez zakwaterowania) lub 87.30.Z (z zakwaterowaniem).",
+    "Pomylenie z 86.21.Z (praktyka lekarska) — pielęgniarki i położne mają osobny kod, mimo wykonywania niektórych czynności medycznych."
+  ],
+  "taxNotes": "Usługi pielęgniarskie i położnicze służące zdrowiu są zwolnione z VAT. Wymaga prawa wykonywania zawodu i wpisu do rejestru praktyk w izbie pielęgniarek. Ryczałt często korzystny przy działalności soloowej. Stawki sprawdź u doradcy podatkowego."
+}

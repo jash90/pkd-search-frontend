@@ -1,0 +1,36 @@
+{
+  "code": "55.20.Z",
+  "name": "Obiekty noclegowe turystyczne i miejsca krótkotrwałego zakwaterowania",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 55.20.Z obejmuje wynajem domków letniskowych, pokoi gościnnych, apartamentów na doby (Airbnb, Booking), schronisk młodzieżowych, kwater agroturystycznych i ośrodków wypoczynkowych. To kod dla short-term rental, agroturystyki i obiektów bez pełnej obsługi hotelowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator apartamentów na doby",
+      "use": "Wynajmuje mieszkania w atrakcyjnych lokalizacjach miejskich poprzez Airbnb i Booking — bez recepcji."
+    },
+    {
+      "persona": "Gospodarstwo agroturystyczne",
+      "use": "Oferuje pokoje gościnne na wsi z wyżywieniem domowym, kontaktem ze zwierzętami i atrakcjami regionalnymi."
+    },
+    {
+      "persona": "Właściciel domków letniskowych",
+      "use": "Wynajmuje domki nad morzem, jeziorem lub w górach w sezonie wakacyjnym i weekendowym."
+    },
+    {
+      "persona": "Schronisko młodzieżowe",
+      "use": "Prowadzi obiekt dla grup i podróżników — pokoje wieloosobowe, hostele PTSM."
+    }
+  ],
+  "businessExamples": [
+    "Apartamenty na doby w centrum miasta",
+    "Gospodarstwo agroturystyczne na Mazurach",
+    "Hostel dla turystów backpackerów"
+  ],
+  "commonMistakes": [
+    "Wybór 55.20.Z zamiast 55.10.Z (hotele) — obiekty z pełną obsługą hotelową (recepcja 24h, śniadania, sprzątanie codzienne) to hotelarstwo.",
+    "Pomylenie z 68.20.Z (wynajem nieruchomości) — długoterminowy wynajem mieszkań (powyżej 30 dni, na cele mieszkaniowe) to wynajem nieruchomości, nie zakwaterowanie turystyczne."
+  ],
+  "taxNotes": "Short-term rental podlega preferencyjnej stawce VAT dla zakwaterowania, ale wymaga rejestracji jako działalność gospodarcza po przekroczeniu progu i — w wybranych miastach — wpisu do ewidencji obiektów. Możliwy jest ryczałt od przychodów ewidencjonowanych. Stawki sprawdź u doradcy podatkowego."
+}

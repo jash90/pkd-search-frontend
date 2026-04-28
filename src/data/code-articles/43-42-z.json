@@ -1,0 +1,36 @@
+{
+  "code": "43.42.Z",
+  "name": "Wykonywanie pozostałych specjalistycznych robót budowlanych w zakresie budowy budynków",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-sonnet-4-6",
+  "intro": "Kod 43.42.Z obejmuje specjalistyczne prace budowlane wykonywane przy wznoszeniu budynków, których nie można sklasyfikować w innych pozycjach działu 43 — np. montaż konstrukcji stalowych, prefabrykatów, zaawansowane prace ciesielskie czy wznoszenie elementów tymczasowych (rusztowania w wyspecjalizowanych zastosowaniach). To kod 'parasol' dla niszowych usług budowlanych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma montująca konstrukcje stalowe",
+      "use": "Stawia szkielety hal magazynowych, mostów, wieżowców jako podwykonawca."
+    },
+    {
+      "persona": "Brygada cieśli specjalistycznych",
+      "use": "Wykonuje skomplikowane prace ciesielskie (więźby, deskowania) na zlecenie generalnych wykonawców."
+    },
+    {
+      "persona": "Firma stawiająca domy modułowe",
+      "use": "Montuje prefabrykowane elementy konstrukcyjne na działce klienta."
+    },
+    {
+      "persona": "Wyspecjalizowany podwykonawca",
+      "use": "Świadczy nietypowe roboty budowlane (np. prace na wysokości, montaż elementów wielkogabarytowych)."
+    }
+  ],
+  "businessExamples": [
+    "Montaż hal stalowych dla logistyki",
+    "Firma od domów szkieletowych",
+    "Specjalistyczne ciesielstwo dachowe"
+  ],
+  "commonMistakes": [
+    "Wybór 43.42.Z, gdy faktycznie głównym profilem są standardowe roboty wykończeniowe — wówczas właściwsze są kody 43.31.Z–43.39.Z (tynki, posadzki, malowanie itd.).",
+    "Pomylenie z 41.00.A (wznoszenie kompletnych budynków mieszkalnych) — generalny wykonawca powinien używać kodu z działu 41."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy świadczeniu usług na rzecz innego podatnika. Wybór formy opodatkowania zależy od skali kosztów materiałów i podwykonawstwa. Stawki sprawdź u doradcy podatkowego."
+}

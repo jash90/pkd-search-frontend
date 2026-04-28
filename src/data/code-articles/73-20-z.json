@@ -1,0 +1,36 @@
+{
+  "code": "73.20.Z",
+  "name": "Badanie rynku i opinii publicznej",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 73.20.Z obejmuje badania rynkowe, sondaże opinii publicznej, badania konsumenckie (jakościowe i ilościowe), testy produktów i analizy zachowań klientów. Pasuje dla agencji badawczych, samodzielnych researcherów i firm zajmujących się user research. Doradztwo strategiczne wynikające z badań klasyfikuje się zwykle pod 70.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja badań rynku",
+      "use": "Realizuje badania ilościowe (CATI, CAWI) i jakościowe (FGI, IDI) na zlecenie marek i instytucji."
+    },
+    {
+      "persona": "Researcher / moderator badań jakościowych",
+      "use": "Prowadzi wywiady pogłębione i grupy fokusowe dla agencji i klientów bezpośrednich."
+    },
+    {
+      "persona": "Specjalista UX research",
+      "use": "Bada zachowania użytkowników aplikacji i serwisów — testy użyteczności, wywiady, analizy."
+    },
+    {
+      "persona": "Pracownia sondaży opinii publicznej",
+      "use": "Realizuje sondaże polityczne i społeczne dla mediów i instytucji publicznych."
+    }
+  ],
+  "businessExamples": [
+    "Agencja badawcza realizująca badania satysfakcji klientów",
+    "Niezależny UX researcher dla startupów",
+    "Pracownia sondażowa dla mediów"
+  ],
+  "commonMistakes": [
+    "Wybór 73.20.Z dla doradztwa biznesowego opartego na danych własnych klienta — bez własnego procesu badawczego właściwy jest 70.20.Z.",
+    "Pomylenie z 72.20.Z (badania naukowe w naukach społecznych) — badania komercyjne na zlecenie biznesu to 73.20.Z, naukowe granty to 72.20.Z."
+  ],
+  "taxNotes": "Badania rynku to typowa działalność usługowa rozliczana w różnych formach (skala, liniowy, ryczałt), z możliwością zwolnienia podmiotowego z VAT przy niskich obrotach. Niektóre rodzaje doradztwa są wyłączone z ryczałtu — zależy to od faktycznego zakresu usług. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "84.22.Z",
+  "name": "Obrona narodowa",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.22.Z dotyczy obronności państwa — działalności Ministerstwa Obrony Narodowej, Sił Zbrojnych RP, jednostek wojskowych, służb wojskowych (ŻW, SKW, SWW). Obejmuje również obronę cywilną i pomoc wojskową w sytuacjach kryzysowych. Produkcja sprzętu wojskowego dla wojska to nie ten kod (sekcja C — produkcja).",
+  "whoUsesIt": [
+    {
+      "persona": "Ministerstwo Obrony Narodowej",
+      "use": "Tworzy politykę obronną państwa, zarządza Siłami Zbrojnymi i budżetem obronnym."
+    },
+    {
+      "persona": "Jednostka wojskowa",
+      "use": "Realizuje zadania obronne, szkolenia żołnierzy, działania na rzecz bezpieczeństwa terytorialnego."
+    },
+    {
+      "persona": "Wojska Obrony Terytorialnej (WOT)",
+      "use": "Prowadzi szkolenia ochotników, wsparcie ludności w kryzysach, ochronę infrastruktury krytycznej."
+    },
+    {
+      "persona": "Żandarmeria Wojskowa / SKW",
+      "use": "Prowadzi sprawy porządkowe i kontrwywiadowcze w Siłach Zbrojnych oraz wokół obiektów wojskowych."
+    }
+  ],
+  "businessExamples": [
+    "Jednostka wojskowa Sił Zbrojnych RP",
+    "MON koordynujący sprawy obronne państwa",
+    "Brygada Obrony Terytorialnej w województwie"
+  ],
+  "commonMistakes": [
+    "Wybór 84.22.Z przez producentów sprzętu wojskowego lub firmy obronne — produkcja zbrojeniowa to kody sekcji C (np. 25.40.Z produkcja broni, 30.30.Z lotnictwo).",
+    "Pomylenie z 84.24.Z (bezpieczeństwo państwa, porządek publiczny) — Policja, ABW, AW to inny kod niż wojsko."
+  ],
+  "taxNotes": "Siły Zbrojne i instytucje obronne finansowane są z budżetu państwa. Nie podlegają standardowym formom opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

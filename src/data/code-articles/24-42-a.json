@@ -1,0 +1,36 @@
+{
+  "code": "24.42.A",
+  "name": "Produkcja aluminium hutniczego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.42.A obejmuje produkcję aluminium pierwotnego z tlenku glinu (proces Halla-Heroulta) oraz aluminium wtórnego z odzysku złomu, w postaci wlewków, gąsek i bloków. To wąsko sprofilowany kod dla hut aluminium i zakładów przetapiających złom aluminiowy w półprodukty hutnicze.",
+  "whoUsesIt": [
+    {
+      "persona": "Huta aluminium pierwotnego",
+      "use": "Elektrolitycznie redukuje tlenek glinu na aluminium hutnicze do dalszej obróbki."
+    },
+    {
+      "persona": "Zakład przetopu złomu aluminiowego",
+      "use": "Topi puszki i złom poprodukcyjny w gąski aluminiowe dla odlewni i walcowni."
+    },
+    {
+      "persona": "Producent wlewków stopowych",
+      "use": "Wytwarza wlewki ze stopów Al-Si, Al-Mg dla branży motoryzacyjnej i lotniczej."
+    },
+    {
+      "persona": "Rafineria aluminium drugiego obiegu",
+      "use": "Oczyszcza i normalizuje skład aluminium z recyklingu pod konkretne specyfikacje."
+    }
+  ],
+  "businessExamples": [
+    "Zakład przetopu złomu na gąski aluminiowe",
+    "Producent wlewków ze stopów Al-Si dla odlewni",
+    "Rafineria aluminium z recyklingu"
+  ],
+  "commonMistakes": [
+    "Wybór 24.42.A zamiast 24.42.B, gdy zakład produkuje gotowe wyroby z aluminium (profile, blachy, drut) — to różne etapy łańcucha produkcyjnego.",
+    "Pomylenie z 38.32.Z (odzysk surowców z materiałów segregowanych) — sortowanie i przygotowanie złomu to inny kod niż jego metalurgiczny przetop."
+  ],
+  "taxNotes": "Produkcja hutnicza aluminium objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali huty, kosztów energii i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}
