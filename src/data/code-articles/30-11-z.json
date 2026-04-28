@@ -1,0 +1,36 @@
+{
+  "code": "30.11.Z",
+  "name": "Produkcja cywilnych statków i konstrukcji pływających",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.11.Z obejmuje budowę i remonty cywilnych statków morskich i śródlądowych — kontenerowców, tankowców, masowców, promów, statków rybackich, holowników, barek i konstrukcji offshore. Polska jest istotnym graczem w przemyśle stoczniowym europejskim.",
+  "whoUsesIt": [
+    {
+      "persona": "Stocznia produkująca statki towarowe",
+      "use": "Buduje statki kontenerowe, masowce i tankowce dla armatorów morskich."
+    },
+    {
+      "persona": "Fabryka konstrukcji offshore",
+      "use": "Produkuje platformy wiertnicze, statki obsługi i fundamenty turbin morskich (TP, jacket)."
+    },
+    {
+      "persona": "Stocznia jachtów i statków pasażerskich",
+      "use": "Wytwarza promy pasażerskie, jachty komercyjne i jednostki turystyczne."
+    },
+    {
+      "persona": "Wytwórca barek i pchaczy śródlądowych",
+      "use": "Robi barki, pchacze i jednostki techniczne dla żeglugi rzecznej i kanałowej."
+    }
+  ],
+  "businessExamples": [
+    "Stocznia produkująca masowce dla globalnych armatorów",
+    "Fabryka fundamentów morskich farm wiatrowych",
+    "Producent specjalistycznych statków obsługi offshore"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.12.Z (łodzie wypoczynkowe i sportowe) — jachty rekreacyjne idą tam, statki komercyjne tutaj.",
+    "Wybór 33.15.Z (naprawa statków) zamiast 30.11.Z — sama naprawa i serwis to inny kod niż budowa nowych jednostek."
+  ],
+  "taxNotes": "Branża stoczniowa korzysta z preferencyjnych zasad podatkowych dla działalności okrętowej (tonażówka) i wsparcia eksportowego. Strategia podatkowa wymaga indywidualnego podejścia ze względu na specyfikę kontraktów. Stawki sprawdź u doradcy podatkowego."
+}

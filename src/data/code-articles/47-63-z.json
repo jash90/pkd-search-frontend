@@ -1,0 +1,36 @@
+{
+  "code": "47.63.Z",
+  "name": "Sprzedaż detaliczna sprzętu sportowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.63.Z obejmuje detaliczną sprzedaż sprzętu sportowego, odzieży i obuwia sportowego, rowerów, sprzętu kempingowego, łodzi i kajaków oraz akcesoriów sportowych w wyspecjalizowanych sklepach. To kod dla sieci sportowych, sklepów rowerowych, sklepów outdoor i serwisów rowerowych ze sprzedażą.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu rowerowego",
+      "use": "Sprzedaje rowery, akcesoria i odzież kolarską oraz prowadzi mały serwis."
+    },
+    {
+      "persona": "Franczyzobiorca sieci sportowej",
+      "use": "Operuje punktem typu Decathlon, Martes Sport, GoSport w galerii."
+    },
+    {
+      "persona": "Sklep outdoor / górski",
+      "use": "Specjalizuje się w sprzęcie turystycznym, alpinistycznym, kempingowym."
+    },
+    {
+      "persona": "Sklep dla wędkarzy",
+      "use": "Oferuje wędki, kołowrotki, przynęty i akcesoria wędkarskie."
+    }
+  ],
+  "businessExamples": [
+    "Sklep rowerowy z serwisem",
+    "Sklep outdoor z odzieżą trekkingową",
+    "Sklep wędkarski z akcesoriami i przynętami"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.71.Z — odzież codzienna ma osobny kod; jeśli głównie sprzedajesz casualową odzież sportową, sprawdź kontekst.",
+    "Wybór 47.63.Z zamiast 95.29.Z, jeśli głównie naprawiasz rowery, a sprzedaż to dodatek."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i gwarancji konsumenckiej. Forma opodatkowania zależy od skali i kosztów magazynu. Stawki sprawdź u doradcy podatkowego."
+}

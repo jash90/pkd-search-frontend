@@ -1,0 +1,36 @@
+{
+  "code": "28.21.Z",
+  "name": "Produkcja pieców, palenisk i stałych urządzeń grzewczych dla gospodarstw domowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.21.Z obejmuje produkcję pieców, kotłów grzewczych, palenisk, kominków i innych stałych urządzeń grzewczych — zarówno gazowych, elektrycznych, jak i na paliwa stałe. Pasuje dla producentów kotłów c.o., wkładów kominkowych i pieców akumulacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kotłów c.o.",
+      "use": "Wytwarza kotły gazowe, elektryczne i na pellet dla domów jednorodzinnych."
+    },
+    {
+      "persona": "Fabryka wkładów kominkowych",
+      "use": "Produkuje stalowe i żeliwne wkłady kominkowe oraz piece wolnostojące."
+    },
+    {
+      "persona": "Wytwórca pomp ciepła i kotłów hybrydowych",
+      "use": "Buduje urządzenia grzewcze z wykorzystaniem OZE — pomp ciepła powietrze/woda."
+    },
+    {
+      "persona": "Producent pieców kaflowych i akumulacyjnych",
+      "use": "Robi tradycyjne piece kaflowe oraz nowoczesne piece akumulacyjne na drewno."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka kotłów gazowych kondensacyjnych",
+    "Producent wkładów kominkowych ze stali i żeliwa",
+    "Zakład wytwarzający piece na pellet i biomasę"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 27.51.Z (produkcja sprzętu gospodarstwa domowego elektrycznego) — kuchenki i piekarniki elektryczne idą tam, nie pod 28.21.Z.",
+    "Wybór 28.25.Z (urządzenia chłodnicze i klimatyzacyjne) zamiast 28.21.Z dla pomp ciepła — pompy grzewcze do gospodarstw domowych klasyfikuje się tutaj."
+  ],
+  "taxNotes": "Producenci urządzeń grzewczych często korzystają z dotacji unijnych i programów typu Czyste Powietrze, co wpływa na strukturę przychodów. Forma opodatkowania zależy od skali produkcji, eksportu i polityki amortyzacji. Stawki sprawdź u doradcy podatkowego."
+}

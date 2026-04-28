@@ -14,6 +14,7 @@ const Footer = () => (
           <h3 className="text-white font-semibold mb-3">Wyszukiwarka</h3>
           <ul className="space-y-2">
             <li><Link to="/" className="hover:text-white">Strona główna</Link></li>
+            <li><Link to="/pkd-2025" className="hover:text-white">Lista PKD 2025 (728 kodów)</Link></li>
             <li><Link to="/przyklady" className="hover:text-white">Przykładowe kody PKD</Link></li>
           </ul>
         </div>

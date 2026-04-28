@@ -1,0 +1,36 @@
+{
+  "code": "88.91.Z",
+  "name": "Opieka dzienna nad dziećmi",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 88.91.Z obejmuje opiekę dzienną nad dziećmi do lat 3 i niepełnosprawnymi w żłobkach, klubach dziecięcych oraz w formie opieki dziennej (dziennego opiekuna). Pasuje też dla niani świadczącej usługi w ramach działalności gospodarczej. Nie obejmuje przedszkoli (zob. 85.10.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel żłobka",
+      "use": "Prowadzi placówkę z personelem opiekuńczym dla dzieci do 3. roku życia."
+    },
+    {
+      "persona": "Dzienny opiekun",
+      "use": "Sprawuje opiekę nad kilkorgiem dzieci we własnym domu, zgodnie z ustawą o opiece nad dziećmi."
+    },
+    {
+      "persona": "Klub dziecięcy",
+      "use": "Oferuje opiekę dzienną w mniejszej formie organizacyjnej niż żłobek."
+    },
+    {
+      "persona": "Niania prowadząca działalność",
+      "use": "Świadczy usługi opieki nad dzieckiem w domu rodziców na podstawie umowy."
+    }
+  ],
+  "businessExamples": [
+    "Niepubliczny żłobek z grupami integracyjnymi",
+    "Klub dziecięcy w centrum biurowym",
+    "Dzienny opiekun w mieszkaniu prywatnym"
+  ],
+  "commonMistakes": [
+    "Wybór 88.91.Z dla przedszkola — przedszkola (dzieci 3-6 lat) klasyfikuje się jako 85.10.Z (wychowanie przedszkolne).",
+    "Pomylenie z 97.00.Z (gospodarstwa domowe zatrudniające pracowników) — niania zatrudniona przez rodziców na umowę uaktywniającą to inny tryb niż prowadzenie działalności."
+  ],
+  "taxNotes": "Żłobki i kluby dziecięce wpisane do rejestru gminy mogą otrzymywać dotacje samorządowe. Usługi opieki nad dziećmi do lat 3 mogą korzystać ze zwolnienia z VAT. Forma opodatkowania zależy od skali — przy zatrudnianiu personelu warto rozważyć skalę lub liniowy. Stawki sprawdź u doradcy podatkowego."
+}

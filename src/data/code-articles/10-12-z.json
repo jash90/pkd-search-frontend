@@ -1,0 +1,36 @@
+{
+  "code": "10.12.Z",
+  "name": "Przetwarzanie i konserwowanie mięsa z drobiu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.12.Z obejmuje ubój drobiu (kur, indyków, kaczek, gęsi, perlic), rozbiór tuszek oraz produkcję świeżego, schłodzonego i mrożonego mięsa drobiowego. Polska jest największym producentem drobiu w UE — ten kod to fundament dla całego sektora drobiarskiego.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład drobiarski",
+      "use": "Prowadzi ubój brojlerów na skalę przemysłową z sortowaniem i pakowaniem tuszek."
+    },
+    {
+      "persona": "Mała ubojnia drobiu",
+      "use": "Świadczy usługi uboju drobiu dla okolicznych ferm i sprzedaż detaliczną."
+    },
+    {
+      "persona": "Producent mięsa drobiowego BIO",
+      "use": "Specjalizuje się w przetwarzaniu drobiu z hodowli ekologicznej dla rynku premium."
+    },
+    {
+      "persona": "Zakład pakujący indyki i gęsi",
+      "use": "Pozyskuje tuszki indycze i gęsie na rynek krajowy oraz eksportowy (Niemcy, Wielka Brytania)."
+    }
+  ],
+  "businessExamples": [
+    "Zakład drobiarski z ubojnią brojlerów",
+    "Mała ubojnia drobiu z RHD",
+    "Producent gęsiny eksportowej"
+  ],
+  "commonMistakes": [
+    "Wybór 10.12.Z zamiast 10.13.Z, gdy działalność polega głównie na produkcji wędlin drobiowych, kiełbas i parówek — to wyroby z mięsa.",
+    "Pomylenie z 01.47.Z (chów drobiu), gdy nie prowadzisz uboju, tylko własną hodowlę — wówczas potrzebny jest kod hodowlany."
+  ],
+  "taxNotes": "Ubój drobiu wymaga uprawnień IW, HACCP i certyfikatu eksportowego dla rynków zagranicznych. Działalność CIT/PIT z VAT-em na zasadach ogólnych; sprawdź mechanizm split payment dla obrotu mięsem. Stawki sprawdź u doradcy podatkowego."
+}

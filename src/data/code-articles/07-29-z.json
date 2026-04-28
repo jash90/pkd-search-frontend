@@ -1,0 +1,36 @@
+{
+  "code": "07.29.Z",
+  "name": "Górnictwo pozostałych rud metali nieżelaznych",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 07.29.Z obejmuje wydobywanie rud miedzi, niklu, cynku, ołowiu, cyny, srebra, złota, platyny, kobaltu, molibdenu i innych metali nieżelaznych z wyłączeniem uranu i toru. W Polsce to kluczowy kod dla branży miedziowej — KGHM jako lider sektora oraz ich kooperantów.",
+  "whoUsesIt": [
+    {
+      "persona": "Koncern miedziowy",
+      "use": "Wydobywa rudę miedzi w Legnicko-Głogowskim Okręgu Miedziowym (Lubin, Polkowice)."
+    },
+    {
+      "persona": "Spółka kooperacyjna",
+      "use": "Świadczy usługi wydobywcze dla głównego koncernu, prowadząc własne odcinki ścianowe."
+    },
+    {
+      "persona": "Polski oddział firmy zagranicznej",
+      "use": "Wydobywa rudy cynku, ołowiu lub niklu za granicą i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Spółka geologiczno-wydobywcza",
+      "use": "Prowadzi prospekcję i wydobywanie metali ziem rzadkich na podstawie koncesji."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia rudy miedzi w Lubinie",
+    "Polski oddział wydobywcy niklu",
+    "Spółka kooperująca z KGHM"
+  ],
+  "commonMistakes": [
+    "Wybór 07.29.Z zamiast 07.21.Z (rudy uranu i toru), gdy wydobywasz materiały promieniotwórcze — te mają osobny kod.",
+    "Pomylenie z 24.44.Z (produkcja miedzi), gdy działalność polega głównie na hutnictwie i rafinacji metali z koncentratów."
+  ],
+  "taxNotes": "Górnictwo metali nieżelaznych wymaga koncesji geologiczno-górniczej, opłat eksploatacyjnych oraz spełnienia wymogów środowiskowych. Działalność CIT-owa z VAT-em na zasadach ogólnych; istotne są ulgi inwestycyjne (PSI, SSE) i amortyzacja. Stawki sprawdź u doradcy podatkowego."
+}

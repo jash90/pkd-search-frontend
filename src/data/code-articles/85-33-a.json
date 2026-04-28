@@ -1,0 +1,36 @@
+{
+  "code": "85.33.A",
+  "name": "Szkoły policealne",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.33.A dotyczy szkół policealnych — placówek dla absolwentów szkół średnich (matura nie jest wymagana), kształcących zawodowo zakończonych egzaminem zawodowym. Najczęstsze zawody: technik administracji, technik bezpieczeństwa pracy, technik usług kosmetycznych, technik masażysta. Studia wyższe to 85.42, kursy pozaszkolne to 85.59.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Niepubliczna szkoła policealna",
+      "use": "Spółka lub stowarzyszenie prowadzące prywatną szkołę policealną z bezpłatnymi kierunkami i kursami płatnymi."
+    },
+    {
+      "persona": "Sieć szkół policealnych",
+      "use": "Operator wielu szkół policealnych w różnych miastach kształcących w zawodach popularnych (kosmetyka, BHP, administracja)."
+    },
+    {
+      "persona": "Szkoła policealna medyczna",
+      "use": "Placówka kształcąca techników medycznych — masażyst, ortopaeg, dentystycznych asystentów, ratowników."
+    },
+    {
+      "persona": "Szkoła policealna w zespole szkół",
+      "use": "Element szkoły zawodowej oferujący kształcenie policealne dla absolwentów szkół średnich w danym mieście."
+    }
+  ],
+  "businessExamples": [
+    "Szkoła policealna kształcąca techników kosmetycznych",
+    "Sieć szkół policealnych z kierunkami administracyjno-medycznymi",
+    "Szkoła policealna medyczna - technik masażysta i farmaceutyczny"
+  ],
+  "commonMistakes": [
+    "Wybór 85.33.A dla kursów zawodowych poza systemem szkolnym — to 85.59.B, szkoła policealna wymaga wpisu do ewidencji i podstawy programowej.",
+    "Pomylenie z 85.42.Z (szkolnictwo wyższe) — uczelnie wyższe i studia podyplomowe mają inny kod."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych i uprawnienia szkoły publicznej (dla bezpłatnych kierunków). Usługi edukacyjne zazwyczaj zwolnione z VAT. Subwencja oświatowa za uczniów posiadających uprawnienia. Stawki sprawdź u doradcy podatkowego."
+}

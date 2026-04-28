@@ -1,0 +1,36 @@
+{
+  "code": "68.12.C",
+  "name": "Realizacja pozostałych projektów budowlanych",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.12.C obejmuje realizację projektów deweloperskich obiektów innych niż klasyczne budynki mieszkalne i niemieszkalne — np. infrastruktura towarzysząca osiedlom, projekty infrastrukturalne, parki techniczne, kompleksy hybrydowe czy specjalistyczne obiekty inżynieryjne wykonywane na zlecenie inwestorów.",
+  "whoUsesIt": [
+    {
+      "persona": "Deweloper infrastruktury towarzyszącej",
+      "use": "Realizuje drogi wewnętrzne, parkingi, sieci uzbrojenia terenu pod osiedla i parki biznesowe."
+    },
+    {
+      "persona": "Inwestor projektów hybrydowych",
+      "use": "Prowadzi inwestycje mixed-use łączące funkcje mieszkalne, biurowe i handlowe w jednym kompleksie."
+    },
+    {
+      "persona": "Deweloper parków przemysłowych",
+      "use": "Tworzy strefy aktywności gospodarczej z infrastrukturą pod najemców produkcyjnych."
+    },
+    {
+      "persona": "Firma realizująca projekty specjalistyczne",
+      "use": "Buduje obiekty sportowe, rekreacyjne lub infrastrukturalne na zlecenie inwestorów publicznych i prywatnych."
+    }
+  ],
+  "businessExamples": [
+    "Deweloper kompleksu mixed-use łączącego biura, mieszkania i handel",
+    "Firma realizująca uzbrojenie terenu pod inwestycje przemysłowe",
+    "Inwestor parku biznesowego z infrastrukturą drogową"
+  ],
+  "commonMistakes": [
+    "Wybór 68.12.C zamiast 68.12.A lub 68.12.B — gdy projekt jest jednoznacznie mieszkaniowy (68.12.A) lub niemieszkalny (68.12.B), kategoria 'pozostałe' nie jest właściwa.",
+    "Pomylenie z 42.99.Z (pozostałe roboty inżynierii lądowej) — gdy firma jest wykonawcą, a nie deweloperem-inwestorem, kod z działu 42 jest właściwszy."
+  ],
+  "taxNotes": "Rozliczenia VAT zależą od charakteru obiektu i sposobu wykorzystania. Branża podlega split paymentowi przy zakupach od podwykonawców budowlanych. Stawki sprawdź u doradcy podatkowego."
+}

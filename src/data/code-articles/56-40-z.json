@@ -1,0 +1,36 @@
+{
+  "code": "56.40.Z",
+  "name": "Pośrednictwo w zakresie działalności usługowej związanej z wyżywieniem",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.40.Z obejmuje pośrednictwo w zakresie usług gastronomicznych — platformy zamówień jedzenia online (Pyszne.pl, Glovo, Uber Eats), agregatory restauracyjne, brokerów cateringowych. To nowy kod w PKD 2025 dla foodtech i marketplace'ów gastronomicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator platformy delivery",
+      "use": "Prowadzi platformę zamówień online łączącą restauracje z klientami — prowizja od restauracji i opłata za dostawę."
+    },
+    {
+      "persona": "Broker cateringowy",
+      "use": "Pośredniczy w pozyskiwaniu zleceń cateringowych dla restauracji organizujących eventy korporacyjne."
+    },
+    {
+      "persona": "Marketplace dietetyczny",
+      "use": "Łączy producentów diet pudełkowych z klientami końcowymi — model prowizji od subskrypcji."
+    },
+    {
+      "persona": "Agregator rezerwacji restauracyjnych",
+      "use": "Prowadzi serwis rezerwacji stolików online z prowizją od restauracji za potwierdzone wizyty."
+    }
+  ],
+  "businessExamples": [
+    "Platforma zamówień jedzenia online",
+    "Broker cateringów dla eventów korporacyjnych",
+    "Marketplace diet pudełkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 56.40.Z zamiast 56.21.Z (przygotowywanie i dostarczanie żywności na zamówienie - catering) — jeśli firma sama gotuje i dostarcza catering, właściwy jest kod cateringowy.",
+    "Pomylenie z 53.20.Z (pozostała działalność kurierska) — sama dostawa paczek i jedzenia bez aspektu marketplace to kurier, nie pośrednik gastronomiczny."
+  ],
+  "taxNotes": "Działalność platform internetowych w gastronomii rozliczana jest na zasadach ogólnych VAT, a wynagrodzenie z prowizji nie korzysta z preferencji właściwych dla samych usług gastronomicznych. Stawki sprawdź u doradcy podatkowego."
+}

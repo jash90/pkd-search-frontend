@@ -1,0 +1,36 @@
+{
+  "code": "27.52.Z",
+  "name": "Produkcja nieelektrycznego sprzętu gospodarstwa domowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.52.Z obejmuje produkcję sprzętu gospodarstwa domowego niewykorzystującego energii elektrycznej — kuchenek gazowych, piecyków na paliwo stałe, kominków, grilli ogrodowych, podgrzewaczy gazowych, lodówek absorpcyjnych, palników turystycznych. To kod dla wytwórców urządzeń domowych zasilanych gazem, paliwem stałym lub mechanicznie.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kuchenek gazowych",
+      "use": "Wytwarza kuchenki i piekarniki gazowe wolnostojące i do zabudowy."
+    },
+    {
+      "persona": "Wytwórca kominków i piecyków",
+      "use": "Produkuje wkłady kominkowe, piece kaflowe i kozy na drewno."
+    },
+    {
+      "persona": "Producent grilli ogrodowych",
+      "use": "Wytwarza grille gazowe, węglowe i wędzarnie ogrodowe."
+    },
+    {
+      "persona": "Wytwórca podgrzewaczy gazowych",
+      "use": "Produkuje przepływowe i pojemnościowe podgrzewacze wody na gaz."
+    }
+  ],
+  "businessExamples": [
+    "Producent kuchenek gazowych do zabudowy",
+    "Wytwórnia kominków na drewno i pelet",
+    "Producent grilli ogrodowych gazowych"
+  ],
+  "commonMistakes": [
+    "Wybór 27.52.Z zamiast 27.51.Z, gdy urządzenie ma element elektryczny dominujący (np. piekarnik elektryczno-gazowy) — wówczas właściwy może być 27.51.Z.",
+    "Pomylenie z 25.21.Z (produkcja grzejników c.o., wytwornic pary i kotłów) — kotły grzewcze c.o. wchodzą do 25.21.Z, sprzęt domowy lokalny do 27.52.Z."
+  ],
+  "taxNotes": "Produkcja sprzętu gazowego objęta jest VAT na zasadach ogólnych. Urządzenia gazowe wymagają oznakowania CE i certyfikacji bezpieczeństwa (rozporządzenie GAR). Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "07.21.Z",
+  "name": "Górnictwo rud uranu i toru",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 07.21.Z obejmuje wydobywanie i wstępne wzbogacanie rud uranu i toru, w tym produkcję koncentratów. W Polsce nie ma czynnego wydobycia uranu — kod ten ma znaczenie głównie historyczne (Sudety) lub potencjalne dla przyszłych projektów energetyki jądrowej oraz dla polskich firm działających za granicą.",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka projektowa atomowa",
+      "use": "Prowadzi prace przygotowawcze pod potencjalne wydobycie uranu na potrzeby polskiej energetyki jądrowej."
+    },
+    {
+      "persona": "Polski oddział firmy zagranicznej",
+      "use": "Wydobywa rudy uranu w Kazachstanie lub Kanadzie i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Firma rekultywacji terenów pokopalnianych",
+      "use": "Prowadzi prace na byłych terenach kopalni uranu (Kletno, Kowary) — głównie remediację."
+    },
+    {
+      "persona": "Geologia poszukiwawcza",
+      "use": "Prowadzi prospekcję złóż uranu i toru w ramach kontraktów koncesyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Spółka koncesyjna na uran",
+    "Rekultywacja terenów po Kletnie",
+    "Polski oddział wydobywcy z Kanady"
+  ],
+  "commonMistakes": [
+    "Wybór 07.21.Z zamiast 09.90.Z (usługi wspomagające pozostałe górnictwo), gdy świadczysz wyłącznie wiercenia poszukiwawcze bez wydobycia.",
+    "Pomylenie z 07.29.Z (pozostałe rudy metali nieżelaznych), gdy wydobywasz rudy miedzi, niklu lub cynku — uran ma własny kod."
+  ],
+  "taxNotes": "Górnictwo rud strategicznych podlega koncesjonowaniu, opłatom eksploatacyjnym i wymogom środowiskowym oraz Państwowej Agencji Atomistyki. Aktywność jest CIT-owa z VAT-em na zasadach ogólnych — istotna jest też analiza odpisów amortyzacyjnych. Stawki sprawdź u doradcy podatkowego."
+}

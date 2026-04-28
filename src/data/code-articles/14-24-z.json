@@ -1,0 +1,36 @@
+{
+  "code": "14.24.Z",
+  "name": "Produkcja odzieży skórzanej i wyrobów futrzarskich",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 14.24.Z obejmuje produkcję odzieży ze skóry naturalnej, syntetycznej oraz futer — kurtek skórzanych, płaszczy, futer, kamizelek, spodni skórzanych. Również odzież z imitacji skóry i futra. To kod dla manufaktur kuśnierskich i marek odzieży skórzanej.",
+  "whoUsesIt": [
+    {
+      "persona": "Manufaktura kurtek skórzanych",
+      "use": "Produkuje kurtki ramoneski, motocyklowe i biker jackets pod marką własną."
+    },
+    {
+      "persona": "Pracownia kuśnierska",
+      "use": "Szyje futra naturalne i z imitacji futra na zamówienie indywidualne."
+    },
+    {
+      "persona": "Producent płaszczy ze skóry",
+      "use": "Wytwarza płaszcze i kamizelki ze skóry naturalnej dla rynku premium."
+    },
+    {
+      "persona": "Marka odzieży motocyklowej",
+      "use": "Produkuje skórzane kombinezony, kurtki i spodnie z certyfikacją dla motocyklistów."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura kurtek motocyklowych ze skóry",
+    "Pracownia kuśnierska z futrami premium",
+    "Producent ramonesek pod marką lifestyle"
+  ],
+  "commonMistakes": [
+    "Wybór 14.24.Z zamiast 15.11.Z (Garbowanie skór) — proces wyprawy i barwienia surowych skór to 15.11.Z, a szycie odzieży to 14.24.Z.",
+    "Pomylenie z 15.12.Z (Toreb skórzanych) — torebki, plecaki i akcesoria skórzane to 15.12.Z, a ubrania ze skóry to 14.24.Z."
+  ],
+  "taxNotes": "Produkcja odzieży skórzanej podlega standardowym stawkom VAT, a w przypadku futer naturalnych mogą obowiązywać dodatkowe regulacje konsumenckie. Stawki sprawdź u doradcy podatkowego."
+}

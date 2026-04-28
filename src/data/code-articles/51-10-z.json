@@ -1,0 +1,36 @@
+{
+  "code": "51.10.Z",
+  "name": "Transport lotniczy pasażerski",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 51.10.Z obejmuje przewozy pasażerów liniami lotniczymi rozkładowymi i czarterowymi, lotami cargo z pasażerami, taksówką lotniczą oraz przewozami pasażerskimi śmigłowcami. To kod dla linii lotniczych, operatorów biznes-jetów i firm aviation general.",
+  "whoUsesIt": [
+    {
+      "persona": "Linia lotnicza rejsowa",
+      "use": "Obsługuje regularne loty pasażerskie z polskich portów lotniczych do destynacji europejskich i krajowych."
+    },
+    {
+      "persona": "Linia czarterowa",
+      "use": "Wykonuje czartery dla biur podróży na popularne kierunki turystyczne — sezon letni i zimowy."
+    },
+    {
+      "persona": "Operator taksówki lotniczej",
+      "use": "Świadczy loty business-jetami na zlecenie klientów korporacyjnych i indywidualnych."
+    },
+    {
+      "persona": "Operator śmigłowcowy",
+      "use": "Wykonuje loty pasażerskie i HEMS (medyczne) śmigłowcami — transport VIP, ratunkowy, transfery."
+    }
+  ],
+  "businessExamples": [
+    "Linia lotnicza obsługująca rejsy europejskie",
+    "Operator czarterów do basenu Morza Śródziemnego",
+    "Firma świadcząca taksówki lotnicze biznes-jetem"
+  ],
+  "commonMistakes": [
+    "Wybór 51.10.Z zamiast 51.21.Z (transport lotniczy towarów) — przewóz cargo lotniczego dedykowanymi maszynami to osobny kod.",
+    "Pomylenie z 52.23.Z (działalność wspomagająca transport lotniczy) — obsługa naziemna, handling i operacje portowe bez własnych lotów to inny kod."
+  ],
+  "taxNotes": "Międzynarodowy transport lotniczy pasażerski objęty jest specyficznymi zasadami VAT (m.in. preferencyjne stawki na loty międzynarodowe) i wymogami licencyjnymi ULC oraz EASA. Działalność wymaga certyfikatu AOC i polis OC lotniczych. Stawki sprawdź u doradcy podatkowego."
+}

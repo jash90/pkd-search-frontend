@@ -1,0 +1,36 @@
+{
+  "code": "35.16.Z",
+  "name": "Magazynowanie energii elektrycznej",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.16.Z dotyczy działalności polegającej na magazynowaniu energii elektrycznej w bateriach, akumulatorach lub innych systemach (np. CAES, magazyny ciepła z przemianą fazową) i jej późniejszym oddawaniu do sieci. To nowa, dynamicznie rosnąca kategoria, kluczowa dla bilansowania OZE.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator wielkoskalowego magazynu BESS",
+      "use": "Świadczy usługi bilansujące i arbitrażowe na rynku energii."
+    },
+    {
+      "persona": "Spółka projektowa farmy hybrydowej PV+BESS",
+      "use": "Łączy fotowoltaikę z magazynem energii w jednym przyłączu."
+    },
+    {
+      "persona": "Operator magazynu sieciowego DSO",
+      "use": "Wspiera lokalną stabilność sieci dystrybucyjnej."
+    },
+    {
+      "persona": "Agregator zarządzający flotą magazynów",
+      "use": "Optymalizuje wiele rozproszonych magazynów w portfelu klientów."
+    }
+  ],
+  "businessExamples": [
+    "Magazyn bateryjny BESS 50 MWh",
+    "Magazyn powietrza sprężonego CAES",
+    "Hybrydowy projekt PV + magazyn energii"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 27.20.Z (produkcja baterii) — magazynowanie to świadczenie usługi sieciowej, nie produkcja akumulatorów.",
+    "Wybór 35.16.Z zamiast 35.15.Z, gdy działalność polega głównie na arbitrażu cenowym i sprzedaży energii, a magazyn jest tylko narzędziem."
+  ],
+  "taxNotes": "Magazynowanie energii uzyskało osobną kwalifikację prawną w ustawie energetycznej i zwolnione jest z podwójnej akcyzy. Wymaga koncesji URE powyżej określonej mocy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "64.91.Z",
+  "name": "Leasing finansowy",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.91.Z obejmuje finansowanie zakupu środków trwałych w formie leasingu finansowego — gdzie leasingobiorca przejmuje większość ryzyk i korzyści związanych z używaniem przedmiotu, a często też nabywa go na koniec umowy. Pasuje dla firm leasingowych, banków leasingowych i instytucji finansowych specjalizujących się w finansowaniu CAPEX-u.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma leasingowa",
+      "use": "Finansuje zakup pojazdów, maszyn i sprzętu IT w modelu leasingu finansowego dla firm."
+    },
+    {
+      "persona": "Bank leasingowy",
+      "use": "Spółka zależna banku oferująca leasing inwestycyjny w pakiecie z usługami bankowymi."
+    },
+    {
+      "persona": "Leasingodawca w branży transportu",
+      "use": "Specjalizuje się w finansowaniu flot ciężarowych, autobusów i naczep."
+    },
+    {
+      "persona": "Captive leasing producenta",
+      "use": "Spółka producenta sprzętu (motoryzacyjnego, IT) finansująca sprzedaż własnych produktów."
+    }
+  ],
+  "businessExamples": [
+    "Firma leasingowa dla MŚP",
+    "Bankowy leasing maszyn produkcyjnych",
+    "Captive leasing samochodów producenta"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 77.11.Z lub 77.39.Z (wynajem pojazdów / maszyn) — leasing operacyjny ujmuje się w sekcji wynajmu, nie finansowej.",
+    "Wybór 64.91.Z zamiast 64.92.B (pozostałe formy udzielania kredytów) — gdy faktyczne finansowanie nie ma cech leasingu."
+  ],
+  "taxNotes": "Leasing finansowy w księgach leasingobiorcy traktuje się jak zakup z finansowaniem (amortyzacja u korzystającego). Specyfika VAT zależy od typu leasingu (operacyjny vs finansowy). Stawki sprawdź u doradcy podatkowego."
+}

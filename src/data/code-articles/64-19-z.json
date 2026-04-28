@@ -1,0 +1,36 @@
+{
+  "code": "64.19.Z",
+  "name": "Pozostałe pośrednictwo pieniężne",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.19.Z obejmuje pośrednictwo pieniężne prowadzone przez banki komercyjne, banki spółdzielcze, SKOK-i, instytucje pieniądza elektronicznego i inne podmioty depozytowo-kredytowe. Pasuje dla banków, banków cyfrowych (neobanków), spółdzielczych kas oraz instytucji płatniczych z licencją.",
+  "whoUsesIt": [
+    {
+      "persona": "Bank komercyjny",
+      "use": "Przyjmuje depozyty, udziela kredytów i prowadzi rachunki dla klientów detalicznych i firmowych."
+    },
+    {
+      "persona": "Bank spółdzielczy",
+      "use": "Świadczy usługi bankowe lokalnie — z silnym osadzeniem w gminach i sektorze rolnym."
+    },
+    {
+      "persona": "SKOK (Spółdzielcza Kasa Oszczędnościowo-Kredytowa)",
+      "use": "Prowadzi działalność kasowo-pożyczkową dla członków na zasadach spółdzielczych."
+    },
+    {
+      "persona": "Bank cyfrowy / neobank",
+      "use": "Oferuje rachunki, karty i kredyty wyłącznie online z licencją krajową lub UE (passporting)."
+    }
+  ],
+  "businessExamples": [
+    "Bank komercyjny z siecią placówek",
+    "Bank spółdzielczy w regionie wiejskim",
+    "Neobank działający wyłącznie online"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.11.Z (bank centralny) — działalność emisyjna jest zarezerwowana dla NBP.",
+    "Wybór 64.19.Z zamiast 64.92.B (pożyczki pozabankowe) — instytucje pożyczkowe bez statusu banku mają osobny kod."
+  ],
+  "taxNotes": "Działalność bankowa wymaga licencji KNF i podlega specyficznym regulacjom rachunkowym (PSR/MSR) oraz podatkowi bankowemu. VAT w usługach finansowych jest co do zasady zwolniony. Stawki sprawdź u doradcy podatkowego."
+}

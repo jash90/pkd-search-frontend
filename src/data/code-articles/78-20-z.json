@@ -1,0 +1,36 @@
+{
+  "code": "78.20.Z",
+  "name": "Działalność agencji pracy tymczasowej i pozostała działalność związana z udostępnianiem pracowników",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 78.20.Z obejmuje pracę tymczasową i outsourcing pracowniczy — agencja zatrudnia ludzi, a następnie kieruje ich do pracy u klienta (pracodawcy użytkownika). Pasuje dla agencji pracy tymczasowej, body leasingu IT i firm udostępniających specjalistów. Sama rekrutacja stała to 78.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja pracy tymczasowej",
+      "use": "Zatrudnia pracowników i kieruje ich do pracy u pracodawców użytkowników (produkcja, logistyka)."
+    },
+    {
+      "persona": "Firma body leasingu IT",
+      "use": "Udostępnia programistów i specjalistów IT klientom na czas projektu (T&M)."
+    },
+    {
+      "persona": "Outsourcer procesów biznesowych",
+      "use": "Przejmuje procesy klienta wraz z pracownikami (BPO, np. księgowość, obsługa klienta)."
+    },
+    {
+      "persona": "Agencja udostępniająca specjalistów inżynieryjnych",
+      "use": "Kieruje inżynierów i techników do projektów u klientów z branży produkcyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Agencja pracy tymczasowej dla magazynów i logistyki",
+    "Firma body leasingu programistów dla korporacji",
+    "Outsourcer specjalistów inżynieryjnych w produkcji"
+  ],
+  "commonMistakes": [
+    "Wybór 78.20.Z zamiast 78.10.Z, gdy agencja tylko rekrutuje pracowników na umowy z klientem — bez własnego zatrudnienia tymczasowego to 78.10.Z.",
+    "Pomylenie z 81.10.Z lub 82.99.Z, gdy świadczone są usługi facility management lub administracyjne na zlecenie — wtedy nie chodzi o samo udostępnienie ludzi."
+  ],
+  "taxNotes": "Agencja pracy tymczasowej wymaga wpisu do KRAZ i spełnienia wymogów ustawy o zatrudnianiu pracowników tymczasowych. Występują dodatkowe obowiązki wobec pracowników, składki ZUS i specyficzne rozliczenia VAT przy międzynarodowym oddelegowaniu. Stawki sprawdź u doradcy podatkowego."
+}

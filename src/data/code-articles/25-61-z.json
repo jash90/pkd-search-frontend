@@ -1,0 +1,36 @@
+{
+  "code": "25.61.Z",
+  "name": "Produkcja wyrobów nożowniczych i sztućców",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.61.Z obejmuje produkcję wyrobów nożowniczych i sztućców — noży kuchennych i rzeźnickich, scyzoryków, brzytew, nożyczek, maszynek do strzyżenia, sztućców domowych i gastronomicznych oraz noży przemysłowych do maszyn. To kod dla wytwórców ostrzy i sztućców dla gospodarstw domowych, gastronomii i przemysłu.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent noży kuchennych",
+      "use": "Wytwarza noże ze stali nierdzewnej i damasceńskiej dla gastronomii i klientów detalicznych."
+    },
+    {
+      "persona": "Wytwórca sztućców",
+      "use": "Produkuje komplety sztućców domowych i gastronomicznych ze stali nierdzewnej."
+    },
+    {
+      "persona": "Producent noży przemysłowych",
+      "use": "Wytwarza noże tnące do maszyn papierniczych, drukarskich i opakowań."
+    },
+    {
+      "persona": "Wytwórca scyzoryków i noży outdoor",
+      "use": "Produkuje noże składane, taktyczne i myśliwskie dla rynku detalicznego."
+    }
+  ],
+  "businessExamples": [
+    "Producent noży kuchennych ze stali nierdzewnej",
+    "Wytwórnia sztućców gastronomicznych",
+    "Producent noży przemysłowych do maszyn pakujących"
+  ],
+  "commonMistakes": [
+    "Wybór 25.61.Z zamiast 25.71.Z (we wcześniejszym PKD 2007 był to numer dla nożowniczych) — w PKD 2025 obowiązuje 25.61.Z, sprawdź aktualną numerację.",
+    "Pomylenie z 25.63.Z (produkcja narzędzi) — narzędzia warsztatowe (młotki, klucze) mają kod 25.63.Z, ostrza nożownicze 25.61.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów nożowniczych objęta jest VAT na zasadach ogólnych. Sprzedaż detaliczna i online może wymagać kasy fiskalnej. Wybór formy opodatkowania zależy od skali produkcji, kanałów sprzedaży i marżowości. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "27.12.Z",
+  "name": "Produkcja aparatury rozdzielczej i sterowniczej energii elektrycznej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.12.Z obejmuje produkcję rozdzielnic elektrycznych SN i nn, szafek sterowniczych, wyłączników mocy, bezpieczników, styczników, przekaźników, przewodów szynowych oraz tablic kontrolnych. To kod dla producentów infrastruktury sterującej i rozdzielczej dla energetyki, automatyki przemysłowej i budownictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent rozdzielnic SN/nn",
+      "use": "Wytwarza rozdzielnice średniego i niskiego napięcia dla operatorów sieci."
+    },
+    {
+      "persona": "Wytwórca szaf sterowniczych",
+      "use": "Produkuje szafy automatyki i AKPiA dla zakładów przemysłowych i obiektów."
+    },
+    {
+      "persona": "Producent aparatury łączeniowej",
+      "use": "Wytwarza wyłączniki, styczniki, przekaźniki i bezpieczniki dla branży elektroinstalacyjnej."
+    },
+    {
+      "persona": "Producent szynoprzewodów",
+      "use": "Wytwarza przewody szynowe (busbars) dla dystrybucji energii w halach i centrach danych."
+    }
+  ],
+  "businessExamples": [
+    "Producent rozdzielnic SN dla operatorów energetycznych",
+    "Wytwórnia szaf sterowniczych AKPiA",
+    "Producent szynoprzewodów dla data center"
+  ],
+  "commonMistakes": [
+    "Wybór 27.12.Z zamiast 27.11.Z (produkcja silników, prądnic, transformatorów) — same maszyny elektryczne mają osobny kod 27.11.Z.",
+    "Pomylenie z 43.21.Z (wykonywanie instalacji elektrycznych) — sam montaż rozdzielnicy u klienta to 43.21.Z, produkcja w zakładzie to 27.12.Z."
+  ],
+  "taxNotes": "Produkcja aparatury rozdzielczej objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali zakładu i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

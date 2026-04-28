@@ -1,0 +1,36 @@
+{
+  "code": "35.21.Z",
+  "name": "Wytwarzanie paliw gazowych",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.21.Z obejmuje produkcję paliw gazowych przeznaczonych do dystrybucji w systemie sieciowym — w tym biometan z biogazu, gaz syntezowy (SNG), gaz ziemny po obróbce czy mieszanki gazowe. Dotyczy zakładów uszlachetniających biogaz do parametrów sieciowych oraz instalacji P2G (power-to-gas).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator biometanowni",
+      "use": "Oczyszcza biogaz do biometanu i wprowadza go do sieci gazowej."
+    },
+    {
+      "persona": "Zakład power-to-gas",
+      "use": "Produkuje wodór i metan syntetyczny z energii OZE."
+    },
+    {
+      "persona": "Spółka inwestycyjna w sektorze biogazu",
+      "use": "Buduje instalacje uszlachetniania gazu do parametrów sieci."
+    },
+    {
+      "persona": "Operator gazowni miejskiej (historycznie)",
+      "use": "Wytwarza gaz ze źródeł lokalnych do sieci miejskiej."
+    }
+  ],
+  "businessExamples": [
+    "Biometanownia 500 Nm3/h podłączona do sieci",
+    "Instalacja power-to-gas przy farmie wiatrowej",
+    "Zakład uszlachetniania biogazu rolniczego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.12.D (energetyka biogazowa) — produkcja biometanu do sieci to 35.21.Z, produkcja prądu z biogazu to 35.12.D.",
+    "Wybór 35.21.Z zamiast 19.20.Z (wytwarzanie produktów rafinacji ropy), gdy firma produkuje gaz LPG jako produkt rafineryjny."
+  ],
+  "taxNotes": "Produkcja biometanu i wodoru korzysta z systemów wsparcia OZE i akcyzy preferencyjnej. Wprowadzanie gazu do sieci wymaga koncesji URE oraz spełnienia wymagań technicznych. Stawki sprawdź u doradcy podatkowego."
+}

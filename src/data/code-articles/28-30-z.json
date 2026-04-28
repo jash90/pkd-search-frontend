@@ -1,0 +1,36 @@
+{
+  "code": "28.30.Z",
+  "name": "Produkcja maszyn dla rolnictwa i leśnictwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.30.Z obejmuje produkcję ciągników rolniczych, kombajnów, siewników, opryskiwaczy, pługów oraz maszyn leśnych typu harwester czy forwarder. To podstawowy kod dla zakładów wytwarzających sprzęt mechaniczny dla gospodarstw rolnych, sadowników i firm leśnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent maszyn rolniczych",
+      "use": "Wytwarza ciągniki, kombajny i osprzęt polowy sprzedawany przez sieć dealerską."
+    },
+    {
+      "persona": "Zakład produkcji maszyn leśnych",
+      "use": "Buduje harwestery, forwardery i przyczepy leśne dla firm zrębowych."
+    },
+    {
+      "persona": "Mała firma rodzinna",
+      "use": "Produkuje niszowe maszyny — np. sadzarki do warzyw, prasy do siana, opryskiwacze sadownicze."
+    },
+    {
+      "persona": "Producent osprzętu do ciągników",
+      "use": "Wytwarza ładowacze czołowe, pługi, kosiarki i agregaty uprawowe."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka kombajnów zbożowych",
+    "Producent opryskiwaczy sadowniczych",
+    "Wytwórnia maszyn do zbioru drewna"
+  ],
+  "commonMistakes": [
+    "Wybór 28.30.Z zamiast 28.22.Z (urządzenia dźwigowe i transportu bliskiego), gdy firma głównie produkuje wózki widłowe lub przenośniki — to inny kod.",
+    "Pomylenie z 33.12.Z (naprawa maszyn) — serwis i naprawa ciągników to inny kod niż ich produkcja."
+  ],
+  "taxNotes": "Producenci maszyn rolniczych mogą stosować mechanizm podzielonej płatności (split payment) przy sprzedaży B2B oraz korzystać z ulg na innowacje i prototypy. Wybór formy opodatkowania zależy od skali produkcji i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

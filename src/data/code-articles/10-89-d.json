@@ -1,0 +1,36 @@
+{
+  "code": "10.89.D",
+  "name": "Produkcja pozostałych artykułów spożywczych, z wyłączeniem suplementów diety, substytutów mięsa, roślinnych substytutów dla jaj, nabiału i innych produktów mlecznych, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.89.D to kod 'parasol' dla pozostałej produkcji spożywczej, której nie można przypisać do bardziej szczegółowych pozycji — np. zupy w proszku, drożdże, miód spożywczy konfekcjonowany, koncentraty smakowe, jaja w proszku, składniki funkcjonalne i wszystko, co spożywcze i niesklasyfikowane gdzie indziej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zup błyskawicznych w proszku",
+      "use": "Wytwarza zupy i sosy instant w saszetkach do retailu i HoReCa."
+    },
+    {
+      "persona": "Wytwórca drożdży piekarskich i piwowarskich",
+      "use": "Produkuje drożdże świeże, suszone i instant dla piekarni oraz domowych browarników."
+    },
+    {
+      "persona": "Konfekcjoner miodu i syropów",
+      "use": "Konfekcjonuje miód, syropy klonowe, ekstrakty malt do opakowań detalicznych."
+    },
+    {
+      "persona": "Producent dodatków funkcjonalnych do żywności",
+      "use": "Produkuje aromaty spożywcze, barwniki, emulgatory i inne dodatki dla przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Producent zup w proszku pod marką własną",
+    "Wytwórca drożdży dla piekarni i browarów",
+    "Konfekcjoner miodu i syropów premium"
+  ],
+  "commonMistakes": [
+    "Wybór 10.89.D zamiast 10.84.Z (Produkcja przypraw) dla mieszanek przyprawowych — przyprawy mają osobny kod.",
+    "Pomylenie z 10.85.Z (Wytwarzanie gotowych posiłków i dań) — zupa instant w proszku to 10.89.D, a gotowa zupa schłodzona w słoiku to 10.85.Z."
+  ],
+  "taxNotes": "Produkcja pozostałych artykułów spożywczych podlega standardowym stawkom VAT, a forma opodatkowania zależy od skali i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

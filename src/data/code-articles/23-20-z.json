@@ -1,0 +1,36 @@
+{
+  "code": "23.20.Z",
+  "name": "Produkcja wyrobów ogniotrwałych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.20.Z obejmuje produkcję materiałów ogniotrwałych — cegieł szamotowych, magnezytowych, korundowych, mas i zapraw ogniotrwałych, kształtek, izolacji wysokotemperaturowych i ceramicznych włókien izolacyjnych dla pieców hutniczych, koksowniczych, cementowych i ceramicznych. Nie obejmuje produkcji ceramiki konstrukcyjnej (23.32.Z) ani szkła (23.1).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent cegieł szamotowych",
+      "use": "Wytwarza wyroby ogniotrwałe glinokrzemianowe dla pieców hutniczych i kotłów energetycznych."
+    },
+    {
+      "persona": "Wytwórnia mas torkretowych",
+      "use": "Produkuje masy do natryskowego naprawiania wyłożeń pieców i kadzi w hutach."
+    },
+    {
+      "persona": "Producent kształtek izolacyjnych",
+      "use": "Wytwarza kształtki z włókien ceramicznych i lekkich szamotów dla izolacji pieców przemysłowych."
+    },
+    {
+      "persona": "Wytwórnia mat i papierów ceramicznych",
+      "use": "Produkuje maty i papiery z włókien ceramicznych dla branży motoryzacyjnej (katalizatory) i pieców."
+    }
+  ],
+  "businessExamples": [
+    "Producent cegieł szamotowych dla hutnictwa",
+    "Wytwórnia mas torkretowych do naprawy kadzi",
+    "Producent mat ceramicznych do katalizatorów"
+  ],
+  "commonMistakes": [
+    "Wybór 23.20.Z zamiast 23.32.Z — cegły budowlane, dachówki i pustaki ceramiczne to materiały budowlane, nie ogniotrwałe.",
+    "Mylenie z 23.99.Z (produkcja pozostałych mineralnych wyrobów niemetalicznych, gdzie indziej niesklasyfikowana) — niektóre specjalistyczne wyroby mineralne mogą wpadać w tę szerszą kategorię."
+  ],
+  "taxNotes": "Produkcja wyrobów ogniotrwałych korzysta ze standardowych zasad PIT/CIT i VAT, a produkcja energochłonna może podlegać ETS i ulgom dla branż energochłonnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "47.55.Z",
+  "name": "Sprzedaż detaliczna mebli, sprzętu oświetleniowego, artykułów stołowych oraz pozostałych artykułów użytku domowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.55.Z obejmuje detaliczną sprzedaż mebli, lamp, oświetlenia, naczyń, sztućców, garnków, dekoracji i pozostałych artykułów wyposażenia domu w wyspecjalizowanych sklepach. To kod dla salonów meblowych, sklepów z oświetleniem i sklepów z designem wnętrzarskim.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu meblowego",
+      "use": "Prowadzi salon z meblami tapicerowanymi, sypialnianymi i kuchennymi."
+    },
+    {
+      "persona": "Sklep z oświetleniem",
+      "use": "Sprzedaje lampy sufitowe, kinkiety, plafony i oświetlenie LED."
+    },
+    {
+      "persona": "Sklep z porcelaną i naczyniami",
+      "use": "Oferuje serwisy obiadowe, kieliszki, sztućce i akcesoria kuchenne."
+    },
+    {
+      "persona": "Showroom designerski wnętrz",
+      "use": "Sprzedaje meble polskich projektantów, dekoracje i akcesoria premium."
+    }
+  ],
+  "businessExamples": [
+    "Salon mebli kuchennych z projektowaniem",
+    "Sklep z oświetleniem LED i designerskimi lampami",
+    "Showroom porcelany i wyrobów stołowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 31.09.Z — produkcja mebli to osobny kod, 47.55.Z dotyczy sprzedaży gotowych mebli.",
+    "Wybór 47.55.Z zamiast 74.10.Z, jeśli głównie projektujesz wnętrza, a meble są dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i odpowiednim limitom VAT. Salony meblowe mają wysokie koszty stałe (powierzchnia ekspozycyjna), co wpływa na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

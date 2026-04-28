@@ -1,0 +1,36 @@
+{
+  "code": "16.12.Z",
+  "name": "Obróbka i wykończanie wyrobów tartacznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.12.Z obejmuje dalszą obróbkę tarcicy — heblowanie, frezowanie, profilowanie, impregnację, suszenie komorowe, obróbkę cieplną oraz lakierowanie wstępne tarcicy. To kod dla zakładów obróbki drewna pomiędzy tartakiem a stolarnią.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład impregnacji drewna",
+      "use": "Impregnuje tarcicę autoklawowo dla budownictwa zewnętrznego i ogrodowego."
+    },
+    {
+      "persona": "Suszarnia drewna",
+      "use": "Suszy tarcicę komorowo do wilgotności wymaganej w stolarstwie."
+    },
+    {
+      "persona": "Producent profilowanej tarcicy",
+      "use": "Frezuje boazerie, listwy, deski elewacyjne i podłogowe półfabrykaty."
+    },
+    {
+      "persona": "Zakład heblowania i strugania",
+      "use": "Hebluje i wymiarowo wykańcza tarcicę dla stolarstwa i meblarstwa."
+    }
+  ],
+  "businessExamples": [
+    "Zakład suszenia i impregnacji drewna",
+    "Producent boazerii i listew profilowanych",
+    "Heblownia tarcicy dla stolarstwa"
+  ],
+  "commonMistakes": [
+    "Wybór 16.12.Z zamiast 16.11.Z — pierwotne cięcie kłód to 16.11.Z, a wtórna obróbka tarcicy to 16.12.Z.",
+    "Pomylenie z 16.23.Z (Wyroby stolarskie i ciesielskie) — produkcja gotowych elementów stolarskich (np. więźby) to 16.23.Z, a wykończanie półfabrykatów to 16.12.Z."
+  ],
+  "taxNotes": "Obróbka drewna podlega standardowym zasadom VAT, a impregnacja chemiczna podlega regulacjom środowiskowym. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

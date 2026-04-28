@@ -1,0 +1,36 @@
+{
+  "code": "33.12.Z",
+  "name": "Naprawa i konserwacja maszyn",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.12.Z obejmuje naprawę i konserwację maszyn przemysłowych ogólnego i specjalnego przeznaczenia — obrabiarek, maszyn rolniczych, budowlanych, dźwigowych, hutniczych, włókienniczych. Pasuje dla wyspecjalizowanych serwisów technicznych i mechaników przemysłowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis maszyn rolniczych",
+      "use": "Naprawia ciągniki, kombajny i sprzęt rolniczy w gospodarstwach i u dealerów."
+    },
+    {
+      "persona": "Firma serwisu obrabiarek CNC",
+      "use": "Świadczy usługi diagnostyki, naprawy i kalibracji obrabiarek CNC dla zakładów produkcyjnych."
+    },
+    {
+      "persona": "Mobilny serwis maszyn budowlanych",
+      "use": "Naprawia koparki, ładowarki i sprzęt budowlany na placach budów."
+    },
+    {
+      "persona": "Specjalista serwisu maszyn pakujących",
+      "use": "Konserwuje i naprawia linie pakujące dla zakładów spożywczych i kosmetycznych."
+    }
+  ],
+  "businessExamples": [
+    "Serwis ciągników i kombajnów dla gospodarstw rolnych",
+    "Firma serwisu obrabiarek CNC z umowami SLA",
+    "Mobilny warsztat sprzętu budowlanego dla wykonawców"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.11.Z (naprawa wyrobów metalowych) — to konstrukcje stalowe, naprawa maszyn z napędem to 33.12.Z.",
+    "Wybór 33.20.Z (instalowanie maszyn) zamiast 33.12.Z — sam montaż nowej maszyny u klienta to inny kod niż jej późniejszy serwis."
+  ],
+  "taxNotes": "Serwis maszyn przemysłowych często łączy się z dostawą części i umowami SLA. Forma opodatkowania zależy od skali, modelu kontraktów i poziomu specjalizacji. Stawki sprawdź u doradcy podatkowego."
+}

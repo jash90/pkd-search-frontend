@@ -1,0 +1,36 @@
+{
+  "code": "47.72.Z",
+  "name": "Sprzedaż detaliczna obuwia i wyrobów skórzanych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.72.Z obejmuje detaliczną sprzedaż obuwia, walizek, toreb, portfeli, pasków i innych wyrobów ze skóry lub jej imitacji w wyspecjalizowanych sklepach stacjonarnych. To kod dla sklepów obuwniczych, sklepów z galanterią skórzaną i butików z torbami.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu obuwniczego",
+      "use": "Prowadzi sklep z butami codziennymi, sportowymi i okazjonalnymi."
+    },
+    {
+      "persona": "Franczyzobiorca sieci obuwniczej",
+      "use": "Operuje punktem typu CCC, Deichmann, Wojas w galerii handlowej."
+    },
+    {
+      "persona": "Sklep z galanterią skórzaną",
+      "use": "Sprzedaje torebki, walizki, plecaki i portfele ze skóry naturalnej."
+    },
+    {
+      "persona": "Butik obuwia premium",
+      "use": "Oferuje buty z wyższej półki — szyte na miarę, włoskie, włoskie marki."
+    }
+  ],
+  "businessExamples": [
+    "Sklep obuwniczy w galerii handlowej",
+    "Butik z torbami skórzanymi premium",
+    "Sklep z butami biegowymi i analizą stóp"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 15.20.Z (produkcja obuwia) — jeśli sam produkujesz buty, potrzebny jest kod produkcyjny.",
+    "Wybór 47.72.Z zamiast 47.91.Z, jeśli głównie sprzedajesz buty przez internet."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i odpowiednim limitom VAT. Sezonowość (zima/lato) wpływa na zarządzanie magazynem. Stawki sprawdź u doradcy podatkowego."
+}

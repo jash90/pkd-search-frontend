@@ -1,0 +1,36 @@
+{
+  "code": "35.12.C",
+  "name": "Energetyka geotermalna",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.C dotyczy wytwarzania energii elektrycznej z ciepła Ziemi — w elektrowniach geotermalnych wykorzystujących gorące wody lub parę z głębokich odwiertów. To niszowa kategoria w warunkach polskich, używana przez nielicznych operatorów źródeł geotermalnych produkujących prąd, a nie wyłącznie ciepło.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator elektrowni geotermalnej",
+      "use": "Eksploatuje odwierty i produkuje energię elektryczną z gorących solanek."
+    },
+    {
+      "persona": "Spółka kogeneracyjna geotermalna",
+      "use": "Łączy produkcję prądu i ciepła z jednego źródła geotermalnego."
+    },
+    {
+      "persona": "Inwestor projektu badawczo-rozwojowego",
+      "use": "Pilotażowa instalacja ORC zasilana płynem geotermalnym."
+    },
+    {
+      "persona": "Komunalna spółka energetyczna",
+      "use": "Buduje lokalną elektrociepłownię geotermalną dla mieszkańców gminy."
+    }
+  ],
+  "businessExamples": [
+    "Elektrownia geotermalna ORC w Karpatach",
+    "Kogeneracyjny zakład geotermalny",
+    "Pilotażowa mikroelektrownia geotermalna"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.30.Z (wytwarzanie i zaopatrywanie w parę wodną i gorącą wodę), gdy źródło geotermalne produkuje wyłącznie ciepło — wówczas 35.12.C jest niewłaściwy.",
+    "Wybór 35.12.C zamiast 09.10.Z (działalność usługowa wspomagająca eksploatację złóż), gdy firma tylko obsługuje odwierty bez produkcji energii."
+  ],
+  "taxNotes": "Energetyka geotermalna korzysta z systemów wsparcia OZE i ulg inwestycyjnych. Eksploatacja złóż geotermalnych wymaga koncesji geologicznych i opłat eksploatacyjnych. Stawki sprawdź u doradcy podatkowego."
+}

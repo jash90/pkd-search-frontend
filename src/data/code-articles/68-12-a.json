@@ -1,0 +1,36 @@
+{
+  "code": "68.12.A",
+  "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.12.A obejmuje pełną realizację projektów deweloperskich — od zakupu gruntu, przez proces budowlany, po sprzedaż mieszkań i domów. To kod właściwy dla deweloperów mieszkaniowych prowadzących inwestycje na własny rachunek od koncepcji do oddania kluczy.",
+  "whoUsesIt": [
+    {
+      "persona": "Deweloper mieszkaniowy",
+      "use": "Buduje osiedla wielorodzinne, mieszkania i apartamenty na sprzedaż klientom indywidualnym."
+    },
+    {
+      "persona": "Deweloper domów jednorodzinnych",
+      "use": "Realizuje osiedla domów szeregowych, bliźniaków lub willi pod klucz."
+    },
+    {
+      "persona": "Mała firma deweloperska",
+      "use": "Prowadzi pojedyncze inwestycje (jeden budynek, kamienica) z myślą o dalszej odsprzedaży."
+    },
+    {
+      "persona": "Spółka celowa SPV",
+      "use": "Powołana do realizacji konkretnego projektu mieszkaniowego — zakup gruntu, budowa, sprzedaż lokali."
+    }
+  ],
+  "businessExamples": [
+    "Deweloper budujący osiedle mieszkaniowe w dużym mieście",
+    "Firma realizująca osiedle domów szeregowych pod miastem",
+    "SPV deweloperska powołana do inwestycji w konkretnej lokalizacji"
+  ],
+  "commonMistakes": [
+    "Wybór 68.12.A zamiast 41.10.Z lub 41.20.Z — gdy firma jest tylko wykonawcą budowlanym (nie dewelopera), właściwsze są kody działu 41.",
+    "Pomylenie z 68.11.Z (kupno-sprzedaż nieruchomości) — gdy firma sama prowadzi proces budowlany, kod 68.12.A jest właściwy zamiast 68.11.Z."
+  ],
+  "taxNotes": "Działalność deweloperska podlega ustawie o ochronie praw nabywcy lokalu mieszkalnego (rachunek powierniczy, prospekt informacyjny). Sprzedaż nowych mieszkań co do zasady podlega preferencyjnej stawce VAT. Branża jest objęta split paymentem przy zakupach od podwykonawców. Stawki sprawdź u doradcy podatkowego."
+}

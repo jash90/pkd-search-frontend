@@ -1,0 +1,36 @@
+{
+  "code": "46.39.Z",
+  "name": "Sprzedaż hurtowa niewyspecjalizowana żywności, napojów i wyrobów tytoniowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.39.Z obejmuje sprzedaż hurtową szerokiego, niewyspecjalizowanego asortymentu żywności, napojów i wyrobów tytoniowych — typowy dla hurtowni cash & carry, magazynów wielobranżowych i centrów dystrybucyjnych obsługujących małe sklepy. Jeśli specjalizujesz się w jednej kategorii, użyj kodów 46.31-46.38.",
+  "whoUsesIt": [
+    {
+      "persona": "Cash & carry",
+      "use": "Operuje magazynem hurtowym z pełnym asortymentem dla sklepów i gastronomii."
+    },
+    {
+      "persona": "Hurtownia spożywcza wielobranżowa",
+      "use": "Dostarcza pełną ofertę spożywczą do sklepów osiedlowych i kiosków."
+    },
+    {
+      "persona": "Dystrybutor regionalny",
+      "use": "Pełni rolę pośrednika dla producentów i sieci sklepów małoformatowych."
+    },
+    {
+      "persona": "Operator logistyczny FMCG",
+      "use": "Magazynuje i dostarcza różnorodne produkty FMCG do punktów handlowych."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia cash & carry dla sklepów detalicznych",
+    "Wielobranżowa hurtownia spożywcza w regionie",
+    "Centrum dystrybucyjne FMCG"
+  ],
+  "commonMistakes": [
+    "Wybór 46.39.Z, gdy faktycznie specjalizujesz się w jednej kategorii (np. tylko napoje — 46.34.A/B).",
+    "Pomylenie z 47.11.Z (sprzedaż detaliczna z przewagą żywności) — 46.39.Z to wyłącznie hurt."
+  ],
+  "taxNotes": "Sprzedaż wyrobów tytoniowych i alkoholi wymaga oddzielnych zezwoleń i koncesji. Forma opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

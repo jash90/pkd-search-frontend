@@ -1,0 +1,36 @@
+{
+  "code": "50.20.Z",
+  "name": "Transport morski i przybrzeżny towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 50.20.Z obejmuje przewóz ładunków statkami morskimi i przybrzeżnymi — kontenerowce, masowce, drobnicowce, chemikaliowce, ro-ro, statki LNG i inne jednostki towarowe. To kod dla armatorów cargo, operatorów feederów bałtyckich i firm transportu morskiego.",
+  "whoUsesIt": [
+    {
+      "persona": "Armator kontenerowy",
+      "use": "Eksploatuje statki kontenerowe (feedery) między polskimi portami a hubami Europy Zachodniej."
+    },
+    {
+      "persona": "Operator masowca",
+      "use": "Wozi węgiel, rudy żelaza, zboże i kruszywa między portami bałtyckimi i światowymi."
+    },
+    {
+      "persona": "Armator chemikaliowca",
+      "use": "Transportuje produkty ropopochodne, oleje i chemikalia płynne dla rafinerii i zakładów chemicznych."
+    },
+    {
+      "persona": "Operator ro-ro towarowego",
+      "use": "Przewozi naczepy ciężarowe i wagony kolejowe na liniach Bałtyku jako uzupełnienie transportu lądowego."
+    }
+  ],
+  "businessExamples": [
+    "Armator kontenerowców-feederów na Bałtyku",
+    "Operator masowca przewożącego węgiel",
+    "Firma transportu chemikaliów płynnych"
+  ],
+  "commonMistakes": [
+    "Wybór 50.20.Z zamiast 50.40.Z (transport wodny śródlądowy towarów) — przewóz barkami po Odrze i Wiśle to transport śródlądowy, nie morski.",
+    "Pomylenie z 52.22.Z (działalność wspomagająca transport wodny) — usługi portowe, pilotaż i agencja morska bez własnego przewozu to inny kod."
+  ],
+  "taxNotes": "Międzynarodowy transport morski towarów objęty jest specyficznymi zasadami VAT, w tym możliwością zwolnień i odwrotnego obciążenia w transakcjach unijnych. Polska oferuje też podatek tonażowy jako alternatywę dla CIT — wybór wymaga analizy. Stawki sprawdź u doradcy podatkowego."
+}

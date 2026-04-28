@@ -1,0 +1,36 @@
+{
+  "code": "03.11.Z",
+  "name": "Rybołówstwo w wodach morskich",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 03.11.Z obejmuje połów ryb, skorupiaków i mięczaków w wodach morskich i przybrzeżnych — zarówno przez kutry rybackie, jak i mniejsze jednostki. Dotyczy też pozyskiwania alg morskich. W Polsce kod jest stosowany przez rybaków bałtyckich i armatorów małych statków rybackich.",
+  "whoUsesIt": [
+    {
+      "persona": "Armator kutra rybackiego",
+      "use": "Prowadzi kuter łowiący dorsza, śledzia, szproty i flądrę na Bałtyku."
+    },
+    {
+      "persona": "Rybak przybrzeżny",
+      "use": "Łowi z mniejszej łodzi z portów Hel, Władysławowo, Kołobrzeg na podstawie licencji."
+    },
+    {
+      "persona": "Spółka połowowa",
+      "use": "Operuje większą jednostką łowczą z kwotą połowową przyznaną na konkretne gatunki."
+    },
+    {
+      "persona": "Producent rybacki ekologiczny",
+      "use": "Łączy połów selektywny z bezpośrednią sprzedażą świeżych ryb na nabrzeżu."
+    }
+  ],
+  "businessExamples": [
+    "Kuter łowiący dorsza na Bałtyku",
+    "Rybak przybrzeżny z Helu",
+    "Spółka połowowa z kwotą śledziową"
+  ],
+  "commonMistakes": [
+    "Wybór 03.11.Z zamiast 03.21.Z (akwakultura morska), gdy działalność polega na hodowli ryb w sadzach lub klatkach morskich, a nie na połowie dzikim.",
+    "Pomylenie z 10.20.Z (przetwarzanie ryb), gdy główną działalnością jest filetowanie, mrożenie i wędzenie ryb kupowanych od innych."
+  ],
+  "taxNotes": "Rybołówstwo morskie podlega ścisłym regulacjom unijnym (kwoty połowowe, licencje), a opodatkowanie zależy od formy działalności (rybak ryczałtowy vs. firma). VAT, akcyza paliwowa dla łodzi i dotacje EFMR również wymagają analizy. Stawki sprawdź u doradcy podatkowego."
+}

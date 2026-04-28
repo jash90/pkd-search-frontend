@@ -1,0 +1,36 @@
+{
+  "code": "86.93.Z",
+  "name": "Działalność psychologiczna i psychoterapeutyczna, z wyłączeniem lekarskiej",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.93.Z dotyczy działalności psychologów i psychoterapeutów (niebędących lekarzami) — terapii indywidualnej, grupowej, par, rodzin, diagnostyki psychologicznej, neuropsychologii. Psychiatria (lekarska) to 86.22.Z, a coaching nie-terapeutyczny to 70.22.Z lub 85.59.D.",
+  "whoUsesIt": [
+    {
+      "persona": "Psycholog prowadzący gabinet",
+      "use": "Świadczy konsultacje psychologiczne, diagnostykę, wsparcie w kryzysach życiowych - dorosłym, dzieciom."
+    },
+    {
+      "persona": "Certyfikowany psychoterapeuta",
+      "use": "Prowadzi terapię w określonym nurcie (poznawczo-behawioralny, psychodynamiczny, systemowy) z certyfikatem PTP."
+    },
+    {
+      "persona": "Centrum psychoterapii / poradnia",
+      "use": "Operuje wieloosobową poradnią z psychologami i psychoterapeutami różnych specjalności i podejść."
+    },
+    {
+      "persona": "Terapeuta par i rodzin",
+      "use": "Specjalizuje się w terapii relacji - sesje par, rodzin, mediacje, terapia kryzysów małżeńskich."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet psychologiczny prowadzony przez certyfikowanego psychoterapeutę",
+    "Poradnia psychologiczno-pedagogiczna prywatna",
+    "Centrum terapii rodzin i par"
+  ],
+  "commonMistakes": [
+    "Wybór 86.93.Z przez psychiatrę (lekarza) — psychiatria to praktyka lekarska 86.22.Z, mimo psychoterapeutycznego charakteru.",
+    "Pomylenie z 70.22.Z (doradztwo) — coaching i mentoring biznesowy bez psychoterapii to 70.22.Z, terapia psychologiczna jest medyczna."
+  ],
+  "taxNotes": "Usługi psychoterapeutyczne służące zdrowiu są zwolnione z VAT. Coaching i konsultacje rozwojowe (niemedyczne) zwykle z VAT. Forma opodatkowania — przy soloowej działalności często ryczałt lub liniowy, przy zatrudnianiu skala/liniowy. Stawki sprawdź u doradcy podatkowego."
+}

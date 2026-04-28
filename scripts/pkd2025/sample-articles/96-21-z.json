@@ -1,0 +1,36 @@
+{
+  "code": "96.21.Z",
+  "name": "Działalność fryzjerska",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-sonnet-4-6",
+  "intro": "Kod 96.21.Z obejmuje strzyżenie, modelowanie, koloryzację, układanie i pielęgnację włosów — zarówno w salonach stacjonarnych, jak i mobilnie u klienta. Pasuje również dla fryzjerów-stylistów pracujących na planach zdjęciowych i sesjach. Nie obejmuje pielęgnacji urody (paznokcie, makijaż, kosmetyka) — te są pod kodem 96.22.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu fryzjerskiego",
+      "use": "Prowadzi salon z 2-5 stanowiskami, zatrudnia fryzjerów lub wynajmuje stanowiska."
+    },
+    {
+      "persona": "Fryzjer freelancer",
+      "use": "Pracuje na własny rachunek — wynajmuje fotel w cudzym salonie lub jeździ do klientów."
+    },
+    {
+      "persona": "Barber / fryzjer męski",
+      "use": "Specjalizuje się w strzyżeniu męskim i pielęgnacji brody w barber shopie."
+    },
+    {
+      "persona": "Stylista fryzur na sesje i imprezy",
+      "use": "Robi fryzury ślubne, sesje fotograficzne i obsługę eventów (mobilnie)."
+    }
+  ],
+  "businessExamples": [
+    "Salon fryzjerski w dzielnicy mieszkaniowej",
+    "Barber shop w centrum miasta",
+    "Mobilny stylista na śluby i sesje"
+  ],
+  "commonMistakes": [
+    "Wybór 96.21.Z, gdy faktycznie świadczone są też usługi kosmetyczne (manicure, makijaż) — w takim wypadku potrzebny jest dodatkowo lub zamiast tego kod 96.22.Z.",
+    "Pomylenie z 47.75.Z (sprzedaż detaliczna kosmetyków) — sama sprzedaż produktów do włosów bez usługi to inny kod."
+  ],
+  "taxNotes": "Działalność fryzjerska jest często prowadzona w formie ryczałtu i podlega kasie fiskalnej (z możliwością zwolnienia przy niskich przychodach). VAT może być wybrany dobrowolnie poniżej limitu — opłacalność zależy od struktury kosztów (produkty, czynsz, zatrudnienie). Stawki sprawdź u doradcy podatkowego."
+}

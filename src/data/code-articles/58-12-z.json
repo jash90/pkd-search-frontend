@@ -1,0 +1,36 @@
+{
+  "code": "58.12.Z",
+  "name": "Wydawanie gazet",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.12.Z obejmuje wydawanie gazet codziennych i tygodniowych w formie papierowej oraz elektronicznej. Pasuje dla wydawców dzienników ogólnopolskich i regionalnych, gazet lokalnych, tygodników opinii oraz portali informacyjnych prowadzących cyfrowe wydania prasowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawca dziennika ogólnopolskiego",
+      "use": "Publikuje gazetę codzienną w wersji drukowanej i e-wydaniu, prowadzi zespół redakcyjny."
+    },
+    {
+      "persona": "Wydawca gazety lokalnej",
+      "use": "Wydaje tygodnik lub dwutygodnik miejski z lokalnymi newsami i ogłoszeniami."
+    },
+    {
+      "persona": "Operator portalu informacyjnego z e-gazetą",
+      "use": "Prowadzi cyfrowe wydanie gazety w modelu paywall lub prenumeraty."
+    },
+    {
+      "persona": "Wydawca tygodnika opinii",
+      "use": "Publikuje tygodnik publicystyczny — analizy polityczne, gospodarcze, społeczne."
+    }
+  ],
+  "businessExamples": [
+    "Regionalna gazeta tygodniowa z e-wydaniem",
+    "Tygodnik opinii w prenumeracie",
+    "Lokalna gazeta gminna z reklamami"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 58.13.Z (wydawanie czasopism) — magazyny tematyczne i miesięczniki mają odrębny kod.",
+    "Wybór 58.12.Z zamiast 63.91.Z (działalność wyszukiwarek) lub 60.31.Z (agencje informacyjne) — agregatory wiadomości i agencje newsowe to inne klasy."
+  ],
+  "taxNotes": "Wydawanie gazet korzysta z preferencyjnej stawki VAT na prasę. Działalność może być prowadzona na zasadach ogólnych lub liniowo. Sprzedaż reklam i prenumerat ma odmienną klasyfikację VAT. Stawki sprawdź u doradcy podatkowego."
+}

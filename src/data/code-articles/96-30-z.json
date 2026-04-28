@@ -1,0 +1,36 @@
+{
+  "code": "96.30.Z",
+  "name": "Pogrzeby i działalność pokrewna",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.30.Z obejmuje organizację pogrzebów, kremacji i ceremonii pogrzebowych — domy pogrzebowe, krematoria, kamieniarstwo nagrobne, prowadzenie cmentarzy i miejsc pamięci. Pasuje dla zakładów pogrzebowych, kamieniarzy i operatorów cmentarzy. Sprzedaż kwiatów na cmentarz to 47.76.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład pogrzebowy",
+      "use": "Organizuje kompleksowo pogrzeby — przewóz, trumna, ceremonia, formalności urzędowe."
+    },
+    {
+      "persona": "Operator krematorium",
+      "use": "Prowadzi kremację zwłok i przekazuje urny rodzinom lub zakładom pogrzebowym."
+    },
+    {
+      "persona": "Kamieniarz nagrobny",
+      "use": "Wykonuje i montuje nagrobki, renowuje stare pomniki, sprzedaje akcesoria nagrobne."
+    },
+    {
+      "persona": "Zarządca cmentarza",
+      "use": "Prowadzi cmentarz komunalny lub wyznaniowy — udostępnia miejsca, koordynuje ceremonie."
+    }
+  ],
+  "businessExamples": [
+    "Zakład pogrzebowy z całodobową obsługą",
+    "Krematorium z salą pożegnań",
+    "Pracownia kamieniarska wykonująca nagrobki na zamówienie"
+  ],
+  "commonMistakes": [
+    "Wybór 96.30.Z dla sprzedaży kwiatów cmentarnych jako głównej działalności — to jest 47.76.Z (sprzedaż detaliczna kwiatów i roślin).",
+    "Pomylenie z 49.42.Z (przeprowadzki) — przewóz zwłok jest częścią usług pogrzebowych i klasyfikuje się pod 96.30.Z, a nie pod transport drogowy."
+  ],
+  "taxNotes": "Usługi pogrzebowe podlegają VAT z preferencyjnymi rozwiązaniami w niektórych pozycjach (np. trumna, urna, niektóre usługi cmentarne). Działalność wymaga zezwoleń w zakresie przewozu zwłok i prowadzenia cmentarzy. Stawki sprawdź u doradcy podatkowego."
+}

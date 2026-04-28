@@ -1,0 +1,36 @@
+{
+  "code": "01.42.Z",
+  "name": "Chów i hodowla pozostałego bydła i bawołów",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.42.Z obejmuje chów bydła opasowego (mięsnego), bawołów oraz cieląt i jałówek nieprzeznaczonych do produkcji mleka. To kod dla farm specjalizujących się w produkcji wołowiny, hodowli ras mięsnych (Limousine, Charolais, Angus) oraz niszowej hodowli bawołów.",
+  "whoUsesIt": [
+    {
+      "persona": "Farma opasowa",
+      "use": "Tuczy bydło na mięso, sprzedając zwierzęta do ubojni lub na żywiec eksportowy."
+    },
+    {
+      "persona": "Hodowca rasy mięsnej",
+      "use": "Prowadzi stado podstawowe Limousine lub Charolais, sprzedaje jałówki i buhaje hodowlane."
+    },
+    {
+      "persona": "Gospodarstwo opasowe BIO",
+      "use": "Prowadzi ekstensywny chów bydła mięsnego na łąkach z certyfikatem ekologicznym."
+    },
+    {
+      "persona": "Hodowca bawołów",
+      "use": "Prowadzi niszową hodowlę bawołów na mięso lub mleko bawole dla manufaktur serowarskich."
+    }
+  ],
+  "businessExamples": [
+    "Farma rasy Limousine na Mazurach",
+    "Hodowca bawołów dla mozzarelli",
+    "Eko-pastwiskowe stado Anguske"
+  ],
+  "commonMistakes": [
+    "Wybór 01.42.Z zamiast 01.41.Z, gdy w stadzie dominują krowy mleczne — bydło mleczne ma osobny kod.",
+    "Pomylenie z 10.11.Z (przetwarzanie mięsa), gdy główną działalnością jest ubój i rozbiór, a nie hodowla."
+  ],
+  "taxNotes": "Hodowla bydła mięsnego to klasyczna działalność rolnicza objęta podatkiem rolnym, ale tucz przemysłowy o dużej skali może być działem specjalnym produkcji rolnej. Sprawdź też VAT dla rolnika i obowiązki rejestracyjne IRZ. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "32.50.A",
+  "name": "Produkcja urządzeń, instrumentów oraz wyrobów dentystycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.50.A obejmuje produkcję sprzętu dentystycznego — unitów, lamp polimeryzacyjnych, narzędzi stomatologicznych, koron, mostów, implantów dentystycznych, protez, materiałów wypełnieniowych. Pasuje dla pracowni protetycznych i producentów technologii dentystycznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Pracownia protetyki stomatologicznej",
+      "use": "Wytwarza korony, mosty, protezy i wkłady na zlecenie gabinetów stomatologicznych."
+    },
+    {
+      "persona": "Producent implantów dentystycznych",
+      "use": "Produkuje tytanowe implanty, śruby gojące i komponenty protetyczne na implantach."
+    },
+    {
+      "persona": "Fabryka unitów stomatologicznych",
+      "use": "Buduje kompletne unity dentystyczne z fotelami, lampami i przystawkami."
+    },
+    {
+      "persona": "Wytwórca aparatów ortodontycznych",
+      "use": "Robi aparaty stałe, ruchome oraz nakładki ortodontyczne (clear aligners)."
+    }
+  ],
+  "businessExamples": [
+    "Pracownia CAD/CAM produkująca korony cyrkonowe",
+    "Fabryka tytanowych implantów dentystycznych",
+    "Producent nakładek ortodontycznych typu clear aligners"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.50.B (pozostałe wyroby medyczne) — wyroby specyficznie dentystyczne idą pod 32.50.A, ogólnomedyczne pod 32.50.B.",
+    "Wybór 86.23.Z (praktyka stomatologiczna) zamiast 32.50.A — leczenie pacjentów to usługa medyczna, nie produkcja wyrobów."
+  ],
+  "taxNotes": "Wyroby medyczne dentystyczne podlegają specjalnym regulacjom (rejestracja URPL, oznaczenie CE) oraz mogą korzystać z preferencyjnych stawek VAT. Forma opodatkowania zależy od skali, eksportu i ulg B+R. Stawki sprawdź u doradcy podatkowego."
+}

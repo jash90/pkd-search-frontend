@@ -1,0 +1,36 @@
+{
+  "code": "93.19.Z",
+  "name": "Działalność sportowa, gdzie indziej niesklasyfikowana",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.19.Z obejmuje pozostałą działalność sportową, której nie można sklasyfikować w klasach 93.11–93.13 — np. działalność trenerów personalnych, sędziów sportowych, organizatorów imprez sportowych, federacji i lig sportowych. To kategoria 'parasol' dla różnych usług okołosportowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Trener personalny",
+      "use": "Prowadzi indywidualne treningi w klubach lub u klientów na własny rachunek."
+    },
+    {
+      "persona": "Organizator imprez sportowych",
+      "use": "Organizuje biegi, maratony, zawody amatorskie i triathlony."
+    },
+    {
+      "persona": "Sędzia / instruktor sportowy",
+      "use": "Sędziuje zawody, prowadzi szkolenia sędziowskie i instruktorskie."
+    },
+    {
+      "persona": "Liga / federacja sportowa",
+      "use": "Organizuje rozgrywki, ustala regulamin i zarządza systemem zawodów."
+    }
+  ],
+  "businessExamples": [
+    "Trener personalny z mobilnymi treningami",
+    "Firma organizująca biegi miejskie i triathlony",
+    "Federacja amatorskiej ligi piłkarskiej"
+  ],
+  "commonMistakes": [
+    "Wybór 93.19.Z dla klubu sportowego z drużynami — kluby z systematycznymi rozgrywkami klasyfikują się jako 93.12.Z.",
+    "Pomylenie z 85.51.Z (pozaszkolne formy edukacji sportowej i rekreacyjnej) — gdy głównym profilem są lekcje i kursy (np. nauka jazdy konnej, nauka pływania), ten kod jest częściej właściwszy."
+  ],
+  "taxNotes": "Trenerzy personalni i sędziowie często wybierają ryczałt jako formę opodatkowania. Organizacja imprez masowych wiąże się ze szczególnymi wymogami (zezwolenia, ubezpieczenia). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "01.12.Z",
+  "name": "Uprawa ryżu",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.12.Z obejmuje wyłącznie uprawę ryżu — zarówno na pola zalewane, jak i suche odmiany. W warunkach polskich kod ten jest rzadko stosowany ze względu na klimat, ale formalnie istnieje w klasyfikacji PKD 2025 zgodnej z międzynarodowym standardem.",
+  "whoUsesIt": [
+    {
+      "persona": "Eksperymentalne gospodarstwo",
+      "use": "Testuje uprawę odmian ryżu odpornych na chłodniejszy klimat w warunkach polskich."
+    },
+    {
+      "persona": "Stacja badawcza rolnictwa",
+      "use": "Prowadzi prace hodowlane nad odmianami ryżu w warunkach kontrolowanych."
+    },
+    {
+      "persona": "Importer-producent niszowy",
+      "use": "Posiada uprawy ryżu za granicą i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Gospodarstwo demonstracyjne",
+      "use": "Pokazuje technologie uprawy ryżu w celach edukacyjnych i agroturystycznych."
+    }
+  ],
+  "businessExamples": [
+    "Eksperymentalna uprawa ryżu polskiego",
+    "Stacja hodowli odmian ryżu",
+    "Niszowe gospodarstwo plantacyjne"
+  ],
+  "commonMistakes": [
+    "Wybór 01.12.Z zamiast 01.11.Z dla uprawy zbóż innych niż ryż (pszenica, żyto, owies) — te trafiają do 01.11.Z.",
+    "Pomylenie z 10.61.Z (przemiał zbóż) przy działalności obejmującej wyłącznie obróbkę ryżu kupowanego od dostawców."
+  ],
+  "taxNotes": "Działalność rolnicza co do zasady nie jest objęta PIT, lecz podatkiem rolnym; szczególne formy uprawy w warunkach kontrolowanych mogą być traktowane jako działy specjalne produkcji rolnej. Warto też przeanalizować VAT rolniczy. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "24.33.Z",
+  "name": "Produkcja wyrobów formowanych na zimno",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.33.Z obejmuje produkcję profili otwartych (kątowniki, ceowniki, zetowniki, kapeluszowe) i zamkniętych (rury kwadratowe i prostokątne) formowanych na zimno z taśm stalowych — proces gięcia rolkowego (roll-forming) lub prasowania. To kod dla zakładów dostarczających profile do konstrukcji stalowych, fasad i regałów.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład produkcji profili zimnogiętych",
+      "use": "Produkuje kątowniki i ceowniki dla konstrukcji hal, regałów i obudów technicznych."
+    },
+    {
+      "persona": "Producent profili dachowych i fasadowych",
+      "use": "Wytwarza profile kapeluszowe i Z dla pokryć dachowych i okładzin elewacyjnych."
+    },
+    {
+      "persona": "Wytwórca rur prostokątnych ze stali",
+      "use": "Roll-forming rur kwadratowych i prostokątnych dla branży meblarskiej i konstrukcyjnej."
+    },
+    {
+      "persona": "Producent profili dla zabudowy regałowej",
+      "use": "Wytwarza systemowe profile do regałów paletowych i półkowych."
+    }
+  ],
+  "businessExamples": [
+    "Producent profili zimnogiętych dla konstrukcji stalowych",
+    "Zakład wytwarzający rury kwadratowe ze stali",
+    "Producent profili regałowych do magazynów"
+  ],
+  "commonMistakes": [
+    "Wybór 24.33.Z zamiast 25.11.Z (produkcja konstrukcji metalowych), gdy zakład spawa kompletne konstrukcje — sama produkcja profilu i wykonanie konstrukcji to różne kody.",
+    "Pomylenie z 24.20.Z (produkcja rur stalowych bez szwu i ze szwem) — rury walcowane na gorąco lub spawane wzdłużnie z kręgów mają inny kod niż profile formowane na zimno."
+  ],
+  "taxNotes": "Produkcja profili stalowych objęta jest VAT na zasadach ogólnych z obowiązkowym mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów stalowych. Wybór formy opodatkowania zależy od skali, kosztu surowca i udziału produkcji na zamówienie. Stawki sprawdź u doradcy podatkowego."
+}

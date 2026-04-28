@@ -1,0 +1,36 @@
+{
+  "code": "68.32.B",
+  "name": "Działalność związana z zarządzaniem nieruchomościami wykonywanym na zlecenie",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.32.B obejmuje profesjonalne zarządzanie nieruchomościami — administrowanie wspólnotami mieszkaniowymi, spółdzielniami, kompleksami biurowymi czy nieruchomościami inwestycyjnymi na zlecenie ich właścicieli. To kod dla zarządców, administratorów i firm property management.",
+  "whoUsesIt": [
+    {
+      "persona": "Zarządca wspólnot mieszkaniowych",
+      "use": "Prowadzi obsługę wspólnot — księgowość, opłaty, remonty, kontakt z mieszkańcami."
+    },
+    {
+      "persona": "Firma property management",
+      "use": "Zarządza biurowcami, centrami handlowymi i magazynami w imieniu inwestorów (najemcy, technika, OPEX)."
+    },
+    {
+      "persona": "Administrator najmu krótkoterminowego",
+      "use": "Obsługuje mieszkania na Airbnb / Booking dla właścicieli — sprzątanie, check-in, kalendarz."
+    },
+    {
+      "persona": "Zarządca spółdzielni mieszkaniowych",
+      "use": "Świadczy zewnętrzne usługi zarządcze dla spółdzielni nieposiadających własnej kadry."
+    }
+  ],
+  "businessExamples": [
+    "Firma zarządzająca portfolio wspólnot mieszkaniowych w mieście",
+    "Property manager obsługujący biurowce klasy A",
+    "Administrator apartamentów na wynajem krótkoterminowy"
+  ],
+  "commonMistakes": [
+    "Wybór 68.32.B zamiast 68.20.Z — gdy firma wynajmuje własne nieruchomości (a nie cudze na zlecenie), właściwsze są kody grupy 68.2.",
+    "Pomylenie z 81.10.Z (obsługa techniczna budynków) — gdy świadczone są tylko usługi techniczne (sprzątanie, konserwacja) bez funkcji zarządczej, właściwszy jest 81.10.Z."
+  ],
+  "taxNotes": "Zarządca nieruchomości musi mieć obowiązkowe OC. Usługi zarządzania podlegają standardowej stawce VAT. Działalność często kwalifikuje się do ryczałtu według właściwej stawki (usługi zarządzania nieruchomościami niewymienione wprost). Stawki sprawdź u doradcy podatkowego."
+}

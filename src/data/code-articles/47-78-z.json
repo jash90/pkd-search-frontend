@@ -1,0 +1,36 @@
+{
+  "code": "47.78.Z",
+  "name": "Sprzedaż detaliczna pozostałych nowych wyrobów",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.78.Z to „zbiorczy” kod dla detalicznej sprzedaży nowych wyrobów niesklasyfikowanych w innych kategoriach grupy 47.7 — m.in. okularów (optyk), aparatów fotograficznych, oleju opałowego, broni i amunicji, pamiątek, materiałów ogrodniczych, paliw stałych do domu.",
+  "whoUsesIt": [
+    {
+      "persona": "Optyk z salonem optycznym",
+      "use": "Sprzedaje okulary korekcyjne, oprawki, soczewki kontaktowe i akcesoria."
+    },
+    {
+      "persona": "Sklep fotograficzny",
+      "use": "Oferuje aparaty, obiektywy, statywy i akcesoria fotograficzne."
+    },
+    {
+      "persona": "Sklep z bronią",
+      "use": "Sprzedaje broń palną, amunicję i akcesoria z koncesją MSWiA."
+    },
+    {
+      "persona": "Sprzedawca oleju opałowego",
+      "use": "Dostarcza olej opałowy do gospodarstw domowych z dokumentacją akcyzową."
+    }
+  ],
+  "businessExamples": [
+    "Salon optyczny z badaniem wzroku",
+    "Sklep fotograficzny z aparatami systemowymi",
+    "Sklep z bronią myśliwską i sportową"
+  ],
+  "commonMistakes": [
+    "Wybór 47.78.Z, gdy istnieje bardziej szczegółowy kod — np. dla farmaceutyków (47.73.Z) czy kosmetyków (47.75.Z).",
+    "Pomylenie z 86.90.A (praktyka okulistyczna) — jeśli głównie wykonujesz badania medyczne, a sprzedaż okularów jest dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż niektórych wyrobów (broń, paliwa) wymaga koncesji i akcyzy. Okulary korekcyjne mają obniżoną stawkę VAT. Stawki sprawdź u doradcy podatkowego."
+}

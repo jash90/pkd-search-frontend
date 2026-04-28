@@ -1,0 +1,36 @@
+{
+  "code": "43.50.Z",
+  "name": "Roboty budowlane specjalistyczne w zakresie inżynierii lądowej i wodnej",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.50.Z obejmuje wyspecjalizowane roboty inżynierskie — pale fundamentowe, ścianki szczelne, mikropale, drenaże, prace przy budowie mostów, tuneli, oczyszczalni czy oczyszczalni wód, a także specjalistyczne prace na obiektach hydrotechnicznych. To kod dla podwykonawców o wąskiej, wymagającej certyfikacji specjalizacji.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma palowania",
+      "use": "Wykonuje pale fundamentowe (CFA, Vibro, Franki) pod budynki na słabych gruntach jako podwykonawca generalnego wykonawcy."
+    },
+    {
+      "persona": "Specjalista ścianek szczelnych",
+      "use": "Wbija grodzice stalowe i wykonuje ścianki Larssen przy wykopach w pobliżu wód i istniejącej zabudowy."
+    },
+    {
+      "persona": "Wykonawca robót hydrotechnicznych",
+      "use": "Buduje wały przeciwpowodziowe, jazy i nabrzeża portowe na zlecenie Wód Polskich i portów morskich."
+    },
+    {
+      "persona": "Podwykonawca prac mostowych",
+      "use": "Realizuje specjalistyczne prace przy mostach — sprężanie kabli, pielęgnacja betonu, montaż łożysk."
+    }
+  ],
+  "businessExamples": [
+    "Firma wykonująca pale CFA pod wieżowce",
+    "Specjalista ścianek szczelnych przy wykopach",
+    "Podwykonawca prac przy budowie mostów"
+  ],
+  "commonMistakes": [
+    "Wybór 43.50.Z zamiast 42.13.Z (roboty związane z budową mostów i tuneli) — generalne wykonawstwo całego obiektu inżynierskiego to inny kod niż specjalistyczny podwykonawca.",
+    "Pomylenie z 43.12.Z (przygotowanie terenu pod budowę) — typowe roboty ziemne i niwelacja to inny kod niż specjalistyczne fundamentowanie."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) przy świadczeniu usług na rzecz innego podatnika, a kontrakty publiczne wymagają zwykle gwarancji ubezpieczeniowych. Stawki sprawdź u doradcy podatkowego."
+}

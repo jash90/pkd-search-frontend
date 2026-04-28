@@ -1,0 +1,36 @@
+{
+  "code": "43.24.Z",
+  "name": "Wykonywanie pozostałych instalacji budowlanych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.24.Z to kategoria zbiorcza dla instalacji budowlanych nieobjętych innymi kodami działu 43 — np. montaż wind, schodów ruchomych, systemów odgromowych, instalacji odpylających, scentralizowanych systemów odkurzania, automatyki bramowej. To kod 'parasol' dla niszowych specjalizacji instalacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma od montażu wind",
+      "use": "Instaluje dźwigi osobowe i towarowe w budynkach mieszkalnych i biurowych."
+    },
+    {
+      "persona": "Wykonawca instalacji odgromowych",
+      "use": "Montuje pioruny i systemy LPS na dachach i kominach."
+    },
+    {
+      "persona": "Firma od bram automatycznych",
+      "use": "Instaluje bramy garażowe, przemysłowe i szlabany z automatyką."
+    },
+    {
+      "persona": "Wykonawca instalacji odpylania",
+      "use": "Montuje systemy filtracji powietrza w zakładach przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Montaż wind w bloku mieszkalnym",
+    "Instalacja odgromowa z masztami na dachu",
+    "Bramy przemysłowe z automatyką"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.21.Z (instalacje elektryczne) — automatyka i sterowanie bram to 43.24.Z, ale podłączenie zasilania to 43.21.Z.",
+    "Wybór 43.24.Z zamiast 33.20.Z, gdy faktyczną działalnością jest montaż maszyn produkcyjnych, a nie instalacji budowlanych."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Niektóre instalacje (windy, gaz) wymagają odbiorów UDT. Stawki sprawdź u doradcy podatkowego."
+}

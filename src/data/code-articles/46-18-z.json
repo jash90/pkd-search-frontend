@@ -1,0 +1,36 @@
+{
+  "code": "46.18.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową wyspecjalizowaną pozostałych towarów",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.18.Z to pośrednictwo handlowe (agencje, przedstawicielstwa) w sprzedaży hurtowej wyspecjalizowanych kategorii towarów, które nie zostały sklasyfikowane w kodach 46.11-46.17. Agent działa na zlecenie i prowizję, nie przejmując własności towaru — np. paliwa, chemia, papier, metale, kosmetyki. Jeśli sam handlujesz na własny rachunek, wybierz odpowiedni kod z grupy 46.7-46.8.",
+  "whoUsesIt": [
+    {
+      "persona": "Przedstawiciel handlowy w branży chemicznej",
+      "use": "Pośredniczy w sprzedaży surowców i półproduktów chemicznych dla zakładów przemysłowych."
+    },
+    {
+      "persona": "Agent paliwowy",
+      "use": "Reprezentuje rafinerię lub dostawcę paliw przed odbiorcami hurtowymi."
+    },
+    {
+      "persona": "Broker w branży kosmetycznej",
+      "use": "Kojarzy producentów kosmetyków z drogeriami i e-commerce."
+    },
+    {
+      "persona": "Pośrednik w handlu papierem i opakowaniami",
+      "use": "Reprezentuje papiernie przed drukarniami i firmami opakowaniowymi."
+    }
+  ],
+  "businessExamples": [
+    "Agencja handlowa surowców chemicznych dla przemysłu",
+    "Broker paliw stałych dla zakładów ciepłowniczych",
+    "Przedstawiciel marki kosmetycznej dla sieci drogerii"
+  ],
+  "commonMistakes": [
+    "Wybór 46.18.Z, gdy kupujesz towar na własny rachunek — wtedy właściwy jest kod z grupy 46.7-46.8 (np. 46.81.Z paliwa, 46.85.A chemia).",
+    "Pomylenie z 46.19.Z (pośrednictwo niewyspecjalizowane) — 46.18.Z zakłada specjalizację w jednej kategorii."
+  ],
+  "taxNotes": "Prowizje rozliczane są skalą, liniówką lub ryczałtem (przy odpowiedniej strukturze) i podlegają VAT. Niektóre branże (paliwa, chemia) wymagają dodatkowych koncesji i zezwoleń. Stawki sprawdź u doradcy podatkowego."
+}

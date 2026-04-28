@@ -1,0 +1,36 @@
+{
+  "code": "58.21.Z",
+  "name": "Działalność wydawnicza w zakresie gier komputerowych",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.21.Z obejmuje wydawanie gotowych gier komputerowych — na PC, konsole, urządzenia mobilne i platformy cloud. Pasuje dla wydawców gier (publisherów), self-publisherów na Steam i sklepach mobilnych oraz studiów łączących produkcję z dystrybucją własnych tytułów.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawca gier (publisher)",
+      "use": "Finansuje, marketinguje i dystrybuuje gry produkowane przez studia developerskie."
+    },
+    {
+      "persona": "Studio gamedev publikujące własne tytuły",
+      "use": "Wydaje gry stworzone we własnym zespole na Steam, Epic, PlayStation Store, App Store."
+    },
+    {
+      "persona": "Self-publisher mobile games",
+      "use": "Publikuje gry mobilne (free-to-play, premium) na Google Play i App Store."
+    },
+    {
+      "persona": "Wydawca gier indie",
+      "use": "Specjalizuje się w wydawaniu i wsparciu marketingowym tytułów małych studiów niezależnych."
+    }
+  ],
+  "businessExamples": [
+    "Polski wydawca gier indie",
+    "Studio gamedev wydające własne RPG na Steam",
+    "Wydawca gier mobilnych free-to-play"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 62.10.A (programowanie gier komputerowych) — sama produkcja kodu gry bez wydawania to inny kod.",
+    "Wybór 58.21.Z zamiast 58.29.Z (wydawanie pozostałego oprogramowania) — aplikacje użytkowe i narzędziowe mają osobną klasę."
+  ],
+  "taxNotes": "Wydawanie gier często łączy się z preferencjami IP Box przy własnych tytułach. Wpływy ze sklepów cyfrowych (Steam, Apple) wymagają specjalnego rozliczenia VAT (one-stop-shop OSS). Stawki sprawdź u doradcy podatkowego."
+}

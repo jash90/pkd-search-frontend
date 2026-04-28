@@ -1,0 +1,36 @@
+{
+  "code": "64.11.Z",
+  "name": "Działalność banku centralnego",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.11.Z obejmuje wyłącznie działalność banku centralnego — emisję pieniądza, prowadzenie polityki pieniężnej, zarządzanie rezerwami walutowymi oraz nadzór nad systemem płatniczym. W Polsce kod ten przypisany jest do Narodowego Banku Polskiego (NBP) i jego jednostek operacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Narodowy Bank Polski",
+      "use": "Realizuje politykę pieniężną, emituje banknoty i monety, zarządza rezerwami walutowymi państwa."
+    },
+    {
+      "persona": "Departamenty NBP",
+      "use": "Prowadzą działalność operacyjną banku centralnego — analizy makroekonomiczne, statystyki monetarne."
+    },
+    {
+      "persona": "Oddziały okręgowe banku centralnego",
+      "use": "Obsługują obrót gotówkowy, zaopatrują banki komercyjne w znaki pieniężne."
+    },
+    {
+      "persona": "Centrum drukowania banknotów banku centralnego",
+      "use": "Produkuje banknoty i monety na potrzeby emisji krajowej."
+    }
+  ],
+  "businessExamples": [
+    "Centrala Narodowego Banku Polskiego",
+    "Oddział okręgowy NBP",
+    "Departament Polityki Pieniężnej banku centralnego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 64.19.Z (pozostałe pośrednictwo pieniężne) — banki komercyjne, spółdzielcze i SKOK-i mają osobny kod.",
+    "Wybór 64.11.Z przez podmiot prywatny — kod jest zarezerwowany wyłącznie dla banku centralnego państwa."
+  ],
+  "taxNotes": "Bank centralny działa na podstawie ustawy o NBP i ma odrębny status podatkowy oraz rachunkowy względem instytucji komercyjnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "82.20.Z",
+  "name": "Działalność centrów telefonicznych (call center)",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.20.Z to działalność call center i contact center — telefoniczna obsługa klientów (inbound), telesprzedaż (outbound), helpdesk, infolinia, badania telefoniczne. Pasuje dla operatorów call center, BPO i firm windykacyjnych telefonicznych. Marketing bezpośredni mailowy to 73.11.Z, badania rynku to 73.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator call center",
+      "use": "Obsługuje infolinię klientów banków, telekomów, e-commerce — inbound i outbound."
+    },
+    {
+      "persona": "Firma telesprzedaży (outbound)",
+      "use": "Prowadzi sprzedaż telefoniczną produktów i usług na zlecenie firm partnerskich."
+    },
+    {
+      "persona": "Helpdesk IT outsourcowany",
+      "use": "Obsługuje zgłoszenia techniczne pracowników firm klienta — pierwsza linia wsparcia."
+    },
+    {
+      "persona": "Firma windykacji telefonicznej",
+      "use": "Prowadzi miękką windykację telefoniczną wierzytelności klientów (banki, firmy pożyczkowe)."
+    }
+  ],
+  "businessExamples": [
+    "Call center inbound dla operatora telekomunikacyjnego",
+    "Telesprzedaż produktów finansowych",
+    "Helpdesk IT 24/7 dla korporacji"
+  ],
+  "commonMistakes": [
+    "Wybór 82.20.Z dla badań rynku prowadzonych telefonicznie (CATI) — to jest 73.20.Z, jeśli głównym produktem jest raport badawczy.",
+    "Pomylenie z 64.99.Z (pozostała finansowa działalność usługowa) — windykacja jako wierzyciel/cesjonariusz różni się od telefonicznej windykacji na zlecenie."
+  ],
+  "taxNotes": "Działalność call center podlega VAT i wymaga zgodności z RODO i przepisami o marketingu bezpośrednim (UoŚUDE, ustawa Prawo telekomunikacyjne). Outbound do konsumentów wymaga uzyskiwania odpowiednich zgód. Stawki sprawdź u doradcy podatkowego."
+}

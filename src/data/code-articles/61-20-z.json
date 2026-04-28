@@ -1,0 +1,36 @@
+{
+  "code": "61.20.Z",
+  "name": "Działalność w zakresie odsprzedaży usług telekomunikacyjnych oraz pośrednictwo w telekomunikacji",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 61.20.Z obejmuje działalność operatorów MVNO (mobilnych wirtualnych operatorów sieci) odsprzedających usługi telekomunikacyjne pod własną marką, brokerów telekomunikacyjnych oraz dealerów operatorów. To nowy kod w PKD 2025 dla firm działających na infrastrukturze cudzych operatorów.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator MVNO",
+      "use": "Świadczy usługi mobilne pod własną marką, korzystając z infrastruktury sieciowej dużych operatorów."
+    },
+    {
+      "persona": "Broker telekomunikacyjny B2B",
+      "use": "Negocjuje umowy telekomunikacyjne dla firm i pośredniczy w sprzedaży usług transmisji danych dla biznesu."
+    },
+    {
+      "persona": "Dealer operatora",
+      "use": "Prowadzi salon sprzedażowy lub punkt obsługi w imieniu operatora — sprzedaż abonamentów i sprzętu na prowizji."
+    },
+    {
+      "persona": "Resellersa usług biznesowych",
+      "use": "Odprzedaje pakiety telekomunikacyjne (linie dzierżawione, IP VPN) dla klientów korporacyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Operator MVNO oferujący tanie pakiety mobilne",
+    "Broker łączy biznesowych dla firm",
+    "Sieć dealerska operatora telekomunikacyjnego"
+  ],
+  "commonMistakes": [
+    "Wybór 61.20.Z zamiast 61.10.Z (telekomunikacja przewodowa) — operator z własną infrastrukturą światłowodową to inny kod, nie sama odsprzedaż.",
+    "Pomylenie z 47.42.Z (sprzedaż detaliczna sprzętu telekomunikacyjnego) — sklep ze smartfonami i akcesoriami bez aktywacji usług to handel detaliczny."
+  ],
+  "taxNotes": "Operatorzy MVNO i brokerzy telekomunikacyjni wymagają wpisu do rejestru przedsiębiorców telekomunikacyjnych UKE, a działalność rozliczana jest na zasadach ogólnych VAT. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

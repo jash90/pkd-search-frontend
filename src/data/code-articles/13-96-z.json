@@ -1,0 +1,36 @@
+{
+  "code": "13.96.Z",
+  "name": "Produkcja pozostałych technicznych i przemysłowych wyrobów tekstylnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.96.Z obejmuje produkcję tekstyliów technicznych — taśm samochodowych (do opon), tkanin powlekanych, korpusów filtrów, tkanin azbestowych zamienników, plandek, namiotów wojskowych, materiałów do ochrony osobistej i innych technicznych wyrobów tekstylnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent tkanin powlekanych",
+      "use": "Produkuje tkaniny powlekane PVC i PUR dla branży transportowej i meblowej."
+    },
+    {
+      "persona": "Wytwórca plandek i namiotów technicznych",
+      "use": "Produkuje plandeki transportowe, namioty wojskowe i konstrukcje tekstylne."
+    },
+    {
+      "persona": "Producent kordu oponiarskiego",
+      "use": "Wytwarza tkaniny wzmacniające do opon samochodowych i pasów napędowych."
+    },
+    {
+      "persona": "Wytwórca tkanin do ochrony osobistej",
+      "use": "Produkuje materiały odporne na ogień, przecięcia i chemikalia dla BHP."
+    }
+  ],
+  "businessExamples": [
+    "Producent plandek transportowych dla flot ciężarówek",
+    "Wytwórca tkanin powlekanych dla mebli outdoor",
+    "Manufaktura tkanin ochronnych dla BHP"
+  ],
+  "commonMistakes": [
+    "Wybór 13.96.Z zamiast 13.95.Z (Produkcja włóknin) — włókniny technicznych to 13.95.Z, a tkane materiały techniczne to 13.96.Z.",
+    "Pomylenie z 22.29.Z (Produkcja pozostałych wyrobów z tworzyw sztucznych) — folia PVC bez podkładu tekstylnego to 22.29.Z, a tkanina powlekana to 13.96.Z."
+  ],
+  "taxNotes": "Techniczne wyroby tekstylne podlegają standardowym stawkom VAT, a forma opodatkowania zależy od skali i kanałów sprzedaży B2B. Stawki sprawdź u doradcy podatkowego."
+}

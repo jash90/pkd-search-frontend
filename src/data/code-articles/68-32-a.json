@@ -1,0 +1,36 @@
+{
+  "code": "68.32.A",
+  "name": "Działalność związana z wyceną nieruchomości",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.32.A obejmuje działalność rzeczoznawców majątkowych — sporządzanie operatów szacunkowych, wycen nieruchomości na potrzeby kredytów hipotecznych, postępowań sądowych, podatkowych, sprzedaży czy wkładów do spółek. To kod dla licencjonowanych rzeczoznawców i biur wycen.",
+  "whoUsesIt": [
+    {
+      "persona": "Rzeczoznawca majątkowy",
+      "use": "Sporządza operaty szacunkowe nieruchomości na potrzeby banków, sądów i klientów indywidualnych."
+    },
+    {
+      "persona": "Biuro wycen nieruchomości",
+      "use": "Świadczy usługi dla deweloperów, funduszy inwestycyjnych i instytucji finansujących projekty."
+    },
+    {
+      "persona": "Rzeczoznawca specjalistyczny",
+      "use": "Wycenia nietypowe obiekty (zabytki, hotele, fabryki) wymagające zaawansowanej metodologii."
+    },
+    {
+      "persona": "Konsultant wycen ESG",
+      "use": "Łączy wycenę z oceną ryzyk klimatycznych i zrównoważonego rozwoju dla inwestorów instytucjonalnych."
+    }
+  ],
+  "businessExamples": [
+    "Rzeczoznawca obsługujący operaty dla banków hipotecznych",
+    "Biuro wycen specjalizujące się w nieruchomościach komercyjnych",
+    "Konsultant wycen funduszy nieruchomości"
+  ],
+  "commonMistakes": [
+    "Wybór 68.32.A zamiast 71.20.C — wycena techniczna obiektów (np. ekspertyza budowlana) bez kontekstu majątkowego mieści się w 71.20.C.",
+    "Pomylenie z 68.31.Z (pośrednictwo) — sama wycena to inny zakres niż wystawianie i sprzedawanie ofert."
+  ],
+  "taxNotes": "Działalność rzeczoznawcy majątkowego wymaga państwowych uprawnień i obowiązkowego OC. Usługi wyceny podlegają standardowej stawce VAT. Wielu rzeczoznawców korzysta z ryczałtu według właściwej stawki dla wolnych zawodów lub skali podatkowej. Stawki sprawdź u doradcy podatkowego."
+}

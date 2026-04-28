@@ -1,0 +1,36 @@
+{
+  "code": "14.21.Z",
+  "name": "Produkcja odzieży wierzchniej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 14.21.Z obejmuje produkcję odzieży wierzchniej — kurtek, płaszczy, marynarek, sukienek, spodni, koszul, swetrów, T-shirtów i innych ubrań noszonych na co dzień. To podstawowy kod dla szwalni odzieżowych, marek modowych i fashion startupów.",
+  "whoUsesIt": [
+    {
+      "persona": "Marka modowa (D2C)",
+      "use": "Projektuje i produkuje kolekcje odzieży pod własną marką, sprzedając online."
+    },
+    {
+      "persona": "Szwalnia kontraktowa",
+      "use": "Szyje odzież na zlecenie marek modowych w modelu CMT/Full Package."
+    },
+    {
+      "persona": "Marka odzieży sportowej / streetwear",
+      "use": "Produkuje bluzy, T-shirty i odzież streetwear w limitowanych dropach."
+    },
+    {
+      "persona": "Atelier krawieckie",
+      "use": "Szyje odzież szyta na miarę — garnitury, sukienki ślubne, odzież formalną."
+    }
+  ],
+  "businessExamples": [
+    "Marka modowa D2C z kolekcjami online",
+    "Szwalnia kontraktowa dla marek europejskich",
+    "Atelier sukien ślubnych szytych na miarę"
+  ],
+  "commonMistakes": [
+    "Wybór 14.21.Z zamiast 14.22.Z (Produkcja bielizny) — bielizna damska, męska i nocna to osobny kod 14.22.Z.",
+    "Pomylenie z 47.71.Z (Sprzedaż detaliczna odzieży) — produkcja to 14.21.Z, a sprzedaż w sklepie to handel detaliczny."
+  ],
+  "taxNotes": "Produkcja odzieży podlega standardowej stawce VAT, a forma opodatkowania zależy od skali, modelu sprzedaży (B2B vs D2C) i kosztów produkcji. Stawki sprawdź u doradcy podatkowego."
+}

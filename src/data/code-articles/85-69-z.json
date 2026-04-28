@@ -1,0 +1,36 @@
+{
+  "code": "85.69.Z",
+  "name": "Działalność wspomagająca edukację, gdzie indziej niesklasyfikowana",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.69.Z obejmuje usługi wspierające edukację — doradztwo zawodowe i edukacyjne, ocenę umiejętności, organizację konkursów wiedzy, konsultacje psychologiczno-pedagogiczne (poza poradniami publicznymi), audyt edukacyjny. Sama nauka to kody 85.59, a poradnie psychologiczne publiczne to 85.60.Z lub 88.91.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Doradca zawodowy / edukacyjny",
+      "use": "Pomaga uczniom i dorosłym wybrać kierunek studiów, ścieżkę kariery, kursy uzupełniające."
+    },
+    {
+      "persona": "Organizator olimpiad i konkursów wiedzy",
+      "use": "Prowadzi i koordynuje konkursy przedmiotowe dla uczniów szkół na poziomie krajowym i regionalnym."
+    },
+    {
+      "persona": "Specjalista oceny i akredytacji edukacyjnej",
+      "use": "Audytuje programy szkoleniowe, ocenia jakość kursów, prowadzi badania efektywności edukacji."
+    },
+    {
+      "persona": "Konsultant edukacji domowej",
+      "use": "Doradza rodzicom edukacji domowej (ED) w doborze materiałów, programów i ocenie postępów dzieci."
+    }
+  ],
+  "businessExamples": [
+    "Centrum doradztwa zawodowego dla uczniów liceów",
+    "Organizator olimpiady przedmiotowej z matematyki",
+    "Konsultant edukacji domowej i nauczania domowego"
+  ],
+  "commonMistakes": [
+    "Wybór 85.69.Z dla prowadzenia szkoleń — to działalność edukacyjna w 85.59.B, doradztwo edukacyjne to indywidualna pomoc w wyborze ścieżki, nie nauczanie.",
+    "Pomylenie z 86.93.Z (działalność psychologiczna) — terapia psychologiczna to 86.93.Z, doradztwo edukacyjno-zawodowe to 85.69.Z."
+  ],
+  "taxNotes": "Doradztwo i audyt edukacyjny dobrze pasują do ryczałtu lub liniowego. Niektóre usługi związane z edukacją mogą być zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

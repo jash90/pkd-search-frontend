@@ -1,0 +1,36 @@
+{
+  "code": "13.91.Z",
+  "name": "Produkcja dzianin metrażowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.91.Z obejmuje produkcję dzianin metrażowych — dzianych tkanin sprzedawanych na metraż lub w belach do dalszego przetwórstwa, w tym dzianin osnowowych, wątkowych i specjalnych (frotté, koronka maszynowa, dzianiny techniczne).",
+  "whoUsesIt": [
+    {
+      "persona": "Dziewiarnia metrażowa",
+      "use": "Produkuje dzianiny bawełniane, syntetyczne i mieszane na metraż dla szwalni."
+    },
+    {
+      "persona": "Wytwórca dzianin technicznych",
+      "use": "Produkuje dzianiny przemysłowe (medyczne, filtracyjne, wzmacniające) dla B2B."
+    },
+    {
+      "persona": "Producent koronki maszynowej",
+      "use": "Wytwarza koronki rasl/jakardowe metrażowe do bielizny i tekstyliów domowych."
+    },
+    {
+      "persona": "Manufaktura frotté",
+      "use": "Produkuje tkaniny frotté na ręczniki, szlafroki i tekstylia łazienkowe."
+    }
+  ],
+  "businessExamples": [
+    "Dziewiarnia metrażowa zaopatrująca szwalnie odzieżowe",
+    "Producent dzianin technicznych dla branży medycznej",
+    "Manufaktura koronki maszynowej dla bielizny"
+  ],
+  "commonMistakes": [
+    "Wybór 13.91.Z zamiast 14.21.Z (Produkcja odzieży wierzchniej) — gdy szyje się gotową odzież z dzianiny, to produkcja odzieży, nie dzianiny.",
+    "Pomylenie z 13.92.Z (Wyroby tekstylne dla gospodarstw domowych) — tkanina metrażowa to 13.91.Z, a uszyta z niej zasłona to 13.92.Z."
+  ],
+  "taxNotes": "Produkcja dzianin podlega standardowym stawkom VAT na wyroby tekstylne, a forma opodatkowania zależy od skali produkcji i struktury kosztów surowca. Stawki sprawdź u doradcy podatkowego."
+}

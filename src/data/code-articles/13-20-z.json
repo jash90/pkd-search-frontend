@@ -1,0 +1,36 @@
+{
+  "code": "13.20.Z",
+  "name": "Produkcja tkanin",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.20.Z obejmuje produkcję tkanin — tkanie z przędzy bawełnianej, lnianej, wełnianej, jedwabnej i syntetycznej, w tym tkanin technicznych, ręczników, narzut, koców i pluszu. Nie obejmuje wykończania tkanin (13.30.Z) ani produkcji dzianin (13.91.Z). Typowy kod dla tkalni przemysłowych i manufaktur rzemieślniczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Tkalnia odzieżowa",
+      "use": "Produkuje tkaniny ubraniowe z przędz bawełnianych i mieszanek dla producentów odzieży i branży kontraktowej."
+    },
+    {
+      "persona": "Producent tkanin technicznych",
+      "use": "Tka tkaniny do filtracji, wzmocnień kompozytów i geotekstyliów dla przemysłu i budownictwa."
+    },
+    {
+      "persona": "Manufaktura tkanin dekoracyjnych",
+      "use": "Tka żakardowe tkaniny obiciowe i zasłonowe dla branży meblowej i wnętrzarskiej."
+    },
+    {
+      "persona": "Tkalnia ręczników i pluszów",
+      "use": "Wytwarza ręczniki frotté, szlafroki i tkaniny pluszowe na rynek konsumencki i hotelowy."
+    }
+  ],
+  "businessExamples": [
+    "Tkalnia tkanin odzieżowych z bawełny i mieszanek",
+    "Producent tkanin technicznych dla geotekstyliów",
+    "Manufaktura żakardowych tkanin meblowych"
+  ],
+  "commonMistakes": [
+    "Wybór 13.20.Z zamiast 13.91.Z (produkcja dzianin) — dzianie maszynowe i ręczne to inna technologia niż tkanie.",
+    "Mylenie z 13.30.Z (wykończanie wyrobów tekstylnych) — bielenie, farbowanie i drukowanie tkanin to odrębny etap z osobnym kodem."
+  ],
+  "taxNotes": "Produkcja tkanin korzysta ze standardowych zasad PIT/CIT i VAT, a działalność na rzecz UE wymaga prawidłowego rozliczania WDT i ewentualnej rejestracji do OSS/IOSS. Stawki sprawdź u doradcy podatkowego."
+}

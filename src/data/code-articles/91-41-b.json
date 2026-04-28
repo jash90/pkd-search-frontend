@@ -1,0 +1,36 @@
+{
+  "code": "91.41.B",
+  "name": "Działalność ogrodów zoologicznych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.41.B obejmuje działalność ogrodów zoologicznych, akwariów, oceanariów, terrariów oraz ośrodków rehabilitacji dzikich zwierząt udostępnianych publiczności. Pasuje zarówno do dużych zoo miejskich, jak i mniejszych obiektów hodowlano-edukacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator ogrodu zoologicznego",
+      "use": "Prowadzi zoo z kolekcją zwierząt, programem hodowlanym i edukacją zwiedzających."
+    },
+    {
+      "persona": "Zarządca akwarium / oceanarium",
+      "use": "Eksponuje fauny morską i słodkowodną w warunkach kontrolowanych dla publiczności."
+    },
+    {
+      "persona": "Operator mini-zoo / petting zoo",
+      "use": "Prowadzi mniejszy obiekt ze zwierzętami gospodarskimi do interakcji ze zwiedzającymi."
+    },
+    {
+      "persona": "Ośrodek rehabilitacji dzikich zwierząt",
+      "use": "Łączy funkcję leczniczą z udostępnianiem zwierząt zwiedzającym i edukacją."
+    }
+  ],
+  "businessExamples": [
+    "Miejski ogród zoologiczny z programem hodowlanym",
+    "Oceanarium z biletami wstępu i pokazami karmień",
+    "Mini-zoo agroturystyczne ze zwierzętami gospodarskimi"
+  ],
+  "commonMistakes": [
+    "Wybór 91.41.B dla schroniska dla zwierząt domowych — schroniska dla psów i kotów to zwykle 96.09.Z lub 75.00.Z (działalność weterynaryjna), nie kategoria ogrodów zoologicznych.",
+    "Pomylenie z 01.49.Z (chów i hodowla pozostałych zwierząt) — komercyjna hodowla bez udostępniania publiczności to inna kategoria."
+  ],
+  "taxNotes": "Bilety wstępu do ogrodów zoologicznych mogą korzystać z preferencyjnej stawki VAT. Wymagania weterynaryjne i ochrony zwierząt generują specyficzne koszty wpływające na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

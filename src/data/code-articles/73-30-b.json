@@ -1,0 +1,36 @@
+{
+  "code": "73.30.B",
+  "name": "Działalność pozostała w zakresie public relations i komunikacji",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 73.30.B obejmuje klasyczne usługi public relations i komunikacji — media relations, komunikację korporacyjną, zarządzanie reputacją, komunikację kryzysową i wewnętrzną. To kod dla agencji PR, działów komunikacji świadczących usługi zewnętrzne oraz konsultantów wizerunkowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja PR",
+      "use": "Obsługuje klientów w zakresie media relations, komunikatów prasowych, eventów i kampanii wizerunkowych."
+    },
+    {
+      "persona": "Konsultant komunikacji kryzysowej",
+      "use": "Wspiera firmy i osoby publiczne w sytuacjach kryzysowych — strategia, komunikaty, monitoring."
+    },
+    {
+      "persona": "Specjalista komunikacji korporacyjnej",
+      "use": "Zarządza komunikacją wewnętrzną, employer brandingiem i ESG narratives dla korporacji."
+    },
+    {
+      "persona": "Agencja influencer / digital PR",
+      "use": "Łączy marki z twórcami internetowymi, prowadzi kampanie influencer marketingu i digital PR."
+    }
+  ],
+  "businessExamples": [
+    "Agencja PR obsługująca firmy z branży technologicznej",
+    "Konsultant komunikacji kryzysowej dla zarządów",
+    "Agencja influencer marketingu dla marek FMCG"
+  ],
+  "commonMistakes": [
+    "Wybór 73.30.B zamiast 73.30.A — działalność lobbingowa (wpływ na legislację) ma osobny dedykowany kod 73.30.A.",
+    "Pomylenie z 73.11.Z (agencja reklamowa) — gdy działalność polega na tworzeniu reklamy płatnej (nie PR-u), właściwszy jest 73.11.Z."
+  ],
+  "taxNotes": "Usługi PR i komunikacji często kwalifikują się do ryczałtu według właściwej stawki (usługi reklamowe). Większe agencje wybierają liniowy lub skalę. Usługi PR podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

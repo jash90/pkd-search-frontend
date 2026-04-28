@@ -61,6 +61,7 @@ const wrapUrlset = (entries: SitemapEntry[]): string => {
 
 const mainEntries: SitemapEntry[] = [
   { loc: `${SITE_URL}/`, lastmod: today, changefreq: 'weekly', priority: 1.0 },
+  { loc: `${SITE_URL}/pkd-2025`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
   { loc: `${SITE_URL}/przyklady`, lastmod: today, changefreq: 'monthly', priority: 0.9 },
   { loc: `${SITE_URL}/artykuly`, lastmod: today, changefreq: 'weekly', priority: 0.9 },
   ...(popularQueries as PopularQuery[]).map<SitemapEntry>((q) => ({

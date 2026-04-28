@@ -1,0 +1,36 @@
+{
+  "code": "10.71.Z",
+  "name": "Produkcja pieczywa; produkcja świeżych wyrobów ciastkarskich i ciastek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.71.Z obejmuje wypiek świeżego pieczywa (chleb, bułki, rogale) oraz świeże wyroby ciastkarskie — drożdżówki, pączki, ciastka, torty. Kluczowe słowo to 'świeże' — produkty o krótkim terminie przydatności. Wyroby suche i konserwowane (herbatniki, sucharki) idą do 10.72.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Piekarnia rzemieślnicza",
+      "use": "Wypieka chleby na zakwasie i bułki dla lokalnych klientów oraz sklepów."
+    },
+    {
+      "persona": "Cukiernia",
+      "use": "Produkuje torty, ciastka i desery na zamówienie oraz do własnego punktu sprzedaży."
+    },
+    {
+      "persona": "Sieciowa piekarnia przemysłowa",
+      "use": "Dostarcza świeże pieczywo do sieci handlowych i sklepów detalicznych."
+    },
+    {
+      "persona": "Mała manufaktura pączków / drożdżówek",
+      "use": "Wypieka i sprzedaje świeże wyroby drożdżowe z dystrybucją w mieście."
+    }
+  ],
+  "businessExamples": [
+    "Piekarnia osiedlowa z chlebem na zakwasie",
+    "Cukiernia z tortami na zamówienie",
+    "Manufaktura artisan croissants dla kawiarni"
+  ],
+  "commonMistakes": [
+    "Wybór 10.71.Z zamiast 10.72.Z przy produkcji herbatników, sucharów i ciastek konserwowanych — te idą do 10.72.Z.",
+    "Pomylenie z 56.10.B (Ruchome placówki gastronomiczne) lub 56.10.A — sprzedaż na miejscu z konsumpcją to gastronomia, nie produkcja."
+  ],
+  "taxNotes": "Świeże pieczywo i wyroby ciastkarskie objęte są obniżoną stawką VAT, a piekarnie często korzystają ze zwolnień przy małej skali. Forma opodatkowania zależy od struktury sprzedaży (B2B vs detal) i kosztów. Stawki sprawdź u doradcy podatkowego."
+}

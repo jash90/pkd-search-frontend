@@ -1,0 +1,36 @@
+{
+  "code": "46.16.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową wyrobów tekstylnych, odzieży, wyrobów futrzarskich, obuwia i artykułów skórzanych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.16.Z to pośrednictwo handlowe w sprzedaży hurtowej tekstyliów, odzieży, futer, obuwia i wyrobów skórzanych — agent działa na zlecenie i za prowizję, nie kupując towaru. Pasuje do showroomów reprezentujących marki, agencji modowych i przedstawicieli handlowych producentów. Jeśli sam kupujesz i sprzedajesz odzież hurtowo, użyj 46.42.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Showroom modowy",
+      "use": "Reprezentuje kolekcje marek odzieżowych przed kupcami sklepów detalicznych."
+    },
+    {
+      "persona": "Agent producenta obuwia",
+      "use": "Pośredniczy w zamówieniach hurtowych pomiędzy fabryką a sieciami sklepów."
+    },
+    {
+      "persona": "Przedstawiciel handlowy tekstyliów",
+      "use": "Negocjuje kontrakty na materiały i tkaniny dla zakładów krawieckich."
+    },
+    {
+      "persona": "Broker importu odzieży",
+      "use": "Kojarzy producentów zagranicznych z polskimi hurtowniami i e-commerce."
+    }
+  ],
+  "businessExamples": [
+    "Showroom marek odzieżowych w warszawskim hubie modowym",
+    "Agencja przedstawicielska producenta obuwia",
+    "Broker tkanin technicznych z Turcji i Włoch"
+  ],
+  "commonMistakes": [
+    "Wybór 46.16.Z, gdy kupujesz odzież i sprzedajesz hurtowo — właściwy jest 46.42.Z.",
+    "Pomylenie z 14.13.Z (produkcja odzieży) — agent nie szyje, tylko pośredniczy."
+  ],
+  "taxNotes": "Prowizje agencyjne podlegają VAT i zwykle rozliczane są skalą lub liniówką; ryczałt bywa dostępny przy odpowiedniej strukturze przychodów. Stawki sprawdź u doradcy podatkowego."
+}

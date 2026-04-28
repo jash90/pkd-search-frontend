@@ -1,0 +1,36 @@
+{
+  "code": "51.21.Z",
+  "name": "Transport lotniczy towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 51.21.Z obejmuje lotniczy transport towarów — krajowy i międzynarodowy przewóz przesyłek, ładunków, przesyłek kurierskich i specjalnych samolotami transportowymi. To kod dla cargo airlines, operatorów samolotów towarowych i firm air cargo.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator linii lotniczej cargo",
+      "use": "Realizuje przewozy towarowe samolotami w trasach międzynarodowych."
+    },
+    {
+      "persona": "Firma air cargo",
+      "use": "Pośredniczy w przewozach lotniczych z umowami z liniami pasażerskimi (belly cargo)."
+    },
+    {
+      "persona": "Operator drobnicy lotniczej",
+      "use": "Specjalizuje się w przewozach przesyłek ekspresowych i kurierskich (DHL, FedEx, UPS)."
+    },
+    {
+      "persona": "Czarter cargo",
+      "use": "Świadczy lotniczy transport czarterowy dla firm i przesyłek specjalnych."
+    }
+  ],
+  "businessExamples": [
+    "Linia lotnicza cargo z trasami międzykontynentalnymi",
+    "Operator hub-cargo na lotnisku regionalnym",
+    "Firma czarterująca samoloty transportowe"
+  ],
+  "commonMistakes": [
+    "Wybór 51.21.Z zamiast 52.23.Z — usługi spedycji lotniczej (bez własnych samolotów) to działalność wspomagająca transport.",
+    "Pomylenie z 53.10.Z — działalność pocztowa i kurierska, w tym przesyłki priorytetowe, to inny kod."
+  ],
+  "taxNotes": "Działalność lotnicza wymaga certyfikatu AOC, licencji ULC i ścisłych regulacji bezpieczeństwa. Stawki sprawdź u doradcy podatkowego."
+}

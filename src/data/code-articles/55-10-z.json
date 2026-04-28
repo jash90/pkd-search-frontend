@@ -1,0 +1,36 @@
+{
+  "code": "55.10.Z",
+  "name": "Hotele i podobne obiekty zakwaterowania",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 55.10.Z obejmuje prowadzenie hoteli, moteli, pensjonatów, apartahoteli i podobnych obiektów oferujących zakwaterowanie z usługami towarzyszącymi (recepcja 24h, sprzątanie, śniadania). To podstawowy kod dla branży hotelarskiej — od małych pensjonatów po sieci hoteli kategoryzowanych.",
+  "whoUsesIt": [
+    {
+      "persona": "Hotel kategoryzowany",
+      "use": "Prowadzi obiekt 3-, 4- lub 5-gwiazdkowy z restauracją, SPA i salami konferencyjnymi w mieście lub kurorcie."
+    },
+    {
+      "persona": "Pensjonat rodzinny",
+      "use": "Oferuje pokoje z wyżywieniem w atrakcyjnych miejscowościach turystycznych — Karpaty, Mazury, wybrzeże."
+    },
+    {
+      "persona": "Aparthotel",
+      "use": "Wynajmuje apartamenty z aneksem kuchennym pod krótkoterminową rezerwację z usługą hotelową."
+    },
+    {
+      "persona": "Hotel biznesowy",
+      "use": "Obsługuje gości korporacyjnych — pokoje z miejscem pracy, sale konferencyjne, transfery lotniskowe."
+    }
+  ],
+  "businessExamples": [
+    "Hotel 4* w centrum dużego miasta",
+    "Pensjonat górski z restauracją",
+    "Aparthotel przy plaży nadmorskiej"
+  ],
+  "commonMistakes": [
+    "Wybór 55.10.Z zamiast 55.20.Z (obiekty noclegowe turystyczne i krótkotrwałego zakwaterowania) — apartamenty bez recepcji i usług hotelowych (czysty short-term rental) to inny kod.",
+    "Pomylenie z 56.10.A (restauracje i inne stałe placówki gastronomiczne) — sama restauracja hotelowa wynajmowana zewnętrznemu operatorowi to działalność gastronomiczna."
+  ],
+  "taxNotes": "Usługi hotelarskie korzystają z preferencyjnej stawki VAT, mają specyficzny obowiązek poboru opłaty miejscowej i klimatycznej oraz wymagają kategoryzacji obiektu w urzędzie marszałkowskim. Stawki sprawdź u doradcy podatkowego."
+}

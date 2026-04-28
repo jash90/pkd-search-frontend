@@ -1,0 +1,36 @@
+{
+  "code": "43.99.Z",
+  "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.99.Z to kategoria zbiorcza dla specjalistycznych robót budowlanych nieobjętych innymi kodami działu 43 — np. fundamentowanie głębokie, betonowanie, zbrojenie, palowanie, kotwienie skał, izolacje przeciwwilgociowe, hydroizolacje, prace alpinistyczne, montaż rusztowań, prace dźwigowe na placu budowy.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma od fundamentów głębokich",
+      "use": "Wykonuje pale, mikropale, ściany szczelinowe pod inwestycje wielkoskalowe."
+    },
+    {
+      "persona": "Wykonawca robót żelbetowych",
+      "use": "Specjalizuje się w betonowaniu, zbrojeniu i deskowaniach systemowych."
+    },
+    {
+      "persona": "Firma alpinistyczna budowlana",
+      "use": "Wykonuje prace na wysokości — naprawy elewacji, kominów, konstrukcji."
+    },
+    {
+      "persona": "Wykonawca rusztowań",
+      "use": "Wynajmuje i montuje rusztowania na placach budowy i remontach."
+    }
+  ],
+  "businessExamples": [
+    "Pale fundamentowe pod biurowiec",
+    "Hydroizolacja fundamentów domu jednorodzinnego",
+    "Rusztowania elewacyjne na bloku mieszkalnym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.42.Z (specjalistyczne roboty przy budowie budynków) — kategorie częściowo się pokrywają, kluczowy jest charakter pracy.",
+    "Wybór 43.99.Z zamiast 71.20.B, gdy firma świadczy głównie usługi badań technicznych i inspekcji, a nie wykonawstwa."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Prace alpinistyczne i wysokościowe wymagają uprawnień i polis OC. Stawki sprawdź u doradcy podatkowego."
+}

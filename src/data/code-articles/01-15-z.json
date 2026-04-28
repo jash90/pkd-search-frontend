@@ -1,0 +1,36 @@
+{
+  "code": "01.15.Z",
+  "name": "Uprawa tytoniu",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.15.Z obejmuje uprawę liści tytoniu nieprzetworzonego — wszystkich odmian, zarówno na potrzeby przemysłu papierosowego, jak i cygarowego czy fajkowego. W Polsce uprawa tytoniu jest mocno regulowana i wymaga rejestracji u producentów surowca tytoniowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Plantator tytoniu",
+      "use": "Prowadzi plantację na umowach kontraktacyjnych z koncernami tytoniowymi (np. JTI, PMI)."
+    },
+    {
+      "persona": "Gospodarstwo rodzinne",
+      "use": "Uprawia tytoń jako uzupełnienie produkcji rolnej na wschodzie i południu Polski."
+    },
+    {
+      "persona": "Producent tytoni niszowych",
+      "use": "Uprawia rzadkie odmiany na potrzeby manufaktur cygarowych lub fajkowych."
+    },
+    {
+      "persona": "Spółdzielnia plantatorów",
+      "use": "Łączy małe gospodarstwa w celu negocjacji warunków odbioru z odbiorcami przemysłowymi."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja tytoniu na Lubelszczyźnie",
+    "Gospodarstwo kontraktowe dla JTI",
+    "Niszowy producent tytoniu fajkowego"
+  ],
+  "commonMistakes": [
+    "Wybór 01.15.Z zamiast 12.00.Z (produkcja wyrobów tytoniowych), gdy działalność obejmuje suszenie, krojenie i pakowanie tytoniu jako wyrobu gotowego.",
+    "Pomylenie z 46.35.Z (sprzedaż hurtowa wyrobów tytoniowych) — uprawa to wyłącznie produkcja surowca, nie handel."
+  ],
+  "taxNotes": "Uprawa tytoniu jako działalność rolnicza co do zasady nie podlega PIT, ale obowiązuje rejestracja producenta surowca tytoniowego oraz akcyza przy dalszym przetwórstwie. Warto sprawdzić zasady VAT i ewentualne dotacje branżowe. Stawki sprawdź u doradcy podatkowego."
+}

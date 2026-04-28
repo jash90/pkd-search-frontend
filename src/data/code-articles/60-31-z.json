@@ -1,0 +1,36 @@
+{
+  "code": "60.31.Z",
+  "name": "Działalność agencji informacyjnych",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 60.31.Z obejmuje pozyskiwanie, przetwarzanie i dystrybucję wiadomości, materiałów prasowych, zdjęć i wideo dla mediów oraz innych odbiorców. Pasuje dla agencji prasowych, agencji fotograficznych, serwisów informacyjnych oraz freelancerów dziennikarzy sprzedających newsy mediom.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja prasowa",
+      "use": "Dostarcza serwisy newsowe redakcjom — depesze, fotoserwisy, wideo i analizy."
+    },
+    {
+      "persona": "Agencja fotograficzna",
+      "use": "Sprzedaje zdjęcia z wydarzeń, sportu i eventów do gazet, portali i wydawnictw."
+    },
+    {
+      "persona": "Serwis stockowy wideo / foto",
+      "use": "Licencjonuje materiały audiowizualne (B-roll, zdjęcia) na platformach typu Shutterstock."
+    },
+    {
+      "persona": "Freelancer dziennikarz / fotoreporter",
+      "use": "Sprzedaje własne materiały redakcjom mediów ogólnopolskich i międzynarodowych."
+    }
+  ],
+  "businessExamples": [
+    "Agencja prasowa specjalizująca się w branży finansowej",
+    "Agencja fotograficzna z newsami sportowymi",
+    "Stockowa platforma wideo dla mediów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 58.12.Z (wydawanie gazet) — własna gazeta lub portal newsowy to osobny kod.",
+    "Wybór 60.31.Z zamiast 74.20.Z (działalność fotograficzna) — fotoreportaż na zlecenie klienta indywidualnego ma inną klasę."
+  ],
+  "taxNotes": "Sprzedaż materiałów dziennikarskich i fotograficznych może korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich. IP Box przy własnych pracach twórczych. Stawki sprawdź u doradcy podatkowego."
+}

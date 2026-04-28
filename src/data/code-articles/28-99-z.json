@@ -1,0 +1,36 @@
+{
+  "code": "28.99.Z",
+  "name": "Produkcja pozostałych maszyn specjalnego przeznaczenia, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.99.Z to kategoria zbiorcza dla maszyn specjalistycznych, które nie pasują do bardziej szczegółowych kodów — automaty vendingowe, urządzenia do prania chemicznego, sprzęt parkowania, wyrzutnie startowe, maszyny dla przemysłu szklarskiego i ceramicznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent automatów vendingowych",
+      "use": "Wytwarza automaty na napoje, przekąski, kawę i specjalistyczne automaty serwisowe."
+    },
+    {
+      "persona": "Fabryka maszyn dla pralni chemicznych",
+      "use": "Produkuje pralnice przemysłowe, prasowalnice tunelowe i sprzęt dla pralni chemicznych."
+    },
+    {
+      "persona": "Wytwórca specjalistycznego sprzętu parkingowego",
+      "use": "Buduje parkomaty, szlabany automatyczne i systemy parkingów wielopoziomowych."
+    },
+    {
+      "persona": "Producent maszyn dla przemysłu ceramicznego",
+      "use": "Robi prasy, suszarnie i piece tunelowe dla zakładów ceramiki budowlanej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka automatów vendingowych z systemem cashless",
+    "Producent pralnic przemysłowych dla hoteli i szpitali",
+    "Zakład maszyn do produkcji szkła płaskiego i opakowaniowego"
+  ],
+  "commonMistakes": [
+    "Wybór 28.99.Z, gdy istnieje dokładniejszy kod — np. maszyny dla foodtechu powinny iść pod 28.93.Z, nie pod kategorię zbiorczą.",
+    "Pomylenie z 33.20.Z (instalowanie maszyn) — produkcja maszyn idzie pod 28.99.Z, sama instalacja u klienta to inny kod."
+  ],
+  "taxNotes": "Niszowe maszyny specjalistyczne często sprzedawane są w modelu projektowym z usługami uruchomienia i serwisu. Forma opodatkowania zależy od skali, struktury kontraktów i ulg B+R. Stawki sprawdź u doradcy podatkowego."
+}

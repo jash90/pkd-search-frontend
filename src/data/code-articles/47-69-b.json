@@ -1,0 +1,36 @@
+{
+  "code": "47.69.B",
+  "name": "Sprzedaż detaliczna dzieł sztuki",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.69.B dotyczy detalicznej sprzedaży obrazów, rzeźb, grafik i innych dzieł sztuki współczesnej w galeriach komercyjnych i sklepach z dziełami sztuki. Nie obejmuje antyków używanych (47.79.B). To kod dla galerii sztuki, dealerów i salonów artystycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Galerzysta",
+      "use": "Prowadzi galerię ze sprzedażą obrazów współczesnych malarzy z prowizją lub jako dealer."
+    },
+    {
+      "persona": "Sklep z grafikami artystycznymi",
+      "use": "Sprzedaje sygnowane grafiki, plakaty kolekcjonerskie i printy limitowane."
+    },
+    {
+      "persona": "Salon rzeźby",
+      "use": "Oferuje rzeźby brązowe, ceramiczne i drewniane od artystów współczesnych."
+    },
+    {
+      "persona": "Marszand sztuki",
+      "use": "Pośredniczy w sprzedaży obrazów na rynku pierwotnym i wtórnym."
+    }
+  ],
+  "businessExamples": [
+    "Galeria sztuki współczesnej w centrum miasta",
+    "Sklep z grafikami sygnowanymi i printami",
+    "Studio z rzeźbą i ceramiką artystyczną"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.79.B — antyki (powyżej 100 lat) klasyfikują się jako 47.79.B, nie 47.69.B.",
+    "Wybór 47.69.B zamiast 90.03.Z, jeśli głównie tworzysz własne dzieła, a sprzedaż jest tylko skutkiem twórczości."
+  ],
+  "taxNotes": "Sprzedaż dzieł sztuki podlega specjalnym zasadom VAT (procedura marży). Galerie często rozliczają się prowizyjnie. Forma opodatkowania zależy od modelu (komis, dealer, prowizja). Stawki sprawdź u doradcy podatkowego."
+}

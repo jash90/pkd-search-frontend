@@ -1,0 +1,36 @@
+{
+  "code": "38.32.Z",
+  "name": "Składowanie odpadów",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.32.Z obejmuje prowadzenie składowisk odpadów — komunalnych, przemysłowych, niebezpiecznych. Działalność polega na deponowaniu odpadów w sposób trwały, zgodnie z wymogami środowiskowymi. To najmniej preferowana forma postępowania w hierarchii odpadowej UE.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator składowiska odpadów komunalnych",
+      "use": "Przyjmuje i deponuje odpady zmieszane od gmin i firm wywozowych."
+    },
+    {
+      "persona": "Spółka prowadząca składowisko przemysłowe",
+      "use": "Przyjmuje odpady własne i obce z procesów produkcyjnych."
+    },
+    {
+      "persona": "Operator składowiska odpadów niebezpiecznych",
+      "use": "Deponuje odpady niebezpieczne w wyspecjalizowanej kwaterze."
+    },
+    {
+      "persona": "Składowisko odpadów obojętnych",
+      "use": "Przyjmuje gruz budowlany i odpady mineralne klasy obojętnej."
+    }
+  ],
+  "businessExamples": [
+    "Regionalna instalacja przetwarzania odpadów komunalnych",
+    "Składowisko przemysłowe popiołów elektrowni",
+    "Składowisko odpadów obojętnych dla budownictwa"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.21.Z (odzysk surowców), gdy zakład w rzeczywistości segreguje i odzyskuje odpady przed deponowaniem.",
+    "Wybór 38.32.Z zamiast 39.00.Z, gdy działalność dotyczy rekultywacji starego składowiska, a nie eksploatacji aktywnego."
+  ],
+  "taxNotes": "Składowiska wymagają pozwolenia zintegrowanego, monitoringu i zabezpieczeń środowiskowych. Branża podlega opłatom za składowanie i wymogom rezerw środowiskowych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "96.91.Z",
+  "name": "Działalność usługowa na rzecz osób w miejscu zamieszkania",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.91.Z obejmuje usługi świadczone osobom w ich miejscu zamieszkania — pomoc domową, sprzątanie, drobne naprawy, opiekę osobistą bez kwalifikacji medycznych, towarzystwo dla seniorów. Pasuje dla firm sprzątających, pomocy domowych i opiekunów osób starszych prowadzących działalność.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma sprzątająca prywatne domy",
+      "use": "Świadczy regularne sprzątanie mieszkań i domów dla klientów indywidualnych."
+    },
+    {
+      "persona": "Opiekun osób starszych",
+      "use": "Pomaga seniorom w codziennych czynnościach (zakupy, posiłki, towarzystwo) bez funkcji medycznych."
+    },
+    {
+      "persona": "Złota rączka / mobile fixer",
+      "use": "Wykonuje drobne naprawy i prace montażowe w mieszkaniach klientów."
+    },
+    {
+      "persona": "Pomoc domowa",
+      "use": "Wykonuje codzienne prace gospodarcze (gotowanie, pranie, prasowanie) u rodzin."
+    }
+  ],
+  "businessExamples": [
+    "Firma sprzątająca z regularnym serwisem mieszkań",
+    "Opieka senioralna na godziny z towarzystwem",
+    "Złota rączka z drobnymi naprawami w domach"
+  ],
+  "commonMistakes": [
+    "Wybór 96.91.Z dla profesjonalnej opieki medycznej — opieka pielęgniarska to 86.90.E (działalność paramedyczna), a pomoc społeczna z zakwaterowaniem to dział 87.",
+    "Pomylenie z 81.21.Z (sprzątanie ogólne budynków) — sprzątanie biurowców i obiektów komercyjnych to inna kategoria niż usługi w mieszkaniach prywatnych."
+  ],
+  "taxNotes": "Drobne usługi osobiste często prowadzone są na ryczałcie. Praca w prywatnym domu klienta wiąże się z umowami zleceniami i specyficznymi obowiązkami ubezpieczeniowymi. Stawki sprawdź u doradcy podatkowego."
+}

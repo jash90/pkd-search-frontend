@@ -1,0 +1,36 @@
+{
+  "code": "81.23.B",
+  "name": "Pozostała działalność związana ze sprzątaniem, gdzie indziej niesklasyfikowana",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.23.B to inne usługi sprzątające niesklasyfikowane gdzie indziej — czyszczenie ulic, placów, parkingów, znaków drogowych, oczyszczanie terenów po imprezach masowych, usuwanie graffiti, czyszczenie po klęskach żywiołowych. Sprzątanie wnętrz budynków to 81.21.Z lub 81.22.B, a DDD to 81.23.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma utrzymania czystości miasta",
+      "use": "Sprząta ulice, place i chodniki na zlecenie gminy lub zarządców terenów handlowych."
+    },
+    {
+      "persona": "Specjalista usuwania graffiti",
+      "use": "Czyści elewacje i mury z napisów i tagów metodami chemicznymi, ścierającymi i piaskowania."
+    },
+    {
+      "persona": "Serwis sprzątania po imprezach",
+      "use": "Sprząta tereny po koncertach, festiwalach, wydarzeniach sportowych i ulicznych imprezach masowych."
+    },
+    {
+      "persona": "Firma czyszczenia parkingów i centrów handlowych",
+      "use": "Wykonuje cykliczne czyszczenie podziemnych parkingów, placów i terenów wokół centrów handlowych."
+    }
+  ],
+  "businessExamples": [
+    "Firma sprzątająca ulice i chodniki na zlecenie gminy",
+    "Serwis usuwania graffiti z elewacji budynków",
+    "Sprzątanie po imprezach masowych i festiwalach"
+  ],
+  "commonMistakes": [
+    "Wybór 81.23.B dla codziennego sprzątania biur lub klatek schodowych — to 81.21.Z.",
+    "Pomylenie z 38.11.Z (zbieranie odpadów innych niż niebezpieczne) — wywóz śmieci to inny kod, sprzątanie tylko sprzątanie."
+  ],
+  "taxNotes": "Sprzątanie zewnętrzne często wymaga maszyn (zamiatarki, myjki ciśnieniowe) i pracowników. Skala lub liniowy są częste. Przy umowach z gminami obowiązkowy VAT. Stawki sprawdź u doradcy podatkowego."
+}

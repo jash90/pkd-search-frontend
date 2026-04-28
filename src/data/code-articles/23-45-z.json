@@ -1,0 +1,36 @@
+{
+  "code": "23.45.Z",
+  "name": "Produkcja pozostałych wyrobów ceramicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.45.Z to kod 'parasol' dla wyrobów ceramicznych nieujętych w innych klasach grupy 23.4 — m.in. donic ogrodowych, doniczek terakotowych, ceramiki ozdobnej do ogrodu, kafli piecowych, kominkowych oraz pozostałej ceramiki użytkowej i artystycznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent donic i doniczek",
+      "use": "Wytwarza terakotowe i glazurowane donice ogrodowe oraz doniczki dla ogrodnictwa."
+    },
+    {
+      "persona": "Wytwórca kafli piecowych",
+      "use": "Produkuje kafle do pieców kaflowych i kominków zdobione ręcznie."
+    },
+    {
+      "persona": "Producent ceramiki ogrodowej",
+      "use": "Wytwarza figurki ogrodowe, fontanny i ozdoby ceramiczne mrozoodporne."
+    },
+    {
+      "persona": "Pracownia ceramiki rękodzielniczej",
+      "use": "Tworzy unikatowe naczynia, świeczniki i obiekty artystyczne na zamówienie."
+    }
+  ],
+  "businessExamples": [
+    "Producent donic ogrodowych terakotowych",
+    "Wytwórnia kafli kominkowych",
+    "Pracownia ceramiki użytkowej"
+  ],
+  "commonMistakes": [
+    "Wybór 23.45.Z dla porcelany stołowej — talerze, filiżanki i wazony to 23.41.Z.",
+    "Pomylenie z 23.31.Z (płytki ceramiczne) — glazura i terakota podłogowa mają osobny kod."
+  ],
+  "taxNotes": "Sprzedaż wyrobów rękodzielniczych może kwalifikować się do różnych form opodatkowania zależnie od kanału (e-commerce, eksport, targi). Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

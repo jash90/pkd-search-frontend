@@ -1,0 +1,36 @@
+{
+  "code": "01.21.Z",
+  "name": "Uprawa winogron",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.21.Z obejmuje uprawę winorośli i produkcję winogron — zarówno deserowych, jak i przeznaczonych do produkcji wina czy soku. Sama produkcja wina ma osobny kod 11.02.Z, więc winnica łącząca uprawę z winifikacją zwykle rejestruje oba kody.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel winnicy",
+      "use": "Uprawia winorośl na własnych gruntach, sprzedaje winogrona lub przetwarza na wino."
+    },
+    {
+      "persona": "Producent winogron deserowych",
+      "use": "Specjalizuje się w odmianach stołowych, sprzedając owoce na rynki hurtowe."
+    },
+    {
+      "persona": "Enoturystyczne gospodarstwo",
+      "use": "Łączy uprawę winorośli z agroturystyką, degustacjami i wynajmem pokoi w winnicy."
+    },
+    {
+      "persona": "Plantator dla winiarni kontraktowej",
+      "use": "Dostarcza grona do większej winiarni na podstawie umowy kontraktacyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Winnica w Małopolsce z degustacjami",
+    "Gospodarstwo z winogronami deserowymi",
+    "Plantator dostarczający do winiarni"
+  ],
+  "commonMistakes": [
+    "Wybór 01.21.Z zamiast 11.02.Z, gdy główną działalnością jest produkcja i butelkowanie wina — winifikacja ma osobny kod produkcyjny.",
+    "Pomylenie z 01.24.Z (drzewa owocowe ziarnkowe i pestkowe) — winorośl jest klasyfikowana osobno jako uprawa wieloletnia."
+  ],
+  "taxNotes": "Uprawa winorośli to działalność rolnicza, ale produkcja wina podlega akcyzie i osobnym regulacjom (rejestracja jako mały producent wina, wpisy do KOWR). VAT i forma opodatkowania zależą od skali winifikacji. Stawki sprawdź u doradcy podatkowego."
+}

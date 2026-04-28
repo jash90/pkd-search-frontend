@@ -1,0 +1,36 @@
+{
+  "code": "10.52.Z",
+  "name": "Produkcja lodów śmietankowych i pozostałych lodów jadalnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.52.Z obejmuje produkcję lodów śmietankowych, sorbetów, lodów wodnych, deserów mrożonych oraz lodów rzemieślniczych. To kod zarówno dla wielkich producentów lodów masowych, jak i dla lodziarni rzemieślniczych typu gelato wytwarzających lody na miejscu w lokalu.",
+  "whoUsesIt": [
+    {
+      "persona": "Lodziarnia rzemieślnicza",
+      "use": "Produkuje lody gelato i sorbety na miejscu z naturalnych składników i sprzedaje detalicznie."
+    },
+    {
+      "persona": "Zakład produkcji lodów masowych",
+      "use": "Wytwarza lody w opakowaniach (rożki, kubeczki, multipacki) dla sieci retail."
+    },
+    {
+      "persona": "Producent lodów BIO",
+      "use": "Specjalizuje się w lodach z certyfikowanych składników ekologicznych dla rynku premium."
+    },
+    {
+      "persona": "Wytwórnia lodów dla HoReCa",
+      "use": "Dostarcza lody w pojemnikach gastronomicznych do restauracji, hoteli i cukierni."
+    }
+  ],
+  "businessExamples": [
+    "Lodziarnia gelato w centrum miasta",
+    "Producent lodów multipack",
+    "Wytwórnia lodów dla hoteli"
+  ],
+  "commonMistakes": [
+    "Wybór 10.52.Z zamiast 56.10.A (restauracje), gdy lodziarnia działa głównie jako lokal gastronomiczny serwujący także desery, kawę i ciastka.",
+    "Pomylenie z 10.51.Z, gdy zakład produkuje też pełen asortyment mleczarski — lody mają własny, osobny kod."
+  ],
+  "taxNotes": "Produkcja lodów wymaga zatwierdzenia IW lub sanepidu (zależnie od skali) i HACCP. Działalność CIT/PIT z VAT-em na zasadach ogólnych; lody mogą być objęte stawką VAT obniżoną, sprzedaż w lokalu — kasą fiskalną. Stawki sprawdź u doradcy podatkowego."
+}

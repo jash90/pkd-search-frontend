@@ -1,0 +1,36 @@
+{
+  "code": "49.34.Z",
+  "name": "Transport pasażerski kolejami linowymi i wyciągami narciarskimi",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.34.Z dotyczy pasażerskiego transportu kolejami linowymi, wyciągami narciarskimi, gondolami, krzesełkami i orczykami — głównie w stacjach narciarskich i atrakcjach turystycznych. Dla operatorów stacji narciarskich, wyciągów górskich i kolejek panoramicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator stacji narciarskiej",
+      "use": "Prowadzi wyciągi narciarskie w sezonie zimowym z pełną infrastrukturą."
+    },
+    {
+      "persona": "Operator kolejki gondolowej",
+      "use": "Realizuje przewozy turystyczne na szczyty górskie (gondole panoramiczne)."
+    },
+    {
+      "persona": "Właściciel małego wyciągu",
+      "use": "Operuje pojedynczym orczykiem lub talerzykiem w lokalnym ośrodku."
+    },
+    {
+      "persona": "Operator funicularu / kolejki linowo-szynowej",
+      "use": "Prowadzi przewozy w atrakcjach miejskich (np. Park Linarski, kolejki widokowe)."
+    }
+  ],
+  "businessExamples": [
+    "Stacja narciarska z gondolą i krzesełkami",
+    "Kolejka linowa na szczyt górski",
+    "Mały wyciąg narciarski rodzinny"
+  ],
+  "commonMistakes": [
+    "Wybór 49.34.Z zamiast 93.29.B — jeśli głównie prowadzisz stację narciarską jako kompleks rekreacyjny, kontekst może wskazywać na rekreację.",
+    "Pomylenie z 49.12.Z — kolejki dojazdowe i tramwaje to inny kod (lekki transport szynowy)."
+  ],
+  "taxNotes": "Wyciągi narciarskie podlegają nadzorowi UDT, certyfikacji bezpieczeństwa i ubezpieczeniom. Sezonowość wpływa na rozliczenia podatkowe. Stawki sprawdź u doradcy podatkowego."
+}

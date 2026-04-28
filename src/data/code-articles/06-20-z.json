@@ -1,0 +1,36 @@
+{
+  "code": "06.20.Z",
+  "name": "Górnictwo gazu ziemnego",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 06.20.Z obejmuje wydobywanie gazu ziemnego — w tym gazu suchego, mokrego i metanu z pokładów węgla — oraz wstępną obróbkę gazu na głowicy odwiertu (osuszanie, odsiarczanie, separację frakcji ciężkich). Nie obejmuje przesyłu i dystrybucji gazu (35.22.Z, 49.50.B) ani usług wiertniczych (09.10.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka wydobywcza gazu ziemnego",
+      "use": "Eksploatuje konwencjonalne złoża gazu ziemnego w Polsce zachodniej, prowadzi separację i osuszanie surowca."
+    },
+    {
+      "persona": "Operator metanu z pokładów węgla (CBM)",
+      "use": "Wydobywa metan z odwiertów wykonanych w nieczynnych lub czynnych pokładach węgla kamiennego."
+    },
+    {
+      "persona": "Spółka eksploatująca gaz łupkowy",
+      "use": "Pozyskuje gaz z formacji łupkowych po szczelinowaniu hydraulicznym."
+    },
+    {
+      "persona": "Producent skroplonego gazu ziemnego (LNG) na źródle",
+      "use": "Schładza i upłynnia gaz bezpośrednio przy złożu na potrzeby transportu cysternami."
+    }
+  ],
+  "businessExamples": [
+    "Spółka eksploatująca konwencjonalne złoża gazu",
+    "Operator odwiertów metanowych z pokładów węgla",
+    "Mała instalacja LNG przy odwiercie gazowym"
+  ],
+  "commonMistakes": [
+    "Wybór 06.20.Z zamiast 35.22.Z — dystrybucja gazu sieciami do odbiorców końcowych to inna sekcja (energetyka).",
+    "Mylenie z 09.10.Z (usługi wspomagające eksploatację złóż) — wynajem urządzeń wiertniczych i serwis odwiertów dla innych firm to działalność usługowa."
+  ],
+  "taxNotes": "Wydobycie gazu wymaga koncesji, opłat eksploatacyjnych i podlega regulacjom URE oraz przepisom o podatku od wydobycia niektórych kopalin. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.21.A",
+  "name": "Sprzedaż hurtowa zboża i nasion roślin oleistych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.21.A obejmuje sprzedaż hurtową zboża (pszenica, żyto, jęczmień, kukurydza) oraz nasion roślin oleistych (rzepak, słonecznik, soja) — zarówno do młynów, mieszalni pasz, jak i na eksport. Pasuje do skupów rolnych, hurtowni zboża i firm handlowych w branży agro. Nie obejmuje pasz dla zwierząt ani nieprzetworzonego tytoniu — te są pod 46.21.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Skup zboża",
+      "use": "Prowadzi punkt skupu od rolników i odsprzedaje hurtowo do młynów i elewatorów."
+    },
+    {
+      "persona": "Hurtownia agro",
+      "use": "Magazynuje i sprzedaje zboże oraz rzepak na rynek krajowy i eksportowy."
+    },
+    {
+      "persona": "Trader towarowy",
+      "use": "Handluje zbożem na giełdach towarowych i kontraktach terminowych."
+    },
+    {
+      "persona": "Kooperatywa rolnicza",
+      "use": "Skupuje zboże od członków i sprzedaje hurtowo z lepszą siłą negocjacyjną."
+    }
+  ],
+  "businessExamples": [
+    "Skup zboża przy elewatorze regionalnym",
+    "Hurtownia rzepaku i nasion oleistych z eksportem",
+    "Trader towarowy zbożem na giełdzie"
+  ],
+  "commonMistakes": [
+    "Wybór 46.21.A zamiast 46.21.B, gdy faktycznie sprzedajesz pasze dla zwierząt lub tytoń.",
+    "Pomylenie z 01.11.Z (uprawa zbóż) — kod 46.21.A dotyczy handlu, nie produkcji rolnej."
+  ],
+  "taxNotes": "Sprzedaż produktów rolnych korzysta z preferencji VAT (m.in. mechanizm odwrotnego obciążenia w niektórych przypadkach). Forma opodatkowania zależy od skali — większe firmy zwykle wybierają liniówkę. Stawki sprawdź u doradcy podatkowego."
+}

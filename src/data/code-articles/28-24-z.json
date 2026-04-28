@@ -1,0 +1,36 @@
+{
+  "code": "28.24.Z",
+  "name": "Produkcja narzędzi ręcznych mechanicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.24.Z obejmuje produkcję elektronarzędzi i narzędzi ręcznych z napędem (wiertarki, szlifierki, wkrętarki, młoty udarowe, piły łańcuchowe, pneumatyczne narzędzia warsztatowe). Pasuje dla producentów elektronarzędzi profesjonalnych i hobbystycznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent elektronarzędzi",
+      "use": "Wytwarza wiertarki, szlifierki i wkrętarki akumulatorowe pod własną marką."
+    },
+    {
+      "persona": "Fabryka narzędzi pneumatycznych",
+      "use": "Produkuje klucze udarowe, szlifierki i wkrętarki pneumatyczne dla warsztatów."
+    },
+    {
+      "persona": "Wytwórca pił łańcuchowych i kos spalinowych",
+      "use": "Robi piły łańcuchowe, kosy i nożyce do żywopłotów dla leśnictwa i ogrodnictwa."
+    },
+    {
+      "persona": "Producent narzędzi specjalistycznych",
+      "use": "Tworzy elektronarzędzia dla branż niszowych — jubilerstwa, dentystyki technicznej, rzemiosła."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka wkrętarek i wiertarek akumulatorowych",
+    "Producent profesjonalnych pił łańcuchowych spalinowych",
+    "Zakład pneumatycznych narzędzi warsztatowych dla mechaników"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 25.73.Z (produkcja narzędzi) — narzędzia bez napędu (klucze, młotki, śrubokręty) idą tam, nie pod 28.24.Z.",
+    "Wybór 28.41.Z (obrabiarki) zamiast 28.24.Z — obrabiarki stacjonarne to inny kod niż narzędzia ręczne."
+  ],
+  "taxNotes": "Producenci elektronarzędzi często operują na rynku globalnym z silną konkurencją cenową. Eksport, skala i innowacyjność wpływają na wybór formy opodatkowania i ulg podatkowych (np. B+R). Stawki sprawdź u doradcy podatkowego."
+}

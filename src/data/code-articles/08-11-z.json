@@ -1,0 +1,36 @@
+{
+  "code": "08.11.Z",
+  "name": "Wydobywanie kamieni ozdobnych, wapienia, gipsu, łupków oraz pozostałych kamieni i skał",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.11.Z obejmuje wydobywanie i wstępną obróbkę kamieni ozdobnych (granit, marmur, piaskowiec, bazalt), wapienia, gipsu, kredy, łupków i innych skał. To kluczowy kod dla branży kamieniarsko-wydobywczej w Polsce — Sudety, Świętokrzyskie, Beskidy.",
+  "whoUsesIt": [
+    {
+      "persona": "Kopalnia kruszywa naturalnego",
+      "use": "Wydobywa granit lub bazalt na potrzeby budownictwa drogowego i kolejowego."
+    },
+    {
+      "persona": "Kamieniołom piaskowca",
+      "use": "Pozyskuje bloki piaskowca dla branży kamieniarskiej (elewacje, parapety, nagrobki)."
+    },
+    {
+      "persona": "Wydobywca wapienia",
+      "use": "Eksploatuje złoże wapienia dla cementowni, hut lub przemysłu chemicznego."
+    },
+    {
+      "persona": "Kopalnia gipsu",
+      "use": "Wydobywa gips dla branży budowlanej (płyty G-K, tynki) i medycznej."
+    }
+  ],
+  "businessExamples": [
+    "Kamieniołom granitu w Strzegomiu",
+    "Kopalnia wapienia dla cementowni",
+    "Wydobywca piaskowca świętokrzyskiego"
+  ],
+  "commonMistakes": [
+    "Wybór 08.11.Z zamiast 23.70.Z (cięcie i obróbka kamienia), gdy działalność polega głównie na wycinaniu i polerowaniu bloków kupowanych od kopalni.",
+    "Pomylenie z 08.12.Z (wydobywanie żwiru i piasku), gdy kopalnia eksploatuje przede wszystkim kruszywa luźne, a nie skały zwięzłe."
+  ],
+  "taxNotes": "Wydobycie wymaga koncesji starosty/marszałka, opłat eksploatacyjnych i pozwoleń środowiskowych. Działalność CIT-owa z VAT-em na zasadach ogólnych; istotna analiza amortyzacji złoża i ewentualnych ulg inwestycyjnych. Stawki sprawdź u doradcy podatkowego."
+}

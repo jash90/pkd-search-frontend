@@ -1,0 +1,36 @@
+{
+  "code": "42.91.Z",
+  "name": "Roboty związane z budową obiektów inżynierii wodnej",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.91.Z obejmuje budowę obiektów inżynierii wodnej — portów, nabrzeży, falochronów, śluz, jazów, zapór, kanałów żeglownych, wałów przeciwpowodziowych, umocnień brzegów. To wyspecjalizowane budownictwo hydrotechniczne realizowane przy współpracy z administracją wodną.",
+  "whoUsesIt": [
+    {
+      "persona": "Wykonawca robót portowych",
+      "use": "Buduje nabrzeża, falochrony i terminale w portach morskich i śródlądowych."
+    },
+    {
+      "persona": "Firma od zabezpieczeń przeciwpowodziowych",
+      "use": "Realizuje wały, poldery i regulacje rzek dla Wód Polskich."
+    },
+    {
+      "persona": "Wykonawca śluz i jazów",
+      "use": "Buduje obiekty żeglugi śródlądowej i obiekty piętrzące."
+    },
+    {
+      "persona": "Firma od umocnień brzegowych",
+      "use": "Realizuje opaski, ostrogi, gabiony chroniące brzegi rzek i mórz."
+    }
+  ],
+  "businessExamples": [
+    "Budowa nabrzeża portowego",
+    "Wały przeciwpowodziowe na Odrze",
+    "Modernizacja śluzy żeglownej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.13.Z (mosty i tunele) — mosty na drogach wodnych klasyfikuje się jako 42.13.Z, ale obiekty piętrzące jako 42.91.Z.",
+    "Wybór 42.91.Z zamiast 36.00.Z (pobór wody), gdy działalność polega na eksploatacji ujęcia wodnego, a nie jego budowie."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Inwestycje hydrotechniczne korzystają z dofinansowań UE i krajowych programów wodnych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "95.40.Z",
+  "name": "Pośrednictwo w naprawie i konserwacji komputerów, artykułów użytku osobistego i domowego oraz pojazdów silnikowych, w tym motocykli",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.40.Z obejmuje pośrednictwo w usługach naprawy — platformy łączące klientów z serwisami sprzętu IT, AGD, RTV, motoryzacji, agregatory napraw door-to-door. Pasuje dla operatorów marketplace'ów napraw, brokerów serwisowych i firm odbierających sprzęt do warsztatów partnerskich. Same naprawy to 95.10.Z–95.29.Z lub 45.20.Z (motoryzacja).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator marketplace'u usług naprawczych",
+      "use": "Prowadzi platformę łączącą klientów z mechanikami / serwisami i pobiera prowizję od zleceń."
+    },
+    {
+      "persona": "Broker napraw door-to-door",
+      "use": "Odbiera sprzęt od klienta, organizuje naprawę u podwykonawcy i odsyła z powrotem."
+    },
+    {
+      "persona": "Sieć centrów serwisowych z partnerskim modelem",
+      "use": "Przyjmuje zgłoszenia, koordynuje naprawy w sieci niezależnych warsztatów partnerskich."
+    },
+    {
+      "persona": "Pośrednik napraw motoryzacyjnych",
+      "use": "Łączy kierowców z mechanikami przez aplikację mobilną, rozlicza płatności i gwarancję."
+    }
+  ],
+  "businessExamples": [
+    "Aplikacja łącząca kierowców z warsztatami samochodowymi",
+    "Marketplace usług naprawczych elektroniki domowej",
+    "Broker odbierający sprzęt do naprawy u partnerów serwisowych"
+  ],
+  "commonMistakes": [
+    "Wybór 95.40.Z, gdy faktycznie świadczona jest usługa naprawy własnymi siłami — wykonawstwo to 95.10.Z – 95.29.Z lub 45.20.Z (motoryzacja).",
+    "Pomylenie z 82.40.Z (pośrednictwo w pozostałych usługach wspomagających biznes) — pośrednictwo w naprawach ma osobny, dedykowany kod."
+  ],
+  "taxNotes": "Pośrednictwo to typowa działalność prowizyjna podlegająca VAT, model przychodu (prowizja, abonament, fee) wpływa na rozliczenia podatkowe. Odpowiedzialność za jakość naprawy zależy od konstrukcji umowy z partnerami. Stawki sprawdź u doradcy podatkowego."
+}

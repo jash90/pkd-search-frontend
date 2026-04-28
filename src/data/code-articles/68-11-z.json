@@ -1,0 +1,36 @@
+{
+  "code": "68.11.Z",
+  "name": "Kupno i sprzedaż nieruchomości na własny rachunek",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.11.Z obejmuje obrót nieruchomościami prowadzony na własny rachunek — zakup, posiadanie i odsprzedaż mieszkań, domów, lokali użytkowych i gruntów w celach inwestycyjnych. To kod dla flipperów, inwestorów i firm zajmujących się handlem nieruchomościami bez pośrednictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Flipper mieszkaniowy",
+      "use": "Kupuje mieszkania, remontuje i sprzedaje z marżą — działalność w cyklach kilkumiesięcznych."
+    },
+    {
+      "persona": "Inwestor nieruchomości komercyjnych",
+      "use": "Nabywa lokale użytkowe, magazyny lub działki inwestycyjne i sprzedaje po wzroście wartości."
+    },
+    {
+      "persona": "Spółka inwestycyjna typu real estate",
+      "use": "Prowadzi portfel nieruchomości na własnym bilansie, kupuje i upłynnia aktywa zgodnie ze strategią."
+    },
+    {
+      "persona": "Firma kupująca grunty pod zabudowę",
+      "use": "Skupuje działki rolne lub budowlane, scala je i sprzedaje deweloperom z zyskiem."
+    }
+  ],
+  "businessExamples": [
+    "Spółka flippująca mieszkania w dużych miastach",
+    "Inwestor skupujący kamienice pod rewitalizację",
+    "Firma kupująca działki pod inwestycje deweloperskie"
+  ],
+  "commonMistakes": [
+    "Wybór 68.11.Z zamiast 68.31.Z — pośrednictwo w obrocie (sprzedaż cudzych nieruchomości za prowizję) to kod 68.31.Z.",
+    "Pomylenie z 41.10.Z (realizacja projektów budowlanych) — gdy firma sama buduje, a nie tylko kupuje i sprzedaje, właściwsze są kody działu 41."
+  ],
+  "taxNotes": "Sprzedaż nieruchomości może podlegać VAT (preferencyjnej lub standardowej stawce) albo być zwolniona — zależnie od pierwszego zasiedlenia, statusu sprzedającego i przeznaczenia. Działalność handlowa nieruchomościami często wyklucza ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

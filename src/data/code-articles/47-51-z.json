@@ -1,0 +1,36 @@
+{
+  "code": "47.51.Z",
+  "name": "Sprzedaż detaliczna wyrobów tekstylnych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.51.Z dotyczy detalicznej sprzedaży tkanin, pościeli, ręczników, firan, dywaników kąpielowych, włóczek, nici i pasmanterii w wyspecjalizowanych sklepach. Nie obejmuje gotowej odzieży (47.71.Z) ani dywanów dużych formatów (47.53.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu z tkaninami",
+      "use": "Sprzedaje materiały na metry: bawełny, lny, wełny, podszewki, dekoratorskie."
+    },
+    {
+      "persona": "Pasmanteria",
+      "use": "Oferuje guziki, nici, koronki, taśmy, suwaki i drobny galant tekstylny."
+    },
+    {
+      "persona": "Sklep z pościelą i ręcznikami",
+      "use": "Prowadzi sprzedaż bielizny pościelowej, kołder, poduszek, ręczników do domu."
+    },
+    {
+      "persona": "Sklep dla rękodzielników",
+      "use": "Sprzedaje włóczki, nici do haftu, materiały na patchwork i dla quiltingu."
+    }
+  ],
+  "businessExamples": [
+    "Sklep z tkaninami i pasmanterią",
+    "Salon z pościelą hotelową",
+    "Sklep dla quilterek z bawełnami patchworkowymi"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.53.Z — dywany i wykładziny mają osobny kod, nie należą do 47.51.Z.",
+    "Wybór 47.51.Z zamiast 47.71.Z, jeśli oferta to gotowa odzież, a nie materiały."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej z wyjątkami i limitom VAT. Forma opodatkowania zależy od skali sklepu i stanu magazynu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "30.32.Z",
+  "name": "Produkcja wojskowych statków powietrznych, statków kosmicznych i podobnych maszyn",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.32.Z obejmuje produkcję wojskowych samolotów bojowych, śmigłowców szturmowych, dronów wojskowych (UCAV), satelitów wywiadowczych i wojskowych statków kosmicznych. To wysoce regulowana branża obronna z restrykcyjnym systemem zezwoleń eksportowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka samolotów bojowych",
+      "use": "Produkuje samoloty wielozadaniowe i myśliwce dla sił powietrznych w ramach kontraktów państwowych."
+    },
+    {
+      "persona": "Producent dronów wojskowych",
+      "use": "Wytwarza UAV i UCAV — od dronów rozpoznawczych po platformy uderzeniowe."
+    },
+    {
+      "persona": "Zakład produkcji śmigłowców szturmowych",
+      "use": "Buduje śmigłowce uderzeniowe i wsparcia bojowego dla wojsk lądowych."
+    },
+    {
+      "persona": "Wytwórca satelitów wojskowych",
+      "use": "Robi satelity rozpoznawcze, łączności wojskowej i wczesnego ostrzegania."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka dronów wojskowych klasy MALE i HALE",
+    "Producent satelitów rozpoznawczych dla obronności",
+    "Zakład produkcji śmigłowców wojskowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 30.31.Z (cywilne statki powietrzne) — drony cywilne i komercyjne idą tam, wojskowe tutaj.",
+    "Wybór 25.40.Z (broń i amunicja) zamiast 30.32.Z — sam samolot bojowy to platforma, uzbrojenie pokładowe to inny kod."
+  ],
+  "taxNotes": "Branża obronności lotniczej operuje w specyficznym reżimie kontraktów państwowych z preferencyjnym wsparciem dla offsetu i polskich konsorcjów obronnych. Forma opodatkowania wymaga indywidualnego podejścia. Stawki sprawdź u doradcy podatkowego."
+}

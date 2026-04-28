@@ -1,0 +1,36 @@
+{
+  "code": "61.10.A",
+  "name": "Działalność w zakresie wymiany ruchu internetowego",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 61.10.A obejmuje prowadzenie punktów wymiany ruchu internetowego (Internet Exchange Points, IXP) — infrastruktury umożliwiającej operatorom telekomunikacyjnym i ISP wzajemną wymianę pakietów. Pasuje dla operatorów IXP, podmiotów peering oraz dostawców infrastruktury wymiany ruchu na poziomie szkieletowym.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator IXP",
+      "use": "Prowadzi punkt wymiany ruchu (np. PLIX, TPIX) — zapewnia switching i porty dla operatorów."
+    },
+    {
+      "persona": "Operator peering hub regionalny",
+      "use": "Łączy lokalnych ISP z dużymi sieciami w architekturze peering bilateralnego."
+    },
+    {
+      "persona": "Operator infrastruktury kolokacyjnej IXP",
+      "use": "Świadczy usługi housing dla węzłów wymiany ruchu — szafy, zasilanie, klimatyzacja, łącza."
+    },
+    {
+      "persona": "Operator carrier-neutral",
+      "use": "Udostępnia neutralną platformę wymiany ruchu dla wielu operatorów telekomunikacyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Polski punkt wymiany ruchu (IXP) dla ISP",
+    "Carrier hotel z infrastrukturą peering",
+    "Regionalny hub wymiany ruchu CDN"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 61.10.B (pozostała telekomunikacja przewodowa) — świadczenie usług dostępu do internetu klientom końcowym to inny kod.",
+    "Wybór 61.10.A zamiast 63.10.A (kolokacja i chmura) — gdy głównym profilem jest data center, nie wymiana ruchu."
+  ],
+  "taxNotes": "Działalność IXP wiąże się z dużymi nakładami inwestycyjnymi (sprzęt sieciowy, kolokacja). Rozliczenie zwykle na zasadach ogólnych. Sprzedaż usług dla operatorów zagranicznych może być rozliczana w reverse charge. Stawki sprawdź u doradcy podatkowego."
+}

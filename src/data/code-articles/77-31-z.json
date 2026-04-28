@@ -1,0 +1,36 @@
+{
+  "code": "77.31.Z",
+  "name": "Wynajem i dzierżawa maszyn i urządzeń rolniczych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.31.Z obejmuje wynajem i dzierżawę maszyn rolniczych — ciągników, kombajnów, opryskiwaczy, siewników, pras zbierających, pługów. To kod dla firm udostępniających sprzęt rolniczy gospodarstwom oraz operatorom usług rolniczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia ciągników i kombajnów",
+      "use": "Wynajmuje sprzęt rolniczy w sezonie żniw i prac polowych dla gospodarstw."
+    },
+    {
+      "persona": "Spółka agrotechniczna / kółko rolnicze",
+      "use": "Udostępnia maszyny członkom-rolnikom oraz świadczy usługi maszynowe na zlecenie gospodarstw."
+    },
+    {
+      "persona": "Operator CFM rolniczego",
+      "use": "Oferuje długoterminowy najem ciągników i kombajnów dla większych gospodarstw."
+    },
+    {
+      "persona": "Producent maszyn z działem wynajmu",
+      "use": "Dystrybutor lub producent oferuje wynajem demonstracyjny lub krótkoterminowy klientom przed zakupem."
+    }
+  ],
+  "businessExamples": [
+    "Wypożyczalnia kombajnów na sezon żniw",
+    "Firma agrotechniczna z flotą ciągników",
+    "Dystrybutor maszyn rolniczych z działem wynajmu"
+  ],
+  "commonMistakes": [
+    "Wybór 77.31.Z zamiast 77.32.Z — wynajem maszyn budowlanych (np. koparek, ładowarek) ma osobny kod 77.32.Z, nawet jeśli używa się ich w rolnictwie.",
+    "Pomylenie z 01.61.Z (działalność usługowa wspomagająca produkcję roślinną) — gdy firma świadczy usługę z maszyną i operatorem (np. żniwa na zlecenie), właściwszy jest 01.61.Z."
+  ],
+  "taxNotes": "Wynajem maszyn rolniczych podlega standardowej stawce VAT. Branża korzysta z różnych form finansowania (leasing, kredyt). Klienci-rolnicy często rozliczają VAT na zasadach ogólnych lub korzystają z ryczałtu rolnika. Stawki sprawdź u doradcy podatkowego."
+}

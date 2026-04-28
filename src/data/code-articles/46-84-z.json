@@ -1,0 +1,36 @@
+{
+  "code": "46.84.Z",
+  "name": "Sprzedaż hurtowa wyrobów metalowych oraz sprzętu i dodatkowego wyposażenia hydraulicznego i grzejnego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.84.Z obejmuje sprzedaż hurtową wyrobów metalowych (śrub, gwoździ, narzędzi ręcznych, okuć), rur, armatury, kotłów, pomp, grzejników i instalacji hydraulicznych oraz grzewczych — do hurtowni instalacyjnych, firm wykonawczych i sieci marketów DIY.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia instalacyjna",
+      "use": "Dystrybuuje rury, kotły i grzejniki do instalatorów i firm budowlanych."
+    },
+    {
+      "persona": "Dystrybutor narzędzi ręcznych",
+      "use": "Sprzedaje hurtowo narzędzia (klucze, wkrętarki) do sklepów branżowych."
+    },
+    {
+      "persona": "Importer armatury hydraulicznej",
+      "use": "Sprowadza zawory, baterie i pompy z UE dla hurtowni instalacyjnych."
+    },
+    {
+      "persona": "Hurtownia okuć i akcesoriów",
+      "use": "Zaopatruje stolarzy i ślusarzy w okucia, śruby i drobne wyroby metalowe."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia instalacyjna z kotłami i grzejnikami",
+    "Dystrybutor narzędzi dla branży budowlanej",
+    "Importer armatury hydraulicznej dla branży sanitarnej"
+  ],
+  "commonMistakes": [
+    "Wybór 46.84.Z dla materiałów budowlanych (cement, beton) — właściwy jest 46.83.Z.",
+    "Pomylenie z 46.82.Z (metale w postaci pierwotnej) — 46.84.Z to gotowe wyroby metalowe."
+  ],
+  "taxNotes": "Sprzedaż wyrobów metalowych podlega standardowym stawkom VAT. Niektóre kotły i pompy ciepła mogą korzystać z preferencji w programach OZE/Czyste Powietrze. Stawki sprawdź u doradcy podatkowego."
+}

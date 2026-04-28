@@ -1,0 +1,36 @@
+{
+  "code": "23.32.Z",
+  "name": "Produkcja cegieł, dachówek i materiałów budowlanych, z wypalanej gliny",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.32.Z obejmuje produkcję cegieł ceramicznych pełnych i drążonych, pustaków, dachówek, klinkieru elewacyjnego, kształtek kominowych, płytek klinkierowych oraz pozostałych wyrobów budowlanych z wypalanej gliny. To kod dla cegielni i zakładów ceramiki budowlanej.",
+  "whoUsesIt": [
+    {
+      "persona": "Cegielnia ceramiczna",
+      "use": "Produkuje cegły pełne, dziurawki i pustaki dla budownictwa mieszkaniowego."
+    },
+    {
+      "persona": "Wytwórca dachówek ceramicznych",
+      "use": "Produkuje dachówki karpiówki, esówki i zakładkowe w różnych kolorach i powłokach."
+    },
+    {
+      "persona": "Producent klinkieru",
+      "use": "Wytwarza cegły i płytki klinkierowe na elewacje i posadzki przemysłowe."
+    },
+    {
+      "persona": "Zakład wkładów kominowych",
+      "use": "Produkuje kształtki kominowe i ceramiczne wkłady izostatyczne."
+    }
+  ],
+  "businessExamples": [
+    "Cegielnia produkująca pustaki Porotherm",
+    "Wytwórnia dachówek ceramicznych",
+    "Producent cegieł klinkierowych elewacyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.32.Z dla pustaków betonowych i bloczków silikatowych — wyroby budowlane z betonu to 23.61.Z.",
+    "Pomylenie z 23.31.Z (płytki ceramiczne) — glazura i gres mają osobny kod."
+  ],
+  "taxNotes": "Wyroby budowlane z gliny wymagają oznakowania CE i deklaracji DoP zgodnie z CPR. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

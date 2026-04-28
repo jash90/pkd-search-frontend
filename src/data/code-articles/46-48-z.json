@@ -1,0 +1,36 @@
+{
+  "code": "46.48.Z",
+  "name": "Sprzedaż hurtowa zegarków i biżuterii",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.48.Z obejmuje sprzedaż hurtową zegarków, biżuterii (złotej, srebrnej, sztucznej), kamieni szlachetnych i metali szlachetnych w postaci handlowej — do sklepów jubilerskich, salonów zegarmistrzowskich i e-commerce. Sprzedaż detaliczna biżuterii klasyfikowana jest pod 47.77.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia jubilerska",
+      "use": "Dystrybuuje biżuterię złotą i srebrną do sklepów jubilerskich i sieci."
+    },
+    {
+      "persona": "Importer zegarków",
+      "use": "Sprowadza zegarki marek szwajcarskich i japońskich dla salonów zegarmistrzowskich."
+    },
+    {
+      "persona": "Dystrybutor biżuterii sztucznej",
+      "use": "Sprzedaje hurtowo biżuterię modową do sklepów odzieżowych i e-commerce."
+    },
+    {
+      "persona": "Pośrednik kamieni szlachetnych",
+      "use": "Handluje diamentami i kamieniami inwestycyjnymi z certyfikatami pochodzenia."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia biżuterii złotej dla sieci jubilerskich",
+    "Importer zegarków szwajcarskich dla butików",
+    "Dystrybutor biżuterii fashion dla sklepów odzieżowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.48.Z dla sprzedaży detalicznej w sklepie jubilerskim — właściwy jest 47.77.Z.",
+    "Pomylenie z 32.12.Z (produkcja biżuterii) — 46.48.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Obrót metalami szlachetnymi i kamieniami podlega rygorom AML (przeciwdziałanie praniu pieniędzy). VAT-marża stosowany może być przy używanej biżuterii. Stawki sprawdź u doradcy podatkowego."
+}

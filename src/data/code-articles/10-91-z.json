@@ -1,0 +1,36 @@
+{
+  "code": "10.91.Z",
+  "name": "Produkcja gotowej paszy dla zwierząt gospodarskich",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.91.Z obejmuje produkcję pasz pełnoporcjowych, koncentratów paszowych i premiksów dla zwierząt gospodarskich — bydła, trzody, drobiu, ryb hodowlanych. Wyłączona jest produkcja karmy dla zwierząt domowych (10.92.Z) i czysty przemiał zboża (10.61.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórnia pasz (mieszalnia)",
+      "use": "Produkuje granulaty i mieszanki pełnoporcjowe dla ferm trzody i drobiu."
+    },
+    {
+      "persona": "Producent premiksów witaminowo-mineralnych",
+      "use": "Wytwarza dodatki paszowe wzbogacające pasze dla bydła i drobiu."
+    },
+    {
+      "persona": "Producent pasz dla akwakultury",
+      "use": "Wytwarza pelety i granulaty dla hodowli ryb (pstrągi, karpie, łososie)."
+    },
+    {
+      "persona": "Wytwórca pasz dla bydła mlecznego",
+      "use": "Produkuje pasze treściwe i kiszonki przemysłowe dla obór mlecznych."
+    }
+  ],
+  "businessExamples": [
+    "Mieszalnia pasz dla ferm drobiu",
+    "Producent premiksów dla hodowców trzody chlewnej",
+    "Wytwórnia pasz dla akwakultury (ryby hodowlane)"
+  ],
+  "commonMistakes": [
+    "Wybór 10.91.Z zamiast 10.92.Z (Produkcja gotowej karmy dla zwierząt domowych) — karma dla psów, kotów, gryzoni to 10.92.Z.",
+    "Pomylenie z 01.50.Z (Uprawy rolne połączone z chowem zwierząt) — produkcja paszy na własne potrzeby gospodarstwa nie jest osobnym kodem 10.91.Z."
+  ],
+  "taxNotes": "Produkcja pasz podlega regulacjom paszowym i specyficznym stawkom VAT. Forma opodatkowania zależy od skali produkcji i struktury kosztów surowców. Stawki sprawdź u doradcy podatkowego."
+}

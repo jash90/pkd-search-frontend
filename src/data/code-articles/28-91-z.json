@@ -1,0 +1,36 @@
+{
+  "code": "28.91.Z",
+  "name": "Produkcja maszyn dla metalurgii",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.91.Z obejmuje produkcję maszyn dla hutnictwa i metalurgii — pieców hutniczych, walcarek, kuźnicowych pras, urządzeń do odlewania ciągłego, konwertorów. To wąska, kapitałochłonna branża obsługująca huty żelaza, stali i metali nieżelaznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent pieców hutniczych",
+      "use": "Wytwarza piece łukowe, indukcyjne i kupolowe dla hut i odlewni."
+    },
+    {
+      "persona": "Fabryka walcarek",
+      "use": "Produkuje walcarki gorące i zimne dla produkcji blach i prętów stalowych."
+    },
+    {
+      "persona": "Wytwórca maszyn do odlewania ciągłego",
+      "use": "Buduje linie COS — odlewania ciągłego — dla hut stali i aluminium."
+    },
+    {
+      "persona": "Producent pras kuźniczych",
+      "use": "Robi prasy hydrauliczne i młoty matrycowe dla kuźnic przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka pieców indukcyjnych dla odlewni żeliwa",
+    "Producent walcarek do produkcji blach stalowych",
+    "Zakład maszyn do recyklingu złomu metalowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.41.Z (obrabiarki do metalu) — obrabiarki obrabiają gotowy metal, maszyny hutnicze przetwarzają wsad surowy.",
+    "Wybór 28.99.Z (pozostałe maszyny specjalne) zamiast 28.91.Z dla typowych urządzeń metalurgicznych."
+  ],
+  "taxNotes": "Producenci maszyn dla metalurgii to projekty kontraktowe o dużej wartości i długim cyklu realizacji. Specyfika rozliczeń (zaliczki, kontrakty wieloletnie) wymaga indywidualnego doboru formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

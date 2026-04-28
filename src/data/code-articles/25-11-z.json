@@ -1,0 +1,36 @@
+{
+  "code": "25.11.Z",
+  "name": "Produkcja konstrukcji metalowych i ich części",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.11.Z obejmuje wytwarzanie konstrukcji stalowych i ich elementów — szkieletów hal, mostów, wież, masztów, przęseł, ram konstrukcyjnych, kratownic, słupów oraz konstrukcji wsporczych dla budownictwa, energetyki i przemysłu. To kod dla zakładów ślusarsko-spawalniczych prefabrykujących stalowe elementy konstrukcyjne pod montaż na budowie.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórnia konstrukcji stalowych",
+      "use": "Prefabrykuje słupy, dźwigary i kratownice dla hal, magazynów i obiektów handlowych."
+    },
+    {
+      "persona": "Producent konstrukcji mostowych",
+      "use": "Wytwarza segmenty mostów drogowych, kolejowych i kładek dla pieszych."
+    },
+    {
+      "persona": "Zakład produkcji wież i masztów",
+      "use": "Wytwarza wieże telekomunikacyjne, maszty wiatrakowe i słupy energetyczne."
+    },
+    {
+      "persona": "Ślusarz konstrukcyjny",
+      "use": "Wykonuje na zamówienie konstrukcje wsporcze, podesty technologiczne i schody stalowe."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia hal stalowych dla logistyki",
+    "Producent wież telekomunikacyjnych i masztów wiatrakowych",
+    "Zakład prefabrykacji konstrukcji mostowych"
+  ],
+  "commonMistakes": [
+    "Wybór 25.11.Z zamiast 43.99.Z lub 43.42.Z, gdy firma głównie montuje konstrukcje na placu budowy — sam montaż to roboty budowlane, prefabrykacja to 25.11.Z.",
+    "Pomylenie z 25.12.Z (produkcja drzwi i okien z metalu) — stolarka aluminiowa i stalowa ma odrębny kod 25.12.Z."
+  ],
+  "taxNotes": "Produkcja konstrukcji stalowych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Sprzedaż usług montażu na rzecz wykonawców budowlanych może podlegać odwrotnemu obciążeniu. Stawki sprawdź u doradcy podatkowego."
+}

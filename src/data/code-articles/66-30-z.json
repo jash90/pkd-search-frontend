@@ -1,0 +1,36 @@
+{
+  "code": "66.30.Z",
+  "name": "Działalność związana z zarządzaniem funduszami",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.30.Z obejmuje zarządzanie aktywami funduszy inwestycyjnych, emerytalnych i innych form zbiorowego inwestowania. Pasuje do TFI, ASI i podmiotów zarządzających portfelami w imieniu inwestorów. Nie obejmuje samego doradztwa inwestycyjnego dla osób fizycznych — to zazwyczaj 66.19.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Towarzystwo funduszy inwestycyjnych (TFI)",
+      "use": "Zarządza funduszami inwestycyjnymi otwartymi i zamkniętymi pod nadzorem KNF."
+    },
+    {
+      "persona": "Zarządzający alternatywną spółką inwestycyjną (ASI)",
+      "use": "Prowadzi ASI inwestującą w startupy, nieruchomości lub aktywa niepubliczne."
+    },
+    {
+      "persona": "Asset manager",
+      "use": "Zarządza portfelami klientów instytucjonalnych na podstawie umowy o zarządzanie."
+    },
+    {
+      "persona": "Powszechne towarzystwo emerytalne (PTE)",
+      "use": "Zarządza otwartym funduszem emerytalnym (OFE) lub funduszem dobrowolnym."
+    }
+  ],
+  "businessExamples": [
+    "TFI zarządzające funduszami akcyjnymi i obligacyjnymi",
+    "ASI inwestująca w spółki technologiczne",
+    "Spółka zarządzająca portfelami klientów private banking"
+  ],
+  "commonMistakes": [
+    "Wybór 66.30.Z zamiast 66.19.Z, gdy faktycznie świadczone jest tylko doradztwo inwestycyjne bez zarządzania aktywami w cudzym imieniu.",
+    "Pomylenie z 64.30.Z (działalność trustów, funduszów i podobnych instytucji finansowych) — sam fundusz jako podmiot rejestruje się pod 64.30.Z, a zarządzający pod 66.30.Z."
+  ],
+  "taxNotes": "Zarządzanie funduszami wymaga zezwolenia KNF i podlega szczególnym regulacjom finansowym. Część usług zarządzania funduszami może korzystać ze zwolnienia z VAT, jednak warunki są szczegółowo określone w ustawie. Stawki sprawdź u doradcy podatkowego."
+}

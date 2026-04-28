@@ -1,0 +1,36 @@
+{
+  "code": "28.94.Z",
+  "name": "Produkcja maszyn dla przemysłu tekstylnego, odzieżowego i skórzanego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.94.Z obejmuje produkcję maszyn dla przemysłu tekstylnego — krosien, przędzarek, dziewiarek, maszyn szwalniczych przemysłowych, urządzeń do farbowania i wykańczania tkanin, a także maszyn dla przetwórstwa skóry i futer.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent maszyn szwalniczych przemysłowych",
+      "use": "Wytwarza stębnówki, owerloki i hafciarki komputerowe dla zakładów odzieżowych."
+    },
+    {
+      "persona": "Fabryka krosien i dziewiarek",
+      "use": "Produkuje maszyny tkackie i dziewiarskie dla przemysłu włókienniczego."
+    },
+    {
+      "persona": "Wytwórca maszyn do farbowania tkanin",
+      "use": "Buduje urządzenia barwiarskie, drukujące i wykańczające dla farbiarni przemysłowych."
+    },
+    {
+      "persona": "Producent maszyn dla branży skórzanej",
+      "use": "Robi maszyny do wykrawania, ścieniania i szwowania skór dla obuwniczych zakładów."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka hafciarek komputerowych dla branży odzieżowej",
+    "Producent maszyn obuwniczych do skóry i materiałów syntetycznych",
+    "Zakład krosien jacquardowych dla tkania ozdobnego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 13.10.B (przędzenie włókien tekstylnych) — sama produkcja przędzy to inny kod niż produkcja maszyn do przędzenia.",
+    "Wybór 28.99.Z (pozostałe maszyny specjalne) zamiast 28.94.Z dla typowych maszyn tekstylnych."
+  ],
+  "taxNotes": "Branża maszyn tekstylnych w Polsce ma niszowy charakter — większość produkcji idzie na eksport. Skala działalności, ulgi B+R i polityka eksportowa wpływają na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

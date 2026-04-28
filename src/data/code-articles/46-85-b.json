@@ -1,0 +1,36 @@
+{
+  "code": "46.85.B",
+  "name": "Pozostała sprzedaż hurtowa wyrobów chemicznych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.85.B obejmuje sprzedaż hurtową chemii przemysłowej, surowców chemicznych, tworzyw sztucznych w formach pierwotnych, kauczuku, włókien sztucznych, barwników i farb przemysłowych — do zakładów chemicznych, tworzywowych i przetwórczych. Sprzedaż nawozów i środków ochrony roślin to 46.85.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor surowców chemicznych",
+      "use": "Sprzedaje rozpuszczalniki, kwasy i zasady do zakładów przemysłowych."
+    },
+    {
+      "persona": "Hurtownia tworzyw sztucznych",
+      "use": "Dostarcza granulaty PE, PP, PS do zakładów przetwórczych."
+    },
+    {
+      "persona": "Importer barwników i pigmentów",
+      "use": "Sprowadza pigmenty dla farbiarni i zakładów chemii budowlanej."
+    },
+    {
+      "persona": "Dystrybutor chemii dla przemysłu",
+      "use": "Zaopatruje firmy w środki czyszczące i preparaty technologiczne."
+    }
+  ],
+  "businessExamples": [
+    "Dystrybutor surowców chemicznych dla przemysłu",
+    "Hurtownia granulatów tworzyw sztucznych",
+    "Importer pigmentów i barwników dla farbiarni"
+  ],
+  "commonMistakes": [
+    "Wybór 46.85.B dla nawozów lub środków ochrony roślin — właściwy jest 46.85.A.",
+    "Pomylenie z 20.13.Z (produkcja chemii nieorganicznej) — 46.85.B to handel."
+  ],
+  "taxNotes": "Obrót chemikaliami podlega regulacjom REACH/CLP, a niebezpieczne substancje wymagają specjalnych uprawnień i ewidencji. VAT zależy od kategorii. Stawki sprawdź u doradcy podatkowego."
+}

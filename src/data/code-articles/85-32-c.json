@@ -1,0 +1,36 @@
+{
+  "code": "85.32.C",
+  "name": "Branżowe szkoły II stopnia",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.32.C dotyczy branżowych szkół II stopnia — 2-letnich szkół dla absolwentów szkół branżowych I stopnia. Pozwalają zdobyć dyplom technika i przystąpić do matury zawodowej. To kolejny stopień ścieżki kształcenia zawodowego po 85.32.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Powiat prowadzący szkołę branżową II stopnia",
+      "use": "Organ prowadzący publiczną szkołę dla absolwentów szkół branżowych I stopnia chcących zdobyć tytuł technika."
+    },
+    {
+      "persona": "Niepubliczna szkoła branżowa II stopnia",
+      "use": "Fundacja lub spółka prowadząca szkołę uzupełniającą dla osób pracujących w zawodzie."
+    },
+    {
+      "persona": "Szkoła wieczorowa / dla dorosłych",
+      "use": "Branżowa szkoła II stopnia w trybie wieczorowym lub zaocznym dla osób pracujących."
+    },
+    {
+      "persona": "Zespół szkół zawodowych",
+      "use": "Instytucja łącząca pełną ścieżkę kształcenia branżowego — od I do II stopnia z technikum."
+    }
+  ],
+  "businessExamples": [
+    "Publiczna branżowa szkoła II stopnia w branży gastronomicznej",
+    "Niepubliczna szkoła II stopnia w trybie zaocznym dla pracujących",
+    "Szkoła branżowa II stopnia w zawodzie technik mechanik"
+  ],
+  "commonMistakes": [
+    "Wybór 85.32.C dla branżowej szkoły I stopnia — to 85.32.B, szkoła II stopnia jest kontynuacją.",
+    "Pomylenie z 85.33.A (szkoły policealne) — szkoły policealne są dla absolwentów szkół średnich, branżowe II stopnia dla absolwentów szkół branżowych I stopnia."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych. Usługi edukacyjne często zwolnione z VAT. Możliwa dotacja samorządowa po uzyskaniu uprawnień szkoły publicznej. Stawki sprawdź u doradcy podatkowego."
+}

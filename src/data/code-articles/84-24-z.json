@@ -1,0 +1,36 @@
+{
+  "code": "84.24.Z",
+  "name": "Bezpieczeństwo państwa, porządek i bezpieczeństwo publiczne",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.24.Z to działalność Policji, służb specjalnych (ABW, AW, CBA), Straży Granicznej, Służby Ochrony Państwa i innych formacji bezpieczeństwa wewnętrznego. Dotyczy organów państwowych. Prywatne firmy ochrony fizycznej to 80.01.Z lub 80.09.Z, nie ten kod.",
+  "whoUsesIt": [
+    {
+      "persona": "Komenda Policji",
+      "use": "Zapewnia bezpieczeństwo publiczne, prowadzi sprawy karne, ruch drogowy, reaguje na zgłoszenia mieszkańców."
+    },
+    {
+      "persona": "Agencja Bezpieczeństwa Wewnętrznego (ABW)",
+      "use": "Chroni państwo przed zagrożeniami terrorystycznymi, szpiegostwem, prowadzi sprawy kontrwywiadowcze."
+    },
+    {
+      "persona": "Straż Graniczna",
+      "use": "Kontroluje granice państwa, zwalcza nielegalną migrację, prowadzi sprawy cudzoziemców."
+    },
+    {
+      "persona": "Centralne Biuro Antykorupcyjne (CBA)",
+      "use": "Zwalcza korupcję w administracji publicznej i biznesie, prowadzi postępowania kontrolne."
+    }
+  ],
+  "businessExamples": [
+    "Komenda Wojewódzka Policji koordynująca pracę komisariatów",
+    "Placówka Straży Granicznej kontrolująca przejście drogowe",
+    "Wydział ABW realizujący zadania kontrwywiadu"
+  ],
+  "commonMistakes": [
+    "Wybór 84.24.Z przez prywatną agencję ochrony — komercyjna ochrona to 80.01.Z (ochrona osobista, detektywi) lub 80.09.Z (ochrona obiektów).",
+    "Pomylenie z 84.25.Z (ochrona przeciwpożarowa) — Państwowa Straż Pożarna ma własny kod, nie wspólny z Policją."
+  ],
+  "taxNotes": "Służby państwowe finansowane są z budżetu państwa i nie podlegają standardowym formom opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

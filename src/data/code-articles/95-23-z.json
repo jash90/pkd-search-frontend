@@ -1,0 +1,36 @@
+{
+  "code": "95.23.Z",
+  "name": "Naprawa i konserwacja obuwia i wyrobów skórzanych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.23.Z obejmuje naprawę obuwia, dorabianie kluczy w ramach usług szewskich, naprawę toreb, walizek, pasków i innych wyrobów skórzanych. Pasuje dla tradycyjnych zakładów szewskich, mobilnych szewców, jak i pracowni renowacji galanterii skórzanej.",
+  "whoUsesIt": [
+    {
+      "persona": "Szewc / zakład szewski",
+      "use": "Wymienia obcasy, zelówki, naprawia rozdarcia obuwia i dorabia klucze."
+    },
+    {
+      "persona": "Pracownia renowacji galanterii skórzanej",
+      "use": "Naprawia i czyści torby, walizki i kurtki skórzane luksusowych marek."
+    },
+    {
+      "persona": "Mobilny szewc / punkt galeria handlowa",
+      "use": "Prowadzi małe stoisko z szybkimi naprawami obuwia w galerii lub stacji metra."
+    },
+    {
+      "persona": "Renowator obuwia ekskluzywnego",
+      "use": "Specjalizuje się w restauracji butów wysokiej klasy i kolekcjonerskich."
+    }
+  ],
+  "businessExamples": [
+    "Tradycyjny zakład szewski na osiedlu",
+    "Punkt szewski w galerii handlowej z dorabianiem kluczy",
+    "Pracownia renowacji toreb i walizek skórzanych"
+  ],
+  "commonMistakes": [
+    "Wybór 95.23.Z dla samej sprzedaży obuwia — sprzedaż detaliczna butów to 47.72.Z (sprzedaż detaliczna obuwia i wyrobów skórzanych).",
+    "Pomylenie z 15.20.Z (produkcja obuwia) — produkcja obuwia na zamówienie to inna kategoria niż naprawa istniejących par."
+  ],
+  "taxNotes": "Drobne zakłady usługowe często wybierają ryczałt. Niektóre formy działalności mogą korzystać z karty podatkowej (sprawdź dostępność i warunki). Stawki sprawdź u doradcy podatkowego."
+}

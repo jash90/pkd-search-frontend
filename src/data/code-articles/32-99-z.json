@@ -1,0 +1,36 @@
+{
+  "code": "32.99.Z",
+  "name": "Produkcja pozostałych wyrobów, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.99.Z to szeroka kategoria zbiorcza dla wyrobów nieklasyfikowanych w innych kodach — długopisów, ołówków, parasoli, pieczątek, manekinów, świec, zniczy, karuzeli, urn, akcesoriów krawieckich, peruk i wielu niszowych produktów rzemieślniczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent długopisów i artykułów piśmienniczych",
+      "use": "Wytwarza długopisy reklamowe, ołówki, markery i inne akcesoria biurowe."
+    },
+    {
+      "persona": "Wytwórca świec i zniczy",
+      "use": "Produkuje świece dekoracyjne, zapachowe i znicze dla rynku detalicznego i sieci handlowych."
+    },
+    {
+      "persona": "Producent parasolek i parasoli",
+      "use": "Robi parasolki damskie, męskie, automatyczne oraz parasole reklamowe i ogrodowe."
+    },
+    {
+      "persona": "Wytwórca pieczątek i akcesoriów biurowych",
+      "use": "Buduje pieczątki samotuszujące, ścienne, datowniki i inne akcesoria biurowe."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka świec zapachowych i sojowych dla sieci handlowych",
+    "Producent długopisów reklamowych z personalizacją",
+    "Zakład produkcji parasolek i parasoli ogrodowych"
+  ],
+  "commonMistakes": [
+    "Wybór 32.99.Z, gdy istnieje dokładniejszy kod — np. biżuteria fashion idzie pod 32.13.Z, nie pod 32.99.Z.",
+    "Pomylenie z 47.78.Z (sprzedaż detaliczna pozostała) — sama sprzedaż to inny kod niż produkcja."
+  ],
+  "taxNotes": "Niszowi producenci wyrobów drobnych często operują w formie mikrofirmy lub małej działalności. Wybór formy opodatkowania (ryczałt, skala) zależy od skali, kanałów sprzedaży i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

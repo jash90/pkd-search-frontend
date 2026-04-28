@@ -1,0 +1,36 @@
+{
+  "code": "33.13.Z",
+  "name": "Naprawa i konserwacja urządzeń elektronicznych i optycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.13.Z obejmuje naprawę i konserwację urządzeń elektronicznych i optycznych poza komputerami — sprzętu pomiarowego, kontrolnego, medycznego, lotniczego (poza częścią klienta końcowego), aparatury laboratoryjnej, mikroskopów, sprzętu fotograficznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis aparatury medycznej",
+      "use": "Naprawia aparaty USG, RTG, EKG i sprzęt diagnostyczny w szpitalach i klinikach."
+    },
+    {
+      "persona": "Firma serwisu sprzętu pomiarowego",
+      "use": "Kalibruje i serwisuje multimetry, oscyloskopy, mierniki dla przemysłu i laboratoriów."
+    },
+    {
+      "persona": "Wyspecjalizowany serwis avioniki",
+      "use": "Naprawia awionikę, radionawigację i przyrządy lotnicze dla branży lotniczej."
+    },
+    {
+      "persona": "Pracownia naprawy mikroskopów i sprzętu optycznego",
+      "use": "Świadczy usługi naprawy mikroskopów, lornet, lunet i sprzętu astronomicznego."
+    }
+  ],
+  "businessExamples": [
+    "Serwis sprzętu medycznego dla sieci szpitali i klinik",
+    "Firma kalibracji aparatury pomiarowej dla laboratoriów",
+    "Pracownia naprawy mikroskopów i sprzętu optycznego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 95.11.Z (naprawa komputerów) — naprawa komputerów osobistych idzie pod 95.11.Z, nie 33.13.Z.",
+    "Wybór 33.14.Z (urządzenia elektryczne) zamiast 33.13.Z — sprzęt elektroniczny i optyczny to 33.13.Z, ogólnie elektryczny to 33.14.Z."
+  ],
+  "taxNotes": "Serwis sprzętu medycznego i pomiarowego często wymaga uprawnień, certyfikatów (np. autoryzacji producenta) i może podlegać preferencyjnym stawkom VAT. Forma opodatkowania zależy od specjalizacji i modelu B2B. Stawki sprawdź u doradcy podatkowego."
+}

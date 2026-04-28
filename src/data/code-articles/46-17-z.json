@@ -1,0 +1,36 @@
+{
+  "code": "46.17.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową żywności, napojów i wyrobów tytoniowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.17.Z obejmuje pośrednictwo handlowe w sprzedaży hurtowej żywności, napojów (alkoholowych i bezalkoholowych) i wyrobów tytoniowych — agent zarabia na prowizji, nie kupuje towaru na własny rachunek. Typowy dla przedstawicieli producentów spożywczych, brokerów i agencji food. Jeśli kupujesz i odsprzedajesz, użyj kodów z grupy 46.3 (np. 46.31.Z dla owoców i warzyw).",
+  "whoUsesIt": [
+    {
+      "persona": "Przedstawiciel handlowy producenta spożywczego",
+      "use": "Reprezentuje markę żywności w kontaktach z sieciami handlowymi i hurtowniami."
+    },
+    {
+      "persona": "Broker napojów",
+      "use": "Kojarzy producentów napojów z dystrybutorami i hurtowniami HoReCa."
+    },
+    {
+      "persona": "Agent winiarski",
+      "use": "Pośredniczy w hurtowej sprzedaży win z winnic do importerów i restauracji."
+    },
+    {
+      "persona": "Pośrednik tytoniowy",
+      "use": "Reprezentuje producentów wyrobów tytoniowych przed dystrybutorami."
+    }
+  ],
+  "businessExamples": [
+    "Agencja reprezentująca regionalnych producentów żywności",
+    "Broker napojów rzemieślniczych dla HoReCa",
+    "Przedstawiciel marki wina dla sieci handlowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.17.Z, gdy faktycznie kupujesz i sprzedajesz hurtowo — właściwy jest kod z grupy 46.3.",
+    "Pomylenie z 46.39.Z (sprzedaż hurtowa niewyspecjalizowana) — agent nie magazynuje towaru, jedynie pośredniczy."
+  ],
+  "taxNotes": "Prowizje rozliczane są zwykle skalą lub liniówką i podlegają VAT na zasadach ogólnych. Sprzedaż wyrobów tytoniowych i alkoholu wymaga dodatkowych zezwoleń niezależnie od kodu PKD. Stawki sprawdź u doradcy podatkowego."
+}

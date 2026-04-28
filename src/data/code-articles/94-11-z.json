@@ -1,0 +1,36 @@
+{
+  "code": "94.11.Z",
+  "name": "Działalność organizacji komercyjnych i pracodawców",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.11.Z obejmuje działalność organizacji zrzeszających przedsiębiorców i pracodawców — izb gospodarczych, federacji branżowych, konfederacji pracodawców czy stowarzyszeń biznesowych. Reprezentują one interesy członków wobec administracji, prowadzą lobbing, organizują networking i wsparcie merytoryczne.",
+  "whoUsesIt": [
+    {
+      "persona": "Izba gospodarcza branżowa",
+      "use": "Reprezentuje interesy przedsiębiorców z konkretnej branży, prowadzi konsultacje legislacyjne."
+    },
+    {
+      "persona": "Konfederacja pracodawców",
+      "use": "Prowadzi dialog społeczny, reprezentuje firmy w komisjach trójstronnych."
+    },
+    {
+      "persona": "Stowarzyszenie startupów",
+      "use": "Łączy młode firmy technologiczne, organizuje wydarzenia i programy mentorskie."
+    },
+    {
+      "persona": "Klaster biznesowy",
+      "use": "Skupia firmy z regionu lub branży, koordynuje projekty wspólne i lobbing."
+    }
+  ],
+  "businessExamples": [
+    "Regionalna izba przemysłowo-handlowa",
+    "Stowarzyszenie eksporterów branży meblarskiej",
+    "Klaster firm technologicznych z programem mentoringu"
+  ],
+  "commonMistakes": [
+    "Wybór 94.11.Z dla organizacji zawodowych (lekarze, prawnicy, architekci) — te klasyfikuje się jako 94.12.Z (członkowskie organizacje zawodowe).",
+    "Pomylenie z 70.22.Z (doradztwo gospodarcze) — komercyjne doradztwo dla firm to inna kategoria niż reprezentacja zrzeszonych członków."
+  ],
+  "taxNotes": "Organizacje członkowskie często działają jako stowarzyszenia ze zwolnieniami dla działalności statutowej. Składki członkowskie mogą być zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

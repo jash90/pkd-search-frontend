@@ -1,0 +1,36 @@
+{
+  "code": "74.12.Z",
+  "name": "Działalność w zakresie projektowania graficznego i komunikacji wizualnej",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.12.Z obejmuje projektowanie graficzne — identyfikację wizualną, logo, materiały marketingowe, projekty UI/UX, opakowania, ilustracje i komunikację wizualną. To kod dla grafików freelancerów, studiów brandingowych, projektantów UI/UX i ilustratorów cyfrowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Grafik freelancer",
+      "use": "Projektuje logo, identyfikacje wizualne, materiały marketingowe dla małych firm i startupów."
+    },
+    {
+      "persona": "Projektant UI/UX",
+      "use": "Tworzy interfejsy aplikacji webowych i mobilnych — od research, przez prototypy, po finalny design system."
+    },
+    {
+      "persona": "Studio brandingowe",
+      "use": "Buduje kompleksowe identyfikacje marek — strategia, naming, logo, brand book, materiały."
+    },
+    {
+      "persona": "Projektant opakowań",
+      "use": "Projektuje opakowania produktów spożywczych, kosmetyków, suplementów — etykiety i kompozycje strukturalne."
+    }
+  ],
+  "businessExamples": [
+    "Studio brandingowe dla marek konsumenckich",
+    "Projektant UI/UX prowadzący freelance",
+    "Grafik specjalizujący się w opakowaniach kosmetycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 74.12.Z zamiast 74.11.Z — wzornictwo przemysłowe (forma fizycznego produktu) ma osobny kod 74.11.Z.",
+    "Pomylenie z 62.01.Z (programowanie) — gdy projektant UI/UX faktycznie koduje aplikacje, właściwszy może być 62.01.Z lub 62.10.B."
+  ],
+  "taxNotes": "Usługi projektowania graficznego mogą podlegać ryczałtowi według właściwej stawki (zależnie od interpretacji), albo IP Box przy pracach twórczych chronionych prawem autorskim. Usługi graficzne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

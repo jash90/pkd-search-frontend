@@ -1,0 +1,36 @@
+{
+  "code": "20.42.Z",
+  "name": "Produkcja wyrobów kosmetycznych i toaletowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.42.Z obejmuje produkcję kosmetyków pielęgnacyjnych, kolorowych i toaletowych — szamponów, balsamów, kremów, dezodorantów, perfum, podkładów, szminek, lakierów do paznokci i past do zębów. To kluczowy kod dla branży beauty i marek kosmetycznych z własną produkcją.",
+  "whoUsesIt": [
+    {
+      "persona": "Marka kosmetyczna z własną produkcją",
+      "use": "Wytwarza kremy, serum i kosmetyki kolorowe pod własnym brandem."
+    },
+    {
+      "persona": "Producent kontraktowy (private label)",
+      "use": "Produkuje kosmetyki na zlecenie marek własnych dla sieci handlowych i e-commerce."
+    },
+    {
+      "persona": "Wytwórca kosmetyków naturalnych",
+      "use": "Produkuje organiczne mydła, balsamy i olejki z certyfikatami COSMOS i ECOCERT."
+    },
+    {
+      "persona": "Producent past do zębów",
+      "use": "Wytwarza pasty, płukanki i kosmetyki do higieny jamy ustnej."
+    }
+  ],
+  "businessExamples": [
+    "Marka kosmetyczna z własnym laboratorium",
+    "Producent kontraktowy kosmetyków",
+    "Wytwórca kosmetyków naturalnych certyfikowanych"
+  ],
+  "commonMistakes": [
+    "Wybór 20.42.Z dla suplementów diety — suplementy klasyfikowane są w 10.89.Z lub 21.20.Z.",
+    "Pomylenie z 20.41.Z (mydła i detergenty) — mydła gospodarcze i proszki mają osobny kod."
+  ],
+  "taxNotes": "Produkcja kosmetyków wymaga zgłoszenia w portalu CPNP i prowadzenia dokumentacji bezpieczeństwa zgodnie z rozporządzeniem 1223/2009. Wybór formy opodatkowania zależy od skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

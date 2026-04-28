@@ -1,0 +1,36 @@
+{
+  "code": "77.33.Z",
+  "name": "Wynajem i dzierżawa maszyn i urządzeń biurowych oraz komputerów",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.33.Z obejmuje wynajem sprzętu biurowego, komputerów, drukarek, kserokopiarek, sprzętu konferencyjnego i IT. To kod dla firm leasingu IT, dostawców managed print services oraz operatorów wynajmu sprzętu eventowego (projektory, ekrany, nagłośnienie biurowe).",
+  "whoUsesIt": [
+    {
+      "persona": "Operator managed print services",
+      "use": "Dostarcza drukarki i kserokopiarki firmom w modelu rozliczania per kopia — z serwisem i tonerami."
+    },
+    {
+      "persona": "Wypożyczalnia laptopów / sprzętu IT",
+      "use": "Wynajmuje notebooki, monitory i akcesoria firmom na potrzeby projektów, eventów lub onboardingu."
+    },
+    {
+      "persona": "Firma wynajmu sprzętu konferencyjnego",
+      "use": "Udostępnia projektory, ekrany, systemy konferencyjne dla biur i organizatorów eventów."
+    },
+    {
+      "persona": "Operator IT-as-a-Service",
+      "use": "Oferuje sprzęt IT dla firm w abonamencie (Device-as-a-Service) z pełną obsługą i wsparciem."
+    }
+  ],
+  "businessExamples": [
+    "Firma MPS dostarczająca drukarki dla korporacji",
+    "Wypożyczalnia laptopów dla firm i eventów",
+    "Operator wynajmu sprzętu AV dla konferencji"
+  ],
+  "commonMistakes": [
+    "Wybór 77.33.Z zamiast 62.09.Z — gdy firma głównie świadczy usługi IT (a nie wynajmuje sprzęt), właściwszy jest dział 62.",
+    "Pomylenie z 77.39.Z — sprzęt biurowy i IT mają dedykowaną klasę 77.33.Z, nie należy używać kategorii 'pozostałe'."
+  ],
+  "taxNotes": "Wynajem sprzętu biurowego i IT podlega standardowej stawce VAT. Klienci biznesowi często odliczają VAT i zaliczają najem do KUP w pełnej wysokości. Wybór formy opodatkowania zależy od skali działalności. Stawki sprawdź u doradcy podatkowego."
+}

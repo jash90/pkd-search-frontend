@@ -1,0 +1,36 @@
+{
+  "code": "87.30.Z",
+  "name": "Pomoc społeczna z zakwaterowaniem dla osób starszych lub osób z niepełnosprawnościami ruchowymi",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 87.30.Z obejmuje domy seniora, domy opieki i mieszkania chronione dla osób starszych oraz osób z niepełnosprawnościami ruchowymi — bez stałej opieki pielęgniarskiej, ale z opieką bytową, asystencką i częściowo medyczną. Pasuje dla prywatnych domów seniora i DPS-ów dla osób w podeszłym wieku. Z opieką pielęgniarską 24/7 to 87.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator prywatnego domu seniora",
+      "use": "Prowadzi placówkę pobytową z wyżywieniem, animacją, podstawową opieką (bez 24/7 pielęgniarki)."
+    },
+    {
+      "persona": "DPS dla osób w podeszłym wieku",
+      "use": "Prowadzi placówkę samorządową dla seniorów w ramach systemu pomocy społecznej."
+    },
+    {
+      "persona": "Senior assisted living / mieszkania chronione",
+      "use": "Wynajmuje mieszkania w kompleksie z usługami opiekuńczymi i wsparciem na życzenie."
+    },
+    {
+      "persona": "Dom dla osób z niepełnosprawnościami ruchowymi",
+      "use": "Zapewnia zakwaterowanie i wsparcie codzienne osobom z ograniczoną sprawnością ruchową."
+    }
+  ],
+  "businessExamples": [
+    "Prywatny dom seniora z animacją i wyżywieniem",
+    "Mieszkania chronione dla seniorów typu assisted living",
+    "DPS dla osób w podeszłym wieku w gminie"
+  ],
+  "commonMistakes": [
+    "Wybór 87.30.Z dla placówek z całodobową opieką pielęgniarską — z personelem pielęgniarskim 24/7 właściwy jest 87.10.Z.",
+    "Pomylenie z 88.10.Z (pomoc społeczna bez zakwaterowania) — opieka dzienna, kluby seniora i opieka domowa to inny kod."
+  ],
+  "taxNotes": "Domy seniora prywatne wymagają zezwolenia wojewody i wpisu do rejestru placówek zapewniających całodobową opiekę. Część usług opiekuńczych jest zwolniona z VAT, jednak usługi hotelowe i gastronomiczne mogą być opodatkowane. Stawki sprawdź u doradcy podatkowego."
+}

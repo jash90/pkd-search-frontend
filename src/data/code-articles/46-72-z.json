@@ -1,0 +1,36 @@
+{
+  "code": "46.72.Z",
+  "name": "Sprzedaż hurtowa części i akcesoriów do pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.72.Z obejmuje sprzedaż hurtową części zamiennych i akcesoriów do samochodów osobowych, ciężarowych i autobusów — opon, akumulatorów, części mechanicznych, elektroniki samochodowej, oleju i kosmetyków samochodowych. Pasuje do hurtowni motoryzacyjnych i dystrybutorów części. Sprzedaż detaliczna to 45.32.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia części samochodowych",
+      "use": "Dystrybuuje części zamienne do warsztatów mechanicznych i sklepów motoryzacyjnych."
+    },
+    {
+      "persona": "Importer części z aftermarketu",
+      "use": "Sprowadza tańsze odpowiedniki części OEM z UE i Azji dla warsztatów."
+    },
+    {
+      "persona": "Dystrybutor opon",
+      "use": "Sprzedaje hurtowo opony do serwisów oponiarskich i sieci wymiany."
+    },
+    {
+      "persona": "Hurtownia akcesoriów car audio",
+      "use": "Zaopatruje sklepy motoryzacyjne w radia, alarmy i elektronikę samochodową."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia części zamiennych dla warsztatów",
+    "Importer części z aftermarketu z Niemiec i Włoch",
+    "Dystrybutor opon dla serwisów oponiarskich"
+  ],
+  "commonMistakes": [
+    "Wybór 46.72.Z dla sprzedaży detalicznej w sklepie — właściwy jest 45.32.Z.",
+    "Pomylenie z 46.73.Z, gdy sprzedajesz części do motocykli — to inny kod."
+  ],
+  "taxNotes": "Sprzedaż części podlega standardowym stawkom VAT. Niektóre części (np. zawierające gazy chłodnicze) podlegają dodatkowym regulacjom środowiskowym. Stawki sprawdź u doradcy podatkowego."
+}

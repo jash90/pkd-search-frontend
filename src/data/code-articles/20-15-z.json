@@ -1,0 +1,36 @@
+{
+  "code": "20.15.Z",
+  "name": "Produkcja nawozów i związków azotowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.15.Z obejmuje produkcję nawozów mineralnych i związków azotowych — saletry amonowej, mocznika, siarczanu amonu, nawozów wieloskładnikowych NPK, fosforowych i potasowych oraz amoniaku jako surowca. To kod dla zakładów azotowych i fabryk nawozów.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład azotowy",
+      "use": "Produkuje saletrę amonową, mocznik i siarczan amonu dla rolnictwa krajowego i eksportu."
+    },
+    {
+      "persona": "Wytwórca nawozów NPK",
+      "use": "Miesza i granuluje nawozy wieloskładnikowe pod konkretne uprawy."
+    },
+    {
+      "persona": "Producent nawozów fosforowych",
+      "use": "Wytwarza superfosfaty i fosforany amonu z fosforytów importowanych."
+    },
+    {
+      "persona": "Zakład produkcji amoniaku",
+      "use": "Dostarcza amoniak jako surowiec dla nawozów oraz przemysłu chemicznego."
+    }
+  ],
+  "businessExamples": [
+    "Zakłady azotowe produkujące saletrę",
+    "Wytwórnia nawozów NPK granulowanych",
+    "Producent mocznika dla rolnictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 20.15.Z dla nawozów organicznych z obornika — produkcja kompostów i nawozów naturalnych to 38.21.Z lub 01.61.Z.",
+    "Pomylenie z 20.20.C (pozostałe środki agrochemiczne) — regulatory wzrostu i biostymulatory mają osobny kod."
+  ],
+  "taxNotes": "Branża nawozowa objęta jest unijnym systemem CBAM (cło węglowe) i regulacjami dot. azotanów. Wybór formy opodatkowania zależy od skali produkcji. Stawki sprawdź u doradcy podatkowego."
+}

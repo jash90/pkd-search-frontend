@@ -1,0 +1,36 @@
+{
+  "code": "95.21.Z",
+  "name": "Naprawa i konserwacja elektronicznego sprzętu powszechnego użytku",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.21.Z obejmuje serwisowanie elektroniki użytkowej — telewizorów, sprzętu audio, kamer cyfrowych, odtwarzaczy, konsol do gier i podobnych urządzeń konsumenckich. Pasuje dla niezależnych serwisów elektroniki i autoryzowanych punktów napraw producentów.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis telewizorów i sprzętu audio",
+      "use": "Naprawia telewizory, kina domowe i kolumny głośnikowe na zlecenie klientów detalicznych."
+    },
+    {
+      "persona": "Serwis konsol do gier",
+      "use": "Naprawia uszkodzenia mechaniczne i elektroniczne konsol PlayStation, Xbox, Nintendo."
+    },
+    {
+      "persona": "Autoryzowany serwis producenta",
+      "use": "Realizuje naprawy gwarancyjne i pogwarancyjne na podstawie umowy z marką."
+    },
+    {
+      "persona": "Naprawa drobnej elektroniki konsumenckiej",
+      "use": "Naprawia kamery, drony, słuchawki bezprzewodowe i akcesoria audio."
+    }
+  ],
+  "businessExamples": [
+    "Niezależny serwis telewizorów i kin domowych",
+    "Punkt naprawy konsol do gier",
+    "Autoryzowany serwis marki audio"
+  ],
+  "commonMistakes": [
+    "Wybór 95.21.Z dla naprawy telefonów i komputerów — to oddzielna kategoria 95.11.Z (naprawa komputerów i sprzętu peryferyjnego) lub 95.12.Z (naprawa sprzętu telekomunikacyjnego).",
+    "Pomylenie z 95.22.Z (naprawa AGD) — pralki, lodówki i kuchenki to urządzenia gospodarstwa domowego, nie elektronika użytkowa."
+  ],
+  "taxNotes": "Usługi naprawy podlegają standardowemu VAT, a sprzedaż części zamiennych może wymagać kasy fiskalnej. Forma opodatkowania (ryczałt, skala, liniowy) zależy od skali kosztów części i zatrudnienia. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "10.92.Z",
+  "name": "Produkcja gotowej karmy dla zwierząt domowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.92.Z obejmuje produkcję karm dla psów, kotów, gryzoni, ptaków, ryb akwariowych i innych zwierząt domowych — sucha karma, mokra w puszkach/saszetkach, przekąski, dental sticks i kości do żucia. To kod dla petfood manufacturers.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent karmy suchej dla psów i kotów",
+      "use": "Wytwarza granulaty (dry food) w opakowaniach detalicznych dla retailu i petshopów."
+    },
+    {
+      "persona": "Manufaktura karmy mokrej",
+      "use": "Produkuje karmy w puszkach, saszetkach i tackach dla psów i kotów."
+    },
+    {
+      "persona": "Wytwórca przysmaków i dental sticks",
+      "use": "Produkuje gryzaki, paski do zębów i przekąski funkcjonalne dla zwierząt."
+    },
+    {
+      "persona": "Producent karmy super-premium / freeze-dried",
+      "use": "Wytwarza karmę liofilizowaną i premium dla wymagających właścicieli zwierząt."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka karmy suchej dla psów pod marką własną",
+    "Producent karmy mokrej w saszetkach dla kotów",
+    "Manufaktura przysmaków freeze-dried premium"
+  ],
+  "commonMistakes": [
+    "Wybór 10.92.Z zamiast 10.91.Z (Pasze dla zwierząt gospodarskich) — karma dla królika hodowlanego/mięsnego to 10.91.Z, dla królika domowego to 10.92.Z.",
+    "Pomylenie z 47.76.Z (Sprzedaż detaliczna karmy w sklepach) — produkcja to 10.92.Z, a sprzedaż w petshopie to handel."
+  ],
+  "taxNotes": "Karma dla zwierząt domowych podlega standardowej stawce VAT, a forma opodatkowania zależy od skali i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

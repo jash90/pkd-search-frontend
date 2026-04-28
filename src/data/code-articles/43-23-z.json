@@ -1,0 +1,36 @@
+{
+  "code": "43.23.Z",
+  "name": "Montaż izolacji",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.23.Z dotyczy montażu izolacji termicznych, akustycznych, przeciwpożarowych i przeciwwilgociowych w budynkach i instalacjach przemysłowych — izolacja wełną mineralną, styropianem, pianką PUR, izolacja rurociągów technologicznych, izolacja chłodni i mroźni.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma od ociepleń budynków",
+      "use": "Realizuje termomodernizację metodą BSO (styropian + tynki cienkowarstwowe)."
+    },
+    {
+      "persona": "Wykonawca izolacji przemysłowej",
+      "use": "Izoluje rurociągi i zbiorniki w zakładach chemicznych i ciepłowniach."
+    },
+    {
+      "persona": "Firma od izolacji natryskowych PUR",
+      "use": "Wykonuje natryskową piankę poliuretanową na dachach i ścianach."
+    },
+    {
+      "persona": "Wykonawca izolacji chłodni",
+      "use": "Buduje paneli chłodniczych w halach przemysłu spożywczego."
+    }
+  ],
+  "businessExamples": [
+    "Termomodernizacja bloku z lat 70.",
+    "Natryskowa pianka PUR na dachu hali",
+    "Izolacja rurociągów ciepłowniczych preizolowanych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.99.Z (pozostałe specjalistyczne roboty) — izolacja wodochronna fundamentów może być klasyfikowana w 43.99.Z, ale termomodernizacja to 43.23.Z.",
+    "Wybór 43.23.Z zamiast 41.00.A/B, gdy firma realizuje całą inwestycję, a izolacja jest tylko jej elementem."
+  ],
+  "taxNotes": "Termomodernizacja korzysta z preferencji podatkowych (ulga termomodernizacyjna PIT) i programów dotacyjnych (Czyste Powietrze). Branża objęta jest split payment i odwrotnym obciążeniem VAT. Stawki sprawdź u doradcy podatkowego."
+}

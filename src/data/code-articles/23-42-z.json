@@ -1,0 +1,36 @@
+{
+  "code": "23.42.Z",
+  "name": "Produkcja ceramicznych wyrobów sanitarnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.42.Z obejmuje produkcję ceramicznych wyrobów sanitarnych — umywalek, sedesów, bidetów, brodzików, pisuarów, wanien ceramicznych oraz akcesoriów łazienkowych z porcelany sanitarnej. To kod dla zakładów ceramiki sanitarnej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent ceramiki łazienkowej",
+      "use": "Wytwarza umywalki, sedesy i bidety dla budownictwa mieszkaniowego i hotelarstwa."
+    },
+    {
+      "persona": "Wytwórca pisuarów i wyposażenia publicznego",
+      "use": "Produkuje pisuary, koryta i ceramikę odporną na intensywne użytkowanie."
+    },
+    {
+      "persona": "Producent brodzików i mis WC",
+      "use": "Wytwarza brodziki natryskowe i miski WC w technologii rim-off i easy-clean."
+    },
+    {
+      "persona": "Wytwórca akcesoriów łazienkowych",
+      "use": "Produkuje mydelniczki, kubki na szczoteczki i akcesoria z porcelany sanitarnej."
+    }
+  ],
+  "businessExamples": [
+    "Producent kompletów WC z porcelany",
+    "Wytwórnia umywalek nablatowych",
+    "Zakład pisuarów dla obiektów publicznych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.42.Z dla wanien akrylowych — wyroby z tworzyw sztucznych dla łazienek to 22.24.Z lub 22.26.Z.",
+    "Pomylenie z 23.41.Z (porcelana stołowa) — talerze, kubki i wazony mają osobny kod."
+  ],
+  "taxNotes": "Ceramika sanitarna wymaga oznakowania CE i zgodności z normami EN 997, EN 14688. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

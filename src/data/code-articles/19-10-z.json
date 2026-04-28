@@ -1,0 +1,36 @@
+{
+  "code": "19.10.Z",
+  "name": "Wytwarzanie i przetwarzanie koksu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 19.10.Z obejmuje wytwarzanie koksu z węgla kamiennego w bateriach koksowniczych, produkcję półkoksu, koksu pakowego i koksu naftowego oraz produktów ubocznych — gazu koksowniczego, smoły i benzolu. Nie obejmuje wydobycia węgla (05.10.Z) ani rafinacji ropy (19.20.Z). Typowy kod dla koksowni przemysłowych zaopatrujących hutnictwo.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator koksowni przemysłowej",
+      "use": "Prowadzi baterie koksownicze produkujące koks wielkopiecowy dla hut stali i odlewni."
+    },
+    {
+      "persona": "Producent koksu odlewniczego",
+      "use": "Specjalizuje się w koksie wysokiej jakości dla odlewnictwa żeliwa i przemysłu chemicznego."
+    },
+    {
+      "persona": "Zakład odzysku produktów węglopochodnych",
+      "use": "Przetwarza gaz koksowniczy, smołę i benzol pochodzące z koksowni na surowce chemiczne."
+    },
+    {
+      "persona": "Producent brykietów koksowych",
+      "use": "Wytwarza brykiety i koks formowany z miałów dla rynku ogrzewania i metalurgii."
+    }
+  ],
+  "businessExamples": [
+    "Koksownia produkująca koks wielkopiecowy dla huty",
+    "Producent koksu odlewniczego dla odlewni żeliwa",
+    "Zakład odzysku smoły i benzolu z gazu koksowniczego"
+  ],
+  "commonMistakes": [
+    "Wybór 19.10.Z zamiast 05.10.Z — samo wydobycie i wzbogacanie węgla kamiennego nie obejmuje koksowania.",
+    "Mylenie z 20.14.Z (produkcja pozostałych podstawowych chemikaliów organicznych) — dalsze przetwórstwo benzolu i naftalenu może być już chemią organiczną."
+  ],
+  "taxNotes": "Działalność koksownicza objęta jest reżimem akcyzowym (wyroby węglowe, gaz), regulacjami ETS i wymogami środowiskowymi (BAT). Stawki sprawdź u doradcy podatkowego."
+}

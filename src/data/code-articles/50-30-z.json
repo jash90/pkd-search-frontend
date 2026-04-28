@@ -1,0 +1,36 @@
+{
+  "code": "50.30.Z",
+  "name": "Transport wodny śródlądowy pasażerski",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 50.30.Z obejmuje przewozy pasażerów statkami i łodziami po rzekach, jeziorach, kanałach i zalewach — tramwaje wodne, statki wycieczkowe, gondole, promy rzeczne i jednostki turystyczne. To kod dla armatorów żeglugi śródlądowej i organizatorów rejsów po polskich akwenach.",
+  "whoUsesIt": [
+    {
+      "persona": "Armator statków pasażerskich",
+      "use": "Organizuje rejsy wycieczkowe po Wiśle (Kraków, Warszawa), Odrze (Wrocław) i kanałach Mazur."
+    },
+    {
+      "persona": "Operator tramwaju rzecznego",
+      "use": "Prowadzi miejskie linie pasażerskie po rzece — Warszawa, Kraków, Bydgoszcz w sezonie letnim."
+    },
+    {
+      "persona": "Firma wynajmująca jachty z załogą",
+      "use": "Świadczy rejsy turystyczne po Wielkich Jeziorach Mazurskich z przewodnikiem i załogą."
+    },
+    {
+      "persona": "Operator promu rzecznego",
+      "use": "Eksploatuje prom utrzymujący przeprawy lokalne na rzekach i jeziorach (np. żuławskie przeprawy)."
+    }
+  ],
+  "businessExamples": [
+    "Armator statków wycieczkowych po Wiśle",
+    "Tramwaj wodny w Warszawie",
+    "Operator rejsów po Mazurach"
+  ],
+  "commonMistakes": [
+    "Wybór 50.30.Z zamiast 50.10.Z (transport morski pasażerski) — rejsy po Bałtyku i Zalewie Wiślanym (jako wody przybrzeżne) podlegają morskiemu kodowi.",
+    "Pomylenie z 77.21.Z (wypożyczanie sprzętu rekreacyjnego) — sam wynajem łodzi bez załogi to wypożyczanie, nie transport."
+  ],
+  "taxNotes": "Usługi turystyki wodnej często mogą korzystać z preferencyjnych stawek VAT dla turystyki, a działalność sezonowa wpływa na wybór formy opodatkowania (ryczałt, zasady ogólne). Wymagane są też dokumenty bezpieczeństwa żeglugi i certyfikaty kapitana. Stawki sprawdź u doradcy podatkowego."
+}

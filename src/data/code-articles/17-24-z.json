@@ -1,0 +1,36 @@
+{
+  "code": "17.24.Z",
+  "name": "Produkcja tapet",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.24.Z obejmuje produkcję tapet papierowych, winylowych, flizelinowych oraz tapet z włókien tekstylnych do dekoracji wnętrz. To wąsko wyspecjalizowany kod dla zakładów drukujących i wykańczających rolki tapet.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent tapet papierowych",
+      "use": "Drukuje wzory na papierze i konfekcjonuje rolki tapet dekoracyjnych."
+    },
+    {
+      "persona": "Wytwórca tapet flizelinowych",
+      "use": "Produkuje nowoczesne tapety na bazie flizeliny w formatach standardowych i wielkoformatowych."
+    },
+    {
+      "persona": "Zakład tapet winylowych",
+      "use": "Wytwarza tapety zmywalne dla łazienek, kuchni i obiektów użyteczności publicznej."
+    },
+    {
+      "persona": "Producent tapet na zamówienie",
+      "use": "Drukuje cyfrowo personalizowane fotopiety i wzory unikatowe dla klientów premium."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia tapet flizelinowych w rolkach",
+    "Drukarnia fotopiet na zamówienie",
+    "Producent tapet winylowych zmywalnych"
+  ],
+  "commonMistakes": [
+    "Wybór 17.24.Z, gdy faktycznie firma sprzedaje tapety bez ich produkcji — handel detaliczny to 47.53.Z.",
+    "Pomylenie z 18.12.Z (pozostałe drukowanie) — sam wydruk wzorów na papierze klienta to usługa poligraficzna."
+  ],
+  "taxNotes": "Branża wykończeniowa cechuje się sezonowością remontową. Wybór formy opodatkowania zależy od skali produkcji i udziału eksportu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "61.90.A",
+  "name": "Działalność w obszarze komunikacji internetowej",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 61.90.A obejmuje świadczenie usług komunikacji w internecie — VoIP, komunikatorów, wideokonferencji, chat opartych na sieci publicznej. Pasuje dla operatorów platform komunikacyjnych, dostawców rozwiązań VoIP/UCaaS oraz firm udostępniających usługi komunikacji w chmurze.",
+  "whoUsesIt": [
+    {
+      "persona": "Dostawca platformy UCaaS",
+      "use": "Oferuje zintegrowaną komunikację (telefonia, chat, wideo) dla firm w modelu chmurowym."
+    },
+    {
+      "persona": "Operator komunikatora biznesowego",
+      "use": "Prowadzi platformę chat/messaging dla zespołów (komunikator B2B, integracje z CRM)."
+    },
+    {
+      "persona": "Dostawca usługi wideokonferencji",
+      "use": "Udostępnia platformę spotkań online z funkcjami webinaru, nagrywania i transkrypcji."
+    },
+    {
+      "persona": "Operator usług VoIP konsumenckich",
+      "use": "Świadczy darmowe lub abonamentowe usługi rozmów internetowych dla użytkowników indywidualnych."
+    }
+  ],
+  "businessExamples": [
+    "Polska platforma UCaaS dla firm",
+    "Komunikator biznesowy z integracjami SaaS",
+    "Usługa wideokonferencji w modelu freemium"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 61.10.B (telekomunikacja klasyczna) — operator MVNO/ISP to inny kod.",
+    "Wybór 61.90.A zamiast 58.29.Z (wydawanie oprogramowania) — sprzedaż licencji na własny program bez prowadzenia usługi to inna klasa."
+  ],
+  "taxNotes": "Usługi komunikacji internetowej często sprzedawane są w modelu subskrypcyjnym, z koniecznością rozliczenia VAT w OSS przy klientach UE. Możliwa kwalifikacja do IP Box przy własnym oprogramowaniu. Stawki sprawdź u doradcy podatkowego."
+}

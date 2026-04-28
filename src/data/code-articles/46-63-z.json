@@ -1,0 +1,36 @@
+{
+  "code": "46.63.Z",
+  "name": "Sprzedaż hurtowa maszyn wykorzystywanych w górnictwie, budownictwie oraz inżynierii lądowej i wodnej",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.63.Z obejmuje sprzedaż hurtową maszyn budowlanych, drogowych, górniczych i wiertniczych — koparek, ładowarek, dźwigów, walców, betoniarek, sprzętu do robót ziemnych — do firm budowlanych, drogowych i wykonawczych. Pasuje do dealerów marek budowlanych i dystrybutorów sprzętu ciężkiego.",
+  "whoUsesIt": [
+    {
+      "persona": "Dealer maszyn budowlanych",
+      "use": "Reprezentuje markę (np. Caterpillar, Volvo CE) i sprzedaje koparki firmom budowlanym."
+    },
+    {
+      "persona": "Dystrybutor sprzętu drogowego",
+      "use": "Sprzedaje walce, frezarki i rozściełacze do firm drogowych."
+    },
+    {
+      "persona": "Importer dźwigów",
+      "use": "Sprowadza dźwigi mobilne i wieżowe dla firm wynajmujących sprzęt."
+    },
+    {
+      "persona": "Dealer sprzętu używanego",
+      "use": "Skupuje i sprzedaje używane maszyny budowlane po przeglądzie technicznym."
+    }
+  ],
+  "businessExamples": [
+    "Dealer koparek i ładowarek dla branży budowlanej",
+    "Dystrybutor sprzętu drogowego dla generalnych wykonawców",
+    "Importer dźwigów wieżowych dla firm wynajmujących"
+  ],
+  "commonMistakes": [
+    "Wybór 46.63.Z dla sprzedaży maszyn rolniczych — właściwy jest 46.61.Z.",
+    "Pomylenie z 77.32.Z (wynajem maszyn budowlanych) — 46.63.Z dotyczy sprzedaży, nie wynajmu."
+  ],
+  "taxNotes": "Sprzedaż maszyn budowlanych podlega standardowym stawkom VAT. Często finansowanie odbywa się leasingiem — wpływa to na strukturę transakcji. Stawki sprawdź u doradcy podatkowego."
+}

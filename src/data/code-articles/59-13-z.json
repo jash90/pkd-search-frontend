@@ -1,0 +1,36 @@
+{
+  "code": "59.13.Z",
+  "name": "Działalność związana z dystrybucją filmów i nagrań wideo",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 59.13.Z obejmuje pozyskiwanie praw i dystrybucję filmów oraz nagrań wideo do kin, telewizji, platform VOD i innych odbiorców. Pasuje dla dystrybutorów filmowych, agentów sprzedaży praw, brokerów licencyjnych oraz operatorów platform VOD prowadzących dystrybucję licencjonowaną.",
+  "whoUsesIt": [
+    {
+      "persona": "Dystrybutor kinowy",
+      "use": "Kupuje prawa do filmów (krajowych i zagranicznych) i wprowadza je do polskich kin."
+    },
+    {
+      "persona": "Agent sprzedaży praw filmowych",
+      "use": "Reprezentuje producentów na rynkach międzynarodowych — sprzedaje licencje TV, VOD, kinowe."
+    },
+    {
+      "persona": "Operator platformy VOD",
+      "use": "Licencjonuje filmy i seriale i udostępnia je użytkownikom w modelu SVOD/AVOD/TVOD."
+    },
+    {
+      "persona": "Dystrybutor wideo edukacyjnego",
+      "use": "Sprzedaje licencje na materiały szkoleniowe i edukacyjne do szkół i firm."
+    }
+  ],
+  "businessExamples": [
+    "Polski dystrybutor filmów europejskich",
+    "Platforma VOD z polskimi serialami",
+    "Agent sprzedaży praw na rynkach zagranicznych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 59.14.Z (projekcja filmów) — prowadzenie kina to osobny kod.",
+    "Wybór 59.13.Z zamiast 47.63.Z (sprzedaż detaliczna nagrań) — sprzedaż fizycznych nośników DVD/Blu-ray to inna klasa."
+  ],
+  "taxNotes": "Dystrybucja filmów wiąże się ze specyficznymi rozliczeniami praw autorskich i pokrewnych. Sprzedaż licencji do podmiotów zagranicznych może być rozliczana poza polskim VAT (reverse charge). Stawki sprawdź u doradcy podatkowego."
+}

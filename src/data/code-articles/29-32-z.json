@@ -1,0 +1,36 @@
+{
+  "code": "29.32.Z",
+  "name": "Produkcja pozostałych części i akcesoriów do pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.32.Z obejmuje produkcję części mechanicznych do pojazdów — hamulców, sprzęgieł, skrzyń biegów, układów wydechowych, zawieszeń, foteli samochodowych, pasów bezpieczeństwa, kół jezdnych, akcesoriów wnętrza i innych komponentów Tier 1/Tier 2.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent foteli samochodowych",
+      "use": "Wytwarza fotele dla koncernów motoryzacyjnych w modelu Tier 1, w tym fotele premium i sportowe."
+    },
+    {
+      "persona": "Fabryka układów wydechowych i katalizatorów",
+      "use": "Produkuje układy wydechowe z katalizatorami i filtrami DPF dla aut spalinowych."
+    },
+    {
+      "persona": "Wytwórca komponentów hamulcowych",
+      "use": "Robi tarcze, klocki i zaciski hamulcowe dla rynku OEM i aftermarket."
+    },
+    {
+      "persona": "Producent skrzyń biegów i komponentów napędu",
+      "use": "Buduje skrzynie manualne, automatyczne i komponenty AWD dla branży motoryzacyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka foteli samochodowych dla koncernów premium",
+    "Producent komponentów hamulcowych OEM i aftermarket",
+    "Zakład skrzyń biegów dla samochodów osobowych i ciężarowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.31.Z (wyposażenie elektryczne) — komponenty mechaniczne idą pod 29.32.Z, elektroniczne pod 29.31.Z.",
+    "Wybór 45.31.Z (handel hurtowy częściami) zamiast 29.32.Z — sama dystrybucja to inny kod niż produkcja."
+  ],
+  "taxNotes": "Polska jest jednym z największych producentów części motoryzacyjnych w Europie z silnym wsparciem SSE i pomocy inwestycyjnej. Forma opodatkowania zależy od skali, eksportu i ulg branżowych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "24.32.Z",
+  "name": "Produkcja wyrobów płaskich walcowanych na zimno",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.32.Z obejmuje wtórną przeróbkę plastyczną stali polegającą na walcowaniu blach i taśm na zimno — z gorącowalcowanych kręgów otrzymuje się wyroby o lepszej powierzchni, dokładniejszej tolerancji grubości i wyższych parametrach wytrzymałościowych. To kod dla zakładów dostarczających blachy i taśmy do tłoczenia, motoryzacji i AGD.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład walcowniczy blach zimnowalcowanych",
+      "use": "Walcuje kręgi gorącowalcowane na blachy i taśmy zimnowalcowane dla przemysłu."
+    },
+    {
+      "persona": "Producent taśm stalowych dla motoryzacji",
+      "use": "Dostarcza taśmy zimnowalcowane do tłoczników karoserii i elementów konstrukcyjnych."
+    },
+    {
+      "persona": "Wytwórca blach do branży AGD",
+      "use": "Tnie i walcuje blachy pod produkcję obudów lodówek, pralek i kuchenek."
+    },
+    {
+      "persona": "Service center dystrybucji stali",
+      "use": "Walcuje, prostuje i tnie blachy zimnowalcowane na wymiar dla odbiorców końcowych."
+    }
+  ],
+  "businessExamples": [
+    "Walcownia blach zimnowalcowanych dla motoryzacji",
+    "Producent taśm stalowych dla branży AGD",
+    "Service center walcujący blachy na wymiar"
+  ],
+  "commonMistakes": [
+    "Wybór 24.32.Z zamiast 24.10.A (produkcja surówki, żeliwa i stali), gdy zakład produkuje wyroby gorącowalcowane — to inny etap technologiczny.",
+    "Pomylenie z 24.33.Z (produkcja wyrobów formowanych na zimno) — profile zimnogięte i kształtowniki mają odrębny kod 24.33.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów stalowych objęta jest VAT na zasadach ogólnych z obowiązkowym mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali zakładu, kosztów surowca i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

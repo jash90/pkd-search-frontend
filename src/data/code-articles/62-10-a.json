@@ -1,0 +1,36 @@
+{
+  "code": "62.10.A",
+  "name": "Działalność w zakresie programowania gier komputerowych",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 62.10.A obejmuje programowanie gier komputerowych — pisanie kodu, projektowanie mechaniki, integrację silników i implementację rozgrywki dla PC, konsol, urządzeń mobilnych i platform online. Pasuje dla studiów gamedev, niezależnych developerów i freelancerów specjalizujących się w produkcji gier.",
+  "whoUsesIt": [
+    {
+      "persona": "Studio gamedev",
+      "use": "Tworzy gry na PC i konsole — od prototypu po release na Steam, PSN, Xbox Store."
+    },
+    {
+      "persona": "Indie developer",
+      "use": "Buduje samodzielnie gry niezależne — pixel art platformery, roguelike, narrative games."
+    },
+    {
+      "persona": "Programista gier mobilnych",
+      "use": "Pisze gry hyper-casual, F2P i premium na Android i iOS w Unity, Unreal lub Godot."
+    },
+    {
+      "persona": "Freelancer Unity / Unreal",
+      "use": "Świadczy usługi programowania gier i mechanik dla studiów outsourcingowo (B2B)."
+    }
+  ],
+  "businessExamples": [
+    "Studio gamedev produkujące RPG na PC",
+    "Indie developer wydający platformer pixel art",
+    "Freelancer Unity dla studiów AA"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 62.10.B (pozostała działalność programistyczna) — programowanie aplikacji niegamingowych ma osobny kod.",
+    "Wybór 62.10.A zamiast 58.21.Z (wydawanie gier) — jeśli głównym profilem jest dystrybucja i marketing, a nie kodowanie."
+  ],
+  "taxNotes": "Programowanie gier często kwalifikuje się do IP Box (preferencyjna stawka na dochody z autorskich praw majątkowych) oraz ulgi B+R. Wybór formy zależy od struktury B2B/B2C i procentu prac twórczych. Stawki sprawdź u doradcy podatkowego."
+}

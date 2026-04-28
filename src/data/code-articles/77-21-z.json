@@ -1,0 +1,36 @@
+{
+  "code": "77.21.Z",
+  "name": "Wypożyczanie i dzierżawa sprzętu rekreacyjnego i sportowego",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.21.Z obejmuje wypożyczanie sprzętu sportowego i rekreacyjnego — nart, rowerów, kajaków, łodzi rekreacyjnych, sprzętu narciarskiego, surfboardów, nart wodnych. To kod dla wypożyczalni działających w miejscowościach turystycznych, kurortach i miastach.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia narciarska",
+      "use": "Udostępnia narty, deski, kaski w sezonie zimowym w kurortach górskich."
+    },
+    {
+      "persona": "Wypożyczalnia rowerów / e-bike",
+      "use": "Wynajmuje rowery turystom w miastach, ośrodkach wypoczynkowych — godzinowo lub dziennie."
+    },
+    {
+      "persona": "Wypożyczalnia sprzętu wodnego",
+      "use": "Oferuje kajaki, SUP-y, jachty, motorówki, sprzęt do nurkowania nad jeziorami i morzem."
+    },
+    {
+      "persona": "Bike-sharing / hulajnogi miejskie",
+      "use": "Operator systemu współdzielenia rowerów/hulajnóg w aplikacji mobilnej w miastach."
+    }
+  ],
+  "businessExamples": [
+    "Wypożyczalnia nart w kurorcie górskim",
+    "Operator bike-sharingu miejskiego",
+    "Wypożyczalnia kajaków nad jeziorami mazurskimi"
+  ],
+  "commonMistakes": [
+    "Wybór 77.21.Z zamiast 77.22.Z — gdy wypożyczany jest sprzęt domowy lub osobisty (nie sportowy), właściwszy jest 77.22.Z.",
+    "Pomylenie z 93.29.Z (działalność rozrywkowa) — gdy firma świadczy całe usługi rekreacyjne (np. spływ z instruktorem), właściwszy może być dział 93."
+  ],
+  "taxNotes": "Wypożyczanie sprzętu sportowego często kwalifikuje się do ryczałtu według właściwej stawki. Usługi wynajmu podlegają standardowej stawce VAT. Firmy sezonowe powinny pamiętać o specyfice rozliczeń przy działalności okresowej. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "85.51.Z",
+  "name": "Pozostałe formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.51.Z obejmuje naukę sportu i rekreacji prowadzoną poza systemem szkolnym — szkółki tenisowe, piłkarskie, jeździeckie, narciarskie, instruktorów fitness, treningów personalnych. Obejmuje również obozy sportowe (z elementem nauki). Profesjonalne kluby sportowe to 93.12.Z, a obiekty sportowe (siłownie, baseny) to 93.11.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Trener personalny / instruktor fitness",
+      "use": "Prowadzi indywidualne treningi i zajęcia grupowe w klubach fitness lub w plenerze."
+    },
+    {
+      "persona": "Instruktor narciarstwa",
+      "use": "Uczy narciarstwa i snowboardu w szkółkach przy stokach, prowadzi obozy narciarskie sezonowo."
+    },
+    {
+      "persona": "Trener akademii piłkarskiej",
+      "use": "Prowadzi szkółkę piłkarską dla dzieci i młodzieży — treningi, turnieje, obozy letnie."
+    },
+    {
+      "persona": "Instruktor jeździectwa / hippoterapii",
+      "use": "Uczy jazdy konnej w stadninie, prowadzi terapię z udziałem koni dla dzieci i dorosłych."
+    }
+  ],
+  "businessExamples": [
+    "Szkoła narciarska przy stoku z instruktorami sezonowymi",
+    "Akademia piłkarska dla dzieci od 5 do 15 lat",
+    "Trener personalny prowadzący treningi w klubie fitness"
+  ],
+  "commonMistakes": [
+    "Wybór 85.51.Z dla prowadzenia siłowni, basenu lub obiektu sportowego — to 93.11.Z (działalność obiektów sportowych), 85.51.Z to nauka.",
+    "Pomylenie z 93.13.Z (działalność klubów fitness) — sama operacja klubu fitness ma osobny kod, nie nauczanie."
+  ],
+  "taxNotes": "Działalność trenerska często dobrze pasuje do ryczałtu (niski koszt). Przy zatrudnianiu instruktorów lepsza może być skala lub liniowy. Trenerzy współpracujący z klubami zwykle wystawiają faktury B2B z ewentualnym VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "74.30.Z",
+  "name": "Działalność związana z tłumaczeniami",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.30.Z obejmuje tłumaczenia pisemne i ustne — zwykłe, specjalistyczne, przysięgłe, konferencyjne (kabinowe i konsekutywne). Pasuje dla freelancerów, biur tłumaczeń i tłumaczy przysięgłych prowadzących własną działalność. Nauka języków obcych klasyfikuje się pod 85.59.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Tłumacz freelancer",
+      "use": "Tłumaczy teksty z/na języki obce dla agencji i klientów bezpośrednich."
+    },
+    {
+      "persona": "Tłumacz przysięgły",
+      "use": "Wykonuje tłumaczenia uwierzytelnione dokumentów urzędowych i sądowych."
+    },
+    {
+      "persona": "Biuro tłumaczeń",
+      "use": "Koordynuje pracę zespołu tłumaczy, oferuje tłumaczenia w wielu językach i specjalizacjach."
+    },
+    {
+      "persona": "Tłumacz konferencyjny / kabinowy",
+      "use": "Tłumaczy symultanicznie i konsekutywnie na konferencjach, szkoleniach, spotkaniach biznesowych."
+    }
+  ],
+  "businessExamples": [
+    "Freelancer tłumaczący teksty marketingowe i techniczne",
+    "Tłumacz przysięgły języka niemieckiego",
+    "Biuro tłumaczeń specjalizujące się w branży IT i medycznej"
+  ],
+  "commonMistakes": [
+    "Wybór 74.30.Z dla nauki języków obcych — kursy językowe to 85.59.B (pozaszkolne formy edukacji).",
+    "Pomylenie z 90.03.Z (twórczość artystyczna) — tłumaczenia literackie mogą być traktowane jako działalność twórcza, ale jako usługa zwykle nadal pozostają pod 74.30.Z."
+  ],
+  "taxNotes": "Tłumaczenia są typową działalnością usługową rozliczaną na zasadach ogólnych, liniowo lub ryczałtem; niektóre rodzaje tłumaczeń korzystają z kosztów autorskich z tytułu praw autorskich. Możliwe jest zwolnienie podmiotowe z VAT przy niskich obrotach. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.15.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową mebli, artykułów gospodarstwa domowego i drobnych wyrobów metalowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.15.Z obejmuje pośrednictwo handlowe (agencje, przedstawicielstwa) w sprzedaży hurtowej mebli, AGD, naczyń, narzędzi ręcznych i drobnych wyrobów metalowych — bez przejmowania własności towaru. Agent zarabia na prowizji od kontraktów zawieranych w imieniu producentów lub hurtowni. Jeśli sam kupujesz i odsprzedajesz towar, użyj kodów z grupy 46.4 (np. 46.47.Z dla mebli).",
+  "whoUsesIt": [
+    {
+      "persona": "Przedstawiciel handlowy mebli",
+      "use": "Reprezentuje fabrykę mebli i pośredniczy w sprzedaży B2B do sieci sklepów meblowych."
+    },
+    {
+      "persona": "Agent producenta AGD",
+      "use": "Pozyskuje zamówienia hurtowe na sprzęt domowy w zamian za prowizję."
+    },
+    {
+      "persona": "Pośrednik narzędziowy",
+      "use": "Łączy producentów drobnych wyrobów metalowych z hurtowniami i marketami DIY."
+    },
+    {
+      "persona": "Broker importowy",
+      "use": "Kojarzy zagranicznych dostawców mebli i AGD z polskimi dystrybutorami."
+    }
+  ],
+  "businessExamples": [
+    "Agencja przedstawicielska producenta mebli kuchennych",
+    "Pośrednik w sprzedaży hurtowej drobnego AGD do sieci marketów",
+    "Broker importowy narzędzi ręcznych z Azji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.15.Z, gdy faktycznie kupujesz towar na własny rachunek i odsprzedajesz — wtedy właściwy jest 46.47.Z (meble) lub 46.43.Z (AGD).",
+    "Pomylenie z 46.19.Z (pośrednictwo niewyspecjalizowane) — jeśli reprezentujesz różnorodne kategorie towarów, lepiej pasuje 46.19.Z."
+  ],
+  "taxNotes": "Działalność agencyjna zwykle rozliczana jest skalą lub liniówką, a prowizje podlegają VAT na zasadach ogólnych. Niektóre prowizje agencyjne kwalifikują się do ryczałtu na korzystnych zasadach. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "30.40.Z",
+  "name": "Produkcja wojskowych pojazdów bojowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.40.Z obejmuje produkcję czołgów, bojowych wozów piechoty (BWP), transporterów opancerzonych, samobieżnych systemów artyleryjskich i pojazdów inżynieryjnych dla wojska. To kod ściśle reglamentowany — prowadzenie działalności wymaga koncesji MSWiA.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład zbrojeniowy państwowy",
+      "use": "Produkuje czołgi, BWP i samobieżne haubice dla Sił Zbrojnych RP w ramach kontraktów MON."
+    },
+    {
+      "persona": "Spółka prywatna z koncesją MSWiA",
+      "use": "Wytwarza transportery opancerzone i pojazdy specjalne na rynek krajowy i eksport."
+    },
+    {
+      "persona": "Producent pojazdów inżynieryjnych",
+      "use": "Buduje wozy zabezpieczenia technicznego, mostowe i ewakuacyjne dla wojsk inżynieryjnych."
+    },
+    {
+      "persona": "Integrator systemów wieżowych",
+      "use": "Łączy podwozia z wieżami uzbrojenia, systemami SKO i napędu w gotowy pojazd bojowy."
+    }
+  ],
+  "businessExamples": [
+    "Producent BWP dla MON",
+    "Zakład integracji systemów artyleryjskich",
+    "Spółka montująca transportery KTO"
+  ],
+  "commonMistakes": [
+    "Wybór 30.40.Z zamiast 25.40.Z (produkcja broni i amunicji) — wytwarzanie samych systemów uzbrojenia bez integracji z pojazdem to inny kod.",
+    "Pomylenie z 29.10.E (produkcja samochodów ciężarowych) — pojazdy wojskowe niebojowe (np. terenowe ciężarówki transportowe) klasyfikuje się w dziale 29."
+  ],
+  "taxNotes": "Działalność zbrojeniowa wymaga koncesji MSWiA i podlega szczególnym przepisom o obrocie towarami strategicznymi, w tym zwolnieniom z VAT przy dostawach dla sił zbrojnych. Możliwe są ulgi na działalność badawczo-rozwojową. Stawki sprawdź u doradcy podatkowego."
+}

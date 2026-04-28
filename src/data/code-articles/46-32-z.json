@@ -1,0 +1,36 @@
+{
+  "code": "46.32.Z",
+  "name": "Sprzedaż hurtowa mięsa i wyrobów z mięsa oraz ryb i wyrobów z ryb",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.32.Z obejmuje sprzedaż hurtową świeżego, mrożonego i przetworzonego mięsa, wędlin, drobiu, ryb, owoców morza i ich przetworów — od zakładów mięsnych i ryb przez hurtownie do sklepów, restauracji i sieci handlowych. Sprzedaż detaliczna mięsa to 47.22.Z, a ryb 47.23.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia mięsna",
+      "use": "Dystrybuuje wędliny i mięso od zakładów mięsnych do sklepów i gastronomii."
+    },
+    {
+      "persona": "Hurtownia ryb i owoców morza",
+      "use": "Sprowadza świeże i mrożone ryby z portów rybackich i sprzedaje hurtowo."
+    },
+    {
+      "persona": "Dystrybutor produktów mrożonych",
+      "use": "Specjalizuje się w mrożonym mięsie i rybach dla sieci handlowych i HoReCa."
+    },
+    {
+      "persona": "Dostawca HoReCa",
+      "use": "Zaopatruje restauracje i hotele w świeże mięso, ryby i wędliny premium."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia mięsna i wędliniarska dla sieci sklepów",
+    "Hurtownia ryb morskich i słodkowodnych",
+    "Dostawca produktów mięsnych dla sieci restauracji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.32.Z dla sprzedaży detalicznej — wtedy właściwy jest 47.22.Z (mięso) lub 47.23.Z (ryby).",
+    "Pomylenie z 10.13.Z (produkcja wędlin) — 46.32.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Handel produktami mięsnymi i rybnymi wymaga rejestracji w SANEPID/PIW i spełnienia rygorów sanitarnych. Stawki VAT na produkty spożywcze są zróżnicowane. Stawki sprawdź u doradcy podatkowego."
+}

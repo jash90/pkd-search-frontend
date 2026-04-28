@@ -1,0 +1,36 @@
+{
+  "code": "23.31.Z",
+  "name": "Produkcja ceramicznych kafli i płytek",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.31.Z obejmuje produkcję ceramicznych kafli i płytek ściennych, podłogowych, glazury, terakoty, gresów porcelanowych, mozaik i płytek elewacyjnych. To kod dla zakładów ceramicznych wytwarzających okładziny do budownictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład produkcji gresów porcelanowych",
+      "use": "Wytwarza płytki gresowe szkliwione i pełnospiekane dla budownictwa mieszkaniowego i komercyjnego."
+    },
+    {
+      "persona": "Producent glazury ściennej",
+      "use": "Produkuje glazurę łazienkową i kuchenną w wielu formatach i kolekcjach."
+    },
+    {
+      "persona": "Wytwórca mozaik ceramicznych",
+      "use": "Produkuje mozaiki na siatce do dekoracji łazienek, basenów i SPA."
+    },
+    {
+      "persona": "Producent płytek wielkoformatowych",
+      "use": "Wytwarza płytki XXL i blaty z gresu spiekanego dla architektury premium."
+    }
+  ],
+  "businessExamples": [
+    "Zakład gresów porcelanowych",
+    "Producent glazury łazienkowej",
+    "Wytwórnia mozaik basenowych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.31.Z dla cegieł i dachówek — to 23.32.Z (wyroby z wypalanej gliny).",
+    "Pomylenie z 43.33.Z (układanie płytek) — montaż glazury u klienta to usługa budowlana."
+  ],
+  "taxNotes": "Płytki ceramiczne objęte są oznakowaniem CE zgodnie z normą EN 14411 i deklaracją DoP. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

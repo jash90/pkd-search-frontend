@@ -1,0 +1,36 @@
+{
+  "code": "62.10.B",
+  "name": "Pozostała działalność w zakresie programowania",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-sonnet-4-6",
+  "intro": "Kod 62.10.B obejmuje pisanie, modyfikowanie i utrzymywanie kodu komputerowego na zlecenie — wszystko poza tworzeniem gier komputerowych (które ma osobny kod 62.10.A). To podstawowy kod dla większości freelancerów IT i software house'ów realizujących projekty webowe, mobilne, backendowe, integracyjne czy DevOps.",
+  "whoUsesIt": [
+    {
+      "persona": "Programista freelancer",
+      "use": "Pisze aplikacje webowe lub mobilne na zlecenie klientów (B2B lub umowy o dzieło)."
+    },
+    {
+      "persona": "Software house",
+      "use": "Realizuje projekty contractowe — od MVP po długoterminowe utrzymanie systemów klienta."
+    },
+    {
+      "persona": "Solo developer SaaS",
+      "use": "Buduje i utrzymuje własny produkt SaaS, dodatkowo świadczy usługi konsultingowe."
+    },
+    {
+      "persona": "Specjalista DevOps / SRE",
+      "use": "Pisze skrypty automatyzacji, infrastructure-as-code, pipeline'y CI/CD dla klientów."
+    }
+  ],
+  "businessExamples": [
+    "Software house tworzący systemy ERP",
+    "Freelancer React Native robiący aplikacje mobilne",
+    "Konsultant AI/ML wdrażający modele u klientów"
+  ],
+  "commonMistakes": [
+    "Wybór 62.10.B zamiast 62.10.A przy działalności skupionej na grach komputerowych — gry mają osobny kod.",
+    "Pomylenie z 62.20.B (doradztwo IT bez pisania kodu) — jeśli głównie projektujesz architekturę i nie kodujesz, prawidłowy kod to 62.20.B."
+  ],
+  "taxNotes": "Działalność programistyczna często kwalifikuje się do preferencyjnych form opodatkowania (ryczałt według właściwej stawki, IP Box, rozliczenie B2B). Wybór konkretnej formy zależy od sposobu świadczenia usług, kategorii prac twórczych i modelu rozliczeń z klientem. Stawki sprawdź u doradcy podatkowego."
+}

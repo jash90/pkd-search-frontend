@@ -1,0 +1,36 @@
+{
+  "code": "95.22.Z",
+  "name": "Naprawa i konserwacja urządzeń gospodarstwa domowego oraz sprzętu do użytku domowego i ogrodniczego",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.22.Z obejmuje naprawę i konserwację AGD oraz sprzętu domowego i ogrodniczego — pralek, lodówek, zmywarek, kuchenek, kosiarek, dmuchaw i podobnych urządzeń. Pasuje dla serwisów sprzętu RTV-AGD oraz serwisantów świadczących usługi mobilne u klienta.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis AGD mobilny",
+      "use": "Naprawia pralki, lodówki i zmywarki w domu klienta z wyjazdami terenowymi."
+    },
+    {
+      "persona": "Serwis stacjonarny RTV-AGD",
+      "use": "Prowadzi punkt z przyjmowaniem sprzętu do naprawy w warsztacie."
+    },
+    {
+      "persona": "Serwis kosiarek i sprzętu ogrodniczego",
+      "use": "Naprawia kosiarki, piły spalinowe i podobne narzędzia ogrodnicze."
+    },
+    {
+      "persona": "Autoryzowany serwis marki AGD",
+      "use": "Realizuje naprawy gwarancyjne i pogwarancyjne dla konkretnego producenta."
+    }
+  ],
+  "businessExamples": [
+    "Mobilny serwis pralek i lodówek z wyjazdami w mieście",
+    "Punkt naprawy kosiarek i pił spalinowych",
+    "Autoryzowany serwis marki AGD z dostawami do klienta"
+  ],
+  "commonMistakes": [
+    "Wybór 95.22.Z dla naprawy elektroniki użytkowej (TV, audio) — to oddzielny kod 95.21.Z.",
+    "Pomylenie z 33.12.Z (naprawa i konserwacja maszyn) — gdy serwisowane są urządzenia przemysłowe (np. duże piece gastronomiczne), pasuje raczej dział 33."
+  ],
+  "taxNotes": "Wyjazdy serwisowe wymagają ewidencji przebiegu pojazdu. Sprzedaż części zamiennych podlega kasie fiskalnej w przypadku osób fizycznych. Stawki sprawdź u doradcy podatkowego."
+}

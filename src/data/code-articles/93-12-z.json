@@ -1,0 +1,36 @@
+{
+  "code": "93.12.Z",
+  "name": "Działalność klubów sportowych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.12.Z obejmuje działalność klubów sportowych w dyscyplinach drużynowych i indywidualnych — od klubów piłkarskich, koszykarskich, siatkarskich po kluby pływackie, lekkoatletyczne i bojowe. Pasuje zarówno dla klubów amatorskich, jak i profesjonalnych zespołów rywalizujących w rozgrywkach.",
+  "whoUsesIt": [
+    {
+      "persona": "Klub piłkarski",
+      "use": "Prowadzi drużynę seniorską i grupy młodzieżowe, uczestniczy w rozgrywkach ligowych."
+    },
+    {
+      "persona": "Klub sportów walki",
+      "use": "Trenuje zawodników w boksie, MMA czy karate, wystawia ich w turniejach."
+    },
+    {
+      "persona": "Akademia piłkarska / klub młodzieżowy",
+      "use": "Szkoli dzieci i młodzież, organizuje obozy i mecze towarzyskie."
+    },
+    {
+      "persona": "Klub sportów indywidualnych",
+      "use": "Prowadzi sekcję pływacką, lekkoatletyczną lub tenisową z trenerami i zawodnikami."
+    }
+  ],
+  "businessExamples": [
+    "Klub piłki nożnej z drużynami seniorów i juniorów",
+    "Akademia piłkarska dla dzieci i młodzieży",
+    "Klub bokserski z udziałem w zawodach"
+  ],
+  "commonMistakes": [
+    "Wybór 93.12.Z dla samego operatora obiektu sportowego — wynajem hali bez profilu klubowego to 93.11.Z (działalność obiektów sportowych).",
+    "Pomylenie z 85.51.Z (pozaszkolne formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych) — kiedy głównym profilem są regularne zajęcia/szkolenia, ten kod może być właściwszy."
+  ],
+  "taxNotes": "Kluby sportowe często działają jako stowarzyszenia z dotacjami samorządowymi i zwolnieniami dla działalności statutowej. Komercyjne kluby podlegają standardowemu VAT. Stawki sprawdź u doradcy podatkowego."
+}

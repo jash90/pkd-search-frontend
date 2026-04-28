@@ -1,0 +1,36 @@
+{
+  "code": "46.73.Z",
+  "name": "Sprzedaż hurtowa motocykli oraz części i akcesoriów do nich",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.73.Z obejmuje sprzedaż hurtową motocykli, skuterów, motorowerów, quadów oraz części, akcesoriów i odzieży motocyklowej do nich — do dealerów, sklepów motocyklowych i serwisów. Sprzedaż detaliczna motocykli klasyfikowana jest pod 45.40.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Importer motocykli",
+      "use": "Reprezentuje markę motocyklową przed siecią dealerską w Polsce."
+    },
+    {
+      "persona": "Dystrybutor części motocyklowych",
+      "use": "Sprzedaje części i akcesoria do warsztatów i sklepów motocyklowych."
+    },
+    {
+      "persona": "Hurtownia odzieży motocyklowej",
+      "use": "Zaopatruje sklepy motocyklowe w kaski, kurtki i ochraniacze."
+    },
+    {
+      "persona": "Dealer skuterów i quadów",
+      "use": "Sprzedaje hurtowo pojazdy jednośladowe do mniejszych dealerów regionalnych."
+    }
+  ],
+  "businessExamples": [
+    "Importer marki motocyklowej dla sieci dealerskiej",
+    "Hurtownia części i akcesoriów motocyklowych",
+    "Dystrybutor odzieży motocyklowej premium"
+  ],
+  "commonMistakes": [
+    "Wybór 46.73.Z dla sprzedaży części samochodowych — właściwy jest 46.72.Z.",
+    "Pomylenie z 45.40.Z (sprzedaż detaliczna motocykli) — 46.73.Z to handel hurtowy."
+  ],
+  "taxNotes": "Sprzedaż motocykli podlega akcyzie i specjalnym regulacjom VAT (m.in. VAT-marża dla używanych). Stawki sprawdź u doradcy podatkowego."
+}

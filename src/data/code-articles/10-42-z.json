@@ -1,0 +1,36 @@
+{
+  "code": "10.42.Z",
+  "name": "Produkcja margaryny i podobnych tłuszczów jadalnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.42.Z obejmuje produkcję margaryny stołowej, margaryny do pieczenia, smarowideł roślinnych, mieszanek tłuszczów cukierniczych oraz utwardzonych tłuszczów jadalnych. To wyspecjalizowany kod dla zakładów tłuszczowych zaopatrujących branżę cukierniczą, piekarniczą i retail.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład margarynowy",
+      "use": "Produkuje margaryny stołowe i kuchenne pod markami własnymi i prywatnymi (private label)."
+    },
+    {
+      "persona": "Producent tłuszczów cukierniczych",
+      "use": "Wytwarza specjalistyczne tłuszcze do pieczenia, smażenia i wyrobów cukierniczych."
+    },
+    {
+      "persona": "Wytwórnia smarowideł roślinnych",
+      "use": "Produkuje smarowidła wegańskie z dodatkiem oliwy lub orzechów na rynek premium."
+    },
+    {
+      "persona": "Dostawca dla piekarstwa",
+      "use": "Tłuszczowy kontrahent dla zakładów piekarniczych dostarczający margaryny piekarskie."
+    }
+  ],
+  "businessExamples": [
+    "Producent margaryny w private label",
+    "Wytwórnia tłuszczów cukierniczych",
+    "Manufaktura smarowideł wegańskich"
+  ],
+  "commonMistakes": [
+    "Wybór 10.42.Z zamiast 10.41.Z, gdy produkujesz oleje płynne (rzepakowy, lniany, słonecznikowy) — te mają własny kod.",
+    "Pomylenie z 10.51.Z, gdy zakład produkuje masło z mleka — masło jako wyrób mleczarski ma osobny kod."
+  ],
+  "taxNotes": "Produkcja tłuszczów wymaga zatwierdzenia sanepidu i HACCP. Działalność CIT/PIT z VAT-em na zasadach ogólnych; tłuszcze spożywcze często objęte preferencyjną stawką VAT, a innowacje produktowe mogą kwalifikować się do ulgi B+R. Stawki sprawdź u doradcy podatkowego."
+}

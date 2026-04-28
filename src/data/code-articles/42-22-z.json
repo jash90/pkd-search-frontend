@@ -1,0 +1,36 @@
+{
+  "code": "42.22.Z",
+  "name": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.22.Z dotyczy budowy linii energetycznych (napowietrznych i kablowych — niskich, średnich, wysokich i najwyższych napięć), stacji elektroenergetycznych oraz sieci telekomunikacyjnych — światłowodów, sieci komórkowych, kabli miedzianych. To podstawowy kod dla firm budujących infrastrukturę przesyłu danych i energii.",
+  "whoUsesIt": [
+    {
+      "persona": "Wykonawca linii energetycznych WN",
+      "use": "Buduje linie 110/220/400 kV dla operatorów przesyłowych i dystrybucyjnych."
+    },
+    {
+      "persona": "Firma od sieci światłowodowych FTTH",
+      "use": "Doprowadza światłowody do domów i firm w ramach projektów telco."
+    },
+    {
+      "persona": "Wykonawca stacji bazowych BTS",
+      "use": "Buduje wieże i stacje sieci komórkowych dla operatorów."
+    },
+    {
+      "persona": "Firma od kabli SN i nN",
+      "use": "Realizuje budowę linii kablowych dystrybucyjnych w miastach i wsiach."
+    }
+  ],
+  "businessExamples": [
+    "Budowa linii 110 kV dla OSD",
+    "Sieć światłowodowa FTTH w mieście",
+    "Stacje bazowe 5G dla operatora telco"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.21.Z (instalacje elektryczne) — instalacje wewnętrzne w budynkach to 43.21.Z, sieci zewnętrzne to 42.22.Z.",
+    "Wybór 42.22.Z zamiast 61.10.Z, gdy faktycznie firma świadczy usługi telekomunikacyjne, a nie buduje sieci."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Inwestycje światłowodowe korzystają z programów POPC i KPO. Stawki sprawdź u doradcy podatkowego."
+}

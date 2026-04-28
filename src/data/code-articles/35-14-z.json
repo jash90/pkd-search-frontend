@@ -1,0 +1,36 @@
+{
+  "code": "35.14.Z",
+  "name": "Dystrybucja energii elektrycznej",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.14.Z obejmuje dystrybucję energii elektrycznej sieciami średnich i niskich napięć do odbiorców końcowych — gospodarstw domowych, firm, instytucji. To działalność operatorów systemu dystrybucyjnego (OSD), takich jak PGE Dystrybucja, Tauron Dystrybucja, Energa-Operator czy Stoen.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator systemu dystrybucyjnego (OSD)",
+      "use": "Zarządza siecią SN i nN doprowadzającą energię do odbiorców na danym obszarze."
+    },
+    {
+      "persona": "Lokalny operator sieciowy",
+      "use": "Obsługuje sieć dystrybucyjną w gminie lub przy zakładzie przemysłowym."
+    },
+    {
+      "persona": "Spółka eksploatacyjna sieci nN",
+      "use": "Utrzymuje i konserwuje linie niskiego napięcia w mieście."
+    },
+    {
+      "persona": "Operator wewnętrznej sieci zakładowej (OSDn)",
+      "use": "Dystrybuuje energię w obrębie parku przemysłowego lub osiedla."
+    }
+  ],
+  "businessExamples": [
+    "Operator OSD na obszarze województwa",
+    "Lokalny dystrybutor energii w parku przemysłowym",
+    "Operator sieci nN w spółdzielni mieszkaniowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.13.Z (przesył) — dystrybucja dotyczy doprowadzania prądu do odbiorcy końcowego, przesył to sieć szkieletowa.",
+    "Wybór 35.14.Z zamiast 35.15.Z, gdy faktyczną działalnością jest sprzedaż energii, a nie eksploatacja sieci dystrybucyjnej."
+  ],
+  "taxNotes": "Operatorzy OSD wymagają koncesji URE, podlegają regulacji taryfowej i obowiązkowi unbundlingu. Opłata dystrybucyjna jest składnikiem rachunku odbiorcy końcowego. Stawki sprawdź u doradcy podatkowego."
+}

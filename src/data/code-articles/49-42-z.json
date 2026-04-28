@@ -1,0 +1,36 @@
+{
+  "code": "49.42.Z",
+  "name": "Działalność usługowa związana z przeprowadzkami",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.42.Z dotyczy usług przeprowadzek mieszkaniowych, biurowych i przemysłowych — pakowania, transportu i rozpakowywania mebli oraz wyposażenia. Obejmuje też relokacje firm, demontaż i montaż mebli oraz przeprowadzki międzynarodowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel firmy przeprowadzkowej",
+      "use": "Realizuje przeprowadzki mieszkaniowe z pakowaniem i wnoszeniem mebli."
+    },
+    {
+      "persona": "Specjalista relokacji biurowych",
+      "use": "Przeprowadza biura i firmy z demontażem mebli i organizacją logistyczną."
+    },
+    {
+      "persona": "Operator przeprowadzek międzynarodowych",
+      "use": "Realizuje przeprowadzki z PL do UE z pełną dokumentacją celną i ubezpieczeniem."
+    },
+    {
+      "persona": "Drobny przewoźnik z busem",
+      "use": "Wykonuje pojedyncze przeprowadzki dla osób fizycznych z lekkim busem."
+    }
+  ],
+  "businessExamples": [
+    "Firma przeprowadzkowa „pod klucz” z pakowaniem",
+    "Relokacje biur i kompleksów firmowych",
+    "Przeprowadzki PL → UK / DE / NL"
+  ],
+  "commonMistakes": [
+    "Wybór 49.42.Z zamiast 49.41.Z, jeśli firma realizuje głównie zwykłe przewozy ładunków, a przeprowadzki są dodatkiem.",
+    "Pomylenie z 52.10.B — magazynowanie rzeczy klientów (storage) to magazynowanie, a nie przeprowadzki."
+  ],
+  "taxNotes": "Wymagana licencja transportowa, ubezpieczenie OCP-przewoźnika i często polisa cargo. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "26.52.Z",
+  "name": "Produkcja zegarków i zegarów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.52.Z obejmuje produkcję zegarków naręcznych, kieszonkowych, zegarów ściennych, stojących, kominkowych, budzików, mechanizmów zegarmistrzowskich, kopert, bransolet i pasków zegarków oraz urządzeń rejestrujących czas (np. zegarów kontrolnych). To kod dla wytwórców zegarków mechanicznych, kwarcowych i smartwatchy.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zegarków naręcznych",
+      "use": "Wytwarza zegarki mechaniczne, kwarcowe i smartwatche dla rynku detalicznego."
+    },
+    {
+      "persona": "Wytwórca zegarów ściennych i stojących",
+      "use": "Produkuje zegary dekoracyjne i kominkowe na rynek wnętrzarski."
+    },
+    {
+      "persona": "Producent mechanizmów zegarmistrzowskich",
+      "use": "Wytwarza mechanizmy szkieletowe i kalibry dla wytwórców zegarków premium."
+    },
+    {
+      "persona": "Producent zegarów kontrolnych i rejestratorów czasu",
+      "use": "Produkuje zegary do ewidencji czasu pracy i taryfikatorów."
+    }
+  ],
+  "businessExamples": [
+    "Producent zegarków mechanicznych premium",
+    "Wytwórnia smartwatchy i bransolet fitness",
+    "Producent zegarów ściennych dekoracyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 26.52.Z zamiast 32.12.Z (produkcja wyrobów jubilerskich), gdy zegarek jest sprzedawany jako wyrób biżuteryjny ze złota lub srebra próby — może wymagać klasyfikacji jubilerskiej.",
+    "Pomylenie z 26.51.Z (przyrządy pomiarowe) — chronografy laboratoryjne i mierniki czasu dla nauki to 26.51.Z."
+  ],
+  "taxNotes": "Produkcja zegarków objęta jest VAT na zasadach ogólnych. Sprzedaż detaliczna i online wymaga kasy fiskalnej. Wybór formy opodatkowania zależy od skali produkcji, marżowości i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

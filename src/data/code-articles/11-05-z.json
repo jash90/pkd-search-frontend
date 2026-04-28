@@ -1,0 +1,36 @@
+{
+  "code": "11.05.Z",
+  "name": "Produkcja piwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.05.Z obejmuje produkcję piwa — od mass-market lagerów po piwa rzemieślnicze (craft), piwa bezalkoholowe i piwa specjalne. Browar wytwarzający piwo na sprzedaż, niezależnie od skali, używa właśnie tego kodu. Wyłączona jest produkcja słodu (11.06.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Browar przemysłowy",
+      "use": "Produkuje lagery i piwa pszeniczne w masowej skali dla retailu i HoReCa."
+    },
+    {
+      "persona": "Browar rzemieślniczy (craft)",
+      "use": "Wytwarza IPA, stouty, sour ales i inne piwa autorskie pod własną marką."
+    },
+    {
+      "persona": "Browar kontraktowy",
+      "use": "Tworzy receptury i sprzedaje piwo, ale produkcję zleca cudzemu browarowi."
+    },
+    {
+      "persona": "Browar restauracyjny (brewpub)",
+      "use": "Warzy piwo na miejscu i serwuje je w przylegającym lokalu gastronomicznym."
+    }
+  ],
+  "businessExamples": [
+    "Browar craftowy z autorskimi IPA",
+    "Brewpub warzący piwo na miejscu",
+    "Browar kontraktowy zlecający produkcję na zewnątrz"
+  ],
+  "commonMistakes": [
+    "Wybór 11.05.Z zamiast 11.06.Z — produkcja słodu (jako półproduktu dla browarów) to 11.06.Z, a nie 11.05.Z.",
+    "Pomylenie z 56.30.Z (Przygotowywanie i podawanie napojów) — brewpub serwujący piwo w lokalu może mieć dodatkowo 56.30.Z dla części gastronomicznej."
+  ],
+  "taxNotes": "Produkcja piwa objęta jest akcyzą i wymogami składu podatkowego, a małe browary korzystają z preferencyjnych stawek akcyzowych. Stawki sprawdź u doradcy podatkowego."
+}

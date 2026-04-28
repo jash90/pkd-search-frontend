@@ -1,0 +1,36 @@
+{
+  "code": "03.21.Z",
+  "name": "Akwakultura w wodach morskich",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 03.21.Z obejmuje hodowlę ryb, skorupiaków i mięczaków w wodach morskich oraz w sadzach przybrzeżnych — łosoś, tuńczyk, ostrygi, omułki, krewetki morskie. W Polsce kod ten praktycznie nie jest stosowany w produkcji towarowej (Bałtyk to woda słonawa), ale pojawia się przy projektach pilotażowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Hodowca pilotażowy",
+      "use": "Prowadzi pilotażową hodowlę ryb morskich w sadzach na Zalewie Wiślanym lub Szczecińskim."
+    },
+    {
+      "persona": "Polski oddział firmy zagranicznej",
+      "use": "Posiada farmy łososiowe na Atlantyku i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Hodowca mięczaków",
+      "use": "Eksperymentuje z hodowlą omułków lub ostryg w wodach przybrzeżnych Bałtyku."
+    },
+    {
+      "persona": "Stacja badawcza morska",
+      "use": "Prowadzi badania nad akwakulturą morską w warunkach kontrolowanych."
+    }
+  ],
+  "businessExamples": [
+    "Pilotażowa hodowla na Zalewie Wiślanym",
+    "Polski oddział farmy łososiowej",
+    "Eksperymentalna farma mięczaków"
+  ],
+  "commonMistakes": [
+    "Wybór 03.21.Z zamiast 03.11.Z (rybołówstwo morskie), gdy działalność polega na połowie dzikich ryb, a nie hodowli kontrolowanej.",
+    "Pomylenie z 03.22.Z, gdy hodowla odbywa się w wodach śródlądowych (jeziora, stawy, recyrkulacja) — akwakultura słodkowodna ma osobny kod."
+  ],
+  "taxNotes": "Akwakultura jako działalność rolnicza zwykle podlega specyficznym regulacjom (operat wodnoprawny, pozwolenia środowiskowe). Forma opodatkowania zależy od skali — VAT i dotacje EFMR również wymagają analizy. Stawki sprawdź u doradcy podatkowego."
+}

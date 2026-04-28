@@ -1,0 +1,36 @@
+{
+  "code": "01.45.Z",
+  "name": "Chów i hodowla owiec i kóz",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.45.Z obejmuje chów owiec i kóz na mięso, mleko, wełnę i skóry, a także produkcję surowego mleka owczego i koziego. To popularny kod dla gospodarstw zlokalizowanych w południowej Polsce (Podhale, Beskidy) oraz coraz liczniejszych farm kóz mlecznych dla serowarstwa rzemieślniczego.",
+  "whoUsesIt": [
+    {
+      "persona": "Hodowca owiec na Podhalu",
+      "use": "Prowadzi stado owiec na bacówce, produkuje oscypki i bryndzę z własnego mleka."
+    },
+    {
+      "persona": "Farma kóz mlecznych",
+      "use": "Hoduje kozy alpejskie lub anglonubijskie, dostarcza mleko do serowarni rzemieślniczych."
+    },
+    {
+      "persona": "Gospodarstwo owczarskie",
+      "use": "Hoduje owce mięsne lub wełniste na sprzedaż jagniąt i wełny."
+    },
+    {
+      "persona": "Producent serów koziego",
+      "use": "Łączy własną hodowlę kóz z manufakturą serowarską i sprzedażą bezpośrednią."
+    }
+  ],
+  "businessExamples": [
+    "Bacówka z owcami na Podhalu",
+    "Farma kóz alpejskich z serownią",
+    "Hodowca owiec mięsnych w Beskidach"
+  ],
+  "commonMistakes": [
+    "Wybór 01.45.Z zamiast 10.51.Z, gdy działalność polega głównie na produkcji serów i jogurtów — wówczas potrzebny jest dodatkowy kod produkcji mleczarskiej.",
+    "Pomylenie z 01.42.Z (chów bydła), gdy stado jest mieszane — główny kod powinien odpowiadać dominującej hodowli."
+  ],
+  "taxNotes": "Hodowla owiec i kóz to klasyczna działalność rolnicza objęta podatkiem rolnym; produkcja serów może być RHD lub działem specjalnym. Sprawdź też zasady VAT, dotacje ONW oraz wpis IRZ. Stawki sprawdź u doradcy podatkowego."
+}

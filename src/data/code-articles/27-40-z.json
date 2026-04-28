@@ -1,0 +1,36 @@
+{
+  "code": "27.40.Z",
+  "name": "Produkcja sprzętu oświetleniowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.40.Z obejmuje produkcję opraw oświetleniowych, lamp, żarówek (w tym LED), świetlówek, plafonów, latarni ulicznych, oświetlenia samochodowego, choinkowego, scenicznego, kamerowego oraz lamp specjalnych. Wlicza się tu również produkcję dekoracyjnych zestawów oświetleniowych. Nie obejmuje produkcji sprzętu oświetleniowego z funkcjami medycznymi (26.60.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent opraw LED",
+      "use": "Wytwarza oprawy biurowe, przemysłowe i handlowe LED z certyfikacją CE i ENEC."
+    },
+    {
+      "persona": "Wytwórnia oświetlenia ulicznego",
+      "use": "Produkuje latarnie i oprawy parkowe dla samorządów i firm GPO."
+    },
+    {
+      "persona": "Manufaktura lamp dekoracyjnych",
+      "use": "Projektuje i wykonuje lampy do hoteli, restauracji i wnętrz mieszkaniowych w małych seriach."
+    },
+    {
+      "persona": "Producent oświetlenia scenicznego",
+      "use": "Wytwarza reflektory, ruchome głowy i panele LED dla teatrów, koncertów i studiów telewizyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Producent opraw LED do biur i magazynów",
+    "Wytwórnia latarni ulicznych dla samorządów",
+    "Manufaktura lamp dekoracyjnych do hoteli"
+  ],
+  "commonMistakes": [
+    "Wybór 27.40.Z zamiast 47.59.Z — sklep z lampami i oświetleniem to handel, a nie produkcja.",
+    "Mylenie z 26.40.Z — produkcja telewizorów i monitorów z podświetleniem LED nie jest produkcją sprzętu oświetleniowego."
+  ],
+  "taxNotes": "Produkcja oświetlenia podlega regulacjom ErP/EcoDesign, ROHS, WEEE i standardowym zasadom CIT/PIT i VAT, a wprowadzający ponoszą opłaty BDO. Stawki sprawdź u doradcy podatkowego."
+}

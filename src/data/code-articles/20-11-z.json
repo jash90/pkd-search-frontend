@@ -1,0 +1,36 @@
+{
+  "code": "20.11.Z",
+  "name": "Produkcja gazów technicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.11.Z obejmuje produkcję sprężonych, skroplonych i rozpuszczonych gazów technicznych — tlenu, azotu, argonu, dwutlenku węgla, helu, acetylenu, wodoru oraz mieszanin spawalniczych i medycznych. To kod dla zakładów separacji gazów z powietrza i napełniania butli.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórnia gazów technicznych",
+      "use": "Produkuje tlen, azot i argon w instalacjach kriogenicznych i dystrybuuje w butlach lub cysternach."
+    },
+    {
+      "persona": "Producent gazów medycznych",
+      "use": "Dostarcza tlen medyczny i podtlenek azotu do szpitali oraz koncentratorów domowych."
+    },
+    {
+      "persona": "Wytwórca CO2 spożywczego",
+      "use": "Produkuje dwutlenek węgla do napojów gazowanych, browarów i opakowań MAP."
+    },
+    {
+      "persona": "Producent acetylenu i wodoru",
+      "use": "Dostarcza gazy spawalnicze i przemysłowe dla branży metalowej i chemicznej."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia tlenu medycznego dla szpitali",
+    "Producent CO2 dla browarów i napojów",
+    "Zakład napełniania butli gazami spawalniczymi"
+  ],
+  "commonMistakes": [
+    "Wybór 20.11.Z dla samej dystrybucji gazów w butlach bez produkcji — handel hurtowy gazami to 46.71.Z.",
+    "Pomylenie z 19.20.Z (wytwarzanie produktów rafinacji ropy) — gaz LPG i propan-butan jako paliwo to inna klasyfikacja."
+  ],
+  "taxNotes": "Produkcja gazów technicznych podlega ścisłym regulacjom transportu materiałów niebezpiecznych (ADR) oraz akcyzy w niektórych asortymentach. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

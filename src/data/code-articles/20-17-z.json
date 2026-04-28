@@ -1,0 +1,36 @@
+{
+  "code": "20.17.Z",
+  "name": "Produkcja kauczuku syntetycznego w formach podstawowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.17.Z obejmuje produkcję syntetycznych kauczuków i lateksów w formach podstawowych — SBR, NBR, EPDM, butadienowych, butylowych, silikonowych oraz mieszanek kauczukowych. To wąski kod dla wyspecjalizowanych zakładów chemicznych dostarczających surowiec dla branży gumowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład produkcji kauczuku SBR",
+      "use": "Wytwarza kauczuk styrenowo-butadienowy dla branży oponiarskiej."
+    },
+    {
+      "persona": "Producent kauczuku silikonowego",
+      "use": "Produkuje silikony HTV i RTV dla przemysłu motoryzacyjnego i medycznego."
+    },
+    {
+      "persona": "Wytwórca lateksów syntetycznych",
+      "use": "Dostarcza emulsje lateksowe dla rękawic, klejów i powłok ochronnych."
+    },
+    {
+      "persona": "Zakład mieszanek kauczukowych",
+      "use": "Produkuje gotowe mieszanki kauczukowe dla zakładów wulkanizacji."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia kauczuku SBR dla opon",
+    "Producent silikonów HTV",
+    "Zakład lateksów do rękawic medycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 20.17.Z dla produkcji opon lub wyrobów gumowych — to 22.11.Z lub 22.12.Z.",
+    "Pomylenie z 20.16.Z (tworzywa sztuczne) — kauczuk to elastomer i ma osobny kod."
+  ],
+  "taxNotes": "Produkcja kauczuku wymaga rejestracji REACH i certyfikacji zgodności z normami branżowymi (np. motoryzacyjnymi). Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

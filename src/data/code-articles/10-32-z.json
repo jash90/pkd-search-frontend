@@ -1,0 +1,36 @@
+{
+  "code": "10.32.Z",
+  "name": "Produkcja soków z owoców i warzyw",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.32.Z obejmuje produkcję soków, nektarów, smoothie, koncentratów oraz przecierów owocowych i warzywnych — pasteryzowanych, NFC oraz z koncentratu. To kluczowy kod dla polskiej branży tłoczni soków, w tym czołowego sektora soków jabłkowych w Europie.",
+  "whoUsesIt": [
+    {
+      "persona": "Tłocznia soków NFC",
+      "use": "Tłoczy soki jabłkowe, marchwiowe, buraczane bezpośrednio z owoców i warzyw, butelkuje pod własną marką."
+    },
+    {
+      "persona": "Producent soków z koncentratu",
+      "use": "Wytwarza soki, nektary i napoje z dodatkiem wody na skalę masową dla sieci handlowych."
+    },
+    {
+      "persona": "Manufaktura smoothie",
+      "use": "Produkuje świeże soki tłoczone i smoothie z dystrybucją lokalną HPP lub na zimno."
+    },
+    {
+      "persona": "Eksporter soku jabłkowego",
+      "use": "Tłoczy koncentrat soku jabłkowego dla globalnych odbiorców (Niemcy, USA, Chiny)."
+    }
+  ],
+  "businessExamples": [
+    "Tłocznia soków NFC z sadu",
+    "Producent koncentratu jabłkowego",
+    "Manufaktura smoothie HPP"
+  ],
+  "commonMistakes": [
+    "Wybór 10.32.Z zamiast 11.07.Z (produkcja napojów bezalkoholowych), gdy produkujesz napoje gazowane lub wody smakowe — to inny kod napojowy.",
+    "Pomylenie z 01.24.Z, gdy posiadasz sad i tłoczysz tylko własne owoce na własny użytek — wówczas kod sadowniczy może być wystarczający."
+  ],
+  "taxNotes": "Produkcja soków wymaga HACCP, zatwierdzenia sanepidu i zgodności z normami znakowania. Działalność CIT/PIT z VAT-em na zasadach ogólnych — soki naturalne mogą podlegać preferencyjnym stawkom VAT, a opłata cukrowa dotyczy napojów słodzonych. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "90.12.Z",
+  "name": "Działalność twórcza w zakresie sztuk wizualnych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.12.Z obejmuje twórczość plastyków, malarzy, rzeźbiarzy, ilustratorów i artystów cyfrowych — osób tworzących dzieła sztuk wizualnych na własny rachunek. Pasuje również dla artystów NFT i twórców street artu prowadzących działalność.",
+  "whoUsesIt": [
+    {
+      "persona": "Malarz / artysta plastyk",
+      "use": "Tworzy obrazy olejne i akwarele, sprzedaje przez galerie i online."
+    },
+    {
+      "persona": "Rzeźbiarz",
+      "use": "Realizuje rzeźby na zamówienie galerii, instytucji publicznych i klientów prywatnych."
+    },
+    {
+      "persona": "Ilustrator książkowy",
+      "use": "Tworzy ilustracje do książek, czasopism i materiałów edukacyjnych na zlecenie."
+    },
+    {
+      "persona": "Artysta cyfrowy / twórca NFT",
+      "use": "Tworzy grafikę cyfrową i sprzedaje cyfrowe dzieła sztuki w ramach platform online."
+    }
+  ],
+  "businessExamples": [
+    "Atelier malarskie z indywidualną sprzedażą obrazów",
+    "Pracownia rzeźbiarska realizująca zamówienia publiczne",
+    "Studio ilustracji książkowej i prasowej"
+  ],
+  "commonMistakes": [
+    "Wybór 90.12.Z dla działalności graficznej w reklamie — projektowanie graficzne komercyjne to 74.10.Z (działalność w zakresie specjalistycznego projektowania).",
+    "Pomylenie z 47.78.Z (sprzedaż detaliczna pozostałych nowych wyrobów w wyspecjalizowanych sklepach) — sama sprzedaż dzieł cudzych w galerii to inna kategoria niż własna twórczość."
+  ],
+  "taxNotes": "Artyści mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich w ramach limitu rocznego. Sprzedaż dzieł sztuki przez twórcę często korzysta z preferencyjnych zasad VAT. Stawki sprawdź u doradcy podatkowego."
+}

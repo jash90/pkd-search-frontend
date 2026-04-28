@@ -1,0 +1,36 @@
+{
+  "code": "30.99.Z",
+  "name": "Produkcja pozostałego sprzętu transportowego, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 30.99.Z to kategoria zbiorcza dla sprzętu transportowego nieklasyfikowanego w innych kodach działu 30 — pojazdów ciągnionych przez zwierzęta, taczek, wózków transportowych, ręcznych pojazdów dziecięcych, sań i podobnych jednostek transportowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wózków transportowych ręcznych",
+      "use": "Wytwarza wózki paletowe ręczne, hak-paki i wózki dwukółkowe dla logistyki magazynowej."
+    },
+    {
+      "persona": "Fabryka pojazdów konnych",
+      "use": "Produkuje powozy, bryczki i wozy dla rolnictwa, turystyki konnej i celów dekoracyjnych."
+    },
+    {
+      "persona": "Wytwórca pojazdów dziecięcych ręcznych",
+      "use": "Robi taczki dziecięce, hulajnogi bez napędu i pojazdy zabawkowe dla dzieci."
+    },
+    {
+      "persona": "Producent sań i pojazdów rekreacyjnych",
+      "use": "Buduje sanki, jabłuszka i specjalistyczne pojazdy rekreacyjne na śnieg."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka wózków paletowych ręcznych dla logistyki",
+    "Producent powozów i bryczek na zamówienie",
+    "Zakład sań i pojazdów rekreacyjnych zimowych"
+  ],
+  "commonMistakes": [
+    "Wybór 30.99.Z, gdy istnieje dokładniejszy kod — np. rower bez napędu idzie pod 30.92.Z, nie pod kategorię zbiorczą.",
+    "Pomylenie z 32.40.Z (gry i zabawki) — pojazdy zabawkowe dla najmłodszych mogą być klasyfikowane pod 32.40.Z lub 30.99.Z zależnie od konstrukcji."
+  ],
+  "taxNotes": "Niszowa produkcja sprzętu transportowego specjalnego często odbywa się w mikroprzedsiębiorstwach z elastyczną formą opodatkowania (ryczałt, skala). Wybór zależy od skali, kosztów i modelu sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

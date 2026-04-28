@@ -1,0 +1,36 @@
+{
+  "code": "75.00.Z",
+  "name": "Działalność weterynaryjna",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 75.00.Z obejmuje opiekę zdrowotną zwierząt — gabinety, przychodnie i kliniki weterynaryjne, weterynarzy mobilnych i specjalistyczne usługi (chirurgia, stomatologia, diagnostyka obrazowa zwierząt). Pasuje dla lekarzy weterynarii prowadzących własny gabinet lub spółkę. Hodowla i sprzedaż zwierząt to inne kody (np. 47.76.Z, 01.49.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Lekarz weterynarii prowadzący gabinet",
+      "use": "Przyjmuje pacjentów (psy, koty, zwierzęta egzotyczne), wykonuje szczepienia i zabiegi."
+    },
+    {
+      "persona": "Klinika weterynaryjna",
+      "use": "Prowadzi pełnoprofilową klinikę z chirurgią, diagnostyką i opieką stacjonarną."
+    },
+    {
+      "persona": "Weterynarz mobilny / wyjazdowy",
+      "use": "Świadczy usługi w domu klienta, w hodowlach i gospodarstwach rolnych."
+    },
+    {
+      "persona": "Weterynarz hodowlany",
+      "use": "Obsługuje gospodarstwa rolne, fermy drobiu i bydła w zakresie zdrowia stada."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet weterynaryjny dla małych zwierząt domowych",
+    "Klinika z chirurgią i diagnostyką obrazową",
+    "Weterynarz mobilny obsługujący hodowle koni"
+  ],
+  "commonMistakes": [
+    "Wybór 75.00.Z dla salonów groomerskich i hoteli dla zwierząt — to jest 96.09.Z (pozostała indywidualna działalność usługowa).",
+    "Pomylenie z 47.76.Z (sprzedaż detaliczna zwierząt domowych i karm) — sklep zoologiczny to inny kod, nawet jeśli prowadzi go weterynarz."
+  ],
+  "taxNotes": "Wykonywanie zawodu lekarza weterynarii podlega ustawie korporacyjnej i wymaga prawa wykonywania zawodu. Usługi weterynaryjne podlegają VAT, możliwe są też kasy fiskalne dla sprzedaży detalicznej leków. Stawki sprawdź u doradcy podatkowego."
+}

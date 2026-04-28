@@ -1,0 +1,36 @@
+{
+  "code": "13.95.Z",
+  "name": "Produkcja włóknin i wyrobów wykonanych z włókniny",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.95.Z obejmuje produkcję włóknin (nonwovens) — materiałów tekstylnych otrzymywanych przez sklejanie/igłowanie włókien zamiast tkania — oraz gotowych wyrobów z nich (chusteczki, pieluchy, materiały higieniczne, geowłókniny, włókniny medyczne).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent włóknin technicznych",
+      "use": "Wytwarza geowłókniny, włókniny filtracyjne i przemysłowe na rolach."
+    },
+    {
+      "persona": "Wytwórca pieluch i chusteczek",
+      "use": "Produkuje pieluchy, chusteczki nawilżane i wkładki higieniczne z włóknin."
+    },
+    {
+      "persona": "Producent maseczek i fartuchów medycznych",
+      "use": "Wytwarza wyroby medyczne i ochronne ze SPS, SMS i innych włóknin."
+    },
+    {
+      "persona": "Manufaktura włóknin filtracyjnych",
+      "use": "Produkuje filtry powietrza, oleju i specjalistyczne medium filtracyjne dla przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Producent geowłóknin dla budownictwa drogowego",
+    "Wytwórca chusteczek nawilżanych pod private label",
+    "Manufaktura maseczek medycznych z SMS"
+  ],
+  "commonMistakes": [
+    "Wybór 13.95.Z zamiast 17.22.Z (Produkcja wyrobów higienicznych z papieru) — chusteczki papierowe to 17.22.Z, a chusteczki z włókniny to 13.95.Z.",
+    "Pomylenie z 21.20.Z (Produkcja leków) — wyroby medyczne klasy I-III to 13.95.Z, a leki to 21.20.Z."
+  ],
+  "taxNotes": "Produkcja włóknin podlega standardowym stawkom VAT, a wyroby medyczne mogą podlegać preferencyjnym stawkom. Forma opodatkowania zależy od skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "26.12.Z",
+  "name": "Produkcja elektronicznych obwodów drukowanych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.12.Z obejmuje produkcję płytek drukowanych (PCB) — od jednowarstwowych po wielowarstwowe, sztywne, elastyczne i sztywno-elastyczne. Klasyfikacja obejmuje też montaż komponentów na płytkach (assembly SMT/THT), czyli usługi PCB assembly dla producentów elektroniki. To kod dla zakładów PCB i firm contract manufacturing.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent PCB",
+      "use": "Wytwarza płytki drukowane wielowarstwowe na zamówienie projektantów elektroniki."
+    },
+    {
+      "persona": "Firma PCB assembly (EMS)",
+      "use": "Świadczy usługi montażu SMT i THT dla startupów i producentów elektroniki."
+    },
+    {
+      "persona": "Producent płytek elastycznych (flex PCB)",
+      "use": "Wytwarza obwody elastyczne dla branży medycznej, motoryzacyjnej i wearables."
+    },
+    {
+      "persona": "Wytwórca PCB do prototypów",
+      "use": "Realizuje krótkie serie prototypowych płytek dla zespołów R&D."
+    }
+  ],
+  "businessExamples": [
+    "Producent PCB wielowarstwowych dla elektroniki",
+    "Firma EMS świadcząca usługi PCB assembly",
+    "Wytwórnia elastycznych obwodów drukowanych (flex PCB)"
+  ],
+  "commonMistakes": [
+    "Wybór 26.12.Z zamiast 26.11.Z (produkcja elementów elektronicznych) — same elementy bierne i czynne to 26.11.Z, płytki PCB to 26.12.Z.",
+    "Pomylenie z 26.30.Z (produkcja sprzętu telekomunikacyjnego), gdy firma składa gotowe urządzenia, a nie tylko płytki — montaż gotowego urządzenia ma kod właściwy dla wyrobu finalnego."
+  ],
+  "taxNotes": "Produkcja PCB i usługi EMS objęte są VAT na zasadach ogólnych. Branża korzysta z ulg B+R, IP Box i wsparcia inwestycyjnego. Wybór formy opodatkowania zależy od skali, struktury kosztów i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

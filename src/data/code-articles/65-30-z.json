@@ -1,0 +1,36 @@
+{
+  "code": "65.30.Z",
+  "name": "Działalność w zakresie funduszy emerytalnych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 65.30.Z obejmuje działalność powszechnych towarzystw emerytalnych (PTE) zarządzających otwartymi funduszami emerytalnymi (OFE), pracowniczych funduszy emerytalnych oraz instytucji prowadzących PPK i IKE. To wąski kod dla podmiotów licencjonowanych przez KNF.",
+  "whoUsesIt": [
+    {
+      "persona": "Powszechne Towarzystwo Emerytalne (PTE)",
+      "use": "Zarządza Otwartym Funduszem Emerytalnym (OFE) z aktywami członków — opłaty od zarządzania."
+    },
+    {
+      "persona": "Instytucja prowadząca PPK",
+      "use": "Obsługuje Pracownicze Plany Kapitałowe — TFI, PTE lub zakłady ubezpieczeń wpisane do ewidencji."
+    },
+    {
+      "persona": "Pracowniczy Fundusz Emerytalny",
+      "use": "Prowadzi PFE dla pracowników jednego pracodawcy lub grupy kapitałowej w ramach III filaru."
+    },
+    {
+      "persona": "Operator IKE / IKZE",
+      "use": "Oferuje indywidualne konta emerytalne i konta zabezpieczenia emerytalnego — w ramach TFI lub banku."
+    }
+  ],
+  "businessExamples": [
+    "PTE zarządzające dużym OFE",
+    "TFI prowadzące Pracownicze Plany Kapitałowe",
+    "Pracowniczy Fundusz Emerytalny grupy kapitałowej"
+  ],
+  "commonMistakes": [
+    "Wybór 65.30.Z zamiast 66.30.Z (zarządzanie funduszami) — zarządzanie funduszami inwestycyjnymi (FIO, FIZ) niezwiązanymi z emeryturami to inny kod.",
+    "Pomylenie z 84.30.Z (obowiązkowe ubezpieczenia społeczne) — działalność ZUS i KRUS jako instytucji obowiązkowego ubezpieczenia społecznego to inny kod."
+  ],
+  "taxNotes": "Działalność funduszy emerytalnych podlega ścisłemu nadzorowi KNF, a usługi zarządzania funduszami korzystają ze zwolnienia z VAT na podstawie art. 43 ustawy o VAT. Stawki sprawdź u doradcy podatkowego."
+}

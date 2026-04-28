@@ -1,0 +1,36 @@
+{
+  "code": "46.14.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową maszyn, urządzeń przemysłowych, statków i samolotów",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.14.Z obejmuje pośrednictwo w hurtowej sprzedaży maszyn i urządzeń przemysłowych, obrabiarek, maszyn budowlanych, rolniczych, statków, samolotów, sprzętu medycznego specjalistycznego. Agent reprezentuje producenta lub odbiorcę i zarabia na prowizji od zawartych transakcji.",
+  "whoUsesIt": [
+    {
+      "persona": "Przedstawiciel handlowy producenta maszyn",
+      "use": "Reprezentuje fabrykę obrabiarek wobec zakładów produkcyjnych w Polsce."
+    },
+    {
+      "persona": "Agent sprzedaży maszyn budowlanych",
+      "use": "Pośredniczy w sprzedaży koparek, ładowarek między producentami a wykonawcami."
+    },
+    {
+      "persona": "Broker statków",
+      "use": "Pośredniczy w transakcjach kupna-sprzedaży statków morskich i jednostek pływających."
+    },
+    {
+      "persona": "Agent sprzedaży samolotów",
+      "use": "Reprezentuje producentów lub właścicieli samolotów w transakcjach."
+    }
+  ],
+  "businessExamples": [
+    "Przedstawicielstwo producenta maszyn rolniczych",
+    "Brokerstwo statków handlowych",
+    "Agent sprzedaży linii produkcyjnych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.62.Z lub 46.63.Z (sprzedaż hurtowa maszyn na własny rachunek) — agent nie kupuje maszyn na własne magazyny.",
+    "Wybór 46.14.Z zamiast 77.32.Z, gdy faktycznie firma wynajmuje maszyny budowlane, a nie pośredniczy w sprzedaży."
+  ],
+  "taxNotes": "Działalność agencyjna rozliczana jest na podstawie prowizji. Pośrednictwo w sprzedaży statków i samolotów może wymagać dodatkowych certyfikacji i licencji. Stawki sprawdź u doradcy podatkowego."
+}

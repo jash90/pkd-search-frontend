@@ -1,0 +1,36 @@
+{
+  "code": "25.99.Z",
+  "name": "Produkcja pozostałych gotowych wyrobów metalowych, gdzie indziej niesklasyfikowana",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.99.Z to kategoria 'parasol' dla produkcji gotowych wyrobów metalowych nieobjętych pozostałymi klasami działu 25 — m.in. wyrobów sanitarnych (umywalki, wanny stalowe), kas pancernych, sejfów, drabin, taczek, akcesoriów biurowych, znaków drogowych, magnesów stałych, schodów metalowych dekoracyjnych. Stosowany przez producentów niszowych wyrobów metalowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kas pancernych i sejfów",
+      "use": "Wytwarza sejfy domowe, kasy pancerne i depozytory dla banków i obiektów."
+    },
+    {
+      "persona": "Wytwórca wyrobów sanitarnych metalowych",
+      "use": "Produkuje wanny stalowe, brodziki i umywalki ze stali emaliowanej."
+    },
+    {
+      "persona": "Producent znaków drogowych",
+      "use": "Wytwarza tablice drogowe, słupy i bariery z aluminium i stali."
+    },
+    {
+      "persona": "Wytwórca drabin i rusztowań aluminiowych",
+      "use": "Produkuje drabiny, podesty i drobne rusztowania domowe i przemysłowe."
+    }
+  ],
+  "businessExamples": [
+    "Producent sejfów domowych i kas pancernych",
+    "Wytwórnia znaków drogowych i tablic informacyjnych",
+    "Producent drabin aluminiowych dla budownictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 25.99.Z, gdy istnieje dokładniejszy kod — np. dla śrub (25.94.Z), narzędzi (25.63.Z), zamków (25.62.Z) — kategoria 'parasol' dotyczy tylko wyrobów nieklasyfikowanych gdzie indziej.",
+    "Pomylenie z 32.99.Z (produkcja pozostałych wyrobów, gdzie indziej niesklasyfikowana) — wyroby metalowe gotowe wchodzą do 25.99.Z, nie do 32.99.Z."
+  ],
+  "taxNotes": "Produkcja wyrobów metalowych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od specyfiki wyrobu, skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

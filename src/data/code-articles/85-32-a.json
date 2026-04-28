@@ -1,0 +1,36 @@
+{
+  "code": "85.32.A",
+  "name": "Technika",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.32.A dotyczy techników — szkół ponadpodstawowych prowadzących kształcenie zawodowe zakończone egzaminem zawodowym i maturą. Obejmuje technika informatyczne, ekonomiczne, mechaniczne, gastronomiczne itd. Branżowe szkoły I i II stopnia mają osobne kody (85.32.B i 85.32.C), a kursy zawodowe poza systemem szkolnym to 85.59.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Powiat prowadzący technikum publiczne",
+      "use": "Organ prowadzący technikum w ramach zespołu szkół zawodowych dla młodzieży po szkole podstawowej."
+    },
+    {
+      "persona": "Założyciel niepublicznego technikum",
+      "use": "Fundacja lub spółka prowadząca prywatne technikum z uprawnieniami szkoły publicznej."
+    },
+    {
+      "persona": "Technikum branżowe (np. informatyczne)",
+      "use": "Szkoła specjalizująca się w jednej branży, ściśle współpracująca z firmami partnerskimi z sektora."
+    },
+    {
+      "persona": "Technikum w zespole szkół rolniczych",
+      "use": "Technikum kształcące w zawodach rolniczych, ogrodniczych, leśnych z gospodarstwami szkolnymi."
+    }
+  ],
+  "businessExamples": [
+    "Publiczne technikum informatyczne w zespole szkół zawodowych",
+    "Niepubliczne technikum mechatroniczne z patronatem firmy",
+    "Technikum gastronomiczne kształcące przyszłych kucharzy"
+  ],
+  "commonMistakes": [
+    "Wybór 85.32.A dla branżowej szkoły I stopnia — to osobny kod 85.32.B, mimo wspólnej klasy 85.32.",
+    "Pomylenie z 85.59.B (kursy zawodowe pozaszkolne) — technikum to system oświaty z egzaminem zawodowym, kursy to forma pozaszkolna."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych i uprawnienia szkoły publicznej (dla otrzymywania subwencji). Usługi edukacyjne często zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

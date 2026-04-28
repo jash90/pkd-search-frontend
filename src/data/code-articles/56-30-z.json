@@ -1,0 +1,36 @@
+{
+  "code": "56.30.Z",
+  "name": "Podawanie napojów",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.30.Z obejmuje prowadzenie barów, pubów, klubów nocnych, kawiarni, herbaciarni, koktajlbarów i innych miejsc, w których głównym przedmiotem działalności jest podawanie napojów (alkoholowych i bezalkoholowych) do spożycia na miejscu. To kod dla branży gastronomicznej skupionej na napojach.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel pubu",
+      "use": "Prowadzi pub z piwem rzemieślniczym i klasycznymi przekąskami — koncesja na sprzedaż alkoholu."
+    },
+    {
+      "persona": "Operator klubu nocnego",
+      "use": "Prowadzi klub muzyczny z barem i parkietem tanecznym — działalność wieczorowa i weekendowa."
+    },
+    {
+      "persona": "Właściciel kawiarni specialty",
+      "use": "Serwuje kawę specialty, herbatę i ciasta — model coffee shop z naciskiem na jakość kawy."
+    },
+    {
+      "persona": "Bar koktajlowy",
+      "use": "Oferuje autorskie koktajle i mała kuchnię — bartender-driven concept w centrum miasta."
+    }
+  ],
+  "businessExamples": [
+    "Pub z piwem rzemieślniczym",
+    "Kawiarnia specialty coffee",
+    "Cocktail bar w centrum miasta"
+  ],
+  "commonMistakes": [
+    "Wybór 56.30.Z zamiast 56.10.A (restauracje) — jeśli głównym profilem jest pełnowartościowa kuchnia z menu, a alkohol jest dodatkiem, właściwy jest kod restauracyjny.",
+    "Pomylenie z 47.25.Z (sprzedaż detaliczna napojów alkoholowych) — sklep z alkoholem na wynos (monopolowy) to handel detaliczny, nie podawanie."
+  ],
+  "taxNotes": "Sprzedaż napojów alkoholowych podlega akcyzie, koncesji gminnej i opłacie tzw. korkowej, a usługi gastronomiczne korzystają z preferencyjnych stawek VAT. Możliwy jest ryczałt od przychodów ewidencjonowanych. Stawki sprawdź u doradcy podatkowego."
+}

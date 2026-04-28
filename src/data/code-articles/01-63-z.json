@@ -1,0 +1,36 @@
+{
+  "code": "01.63.Z",
+  "name": "Działalność usługowa następująca po zbiorach oraz obróbka nasion dla celów rozmnażania roślin",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.63.Z obejmuje usługi pozbiorowe — czyszczenie, suszenie, sortowanie, zaprawianie i pakowanie nasion oraz ziarna na siew, a także suszenie zbóż i obłuskiwanie. To kod dla suszarni zbożowych, zakładów nasiennych i firm zaprawiających nasiona.",
+  "whoUsesIt": [
+    {
+      "persona": "Suszarnia zbożowa",
+      "use": "Świadczy usługi suszenia kukurydzy, rzepaku i zbóż dla rolników w okresie zbiorów."
+    },
+    {
+      "persona": "Zakład nasienny",
+      "use": "Czyści, sortuje i zaprawia nasiona zbóż i traw na materiał siewny kwalifikowany."
+    },
+    {
+      "persona": "Firma kalibrująca",
+      "use": "Sortuje i kalibruje ziemniaki sadzeniaki dla producentów ziemniaka."
+    },
+    {
+      "persona": "Magazyn z kondycjonowaniem",
+      "use": "Przechowuje i kondycjonuje zboże dla rolników, oferując usługę suszenia i czyszczenia."
+    }
+  ],
+  "businessExamples": [
+    "Suszarnia kukurydzy",
+    "Zakład nasienny czyszczący zboże",
+    "Sortownia ziemniaków sadzeniaków"
+  ],
+  "commonMistakes": [
+    "Wybór 01.63.Z zamiast 10.61.Z (przemiał zbóż), gdy działalność obejmuje też mielenie ziarna na mąkę — to już przetwórstwo.",
+    "Pomylenie z 46.21.Z (handel hurtowy zbożem), gdy głównie kupujesz i odsprzedajesz ziarno bez świadczenia usług suszenia czy czyszczenia."
+  ],
+  "taxNotes": "Usługi pozbiorowe to działalność gospodarcza podlegająca PIT/CIT i VAT na zasadach ogólnych. Skup z usługą suszenia może wymagać dodatkowych zezwoleń (rolnik ryczałtowy, faktura RR). Stawki sprawdź u doradcy podatkowego."
+}

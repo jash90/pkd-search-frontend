@@ -1,0 +1,36 @@
+{
+  "code": "17.22.Z",
+  "name": "Produkcja artykułów gospodarstwa domowego, toaletowych i sanitarnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.22.Z obejmuje produkcję papierowych artykułów higienicznych i sanitarnych — papieru toaletowego, ręczników papierowych, chusteczek, pieluch jednorazowych, podpasek oraz serwetek i obrusów papierowych. To kod dla zakładów przetwarzających celulozę i papier-bazę w wyroby gotowe dla konsumenta.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent papieru toaletowego",
+      "use": "Wytwarza rolki papieru toaletowego i ręczników kuchennych pod marką własną lub private label."
+    },
+    {
+      "persona": "Zakład produkcji pieluch i podpasek",
+      "use": "Produkuje pieluchy jednorazowe dla dzieci i dorosłych oraz środki higieny intymnej."
+    },
+    {
+      "persona": "Wytwórca chusteczek higienicznych",
+      "use": "Pakuje i konfekcjonuje chusteczki kosmetyczne, nawilżane oraz serwetki gastronomiczne."
+    },
+    {
+      "persona": "Producent artykułów dla HoReCa",
+      "use": "Dostarcza papierowe ręczniki i serwetki dla hoteli, restauracji i sektora cateringu."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka papieru toaletowego pod private label",
+    "Producent pieluch jednorazowych dla noworodków",
+    "Zakład konfekcjonujący serwetki dla HoReCa"
+  ],
+  "commonMistakes": [
+    "Wybór 17.22.Z zamiast 17.12.Z (produkcja papieru i tektury) — produkcja papieru-bazy w jumbo-rolach to inny kod.",
+    "Pomylenie z 17.23.Z (artykuły papiernicze biurowe) — koperty, zeszyty i papier do drukarek mają osobny kod."
+  ],
+  "taxNotes": "Produkcja artykułów higienicznych objęta jest standardową stawką VAT, choć część asortymentu (np. dla niemowląt) może mieć stawkę obniżoną. Wybór formy opodatkowania zależy od skali produkcji i kosztów surowców. Stawki sprawdź u doradcy podatkowego."
+}

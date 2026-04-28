@@ -1,0 +1,36 @@
+{
+  "code": "58.29.Z",
+  "name": "Działalność wydawnicza w zakresie pozostałego oprogramowania",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.29.Z obejmuje wydawanie i dystrybucję gotowego oprogramowania innego niż gry — systemów operacyjnych, aplikacji biurowych, narzędzi developerskich, oprogramowania SaaS i mobilnego. Pasuje dla producentów software'u sprzedających licencje oraz dostawców SaaS oferujących produkty na własny rachunek.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent oprogramowania SaaS",
+      "use": "Sprzedaje subskrypcje własnej aplikacji w chmurze (CRM, ERP, narzędzia analityczne)."
+    },
+    {
+      "persona": "Wydawca aplikacji mobilnych",
+      "use": "Publikuje aplikacje narzędziowe i lifestylowe w App Store i Google Play."
+    },
+    {
+      "persona": "Producent oprogramowania pudełkowego",
+      "use": "Sprzedaje licencje na programy desktopowe (księgowość, grafika, edukacja)."
+    },
+    {
+      "persona": "Solo developer SaaS",
+      "use": "Buduje, wydaje i sprzedaje własny mikrosaaS w modelu indie hacker."
+    }
+  ],
+  "businessExamples": [
+    "Polski startup SaaS dla branży HR",
+    "Studio mobile apps z aplikacjami productivity",
+    "Producent programu księgowego dla MŚP"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 62.01.Z lub 62.10.B (programowanie na zlecenie) — pisanie kodu na zlecenie klienta to inny kod, niż wydawanie własnego produktu.",
+    "Wybór 58.29.Z zamiast 58.21.Z — gry komputerowe mają oddzielną klasę."
+  ],
+  "taxNotes": "Wydawanie własnego oprogramowania może kwalifikować się do IP Box (preferencyjna stawka na dochody z praw autorskich). Sprzedaż subskrypcji SaaS klientom z UE wymaga rozliczenia w OSS. Stawki sprawdź u doradcy podatkowego."
+}

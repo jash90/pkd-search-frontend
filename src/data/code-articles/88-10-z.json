@@ -1,0 +1,36 @@
+{
+  "code": "88.10.Z",
+  "name": "Pomoc społeczna bez zakwaterowania dla osób starszych lub osób z niepełnosprawnościami",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 88.10.Z obejmuje opiekę dzienną, domową i ambulatoryjną dla seniorów i osób z niepełnosprawnościami — kluby seniora, dzienne domy pobytu, opieka w domu pacjenta, asystencja osobista. Pasuje dla agencji opieki domowej, organizatorów klubów seniora i firm świadczących wsparcie środowiskowe. Z zakwaterowaniem to 87.30.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja opieki domowej",
+      "use": "Wysyła opiekunki do domów seniorów — pomoc w codziennych czynnościach, towarzyszenie."
+    },
+    {
+      "persona": "Operator dziennego domu seniora",
+      "use": "Prowadzi placówkę dzienną z wyżywieniem, animacją i rehabilitacją (bez nocowania)."
+    },
+    {
+      "persona": "Klub seniora",
+      "use": "Organizuje zajęcia, spotkania i aktywizację dla osób starszych w społeczności lokalnej."
+    },
+    {
+      "persona": "Asystent osobisty osoby z niepełnosprawnością",
+      "use": "Świadczy usługę asystencji osobistej w ramach programów PFRON i NGO."
+    }
+  ],
+  "businessExamples": [
+    "Agencja opieki domowej dla seniorów",
+    "Dzienny dom seniora prowadzony przez fundację",
+    "Firma asystencji osobistej osób z niepełnosprawnościami"
+  ],
+  "commonMistakes": [
+    "Wybór 88.10.Z dla placówek z zakwaterowaniem — całodobowy pobyt seniorów to 87.30.Z lub 87.10.Z, nawet jeśli to wsparcie społeczne.",
+    "Pomylenie z 86.90.E (pozostała działalność w zakresie opieki zdrowotnej) — usługi medyczne (np. pielęgniarka środowiskowa) mogą wymagać innego kodu."
+  ],
+  "taxNotes": "Usługi pomocy społecznej są w znacznym zakresie zwolnione z VAT, a działalność w ramach kontraktów z gminą lub PFRON ma własne zasady rozliczania. Część form opieki domowej może podlegać szczególnym regulacjom (np. opieka osobista finansowana z bonu). Stawki sprawdź u doradcy podatkowego."
+}

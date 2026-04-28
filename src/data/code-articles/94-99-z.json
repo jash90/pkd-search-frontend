@@ -1,0 +1,36 @@
+{
+  "code": "94.99.Z",
+  "name": "Działalność pozostałych organizacji członkowskich, gdzie indziej niesklasyfikowana",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.99.Z obejmuje działalność pozostałych organizacji członkowskich niesklasyfikowanych w innych kategoriach — stowarzyszeń obywatelskich, klubów hobbystycznych, organizacji ekologicznych, kół zainteresowań, ruchów społecznych, grup rzeczniczych. To kategoria 'parasol' dla różnorodnych form zrzeszania się ludzi.",
+  "whoUsesIt": [
+    {
+      "persona": "Stowarzyszenie ekologiczne",
+      "use": "Prowadzi działalność rzeczniczą, edukacyjną i monitoringową w obszarze ochrony środowiska."
+    },
+    {
+      "persona": "Klub hobbystyczny",
+      "use": "Zrzesza pasjonatów (np. modelarzy, kolekcjonerów), organizuje spotkania i wystawy."
+    },
+    {
+      "persona": "Stowarzyszenie konsumenckie",
+      "use": "Reprezentuje interesy konsumentów, prowadzi edukację i interwencje."
+    },
+    {
+      "persona": "Organizacja praw człowieka / mniejszości",
+      "use": "Prowadzi działalność rzeczniczą i edukacyjną w obszarze praw obywatelskich."
+    }
+  ],
+  "businessExamples": [
+    "Stowarzyszenie ochrony przyrody z lokalnymi inicjatywami",
+    "Klub miłośników historii regionu",
+    "Stowarzyszenie konsumenckie z poradnictwem prawnym"
+  ],
+  "commonMistakes": [
+    "Wybór 94.99.Z dla izby gospodarczej lub samorządu zawodowego — te klasyfikują się jako 94.11.Z lub 94.12.Z.",
+    "Pomylenie z 88.99.Z (pomoc społeczna bez zakwaterowania) — gdy organizacja działa głównie w sferze pomocy bezpośredniej, nie zrzeszania."
+  ],
+  "taxNotes": "Stowarzyszenia działają zwykle w ramach ustawy o stowarzyszeniach ze zwolnieniami dla działalności statutowej. Działalność gospodarcza prowadzona równolegle podlega standardowym zasadom CIT i VAT. Stawki sprawdź u doradcy podatkowego."
+}

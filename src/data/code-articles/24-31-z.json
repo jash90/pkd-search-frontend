@@ -1,0 +1,36 @@
+{
+  "code": "24.31.Z",
+  "name": "Produkcja prętów ciągnionych na zimno",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.31.Z obejmuje produkcję stalowych prętów i kształtowników ciągnionych na zimno z półwyrobów hutniczych — proces obróbki plastycznej zwiększającej dokładność wymiarów, gładkość powierzchni i parametry mechaniczne. To kod dla zakładów dostarczających pręty precyzyjne do toczenia, frezowania i automatów tokarskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia stali z linią ciągarniczą",
+      "use": "Ciągnie pręty zwykłe na pręty precyzyjne i sprzedaje je zakładom obróbki skrawaniem."
+    },
+    {
+      "persona": "Producent prętów stalowych pod automaty tokarskie",
+      "use": "Dostarcza pręty kalibrowane h9/h11 dla zakładów produkujących części maszyn."
+    },
+    {
+      "persona": "Zakład wytwarzający kształtowniki ciągnione",
+      "use": "Produkuje sześciokąty, kwadraty i profile zimnociągnione dla branży motoryzacyjnej."
+    },
+    {
+      "persona": "Wytwórca prętów ze stali nierdzewnej",
+      "use": "Specjalizuje się w prętach ciągnionych z gatunków AISI 304/316 dla przemysłu spożywczego."
+    }
+  ],
+  "businessExamples": [
+    "Zakład ciągnący pręty kalibrowane do toczenia",
+    "Producent kształtowników sześciokątnych ciągnionych na zimno",
+    "Wytwórca prętów ze stali nierdzewnej dla branży spożywczej"
+  ],
+  "commonMistakes": [
+    "Wybór 24.31.Z zamiast 24.10.A/B, gdy zakład walcuje pręty na gorąco — walcowanie na gorąco klasyfikuje się w grupie 24.10.",
+    "Pomylenie z 24.34.Z (produkcja drutu) — drut ciągniony ze zwoju ma odrębny kod, niezależnie od średnicy."
+  ],
+  "taxNotes": "Produkcja hutnicza i przeróbka stali objęte są VAT na zasadach ogólnych z obowiązkowym mechanizmem podzielonej płatności w sprzedaży B2B wyrobów stalowych. Wybór formy opodatkowania zależy od skali, struktury kosztów i obrotów. Stawki sprawdź u doradcy podatkowego."
+}

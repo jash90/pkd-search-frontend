@@ -1,0 +1,36 @@
+{
+  "code": "61.90.B",
+  "name": "Działalność w zakresie pozostałej telekomunikacji, gdzie indziej niesklasyfikowana",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 61.90.B obejmuje pozostałe usługi telekomunikacyjne nieujęte w innych klasach — m.in. usługi telegraficzne, alarmowe transmitowane sieciami, dostęp do internetu w lokalizacjach publicznych (np. WiFi w hotelach, lotniskach) czy odsprzedaż usług telekomunikacyjnych. Pasuje dla niszowych operatorów i podmiotów świadczących specjalistyczne usługi sieciowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator hotspot WiFi",
+      "use": "Udostępnia płatny dostęp do internetu w hotelach, kawiarniach, na lotniskach i w pociągach."
+    },
+    {
+      "persona": "Resseler usług telekomunikacyjnych",
+      "use": "Odsprzedaje pakiety internetu i telefonii kupowane hurtowo od operatorów krajowych."
+    },
+    {
+      "persona": "Operator usług telemetrii M2M / IoT",
+      "use": "Świadczy usługi transmisji danych z urządzeń (liczniki, czujniki, GPS) w sieciach komórkowych."
+    },
+    {
+      "persona": "Dostawca telekomunikacji satelitarnej niszowej",
+      "use": "Świadczy łączność dla statków, platform off-shore i użytkowników w terenach niedostępnych."
+    }
+  ],
+  "businessExamples": [
+    "Operator WiFi w sieci hoteli",
+    "Reseller usług telekomunikacyjnych dla firm",
+    "Firma transmisji danych M2M dla logistyki"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 61.10.B (telekomunikacja przewodowa/bezprzewodowa) — klasyczne ISP i operatorzy mobilni mają osobny kod.",
+    "Wybór 61.90.B zamiast 63.10.A — gdy faktycznym profilem jest hosting i kolokacja w chmurze."
+  ],
+  "taxNotes": "Operatorzy telekomunikacyjni podlegają rejestracji w UKE i opłatom telekomunikacyjnym. Forma opodatkowania zależy od skali — od ryczałtu po zasady ogólne. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "33.11.Z",
+  "name": "Naprawa i konserwacja metalowych wyrobów gotowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.11.Z obejmuje naprawę i konserwację gotowych wyrobów metalowych — zbiorników, cystern, kontenerów, rurociągów, konstrukcji stalowych, beczek, pojemników na gaz. Pasuje dla warsztatów blacharskich, zakładów spawalniczych i firm serwisujących infrastrukturę metalową.",
+  "whoUsesIt": [
+    {
+      "persona": "Warsztat naprawy zbiorników i cystern",
+      "use": "Naprawia, konserwuje i odnawia zbiorniki paliwowe, cysterny i pojemniki ciśnieniowe."
+    },
+    {
+      "persona": "Zakład serwisu konstrukcji stalowych",
+      "use": "Realizuje przeglądy, naprawy i renowację stalowych konstrukcji przemysłowych i mostów."
+    },
+    {
+      "persona": "Firma serwisująca rurociągi",
+      "use": "Wykonuje naprawy spawalnicze i konserwację rurociągów przemysłowych i przesyłowych."
+    },
+    {
+      "persona": "Warsztat antykorozyjny",
+      "use": "Świadczy usługi piaskowania, malowania antykorozyjnego i renowacji wyrobów stalowych."
+    }
+  ],
+  "businessExamples": [
+    "Warsztat naprawy cystern do paliw i chemikaliów",
+    "Firma serwisu konstrukcji stalowych w przemyśle",
+    "Zakład renowacji i konserwacji zbiorników magazynowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 25.62.Z (obróbka mechaniczna) — sama obróbka to inny kod niż naprawa gotowych wyrobów.",
+    "Wybór 33.12.Z (naprawa maszyn) zamiast 33.11.Z — naprawa konstrukcji metalowych nie-mechanicznych idzie pod 33.11.Z."
+  ],
+  "taxNotes": "Usługi naprawy konstrukcji stalowych to typowo działalność B2B, często realizowana w modelu kontraktowym. Forma opodatkowania zależy od skali, struktury kontraktów i polityki amortyzacji sprzętu. Stawki sprawdź u doradcy podatkowego."
+}

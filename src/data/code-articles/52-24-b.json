@@ -1,0 +1,36 @@
+{
+  "code": "52.24.B",
+  "name": "Przeładunek towarów w portach śródlądowych",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.24.B obejmuje załadunek i rozładunek towarów w portach rzecznych i kanałowych — z barek na nabrzeże, na pojazdy lądowe lub do magazynów. Pasuje dla operatorów terminali śródlądowych obsługujących żeglugę rzeczną na Odrze, Wiśle i kanałach.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator terminala rzecznego",
+      "use": "Przeładowuje towary masowe i drobnicowe między barkami a transportem kolejowym lub drogowym."
+    },
+    {
+      "persona": "Firma dźwigowa nabrzeżna",
+      "use": "Wynajmuje sprzęt i operatorów do operacji przeładunkowych na portach śródlądowych."
+    },
+    {
+      "persona": "Operator terminala intermodalnego",
+      "use": "Łączy żeglugę śródlądową z transportem kolejowym i drogowym — kontenery i ładunki masowe."
+    },
+    {
+      "persona": "Firma sztauerska na rzece",
+      "use": "Obsługuje barki na drobnicowych przeładunkach (drewno, materiały budowlane)."
+    }
+  ],
+  "businessExamples": [
+    "Port rzeczny przeładowujący węgiel i kruszywa",
+    "Terminal intermodalny barka-kolej na Odrze",
+    "Firma dźwigowa obsługująca przystanie towarowe"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.24.A (przeładunek w portach morskich) — port morski i śródlądowy mają odrębne klasyfikacje.",
+    "Wybór 52.24.B zamiast 52.10.B (magazynowanie i składowanie) — samo przechowywanie ładunku to inny kod."
+  ],
+  "taxNotes": "Działalność przeładunkowa w portach śródlądowych jest zwykle prowadzona na zasadach ogólnych, z możliwością amortyzacji nabrzeży i sprzętu. Usługi dla przewoźników międzynarodowych mogą korzystać z preferencji VAT. Stawki sprawdź u doradcy podatkowego."
+}

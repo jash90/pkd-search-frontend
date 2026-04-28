@@ -1,0 +1,36 @@
+{
+  "code": "96.22.Z",
+  "name": "Działalność w zakresie pielęgnacji urody i pozostała działalność kosmetyczna",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.22.Z obejmuje usługi kosmetyczne i pielęgnacji urody — manicure, pedicure, stylizację paznokci, makijaż, depilację, zabiegi na twarz i ciało, tatuaż brwi czy stylizację rzęs. Pasuje dla salonów kosmetycznych, kosmetyczek mobilnych i specjalistów branży beauty.",
+  "whoUsesIt": [
+    {
+      "persona": "Kosmetyczka / salon kosmetyczny",
+      "use": "Wykonuje zabiegi na twarz i ciało, depilację oraz pielęgnację paznokci."
+    },
+    {
+      "persona": "Stylistka paznokci / manicurzystka",
+      "use": "Specjalizuje się w manicure hybrydowym, żelowym i zdobieniach paznokci."
+    },
+    {
+      "persona": "Makijażystka / wizażystka",
+      "use": "Robi makijaże ślubne, sesyjne i okolicznościowe w salonie i mobilnie."
+    },
+    {
+      "persona": "Stylistka rzęs i brwi",
+      "use": "Wykonuje przedłużanie rzęs, stylizację brwi i tatuaż permanentny."
+    }
+  ],
+  "businessExamples": [
+    "Studio paznokci z manicure hybrydowym i pedicure",
+    "Mobilna makijażystka ślubna",
+    "Salon kosmetyczny z medycyną estetyczną nieinwazyjną"
+  ],
+  "commonMistakes": [
+    "Wybór 96.22.Z dla działalności fryzjerskiej — strzyżenie i koloryzacja włosów to 96.21.Z (działalność fryzjerska).",
+    "Pomylenie z 86.90.E (działalność paramedyczna) — zabiegi medycyny estetycznej wykonywane przez lekarzy klasyfikują się raczej w dziale 86 (opieka zdrowotna)."
+  ],
+  "taxNotes": "Branża beauty często wybiera ryczałt jako formę opodatkowania. Salony podlegają obowiązkowi kasy fiskalnej. Niektóre zabiegi inwazyjne mogą wymagać dodatkowych uprawnień medycznych. Stawki sprawdź u doradcy podatkowego."
+}

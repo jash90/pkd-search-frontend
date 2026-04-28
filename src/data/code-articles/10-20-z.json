@@ -1,0 +1,36 @@
+{
+  "code": "10.20.Z",
+  "name": "Przetwarzanie i konserwowanie ryb, skorupiaków i mięczaków",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.20.Z obejmuje przetwórstwo rybne — filetowanie, wędzenie, marynowanie, mrożenie, suszenie, solenie i puszkowanie ryb, skorupiaków i mięczaków. Wlicza się tu produkcję mączki rybnej do spożycia ludzkiego oraz wyrobów typu surimi. Nie obejmuje samego połowu (03.11/03.12) ani gotowych dań rybnych (10.85.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład wędzenia ryb",
+      "use": "Wędzi łososia, makrelę i pstrąga w technologii tradycyjnej i przemysłowej, dystrybuuje do sieci handlowych."
+    },
+    {
+      "persona": "Producent marynat rybnych",
+      "use": "Wytwarza śledzie w occie, sałatki śledziowe i konserwy rybne na rynek krajowy i eksport."
+    },
+    {
+      "persona": "Mrożalnia ryb morskich",
+      "use": "Filetuje, glazuruje i mrozi pelagiczne ryby morskie dla przemysłu spożywczego i HoReCa."
+    },
+    {
+      "persona": "Mała manufaktura wędzonek",
+      "use": "Prowadzi rzemieślnicze wędzenie ryb słodkowodnych dla lokalnych restauracji i sklepów delikatesowych."
+    }
+  ],
+  "businessExamples": [
+    "Wędzarnia łososia z eksportem do UE",
+    "Producent marynat śledziowych dla sieci handlowych",
+    "Mrożalnia ryb pelagicznych w porcie"
+  ],
+  "commonMistakes": [
+    "Wybór 10.20.Z zamiast 10.85.Z, gdy główną działalnością są gotowe dania rybne (np. ryby pieczone w sosie, gotowe zestawy na podgrzanie).",
+    "Mylenie z 03.22.Z (chów i hodowla ryb) — sama hodowla pstrąga to produkcja akwakultury, a dopiero filetowanie i wędzenie wpada do 10.20.Z."
+  ],
+  "taxNotes": "Przetwórstwo rybne wymaga zatwierdzenia zakładu przez Inspekcję Weterynaryjną, podlega rygorom HACCP i odpowiednim stawkom VAT na żywność. Stawki sprawdź u doradcy podatkowego."
+}

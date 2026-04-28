@@ -1,0 +1,36 @@
+{
+  "code": "56.22.Z",
+  "name": "Regularne przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering regularny) i pozostała gastronomiczna działalność usługowa",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.22.Z obejmuje regularne, cykliczne dostawy posiłków dla stałych odbiorców — szkół, biur, szpitali, linii lotniczych — oraz pozostałą działalność gastronomiczną na zlecenie. Pasuje dla operatorów cateringu dietetycznego, stołówek kontraktowych i firm dostarczających lunch boxy do biur.",
+  "whoUsesIt": [
+    {
+      "persona": "Catering dietetyczny / pudełkowy",
+      "use": "Dostarcza zbilansowane diety pudełkowe (5-7 dni) klientom indywidualnym z dowozem do domu."
+    },
+    {
+      "persona": "Operator stołówki kontraktowej",
+      "use": "Prowadzi stołówkę pracowniczą lub szkolną na podstawie umowy długoterminowej."
+    },
+    {
+      "persona": "Catering szpitalny",
+      "use": "Dostarcza posiłki dla pacjentów i personelu szpitala w trybie ciągłym."
+    },
+    {
+      "persona": "Catering lotniczy (in-flight)",
+      "use": "Przygotowuje i dostarcza posiłki na pokład samolotów dla linii lotniczych."
+    }
+  ],
+  "businessExamples": [
+    "Firma cateringu pudełkowego z dietami online",
+    "Operator stołówki w korporacji",
+    "Catering szkolny dla gmin"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 56.21.Z (catering okazjonalny) — jednorazowe imprezy mają osobny kod.",
+    "Wybór 56.22.Z zamiast 10.85.Z (produkcja gotowych posiłków i dań) — przemysłowa produkcja dań z długim terminem przydatności to inna klasa."
+  ],
+  "taxNotes": "Catering regularny może być rozliczany na zasadach ogólnych, liniowo lub ryczałtem (przy spełnieniu limitów). Posiłki dla szkół i szpitali mogą mieć preferencyjne stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

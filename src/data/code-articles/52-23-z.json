@@ -1,0 +1,36 @@
+{
+  "code": "52.23.Z",
+  "name": "Działalność usługowa wspomagająca transport lotniczy",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.23.Z obejmuje usługi naziemne i operacyjne dla lotnictwa — handling pasażerski i bagażowy, obsługę płyty, kontrolę ruchu lotniczego, prowadzenie terminali oraz wynajem infrastruktury lotniskowej. Pasuje dla operatorów lotnisk, agentów handlingowych i podmiotów wspierających przewoźników lotniczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Agent handlingowy",
+      "use": "Obsługuje samoloty na płycie — bagaż, catering, tankowanie, push-back i odprawę pasażerów."
+    },
+    {
+      "persona": "Operator lotniska regionalnego",
+      "use": "Zarządza terminalem i infrastrukturą lotniskową, pobiera opłaty od linii lotniczych i pasażerów."
+    },
+    {
+      "persona": "Firma deicingowa i serwisowa",
+      "use": "Świadczy odladzanie samolotów, sprzątanie kabin i przeglądy techniczne na płycie."
+    },
+    {
+      "persona": "Aeroklub z usługami startu",
+      "use": "Udostępnia pas startowy, hangary i obsługę naziemną dla lotnictwa ogólnego (GA)."
+    }
+  ],
+  "businessExamples": [
+    "Spółka handlingowa obsługująca przewoźników na lotnisku",
+    "Operator lotniska regionalnego z terminalem cargo",
+    "Firma deicingowa działająca w sezonie zimowym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 51.10.Z (transport lotniczy pasażerski) — przewóz pasażerów to działalność przewoźnika, a nie obsługa lotniska.",
+    "Wybór 52.23.Z zamiast 33.16.Z (naprawa statków powietrznych) — serwis techniczny i remonty to osobny kod."
+  ],
+  "taxNotes": "Działalność lotniskowa często wiąże się z koncesjami, certyfikacją ULC oraz specyficznymi regulacjami VAT (np. zwolnienia dla obsługi międzynarodowych przewoźników). Forma opodatkowania zależy od skali i rodzaju kontraktów. Stawki sprawdź u doradcy podatkowego."
+}

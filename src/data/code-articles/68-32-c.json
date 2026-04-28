@@ -1,0 +1,36 @@
+{
+  "code": "68.32.C",
+  "name": "Pozostała działalność związana z obsługą rynku nieruchomości wykonywana na zlecenie, gdzie indziej niesklasyfikowana",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.32.C to kategoria zbiorcza dla działalności wspomagających rynek nieruchomości, których nie da się zakwalifikować do pośrednictwa (68.31.Z), wyceny (68.32.A) ani zarządzania (68.32.B) — np. doradztwo inwestycyjne na rynku nieruchomości, usługi due diligence, home staging czy konsulting branżowy.",
+  "whoUsesIt": [
+    {
+      "persona": "Doradca inwestycyjny rynku nieruchomości",
+      "use": "Pomaga inwestorom w wyborze nieruchomości i strategii inwestycyjnej (bez pośrednictwa w transakcji)."
+    },
+    {
+      "persona": "Specjalista home staging",
+      "use": "Przygotowuje mieszkania do sprzedaży lub wynajmu — aranżuje wnętrza, robi sesje zdjęciowe."
+    },
+    {
+      "persona": "Konsultant due diligence nieruchomości",
+      "use": "Audytuje stan prawny i techniczny nieruchomości przed transakcją na zlecenie kupującego."
+    },
+    {
+      "persona": "Firma marketingu nieruchomości",
+      "use": "Świadczy usługi promocji ofert deweloperskich — kampanie, wirtualne spacery, materiały marketingowe."
+    }
+  ],
+  "businessExamples": [
+    "Konsultant inwestycji w nieruchomości komercyjne",
+    "Studio home staging dla biur nieruchomości",
+    "Firma audytu due diligence dla funduszy"
+  ],
+  "commonMistakes": [
+    "Wybór 68.32.C zamiast 68.31.Z — gdy główną działalnością jest pośrednictwo w obrocie, kategoria 'pozostała' nie jest właściwa.",
+    "Pomylenie z 70.22.Z (doradztwo gospodarcze) — ogólne doradztwo biznesowe bez specjalizacji nieruchomościowej mieści się w 70.22.Z."
+  ],
+  "taxNotes": "Usługi doradcze i konsultingowe na rynku nieruchomości podlegają standardowej stawce VAT. Wybór formy opodatkowania (ryczałt, skala, liniowy) zależy od profilu działalności i skali kosztów. Stawki sprawdź u doradcy podatkowego."
+}

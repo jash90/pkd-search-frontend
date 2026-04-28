@@ -1,0 +1,36 @@
+{
+  "code": "32.50.B",
+  "name": "Pozostała produkcja urządzeń, instrumentów oraz wyrobów medycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.50.B obejmuje produkcję wyrobów medycznych — sprzętu diagnostycznego, chirurgicznego, ortopedycznego, protez, sprzętu rehabilitacyjnego, materiałów opatrunkowych, igieł, strzykawek i innych wyrobów medycznych poza dentystycznymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent sprzętu diagnostycznego",
+      "use": "Wytwarza aparaty USG, EKG, monitory pacjenta i diagnostykę laboratoryjną."
+    },
+    {
+      "persona": "Fabryka protez ortopedycznych",
+      "use": "Produkuje protezy kończyn, endoprotezy, ortezy i implanty ortopedyczne."
+    },
+    {
+      "persona": "Wytwórca sprzętu jednorazowego",
+      "use": "Robi strzykawki, igły, opatrunki, rękawiczki i inny sprzęt jednorazowy dla szpitali."
+    },
+    {
+      "persona": "Producent sprzętu rehabilitacyjnego",
+      "use": "Buduje urządzenia do rehabilitacji, fizjoterapii i wsparcia osób z niepełnosprawnościami."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka endoprotez stawu biodrowego i kolanowego",
+    "Producent jednorazowych strzykawek i igieł medycznych",
+    "Zakład aparatów do diagnostyki obrazowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.50.A (sprzęt dentystyczny) — wyroby stricte stomatologiczne idą pod 32.50.A, nie pod 32.50.B.",
+    "Wybór 21.20.Z (leki) zamiast 32.50.B — leki i preparaty farmaceutyczne to inny kod niż wyroby medyczne."
+  ],
+  "taxNotes": "Wyroby medyczne podlegają restrykcyjnym regulacjom (MDR, certyfikat CE, rejestracja URPL) oraz mogą korzystać z preferencyjnej stawki VAT. Strategia podatkowa wymaga uwzględnienia ulg B+R i polityki regulacyjnej. Stawki sprawdź u doradcy podatkowego."
+}

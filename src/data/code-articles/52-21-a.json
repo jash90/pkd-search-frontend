@@ -1,0 +1,36 @@
+{
+  "code": "52.21.A",
+  "name": "Pomoc drogowa",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.21.A obejmuje pomoc drogową — holowanie pojazdów, transport unieruchomionych aut na lawecie, drobne naprawy na miejscu zdarzenia oraz usługi assistance. To kod dla firm assistance, operatorów lawet, jednoosobowych przedsiębiorstw z pomocą 24/7.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel firmy holowniczej",
+      "use": "Świadczy holowania awaryjne aut osobowych i ciężarowych na zlecenie ubezpieczycieli."
+    },
+    {
+      "persona": "Operator assistance",
+      "use": "Współpracuje z towarzystwami ubezpieczeniowymi w obsłudze szkód drogowych."
+    },
+    {
+      "persona": "Indywidualny laweciarz",
+      "use": "Prowadzi jednoosobową firmę z lawetą — całodobowa pomoc lokalna."
+    },
+    {
+      "persona": "Firma z pomocą drogową dla ciężarówek",
+      "use": "Specjalizuje się w pomocy drogowej dla TIR-ów (ciężki tabor)."
+    }
+  ],
+  "businessExamples": [
+    "Pomoc drogowa 24/7 z lawetą",
+    "Firma holownicza z umowami z ubezpieczycielami",
+    "Pomoc drogowa dla ciężarówek na autostradzie"
+  ],
+  "commonMistakes": [
+    "Wybór 52.21.A zamiast 45.20.Z — naprawa pojazdów w warsztacie (a nie na drodze) ma osobny kod.",
+    "Pomylenie z 49.41.Z — laweta jako transport pojazdów (nie awaryjny) klasyfikuje się jako transport drogowy towarów."
+  ],
+  "taxNotes": "Działalność wymaga licencji transportowej, OCP i całodobowej dyspozycyjności. Często rozliczana w modelu B2B z ubezpieczycielami. Stawki sprawdź u doradcy podatkowego."
+}

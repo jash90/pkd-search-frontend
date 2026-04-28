@@ -1,0 +1,36 @@
+{
+  "code": "59.14.Z",
+  "name": "Działalność związana z projekcją filmów",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 59.14.Z obejmuje wyświetlanie filmów w kinach, klubach filmowych i kinach plenerowych — zarówno stacjonarnie, jak i mobilnie. Pasuje dla operatorów multipleksów, kin studyjnych, klubów filmowych oraz organizatorów pokazów filmowych w przestrzeniach publicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator kina komercyjnego",
+      "use": "Prowadzi multipleks lub kino lokalne z repertuarem nowości filmowych i sprzedażą biletów."
+    },
+    {
+      "persona": "Operator kina studyjnego",
+      "use": "Wyświetla filmy artystyczne, niezależne i festiwalowe — często w ramach DKF lub Sieci Kin Studyjnych."
+    },
+    {
+      "persona": "Organizator kina plenerowego",
+      "use": "Realizuje sezonowe pokazy filmów na rynkach miast, w parkach i na imprezach plenerowych."
+    },
+    {
+      "persona": "Klub filmowy / festiwal",
+      "use": "Organizuje cykle pokazów tematycznych i festiwali filmowych z prelekcjami i dyskusjami."
+    }
+  ],
+  "businessExamples": [
+    "Multipleks kinowy w centrum handlowym",
+    "Kino studyjne z repertuarem arthouse",
+    "Mobilne kino plenerowe na lato"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 59.13.Z (dystrybucja filmów) — kupowanie praw i sprzedaż licencji to osobny kod.",
+    "Wybór 59.14.Z zamiast 90.04.Z (działalność obiektów kulturalnych) — domy kultury z salami projekcyjnymi mają inną klasę."
+  ],
+  "taxNotes": "Sprzedaż biletów kinowych podlega obniżonej stawce VAT na usługi kulturalne. Operatorzy mogą rozliczać się na zasadach ogólnych lub liniowo. Wymagana kasa fiskalna online. Stawki sprawdź u doradcy podatkowego."
+}

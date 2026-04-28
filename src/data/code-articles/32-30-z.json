@@ -1,0 +1,36 @@
+{
+  "code": "32.30.Z",
+  "name": "Produkcja sprzętu sportowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.30.Z obejmuje produkcję sprzętu do uprawiania sportu — nart, rowerów wyczynowych, kajaków, desek snowboardowych i SUP, piłek, rakiet, sprzętu fitness, siłowni i wyposażenia hal sportowych. Nie obejmuje produkcji odzieży i obuwia sportowego (kody działu 14 i 15).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent rowerów wyczynowych",
+      "use": "Buduje ramy karbonowe i kompletne rowery szosowe oraz MTB dla zawodników i amatorów."
+    },
+    {
+      "persona": "Wytwórnia kajaków i desek SUP",
+      "use": "Produkuje sprzęt wodny z laminatów i tworzyw sztucznych — sprzedaż przez sklepy specjalistyczne."
+    },
+    {
+      "persona": "Producent sprzętu fitness",
+      "use": "Wytwarza hantle, sztangi, atlasy i maszyny treningowe dla siłowni komercyjnych i domowych."
+    },
+    {
+      "persona": "Manufaktura desek snowboardowych",
+      "use": "Buduje deski snowboardowe i narty freeride w niskich seriach — marka skierowana do entuzjastów."
+    }
+  ],
+  "businessExamples": [
+    "Producent ram rowerowych z karbonu",
+    "Manufaktura desek SUP",
+    "Fabryka sprzętu siłowego dla klubów fitness"
+  ],
+  "commonMistakes": [
+    "Wybór 32.30.Z zamiast 14.13.Z (produkcja odzieży wierzchniej) — produkcja odzieży sportowej to inny kod, nawet jeśli marka kojarzy się ze sportem.",
+    "Pomylenie z 30.92.Z (produkcja rowerów) — produkcja rowerów ma osobną klasę 30.92.Z, a 32.30.Z dotyczy pozostałego sprzętu sportowego."
+  ],
+  "taxNotes": "Producenci sprzętu sportowego mogą korzystać z ulg na działalność badawczo-rozwojową przy projektowaniu nowych modeli oraz preferencji eksportowych. Wybór formy opodatkowania zależy od skali produkcji i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

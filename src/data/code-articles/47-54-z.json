@@ -1,0 +1,36 @@
+{
+  "code": "47.54.Z",
+  "name": "Sprzedaż detaliczna elektrycznego sprzętu gospodarstwa domowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.54.Z obejmuje detaliczną sprzedaż AGD — pralek, lodówek, zmywarek, kuchenek, mikrofalówek, odkurzaczy oraz drobnego AGD (czajniki, miksery, ekspresy) w wyspecjalizowanych sklepach. Nie obejmuje sprzętu RTV (47.43.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu AGD",
+      "use": "Prowadzi sklep stacjonarny z dużym AGD i drobnym sprzętem domowym."
+    },
+    {
+      "persona": "Franczyzobiorca sieci AGD/RTV",
+      "use": "Operuje punktem typu Media Expert, RTV Euro AGD, Media Markt."
+    },
+    {
+      "persona": "Specjalistyczny sklep z ekspresami",
+      "use": "Sprzedaje ekspresy do kawy, młynki i akcesoria barystyczne premium."
+    },
+    {
+      "persona": "Sklep z odkurzaczami centralnymi",
+      "use": "Oferuje systemy centralnego odkurzania, robotów sprzątających i akcesoria."
+    }
+  ],
+  "businessExamples": [
+    "Sklep AGD z dostawą i podłączeniem",
+    "Salon z ekspresami do kawy premium",
+    "Punkt sprzedaży robotów kuchennych Thermomix"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 47.43.Z — sprzęt RTV (telewizory, audio, foto) ma osobny kod.",
+    "Wybór 47.54.Z zamiast 95.22.Z, jeśli głównie naprawiasz AGD, a sprzedaż jest dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż AGD podlega kasie fiskalnej, gwarancji konsumenckiej i obowiązkom serwisowym. Forma opodatkowania zależy od skali i kosztów magazynu. Stawki sprawdź u doradcy podatkowego."
+}

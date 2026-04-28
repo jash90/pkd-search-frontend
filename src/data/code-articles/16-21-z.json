@@ -1,0 +1,36 @@
+{
+  "code": "16.21.Z",
+  "name": "Produkcja arkuszy fornirowych i płyt wykonanych na bazie drewna",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.21.Z obejmuje produkcję forniru, sklejki, płyt MDF, HDF, OSB, płyt wiórowych i płyt z włókna drzewnego. To kod dla dużych zakładów płytowych przerabiających drewno na duże formaty wykorzystywane w meblarstwie, budownictwie i opakowaniach.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka płyt wiórowych i MDF",
+      "use": "Produkuje płyty na bazie wiórów drewnianych dla przemysłu meblarskiego."
+    },
+    {
+      "persona": "Producent sklejki",
+      "use": "Wytwarza sklejkę liściastą i iglastą dla budownictwa, opakowań i stolarstwa."
+    },
+    {
+      "persona": "Wytwórca płyt OSB",
+      "use": "Produkuje płyty wiórowe orientowane (OSB) dla budownictwa szkieletowego."
+    },
+    {
+      "persona": "Producent forniru",
+      "use": "Wytwarza fornir naturalny i okleiny do mebli, drzwi i wykończenia wnętrz."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka płyt MDF i HDF",
+    "Producent sklejki dla branży opakowaniowej",
+    "Wytwórca płyt OSB dla budownictwa szkieletowego"
+  ],
+  "commonMistakes": [
+    "Wybór 16.21.Z zamiast 16.22.Z (Parkiety podłogowe) — gotowe parkiety i panele podłogowe to 16.22.Z, a płyty bazowe i sklejka to 16.21.Z.",
+    "Pomylenie z 16.12.Z — sama obróbka tarcicy to 16.12.Z, a produkcja płyt prasowanych z wiórów/oklein to 16.21.Z."
+  ],
+  "taxNotes": "Produkcja płyt drewnopochodnych podlega standardowym stawkom VAT i regulacjom dotyczącym formaldehydów oraz pochodzenia drewna (EUDR). Stawki sprawdź u doradcy podatkowego."
+}
