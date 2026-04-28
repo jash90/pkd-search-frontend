@@ -1,0 +1,36 @@
+{
+  "code": "02.10.Z",
+  "name": "Gospodarka leśna i pozostała działalność leśna, z wyłączeniem pozyskiwania produktów leśnych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 02.10.Z obejmuje prowadzenie gospodarki leśnej — sadzenie drzew, pielęgnację upraw i młodników, ochronę lasu, zalesienia oraz produkcję materiału szkółkarskiego dla leśnictwa. Wyłączone z niego są pozyskiwanie drewna (02.20.Z) i zbieranie dziko rosnących produktów leśnych (02.30.Z). Typowy kod dla nadleśnictw, prywatnych właścicieli lasów i firm prowadzących szkółki leśne.",
+  "whoUsesIt": [
+    {
+      "persona": "Prywatny właściciel lasu",
+      "use": "Zarządza własnym kompleksem leśnym — sadzi, pielęgnuje, prowadzi cięcia pielęgnacyjne zgodnie z planem urządzenia lasu."
+    },
+    {
+      "persona": "Operator szkółki leśnej",
+      "use": "Produkuje sadzonki sosny, świerka, dębu i innych gatunków na potrzeby zalesień i odnowień."
+    },
+    {
+      "persona": "Firma zalesieniowa",
+      "use": "Wykonuje zalesienia gruntów porolnych w ramach programów rolno-środowiskowych dla rolników."
+    },
+    {
+      "persona": "Wykonawca pielęgnacji upraw leśnych",
+      "use": "Realizuje na zlecenie czyszczenia wczesne, późne i trzebieże w lasach prywatnych i państwowych."
+    }
+  ],
+  "businessExamples": [
+    "Szkółka leśna produkująca sadzonki sosny",
+    "Firma wykonująca zalesienia na zlecenie rolników",
+    "Prywatny właściciel lasu prowadzący gospodarkę leśną"
+  ],
+  "commonMistakes": [
+    "Wybór 02.10.Z zamiast 02.20.Z, gdy główną działalnością jest pozyskiwanie drewna (wycinka, zrywka, sortowanie surowca).",
+    "Mylenie z 02.40.Z (działalność usługowa związana z leśnictwem) — usługi dla innych podmiotów (np. inwentaryzacja, plany urządzenia lasu) mają osobny kod."
+  ],
+  "taxNotes": "Sprzedaż drewna z lasów prywatnych ma specyficzne traktowanie podatkowe i często korzysta ze zwolnień lub uproszczeń, a usługi leśne podlegają standardowym zasadom (skala, liniowy, ryczałt, VAT). Stawki sprawdź u doradcy podatkowego."
+}

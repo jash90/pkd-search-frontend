@@ -1,0 +1,36 @@
+{
+  "code": "25.92.Z",
+  "name": "Produkcja lekkich opakowań metalowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.92.Z obejmuje produkcję lekkich opakowań metalowych — puszek na konserwy i napoje, aerozoli, tubek aluminiowych, kapsli, zakrętek, wieczek, tacek z folii aluminiowej oraz pudełek metalowych dekoracyjnych. To kod dla wytwórców opakowań pierwotnych dla branży spożywczej, kosmetycznej i farmaceutycznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent puszek na napoje",
+      "use": "Wytwarza puszki aluminiowe dla browarów i producentów napojów gazowanych."
+    },
+    {
+      "persona": "Wytwórca puszek konserwowych",
+      "use": "Produkuje puszki cynowane do konserw mięsnych, rybnych i warzywnych."
+    },
+    {
+      "persona": "Producent tubek aluminiowych",
+      "use": "Wytłacza tubki dla branży kosmetycznej, farmaceutycznej i spożywczej."
+    },
+    {
+      "persona": "Wytwórca aerozoli i kapsli",
+      "use": "Produkuje opakowania aerozolowe i zakrętki metalowe dla chemii i napojów."
+    }
+  ],
+  "businessExamples": [
+    "Producent puszek aluminiowych dla browarów",
+    "Wytwórnia tubek aluminiowych dla kosmetyków",
+    "Producent kapsli i zakrętek metalowych"
+  ],
+  "commonMistakes": [
+    "Wybór 25.92.Z zamiast 25.91.Z (produkcja pojemników metalowych), gdy zakład produkuje beczki i kanistry — duże pojemniki transportowe to 25.91.Z, lekkie opakowania jednostkowe to 25.92.Z.",
+    "Pomylenie z 17.21.Z (produkcja papieru i tektury falistej oraz opakowań) — opakowania kombinowane (papier z folią aluminiową) klasyfikuje się wg materiału dominującego."
+  ],
+  "taxNotes": "Produkcja lekkich opakowań metalowych objęta jest VAT na zasadach ogólnych. Sprzedaż dla branży spożywczej wymaga certyfikatów kontaktu z żywnością. Wybór formy opodatkowania zależy od skali produkcji. Stawki sprawdź u doradcy podatkowego."
+}

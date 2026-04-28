@@ -1,0 +1,36 @@
+{
+  "code": "88.99.Z",
+  "name": "Pozostała pomoc społeczna bez zakwaterowania, gdzie indziej niesklasyfikowana",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 88.99.Z obejmuje świadczenie pomocy społecznej bez zakwaterowania niesklasyfikowanej w innych klasach działu 88 — np. doradztwo dla rodzin, pomoc ofiarom katastrof, działalność charytatywną, zbiórki pieniędzy czy wsparcie osób w trudnej sytuacji życiowej. Nie obejmuje opieki dziennej (zob. 88.91.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Fundacja charytatywna",
+      "use": "Organizuje zbiórki, dystrybuuje pomoc rzeczową i prowadzi programy wsparcia społecznego."
+    },
+    {
+      "persona": "Poradnia rodzinna",
+      "use": "Oferuje konsultacje, mediacje i wsparcie psychologiczne bez pobytu całodobowego."
+    },
+    {
+      "persona": "Stowarzyszenie pomocy osobom uzależnionym",
+      "use": "Prowadzi grupy wsparcia, telefon zaufania i programy reintegracji bez zakwaterowania."
+    },
+    {
+      "persona": "Organizacja pozarządowa wspierająca migrantów",
+      "use": "Świadczy pomoc prawną, językową i socjalną bez zapewniania noclegu."
+    }
+  ],
+  "businessExamples": [
+    "Fundacja prowadząca jadłodajnię społeczną",
+    "Telefon zaufania dla osób w kryzysie",
+    "Centrum integracji społecznej dla osób bezrobotnych"
+  ],
+  "commonMistakes": [
+    "Wybór 88.99.Z, gdy świadczona jest pomoc z zakwaterowaniem — wówczas właściwy jest kod 87.99.Z lub inny z działu 87.",
+    "Pomylenie z 94.99.Z (pozostała działalność organizacji członkowskich) — organizacje członkowskie służące głównie zrzeszaniu, a nie pomocy społecznej, klasyfikują się w dziale 94."
+  ],
+  "taxNotes": "Wiele podmiotów działa jako NGO ze zwolnieniami dla działalności statutowej. Działalność komercyjna w tym zakresie podlega standardowym zasadom CIT/PIT i VAT. Stawki sprawdź u doradcy podatkowego."
+}

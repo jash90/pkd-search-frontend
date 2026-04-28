@@ -1,0 +1,36 @@
+{
+  "code": "46.33.Z",
+  "name": "Sprzedaż hurtowa mleka, wyrobów mleczarskich, jaj, olejów i tłuszczów jadalnych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.33.Z obejmuje sprzedaż hurtową mleka, serów, jogurtów, masła, śmietany, jaj oraz olejów i tłuszczów spożywczych — od mleczarni i producentów do sklepów, hurtowni spożywczych i HoReCa. Sprzedaż detaliczna nabiału klasyfikowana jest pod 47.29.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia nabiału",
+      "use": "Dystrybuuje produkty mleczarskie do sklepów i restauracji w regionie."
+    },
+    {
+      "persona": "Dystrybutor jaj",
+      "use": "Skupuje jaja od ferm i sprzedaje hurtowo do sieci handlowych i piekarni."
+    },
+    {
+      "persona": "Dostawca olejów spożywczych",
+      "use": "Sprzedaje hurtowo oleje rzepakowe, słonecznikowe i oliwę dla gastronomii."
+    },
+    {
+      "persona": "Pośrednik produktów mleczarskich",
+      "use": "Importuje sery i nabiał z UE dla sklepów delikatesowych."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia nabiału z chłodnią dla sklepów osiedlowych",
+    "Dystrybutor jaj klasyfikowanych A z fermy do sieci handlowych",
+    "Importer serów dojrzewających z Włoch i Francji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.33.Z dla sprzedaży detalicznej w sklepie — wtedy właściwy jest 47.29.Z lub 47.11.Z.",
+    "Pomylenie z 10.51.Z (przetwórstwo mleka) — 46.33.Z to handel, nie produkcja serów czy jogurtów."
+  ],
+  "taxNotes": "Produkty mleczarskie korzystają z obniżonej stawki VAT, ale rozliczenie zależy od asortymentu. Wymagania sanitarne (chłodnia, łańcuch chłodniczy) są obligatoryjne. Stawki sprawdź u doradcy podatkowego."
+}

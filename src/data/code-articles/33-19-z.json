@@ -1,0 +1,36 @@
+{
+  "code": "33.19.Z",
+  "name": "Naprawa i konserwacja pozostałego sprzętu i wyposażenia",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.19.Z to kategoria zbiorcza dla naprawy sprzętu nieklasyfikowanego w innych kodach grupy 33.1 — naprawy palet, kontenerów, sprzętu sportowego, sprzętu wystawienniczego, instrumentów muzycznych przemysłowych, automatów rozrywkowych i innego specjalistycznego wyposażenia.",
+  "whoUsesIt": [
+    {
+      "persona": "Warsztat naprawy palet drewnianych",
+      "use": "Naprawia, sortuje i regeneruje palety EUR i przemysłowe dla branży logistycznej."
+    },
+    {
+      "persona": "Serwis automatów do gier i vendingowych",
+      "use": "Konserwuje i naprawia automaty vendingowe, do kawy i automaty rozrywkowe."
+    },
+    {
+      "persona": "Pracownia naprawy instrumentów muzycznych",
+      "use": "Naprawia fortepiany, instrumenty smyczkowe i dęte dla muzyków profesjonalnych."
+    },
+    {
+      "persona": "Warsztat naprawy sprzętu wystawienniczego",
+      "use": "Konserwuje stoiska targowe, modułowe systemy ekspozycyjne i sprzęt eventowy."
+    }
+  ],
+  "businessExamples": [
+    "Warsztat napraw palet drewnianych dla logistyki",
+    "Serwis automatów vendingowych z kontraktami SLA",
+    "Pracownia naprawy fortepianów i instrumentów smyczkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 33.19.Z, gdy istnieje dokładniejszy kod — np. naprawa maszyn produkcyjnych idzie pod 33.12.Z, nie pod kategorię zbiorczą.",
+    "Pomylenie z 95.29.Z (naprawa pozostałych artykułów użytku osobistego) — sprzęt B2B i przemysłowy idzie pod 33.19.Z, konsumencki pod 95.29.Z."
+  ],
+  "taxNotes": "Niszowe usługi naprawcze często prowadzone są w formie mikrofirmy lub jednoosobowej działalności. Wybór formy opodatkowania (ryczałt, skala) zależy od skali, klientów i kosztów materiałów. Stawki sprawdź u doradcy podatkowego."
+}

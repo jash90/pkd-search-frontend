@@ -1,0 +1,36 @@
+{
+  "code": "10.89.A",
+  "name": "Produkcja suplementów diety",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.89.A obejmuje produkcję suplementów diety — kapsułek, tabletek, proszków, płynów zawierających witaminy, minerały, zioła, aminokwasy czy składniki funkcjonalne. To wyodrębniony podklasa pod 10.89, dedykowany silnie regulowanej (GIS) produkcji suplementów.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent suplementów witaminowych",
+      "use": "Wytwarza tabletki i kapsułki witaminowe pod własną marką oraz w private label."
+    },
+    {
+      "persona": "Wytwórca odżywek sportowych",
+      "use": "Produkuje białka serwatkowe, kreatynę i preformuły w formie suplementów."
+    },
+    {
+      "persona": "Manufaktura ziołowa",
+      "use": "Tworzy ekstrakty ziołowe w kapsułkach i tabletkach dla aptek i sklepów zielarskich."
+    },
+    {
+      "persona": "Kontraktowy producent (CMO) dla marek e-commerce",
+      "use": "Produkuje suplementy w private label dla brandów sprzedających D2C."
+    }
+  ],
+  "businessExamples": [
+    "Producent kapsułek witaminowych pod marką własną",
+    "Wytwórca białek serwatkowych dla siłowni",
+    "Manufaktura ekstraktów ziołowych w private label"
+  ],
+  "commonMistakes": [
+    "Wybór 10.89.A zamiast 21.20.Z (Produkcja leków) — preparat zarejestrowany jako lek (OTC/Rx) to 21.20.Z, suplement to 10.89.A.",
+    "Pomylenie z 10.86.Z (Żywność dietetyczna) — żywność specjalnego przeznaczenia medycznego to 10.86.Z, a sproszkowane suplementy to 10.89.A."
+  ],
+  "taxNotes": "Suplementy diety podlegają obowiązkowi notyfikacji w GIS oraz standardowym stawkom VAT dla suplementów. Forma opodatkowania zależy od skali i struktury sprzedaży (B2B vs D2C). Stawki sprawdź u doradcy podatkowego."
+}

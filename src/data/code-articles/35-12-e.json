@@ -1,0 +1,36 @@
+{
+  "code": "35.12.E",
+  "name": "Energetyka wodna",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.12.E obejmuje wytwarzanie energii elektrycznej w elektrowniach wodnych — od małych elektrowni przepływowych (MEW) na rzekach po duże zapory szczytowo-pompowe. Kategoria dotyczy wszystkich technologii hydroenergetycznych, niezależnie od mocy zainstalowanej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator małej elektrowni wodnej",
+      "use": "Prowadzi MEW na śluzie lub jazie i sprzedaje wyprodukowaną energię."
+    },
+    {
+      "persona": "Spółka eksploatująca dużą hydroelektrownię",
+      "use": "Zarządza zaporą wodną i produkuje energię na potrzeby krajowego systemu."
+    },
+    {
+      "persona": "Inwestor odnawiający historyczny młyn wodny",
+      "use": "Modernizuje obiekt zabytkowy i przywraca produkcję energii."
+    },
+    {
+      "persona": "Gmina z elektrownią szczytowo-pompową",
+      "use": "Wykorzystuje zbiornik retencyjny do bilansowania sieci i produkcji energii."
+    }
+  ],
+  "businessExamples": [
+    "Mała elektrownia wodna 100 kW na rzece nizinnej",
+    "Hydroelektrownia szczytowo-pompowa",
+    "Modernizacja zabytkowego młyna na MEW"
+  ],
+  "commonMistakes": [
+    "Wybór 35.12.E zamiast 42.91.Z (roboty inżynierii wodnej), gdy firma buduje, a nie eksploatuje elektrownię wodną.",
+    "Pomylenie z 36.00.Z (pobór wody), gdy spiętrzenie służy głównie zaopatrzeniu w wodę, a nie produkcji energii."
+  ],
+  "taxNotes": "Hydroenergetyka korzysta z systemów wsparcia OZE i świadectw pochodzenia. Eksploatacja wymaga pozwoleń wodnoprawnych i opłat za korzystanie z wód. Stawki sprawdź u doradcy podatkowego."
+}

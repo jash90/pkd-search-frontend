@@ -1,0 +1,36 @@
+{
+  "code": "15.11.Z",
+  "name": "Garbowanie, barwienie, wyprawa skór, w tym futerkowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 15.11.Z obejmuje proces wyprawy skór surowych — garbowanie roślinne i chromowe, barwienie, wykończanie skór bydlęcych, owczych, koźlęcich oraz skór futerkowych (lis, norka, królik). To kod typowo dla garbarni i zakładów wyprawiających skóry.",
+  "whoUsesIt": [
+    {
+      "persona": "Garbarnia chromowa",
+      "use": "Garbuje skóry bydlęce metodą chromową dla branży obuwniczej i kaletniczej."
+    },
+    {
+      "persona": "Garbarnia roślinna (vegetable tanning)",
+      "use": "Wyprawia skóry naturalnymi garbnikami dla rzemieślniczych marek skórzanych."
+    },
+    {
+      "persona": "Wytwórca skór futerkowych",
+      "use": "Wyprawia futra (norka, lis, królik) dla branży kuśnierskiej i mody premium."
+    },
+    {
+      "persona": "Zakład barwienia i wykończania skór",
+      "use": "Barwi i wykończa półwyprawione skóry dla wytwórców obuwia i akcesoriów."
+    }
+  ],
+  "businessExamples": [
+    "Garbarnia chromowa zaopatrująca producentów obuwia",
+    "Garbarnia roślinna dla marek leather goods",
+    "Zakład wykończania skór futerkowych"
+  ],
+  "commonMistakes": [
+    "Wybór 15.11.Z zamiast 15.12.Z (Produkcja toreb i wyrobów rymarskich) — szycie torebek ze skóry to 15.12.Z, a sam proces wyprawy skóry to 15.11.Z.",
+    "Pomylenie z 14.24.Z (Produkcja odzieży skórzanej) — odzież ze skóry to 14.24.Z, a sama wyprawa skóry pod odzież to 15.11.Z."
+  ],
+  "taxNotes": "Garbarnie podlegają specyficznym regulacjom środowiskowym (chemikalia, ścieki) oraz standardowym zasadom VAT. Forma opodatkowania zależy od skali i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

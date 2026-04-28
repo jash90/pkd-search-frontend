@@ -1,0 +1,36 @@
+{
+  "code": "03.12.Z",
+  "name": "Rybołówstwo w wodach śródlądowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 03.12.Z obejmuje połów ryb w jeziorach, rzekach i innych wodach śródlądowych — w celach komercyjnych, nie sportowych. To kod stosowany przez rybaków zawodowych operujących na większych jeziorach (np. mazurskich) oraz dzierżawców obwodów rybackich na rzekach.",
+  "whoUsesIt": [
+    {
+      "persona": "Rybak jeziorowy",
+      "use": "Prowadzi połów towarowy na jeziorach mazurskich (sandacz, szczupak, leszcz) z bazy rybackiej."
+    },
+    {
+      "persona": "Gospodarstwo rybackie",
+      "use": "Dzierżawi obwód rybacki na rzece i prowadzi połów z dystrybucją do restauracji."
+    },
+    {
+      "persona": "Spółdzielnia rybacka",
+      "use": "Łączy rybaków zawodowych operujących na zespole jezior z odbiorem do hurtowni."
+    },
+    {
+      "persona": "Producent ryby świeżej",
+      "use": "Łączy połów z sortowaniem i bezpośrednią sprzedażą świeżych ryb na lokalny rynek."
+    }
+  ],
+  "businessExamples": [
+    "Rybak jeziorowy na Śniardwach",
+    "Gospodarstwo rybackie na Drwęcy",
+    "Spółdzielnia rybaków mazurskich"
+  ],
+  "commonMistakes": [
+    "Wybór 03.12.Z zamiast 03.22.Z (akwakultura śródlądowa), gdy działalność polega na hodowli karpi, pstrągów lub sumów w stawach hodowlanych.",
+    "Pomylenie z 93.19.Z, gdy świadczysz usługi wędkarstwa rekreacyjnego (sprzedaż zezwoleń, organizacja zawodów) — to działalność sportowa."
+  ],
+  "taxNotes": "Rybołówstwo śródlądowe podlega regulacjom dotyczącym obwodów rybackich i operatów. Forma opodatkowania zależy od skali (rolnik ryczałtowy vs. firma) — VAT i ewentualne dotacje EFMR również wymagają analizy. Stawki sprawdź u doradcy podatkowego."
+}

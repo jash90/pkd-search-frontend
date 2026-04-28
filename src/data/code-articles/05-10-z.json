@@ -1,0 +1,36 @@
+{
+  "code": "05.10.Z",
+  "name": "Wydobywanie węgla kamiennego",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 05.10.Z obejmuje wydobywanie węgla kamiennego z kopalń podziemnych i odkrywkowych oraz pierwotne procesy uszlachetniania węgla — sortowanie, mycie, klasyfikację, brykietowanie. Nie obejmuje koksowania (19.10.Z) ani usług wspierających górnictwo (09.90.Z). To kod typowy dla spółek górniczych prowadzących eksploatację złóż.",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka węglowa",
+      "use": "Eksploatuje kopalnie głębinowe, prowadzi roboty udostępniające, wydobycie i wzbogacanie węgla energetycznego oraz koksowego."
+    },
+    {
+      "persona": "Operator kopalni odkrywkowej węgla kamiennego",
+      "use": "Prowadzi wydobycie odkrywkowe na płytkich złożach i klasyfikację węgla na potrzeby energetyki."
+    },
+    {
+      "persona": "Zakład wzbogacania węgla",
+      "use": "Prowadzi przeróbkę mechaniczną — flotację, sortowanie i odsiarczanie urobku z kilku kopalń."
+    },
+    {
+      "persona": "Producent brykietów węglowych",
+      "use": "Wytwarza brykiety i miały z drobnoziarnistych frakcji węgla kamiennego."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia węgla kamiennego z zakładem przeróbki",
+    "Zakład wzbogacania węgla obsługujący kilka kopalń",
+    "Producent brykietów z miałów węglowych"
+  ],
+  "commonMistakes": [
+    "Wybór 05.10.Z zamiast 05.20.Z dla wydobycia węgla brunatnego (lignitu) — to dwie odrębne klasy mimo podobieństwa.",
+    "Mylenie z 19.10.Z (wytwarzanie i przetwarzanie koksu) — produkcja koksu z węgla kamiennego ma osobny kod w sekcji przetwórstwa."
+  ],
+  "taxNotes": "Działalność górnicza podlega licznym opłatom (m.in. opłata eksploatacyjna), specjalnym regulacjom środowiskowym i akcyzowym oraz reżimowi koncesyjnemu. Stawki sprawdź u doradcy podatkowego."
+}

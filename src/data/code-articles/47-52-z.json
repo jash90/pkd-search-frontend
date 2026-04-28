@@ -1,0 +1,36 @@
+{
+  "code": "47.52.Z",
+  "name": "Sprzedaż detaliczna drobnych wyrobów metalowych, materiałów budowlanych, farb i szkła",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.52.Z obejmuje detaliczną sprzedaż narzędzi, śrub, gwoździ, materiałów budowlanych (cement, gips, płytki), farb, lakierów, tapet, szkła i elektronarzędzi w wyspecjalizowanych sklepach. To podstawowy kod dla sklepów typu „dom i ogród” oraz mniejszych marketów budowlanych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu metalowego",
+      "use": "Sprzedaje narzędzia, okucia, śruby, kłódki, łańcuchy i drobny galant metalowy."
+    },
+    {
+      "persona": "Punkt z farbami i lakierami",
+      "use": "Prowadzi sklep specjalistyczny z farbami, mieszalnikiem kolorów i akcesoriami malarskimi."
+    },
+    {
+      "persona": "Skład materiałów budowlanych",
+      "use": "Oferuje cement, gips, płytki, kleje i materiały wykończeniowe dla wykonawców."
+    },
+    {
+      "persona": "Sklep z elektronarzędziami",
+      "use": "Sprzedaje wiertarki, szlifierki, piły i akcesoria marek profesjonalnych."
+    }
+  ],
+  "businessExamples": [
+    "Sklep „Wszystko dla domu i ogrodu”",
+    "Skład materiałów budowlanych z dostawą",
+    "Sklep z farbami i mieszalnikiem"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.73.Z (sprzedaż hurtowa drewna i materiałów budowlanych) — kod 47.52.Z dotyczy detalu dla klienta końcowego.",
+    "Wybór 47.52.Z zamiast 47.78.Z, jeśli sklep specjalizuje się tylko w optyce, lampach lub innych nowych wyrobach."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i odpowiednim limitom VAT. Niektóre wyroby (farby, chemia) wymagają kart bezpieczeństwa i odpowiedniego składowania. Stawki sprawdź u doradcy podatkowego."
+}

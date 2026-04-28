@@ -1,0 +1,36 @@
+{
+  "code": "28.11.Z",
+  "name": "Produkcja silników i turbin, z wyłączeniem silników lotniczych, samochodowych i motocyklowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.11.Z obejmuje produkcję silników spalinowych do zastosowań stacjonarnych, okrętowych i kolejowych, turbin parowych, gazowych, wodnych i wiatrowych oraz silników rakietowych nielotniczych. Klasyfikacja obejmuje też części tych urządzeń (tłoki, korbowody, wirniki). To kod dla wytwórców jednostek napędowych dla energetyki, okrętownictwa i kolejnictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent turbin gazowych i parowych",
+      "use": "Wytwarza turbiny dla bloków energetycznych i kogeneracji przemysłowej."
+    },
+    {
+      "persona": "Wytwórca silników okrętowych",
+      "use": "Produkuje silniki Diesla wysokoprężne dla statków towarowych i jednostek służbowych."
+    },
+    {
+      "persona": "Producent turbin wiatrowych",
+      "use": "Wytwarza gondole, wirniki i przekładnie do farm wiatrowych onshore i offshore."
+    },
+    {
+      "persona": "Wytwórca turbin wodnych",
+      "use": "Produkuje turbiny Kaplana, Francisa i Peltona dla elektrowni wodnych."
+    }
+  ],
+  "businessExamples": [
+    "Producent turbin gazowych dla elektrowni",
+    "Wytwórnia silników okrętowych Diesla",
+    "Producent turbin wodnych dla małych elektrowni"
+  ],
+  "commonMistakes": [
+    "Wybór 28.11.Z zamiast 30.30.Z (produkcja statków powietrznych i kosmicznych) — silniki lotnicze mają kod 30.30.Z, a samochodowe to 29.10.A.",
+    "Pomylenie z 27.11.Z (produkcja silników elektrycznych) — silniki elektryczne mają osobny kod, 28.11.Z dotyczy silników i turbin spalinowych/przepływowych."
+  ],
+  "taxNotes": "Produkcja silników i turbin objęta jest VAT na zasadach ogólnych. Branża korzysta z ulg B+R, IP Box oraz wsparcia inwestycyjnego (PSI). Wybór formy opodatkowania zależy od skali, B+R i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

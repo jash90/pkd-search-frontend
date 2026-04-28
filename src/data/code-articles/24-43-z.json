@@ -1,0 +1,36 @@
+{
+  "code": "24.43.Z",
+  "name": "Produkcja ołowiu, cynku i cyny",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.43.Z obejmuje hutnictwo i rafinację ołowiu, cynku i cyny — zarówno z rud i koncentratów, jak i z odzysku (np. akumulatory ołowiowe, blacha cynkowana, lutowia). Klasyfikacja obejmuje produkcję bloków, wlewków, prętów, blach i drutu z tych metali oraz ich stopów.",
+  "whoUsesIt": [
+    {
+      "persona": "Huta ołowiu z recyklingu akumulatorów",
+      "use": "Pozyskuje ołów wtórny z akumulatorów samochodowych i przemysłowych."
+    },
+    {
+      "persona": "Huta cynku",
+      "use": "Produkuje bloki i sztabki cynku dla branży galwanicznej i odlewniczej."
+    },
+    {
+      "persona": "Producent stopów cyny i ołowiu",
+      "use": "Wytwarza lutowia (Sn-Pb, Sn-Ag-Cu) dla elektroniki i instalacji sanitarnych."
+    },
+    {
+      "persona": "Walcownia blach cynkowych",
+      "use": "Walcuje blachę cynkową na pokrycia dachowe, rynny i parapety."
+    }
+  ],
+  "businessExamples": [
+    "Huta ołowiu odzyskująca metal z akumulatorów",
+    "Producent lutowia cynowo-srebrowego dla elektroniki",
+    "Walcownia blach cynkowych dla budownictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 24.43.Z zamiast 24.45.Z (produkcja pozostałych metali nieżelaznych), gdy zakład produkuje nikiel, magnez czy tytan — kod 24.43.Z dotyczy wyłącznie ołowiu, cynku i cyny.",
+    "Pomylenie z 25.61.Z (obróbka metali — cynkowanie), gdy główną działalnością jest galwanizacja powierzchni, a nie wytapianie metalu z surowca."
+  ],
+  "taxNotes": "Produkcja metali nieżelaznych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Recykling akumulatorów wymaga dodatkowych zezwoleń środowiskowych. Wybór formy opodatkowania zależy od skali huty i kosztu surowca. Stawki sprawdź u doradcy podatkowego."
+}

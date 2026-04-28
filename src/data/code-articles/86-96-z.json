@@ -1,0 +1,36 @@
+{
+  "code": "86.96.Z",
+  "name": "Działalność w zakresie medycyny tradycyjnej, uzupełniającej i alternatywnej",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.96.Z obejmuje medycynę alternatywną i uzupełniającą — akupunktura, ziołolecznictwo, homeopatia, refleksoterapia, bioenergoterapia, medycyna chińska. Działalność jest poza systemem medycyny konwencjonalnej. Lekarze stosujący akupunkturę używają 86.22.Z, a fizjoterapeuci 86.95.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Akupunkturzysta",
+      "use": "Prowadzi gabinet medycyny chińskiej z akupunkturą, moksą, bańkami i ziołolecznictwem chińskim."
+    },
+    {
+      "persona": "Bioenergoterapeuta",
+      "use": "Świadczy usługi bioenergoterapii, reiki, healingu - sesje indywidualne i grupowe."
+    },
+    {
+      "persona": "Refleksoterapeuta",
+      "use": "Wykonuje masaże refleksologiczne stóp i dłoni, wskazuje połączenia narządów z punktami refleksyjnymi."
+    },
+    {
+      "persona": "Zielarz / specjalista ziołolecznictwa",
+      "use": "Doradza w doborze ziół, mieszanek leczniczych, prowadzi konsultacje fitoterapeutyczne (poza apteką)."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet akupunktury i medycyny chińskiej",
+    "Centrum medycyny komplementarnej z różnymi terapiami",
+    "Bioenergoterapeuta prowadzący gabinet i warsztaty"
+  ],
+  "commonMistakes": [
+    "Wybór 86.96.Z przez lekarza wykonującego akupunkturę — lekarz to 86.22.Z (specjalista) niezależnie od stosowanej metody.",
+    "Pomylenie z 96.04.Z (poprawa kondycji fizycznej) — zabiegi spa, sauna, masaż relaksacyjny to 96.04.Z, terapie alternatywne ukierunkowane na zdrowie pod 86.96.Z."
+  ],
+  "taxNotes": "Usługi medycyny alternatywnej zwykle nie korzystają ze zwolnienia VAT na usługi medyczne (interpretacje są niejednolite). Forma opodatkowania zależy od formy prawnej — ryczałt często korzystny przy działalności jednoosobowej. Stawki sprawdź u doradcy podatkowego."
+}

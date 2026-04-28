@@ -1,0 +1,36 @@
+{
+  "code": "46.12.Z",
+  "name": "Działalność agentów zajmujących się sprzedażą hurtową paliw, rud, metali i chemikaliów przemysłowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.12.Z dotyczy pośrednictwa w hurtowej sprzedaży paliw stałych, ciekłych i gazowych (węgiel, ropa, gaz, biopaliwa), rud metali, metali kolorowych i czarnych oraz chemikaliów przemysłowych. Agent kojarzy strony transakcji, nie kupuje towaru na własny rachunek.",
+  "whoUsesIt": [
+    {
+      "persona": "Trader/agent rynku paliwowego",
+      "use": "Pośredniczy w transakcjach hurtowych ropą, gazem, biopaliwami między koncernami."
+    },
+    {
+      "persona": "Agent rynku metalowego",
+      "use": "Łączy huty, odlewnie i zakłady metalurgiczne z odbiorcami."
+    },
+    {
+      "persona": "Broker chemikaliów przemysłowych",
+      "use": "Pośredniczy w sprzedaży kwasów, zasad, rozpuszczalników między producentami a odbiorcami."
+    },
+    {
+      "persona": "Pośrednik handlu węglem",
+      "use": "Pośredniczy w hurtowych transakcjach węglem energetycznym i koksowym."
+    }
+  ],
+  "businessExamples": [
+    "Brokerstwo paliw lotniczych",
+    "Agent skupu złomu kolorowego",
+    "Pośrednictwo w obrocie chemikaliami przemysłowymi"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 46.71.Z (sprzedaż hurtowa paliw na własny rachunek) — agent działa na zlecenie, nie posiada towaru.",
+    "Wybór 46.12.Z zamiast 35.23.Z, gdy faktycznie firma jest spółką obrotu gazem ziemnym z koncesją."
+  ],
+  "taxNotes": "Działalność agencyjna rozliczana jest na podstawie prowizji. Pośrednictwo paliwami i chemikaliami może podlegać szczególnym regulacjom akcyzowym i celnym. Stawki sprawdź u doradcy podatkowego."
+}

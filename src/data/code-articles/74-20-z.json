@@ -1,0 +1,36 @@
+{
+  "code": "74.20.Z",
+  "name": "Działalność fotograficzna",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.20.Z obejmuje wszystkie usługi fotograficzne — sesje portretowe, ślubne, produktowe, reportażowe, studyjne, lotnicze (drony) — oraz obróbkę zdjęć i prowadzenie banków zdjęć. Pasuje dla freelancerów, studiów fotograficznych i fotoreporterów. Filmowanie i produkcja wideo to osobny kod 59.11.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Fotograf ślubny / okolicznościowy",
+      "use": "Realizuje sesje ślubne, plenerowe i reportaże z imprez rodzinnych i firmowych."
+    },
+    {
+      "persona": "Fotograf produktowy / reklamowy",
+      "use": "Wykonuje zdjęcia produktów dla e-commerce, kampanii reklamowych i katalogów."
+    },
+    {
+      "persona": "Studio fotograficzne",
+      "use": "Wynajmuje przestrzeń, sprzęt i obsługuje sesje wizerunkowe, biznesowe, modowe."
+    },
+    {
+      "persona": "Fotograf z dronem",
+      "use": "Wykonuje zdjęcia lotnicze nieruchomości, terenów budowlanych, eventów (z licencją UAVO)."
+    }
+  ],
+  "businessExamples": [
+    "Fotograf ślubny obsługujący wesela w regionie",
+    "Studio packshotów dla sklepów internetowych",
+    "Fotograf produktowy współpracujący z markami e-commerce"
+  ],
+  "commonMistakes": [
+    "Wybór 74.20.Z dla pełnej produkcji wideo — filmy to 59.11.Z (produkcja filmów i nagrań wideo).",
+    "Pomylenie z 90.03.Z (twórczość artystyczna) — fotografia artystyczna sprzedawana jako autorskie dzieła może wymagać dodatkowo lub zamiast tego kodu."
+  ],
+  "taxNotes": "Działalność fotograficzna często korzysta z ryczałtu lub zasad ogólnych, możliwe jest też zwolnienie podmiotowe z VAT przy niskich przychodach. Sprzedaż utworów fotograficznych może wiązać się z prawami autorskimi i odpowiednimi kosztami uzyskania przychodu. Stawki sprawdź u doradcy podatkowego."
+}

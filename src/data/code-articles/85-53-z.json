@@ -1,0 +1,36 @@
+{
+  "code": "85.53.Z",
+  "name": "Pozostałe formy edukacji z zakresu nauki jazdy i pilotażu",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.53.Z dotyczy ośrodków szkolenia kierowców (OSK), szkół żeglarskich i pilotażu — nauka jazdy samochodem, motocyklem, prawa jazdy zawodowego, kursy żeglarskie, pilotażu lotniczego i samolotowego, szkolenia operatorów drona. Wymaga zezwoleń (OSK, ATO/DTO dla lotnictwa). Egzaminowanie państwowe to 84.13.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Ośrodek szkolenia kierowców (OSK)",
+      "use": "Prowadzi kursy na prawo jazdy kategorii B, C, D, motocyklowe i kwalifikacje zawodowe kierowców."
+    },
+    {
+      "persona": "Szkoła żeglarska",
+      "use": "Organizuje kursy patentów żeglarskich, sternika motorowodnego, rejsy szkoleniowe na jeziorach i morzu."
+    },
+    {
+      "persona": "Aeroklub / szkoła pilotażu",
+      "use": "Szkoli pilotów samolotów ultralekkich, szybowców i klasycznych — z licencjami PPL i CPL."
+    },
+    {
+      "persona": "Szkoła operatorów dronów",
+      "use": "Prowadzi szkolenia i egzaminy z obsługi bezzałogowych statków powietrznych zgodnie z przepisami EASA."
+    }
+  ],
+  "businessExamples": [
+    "OSK prowadzący kursy prawa jazdy kategorii B i C",
+    "Szkoła żeglarska na jeziorach mazurskich",
+    "Szkoła pilotażu samolotów ultralekkich"
+  ],
+  "commonMistakes": [
+    "Wybór 85.53.Z bez wpisu do rejestru przedsiębiorców prowadzących OSK (dla nauki jazdy) lub zatwierdzenia ATO/DTO (lotnictwo) — to wymóg ustawowy.",
+    "Pomylenie z 85.51.Z (edukacja sportowa i rekreacyjna) — kurs żeglarski rekreacyjny w klubie sportowym może być pod 85.51.Z, ale szkoły z patentami państwowymi pod 85.53.Z."
+  ],
+  "taxNotes": "Wymaga uprawnień (OSK, instruktorzy, ATO/DTO). Forma opodatkowania zależy od skali — przy dużych szkołach częsta skala lub liniowy, mała OSK może być na ryczałcie. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "91.42.Z",
+  "name": "Działalność obszarów i obiektów ochrony przyrody",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.42.Z obejmuje działalność parków narodowych, parków krajobrazowych, rezerwatów przyrody i innych obszarów chronionych — w zakresie zarządzania, ochrony, udostępniania turystycznego i edukacji ekologicznej. Pasuje dla zarządów obszarów chronionych i podmiotów wspierających ich działania.",
+  "whoUsesIt": [
+    {
+      "persona": "Park narodowy",
+      "use": "Zarządza obszarem chronionym, prowadzi monitoring przyrody i udostępnia szlaki turystyczne."
+    },
+    {
+      "persona": "Park krajobrazowy",
+      "use": "Chroni walory krajobrazowe i kulturowe regionu, prowadzi działalność edukacyjną."
+    },
+    {
+      "persona": "Rezerwat przyrody",
+      "use": "Zachowuje cenne ekosystemy, udostępnia zwiedzającym wybrane ścieżki dydaktyczne."
+    },
+    {
+      "persona": "Centrum edukacji ekologicznej obszaru chronionego",
+      "use": "Prowadzi działalność informacyjną i edukacyjną dla turystów i grup szkolnych."
+    }
+  ],
+  "businessExamples": [
+    "Dyrekcja parku narodowego z punktami informacji turystycznej",
+    "Centrum edukacji ekologicznej parku krajobrazowego",
+    "Rezerwat ze ścieżką dydaktyczną i punktem widokowym"
+  ],
+  "commonMistakes": [
+    "Wybór 91.42.Z dla typowej działalności turystycznej w obszarach chronionych — przewodnictwo i pośrednictwo to 79.11.A, 79.90.A lub 79.90.C, nie kategoria operatora obszaru chronionego.",
+    "Pomylenie z 02.10.Z (gospodarka leśna) — gospodarka leśna w lasach gospodarczych to odrębna działalność niż ochrona przyrody w parku narodowym."
+  ],
+  "taxNotes": "Parki narodowe i krajobrazowe są instytucjami publicznymi z odrębnymi zasadami finansowania. Opłaty za wstęp i bilety mogą korzystać z preferencji VAT. Stawki sprawdź u doradcy podatkowego."
+}

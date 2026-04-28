@@ -1,0 +1,36 @@
+{
+  "code": "46.45.Z",
+  "name": "Sprzedaż hurtowa perfum i kosmetyków",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.45.Z obejmuje sprzedaż hurtową perfum, kosmetyków pielęgnacyjnych, makijażu, produktów do włosów i higieny osobistej — od producentów i importerów do drogerii, sklepów internetowych, salonów beauty i sieci handlowych. Sprzedaż detaliczna kosmetyków klasyfikowana jest pod 47.75.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia kosmetyków",
+      "use": "Dystrybuuje kosmetyki marek polskich i zagranicznych do drogerii i e-commerce."
+    },
+    {
+      "persona": "Importer perfum",
+      "use": "Sprowadza perfumy luksusowe z UE dla sieci perfumerii i sklepów online."
+    },
+    {
+      "persona": "Dystrybutor kosmetyków profesjonalnych",
+      "use": "Zaopatruje salony fryzjerskie, kosmetyczne i SPA w produkty zawodowe."
+    },
+    {
+      "persona": "Pośrednik dla marek beauty",
+      "use": "Reprezentuje niszowe marki kosmetyczne przed kanałem detalicznym i online."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia kosmetyków dla sieci drogerii",
+    "Importer perfum luksusowych",
+    "Dystrybutor kosmetyków profesjonalnych dla salonów"
+  ],
+  "commonMistakes": [
+    "Wybór 46.45.Z dla sprzedaży detalicznej w drogerii — właściwy jest 47.75.Z.",
+    "Pomylenie z 20.42.Z (produkcja kosmetyków) — 46.45.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Sprzedaż kosmetyków podlega regulacjom UE (rozporządzenie kosmetyczne). Stawki VAT są standardowe. Stawki sprawdź u doradcy podatkowego."
+}

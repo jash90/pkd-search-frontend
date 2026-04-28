@@ -1,0 +1,36 @@
+{
+  "code": "95.31.A",
+  "name": "Naprawa mechaniczna i serwisowa pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.31.A obejmuje mechaniczną naprawę i serwisowanie samochodów osobowych, dostawczych i ciężarowych — wymianę oleju, klocków, naprawy silników, skrzyń biegów, układów hamulcowych. Pasuje dla warsztatów mechaniki ogólnej, autoryzowanych serwisów oraz mobilnych mechaników.",
+  "whoUsesIt": [
+    {
+      "persona": "Mechanik samochodowy / warsztat mechaniki",
+      "use": "Wykonuje przeglądy, naprawy silników, układów hamulcowych i zawieszenia."
+    },
+    {
+      "persona": "Autoryzowany serwis marki",
+      "use": "Realizuje naprawy gwarancyjne i serwisy okresowe dla konkretnego producenta."
+    },
+    {
+      "persona": "Stacja kontroli pojazdów (z naprawami)",
+      "use": "Łączy diagnostykę z mechanicznymi usługami serwisowymi (jeśli ma uprawnienia)."
+    },
+    {
+      "persona": "Mobilny mechanik samochodowy",
+      "use": "Świadczy proste naprawy i serwisy w lokalizacji klienta."
+    }
+  ],
+  "businessExamples": [
+    "Warsztat mechaniki samochodowej z lakiernią",
+    "Autoryzowany serwis dealera marki",
+    "Mobilny mechanik z usługami u klienta"
+  ],
+  "commonMistakes": [
+    "Wybór 95.31.A dla blacharki i lakiernictwa — to oddzielny kod 95.31.B (naprawa blacharsko-lakiernicza).",
+    "Pomylenie z 95.32.Z (naprawa motocykli) — motocykle stanowią odrębną kategorię."
+  ],
+  "taxNotes": "Branża samochodowa podlega szczegółowej ewidencji części zamiennych i może być objęta szczególnymi obowiązkami VAT (np. odwrotne obciążenie dla niektórych transakcji). Wybór formy opodatkowania zależy od skali kosztów części i zatrudnienia. Stawki sprawdź u doradcy podatkowego."
+}

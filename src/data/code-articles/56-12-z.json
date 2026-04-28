@@ -1,0 +1,36 @@
+{
+  "code": "56.12.Z",
+  "name": "Ruchome placówki gastronomiczne",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.12.Z obejmuje sprzedaż żywności i napojów z punktów ruchomych — foodtrucków, przyczep gastronomicznych, wózków, stoisk eventowych i ulicznych. Pasuje dla operatorów foodtrucków, sprzedawców street food i mobilnych ekip cateringowych obsługujących festiwale i imprezy plenerowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator foodtrucka",
+      "use": "Prowadzi mobilną kuchnię — burgery, kebab, azjatyckie street food — na festiwalach i w lokalizacjach miejskich."
+    },
+    {
+      "persona": "Sprzedawca lodów / waty cukrowej",
+      "use": "Działa sezonowo z wózka lub przyczepy w miejscach turystycznych i na imprezach."
+    },
+    {
+      "persona": "Mobilny barista",
+      "use": "Serwuje kawę z trike'a lub vana na wydarzeniach firmowych i targach."
+    },
+    {
+      "persona": "Operator pop-up gastronomicznego",
+      "use": "Stawia tymczasowe stoisko na festiwalach piwnych, food market i jarmarkach."
+    }
+  ],
+  "businessExamples": [
+    "Foodtruck z burgerami obsługujący festiwale",
+    "Mobilny lodziarz w miejscowości turystycznej",
+    "Trike z kawą na eventach korporacyjnych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 56.11.Z (restauracje) — lokal stacjonarny z obsługą kelnerską to osobny kod.",
+    "Wybór 56.12.Z zamiast 56.21.Z (catering okazjonalny) — dostawa cateringu na imprezę bez sprzedaży na miejscu klasyfikuje się inaczej."
+  ],
+  "taxNotes": "Foodtrucki często rozliczają się ryczałtem lub na zasadach ogólnych. Wymagana kasa fiskalna online oraz odpowiednie zezwolenia sanitarne i lokalizacyjne. Stawki sprawdź u doradcy podatkowego."
+}

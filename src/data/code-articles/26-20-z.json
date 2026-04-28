@@ -1,0 +1,36 @@
+{
+  "code": "26.20.Z",
+  "name": "Produkcja komputerów i urządzeń peryferyjnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.20.Z obejmuje produkcję komputerów stacjonarnych, laptopów, serwerów, terminali, drukarek, skanerów, monitorów, klawiatur, myszek, dysków zewnętrznych, czytników kart i innych urządzeń peryferyjnych, w tym konsoli do gier zorientowanych na obliczenia ogólnego przeznaczenia. Nie obejmuje produkcji telefonów (26.30.Z) ani elektroniki użytkowej (26.40.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent komputerów PC",
+      "use": "Składa komputery stacjonarne i serwery z podzespołów, oferuje konfiguracje na zamówienie dla firm i klientów indywidualnych."
+    },
+    {
+      "persona": "Wytwórnia macierzy dyskowych",
+      "use": "Projektuje i produkuje serwery NAS i macierze SAN dla branży IT i centrów danych."
+    },
+    {
+      "persona": "Producent terminali POS",
+      "use": "Wytwarza dedykowane komputery i terminale dla handlu, gastronomii i służby zdrowia."
+    },
+    {
+      "persona": "Wytwórnia drukarek 3D i sprzętu peryferyjnego",
+      "use": "Produkuje drukarki 3D, skanery przestrzenne i akcesoria dla rynku makerów i przemysłu."
+    }
+  ],
+  "businessExamples": [
+    "Producent komputerów stacjonarnych i serwerów",
+    "Wytwórnia macierzy NAS dla MŚP",
+    "Producent drukarek 3D FDM i SLA"
+  ],
+  "commonMistakes": [
+    "Wybór 26.20.Z zamiast 62.01.Z — sama produkcja oprogramowania zaszywanego w urządzeniu (firmware) jako odrębna usługa to działalność programistyczna.",
+    "Mylenie z 47.41.Z (sprzedaż detaliczna komputerów) — sklep komputerowy to handel, nawet jeśli składa PC z gotowych podzespołów na zamówienie klienta."
+  ],
+  "taxNotes": "Produkcja komputerów objęta jest specyficznymi rygorami WEEE, ROHS, CE oraz standardowymi zasadami CIT i VAT. Innowacyjne projekty mogą korzystać z ulgi B+R i IP Box. Stawki sprawdź u doradcy podatkowego."
+}

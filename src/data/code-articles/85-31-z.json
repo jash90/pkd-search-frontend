@@ -1,0 +1,36 @@
+{
+  "code": "85.31.Z",
+  "name": "Szkoły średnie ogólnokształcące",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.31.Z obejmuje prowadzenie liceów ogólnokształcących publicznych i niepublicznych — szkół ponadpodstawowych przygotowujących do matury. Dotyczy organów prowadzących szkoły. Korepetycje i kursy maturalne to 85.59.B lub 85.60.Z, a szkoły zawodowe to 85.32.A-D.",
+  "whoUsesIt": [
+    {
+      "persona": "Organ prowadzący liceum publiczne",
+      "use": "Powiat lub gmina prowadząca liceum ogólnokształcące w ramach systemu oświaty publicznej."
+    },
+    {
+      "persona": "Założyciel niepublicznego LO",
+      "use": "Stowarzyszenie, fundacja lub firma prowadząca prywatne liceum z wpisem do ewidencji szkół."
+    },
+    {
+      "persona": "Liceum przy szkole branżowej / zespół szkół",
+      "use": "Zespół szkół ponadpodstawowych, w którym jednym z elementów jest liceum ogólnokształcące."
+    },
+    {
+      "persona": "Liceum dwujęzyczne lub międzynarodowe",
+      "use": "Szkoła z programem dwujęzycznym, IB lub Cambridge prowadzona przez podmiot prywatny lub publiczny."
+    }
+  ],
+  "businessExamples": [
+    "Publiczne liceum ogólnokształcące prowadzone przez powiat",
+    "Niepubliczne liceum z programem dwujęzycznym",
+    "Liceum międzynarodowe z programem IB"
+  ],
+  "commonMistakes": [
+    "Wybór 85.31.Z dla kursów maturalnych i korepetycji — to 85.59.B (kursy) lub 85.60.Z (pośrednictwo). Szkoła wymaga wpisu do ewidencji oświatowej.",
+    "Pomylenie z 85.32.A-D (szkoły zawodowe) — technika i branżowe szkoły I i II stopnia mają osobne kody."
+  ],
+  "taxNotes": "Działalność szkoły wymaga wpisu do ewidencji niepublicznych szkół i placówek prowadzonej przez gminę. Szkoły niepubliczne mogą korzystać ze zwolnień VAT na usługi edukacyjne. Forma opodatkowania zależy od formy prawnej (osoba fizyczna, spółka, fundacja). Stawki sprawdź u doradcy podatkowego."
+}

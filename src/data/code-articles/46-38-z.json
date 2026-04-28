@@ -1,0 +1,36 @@
+{
+  "code": "46.38.Z",
+  "name": "Sprzedaż hurtowa pozostałej żywności",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.38.Z obejmuje sprzedaż hurtową specjalistycznej żywności nieujętej w kodach 46.31-46.37 — produktów dietetycznych, żywności funkcjonalnej, gotowych dań, pieczywa, produktów dla wegan, żywności dla zwierząt domowych w karmach gotowych. Pasuje do hurtowni z ofertą niszową i wyspecjalizowaną.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia żywności specjalistycznej",
+      "use": "Dystrybuuje produkty bezglutenowe, wegańskie i bio do sklepów ekologicznych."
+    },
+    {
+      "persona": "Dystrybutor żywności funkcjonalnej",
+      "use": "Sprzedaje hurtowo suplementy diety w formie żywności i odżywki dla sportowców."
+    },
+    {
+      "persona": "Importer egzotycznej żywności",
+      "use": "Sprowadza produkty azjatyckie i orientalne dla sklepów i restauracji etnicznych."
+    },
+    {
+      "persona": "Dostawca gotowych dań",
+      "use": "Sprzedaje hurtowo dania gotowe i półprodukty kulinarne dla sieci stołówek i cateringów."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia żywności bio i ekologicznej",
+    "Dystrybutor odżywek sportowych dla siłowni i sklepów fit",
+    "Importer azjatyckich produktów spożywczych dla restauracji"
+  ],
+  "commonMistakes": [
+    "Wybór 46.38.Z dla produktów wpisujących się w 46.31-46.37 (np. owoce w 46.31.Z, mięso w 46.32.Z).",
+    "Pomylenie z 46.39.Z (sprzedaż niewyspecjalizowana) — 46.38.Z dotyczy specjalizacji w niszowej kategorii."
+  ],
+  "taxNotes": "Suplementy diety i żywność funkcjonalna mają zróżnicowane stawki VAT. Wymagania sanitarne i znakowanie żywności muszą być spełnione. Stawki sprawdź u doradcy podatkowego."
+}

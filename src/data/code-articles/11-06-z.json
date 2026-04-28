@@ -1,0 +1,36 @@
+{
+  "code": "11.06.Z",
+  "name": "Produkcja słodu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.06.Z obejmuje produkcję słodu jęczmiennego, pszenicznego i z innych zbóż — surowca dla browarów, gorzelni i przemysłu spożywczego. To wyspecjalizowany kod dla słodowni, czyli zakładów moczących i suszących ziarno w celu uruchomienia enzymów.",
+  "whoUsesIt": [
+    {
+      "persona": "Słodownia przemysłowa",
+      "use": "Produkuje słód jęczmienny dla dużych browarów w skali tysięcy ton rocznie."
+    },
+    {
+      "persona": "Mała słodownia rzemieślnicza",
+      "use": "Wytwarza słody specjalne (caramel, chocolate) dla browarów craftowych."
+    },
+    {
+      "persona": "Producent słodów dla gorzelni",
+      "use": "Dostarcza słód dla destylarni produkujących whisky i inne destylaty zbożowe."
+    },
+    {
+      "persona": "Wytwórca ekstraktów słodowych",
+      "use": "Produkuje koncentraty słodowe dla domowych browarników i piekarstwa."
+    }
+  ],
+  "businessExamples": [
+    "Słodownia przemysłowa zaopatrująca duże browary",
+    "Producent słodów specjalnych dla craft beer",
+    "Wytwórca ekstraktów słodowych dla home brewing"
+  ],
+  "commonMistakes": [
+    "Wybór 11.06.Z zamiast 11.05.Z (Produkcja piwa) — gdy słodowanie służy własnej produkcji piwa, nie potrzeba osobnego kodu 11.06.Z.",
+    "Pomylenie z 10.61.Z (Wytwarzanie produktów przemiału zbóż) — przemiał na mąkę to 10.61.Z, a słodowanie (kiełkowanie + suszenie) to 11.06.Z."
+  ],
+  "taxNotes": "Produkcja słodu nie jest objęta akcyzą jako produkt finalny, ale wymaga zgodności z regulacjami pasz/żywności. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

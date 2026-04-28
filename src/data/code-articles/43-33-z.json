@@ -1,0 +1,36 @@
+{
+  "code": "43.33.Z",
+  "name": "Posadzkarstwo; tapetowanie i oblicowywanie ścian",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.33.Z obejmuje wykończenie posadzek i ścian — układanie płytek ceramicznych, paneli laminowanych, parkietów, wykładzin PVC i dywanowych, tapetowanie, montaż boazerii, lamperii, oblicowanie ścian kamieniem dekoracyjnym. To podstawowy kod dla glazurników i posadzkarzy.",
+  "whoUsesIt": [
+    {
+      "persona": "Glazurnik",
+      "use": "Układa płytki ceramiczne i gres w łazienkach, kuchniach, na elewacjach."
+    },
+    {
+      "persona": "Posadzkarz parkieciarski",
+      "use": "Układa parkiety, deski podłogowe, wykończenia drewniane podłóg."
+    },
+    {
+      "persona": "Firma od wykładzin obiektowych",
+      "use": "Układa wykładziny PVC, dywanowe i specjalistyczne w biurach i sklepach."
+    },
+    {
+      "persona": "Wykonawca posadzek przemysłowych",
+      "use": "Realizuje posadzki epoksydowe i poliuretanowe w halach produkcyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Układanie płytek w łazience",
+    "Parkiet dębowy w mieszkaniu premium",
+    "Posadzka epoksydowa w hali produkcyjnej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.34.Z (malowanie i szklenie) — tapetowanie to 43.33.Z, malowanie ścian to 43.34.Z.",
+    "Wybór 43.33.Z zamiast 43.99.Z, gdy chodzi o specjalistyczne posadzki betonowe utwardzane chemicznie."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Usługi w obiektach mieszkalnych korzystają z preferencyjnej stawki VAT. Stawki sprawdź u doradcy podatkowego."
+}

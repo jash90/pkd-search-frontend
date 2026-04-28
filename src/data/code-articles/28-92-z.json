@@ -1,0 +1,36 @@
+{
+  "code": "28.92.Z",
+  "name": "Produkcja maszyn dla górnictwa i do wydobywania oraz budownictwa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.92.Z obejmuje produkcję maszyn dla górnictwa, kopalnictwa odkrywkowego i budownictwa — koparek, ładowarek, kombajnów górniczych, wiertnic, kruszarek, wibrowalców, betoniarek przemysłowych. Pasuje dla producentów ciężkiego sprzętu budowlano-górniczego.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent koparek i ładowarek",
+      "use": "Wytwarza koparki gąsienicowe, kołowe i mini-koparki dla budownictwa i kopalnictwa."
+    },
+    {
+      "persona": "Fabryka kombajnów górniczych",
+      "use": "Produkuje kombajny chodnikowe i ścianowe dla kopalń węgla i rud metali."
+    },
+    {
+      "persona": "Wytwórca kruszarek i przesiewaczy",
+      "use": "Buduje kruszarki szczękowe, stożkowe i mobilne stacje przesiewania kruszyw."
+    },
+    {
+      "persona": "Producent wiertnic geologicznych",
+      "use": "Robi wiertnice do studni, geotermii i odwiertów geologicznych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka koparek gąsienicowych dla branży budowlanej",
+    "Producent mobilnych kruszarek do recyklingu betonu",
+    "Zakład wiertnic dla geotermii i hydrogeologii"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.22.Z (urządzenia podnośnikowe) — żurawie wieżowe budowlane idą pod 28.22.Z, nie pod 28.92.Z.",
+    "Wybór 33.12.Z (naprawa maszyn) zamiast 28.92.Z — naprawa sprzętu budowlanego to inny kod niż jego produkcja."
+  ],
+  "taxNotes": "Branża maszyn budowlanych operuje na rynku globalnym z silnym wpływem cykli koniunkturalnych. Eksport, leasing produktów i finansowanie kontraktów wpływają na strategię podatkową. Stawki sprawdź u doradcy podatkowego."
+}

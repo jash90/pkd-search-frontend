@@ -1,0 +1,36 @@
+{
+  "code": "93.13.Z",
+  "name": "Działalność klubów fitness",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.13.Z obejmuje działalność klubów fitness, siłowni, studiów crossfit i podobnych obiektów oferujących trening rekreacyjny i poprawę kondycji fizycznej. Pasuje zarówno dla sieciowych klubów, jak i niezależnych studiów grupowych typu boutique gym.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel klubu fitness",
+      "use": "Prowadzi obiekt z siłownią, salami treningowymi i zajęciami grupowymi na karnety."
+    },
+    {
+      "persona": "Studio crossfit / functional training",
+      "use": "Prowadzi małe studio z autorskim programem treningowym i społecznością członków."
+    },
+    {
+      "persona": "Studio pilates / barre",
+      "use": "Specjalizuje się w wybranej formie treningu, pracuje w małych grupach."
+    },
+    {
+      "persona": "Operator sieci siłowni",
+      "use": "Prowadzi kilka klubów pod jedną marką z systemem wspólnych karnetów."
+    }
+  ],
+  "businessExamples": [
+    "Klub fitness w galerii handlowej z karnetami miesięcznymi",
+    "Studio crossfit dla społeczności trenującej w grupach",
+    "Mała siłownia osiedlowa z trenerami personalnymi"
+  ],
+  "commonMistakes": [
+    "Wybór 93.13.Z dla studia jogi nastawionego na duchowość/medytację — częściej pasuje 96.04.Z (działalność związana z poprawą kondycji fizycznej) lub 85.51.Z, jeśli dominuje nauka.",
+    "Pomylenie z 93.12.Z (kluby sportowe) — fitness nie polega na rywalizacji w rozgrywkach, lecz na rekreacji i poprawie kondycji."
+  ],
+  "taxNotes": "Karnety na siłownię i fitness mogą korzystać z preferencyjnej stawki VAT (sport i rekreacja). Forma opodatkowania zależy od skali kosztów wynajmu i sprzętu. Stawki sprawdź u doradcy podatkowego."
+}

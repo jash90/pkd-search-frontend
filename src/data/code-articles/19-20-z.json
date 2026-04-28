@@ -1,0 +1,36 @@
+{
+  "code": "19.20.Z",
+  "name": "Wytwarzanie i przetwarzanie produktów rafinacji ropy naftowej oraz produktów z paliw kopalnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 19.20.Z obejmuje rafinację ropy naftowej i produkcję paliw — benzyny, oleju napędowego, oleju opałowego, paliwa lotniczego (JET), olejów smarowych, asfaltów, parafiny, gazów płynnych (LPG) oraz biopaliw mieszanych z biokomponentami. Nie obejmuje wydobycia ropy (06.10.Z) ani produkcji koksu (19.10.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Rafineria ropy naftowej",
+      "use": "Prowadzi destylację, kraking i hydrokraking ropy, produkuje paliwa silnikowe i oleje smarowe."
+    },
+    {
+      "persona": "Producent biopaliw",
+      "use": "Estryfikuje oleje roślinne (FAME) i mieszuje je z paliwami kopalnymi do dystrybucji na stacjach."
+    },
+    {
+      "persona": "Zakład produkcji asfaltów i mas bitumicznych",
+      "use": "Wytwarza asfalty drogowe, modyfikowane i przemysłowe z pozostałości próżniowych."
+    },
+    {
+      "persona": "Producent olejów smarowych i smarów",
+      "use": "Komponuje oleje silnikowe, hydrauliczne i przekładniowe oraz smary stałe na bazie olejów rafinacyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Rafineria ropy naftowej z pełnym ciągiem rafineryjnym",
+    "Wytwórnia biokomponentów FAME do paliw",
+    "Producent olejów smarowych dla przemysłu i motoryzacji"
+  ],
+  "commonMistakes": [
+    "Wybór 19.20.Z zamiast 47.30.Z — sama sprzedaż detaliczna paliw na stacji to handel, nie rafinacja.",
+    "Mylenie z 20.14.Z (chemia organiczna) — produkcja podstawowych chemikaliów (np. olefiny w petrochemii) może wpadać w odrębne kody chemiczne."
+  ],
+  "taxNotes": "Rafinacja i wprowadzanie paliw do obrotu objęte są reżimem akcyzowym (skład podatkowy, koncesje URE, system SENT, opłata paliwowa i emisyjna) oraz zaawansowanym VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "17.11.Z",
+  "name": "Produkcja masy włóknistej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.11.Z obejmuje produkcję masy włóknistej (celulozowej) — masy chemicznej (siarczanowej, siarczynowej), termomechanicznej (TMP), ścieru drzewnego oraz masy z makulatury. To kod dla celulozowni, czyli zakładów przerabiających drewno/makulaturę na półprodukt papierniczy.",
+  "whoUsesIt": [
+    {
+      "persona": "Celulozownia",
+      "use": "Produkuje celulozę siarczanową z drewna iglastego dla papierni krajowych i eksportu."
+    },
+    {
+      "persona": "Zakład produkcji masy z makulatury",
+      "use": "Przerabia surowiec wtórny na masę dla papieru opakowaniowego (z recyklingu)."
+    },
+    {
+      "persona": "Producent masy termomechanicznej (TMP)",
+      "use": "Produkuje masę TMP z drewna do papieru gazetowego i lekkich gatunków papieru."
+    },
+    {
+      "persona": "Wytwórca masy specjalistycznej",
+      "use": "Produkuje celulozę rozpuszczalną dla przemysłu chemicznego (np. wiskoza, lyocell)."
+    }
+  ],
+  "businessExamples": [
+    "Celulozownia z masą siarczanową dla papierni",
+    "Zakład recyklingu makulatury z produkcją masy wtórnej",
+    "Producent celulozy rozpuszczalnej dla branży tekstylnej"
+  ],
+  "commonMistakes": [
+    "Wybór 17.11.Z zamiast 17.12.Z (Produkcja papieru i tektury) — papier i tektura jako gotowe rolki to 17.12.Z, a sama masa to 17.11.Z.",
+    "Pomylenie z 38.32.Z (Odzysk surowców z materiałów segregowanych) — sortowanie makulatury to 38.32.Z, a przeróbka makulatury na masę to 17.11.Z."
+  ],
+  "taxNotes": "Produkcja masy włóknistej podlega standardowym stawkom VAT i specyficznym regulacjom środowiskowym (ścieki, emisje). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

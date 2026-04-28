@@ -1,0 +1,36 @@
+{
+  "code": "65.12.Z",
+  "name": "Działalność w zakresie pozostałych ubezpieczeń osobowych oraz ubezpieczeń majątkowych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 65.12.Z obejmuje działalność zakładów ubezpieczeń w zakresie ubezpieczeń osobowych innych niż na życie (np. zdrowotne, NNW) oraz ubezpieczeń majątkowych (komunikacyjnych, mieszkaniowych, OC). Jest to kod właściwy dla towarzystw ubezpieczeniowych prowadzących klasyczny biznes non-life.",
+  "whoUsesIt": [
+    {
+      "persona": "Towarzystwo ubezpieczeń majątkowych",
+      "use": "Sprzedaje polisy OC, AC, mieszkaniowe i NNW klientom indywidualnym oraz firmom."
+    },
+    {
+      "persona": "Ubezpieczyciel zdrowotny",
+      "use": "Oferuje prywatne ubezpieczenia zdrowotne i pakiety medyczne dla pracowników."
+    },
+    {
+      "persona": "Zakład ubezpieczeń komunikacyjnych",
+      "use": "Specjalizuje się w polisach pojazdowych — OC posiadaczy pojazdów, AC, assistance."
+    },
+    {
+      "persona": "Towarzystwo ubezpieczeń wzajemnych (TUW)",
+      "use": "Prowadzi działalność non-life w formie spółdzielczej dla zrzeszonych członków."
+    }
+  ],
+  "businessExamples": [
+    "Towarzystwo ubezpieczeń komunikacyjnych i mieszkaniowych",
+    "Zakład prywatnych ubezpieczeń zdrowotnych",
+    "TUW oferujący polisy NNW dla rolników"
+  ],
+  "commonMistakes": [
+    "Wybór 65.12.Z zamiast 65.11.Z — ubezpieczenia na życie mają osobny kod (65.11.Z).",
+    "Pomylenie z 66.22.Z (działalność agentów i brokerów) — pośrednictwo ubezpieczeniowe to inny kod, nie sama sprzedaż polis."
+  ],
+  "taxNotes": "Działalność ubezpieczeniowa wymaga zezwolenia KNF i podlega ustawie o działalności ubezpieczeniowej i reasekuracyjnej. Usługi ubezpieczeniowe są zwolnione z VAT, a rozliczenia podatkowe uwzględniają specyfikę rezerw techniczno-ubezpieczeniowych. Stawki sprawdź u doradcy podatkowego."
+}

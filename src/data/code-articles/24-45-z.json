@@ -1,0 +1,36 @@
+{
+  "code": "24.45.Z",
+  "name": "Produkcja pozostałych metali nieżelaznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.45.Z obejmuje produkcję metali nieżelaznych nieujętych w pozostałych klasach grupy 24.4 — niklu, chromu, manganu, magnezu, tytanu, kobaltu, wolframu, molibdenu i metali ziem rzadkich, w tym ich stopów oraz wyrobów hutniczych. To kod dla wyspecjalizowanych zakładów dostarczających metale techniczne dla przemysłu.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent niklu i stopów niklu",
+      "use": "Wytwarza nikiel rafinowany i stopy (Inconel, Hastelloy) dla branży lotniczej."
+    },
+    {
+      "persona": "Zakład produkcji magnezu i tytanu",
+      "use": "Produkuje wlewki magnezu i tytanu dla branży lotniczej i medycznej."
+    },
+    {
+      "persona": "Wytwórca metali ziem rzadkich",
+      "use": "Rafinuje neodym, dysproz i lantan dla magnesów, akumulatorów i optoelektroniki."
+    },
+    {
+      "persona": "Producent wolframu i molibdenu",
+      "use": "Wytwarza węgliki spiekane i półwyroby dla narzędzi skrawających i elektrod."
+    }
+  ],
+  "businessExamples": [
+    "Producent stopów niklu dla branży lotniczej",
+    "Wytwórca tytanu dla implantów medycznych",
+    "Zakład produkcji metali ziem rzadkich do magnesów"
+  ],
+  "commonMistakes": [
+    "Wybór 24.45.Z zamiast 24.41.Z (metale szlachetne), gdy zakład produkuje platynowce — Pt, Pd, Rh klasyfikuje się jako metale szlachetne.",
+    "Pomylenie z 24.43.Z (produkcja ołowiu, cynku i cyny) — te trzy metale mają własny dedykowany kod, a 24.45.Z obejmuje pozostałe."
+  ],
+  "taxNotes": "Produkcja metali nieżelaznych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali zakładu i specyfiki surowca. Stawki sprawdź u doradcy podatkowego."
+}

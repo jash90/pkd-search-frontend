@@ -1,0 +1,36 @@
+{
+  "code": "74.14.Z",
+  "name": "Pozostała działalność w zakresie specjalistycznego projektowania",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 74.14.Z to kategoria zbiorcza dla specjalistycznego projektowania nieobjętego innymi klasami grupy 74.1 — np. projektowanie ekspozycji, scenografii, wystaw, oświetlenia scenicznego, biżuterii, czcionek typograficznych. To kod dla wąskich, twórczych specjalizacji projektowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Scenograf / projektant wystaw",
+      "use": "Projektuje scenografie teatralne, telewizyjne, ekspozycje muzealne i targowe."
+    },
+    {
+      "persona": "Projektant świateł",
+      "use": "Tworzy projekty oświetlenia scenicznego, eventowego, architektonicznego i wnętrzarskiego."
+    },
+    {
+      "persona": "Type designer",
+      "use": "Projektuje fonty i rodziny typograficzne dla branży wydawniczej, reklamowej i digital."
+    },
+    {
+      "persona": "Projektant biżuterii artystycznej",
+      "use": "Tworzy unikatowe kolekcje biżuterii i obiektów rzemiosła artystycznego."
+    }
+  ],
+  "businessExamples": [
+    "Studio scenografii teatralnej i telewizyjnej",
+    "Projektant świateł dla eventów i koncertów",
+    "Niezależny type designer projektujący fonty"
+  ],
+  "commonMistakes": [
+    "Wybór 74.14.Z zamiast 74.11.Z, 74.12.Z lub 74.13.Z — gdy działalność mieści się w wzornictwie (74.11.Z), grafice (74.12.Z) lub wnętrzach (74.13.Z), kategoria 'pozostała' nie jest właściwa.",
+    "Pomylenie z 90.03.Z (twórczość artystyczna) — gdy chodzi o czystą działalność artystyczną (a nie projektową na zlecenie), kod z działu 90 może być właściwszy."
+  ],
+  "taxNotes": "Specjalistyczne projektowanie często łączy się z prawami autorskimi (podwyższone koszty uzyskania przychodu z tytułu praw autorskich, IP Box przy spełnieniu warunków). Forma opodatkowania zależy od skali i charakteru zleceń. Usługi podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

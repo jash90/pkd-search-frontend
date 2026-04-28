@@ -1,0 +1,36 @@
+{
+  "code": "29.10.A",
+  "name": "Produkcja silników do pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.10.A obejmuje produkcję silników spalinowych benzynowych, wysokoprężnych i hybrydowych do samochodów osobowych, ciężarowych i autobusów. Pasuje dla fabryk silników, w tym oddziałów koncernów motoryzacyjnych oraz producentów silników do tuningu i sportu motorowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka silników motoryzacyjnych",
+      "use": "Produkuje silniki spalinowe i hybrydowe dla koncernów motoryzacyjnych w modelu OEM."
+    },
+    {
+      "persona": "Producent silników do pojazdów ciężarowych",
+      "use": "Wytwarza silniki diesla dla ciężarówek, autobusów i sprzętu specjalnego."
+    },
+    {
+      "persona": "Wytwórca silników do sportu motorowego",
+      "use": "Robi specjalistyczne silniki wyczynowe dla wyścigów i tuningu zawodowego."
+    },
+    {
+      "persona": "Zakład produkcji silników elektrycznych do EV",
+      "use": "Produkuje silniki elektryczne i hybrydowe dla samochodów osobowych BEV/PHEV."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka silników benzynowych dla globalnego koncernu motoryzacyjnego",
+    "Producent silników wyczynowych do motorsportu",
+    "Zakład silników elektrycznych dla samochodów elektrycznych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.32.Z (pozostałe części i akcesoria) — sam silnik kompletny to 29.10.A, ale pojedyncze podzespoły mogą być pod 29.32.Z.",
+    "Wybór 28.11.Z (silniki i turbiny) zamiast 29.10.A — silniki dla niemotoryzacji (statki, generatory) idą tam, dla aut tutaj."
+  ],
+  "taxNotes": "Produkcja silników motoryzacyjnych to typowo wysokokapitałowa działalność OEM z silnym wsparciem ulg B+R i pomocy publicznej w SSE. Skala, eksport i polityka inwestycyjna kształtują strategię podatkową. Stawki sprawdź u doradcy podatkowego."
+}

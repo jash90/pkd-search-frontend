@@ -1,0 +1,36 @@
+{
+  "code": "56.11.Z",
+  "name": "Restauracje",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.11.Z obejmuje przygotowywanie i serwowanie posiłków oraz napojów do spożycia na miejscu w lokalu z pełną obsługą kelnerską. Pasuje dla restauracji, bistr, kawiarni z kuchnią, pizzerii stacjonarnych oraz lokali fine dining i casual dining.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel restauracji",
+      "use": "Prowadzi lokal z menu, obsługą kelnerską i miejscami siedzącymi dla gości."
+    },
+    {
+      "persona": "Operator pizzerii",
+      "use": "Serwuje pizzę i dania z pieca, oferuje zamówienia na miejscu, na wynos i z dostawą."
+    },
+    {
+      "persona": "Restaurator hotelowy",
+      "use": "Prowadzi restaurację przy hotelu lub pensjonacie z pełnym serwisem śniadaniowym i kolacyjnym."
+    },
+    {
+      "persona": "Bistro / kawiarnia z kuchnią",
+      "use": "Oferuje śniadania, lunche i ciasta w lokalu z kawą rzemieślniczą i lampką wina."
+    }
+  ],
+  "businessExamples": [
+    "Restauracja kuchni regionalnej w centrum miasta",
+    "Pizzeria z piecem opalanym drewnem",
+    "Bistro lunchowe dla biurowców"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 56.10.B (placówki gastronomiczne pozostałe) — fast-food i samoobsługa miały osobny kod w starszych wersjach klasyfikacji; w PKD 2025 dla foodtrucków jest 56.12.Z.",
+    "Wybór 56.11.Z zamiast 56.30.Z (przygotowywanie i podawanie napojów) — bary i puby bez kuchni klasyfikują się inaczej."
+  ],
+  "taxNotes": "Gastronomia stacjonarna może korzystać z ryczałtu, podatku liniowego lub zasad ogólnych. Sprzedaż dań na miejscu objęta jest specyficzną stawką VAT, inną niż napoje alkoholowe i wynos. Obowiązkowa kasa fiskalna online. Stawki sprawdź u doradcy podatkowego."
+}

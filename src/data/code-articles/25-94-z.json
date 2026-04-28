@@ -1,0 +1,36 @@
+{
+  "code": "25.94.Z",
+  "name": "Produkcja złączy i śrub",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.94.Z obejmuje produkcję elementów złącznych — śrub, wkrętów, nakrętek, podkładek, nitów, kołków rozporowych, gwoździ wkręcanych, kotew chemicznych metalowych. Klasyfikacja obejmuje też tarcze i koła zębate stosowane jako elementy łączące. To kod dla wytwórców drobnej galanterii złącznej dla wszystkich gałęzi przemysłu.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent śrub i nakrętek",
+      "use": "Wytwarza śruby standardowe (DIN, ISO) i specjalne ze stali węglowej i nierdzewnej."
+    },
+    {
+      "persona": "Wytwórca wkrętów do drewna i blach",
+      "use": "Produkuje wkręty samogwintujące, samowiercące i ciesielskie dla budownictwa."
+    },
+    {
+      "persona": "Producent nitów i podkładek",
+      "use": "Wytwarza nity zrywalne, zamknięte i podkładki sprężyste dla motoryzacji i konstrukcji."
+    },
+    {
+      "persona": "Wytwórca kołków rozporowych i kotew",
+      "use": "Produkuje kotwy mechaniczne, kołki rozporowe i kołki opaskowe dla branży montażowej."
+    }
+  ],
+  "businessExamples": [
+    "Producent śrub ze stali nierdzewnej",
+    "Wytwórnia wkrętów ciesielskich i samowiercących",
+    "Producent kotew mechanicznych dla budownictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 25.94.Z zamiast 25.93.Z (produkcja wyrobów z drutu, łańcuchów i sprężyn) — gwoździe i zszywki należą do 25.93.Z, śruby i wkręty do 25.94.Z.",
+    "Pomylenie z 46.74.Z (sprzedaż hurtowa wyrobów metalowych), gdy firma tylko handluje śrubami bez ich produkcji — sama dystrybucja to kod handlowy."
+  ],
+  "taxNotes": "Produkcja złączy i śrub objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali produkcji, eksportu i automatyzacji. Stawki sprawdź u doradcy podatkowego."
+}

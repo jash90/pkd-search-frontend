@@ -1,0 +1,36 @@
+{
+  "code": "94.91.Z",
+  "name": "Działalność organizacji religijnych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.91.Z obejmuje działalność organizacji religijnych — kościołów, parafii, zakonów, wspólnot wyznaniowych — w zakresie kultu religijnego, posługi duszpasterskiej, działalności katechetycznej i misyjnej. Pasuje również dla podmiotów obsługujących administracyjnie struktury religijne.",
+  "whoUsesIt": [
+    {
+      "persona": "Parafia / kościół lokalny",
+      "use": "Prowadzi kult religijny, posługę sakramentalną i działalność duszpasterską."
+    },
+    {
+      "persona": "Zakon / zgromadzenie zakonne",
+      "use": "Prowadzi wspólnotę zakonną z regułą religijną i działalnością formacyjną."
+    },
+    {
+      "persona": "Diecezja / kuria",
+      "use": "Administruje strukturami kościelnymi i koordynuje działalność parafii."
+    },
+    {
+      "persona": "Wspólnota wyznaniowa niekatolicka",
+      "use": "Prowadzi nabożeństwa, formację religijną i działalność duszpasterską mniejszego kościoła."
+    }
+  ],
+  "businessExamples": [
+    "Parafia rzymskokatolicka z duszpasterstwem akademickim",
+    "Zbór ewangeliczny z nabożeństwami i grupami biblijnymi",
+    "Klasztor prowadzący rekolekcje i posługę duchową"
+  ],
+  "commonMistakes": [
+    "Wybór 94.91.Z dla działalności charytatywnej Caritas lub diakonii — pomoc społeczna prowadzona przez organizacje religijne klasyfikuje się raczej w 87.99.Z lub 88.99.Z.",
+    "Pomylenie z 85.20.Z (szkoły podstawowe) lub 85.31.A (szkoły ogólnokształcące) — szkoły katolickie/wyznaniowe to działalność edukacyjna, nie religijna."
+  ],
+  "taxNotes": "Organizacje religijne mają specjalny status na gruncie ustaw o stosunku państwa do poszczególnych kościołów i związków wyznaniowych — z licznymi zwolnieniami podatkowymi. Działalność komercyjna prowadzona przez parafie podlega standardowym zasadom. Stawki sprawdź u doradcy podatkowego."
+}

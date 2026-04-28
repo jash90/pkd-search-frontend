@@ -1,0 +1,36 @@
+{
+  "code": "46.82.Z",
+  "name": "Sprzedaż hurtowa metali i rud metali",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.82.Z obejmuje sprzedaż hurtową metali w postaci pierwotnej i półproduktów — stali, aluminium, miedzi, cynku, mosiądzu, blach, prętów, profili, rud i koncentratów — do zakładów obróbczych, hut i odbiorców przemysłowych. Sprzedaż złomu klasyfikowana jest pod 46.87.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia stali",
+      "use": "Dostarcza blachy, pręty i profile stalowe do zakładów obróbczych i konstrukcyjnych."
+    },
+    {
+      "persona": "Dystrybutor metali kolorowych",
+      "use": "Sprzedaje miedź, aluminium i mosiądz dla przemysłu elektrotechnicznego."
+    },
+    {
+      "persona": "Trader rud i koncentratów",
+      "use": "Handluje rudami metali na rynku hurtowym i międzynarodowym."
+    },
+    {
+      "persona": "Importer stali nierdzewnej",
+      "use": "Sprowadza stal nierdzewną dla branży spożywczej i farmaceutycznej."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia stali konstrukcyjnej z paleciakiem i magazynem",
+    "Dystrybutor aluminium i miedzi dla przemysłu elektrotechnicznego",
+    "Importer stali nierdzewnej dla zakładów spożywczych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.82.Z dla sprzedaży złomu — właściwy jest 46.87.Z.",
+    "Pomylenie z 24.10.Z (produkcja stali) — 46.82.Z to wyłącznie handel."
+  ],
+  "taxNotes": "Sprzedaż metali objęta jest mechanizmem odwrotnego obciążenia (split payment) w obrocie krajowym. Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

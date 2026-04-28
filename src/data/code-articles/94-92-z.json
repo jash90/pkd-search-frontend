@@ -1,0 +1,36 @@
+{
+  "code": "94.92.Z",
+  "name": "Działalność organizacji politycznych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.92.Z obejmuje działalność partii politycznych, ich struktur regionalnych i lokalnych oraz organizacji pomocniczych (młodzieżówki partyjne, fundacje partyjne). Działalność polityczna obejmuje propagowanie programu, prowadzenie kampanii wyborczych i aktywność parlamentarną.",
+  "whoUsesIt": [
+    {
+      "persona": "Partia polityczna",
+      "use": "Prowadzi działalność programową, organizuje kampanie i wystawia kandydatów w wyborach."
+    },
+    {
+      "persona": "Lokalna struktura partii",
+      "use": "Działa w gminie, powiecie lub regionie, organizuje aktywność członków."
+    },
+    {
+      "persona": "Młodzieżówka partyjna",
+      "use": "Zrzesza młodych członków i sympatyków partii, prowadzi formację polityczną."
+    },
+    {
+      "persona": "Fundacja związana z partią",
+      "use": "Prowadzi działalność edukacyjną, ekspercką i wydawniczą zbieżną z linią partii."
+    }
+  ],
+  "businessExamples": [
+    "Partia polityczna z biurem krajowym i strukturami regionalnymi",
+    "Stowarzyszenie wyborcze powiatowe",
+    "Fundacja ekspercka związana z partią"
+  ],
+  "commonMistakes": [
+    "Wybór 94.92.Z dla organizacji obywatelskich i ruchów społecznych bez statusu partii — wówczas częściej właściwy jest 94.99.Z (pozostałe organizacje członkowskie).",
+    "Pomylenie z 73.20.Z (badanie rynku i opinii publicznej) — sondażownie i firmy badawcze są odrębną kategorią od partii politycznych."
+  ],
+  "taxNotes": "Partie polityczne mają specjalne zasady finansowania (subwencje, ograniczenia darowizn) wynikające z ustawy o partiach politycznych. Składki członkowskie i darowizny mają odrębne zasady opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

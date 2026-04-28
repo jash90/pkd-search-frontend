@@ -1,0 +1,36 @@
+{
+  "code": "55.40.Z",
+  "name": "Pośrednictwo w zakwaterowaniu",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 55.40.Z obejmuje pośrednictwo w wynajmie krótkoterminowym — obsługę apartamentów cudzych właścicieli (property management), platformy rezerwacyjne online i agencje obsługujące Airbnb. To nowy kod w PKD 2025 dla firm zarządzających apartamentami i pośredniczących w rezerwacjach.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma property management Airbnb",
+      "use": "Obsługuje apartamenty cudzych właścicieli — komunikacja z gośćmi, sprzątanie, optymalizacja cen."
+    },
+    {
+      "persona": "Lokalny channel manager",
+      "use": "Zarządza rezerwacjami z wielu kanałów (Booking, Airbnb, Expedia) dla pensjonatów i apartamentów."
+    },
+    {
+      "persona": "Agent rezerwacyjny",
+      "use": "Pośredniczy w rezerwacji noclegów dla grup turystycznych i klientów korporacyjnych — prowizja od obiektów."
+    },
+    {
+      "persona": "Platforma marketplace zakwaterowania",
+      "use": "Prowadzi serwis łączący właścicieli obiektów z gośćmi — model prowizyjny od transakcji."
+    }
+  ],
+  "businessExamples": [
+    "Firma property management dla Airbnb",
+    "Agent rezerwacji grup turystycznych",
+    "Platforma marketplace dla agroturystyki"
+  ],
+  "commonMistakes": [
+    "Wybór 55.40.Z zamiast 55.20.Z (obiekty noclegowe turystyczne) — jeśli firma sama wynajmuje apartamenty (na własną rzecz, posiadając tytuł prawny), to świadczy zakwaterowanie, a nie pośrednictwo.",
+    "Pomylenie z 79.11.A (działalność agentów turystycznych) — agencje sprzedające pakiety turystyczne z transportem to inny kod."
+  ],
+  "taxNotes": "Pośrednictwo w zakwaterowaniu opodatkowane jest podstawową stawką VAT (różnie od samej usługi noclegowej, która korzysta z preferencji). Wynagrodzenie prowizyjne podlega zasadom ogólnym. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "20.20.A",
+  "name": "Produkcja pestycydów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.20.A obejmuje produkcję środków ochrony roślin — herbicydów, insektycydów, fungicydów, rodentycydów i regulatorów wzrostu w formie technicznej i gotowych formulacji. To wąsko regulowany kod dla producentów ŚOR objętych zezwoleniami MRiRW i UE.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent herbicydów",
+      "use": "Wytwarza środki chwastobójcze do upraw zbożowych i kukurydzy w formulacjach EC, SC, WG."
+    },
+    {
+      "persona": "Wytwórca insektycydów",
+      "use": "Produkuje preparaty owadobójcze dla rolnictwa, sadownictwa i hodowli."
+    },
+    {
+      "persona": "Zakład fungicydów",
+      "use": "Wytwarza środki grzybobójcze do ochrony zbóż, ziemniaków i upraw warzywnych."
+    },
+    {
+      "persona": "Producent rodentycydów",
+      "use": "Wytwarza preparaty do zwalczania gryzoni dla rolnictwa i deratyzacji komunalnej."
+    }
+  ],
+  "businessExamples": [
+    "Producent herbicydów na bazie glifosatu",
+    "Wytwórnia fungicydów dla zbóż",
+    "Zakład produkcji insektycydów do upraw"
+  ],
+  "commonMistakes": [
+    "Wybór 20.20.A dla środków biobójczych do dezynfekcji — środki dezynfekcyjne to 20.20.B.",
+    "Pomylenie z 20.20.C (pozostałe agrochemiczne) — biostymulatory i nawozy doliściowe klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Produkcja pestycydów wymaga rejestracji w UE i zezwoleń MRiRW, a obrót objęty jest ścisłą ewidencją. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

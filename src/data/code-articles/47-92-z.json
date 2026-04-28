@@ -1,0 +1,36 @@
+{
+  "code": "47.92.Z",
+  "name": "Pośrednictwo w sprzedaży detalicznej wyspecjalizowanej",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.92.Z obejmuje pośrednictwo w detalicznej sprzedaży wyspecjalizowanej — sprzedaż online, wysyłkową lub przez automaty w jednej, konkretnej kategorii produktów. Przykład: sklep internetowy oferujący tylko obuwie sportowe, tylko kosmetyki naturalne lub tylko sprzęt rowerowy.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel niszowego sklepu online",
+      "use": "Prowadzi e-commerce w wąskiej kategorii (np. ekoodzież, akcesoria do brody)."
+    },
+    {
+      "persona": "Marka DTC (direct-to-consumer)",
+      "use": "Sprzedaje własne produkty przez sklep online — kosmetyki, suplementy, ubrania."
+    },
+    {
+      "persona": "Sprzedawca specjalistyczny na Amazonie",
+      "use": "Skupia się na jednej kategorii produktów z private label lub wyłącznością."
+    },
+    {
+      "persona": "Sklep specjalistyczny na Allegro",
+      "use": "Sprzedaje wyłącznie wyspecjalizowany asortyment (np. części do aut zabytkowych)."
+    }
+  ],
+  "businessExamples": [
+    "Sklep internetowy z butami biegowymi",
+    "Marka DTC z kosmetykami naturalnymi",
+    "Sklep online z akcesoriami do kawy parzonej"
+  ],
+  "commonMistakes": [
+    "Wybór 47.92.Z zamiast 47.91.Z, jeśli e-commerce ma wiele różnych kategorii produktowych.",
+    "Pomylenie z 47.7x.Z — sklep stacjonarny w danej kategorii to inny kod, online to 47.92.Z."
+  ],
+  "taxNotes": "Sprzedaż wysyłkowa w UE wymaga VAT-OSS przy przekroczeniu limitu. Obowiązują RODO, regulamin e-commerce i prawo konsumenta. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.81.Z",
+  "name": "Sprzedaż hurtowa paliw stałych, ciekłych, gazowych oraz produktów pochodnych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.81.Z obejmuje sprzedaż hurtową węgla, koksu, ropy naftowej, paliw silnikowych (benzyna, ON, LPG), gazu ziemnego, oleju opałowego oraz biopaliw — do stacji paliw, firm transportowych, ciepłowni i odbiorców przemysłowych. Wymaga koncesji URE na obrót paliwami.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia paliw płynnych",
+      "use": "Dostarcza ON, benzynę i olej opałowy do stacji paliw i firm transportowych."
+    },
+    {
+      "persona": "Skład węgla",
+      "use": "Sprzedaje hurtowo węgiel, ekogroszek i pellet do hurtowni opałowych i ciepłowni."
+    },
+    {
+      "persona": "Dystrybutor LPG",
+      "use": "Zaopatruje stacje LPG i odbiorców przemysłowych w gaz płynny."
+    },
+    {
+      "persona": "Trader na rynku gazu i prądu",
+      "use": "Handluje gazem ziemnym lub energią na rynku hurtowym TGE."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia paliw płynnych z bazą magazynową",
+    "Skład węgla i ekogroszku dla ciepłowni",
+    "Dystrybutor LPG dla stacji benzynowych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.81.Z bez koncesji URE — obrót paliwami jest reglamentowany.",
+    "Pomylenie z 47.30.Z (sprzedaż detaliczna paliw na stacji) — 46.81.Z to wyłącznie handel hurtowy."
+  ],
+  "taxNotes": "Obrót paliwami wymaga koncesji URE, rozliczania akcyzy oraz opłaty paliwowej. Spełnienie wymogów ustawy SENT (przewóz towarów wrażliwych) jest obligatoryjne. Stawki sprawdź u doradcy podatkowego."
+}

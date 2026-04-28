@@ -1,0 +1,36 @@
+{
+  "code": "10.83.Z",
+  "name": "Przetwórstwo herbaty i kawy",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.83.Z obejmuje palenie i mielenie kawy, produkcję kawy rozpuszczalnej, mieszanie i pakowanie herbaty oraz produkcję ekstraktów i koncentratów z kawy/herbaty. To kod dla palarni kawy, herbaciarni produkcyjnych i wytwórców kapsułek.",
+  "whoUsesIt": [
+    {
+      "persona": "Palarnia kawy speciality",
+      "use": "Pali ziarna kawy rzemieślniczo i dystrybuuje pod własną marką."
+    },
+    {
+      "persona": "Producent kawy rozpuszczalnej",
+      "use": "Wytwarza kawę instant w słoiczkach i saszetkach w skali przemysłowej."
+    },
+    {
+      "persona": "Wytwórca kapsułek kawowych",
+      "use": "Pakuje zmieloną kawę w kapsułki kompatybilne z popularnymi systemami."
+    },
+    {
+      "persona": "Manufaktura herbaty",
+      "use": "Komponuje, suszy i pakuje mieszanki herbaciane (czarna, zielona, owocowa)."
+    }
+  ],
+  "businessExamples": [
+    "Palarnia kawy speciality z subskrypcją online",
+    "Wytwórca kapsułek kawowych pod marką własną",
+    "Manufaktura mieszanek herbacianych z dystrybucją B2B"
+  ],
+  "commonMistakes": [
+    "Wybór 10.83.Z zamiast 56.30.Z (Przygotowywanie i podawanie napojów) — kawiarnia parząca kawę dla klientów to 56.30.Z, a nie produkcja.",
+    "Pomylenie z 11.07.Z (Produkcja napojów bezalkoholowych) — gotowe kawy mrożone w butelkach mogą iść do 11.07.Z."
+  ],
+  "taxNotes": "Przetwórstwo kawy i herbaty podlega standardowym stawkom VAT, a kawa i herbata nie są objęte akcyzą w Polsce. Forma opodatkowania zależy od skali importu surowca i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

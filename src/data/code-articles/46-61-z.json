@@ -1,0 +1,36 @@
+{
+  "code": "46.61.Z",
+  "name": "Sprzedaż hurtowa maszyn i urządzeń rolniczych oraz dodatkowego wyposażenia",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.61.Z obejmuje sprzedaż hurtową ciągników, kombajnów, opryskiwaczy, siewników, dojarek i innych maszyn rolniczych oraz akcesoriów i części do nich — do gospodarstw rolnych, kooperatyw i przedsiębiorstw rolnych. Pasuje do dealerów ciągników, dystrybutorów maszyn agro i hurtowni części.",
+  "whoUsesIt": [
+    {
+      "persona": "Dealer ciągników",
+      "use": "Reprezentuje markę (np. John Deere, Massey Ferguson) i sprzedaje ciągniki do gospodarstw."
+    },
+    {
+      "persona": "Dystrybutor maszyn rolniczych",
+      "use": "Sprzedaje siewniki, opryskiwacze i agregaty uprawowe do rolników i kooperatyw."
+    },
+    {
+      "persona": "Hurtownia części rolniczych",
+      "use": "Zaopatruje warsztaty i gospodarstwa w części zamienne do maszyn agro."
+    },
+    {
+      "persona": "Importer wyspecjalizowanych maszyn",
+      "use": "Sprowadza maszyny do hodowli zwierząt i przetwórstwa pierwotnego."
+    }
+  ],
+  "businessExamples": [
+    "Dealer ciągników rolniczych z serwisem",
+    "Dystrybutor opryskiwaczy i siewników",
+    "Hurtownia części do maszyn rolniczych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.61.Z dla sprzedaży maszyn budowlanych — właściwy jest 46.63.Z.",
+    "Pomylenie z 28.30.Z (produkcja maszyn rolniczych) — 46.61.Z to wyłącznie handel."
+  ],
+  "taxNotes": "Sprzedaż maszyn rolniczych może korzystać ze szczególnych preferencji (np. obniżona stawka VAT na niektóre maszyny). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

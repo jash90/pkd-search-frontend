@@ -1,0 +1,36 @@
+{
+  "code": "29.10.D",
+  "name": "Produkcja pojazdów silnikowych przeznaczonych do przewozu towarów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.10.D obejmuje produkcję samochodów ciężarowych, vanów dostawczych, ciągników siodłowych, wywrotek i innych pojazdów przeznaczonych do przewozu towarów. Pasuje dla fabryk ciężarówek i lekkich pojazdów dostawczych powyżej kategorii samochodu osobowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka ciężarówek i ciągników siodłowych",
+      "use": "Produkuje ciężarówki dalekobieżne i miejskie dla branży transportowej."
+    },
+    {
+      "persona": "Producent vanów dostawczych",
+      "use": "Wytwarza pojazdy dostawcze do 3,5 t dla logistyki ostatniej mili i e-commerce."
+    },
+    {
+      "persona": "Wytwórca specjalistycznych pojazdów ciężarowych",
+      "use": "Robi wywrotki, betonomieszarki, śmieciarki i pojazdy komunalne na bazie ciężarówek."
+    },
+    {
+      "persona": "Zakład produkcji elektrycznych pojazdów dostawczych",
+      "use": "Buduje vany i ciężarówki elektryczne (eVan, eTruck) dla zeroemisyjnej logistyki."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka ciężarówek dalekobieżnych dla rynku europejskiego",
+    "Producent elektrycznych vanów dostawczych do logistyki miejskiej",
+    "Zakład wywrotek i pojazdów komunalnych dla samorządów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 29.20.Z (nadwozia) — sama zabudowa furgonowa lub skrzyniowa to inny kod niż produkcja kompletnego pojazdu.",
+    "Wybór 28.92.Z (maszyny budowlane) zamiast 29.10.D — pojazdy budowlane drogowe (wywrotki) to 29.10.D, nie 28.92.Z."
+  ],
+  "taxNotes": "Produkcja pojazdów ciężarowych to kapitałochłonna branża OEM z długim cyklem produkcji i silnym wsparciem inwestycyjnym. Forma opodatkowania zależy od skali, eksportu i polityki finansowania klientów. Stawki sprawdź u doradcy podatkowego."
+}

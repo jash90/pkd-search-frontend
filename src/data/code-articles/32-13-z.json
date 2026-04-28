@@ -1,0 +1,36 @@
+{
+  "code": "32.13.Z",
+  "name": "Produkcja sztucznej biżuterii i wyrobów podobnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.13.Z obejmuje produkcję sztucznej biżuterii — z metali nieszlachetnych, plastiku, drewna, koralików, szkła. Pasuje dla rzemieślników, projektantów handmade, producentów biżuterii bijou i akcesoriów modowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Projektantka biżuterii handmade",
+      "use": "Tworzy autorską biżuterię z koralików, makramy, fimo i naturalnych materiałów dla rynku e-commerce."
+    },
+    {
+      "persona": "Producent biżuterii bijou",
+      "use": "Wytwarza modną biżuterię z mosiądzu, miedzi i platerów dla sieci handlowych."
+    },
+    {
+      "persona": "Wytwórca biżuterii ze szkła i ceramiki",
+      "use": "Robi biżuterię artystyczną ze szkła, ceramiki i kamieni półszlachetnych."
+    },
+    {
+      "persona": "Producent biżuterii dziecięcej",
+      "use": "Buduje hipoalergiczną biżuterię dla dzieci z bezpiecznych materiałów."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura biżuterii handmade na Etsy i Allegro",
+    "Fabryka biżuterii modowej dla sieci sklepów odzieżowych",
+    "Producent biżuterii ze szkła weneckiego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.12.Z (jubilerska) — biżuteria ze srebra próbowanego idzie pod 32.12.Z, nawet jeśli wygląda jak fashion.",
+    "Wybór 47.78.Z (sprzedaż detaliczna pozostała) zamiast 32.13.Z — sama sprzedaż to inny kod niż produkcja."
+  ],
+  "taxNotes": "Branża biżuterii sztucznej często prowadzona jest w formie mikrofirmy z preferencyjnymi formami opodatkowania (ryczałt, mała działalność). Wybór zależy od skali, kanałów sprzedaży i kosztów materiałów. Stawki sprawdź u doradcy podatkowego."
+}

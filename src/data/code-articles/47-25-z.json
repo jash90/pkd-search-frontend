@@ -1,0 +1,36 @@
+{
+  "code": "47.25.Z",
+  "name": "Sprzedaż detaliczna napojów alkoholowych i bezalkoholowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.25.Z dotyczy detalicznej sprzedaży napojów (alkoholowych i bezalkoholowych) w wyspecjalizowanych sklepach — m.in. sklepach monopolowych, winiarniach, sklepach z piwami rzemieślniczymi, sklepach z wodami i sokami. Dla sprzedaży online używaj kodu 47.91.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu monopolowego",
+      "use": "Prowadzi punkt z koncesją na sprzedaż wódek, win i piw."
+    },
+    {
+      "persona": "Sommelier-winiarz",
+      "use": "Sprzedaje wina selekcjonowane w wyspecjalizowanej winiarni."
+    },
+    {
+      "persona": "Sklep z piwami rzemieślniczymi",
+      "use": "Oferuje craft beery z mikrobrowarów, cydry i miody pitne."
+    },
+    {
+      "persona": "Punkt z napojami bezalkoholowymi",
+      "use": "Specjalizuje się w wodach mineralnych, sokach i napojach funkcjonalnych."
+    }
+  ],
+  "businessExamples": [
+    "Sklep monopolowy 24h",
+    "Winiarnia z degustacjami",
+    "Bottle shop z piwami rzemieślniczymi"
+  ],
+  "commonMistakes": [
+    "Sprzedaż alkoholu wymaga koncesji gminnej — sam kod PKD nie wystarczy do legalnego handlu.",
+    "Pomylenie z 56.30.Z (przygotowywanie i podawanie napojów na miejscu) — bar lub pub to inna działalność niż sklep."
+  ],
+  "taxNotes": "Sprzedaż alkoholu wymaga zezwoleń, opłat za koncesję i kasy fiskalnej. Akcyza wpływa na marże. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

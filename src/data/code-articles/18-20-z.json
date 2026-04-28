@@ -1,0 +1,36 @@
+{
+  "code": "18.20.Z",
+  "name": "Reprodukcja zapisanych nośników informacji",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 18.20.Z obejmuje przemysłowe powielanie zapisanych nośników — tłoczenie płyt CD, DVD, Blu-ray, kopiowanie taśm magnetycznych, USB i kart pamięci z gotowym zapisem audio, wideo i danych z masterów dostarczonych przez klientów. Nie obejmuje tworzenia treści (publikowania) ani druku książek czy gazet (18.11/18.13). Typowy kod dla tłoczni i firm duplikacji nośników.",
+  "whoUsesIt": [
+    {
+      "persona": "Tłocznia płyt CD/DVD",
+      "use": "Tłoczy nakłady płyt audio dla niezależnych wytwórni muzycznych i wydawców filmów."
+    },
+    {
+      "persona": "Firma duplikacji USB",
+      "use": "Programuje i powiela pendrive'y z materiałami szkoleniowymi, marketingowymi i firmowymi."
+    },
+    {
+      "persona": "Producent płyt vinylowych",
+      "use": "Tłoczy nakłady płyt winylowych z masterów dostarczanych przez wytwórnie i artystów."
+    },
+    {
+      "persona": "Centrum reprodukcji oprogramowania",
+      "use": "Powiela nośniki instalacyjne dla producentów software'u i sprzętu OEM (np. dyski startowe)."
+    }
+  ],
+  "businessExamples": [
+    "Tłocznia płyt winylowych dla niezależnych wytwórni",
+    "Firma duplikacji pendrive'ów na targi i konferencje",
+    "Reprodukcja nośników instalacyjnych dla OEM"
+  ],
+  "commonMistakes": [
+    "Wybór 18.20.Z zamiast 59.20.Z — sama produkcja nagrań dźwiękowych (mastering, miksowanie) to działalność wydawnicza muzyczna, a nie reprodukcja nośników.",
+    "Mylenie z 26.80.Z (produkcja magnetycznych i optycznych niezapisanych nośników informacji) — wytwarzanie pustych dysków/taśm to kod produkcyjny przed zapisem."
+  ],
+  "taxNotes": "Reprodukcja nośników wymaga prawidłowego rozliczania praw autorskich (umowy z wydawcami, zarządzanie matrycami) oraz standardowych obowiązków VAT i podatku dochodowego. Stawki sprawdź u doradcy podatkowego."
+}

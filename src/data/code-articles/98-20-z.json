@@ -1,0 +1,36 @@
+{
+  "code": "98.20.Z",
+  "name": "Gospodarstwa domowe świadczące usługi na własne potrzeby",
+  "section": "U",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 98.20.Z obejmuje usługi wykonywane przez członków gospodarstwa domowego wyłącznie na potrzeby tego gospodarstwa — sprzątanie, gotowanie, opieka nad dziećmi w rodzinie, opieka nad seniorem-rodzicem, samodzielne naprawy w domu. To kod statystyczny opisujący niekomercyjne wsparcie rodzinne, bez wprowadzania usług do obrotu. Komercyjne usługi opieki to kody z sekcji R i T.",
+  "whoUsesIt": [
+    {
+      "persona": "Rodzic na urlopie wychowawczym",
+      "use": "Sprawuje opiekę nad dzieckiem w ramach gospodarstwa, bez świadczenia usług na zewnątrz."
+    },
+    {
+      "persona": "Członek rodziny opiekujący się seniorem",
+      "use": "Opiekuje się starszym rodzicem we własnym domu, bez wynagrodzenia rynkowego."
+    },
+    {
+      "persona": "Domownik prowadzący prace domowe",
+      "use": "Sprząta, gotuje i prowadzi gospodarstwo dla rodziny — bez statusu pracownika."
+    },
+    {
+      "persona": "Rodzina samodzielnie wykonująca drobne naprawy",
+      "use": "Wykonuje naprawy domowe (hydraulika, elektryka, malowanie) we własnym domu i dla swoich potrzeb."
+    }
+  ],
+  "businessExamples": [
+    "Opieka rodzinna nad dzieckiem w domu",
+    "Domowa opieka nad seniorem przez członka rodziny",
+    "Samodzielne prowadzenie domu i drobne naprawy w gospodarstwie"
+  ],
+  "commonMistakes": [
+    "Wybór 98.20.Z przez agencję opieki domowej lub firmę sprzątającą — to są działalności komercyjne (88.10.Z, 81.21.Z), a nie usługi na własne potrzeby.",
+    "Pomylenie z 97.00.Z (gospodarstwa domowe zatrudniające pracowników) — 98.20.Z dotyczy usług wykonywanych przez samych domowników, a nie zatrudnionego personelu."
+  ],
+  "taxNotes": "Kod 98.20.Z opisuje aktywność niekomercyjną w obrębie gospodarstwa domowego i nie wiąże się z prowadzeniem działalności gospodarczej ani z obowiązkami VAT-owskimi. Każda sprzedaż usług na zewnątrz wymaga przekwalifikowania na właściwy kod komercyjny. Stawki sprawdź u doradcy podatkowego."
+}

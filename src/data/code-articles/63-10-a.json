@@ -1,0 +1,36 @@
+{
+  "code": "63.10.A",
+  "name": "Działalność w zakresie kolokacji centrów danych oraz przetwarzania w chmurze",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.10.A obejmuje prowadzenie centrów danych — wynajem powierzchni szafy serwerowej (kolokacja), zasilania, klimatyzacji i łącz oraz świadczenie usług chmurowych (IaaS, PaaS). Pasuje dla operatorów data center, dostawców chmury publicznej i prywatnej oraz firm hostingowych w skali enterprise.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator data center",
+      "use": "Prowadzi serwerownię w standardzie Tier III/IV — wynajmuje szafy, prąd, łącza klientom B2B."
+    },
+    {
+      "persona": "Dostawca chmury publicznej / prywatnej",
+      "use": "Oferuje IaaS i PaaS — maszyny wirtualne, kontenery, storage, bazy danych w modelu chmurowym."
+    },
+    {
+      "persona": "Operator chmury hybrydowej",
+      "use": "Łączy zasoby on-premise klienta z chmurą publiczną — projektuje i utrzymuje rozwiązania hybrydowe."
+    },
+    {
+      "persona": "Firma hostingu enterprise",
+      "use": "Świadczy dedykowane serwery, klastry i platformy aplikacyjne dla dużych klientów."
+    }
+  ],
+  "businessExamples": [
+    "Polski data center w standardzie Tier III",
+    "Dostawca chmury IaaS dla MŚP",
+    "Operator hostingu enterprise dla banków"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.10.D (pozostała działalność hostingu) — webhosting i shared hosting małej skali mają osobną klasę.",
+    "Wybór 63.10.A zamiast 61.10.A (wymiana ruchu IXP) — punkty wymiany ruchu klasyfikuje się w sekcji telekomunikacji."
+  ],
+  "taxNotes": "Działalność DC i chmury wymaga znacznych nakładów inwestycyjnych objętych amortyzacją. Sprzedaż usług dla klientów UE wymaga rozliczenia w OSS. IP Box dostępny przy własnych warstwach softwarowych. Stawki sprawdź u doradcy podatkowego."
+}

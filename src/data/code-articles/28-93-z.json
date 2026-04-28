@@ -1,0 +1,36 @@
+{
+  "code": "28.93.Z",
+  "name": "Produkcja maszyn stosowanych w przetwórstwie żywności, tytoniu i produkcji napojów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 28.93.Z obejmuje produkcję maszyn dla przemysłu spożywczego — linii rozlewniczych, pasteryzatorów, młynów, mieszalników, pieców piekarniczych przemysłowych, maszyn do produkcji makaronu, masarniczych, mleczarskich i tytoniowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent linii rozlewniczych",
+      "use": "Wytwarza kompletne linie do rozlewu napojów, piwa i wody mineralnej."
+    },
+    {
+      "persona": "Fabryka maszyn masarniczych",
+      "use": "Produkuje wilki, kutry, nadziewarki i klipsownice dla zakładów mięsnych."
+    },
+    {
+      "persona": "Wytwórca pieców piekarniczych",
+      "use": "Buduje piece obrotowe, tunelowe i wsadowe dla piekarni przemysłowych."
+    },
+    {
+      "persona": "Producent maszyn mleczarskich",
+      "use": "Robi pasteryzatory, separatory i tanki schładzające dla mleczarni."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka linii rozlewu butelek PET dla przemysłu napojów",
+    "Producent profesjonalnych pieców piekarniczych obrotowych",
+    "Zakład maszyn do przetwórstwa owoców i warzyw"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 28.29.Z (maszyny pakujące) — typowa pakowarka do produktów spożywczych może być pod 28.29.Z, jeśli jest uniwersalna.",
+    "Wybór 33.20.Z (instalowanie maszyn) zamiast 28.93.Z — sama produkcja idzie pod 28.93.Z, instalacja na linii klienta to dodatkowy kod."
+  ],
+  "taxNotes": "Producenci maszyn dla foodtechu często pracują w modelu projektowym z długim cyklem realizacji i wysokim udziałem eksportu. Forma opodatkowania zależy od struktury kontraktów i polityki amortyzacji. Stawki sprawdź u doradcy podatkowego."
+}

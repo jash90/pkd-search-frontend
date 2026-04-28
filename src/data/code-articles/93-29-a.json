@@ -1,0 +1,36 @@
+{
+  "code": "93.29.A",
+  "name": "Działalność pokojów zagadek, domów strachu, miejsc do tańczenia i w zakresie innych form rozrywki lub rekreacji organizowanych w pomieszczeniach lub w innych miejscach o zamkniętej przestrzeni",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.29.A obejmuje działalność rozrywkowo-rekreacyjną w przestrzeniach zamkniętych — escape roomy, domy strachu, parki trampolin, sale zabaw dla dzieci, kluby taneczne, kręgielnie czy salony VR. To dynamicznie rozwijająca się kategoria obejmująca nowe formy rozrywki indoor.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel escape roomu",
+      "use": "Prowadzi pokoje zagadek tematycznych, rezerwowanych przez grupy znajomych i firmy."
+    },
+    {
+      "persona": "Operator parku trampolin",
+      "use": "Udostępnia salę z trampolinami i atrakcjami sportowo-rekreacyjnymi w pomieszczeniu."
+    },
+    {
+      "persona": "Sala zabaw dla dzieci",
+      "use": "Organizuje urodziny i rekreację z animatorami w bawialni."
+    },
+    {
+      "persona": "Klub taneczny / dyskoteka",
+      "use": "Prowadzi miejsce do tańczenia z barem i ofertą wieczorną."
+    }
+  ],
+  "businessExamples": [
+    "Sieć escape roomów z różnymi scenariuszami",
+    "Park trampolin z urodzinami dla dzieci",
+    "Klub VR z grami w wirtualnej rzeczywistości"
+  ],
+  "commonMistakes": [
+    "Wybór 93.29.A dla parku rozrywki na powietrzu — wesołe miasteczka i parki rozrywki klasyfikują się jako 93.21.Z (wesołe miasteczka i parki rozrywki).",
+    "Pomylenie z 56.30.Z (przygotowywanie i podawanie napojów) — sam pub bez funkcji rozrywki tanecznej/parkietu należy do gastronomii."
+  ],
+  "taxNotes": "Bilety na rozrywkę w przestrzeniach zamkniętych mogą korzystać z preferencyjnej stawki VAT (rekreacja). Kluby taneczne ze sprzedażą alkoholu wymagają zezwoleń i mają inne koszty operacyjne. Stawki sprawdź u doradcy podatkowego."
+}

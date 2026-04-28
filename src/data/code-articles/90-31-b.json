@@ -1,0 +1,36 @@
+{
+  "code": "90.31.B",
+  "name": "Działalność pozostałych obiektów kulturalnych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.31.B obejmuje działalność obiektów kulturalnych innych niż domy kultury — np. wielofunkcyjne sale koncertowe, areny widowiskowe, hale wystawiennicze pełniące funkcje kulturalne czy prywatne przestrzenie eventowe nastawione na kulturę. To kategoria dla operatorów infrastruktury kulturalnej.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator sali koncertowej",
+      "use": "Wynajmuje salę zewnętrznym organizatorom koncertów, festiwali i wydarzeń."
+    },
+    {
+      "persona": "Zarządca areny widowiskowej",
+      "use": "Prowadzi obiekt udostępniany na koncerty masowe, gale i widowiska."
+    },
+    {
+      "persona": "Centrum konferencyjno-kulturalne",
+      "use": "Łączy funkcje konferencyjne z wystawami i wydarzeniami artystycznymi."
+    },
+    {
+      "persona": "Prywatna przestrzeń eventowa nastawiona na kulturę",
+      "use": "Kameralne miejsce dla wystaw, premier i koncertów wydawane organizatorom."
+    }
+  ],
+  "businessExamples": [
+    "Operator hali widowiskowej z koncertami i galami",
+    "Wielofunkcyjna sala koncertowa do wynajmu",
+    "Centrum kulturalno-konferencyjne w zabytkowym budynku"
+  ],
+  "commonMistakes": [
+    "Wybór 90.31.B dla typowego domu kultury — wówczas właściwy jest 90.31.A (centra kultury, domy i ośrodki kultury).",
+    "Pomylenie z 68.20.Z (wynajem nieruchomości) — sam wynajem przestrzeni bez profilu kulturalnego nie jest działalnością obiektu kulturalnego."
+  ],
+  "taxNotes": "Bilety wstępu na wydarzenia kulturalne mogą korzystać z preferencyjnej stawki VAT, ale wynajem komercyjny zazwyczaj podlega stawce podstawowej. Forma opodatkowania zależy od skali kosztów inwestycyjnych. Stawki sprawdź u doradcy podatkowego."
+}

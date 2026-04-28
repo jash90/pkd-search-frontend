@@ -1,0 +1,36 @@
+{
+  "code": "21.10.Z",
+  "name": "Produkcja podstawowych substancji farmaceutycznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 21.10.Z obejmuje produkcję substancji czynnych (API) i półproduktów farmaceutycznych — antybiotyków, witamin, hormonów, alkaloidów, substancji psychoaktywnych do celów leczniczych oraz przerób hodowanych krwi i osocza na bazowe składniki farmaceutyczne. Nie obejmuje produkcji gotowych leków (21.20.Z) ani suplementów diety jako żywności (10.89.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent API",
+      "use": "Wytwarza aktywne substancje farmaceutyczne metodą syntezy chemicznej dla producentów leków generycznych i innowacyjnych."
+    },
+    {
+      "persona": "Wytwórnia substancji biotechnologicznych",
+      "use": "Produkuje białka rekombinowane, enzymy i przeciwciała w bioreaktorach na potrzeby leków biologicznych."
+    },
+    {
+      "persona": "Zakład fermentacji antybiotyków",
+      "use": "Prowadzi fermentację mikroorganizmów do produkcji penicylin, cefalosporyn i innych antybiotyków."
+    },
+    {
+      "persona": "Producent ziołowych ekstraktów farmaceutycznych",
+      "use": "Wytwarza standaryzowane wyciągi roślinne i alkaloidy do dalszego użycia w lekach i suplementach."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia API dla generyków",
+    "Zakład biotechnologii produkujący białka rekombinowane",
+    "Producent ekstraktów ziołowych standaryzowanych"
+  ],
+  "commonMistakes": [
+    "Wybór 21.10.Z zamiast 21.20.Z — produkcja gotowych leków (tabletki, ampułki) to odrębna klasa.",
+    "Mylenie z 20.14.Z (chemia organiczna podstawowa) — produkcja stricte chemikaliów technicznych nie wpada do farmacji, nawet jeśli niektóre substancje są wspólne."
+  ],
+  "taxNotes": "Produkcja substancji farmaceutycznych wymaga zezwolenia GIF, certyfikacji GMP i podlega specyficznym regulacjom dla substancji psychoaktywnych. W innowacyjnych zakładach możliwe są ulgi B+R i IP Box. Stawki sprawdź u doradcy podatkowego."
+}

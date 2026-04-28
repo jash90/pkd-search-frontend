@@ -1,0 +1,36 @@
+{
+  "code": "69.10.Z",
+  "name": "Działalność prawnicza",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 69.10.Z obejmuje usługi prawne świadczone przez adwokatów, radców prawnych, notariuszy, komorników i prawników in-house prowadzących indywidualne kancelarie. Mieści się w nim doradztwo prawne, reprezentacja przed sądami, sporządzanie umów i opinii. Doradztwo podatkowe (samo) klasyfikuje się pod 69.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Adwokat / radca prawny",
+      "use": "Prowadzi indywidualną kancelarię i reprezentuje klientów w sprawach cywilnych, karnych lub gospodarczych."
+    },
+    {
+      "persona": "Spółka adwokacka / radców prawnych",
+      "use": "Prowadzi kancelarię w formie spółki, zatrudnia prawników i obsługuje firmy."
+    },
+    {
+      "persona": "Notariusz",
+      "use": "Prowadzi kancelarię notarialną i sporządza akty notarialne, poświadczenia, protokoły."
+    },
+    {
+      "persona": "Komornik sądowy",
+      "use": "Prowadzi kancelarię komorniczą i wykonuje czynności egzekucyjne."
+    }
+  ],
+  "businessExamples": [
+    "Kancelaria adwokacka specjalizująca się w prawie gospodarczym",
+    "Kancelaria notarialna obsługująca transakcje nieruchomości",
+    "Spółka radców prawnych obsługująca klientów korporacyjnych"
+  ],
+  "commonMistakes": [
+    "Wybór 69.10.Z, gdy faktycznie świadczone jest głównie doradztwo podatkowe — wtedy właściwy jest 69.20.Z.",
+    "Pomylenie z 70.22.Z (pozostałe doradztwo w zakresie zarządzania) — usługi prawne mogą być wykonywane wyłącznie przez osoby z odpowiednimi uprawnieniami i nie mieszczą się w doradztwie biznesowym."
+  ],
+  "taxNotes": "Wykonywanie zawodu adwokata, radcy prawnego, notariusza i komornika podlega ustawom korporacyjnym i wymaga wpisu na listę. Część usług prawnych podlega VAT, możliwe są też kwestie tajemnicy zawodowej wpływające na dokumentację. Stawki sprawdź u doradcy podatkowego."
+}

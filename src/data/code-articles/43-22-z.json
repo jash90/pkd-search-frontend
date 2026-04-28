@@ -1,0 +1,36 @@
+{
+  "code": "43.22.Z",
+  "name": "Wykonywanie instalacji wodno-kanalizacyjnych, cieplnych i klimatyzacyjnych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.22.Z obejmuje montaż instalacji sanitarnych w budynkach — wodociągowych, kanalizacyjnych, centralnego ogrzewania, klimatyzacji, wentylacji, gazowych wewnętrznych, paneli solarnych grzewczych, pomp ciepła. To podstawowy kod dla hydraulików i firm HVAC.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma instalacji hydraulicznych",
+      "use": "Wykonuje instalacje wod-kan i CO w domach i mieszkaniach."
+    },
+    {
+      "persona": "Wykonawca klimatyzacji i wentylacji",
+      "use": "Montuje systemy klimatyzacji w biurach, sklepach, hotelach."
+    },
+    {
+      "persona": "Firma od pomp ciepła",
+      "use": "Instaluje pompy ciepła powietrzne i gruntowe w domach jednorodzinnych."
+    },
+    {
+      "persona": "Wykonawca instalacji gazowych",
+      "use": "Wykonuje instalacje gazowe wewnątrz budynków zgodnie z normami."
+    }
+  ],
+  "businessExamples": [
+    "Instalacja CO i wod-kan w domu jednorodzinnym",
+    "Montaż klimatyzacji VRV w biurowcu",
+    "Pompa ciepła powietrze-woda dla domu pasywnego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.21.Z (rurociągi i sieci zewnętrzne) — instalacje wewnątrz budynków to 43.22.Z, sieci zewnętrzne to 42.21.Z.",
+    "Wybór 43.22.Z zamiast 33.12.Z, gdy faktyczna działalność polega na serwisie i konserwacji urządzeń, a nie instalacji."
+  ],
+  "taxNotes": "Branża budowlana objęta jest split payment i odwrotnym obciążeniem VAT. Instalacje gazowe wymagają uprawnień G3, klimatyzacja z czynnikiem F-gazowym wymaga certyfikatu FGAZ. Stawki sprawdź u doradcy podatkowego."
+}

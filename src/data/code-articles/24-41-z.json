@@ -1,0 +1,36 @@
+{
+  "code": "24.41.Z",
+  "name": "Produkcja metali szlachetnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.41.Z obejmuje produkcję i rafinację metali szlachetnych — złota, srebra, platyny, palladu i metali z grupy platynowców — z rud, koncentratów oraz złomu. Klasyfikacja obejmuje też wytwarzanie półproduktów (sztabki, granulat, blacha, drut) oraz odzysk metali szlachetnych z odpadów elektronicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Rafinerie metali szlachetnych",
+      "use": "Topi i oczyszcza złoto, srebro i platynę z rud, złomu jubilerskiego i odpadów elektronicznych."
+    },
+    {
+      "persona": "Producent sztabek inwestycyjnych",
+      "use": "Wytwarza sztabki złota i srebra z certyfikatem dla rynku inwestycyjnego (LBMA)."
+    },
+    {
+      "persona": "Wytwórca półproduktów dla jubilerstwa",
+      "use": "Produkuje druty, blachy i rurki ze złota i srebra dla zakładów jubilerskich."
+    },
+    {
+      "persona": "Firma odzysku z e-odpadów",
+      "use": "Pozyskuje metale szlachetne z płytek drukowanych i komponentów elektronicznych."
+    }
+  ],
+  "businessExamples": [
+    "Rafineria złota i srebra inwestycyjnego",
+    "Producent półproduktów ze złota dla jubilerów",
+    "Firma odzyskująca metale szlachetne z elektroniki"
+  ],
+  "commonMistakes": [
+    "Wybór 24.41.Z zamiast 32.12.Z (produkcja wyrobów jubilerskich), gdy zakład produkuje gotową biżuterię — wytwarzanie biżuterii to kod 32.12.Z.",
+    "Pomylenie z 38.32.Z (odzysk surowców z materiałów segregowanych), gdy działalność polega głównie na zbiórce i sortowaniu, a nie na metalurgicznej rafinacji."
+  ],
+  "taxNotes": "Obrót metalami szlachetnymi objęty jest mechanizmem podzielonej płatności i odwrotnym obciążeniem VAT przy określonych transakcjach B2B, a złoto inwestycyjne podlega zwolnieniu z VAT. Wybór formy opodatkowania zależy od skali rafinacji i struktury klientów. Stawki sprawdź u doradcy podatkowego."
+}

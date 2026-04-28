@@ -1,0 +1,36 @@
+{
+  "code": "47.77.Z",
+  "name": "Sprzedaż detaliczna zegarków i biżuterii",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.77.Z obejmuje detaliczną sprzedaż zegarków, biżuterii ze złota i srebra, bursztynu i kamieni szlachetnych w wyspecjalizowanych sklepach. To kod dla jubilerów, sklepów z biżuterią, butików zegarmistrzowskich i sklepów z biżuterią modową.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu jubilerskiego",
+      "use": "Sprzedaje biżuterię ze złota i srebra, obrączki ślubne, kolczyki, łańcuszki."
+    },
+    {
+      "persona": "Zegarmistrz ze sklepem",
+      "use": "Oferuje zegarki marek znanych, zajmuje się wymianą baterii i drobnymi naprawami."
+    },
+    {
+      "persona": "Butik biżuterii artystycznej",
+      "use": "Sprzedaje biżuterię polskich projektantów i z bursztynu bałtyckiego."
+    },
+    {
+      "persona": "Sklep z biżuterią modową",
+      "use": "Oferuje bijou (biżuterię modową ze stali, kryształów, szkła) w przystępnej cenie."
+    }
+  ],
+  "businessExamples": [
+    "Salon jubilerski z obrączkami i biżuterią ślubną",
+    "Sklep zegarmistrzowski z markami premium",
+    "Butik biżuterii z bursztynu bałtyckiego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.12.Z (produkcja biżuterii) — jeśli sam projektujesz i wykonujesz biżuterię, potrzebny jest kod produkcyjny.",
+    "Wybór 47.77.Z zamiast 95.25.Z, jeśli głównie naprawiasz zegarki, a sprzedaż jest dodatkiem."
+  ],
+  "taxNotes": "Sprzedaż biżuterii i metali szlachetnych podlega ścisłej ewidencji (próby, gramatury). Obowiązuje kasa fiskalna i odpowiednie zabezpieczenia. Stawki sprawdź u doradcy podatkowego."
+}

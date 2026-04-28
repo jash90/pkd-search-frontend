@@ -1,0 +1,36 @@
+{
+  "code": "70.10.B",
+  "name": "Działalność central usług wspólnych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 70.10.B obejmuje działalność centrów usług wspólnych (Shared Services Centers, SSC) — jednostek świadczących usługi back-office (księgowość, kadry, IT, zakupy, controlling) dla podmiotów w grupie kapitałowej. To kod dla SSC korporacyjnych i centrów usług BPO operujących wewnątrz grupy.",
+  "whoUsesIt": [
+    {
+      "persona": "Centrum usług wspólnych SSC",
+      "use": "Obsługuje księgowość, kadry, płace i procurement dla wszystkich spółek w grupie kapitałowej."
+    },
+    {
+      "persona": "Centrum IT grupy",
+      "use": "Świadczy usługi infrastruktury, helpdesk, ERP i wsparcia aplikacji dla podmiotów powiązanych."
+    },
+    {
+      "persona": "Centrum finansowo-księgowe (F&A)",
+      "use": "Konsoliduje sprawozdania, prowadzi controlling i raportowanie zarządcze dla grupy."
+    },
+    {
+      "persona": "Globalne centrum operacyjne w Polsce",
+      "use": "Korporacyjny SSC obsługujący procesy back-office dla rynków europejskich lub globalnych."
+    }
+  ],
+  "businessExamples": [
+    "SSC obsługujące księgowość i kadry grupy",
+    "Centrum IT świadczące helpdesk dla całej grupy",
+    "Globalne centrum operacyjne korporacji w Polsce"
+  ],
+  "commonMistakes": [
+    "Wybór 70.10.B zamiast 70.10.A — gdy podmiot pełni głównie funkcję nadzorczo-zarządczą (a nie operacyjnie świadczy usługi), właściwszy jest 70.10.A.",
+    "Pomylenie z 82.99.Z (pozostała działalność wspomagająca) — gdy usługi back-office świadczone są dla klientów zewnętrznych (BPO komercyjne), kod 82.99.Z może być właściwszy."
+  ],
+  "taxNotes": "SSC wewnątrz grupy podlegają obowiązkom cen transferowych — usługi muszą być rozliczane na warunkach rynkowych z odpowiednią dokumentacją TP. Centra usług często korzystają z ulg na zatrudnienie czy SSE/PSI. Stawki sprawdź u doradcy podatkowego."
+}

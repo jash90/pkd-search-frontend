@@ -1,0 +1,36 @@
+{
+  "code": "61.10.B",
+  "name": "Pozostała działalność w zakresie telekomunikacji przewodowej, bezprzewodowej i satelitarnej",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 61.10.B obejmuje świadczenie usług telekomunikacyjnych po sieci przewodowej, bezprzewodowej i satelitarnej — dostęp do internetu, telefonię stacjonarną i komórkową, transmisję danych, łącza dzierżawione. Pasuje dla operatorów ISP, lokalnych sieci kablowych, operatorów MVNO i firm telekomunikacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Lokalny ISP / operator światłowodowy",
+      "use": "Dostarcza internet kablowy lub światłowodowy do gospodarstw domowych i firm w regionie."
+    },
+    {
+      "persona": "Operator MVNO",
+      "use": "Świadczy usługi telefonii komórkowej w oparciu o sieć innego operatora."
+    },
+    {
+      "persona": "Operator radiolinii",
+      "use": "Buduje łącza radiowe dla firm i instytucji w obszarach trudno dostępnych."
+    },
+    {
+      "persona": "Dostawca telefonii VoIP B2B",
+      "use": "Świadczy usługi telefonii internetowej i central PBX dla firm."
+    }
+  ],
+  "businessExamples": [
+    "Lokalny ISP z siecią światłowodową w gminach",
+    "Operator MVNO oferujący abonamenty mobilne",
+    "Firma telefonii VoIP dla MŚP"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 61.10.A (wymiana ruchu IXP) — punkty wymiany ruchu mają osobną klasę.",
+    "Wybór 61.10.B zamiast 63.10.A (hosting i chmura) — kolokacja, hosting i chmura to inna sekcja."
+  ],
+  "taxNotes": "Operatorzy telekomunikacyjni podlegają obowiązkom rejestracyjnym przy UKE, opłatom telekomunikacyjnym i specyficznym regulacjom VAT (zwłaszcza w usługach międzynarodowych). Stawki sprawdź u doradcy podatkowego."
+}

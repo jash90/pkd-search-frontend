@@ -1,0 +1,36 @@
+{
+  "code": "10.84.Z",
+  "name": "Produkcja przypraw",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.84.Z obejmuje produkcję przypraw, mieszanek przypraw, sosów (majonez, ketchup, musztarda), octu, soli przyprawowej oraz koncentratów smakowych. To kod dla wytwórców produktów wzbogacających smak — od pojedynczych mielonych przypraw po gotowe sosy.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórca przypraw mielonych i mieszanek",
+      "use": "Mieli, miesza i pakuje przyprawy oraz mieszanki ziołowe dla retailu i HoReCa."
+    },
+    {
+      "persona": "Producent ketchupu / majonezu",
+      "use": "Produkuje sosy w dużej skali — ketchup, majonez, musztardę, sosy sałatkowe."
+    },
+    {
+      "persona": "Manufaktura sosów rzemieślniczych",
+      "use": "Wytwarza limitowane sosy BBQ, ostre sosy chili i marynaty pod własną marką."
+    },
+    {
+      "persona": "Producent octu i konserwantów",
+      "use": "Produkuje ocet spożywczy oraz koncentraty smakowe dla przemysłu i detalu."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura ostrych sosów chili",
+    "Producent mieszanek przypraw pod marką własną",
+    "Fabryka ketchupu i majonezu dla sieci handlowych"
+  ],
+  "commonMistakes": [
+    "Wybór 10.84.Z zamiast 10.85.Z (Wytwarzanie gotowych posiłków i dań) — gotowe danie z sosem to 10.85.Z, sam sos to 10.84.Z.",
+    "Pomylenie z 11.01.Z (Destylowanie, rektyfikowanie alkoholi) — ocet spirytusowy z fermentacji to 10.84.Z, a nie produkcja alkoholi."
+  ],
+  "taxNotes": "Produkcja przypraw i sosów podlega standardowej stawce VAT na artykuły spożywcze, a forma opodatkowania zależy od skali i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

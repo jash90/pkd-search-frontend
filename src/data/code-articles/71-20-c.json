@@ -1,0 +1,36 @@
+{
+  "code": "71.20.C",
+  "name": "Pozostałe badania i analizy techniczne",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.20.C to kategoria zbiorcza dla badań i analiz technicznych, których nie da się przypisać do konkretnych klas — przeglądy techniczne, ekspertyzy budowlane, badania środowiskowe, diagnostyka pojazdów, kontrole urządzeń i analizy materiałowe. To kod dla laboratoriów badawczych, stacji diagnostycznych i biur ekspertyz.",
+  "whoUsesIt": [
+    {
+      "persona": "Stacja kontroli pojazdów",
+      "use": "Wykonuje obowiązkowe przeglądy techniczne samochodów osobowych, ciężarowych i motocykli."
+    },
+    {
+      "persona": "Laboratorium materiałowe",
+      "use": "Bada wytrzymałość i parametry materiałów budowlanych, metalurgicznych, polimerowych dla przemysłu."
+    },
+    {
+      "persona": "Biuro ekspertyz budowlanych",
+      "use": "Sporządza opinie techniczne o stanie budynków, przyczynach awarii, dokumentacje powykonawcze."
+    },
+    {
+      "persona": "Firma badań środowiskowych",
+      "use": "Bada hałas, pyły, emisje, jakość powietrza i wody w środowisku przemysłowym."
+    }
+  ],
+  "businessExamples": [
+    "Stacja kontroli pojazdów (SKP)",
+    "Laboratorium badań materiałów budowlanych",
+    "Firma ekspertyz technicznych dla branży nieruchomości"
+  ],
+  "commonMistakes": [
+    "Wybór 71.20.C zamiast 71.20.A lub 71.20.B — gdy działalność to badania żywności (71.20.A) lub kominiarstwo (71.20.B), kategoria 'pozostałe' jest zbyt ogólna.",
+    "Pomylenie z 74.90.Z — badania techniczne mają dedykowaną grupę 71.2, nie należy ich przypisywać do 'pozostałej działalności profesjonalnej'."
+  ],
+  "taxNotes": "Działalność stacji kontroli pojazdów wymaga zezwolenia transportu drogowego. Laboratoria często mają akredytację PCA. Usługi badań technicznych podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "23.65.Z",
+  "name": "Produkcja cementu wzmocnionego włóknem",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.65.Z obejmuje produkcję wyrobów z cementu wzmocnionego włóknem celulozowym, polimerowym lub innym (fibrocementu) — płyt elewacyjnych, dachówek włókno-cementowych, paneli sidingowych, rur ciśnieniowych oraz płyt falistych. To wąsko wyspecjalizowany kod.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent płyt włóknowo-cementowych",
+      "use": "Wytwarza płyty elewacyjne i sidingowe dla budownictwa pasywnego i wentylowanych fasad."
+    },
+    {
+      "persona": "Wytwórca dachówek fibrocementowych",
+      "use": "Produkuje pokrycia dachowe falowe i karpiówki z włóknocementu."
+    },
+    {
+      "persona": "Producent rur fibrocementowych",
+      "use": "Wytwarza rury ciśnieniowe i kanalizacyjne z cementu wzmocnionego włóknem."
+    },
+    {
+      "persona": "Wytwórca paneli wentylowanych fasad",
+      "use": "Produkuje płyty elewacyjne na konstrukcje wentylowane dla architektury nowoczesnej."
+    }
+  ],
+  "businessExamples": [
+    "Producent płyt elewacyjnych Cembrit",
+    "Wytwórnia dachówek włóknowo-cementowych",
+    "Zakład sidingu fibrocementowego"
+  ],
+  "commonMistakes": [
+    "Wybór 23.65.Z dla zwykłych wyrobów betonowych — prefabrykaty z czystego betonu to 23.61.Z.",
+    "Pomylenie z 23.51.Z (cement) — produkcja samego spoiwa cementowego to inny kod."
+  ],
+  "taxNotes": "Wyroby fibrocementowe wymagają oznakowania CE i deklaracji DoP. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

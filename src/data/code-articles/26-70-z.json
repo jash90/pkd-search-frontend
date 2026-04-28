@@ -1,0 +1,36 @@
+{
+  "code": "26.70.Z",
+  "name": "Produkcja instrumentów optycznych, niezapisanych magnetycznych i optycznych nośników informacji oraz sprzętu fotograficznego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.70.Z obejmuje produkcję instrumentów optycznych — mikroskopów, lornetek, lunet, teleskopów, obiektywów, soczewek, sprzętu fotograficznego (aparatów, lamp błyskowych, projektorów) oraz pustych nośników magnetycznych i optycznych (CD-R, taśm, dysków). Nie obejmuje okularów korekcyjnych (32.50.Z) ani zapisanych nośników (18.20.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent obiektywów fotograficznych",
+      "use": "Wytwarza obiektywy do aparatów cyfrowych, kamer i aplikacji przemysłowych z optyką szlifowaną."
+    },
+    {
+      "persona": "Wytwórnia mikroskopów",
+      "use": "Produkuje mikroskopy laboratoryjne, edukacyjne i techniczne dla nauki i przemysłu."
+    },
+    {
+      "persona": "Producent lornetek i lunet",
+      "use": "Wytwarza optykę obserwacyjną dla myśliwych, ornitologów i służb mundurowych."
+    },
+    {
+      "persona": "Wytwórnia pustych nośników optycznych",
+      "use": "Produkuje płyty CD-R, DVD-R i Blu-ray bez zapisu dla rynku archiwizacji i konsumenckiego."
+    }
+  ],
+  "businessExamples": [
+    "Producent obiektywów do kamer przemysłowych",
+    "Wytwórnia mikroskopów laboratoryjnych",
+    "Producent lornetek myśliwskich"
+  ],
+  "commonMistakes": [
+    "Wybór 26.70.Z zamiast 32.50.Z — okulary korekcyjne i sprzęt do badania wzroku to wyroby medyczne, a nie ogólna optyka.",
+    "Mylenie z 18.20.Z (reprodukcja zapisanych nośników) — produkcja pustych płyt to 26.70.Z, ale tłoczenie z gotowymi danymi to już reprodukcja."
+  ],
+  "taxNotes": "Produkcja optyki i sprzętu fotograficznego korzysta ze standardowych zasad PIT/CIT i VAT, a innowacje optyczne i pomiarowe mogą kwalifikować się do ulgi B+R. Stawki sprawdź u doradcy podatkowego."
+}

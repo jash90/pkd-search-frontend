@@ -1,0 +1,36 @@
+{
+  "code": "72.10.Z",
+  "name": "Badania naukowe i prace rozwojowe w dziedzinie nauk przyrodniczych i technicznych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 72.10.Z obejmuje badania podstawowe, stosowane i prace rozwojowe (B+R) w obszarze nauk przyrodniczych, inżynieryjnych, biologicznych, medycznych i technicznych. Pasuje dla startupów deep-techowych, laboratoriów i jednostek naukowych prowadzących projekty badawcze. Wdrożenia komercyjne i produkcja seryjna wymagają zwykle dodatkowych kodów branżowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Startup deep-tech / biotech",
+      "use": "Prowadzi badania nad nowymi technologiami (AI, biotechnologia, nowe materiały) i pozyskuje granty B+R."
+    },
+    {
+      "persona": "Niezależne laboratorium badawcze",
+      "use": "Realizuje projekty B+R na zlecenie firm produkcyjnych i farmaceutycznych."
+    },
+    {
+      "persona": "Spin-off uczelniany",
+      "use": "Komercjalizuje wyniki badań naukowych prowadzonych na uczelni."
+    },
+    {
+      "persona": "Inżynier-konstruktor prowadzący prace rozwojowe",
+      "use": "Projektuje prototypy nowych urządzeń i prowadzi testy funkcjonalne."
+    }
+  ],
+  "businessExamples": [
+    "Startup biotech rozwijający nowe terapie",
+    "Laboratorium badawcze materiałów kompozytowych",
+    "Spin-off uniwersytecki z obszaru fotoniki"
+  ],
+  "commonMistakes": [
+    "Wybór 72.10.Z dla zwykłych usług inżynierskich i projektowych bez elementu nowości naukowo-technicznej — wtedy właściwy jest 71.12.Z.",
+    "Pomylenie z 72.20.Z (B+R w naukach społecznych i humanistycznych) — kierunek badań decyduje o wyborze kodu."
+  ],
+  "taxNotes": "Działalność B+R może uprawniać do ulgi badawczo-rozwojowej oraz preferencji IP Box przy komercjalizacji wyników. Granty i dotacje publiczne mają własne reguły rozliczania podatkowego. Stawki sprawdź u doradcy podatkowego."
+}

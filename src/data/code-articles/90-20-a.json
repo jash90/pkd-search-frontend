@@ -1,0 +1,36 @@
+{
+  "code": "90.20.A",
+  "name": "Działalność artystyczna filharmonii, orkiestr i chórów",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.20.A obejmuje działalność filharmonii, orkiestr symfonicznych, kameralnych, chórów oraz zespołów wokalno-instrumentalnych — czyli wystawianie koncertów muzyki klasycznej i innych form muzyki zespołowej. Pasuje zarówno do publicznych instytucji kultury, jak i prywatnych zespołów.",
+  "whoUsesIt": [
+    {
+      "persona": "Filharmonia / orkiestra symfoniczna",
+      "use": "Prowadzi sezon koncertowy, organizuje występy w siedzibie i wyjazdowe."
+    },
+    {
+      "persona": "Chór koncertowy",
+      "use": "Występuje na koncertach, festiwalach i nagrywa płyty z muzyką wokalną."
+    },
+    {
+      "persona": "Zespół kameralny",
+      "use": "Mały skład instrumentalny grający koncerty kameralne i muzyczne oprawy wydarzeń."
+    },
+    {
+      "persona": "Orkiestra projektowa",
+      "use": "Powstaje na potrzeby konkretnych projektów, festiwali lub nagrań filmowych."
+    }
+  ],
+  "businessExamples": [
+    "Prywatna orkiestra kameralna grająca w salach koncertowych",
+    "Chór gospel występujący na koncertach i imprezach",
+    "Zespół muzyki dawnej z koncertami w kościołach"
+  ],
+  "commonMistakes": [
+    "Wybór 90.20.A dla solistów lub muzyków grających indywidualnie — solista wybiera 90.20.C (pozostała działalność związana z wystawianiem przedstawień artystycznych).",
+    "Pomylenie z 59.20.Z (działalność w zakresie nagrań dźwiękowych i muzycznych) — produkcja fonogramów to odrębna działalność od koncertowania."
+  ],
+  "taxNotes": "Bilety na koncerty muzyki klasycznej często podlegają preferencyjnej stawce VAT. Instytucje kultury otrzymujące dotacje mają odrębne zasady rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

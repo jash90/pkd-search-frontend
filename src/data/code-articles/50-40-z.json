@@ -1,0 +1,36 @@
+{
+  "code": "50.40.Z",
+  "name": "Transport wodny śródlądowy towarów",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 50.40.Z obejmuje przewóz towarów statkami i barkami po rzekach, jeziorach i kanałach — głównie ładunków masowych (węgiel, kruszywa, zboże), wielkogabarytowych i kontenerów. To wąski kod dla operatorów żeglugi rzecznej Odrą, Wisłą i kanałem Odra–Hawela.",
+  "whoUsesIt": [
+    {
+      "persona": "Armator barek towarowych",
+      "use": "Wozi kruszywa, węgiel i zboże po Odrze między portami rzecznymi a portami morskimi."
+    },
+    {
+      "persona": "Operator transportu wielkogabarytowego",
+      "use": "Przewozi elementy konstrukcji (turbiny, transformatory, mosty) statkami rzecznymi do miejsca montażu."
+    },
+    {
+      "persona": "Firma transportu intermodalnego",
+      "use": "Wozi kontenery na trasie barka–prom–pociąg w korytarzach europejskich (Odra–Łaba)."
+    },
+    {
+      "persona": "Lokalny przewoźnik kruszyw",
+      "use": "Transportuje piasek i żwir wydobywany z dna rzeki do żwirowni i odbiorców budowlanych."
+    }
+  ],
+  "businessExamples": [
+    "Armator barek na Odrze",
+    "Operator transportu wielkogabarytowego rzecznego",
+    "Przewoźnik kruszyw rzeką"
+  ],
+  "commonMistakes": [
+    "Wybór 50.40.Z zamiast 50.20.Z (transport morski towarów) — przewóz po Bałtyku, nawet krótki, to transport morski, nie śródlądowy.",
+    "Pomylenie z 52.22.Z (usługi wspomagające transport wodny) — eksploatacja portu rzecznego i przeładunki bez własnego przewozu to inny kod."
+  ],
+  "taxNotes": "Międzynarodowy transport rzeczny objęty jest specyficznymi zasadami VAT, a polska żegluga śródlądowa korzysta z preferencji w zakresie paliwa żeglugowego (zwolnienia akcyzowe). Stawki sprawdź u doradcy podatkowego."
+}

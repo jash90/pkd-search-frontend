@@ -1,0 +1,36 @@
+{
+  "code": "27.11.Z",
+  "name": "Produkcja elektrycznych silników, prądnic i transformatorów",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.11.Z obejmuje produkcję elektrycznych silników (AC, DC, krokowych, BLDC, serwomotorów), prądnic (generatorów, alternatorów), transformatorów energetycznych i rozdzielczych oraz dławików. To kod dla producentów maszyn elektrycznych dostarczających komponenty dla energetyki, motoryzacji elektrycznej, automatyki i AGD.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent silników elektrycznych",
+      "use": "Wytwarza silniki indukcyjne i synchroniczne dla pomp, wentylatorów i napędów."
+    },
+    {
+      "persona": "Wytwórca transformatorów energetycznych",
+      "use": "Produkuje transformatory rozdzielcze i blokowe dla operatorów sieci energetycznych."
+    },
+    {
+      "persona": "Producent serwomotorów",
+      "use": "Wytwarza silniki serwo i krokowe dla obrabiarek CNC i robotyki przemysłowej."
+    },
+    {
+      "persona": "Producent generatorów i alternatorów",
+      "use": "Wytwarza prądnice dla agregatów prądotwórczych, motoryzacji i elektrowni wiatrowych."
+    }
+  ],
+  "businessExamples": [
+    "Producent silników indukcyjnych dla pomp i wentylatorów",
+    "Wytwórnia transformatorów rozdzielczych SN/nn",
+    "Producent serwomotorów dla automatyki przemysłowej"
+  ],
+  "commonMistakes": [
+    "Wybór 27.11.Z zamiast 29.31.Z (produkcja wyposażenia elektrycznego do pojazdów silnikowych), gdy zakład wytwarza wyłącznie silniki i alternatory samochodowe — wówczas 29.31.Z.",
+    "Pomylenie z 27.12.Z (produkcja aparatury rozdzielczej i sterowniczej) — rozdzielnice i wyłączniki energetyczne to 27.12.Z."
+  ],
+  "taxNotes": "Produkcja maszyn elektrycznych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali, B+R i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

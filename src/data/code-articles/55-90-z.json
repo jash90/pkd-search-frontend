@@ -1,0 +1,36 @@
+{
+  "code": "55.90.Z",
+  "name": "Pozostałe zakwaterowanie",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 55.90.Z obejmuje miejsca zakwaterowania o charakterze niesezonowym i specjalistycznym — domy studenckie, internaty, kwatery pracownicze, hotele robotnicze, sypialnie dla pracowników kontraktowych oraz zakwaterowanie dla osób pracujących w trasach.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator domów studenckich",
+      "use": "Prowadzi prywatny dom akademicki dla studentów uczelni państwowych i prywatnych — najem semestralny."
+    },
+    {
+      "persona": "Operator hotelu pracowniczego",
+      "use": "Wynajmuje pokoje dla pracowników budowlanych, sezonowych i delegowanych z zagranicy — kontrakty firmowe."
+    },
+    {
+      "persona": "Internat zawodowy",
+      "use": "Zapewnia zakwaterowanie uczniom szkół zawodowych i technikum z dojazdami z odległych regionów."
+    },
+    {
+      "persona": "Operator co-living",
+      "use": "Prowadzi nowoczesne miejsca pracy i mieszkania dla cyfrowych nomadów i specjalistów na średnim okresie."
+    }
+  ],
+  "businessExamples": [
+    "Prywatny dom studencki w mieście akademickim",
+    "Hotel pracowniczy dla branży budowlanej",
+    "Co-living dla nomadów cyfrowych"
+  ],
+  "commonMistakes": [
+    "Wybór 55.90.Z zamiast 68.20.Z (wynajem nieruchomości) — czysty wynajem mieszkań długoterminowy bez usług dodatkowych (sprzątanie, pościel, wspólne przestrzenie) to wynajem nieruchomości.",
+    "Pomylenie z 55.20.Z (zakwaterowanie krótkotrwałe turystyczne) — typowy short-term rental dla turystów to osobny kod."
+  ],
+  "taxNotes": "Zakwaterowanie pracowników i studentów może korzystać z preferencyjnej stawki VAT dla usług zakwaterowania, choć interpretacja zależy od charakteru obiektu i odbiorców. Możliwy jest ryczałt od przychodów. Stawki sprawdź u doradcy podatkowego."
+}

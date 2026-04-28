@@ -1,0 +1,36 @@
+{
+  "code": "68.31.Z",
+  "name": "Pośrednictwo w obrocie nieruchomościami",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.31.Z obejmuje pośrednictwo w kupnie, sprzedaży, najmie i dzierżawie nieruchomości na zlecenie klientów — działalność biur nieruchomości i licencjonowanych pośredników. To kod właściwy dla pracy 'na prowizji' przy obrocie nieruchomościami cudzymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Biuro nieruchomości",
+      "use": "Pośredniczy w sprzedaży i wynajmie mieszkań, domów oraz lokali użytkowych za prowizję."
+    },
+    {
+      "persona": "Pośrednik samodzielny",
+      "use": "Działa indywidualnie z licencją pośrednika, obsługując klientów w wybranej lokalizacji lub niszy."
+    },
+    {
+      "persona": "Sieciowa marka pośrednictwa",
+      "use": "Prowadzi franchise lub sieć biur z własnym brandingiem, CRM i bazą ofert."
+    },
+    {
+      "persona": "Pośrednik w obrocie ziemiami",
+      "use": "Specjalizuje się w handlu działkami inwestycyjnymi, rolnymi i budowlanymi dla inwestorów."
+    }
+  ],
+  "businessExamples": [
+    "Biuro nieruchomości obsługujące mieszkania w dużym mieście",
+    "Pośrednik specjalizujący się w domach jednorodzinnych pod miastem",
+    "Sieć biur działających w modelu franczyzowym"
+  ],
+  "commonMistakes": [
+    "Wybór 68.31.Z zamiast 68.11.Z — gdy firma kupuje i sprzedaje nieruchomości na własny rachunek (flipping), właściwy jest 68.11.Z.",
+    "Pomylenie z 68.32.B (zarządzanie nieruchomościami) — sama administracja wynajmem to inny kod niż pośrednictwo w transakcjach."
+  ],
+  "taxNotes": "Pośrednik w obrocie nieruchomościami musi mieć obowiązkowe ubezpieczenie OC. Usługi pośrednictwa podlegają standardowej stawce VAT. Część pośredników korzysta z ryczałtu według właściwej stawki lub skali — wybór zależy od skali i kosztów. Stawki sprawdź u doradcy podatkowego."
+}

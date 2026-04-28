@@ -1,0 +1,36 @@
+{
+  "code": "42.13.Z",
+  "name": "Roboty związane z budową mostów i tuneli",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.13.Z obejmuje budowę i przebudowę mostów (drogowych, kolejowych, pieszych), wiaduktów, estakad, tuneli drogowych, kolejowych i pieszych. To wyspecjalizowane budownictwo wymagające zaawansowanych technologii — kesonów, tarcz TBM, kładek nawisowych czy mostów podwieszanych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wyspecjalizowany wykonawca mostów",
+      "use": "Realizuje budowę mostów drogowych jako podwykonawca generalnego wykonawcy."
+    },
+    {
+      "persona": "Firma budowy tuneli TBM",
+      "use": "Drąży tunele drogowe, kolejowe i metra przy użyciu tarcz tunelowych."
+    },
+    {
+      "persona": "Inżynier kontraktu mostów podwieszanych",
+      "use": "Realizuje obiekty mostowe o dużej rozpiętości (mosty wantowe)."
+    },
+    {
+      "persona": "Wykonawca estakad i wiaduktów",
+      "use": "Buduje obiekty inżynierskie w ciągu dróg ekspresowych i autostrad."
+    }
+  ],
+  "businessExamples": [
+    "Budowa mostu drogowego nad rzeką",
+    "Drążenie tunelu drogowego TBM",
+    "Estakada w ciągu drogi ekspresowej"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.11.Z (drogi i autostrady) — most lub tunel w ciągu drogi to nadal kod 42.13.Z, jeśli jest wydzielonym obiektem.",
+    "Wybór 42.13.Z zamiast 42.91.Z, gdy obiekt to most na drodze wodnej w ramach inżynierii wodnej (np. śluzy)."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Inwestycje publiczne wymagają zabezpieczeń i gwarancji bankowych. Stawki sprawdź u doradcy podatkowego."
+}

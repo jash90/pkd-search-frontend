@@ -1,0 +1,36 @@
+{
+  "code": "01.46.Z",
+  "name": "Chów i hodowla świń",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.46.Z obejmuje chów świń tucznych, loch hodowlanych oraz produkcję prosiąt. To kluczowy kod dla polskiego sektora trzody chlewnej — od dużych ferm cyklu zamkniętego po mniejsze gospodarstwa rodzinne z chowem mieszanym.",
+  "whoUsesIt": [
+    {
+      "persona": "Ferma cyklu zamkniętego",
+      "use": "Prowadzi pełny cykl od loch i prosiąt do tucznika gotowego na ubój."
+    },
+    {
+      "persona": "Tucznikarnia",
+      "use": "Skupuje warchlaki i tuczy je do wagi rzeźnej, sprzedając do zakładów mięsnych."
+    },
+    {
+      "persona": "Hodowca loch",
+      "use": "Specjalizuje się w produkcji prosiąt na sprzedaż do tuczników."
+    },
+    {
+      "persona": "Gospodarstwo z trzodą rodzimą",
+      "use": "Hoduje rasy rodzime (puławska, złotnicka pstra) na rynki niszowe i wędliny premium."
+    }
+  ],
+  "businessExamples": [
+    "Ferma cyklu zamkniętego z 500 lochami",
+    "Hodowca rasy puławskiej",
+    "Tucznikarnia kontraktowa"
+  ],
+  "commonMistakes": [
+    "Wybór 01.46.Z zamiast 10.11.Z, gdy działalność polega głównie na uboju i rozbiorze — to przetwórstwo mięsa.",
+    "Pomylenie z 01.62.Z (usługi wspomagające), gdy świadczysz wyłącznie inseminację lub doradztwo, a nie własną hodowlę."
+  ],
+  "taxNotes": "Chów świń jako działalność rolnicza zwykle jest objęty podatkiem rolnym, ale duże fermy przemysłowe mogą stanowić działy specjalne produkcji rolnej. Obowiązują też restrykcje ASF, IRZ i wymagania bioasekuracji. Stawki sprawdź u doradcy podatkowego."
+}

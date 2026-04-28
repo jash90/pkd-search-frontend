@@ -1,0 +1,36 @@
+{
+  "code": "09.10.Z",
+  "name": "Działalność usługowa wspomagająca eksploatację złóż ropy naftowej i gazu ziemnego",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 09.10.Z obejmuje usługi świadczone na zlecenie dla branży naftowo-gazowej — wiercenie odwiertów, cementowanie, szczelinowanie hydrauliczne, logging, testy produkcyjne, demontaż i likwidacja odwiertów. Nie obejmuje samego wydobycia (06.10/06.20) ani produkcji urządzeń wiertniczych (28.92.Z). Typowy kod dla firm typu oilfield services.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma wiertnicza",
+      "use": "Wynajmuje wiertnice z obsługą i wykonuje odwierty pionowe i kierunkowe na zlecenie operatorów złóż."
+    },
+    {
+      "persona": "Serwis cementowania i szczelinowania",
+      "use": "Wykonuje pracę cementacyjne, kwasowanie i szczelinowanie hydrauliczne odwiertów ropnych i gazowych."
+    },
+    {
+      "persona": "Firma logu geofizycznego",
+      "use": "Świadczy usługi geofizycznych pomiarów wgłębnych (well logging) i interpretacji danych z odwiertów."
+    },
+    {
+      "persona": "Wykonawca likwidacji odwiertów",
+      "use": "Demontuje i zabezpiecza wyeksploatowane odwierty zgodnie z wymogami środowiskowymi."
+    }
+  ],
+  "businessExamples": [
+    "Firma wiertnicza z mobilną wiertnicą lądową",
+    "Serwis szczelinowania hydraulicznego",
+    "Spółka wykonująca pomiary geofizyczne odwiertów"
+  ],
+  "commonMistakes": [
+    "Wybór 09.10.Z zamiast 06.10.Z lub 06.20.Z, jeśli firma faktycznie eksploatuje własne złoże, a nie świadczy usługi dla innych operatorów.",
+    "Mylenie z 71.12.Z (działalność w zakresie inżynierii i doradztwo techniczne) — projektowanie i nadzór bez fizycznej obsługi odwiertu to inna kategoria."
+  ],
+  "taxNotes": "Usługi dla branży naftowej zwykle rozliczane są na zasadach ogólnych (skala, liniowy) z VAT i często z mechanizmem split payment dla wybranych pozycji. Stawki sprawdź u doradcy podatkowego."
+}

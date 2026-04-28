@@ -1,0 +1,36 @@
+{
+  "code": "17.25.Z",
+  "name": "Produkcja pozostałych wyrobów z papieru i tektury",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 17.25.Z to kod 'parasol' dla wyrobów papierowych nieujętych w innych klasach działu 17 — m.in. taśmy klejące papierowe, filtry papierowe, formy papier-mâché, kartony jajeczne, gilzy, palety i szpule papierowe. Stosowany przez producentów niszowych wyrobów z papieru i tektury.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kartonów jajecznych",
+      "use": "Formuje wkłady papierowe na jajka z makulatury dla rolnictwa i handlu."
+    },
+    {
+      "persona": "Wytwórca gilz i tulei papierowych",
+      "use": "Produkuje rdzenie tekturowe do nawijania folii, papieru i tkanin."
+    },
+    {
+      "persona": "Zakład produkcji filtrów papierowych",
+      "use": "Wytwarza filtry do kawy, samochodów i przemysłu na bazie papieru filtracyjnego."
+    },
+    {
+      "persona": "Producent wyrobów z papier-mâché",
+      "use": "Tworzy formy ochronne, opakowania prezentowe i elementy dekoracyjne z masy papierowej."
+    }
+  ],
+  "businessExamples": [
+    "Wytwórnia tekturowych wytłoczek na jajka",
+    "Producent gilz do folii stretch",
+    "Zakład filtrów papierowych do ekspresów"
+  ],
+  "commonMistakes": [
+    "Wybór 17.25.Z zamiast 17.21.Z (produkcja papieru falistego i opakowań) — pudełka kartonowe i opakowania falowane mają osobny kod.",
+    "Pomylenie z 17.23.Z (artykuły papiernicze) — produkty biurowe i piśmiennicze klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Branża coraz częściej wykorzystuje surowce wtórne (makulaturę), co wpływa na rozliczenia w systemie kaucji i opłat środowiskowych. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

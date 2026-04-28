@@ -1,0 +1,36 @@
+{
+  "code": "33.18.Z",
+  "name": "Naprawa i konserwacja wojskowych pojazdów bojowych, okrętów, łodzi, statków powietrznych i statków kosmicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 33.18.Z obejmuje naprawy, modernizacje i konserwację wojskowego sprzętu transportowego — czołgów, BWP, okrętów wojennych, samolotów bojowych, śmigłowców szturmowych, dronów wojskowych. To wysoce regulowana branża obronna z restrykcyjnymi wymogami bezpieczeństwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład remontowy pojazdów bojowych",
+      "use": "Modernizuje i remontuje czołgi, transportery i pojazdy opancerzone dla sił zbrojnych."
+    },
+    {
+      "persona": "Stocznia okrętów wojennych",
+      "use": "Realizuje remonty fregat, korwet i okrętów podwodnych dla Marynarki Wojennej."
+    },
+    {
+      "persona": "Wojskowa stacja MRO",
+      "use": "Wykonuje serwis samolotów bojowych F-16, MiG-29 i śmigłowców wojskowych."
+    },
+    {
+      "persona": "Specjalistyczny zakład serwisu uzbrojenia pokładowego",
+      "use": "Konserwuje systemy uzbrojenia, awioniki i wyposażenia bojowego pojazdów wojskowych."
+    }
+  ],
+  "businessExamples": [
+    "Wojskowy Zakład Remontowy modernizujący czołgi",
+    "Stocznia remontowa MW dla okrętów Marynarki Wojennej",
+    "Wojskowy zakład MRO dla samolotów myśliwskich"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 33.17.Z (pozostały cywilny sprzęt) — sprzęt wojskowy bojowy idzie pod 33.18.Z, nie pod kody cywilne.",
+    "Wybór 30.32.Z (produkcja wojskowych statków powietrznych) zamiast 33.18.Z — produkcja nowych jednostek to inny kod niż ich serwis."
+  ],
+  "taxNotes": "Działalność dla obronności podlega specjalnym regulacjom (koncesje MSW, kontrakty offsetowe) i specyficznym zasadom rozliczania VAT. Strategia podatkowa wymaga konsultacji eksperckiej. Stawki sprawdź u doradcy podatkowego."
+}

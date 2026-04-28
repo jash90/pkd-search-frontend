@@ -1,0 +1,36 @@
+{
+  "code": "56.21.Z",
+  "name": "Okazjonalne przygotowywanie i dostarczanie żywności dla odbiorców zewnętrznych (katering okazjonalny)",
+  "section": "I",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 56.21.Z obejmuje katering jednorazowy — przygotowanie i dostarczenie posiłków na konkretne wydarzenie (wesele, urodziny, konferencja, event firmowy). Pasuje dla firm cateringowych obsługujących pojedyncze imprezy oraz kucharzy realizujących obsługę gastronomiczną przyjęć okolicznościowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma cateringu weselnego",
+      "use": "Przygotowuje menu i obsługuje przyjęcia weselne z pełnym serwisem stołowym."
+    },
+    {
+      "persona": "Catering eventowy / konferencyjny",
+      "use": "Dostarcza przerwy kawowe, lunche i kolacje galowe na konferencje i kongresy."
+    },
+    {
+      "persona": "Kucharz na zlecenie (private chef)",
+      "use": "Przygotowuje kolacje degustacyjne u klienta indywidualnego lub w wynajętej lokalizacji."
+    },
+    {
+      "persona": "Catering dla produkcji filmowej",
+      "use": "Obsługuje plany zdjęciowe i ekipy produkcyjne posiłkami przez kilka dni z rzędu."
+    }
+  ],
+  "businessExamples": [
+    "Catering weselny z obsługą sali",
+    "Firma kateringowa dla eventów firmowych",
+    "Private chef na kolacje w domach klientów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 56.22.Z (catering regularny) — stałe dostawy lunchu do firm i szkół mają osobny kod.",
+    "Wybór 56.21.Z zamiast 56.11.Z (restauracje) — serwowanie posiłków na miejscu w lokalu to inna klasa."
+  ],
+  "taxNotes": "Catering okazjonalny rozlicza się najczęściej na zasadach ogólnych lub ryczałtem. Sprzedaż posiłków klientom końcowym podlega obniżonej stawce VAT, ale dostawy alkoholu i niektórych napojów mają inne stawki. Stawki sprawdź u doradcy podatkowego."
+}

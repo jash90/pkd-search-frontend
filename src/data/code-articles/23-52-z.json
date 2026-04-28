@@ -1,0 +1,36 @@
+{
+  "code": "23.52.Z",
+  "name": "Produkcja wapna i gipsu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.52.Z obejmuje produkcję wapna palonego, hydratyzowanego, hydraulicznego oraz gipsu prażonego i syntetycznego. To kod dla zakładów wapienniczych i gipsowych dostarczających surowce dla budownictwa, hutnictwa, rolnictwa i przemysłu chemicznego.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład wapienniczy",
+      "use": "Wypala kamień wapienny w piecach szybowych i obrotowych na wapno palone i hydratyzowane."
+    },
+    {
+      "persona": "Producent gipsu budowlanego",
+      "use": "Wytwarza gips prażony i mieszanki gipsowe dla tynków, suchej zabudowy i odlewnictwa."
+    },
+    {
+      "persona": "Wytwórca wapna rolniczego",
+      "use": "Produkuje wapno mielone i nawozowe do odkwaszania gleb rolniczych."
+    },
+    {
+      "persona": "Producent wapna hutniczego",
+      "use": "Dostarcza wapno do procesów metalurgicznych w hutach stali i wytapianiu metali."
+    }
+  ],
+  "businessExamples": [
+    "Wapiennik produkujący wapno hutnicze",
+    "Zakład gipsu budowlanego",
+    "Producent wapna nawozowego"
+  ],
+  "commonMistakes": [
+    "Wybór 23.52.Z dla cementu — cement portlandzki i klinkier to 23.51.Z.",
+    "Pomylenie z 23.62.Z (wyroby z gipsu) — płyty gipsowo-kartonowe i tynki gotowe mają osobny kod."
+  ],
+  "taxNotes": "Wapienniki objęte są systemem ETS w przypadku przekroczenia progów emisyjnych. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "64.31.Z",
+  "name": "Działalność funduszy rynku pieniężnego i funduszy inwestycyjnych niebędących funduszami rynku pieniężnego",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 64.31.Z obejmuje działalność funduszy inwestycyjnych otwartych (FIO), specjalistycznych otwartych (SFIO) oraz zamkniętych (FIZ) — w tym funduszy rynku pieniężnego, akcyjnych, dłużnych, mieszanych oraz funduszy zagranicznych UCITS. Pasuje dla samych funduszy jako odrębnych podmiotów zarejestrowanych przez TFI.",
+  "whoUsesIt": [
+    {
+      "persona": "Fundusz inwestycyjny otwarty (FIO)",
+      "use": "Lokuje aktywa zgromadzone od inwestorów w papiery wartościowe — akcje, obligacje, inne fundusze."
+    },
+    {
+      "persona": "Fundusz inwestycyjny zamknięty (FIZ)",
+      "use": "Realizuje strategie alternatywne — nieruchomości, private equity, sekurytyzacja."
+    },
+    {
+      "persona": "Fundusz rynku pieniężnego (MMF)",
+      "use": "Inwestuje w krótkoterminowe instrumenty dłużne i depozyty — niskie ryzyko, płynność."
+    },
+    {
+      "persona": "Subfundusz w funduszu parasolowym",
+      "use": "Działa jako wydzielona pula aktywów w ramach większego funduszu parasolowego."
+    }
+  ],
+  "businessExamples": [
+    "Otwarty fundusz akcyjny notowany w TFI",
+    "Zamknięty fundusz nieruchomości komercyjnych",
+    "Subfundusz dłużny w funduszu parasolowym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 66.30.Z (zarządzanie funduszami) — TFI zarządzające funduszami ma osobny kod.",
+    "Wybór 64.31.Z zamiast 64.32.Z (instytucje powiernicze) — trusty i fundusze powiernicze mają inną klasę."
+  ],
+  "taxNotes": "Fundusze inwestycyjne podlegają specjalnym reżimom podatkowym CIT (zwolnienia dla FIO/SFIO przy spełnieniu warunków, opodatkowanie na poziomie inwestora). Wymagają licencji KNF i obsługi przez TFI. Stawki sprawdź u doradcy podatkowego."
+}

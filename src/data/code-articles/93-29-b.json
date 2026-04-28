@@ -1,0 +1,36 @@
+{
+  "code": "93.29.B",
+  "name": "Pozostała działalność rozrywkowa i rekreacyjna, gdzie indziej niesklasyfikowana",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.29.B obejmuje pozostałą działalność rozrywkowo-rekreacyjną, której nie można sklasyfikować w innych klasach działu 93 — np. wypożyczalnie sprzętu rekreacyjnego na plażach, organizację imprez plenerowych, plaże, mariny rekreacyjne czy parki linowe na powietrzu. To kategoria 'parasol' dla rozrywki na zewnątrz.",
+  "whoUsesIt": [
+    {
+      "persona": "Wypożyczalnia rowerów / hulajnóg na plaży",
+      "use": "Wynajmuje turystom sprzęt rekreacyjny na godziny i dni."
+    },
+    {
+      "persona": "Operator parku linowego",
+      "use": "Prowadzi park z trasami w koronach drzew i atrakcjami pod gołym niebem."
+    },
+    {
+      "persona": "Operator plaży komercyjnej",
+      "use": "Udostępnia leżaki, parasole, atrakcje wodne za opłatą."
+    },
+    {
+      "persona": "Organizator imprez plenerowych",
+      "use": "Realizuje pikniki, festyny i imprezy rekreacyjne na świeżym powietrzu."
+    }
+  ],
+  "businessExamples": [
+    "Park linowy w lesie z trasami dla rodzin",
+    "Wypożyczalnia rowerów wodnych nad jeziorem",
+    "Komercyjna plaża z leżakami i sportami wodnymi"
+  ],
+  "commonMistakes": [
+    "Wybór 93.29.B dla atrakcji w pomieszczeniach zamkniętych — escape roomy i parki trampolin klasyfikują się jako 93.29.A (rozrywka w przestrzeniach zamkniętych).",
+    "Pomylenie z 79.90.A/C (pośrednictwo turystyczne, przewodnictwo) — same usługi turystyczne to inna kategoria niż prowadzenie miejsca rekreacyjnego."
+  ],
+  "taxNotes": "Usługi rekreacyjne mogą korzystać z preferencyjnej stawki VAT. Działalność sezonowa wymaga starannego planowania kosztów stałych i wpływu pogody na przychody. Stawki sprawdź u doradcy podatkowego."
+}

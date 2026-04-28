@@ -1,0 +1,36 @@
+{
+  "code": "01.24.Z",
+  "name": "Uprawa drzew i krzewów owocowych ziarnkowych i pestkowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.24.Z obejmuje sady jabłoniowe, gruszowe, śliwowe, wiśniowe, czereśniowe, brzoskwiniowe i morelowe. To podstawowy kod dla polskich sadowników — Polska jest największym producentem jabłek w Europie, a kod 01.24.Z jest dla nich kluczowy.",
+  "whoUsesIt": [
+    {
+      "persona": "Sadownik jabłoniowy",
+      "use": "Prowadzi sad towarowy z odbiorem do przechowalni, soków lub eksportu."
+    },
+    {
+      "persona": "Producent owoców pestkowych",
+      "use": "Uprawia śliwki, wiśnie, czereśnie na świeży rynek i przetwórstwo."
+    },
+    {
+      "persona": "Sad ekologiczny",
+      "use": "Prowadzi sad z certyfikatem BIO i sprzedaje owoce w paczkach RWS lub na targach."
+    },
+    {
+      "persona": "Gospodarstwo sadowniczo-przetwórcze",
+      "use": "Łączy sad z produkcją soków NFC, suszu i powideł na własną markę."
+    }
+  ],
+  "businessExamples": [
+    "Sad jabłoniowy w okolicach Grójca",
+    "Producent czereśni i wiśni",
+    "Eko-sad z dystrybucją w RWS"
+  ],
+  "commonMistakes": [
+    "Wybór 01.24.Z zamiast 10.32.Z (produkcja soków), gdy działalność polega głównie na tłoczeniu i butelkowaniu soku z kupowanych owoców.",
+    "Pomylenie z 01.25.Z (pozostałe drzewa i krzewy owocowe oraz orzechowe) — orzechy włoskie, leszczyna, jagody mają własny kod."
+  ],
+  "taxNotes": "Działalność sadownicza to klasyczna działalność rolnicza objęta podatkiem rolnym, ale przetwórstwo własnych owoców (soki, powidła) może już wymagać osobnej rejestracji i wpływać na VAT/akcyzę. Sprawdź też RHD (rolniczy handel detaliczny). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "87.10.Z",
+  "name": "Pomoc społeczna z zakwaterowaniem zapewniająca opiekę pielęgniarską",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 87.10.Z obejmuje domy opieki zapewniające stałą opiekę pielęgniarską — głównie dla osób starszych, przewlekle chorych, w okresie rekonwalescencji. Pasuje dla prywatnych i samorządowych domów opieki długoterminowej z personelem pielęgniarskim 24/7. Domy opieki bez opieki pielęgniarskiej klasyfikuje się pod 87.30.Z, a szpitale pod 86.10.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator prywatnego domu opieki dla seniorów",
+      "use": "Prowadzi placówkę z całodobową opieką pielęgniarską, rehabilitacją i opieką lekarską."
+    },
+    {
+      "persona": "Dom Pomocy Społecznej (DPS) z opieką pielęgniarską",
+      "use": "Prowadzi placówkę samorządową dla osób przewlekle chorych z personelem medycznym."
+    },
+    {
+      "persona": "Hospicjum stacjonarne",
+      "use": "Świadczy opiekę paliatywną nad pacjentami terminalnie chorymi z całodobową opieką."
+    },
+    {
+      "persona": "Zakład opieki długoterminowej (ZOL/ZPO) z zakwaterowaniem",
+      "use": "Prowadzi opiekę nad osobami przewlekle chorymi wymagającymi pielęgnacji."
+    }
+  ],
+  "businessExamples": [
+    "Prywatny dom opieki dla seniorów z opieką pielęgniarską",
+    "Hospicjum stacjonarne prowadzone przez fundację",
+    "DPS dla przewlekle somatycznie chorych"
+  ],
+  "commonMistakes": [
+    "Wybór 87.10.Z, gdy opieka pielęgniarska nie jest zapewniana całodobowo — bez stałego personelu pielęgniarskiego właściwy jest 87.30.Z.",
+    "Pomylenie z 86.10.Z (szpitale) — placówka opiekuńcza nie ma uprawnień do leczenia szpitalnego, mimo obecności pielęgniarek."
+  ],
+  "taxNotes": "Placówki opieki wymagają zezwoleń wojewody i spełnienia warunków lokalowo-sanitarnych. Świadczenia opieki medycznej i pomocy społecznej są w znacznym zakresie zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

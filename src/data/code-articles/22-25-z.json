@@ -1,0 +1,36 @@
+{
+  "code": "22.25.Z",
+  "name": "Obróbka i wykończanie wyrobów z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.25.Z obejmuje obróbkę i wykończanie wyrobów z tworzyw — cięcie, wiercenie, frezowanie CNC, klejenie, tampondruk, sitodruk, lakierowanie, metalizowanie próżniowe oraz montaż elementów z tworzyw. To kod dla podwykonawców obróbczych w branży tworzyw.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma obróbki CNC tworzyw",
+      "use": "Frezuje i wierci elementy z plexi, PCV i POM dla przemysłu i reklamy."
+    },
+    {
+      "persona": "Zakład tampondruku",
+      "use": "Drukuje logo i grafiki na detalach z tworzyw dla branży reklamowej i automotive."
+    },
+    {
+      "persona": "Firma metalizacji próżniowej",
+      "use": "Pokrywa detale z tworzyw cienką warstwą metalu dla efektu chromu lub złota."
+    },
+    {
+      "persona": "Zakład klejenia i konfekcji",
+      "use": "Klei, montuje i konfekcjonuje wyroby z tworzyw na zlecenie producentów."
+    }
+  ],
+  "businessExamples": [
+    "Firma frezowania CNC plexi",
+    "Zakład tampondruku na elementach motoryzacyjnych",
+    "Lakiernia detali z tworzyw sztucznych"
+  ],
+  "commonMistakes": [
+    "Wybór 22.25.Z dla pełnej produkcji wyrobów z tworzyw — wytwarzanie gotowych produktów to 22.21–22.26 zależnie od typu.",
+    "Pomylenie z 18.12.Z (drukowanie) — druk na opakowaniach jako odrębna usługa poligraficzna ma inny kod."
+  ],
+  "taxNotes": "Usługi obróbcze często rozliczane są w modelu B2B z drukarniami i fabrykami. Wybór formy opodatkowania zależy od specjalizacji i skali. Stawki sprawdź u doradcy podatkowego."
+}

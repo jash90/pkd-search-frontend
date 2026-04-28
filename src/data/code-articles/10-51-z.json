@@ -1,0 +1,36 @@
+{
+  "code": "10.51.Z",
+  "name": "Wytwarzanie wyrobów mleczarskich",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.51.Z obejmuje przetwórstwo mleka surowego — produkcję mleka spożywczego (UHT, pasteryzowane, w proszku), serów (twarogowych, dojrzewających, topionych), masła, śmietany, jogurtów, kefirów oraz innych fermentowanych napojów mlecznych. Polska jest jednym z największych producentów mleka i jego przetworów w UE.",
+  "whoUsesIt": [
+    {
+      "persona": "Mleczarnia spółdzielcza",
+      "use": "Skupuje mleko od rolników i wytwarza pełen asortyment mleczarski na rynek krajowy."
+    },
+    {
+      "persona": "Manufaktura serów",
+      "use": "Produkuje sery rzemieślnicze (cheddar, gouda, sery pleśniowe) z mleka kontraktowego."
+    },
+    {
+      "persona": "Lokalna serowarnia BIO",
+      "use": "Łączy własne mleko (kozie, owcze, krowie) z produkcją serów w cyklu RHD."
+    },
+    {
+      "persona": "Producent jogurtów i deserów",
+      "use": "Wytwarza jogurty, kefiry, twarożki i desery mleczne pod marką własną."
+    }
+  ],
+  "businessExamples": [
+    "Mleczarnia spółdzielcza w Wielkopolsce",
+    "Manufaktura serów dojrzewających",
+    "Producent jogurtów greckich"
+  ],
+  "commonMistakes": [
+    "Wybór 10.51.Z zamiast 10.52.Z, gdy zakład produkuje wyłącznie lody — lody mają własny, osobny kod.",
+    "Pomylenie z 01.41.Z, gdy prowadzisz tylko hodowlę krów mlecznych bez własnej produkcji wyrobów — to chów bydła, a nie przetwórstwo."
+  ],
+  "taxNotes": "Mleczarstwo wymaga zatwierdzenia IW, HACCP, IFS lub BRC dla rynków eksportowych. Działalność CIT/PIT z VAT-em na zasadach ogólnych; produkty mleczarskie często objęte preferencyjną stawką VAT, a sprzedaż bezpośrednia może być w reżimie RHD. Stawki sprawdź u doradcy podatkowego."
+}

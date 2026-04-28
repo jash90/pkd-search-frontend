@@ -1,0 +1,36 @@
+{
+  "code": "27.31.Z",
+  "name": "Produkcja kabli światłowodowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 27.31.Z obejmuje produkcję kabli światłowodowych z przewodami do transmisji obrazu i danych — kabli telekomunikacyjnych jednomodowych i wielomodowych, kabli zewnętrznych, wewnętrznych, samonośnych ADSS, dielektrycznych oraz patchcordów światłowodowych. To kod dla wytwórców infrastruktury telekomunikacyjnej dla operatorów i centrów danych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kabli światłowodowych",
+      "use": "Wytwarza kable jednomodowe i wielomodowe dla operatorów telekomunikacyjnych."
+    },
+    {
+      "persona": "Wytwórca patchcordów światłowodowych",
+      "use": "Produkuje krótkie kable światłowodowe ze złączami SC, LC, MTP dla data center."
+    },
+    {
+      "persona": "Producent kabli ADSS i OPGW",
+      "use": "Wytwarza kable samonośne i odgromowe ze światłowodem dla linii energetycznych."
+    },
+    {
+      "persona": "Wytwórca specjalistycznych włókien",
+      "use": "Produkuje światłowody do zastosowań medycznych, militarnych i sensorycznych."
+    }
+  ],
+  "businessExamples": [
+    "Producent kabli światłowodowych dla operatorów telekom",
+    "Wytwórnia patchcordów światłowodowych dla data center",
+    "Producent kabli OPGW dla linii energetycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 27.31.Z zamiast 27.32.Z (produkcja pozostałych przewodów i kabli) — kable miedziane (energetyczne, telekomunikacyjne) mają kod 27.32.Z.",
+    "Pomylenie z 26.30.Z (produkcja sprzętu telekomunikacyjnego), gdy firma produkuje aktywne urządzenia (przełączniki, switche optyczne) — sprzęt aktywny ma kod 26.30.Z."
+  ],
+  "taxNotes": "Produkcja kabli światłowodowych objęta jest VAT na zasadach ogólnych. Branża korzysta często z ulg B+R i wsparcia rozwoju sieci szerokopasmowych. Wybór formy opodatkowania zależy od skali i eksportu. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "93.11.Z",
+  "name": "Działalność obiektów sportowych",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.11.Z obejmuje działalność operatorów obiektów sportowych — stadionów, hal sportowych, basenów, lodowisk, kortów tenisowych, boisk Orlik, pól golfowych. Pasuje dla podmiotów udostępniających obiekty sportowe, zarówno klubom, jak i klientom indywidualnym.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator basenu / aquaparku",
+      "use": "Udostępnia pływalnię klientom indywidualnym i grupom, organizuje zajęcia."
+    },
+    {
+      "persona": "Zarządca hali sportowej",
+      "use": "Wynajmuje halę klubom, organizatorom turniejów i osobom prywatnym."
+    },
+    {
+      "persona": "Właściciel kortów tenisowych",
+      "use": "Udostępnia korty na godziny, sprzedaje karnety i pakiety treningowe."
+    },
+    {
+      "persona": "Operator pola golfowego",
+      "use": "Prowadzi pole, sprzedaje green fee, członkostwa i lekcje grupowe."
+    }
+  ],
+  "businessExamples": [
+    "Aquapark z basenami rekreacyjnymi i sportowymi",
+    "Hala sportowa wynajmowana drużynom amatorskim",
+    "Korty tenisowe z rezerwacją online"
+  ],
+  "commonMistakes": [
+    "Wybór 93.11.Z dla klubu fitness — siłownie i kluby fitness klasyfikują się jako 93.13.Z (działalność klubów fitness).",
+    "Pomylenie z 93.12.Z (działalność klubów sportowych) — klub posiadający drużyny i prowadzący zawody to inna kategoria niż sam operator obiektu."
+  ],
+  "taxNotes": "Usługi sportowo-rekreacyjne mogą korzystać z preferencyjnej stawki VAT (np. wstęp na obiekty sportowe). Operatorzy basenów ponoszą wysokie koszty mediów, co wpływa na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

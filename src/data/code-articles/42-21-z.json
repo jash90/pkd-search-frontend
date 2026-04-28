@@ -1,0 +1,36 @@
+{
+  "code": "42.21.Z",
+  "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.21.Z obejmuje budowę rurociągów przesyłowych (gazociągi, ropociągi, magistrale wodociągowe, kanalizacja sanitarna i deszczowa) oraz sieci rozdzielczych — wodociągów osiedlowych, kanalizacji, sieci ciepłowniczych. To podstawowy kod dla firm wykonujących sieci uzbrojenia terenu.",
+  "whoUsesIt": [
+    {
+      "persona": "Wykonawca sieci wodociągowych",
+      "use": "Realizuje budowę magistrali wodociągowych dla przedsiębiorstw wodociągowych."
+    },
+    {
+      "persona": "Firma od sieci kanalizacyjnych",
+      "use": "Buduje kanalizację sanitarną i deszczową w ramach inwestycji gminnych."
+    },
+    {
+      "persona": "Wykonawca gazociągów wysokiego ciśnienia",
+      "use": "Buduje magistrale gazowe dla operatorów przesyłowych."
+    },
+    {
+      "persona": "Firma od sieci ciepłowniczych",
+      "use": "Modernizuje i rozbudowuje sieci ciepłownicze w miastach."
+    }
+  ],
+  "businessExamples": [
+    "Budowa gazociągu wysokiego ciśnienia",
+    "Sieć wodociągowa i kanalizacja w nowym osiedlu",
+    "Magistrala ciepłownicza preizolowana"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.22.Z (linie elektroenergetyczne i telekomunikacyjne) — kable i przewody elektryczne mają osobny kod.",
+    "Wybór 42.21.Z zamiast 43.22.Z, gdy faktycznie wykonuje się tylko instalacje wewnątrz budynków, a nie sieci zewnętrzne."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy podwykonawstwie. Inwestycje wodno-kanalizacyjne korzystają z dofinansowań UE. Stawki sprawdź u doradcy podatkowego."
+}

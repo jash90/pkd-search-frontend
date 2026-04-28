@@ -1,0 +1,36 @@
+{
+  "code": "86.95.Z",
+  "name": "Działalność w zakresie fizjoterapii",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.95.Z dotyczy działalności fizjoterapeutów — kinezyterapia, terapia manualna, fizykoterapia, masaż leczniczy, rehabilitacja po urazach i operacjach, fizjoterapia uroginekologiczna, dziecięca, sportowa. Wymaga prawa wykonywania zawodu fizjoterapeuty. Salony masażu relaksacyjnego (niemedyczne) to 96.04.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Fizjoterapeuta prowadzący gabinet",
+      "use": "Świadczy usługi rehabilitacji indywidualnej w gabinecie - terapia manualna, ćwiczenia, igłoterapia sucha."
+    },
+    {
+      "persona": "Centrum rehabilitacji",
+      "use": "Operuje wieloosobowym ośrodkiem z fizjoterapeutami, sprzętem do fizykoterapii i kontraktem NFZ."
+    },
+    {
+      "persona": "Fizjoterapeuta sportowy",
+      "use": "Pracuje z klubami sportowymi i sportowcami - rehabilitacja urazów, prewencja, taping, masaż sportowy."
+    },
+    {
+      "persona": "Fizjoterapeuta dziecięcy / NDT-Bobath",
+      "use": "Specjalizuje się w rehabilitacji niemowląt i dzieci z opóźnieniami rozwoju, mózgowym porażeniem dziecięcym."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet fizjoterapeuty z terapią manualną i igłoterapią",
+    "Centrum rehabilitacji z kontraktem NFZ i sprzętem do fizykoterapii",
+    "Fizjoterapeuta dziecięcy specjalizujący się w wczesnej interwencji"
+  ],
+  "commonMistakes": [
+    "Wybór 86.95.Z dla salonu masażu relaksacyjnego bez funkcji leczniczej — to 96.04.Z (działalność usługowa związana z poprawą kondycji fizycznej).",
+    "Pomylenie z 85.51.Z (edukacja sportowa) — trener personalny prowadzący treningi to 85.51.Z, fizjoterapeuta to medycyna."
+  ],
+  "taxNotes": "Usługi fizjoterapeutyczne służące zdrowiu zwolnione z VAT. Wymaga prawa wykonywania zawodu fizjoterapeuty (KIF) i wpisu do rejestru praktyk. Forma opodatkowania zależy od skali — ryczałt często dobry dla soloowej działalności, skala/liniowy przy zatrudnianiu. Stawki sprawdź u doradcy podatkowego."
+}

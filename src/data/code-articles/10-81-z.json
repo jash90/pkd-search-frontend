@@ -1,0 +1,36 @@
+{
+  "code": "10.81.Z",
+  "name": "Produkcja cukru",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.81.Z obejmuje produkcję cukru z buraków cukrowych lub trzciny cukrowej oraz rafinację cukru — w postaci kryształu, cukru pudru, syropów cukrowych i melasy. To kod typowo dla cukrowni, czyli dużych zakładów przemysłowych z procesem dyfuzji, krystalizacji i rafinacji.",
+  "whoUsesIt": [
+    {
+      "persona": "Cukrownia",
+      "use": "Przerabia buraki cukrowe na cukier biały i melasę w sezonie kampanii."
+    },
+    {
+      "persona": "Rafineria cukru",
+      "use": "Rafinuje cukier surowy do postaci białego cukru konsumpcyjnego."
+    },
+    {
+      "persona": "Producent cukru specjalistycznego",
+      "use": "Produkuje cukry kandyzowane, brązowe, pudry i wyspecjalizowane formy dla cukiernictwa."
+    },
+    {
+      "persona": "Wytwórca melasy i syropów cukrowych",
+      "use": "Pakuje produkty uboczne cukrowni dla przemysłu paszowego i fermentacyjnego."
+    }
+  ],
+  "businessExamples": [
+    "Cukrownia przerabiająca buraki cukrowe",
+    "Rafineria cukru trzcinowego z importu",
+    "Producent cukru pudru i kandyzowanego dla cukiernictwa"
+  ],
+  "commonMistakes": [
+    "Wybór 10.81.Z zamiast 10.62.Z (Wytwarzanie skrobi i wyrobów skrobiowych) przy produkcji syropów glukozowo-fruktozowych ze skrobi — to nie cukier sensu stricto.",
+    "Pomylenie z 10.82.Z (Produkcja kakao, czekolady i wyrobów cukierniczych) — cukier to surowiec, a wyroby cukiernicze to inny kod."
+  ],
+  "taxNotes": "Produkcja cukru podlega regulacjom rynku cukrowego oraz standardowym zasadom VAT na artykuły spożywcze. Wybór formy opodatkowania zależy od skali i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

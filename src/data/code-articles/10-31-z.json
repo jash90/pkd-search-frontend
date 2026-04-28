@@ -1,0 +1,36 @@
+{
+  "code": "10.31.Z",
+  "name": "Przetwarzanie i konserwowanie ziemniaków",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.31.Z obejmuje produkcję frytek mrożonych i schłodzonych, chipsów ziemniaczanych, puree w proszku, prażynek, talarków, ziemniaków obranych pod próżnią oraz mąki ziemniaczanej. To podstawowy kod dla zakładów przetwórstwa ziemniaczanego — od producentów frytek po producentów chipsów.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent frytek mrożonych",
+      "use": "Przetwarza ziemniaki przemysłowe na frytki mrożone dla sieci HoReCa i retail."
+    },
+    {
+      "persona": "Wytwórnia chipsów",
+      "use": "Produkuje chipsy ziemniaczane różnych smaków na rynek krajowy i eksportowy."
+    },
+    {
+      "persona": "Zakład obierania ziemniaków",
+      "use": "Obiera, kroi i pakuje świeże ziemniaki w opakowania próżniowe dla gastronomii."
+    },
+    {
+      "persona": "Producent mąki ziemniaczanej",
+      "use": "Wytwarza skrobię ziemniaczaną i mąkę dla branży spożywczej i farmaceutycznej."
+    }
+  ],
+  "businessExamples": [
+    "Producent frytek mrożonych",
+    "Wytwórnia chipsów ziemniaczanych",
+    "Zakład obierania dla HoReCa"
+  ],
+  "commonMistakes": [
+    "Wybór 10.31.Z zamiast 01.13.Z, gdy działalność polega głównie na uprawie ziemniaków — to produkcja rolna, nie przetwórstwo.",
+    "Pomylenie z 10.39.Z (pozostałe przetwarzanie owoców i warzyw), gdy zakład przetwarza także inne warzywa — ziemniaki mają własny, dedykowany kod."
+  ],
+  "taxNotes": "Przetwórstwo wymaga zatwierdzenia sanepidu, HACCP i znakowania zgodnego z prawem żywnościowym. Działalność CIT/PIT z VAT-em na zasadach ogólnych; sprawdź ulgę B+R dla nowych receptur i mechanizmy wsparcia eksportu. Stawki sprawdź u doradcy podatkowego."
+}

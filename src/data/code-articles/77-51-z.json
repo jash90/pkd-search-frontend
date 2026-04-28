@@ -1,0 +1,36 @@
+{
+  "code": "77.51.Z",
+  "name": "Pośrednictwo w wynajmie i dzierżawie samochodów osobowych, samochodów kempingowych i przyczep",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.51.Z obejmuje pośrednictwo w wynajmie samochodów osobowych, kamperów, przyczep i lekkich pojazdów silnikowych — działalność porównywarek, agregatorów rezerwacji, brokerów flotowych. To kod dla platform pośredniczących, nie dla samych wypożyczalni.",
+  "whoUsesIt": [
+    {
+      "persona": "Internetowa porównywarka rent-a-car",
+      "use": "Agreguje oferty wypożyczalni i prowizyjnie pośredniczy w rezerwacjach klientów."
+    },
+    {
+      "persona": "Broker flot dla firm",
+      "use": "Negocjuje warunki wynajmu długoterminowego z wieloma operatorami CFM dla klientów korporacyjnych."
+    },
+    {
+      "persona": "Platforma wynajmu kamperów peer-to-peer",
+      "use": "Łączy właścicieli kamperów z osobami chcącymi je wynająć — model marketplace."
+    },
+    {
+      "persona": "Agencja podróży z wynajmem aut",
+      "use": "Sprzedaje pakiety podróżne z włączonym wynajmem auta w destynacji — pośredniczy z lokalnymi wypożyczalniami."
+    }
+  ],
+  "businessExamples": [
+    "Porównywarka rent-a-car z prowizją od rezerwacji",
+    "Marketplace wynajmu kamperów P2P",
+    "Broker flot CFM dla średnich firm"
+  ],
+  "commonMistakes": [
+    "Wybór 77.51.Z zamiast 77.11.Z — gdy firma sama wynajmuje pojazdy z własnej floty (a nie pośredniczy), właściwszy jest 77.11.Z.",
+    "Pomylenie z 79.11.Z (agencje turystyczne) — gdy firma głównie sprzedaje pakiety turystyczne, kod z działu 79 może być właściwszy."
+  ],
+  "taxNotes": "Pośrednictwo w wynajmie podlega standardowej stawce VAT. Wynagrodzenie często ma formę prowizji od transakcji. Wybór formy opodatkowania zależy od skali — możliwy ryczałt według właściwej stawki lub inne formy. Stawki sprawdź u doradcy podatkowego."
+}

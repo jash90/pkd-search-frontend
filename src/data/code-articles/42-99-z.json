@@ -1,0 +1,36 @@
+{
+  "code": "42.99.Z",
+  "name": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.99.Z to kategoria zbiorcza dla budownictwa inżynierskiego nieobjętego innymi kodami działu 42 — np. budowa obiektów sportowych terenowych (boisk, stadionów odkrytych), parków rozrywki, składowisk, terenów rekreacyjnych, obiektów wojskowych, zagospodarowanie terenów przemysłowych i kolonii.",
+  "whoUsesIt": [
+    {
+      "persona": "Wykonawca obiektów sportowych terenowych",
+      "use": "Buduje boiska, korty, stadiony odkryte, ścieżki sportowe."
+    },
+    {
+      "persona": "Firma od zagospodarowania terenu",
+      "use": "Realizuje budowę dróg wewnętrznych, placów manewrowych, ogrodzeń przemysłowych."
+    },
+    {
+      "persona": "Wykonawca infrastruktury rozrywkowej",
+      "use": "Buduje parki tematyczne, place zabaw, parki linowe."
+    },
+    {
+      "persona": "Wykonawca robót specjalnych",
+      "use": "Realizuje obiekty, które nie mieszczą się w typowych kodach inżynieryjnych."
+    }
+  ],
+  "businessExamples": [
+    "Budowa boiska sportowego z trybunami",
+    "Zagospodarowanie strefy ekonomicznej",
+    "Park linowy z elementami wspinaczkowymi"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 41.00.B, gdy obiekt jest faktycznie budynkiem (np. hala sportowa) — wówczas właściwy jest kod budynkowy.",
+    "Wybór 42.99.Z zamiast 81.30.Z (utrzymanie zieleni), gdy główną działalnością jest pielęgnacja zieleni, a nie budowa infrastruktury."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Stawki sprawdź u doradcy podatkowego."
+}

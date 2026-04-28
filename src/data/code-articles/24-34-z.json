@@ -1,0 +1,36 @@
+{
+  "code": "24.34.Z",
+  "name": "Produkcja drutu",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.34.Z obejmuje produkcję drutu stalowego ciągnionego na zimno z walcówki — drutu czarnego, ocynkowanego, ze stali węglowej, niskostopowej i nierdzewnej, a także drutu sprężynowego, kolczastego i spawalniczego. To kod dla zakładów dostarczających drut jako półprodukt dla wytwórców gwoździ, siatek, sprężyn i elektrod.",
+  "whoUsesIt": [
+    {
+      "persona": "Ciągarnia drutu stalowego",
+      "use": "Ciągnie walcówkę na drut o różnych średnicach i parametrach mechanicznych."
+    },
+    {
+      "persona": "Producent drutu ocynkowanego",
+      "use": "Pokrywa drut warstwą cynku metodą ogniową lub elektrolityczną dla branży ogrodzeniowej."
+    },
+    {
+      "persona": "Wytwórca drutu spawalniczego",
+      "use": "Produkuje drut do spawania MIG/MAG i napawania w branży konstrukcyjnej i hutniczej."
+    },
+    {
+      "persona": "Producent drutu nierdzewnego",
+      "use": "Specjalizuje się w drucie ze stali kwasoodpornych dla przemysłu spożywczego i medycyny."
+    }
+  ],
+  "businessExamples": [
+    "Ciągarnia drutu czarnego i ocynkowanego",
+    "Producent drutu spawalniczego MIG/MAG",
+    "Wytwórca drutu nierdzewnego dla przemysłu spożywczego"
+  ],
+  "commonMistakes": [
+    "Wybór 24.34.Z zamiast 25.93.Z (produkcja wyrobów z drutu, łańcuchów i sprężyn), gdy z drutu wytwarzane są gotowe produkty — gwoździe, siatki, sprężyny mają kod 25.93.Z.",
+    "Pomylenie z 24.31.Z (produkcja prętów ciągnionych na zimno) — drut dotyczy materiału w zwojach, pręty są wyrobem prostym."
+  ],
+  "taxNotes": "Produkcja drutu objęta jest VAT na zasadach ogólnych z obowiązkowym mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów stalowych. Wybór formy opodatkowania zależy od skali zakładu, kosztu surowca i struktury sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

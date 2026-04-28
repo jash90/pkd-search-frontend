@@ -1,0 +1,36 @@
+{
+  "code": "87.99.Z",
+  "name": "Pozostała pomoc społeczna z zakwaterowaniem, gdzie indziej niesklasyfikowana",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 87.99.Z obejmuje świadczenie pozostałej pomocy społecznej z zakwaterowaniem, której nie można przypisać do innych klas działu 87 — np. domy dla samotnych matek, schroniska dla bezdomnych, ośrodki dla uchodźców czy ofiar przemocy. To kategoria 'parasol' dla niszowych form opieki całodobowej.",
+  "whoUsesIt": [
+    {
+      "persona": "Fundacja prowadząca dom dla samotnych matek",
+      "use": "Zapewnia zakwaterowanie i wsparcie kobietom z dziećmi w trudnej sytuacji życiowej."
+    },
+    {
+      "persona": "Organizacja prowadząca schronisko dla bezdomnych",
+      "use": "Oferuje nocleg, wyżywienie i pomoc w wychodzeniu z bezdomności."
+    },
+    {
+      "persona": "Ośrodek interwencji kryzysowej",
+      "use": "Przyjmuje ofiary przemocy domowej i osoby w sytuacjach kryzysowych z noclegiem."
+    },
+    {
+      "persona": "Stowarzyszenie pomagające uchodźcom",
+      "use": "Prowadzi mieszkania chronione i ośrodki adaptacyjne dla osób z doświadczeniem migracji."
+    }
+  ],
+  "businessExamples": [
+    "Schronisko dla osób w kryzysie bezdomności",
+    "Dom dla samotnych matek z dziećmi",
+    "Ośrodek interwencji kryzysowej dla ofiar przemocy"
+  ],
+  "commonMistakes": [
+    "Wybór 87.99.Z, gdy faktycznie prowadzony jest dom dla seniorów lub osób niepełnosprawnych — tam właściwy jest kod 87.30.Z.",
+    "Pomylenie z 88.99.Z (pozostała pomoc społeczna bez zakwaterowania) — kluczowe rozróżnienie to obecność noclegu/pobytu całodobowego."
+  ],
+  "taxNotes": "Działalność pomocy społecznej często prowadzona jest przez NGO i może korzystać ze zwolnień podatkowych dla działalności statutowej. Komercyjne placówki podlegają VAT i CIT/PIT na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

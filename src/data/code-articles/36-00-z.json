@@ -1,0 +1,36 @@
+{
+  "code": "36.00.Z",
+  "name": "Pobór, uzdatnianie i dostarczanie wody",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 36.00.Z obejmuje pobór wody z ujęć powierzchniowych i podziemnych, jej uzdatnianie w stacjach SUW oraz dystrybucję siecią wodociągową do gospodarstw domowych, instytucji i zakładów. To kod podstawowy dla przedsiębiorstw wodociągowych (MPWiK, ZWiK, PGK) i prywatnych operatorów ujęć.",
+  "whoUsesIt": [
+    {
+      "persona": "Miejskie Przedsiębiorstwo Wodociągów",
+      "use": "Pozyskuje wodę z ujęcia, uzdatnia ją i dostarcza siecią do mieszkańców i odbiorców komercyjnych."
+    },
+    {
+      "persona": "Gminny zakład gospodarki komunalnej",
+      "use": "Eksploatuje lokalne ujęcie i sieć wodociągową w gminie wiejskiej lub miejsko-wiejskiej."
+    },
+    {
+      "persona": "Prywatny operator ujęcia",
+      "use": "Dostarcza wodę z własnego ujęcia odbiorcom przemysłowym (np. zakładom rolno-spożywczym)."
+    },
+    {
+      "persona": "Spółka wodna",
+      "use": "Zarządza wspólnym ujęciem wody dla osiedla, parku przedsiębiorczości lub zespołu budynków."
+    }
+  ],
+  "businessExamples": [
+    "Miejskie Przedsiębiorstwo Wodociągów i Kanalizacji",
+    "Gminny zakład wodociągowy",
+    "Prywatny dostawca wody dla zakładu produkcyjnego"
+  ],
+  "commonMistakes": [
+    "Wybór 36.00.Z zamiast 37.00.Z (odprowadzanie i oczyszczanie ścieków) — ścieki to osobna klasa, mimo że firma wodociągowa zwykle prowadzi oba rodzaje działalności.",
+    "Pomylenie z 11.07.Z (produkcja napojów bezalkoholowych) — rozlewanie wody w butelkach jako produkcja wody mineralnej to inny kod."
+  ],
+  "taxNotes": "Działalność wodociągowa podlega regulacji Wód Polskich i taryfom zatwierdzanym dla odbiorców końcowych, a usługi mogą korzystać z preferencyjnych zasad rozliczeń VAT zgodnie z ustawą. Stawki sprawdź u doradcy podatkowego."
+}

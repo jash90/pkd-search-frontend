@@ -1,0 +1,36 @@
+{
+  "code": "01.19.Z",
+  "name": "Pozostałe uprawy rolne inne niż wieloletnie",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.19.Z to kosz na pozostałe uprawy jednoroczne i dwuletnie, które nie pasują do bardziej szczegółowych kodów grupy 01.1 — w tym uprawa kwiatów ciętych, roślin paszowych (lucerna, koniczyna), kukurydzy na zielonkę, a także produkcja nasion buraka cukrowego. Sprawdź zawsze, czy nie istnieje dokładniejszy kod dla Twojej uprawy.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent kwiatów ciętych",
+      "use": "Uprawia tulipany, róże, gerbery na sprzedaż do kwiaciarni i hurtowni florystycznych."
+    },
+    {
+      "persona": "Gospodarstwo paszowe",
+      "use": "Uprawia lucernę, koniczynę i kukurydzę na kiszonkę dla własnej hodowli lub na sprzedaż."
+    },
+    {
+      "persona": "Producent zielonki",
+      "use": "Specjalizuje się w produkcji pasz objętościowych dla hodowców bydła mlecznego."
+    },
+    {
+      "persona": "Plantator buraka cukrowego",
+      "use": "Uprawia buraki na podstawie umowy kontraktacyjnej z cukrownią."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja tulipanów na cięcie",
+    "Gospodarstwo paszowe z lucerną i kukurydzą",
+    "Producent buraków cukrowych dla cukrowni"
+  ],
+  "commonMistakes": [
+    "Wybór 01.19.Z zamiast 01.30.Z dla rozmnażania roślin (sadzonki, rozsada) — to osobna kategoria szkółkarska.",
+    "Pomylenie z 01.13.Z, gdy uprawiane są warzywa, melony, ziemniaki — te mają własny, bardziej precyzyjny kod."
+  ],
+  "taxNotes": "Pozostałe uprawy jednoroczne to typowa działalność rolnicza objęta podatkiem rolnym, choć produkcja kwiatów pod osłonami często kwalifikuje się jako dział specjalny produkcji rolnej. Warto sprawdzić zasady VAT dla rolnika. Stawki sprawdź u doradcy podatkowego."
+}

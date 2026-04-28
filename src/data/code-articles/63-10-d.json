@@ -1,0 +1,36 @@
+{
+  "code": "63.10.D",
+  "name": "Pozostała działalność usługowa w zakresie infrastruktury obliczeniowej, przetwarzania danych, zarządzania stronami internetowymi (hosting) i działalności powiązane",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.10.D obejmuje pozostałe usługi hostingu i przetwarzania danych — webhosting, hosting WordPress, serwery VPS, hosting aplikacji oraz pozostałe usługi infrastruktury, które nie mieszczą się w klasach 63.10.A-C. Pasuje dla małych i średnich firm hostingowych oraz dostawców rozwiązań SaaS-hostingowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma webhostingowa",
+      "use": "Świadczy shared hosting, VPS i serwery dedykowane dla blogów, sklepów i firm."
+    },
+    {
+      "persona": "Dostawca managed WordPress",
+      "use": "Specjalizuje się w hostingu zoptymalizowanym pod WordPress z autoupdate i backupami."
+    },
+    {
+      "persona": "Operator hostingu aplikacji (PaaS)",
+      "use": "Udostępnia platformę do wdrażania aplikacji (Docker, Kubernetes) jako usługę."
+    },
+    {
+      "persona": "Reseller hostingu",
+      "use": "Odsprzedaje pakiety hostingowe pod własną marką klientom końcowym i agencjom."
+    }
+  ],
+  "businessExamples": [
+    "Polska firma webhostingowa dla MŚP",
+    "Managed WordPress dla agencji digital",
+    "PaaS do wdrażania aplikacji w Dockerze"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.10.A (kolokacja, chmura enterprise) — duże data center i chmura mają osobną klasę.",
+    "Wybór 63.10.D zamiast 58.29.Z (wydawanie oprogramowania) — sprzedaż własnego SaaS to inny kod."
+  ],
+  "taxNotes": "Sprzedaż hostingu klientom z UE wymaga OSS. Działalność może być rozliczana na zasadach ogólnych, liniowo lub ryczałtem (przy spełnieniu limitów). Stawki sprawdź u doradcy podatkowego."
+}

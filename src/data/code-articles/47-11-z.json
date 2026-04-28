@@ -1,0 +1,36 @@
+{
+  "code": "47.11.Z",
+  "name": "Sprzedaż detaliczna niewyspecjalizowana z przewagą żywności, napojów lub wyrobów tytoniowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.11.Z obejmuje sklepy spożywcze i sieci handlowe, w których przeważa sprzedaż żywności, napojów lub wyrobów tytoniowych, ale oferowane są też inne towary (chemia gospodarcza, kosmetyki, drobne artykuły) — supermarkety, sklepy osiedlowe, dyskonty, mini-markety. Pozostałą sprzedaż niewyspecjalizowaną (bez przewagi żywności) klasyfikuje się jako 47.19.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu osiedlowego",
+      "use": "Prowadzi mały sklep spożywczy z chemią gospodarczą i artykułami pierwszej potrzeby."
+    },
+    {
+      "persona": "Franczyzobiorca sieci",
+      "use": "Operuje sklepem typu Żabka, Lewiatan, Społem w modelu franczyzowym."
+    },
+    {
+      "persona": "Operator supermarketu",
+      "use": "Prowadzi większy sklep spożywczy z szerokim asortymentem dodatkowym."
+    },
+    {
+      "persona": "Sprzedawca produktów regionalnych",
+      "use": "Prowadzi mini-market z lokalną żywnością i podstawowymi artykułami codziennego użytku."
+    }
+  ],
+  "businessExamples": [
+    "Sklep osiedlowy z mieszanym asortymentem spożywczym i chemicznym",
+    "Franczyzowy market sieciowy w mieście średniej wielkości",
+    "Mini-market przy stacji benzynowej z żywnością i artykułami impulsowymi"
+  ],
+  "commonMistakes": [
+    "Wybór 47.11.Z, gdy sklep specjalizuje się w jednej kategorii — wtedy właściwy jest kod z grupy 47.2 (np. 47.21.Z owoce, 47.22.Z mięso).",
+    "Pomylenie z 47.12.Z (pozostała sprzedaż niewyspecjalizowana) — 47.11.Z wymaga przewagi żywności."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej i obowiązkowej ewidencji. Sprzedaż alkoholu i wyrobów tytoniowych wymaga zezwoleń. Forma opodatkowania zależy od skali — często wybierana jest skala lub liniówka. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "47.83.Z",
+  "name": "Sprzedaż detaliczna motocykli oraz części i akcesoriów do nich",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.83.Z obejmuje detaliczną sprzedaż motocykli, skuterów, motorowerów, quadów oraz części, akcesoriów i odzieży motocyklowej w wyspecjalizowanych sklepach. To kod dla salonów motocyklowych, sklepów z odzieżą motocyklową i punktów ze skuterami.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel salonu motocyklowego",
+      "use": "Sprzedaje nowe motocykle marek japońskich i europejskich oraz oferuje serwis."
+    },
+    {
+      "persona": "Komis motocyklowy",
+      "use": "Skupuje i sprzedaje motocykle używane, prowadzi pośrednictwo w sprzedaży."
+    },
+    {
+      "persona": "Sklep z odzieżą motocyklową",
+      "use": "Oferuje kombinezony, kaski, rękawice, ochraniacze i akcesoria dla motocyklistów."
+    },
+    {
+      "persona": "Sklep ze skuterami",
+      "use": "Sprzedaje skutery 50/125 cm³ i części zamienne dla amatorów lekkich pojazdów."
+    }
+  ],
+  "businessExamples": [
+    "Salon motocyklowy z serwisem i częściami",
+    "Sklep z odzieżą i kaskami motocyklowymi",
+    "Komis motocykli używanych"
+  ],
+  "commonMistakes": [
+    "Wybór 47.83.Z zamiast 47.81.Z — samochody i pojazdy ciężarowe mają osobny kod (47.81.Z).",
+    "Pomylenie z 30.91.Z (produkcja motocykli) — jeśli sam produkujesz motocykle lub ich części, potrzebny jest kod produkcyjny."
+  ],
+  "taxNotes": "Sprzedaż motocykli podlega standardowej stawce VAT lub procedurze marży (używane). Odzież motocyklowa traktowana jest jako wyposażenie ochronne. Stawki sprawdź u doradcy podatkowego."
+}

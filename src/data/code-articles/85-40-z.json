@@ -1,0 +1,36 @@
+{
+  "code": "85.40.Z",
+  "name": "Szkoły wyższe",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.40.Z obejmuje uczelnie publiczne i niepubliczne — uniwersytety, politechniki, akademie, szkoły wyższe zawodowe — prowadzące studia I, II i III stopnia oraz studia podyplomowe nadające tytuły zawodowe i stopnie naukowe. Pasuje dla podmiotów prowadzących uczelnie wpisane do POL-on. Szkolenia zawodowe i kursy klasyfikuje się pod 85.59.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Uczelnia niepubliczna",
+      "use": "Prowadzi studia licencjackie, magisterskie i podyplomowe na podstawie pozwolenia ministra."
+    },
+    {
+      "persona": "Uniwersytet / politechnika publiczna",
+      "use": "Realizuje kształcenie i działalność naukową w ramach finansowania publicznego."
+    },
+    {
+      "persona": "Akademia branżowa",
+      "use": "Prowadzi specjalistyczne kierunki (np. medyczne, artystyczne, sportowe) z odpowiednimi uprawnieniami."
+    },
+    {
+      "persona": "Szkoła wyższa zawodowa",
+      "use": "Oferuje studia praktyczne ukierunkowane na rynek pracy, często we współpracy z biznesem."
+    }
+  ],
+  "businessExamples": [
+    "Niepubliczna szkoła wyższa biznesu i administracji",
+    "Akademia sztuk pięknych (publiczna)",
+    "Uczelnia techniczna z kierunkami inżynierskimi"
+  ],
+  "commonMistakes": [
+    "Wybór 85.40.Z dla studiów podyplomowych prowadzonych poza systemem szkolnictwa wyższego — szkolenia komercyjne to 85.59.B.",
+    "Pomylenie z 72.10.Z lub 72.20.Z (B+R) — działalność naukowa uczelni jest częścią 85.40.Z; samodzielne instytuty badawcze poza uczelnią używają kodów B+R."
+  ],
+  "taxNotes": "Uczelnie wymagają pozwolenia ministra właściwego do spraw szkolnictwa wyższego i podlegają ustawie Prawo o szkolnictwie wyższym i nauce. Usługi kształcenia na poziomie wyższym są co do zasady zwolnione z VAT, a finansowanie publiczne ma własne reguły. Stawki sprawdź u doradcy podatkowego."
+}

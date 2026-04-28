@@ -1,0 +1,36 @@
+{
+  "code": "38.11.Z",
+  "name": "Zbieranie odpadów innych niż niebezpieczne",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 38.11.Z obejmuje zbieranie i transport odpadów komunalnych oraz przemysłowych, które nie są klasyfikowane jako niebezpieczne — śmieci zmieszanych, papieru, plastiku, szkła, gruzu, odpadów BIO. To podstawowa działalność firm wywozowych obsługujących gminy, firmy i osiedla.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma wywozu nieczystości stałych",
+      "use": "Odbiera odpady komunalne od mieszkańców i przedsiębiorstw na zlecenie gminy."
+    },
+    {
+      "persona": "Operator PSZOK",
+      "use": "Prowadzi punkt selektywnej zbiórki odpadów dla mieszkańców gminy."
+    },
+    {
+      "persona": "Recykler zbierający surowce wtórne",
+      "use": "Skupuje makulaturę, plastik, szkło bezpośrednio od dostawców."
+    },
+    {
+      "persona": "Firma od kontenerów na gruz budowlany",
+      "use": "Wynajmuje pojemniki i odbiera odpady budowlane z placów budów."
+    }
+  ],
+  "businessExamples": [
+    "Spółka komunalna wywozu śmieci",
+    "Punkt skupu makulatury i metali",
+    "Wynajem kontenerów na gruz"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 38.12.Z (odpady niebezpieczne) — zużyty olej, baterie, świetlówki czy chemikalia wymagają kodu dla odpadów niebezpiecznych.",
+    "Wybór 38.11.Z zamiast 38.21.Z, gdy faktycznie firma przetwarza i odzyskuje surowce, a nie tylko je zbiera."
+  ],
+  "taxNotes": "Działalność w zakresie odpadów wymaga wpisu do BDO oraz odpowiednich zezwoleń na zbieranie i transport. Branża korzysta z preferencji VAT przy gminnych systemach gospodarki odpadami. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "52.26.Z",
+  "name": "Pozostała działalność usługowa wspomagająca transport",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.26.Z obejmuje pozostałe usługi wspomagające transport, które nie mieszczą się w innych klasach — m.in. ważenie pojazdów, kontrole celne, pomoc drogową, asystę przy ładunkach ponadgabarytowych czy obsługę dokumentacji transportowej. Pasuje dla niszowych usługodawców obsługujących branżę transportową.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma asysty pilotażowej",
+      "use": "Pilotuje transporty ponadnormatywne (ponadgabarytowe, dłużycowe) na drogach publicznych."
+    },
+    {
+      "persona": "Stacja ważenia pojazdów",
+      "use": "Wykonuje ważenie ciężarówek na zlecenie spedytorów, organów kontroli i nadawców."
+    },
+    {
+      "persona": "Pomoc drogowa i holowanie",
+      "use": "Świadczy assistance dla pojazdów ciężarowych i osobowych na drogach krajowych."
+    },
+    {
+      "persona": "Agencja celna pomocnicza",
+      "use": "Wspiera spedytorów w obsłudze formalności granicznych i dokumentów transportowych."
+    }
+  ],
+  "businessExamples": [
+    "Firma pilotująca transporty ponadgabarytowe",
+    "Stacja diagnostyczno-wagowa przy autostradzie",
+    "Pomoc drogowa specjalizująca się w pojazdach ciężarowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 52.29.C (pozostała działalność wspomagająca) — pośrednictwo w transporcie ma osobne klasy 52.31/52.32.",
+    "Wybór 52.26.Z zamiast 71.20.B (badania i kontrola techniczna) — diagnostyka pojazdów to osobny kod."
+  ],
+  "taxNotes": "Forma opodatkowania zależy od profilu — pomoc drogowa często korzysta z ryczałtu, większe firmy pilotażowe rozliczają się na zasadach ogólnych. Stawki sprawdź u doradcy podatkowego."
+}

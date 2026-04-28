@@ -1,0 +1,36 @@
+{
+  "code": "68.20.Z",
+  "name": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.20.Z to wynajem mieszkań, lokali użytkowych, biur, magazynów i gruntów — zarówno własnych, jak i wziętych w dzierżawę z prawem podnajmu. Pasuje do prywatnych wynajmujących, spółek zarządzających najmem długoterminowym i firm operujących powierzchniami komercyjnymi. Najem krótkoterminowy turystyczny (apartamenty na doby) zwykle klasyfikuje się pod 55.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Prywatny wynajmujący mieszkania",
+      "use": "Wynajmuje 1-3 mieszkania na rynku najmu długoterminowego osobom fizycznym."
+    },
+    {
+      "persona": "Spółka zarządzająca portfelem nieruchomości",
+      "use": "Wynajmuje kilkanaście-kilkadziesiąt lokali mieszkalnych jako działalność operacyjną."
+    },
+    {
+      "persona": "Właściciel powierzchni biurowej / coworkingowej",
+      "use": "Wynajmuje biura, sale konferencyjne i miejsca w open space firmom i freelancerom."
+    },
+    {
+      "persona": "Operator magazynów i hal",
+      "use": "Wynajmuje powierzchnie magazynowe i logistyczne firmom z e-commerce i produkcji."
+    }
+  ],
+  "businessExamples": [
+    "Mieszkania na wynajem długoterminowy w dużym mieście",
+    "Biura serwisowane / coworking w centrum",
+    "Hala magazynowa wynajmowana firmie logistycznej"
+  ],
+  "commonMistakes": [
+    "Wybór 68.20.Z dla najmu krótkoterminowego apartamentów turystom — to z reguły 55.20.Z (obiekty noclegowe turystyczne).",
+    "Pomylenie z 68.32.Z (zarządzanie nieruchomościami wykonywane na zlecenie) — administrator wspólnot i spółdzielni używa 68.32.Z, nie 68.20.Z."
+  ],
+  "taxNotes": "Najem może być rozliczany w ramach działalności gospodarczej lub jako tzw. najem prywatny — wybór wpływa na formę opodatkowania, składki ZUS i obowiązki VAT. Najem mieszkań na cele mieszkaniowe co do zasady korzysta ze zwolnienia z VAT, najem komercyjny zwykle nie. Stawki sprawdź u doradcy podatkowego."
+}

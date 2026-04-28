@@ -1,0 +1,36 @@
+{
+  "code": "35.11.Z",
+  "name": "Wytwarzanie energii elektrycznej ze źródeł nieodnawialnych",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.11.Z obejmuje wytwarzanie energii elektrycznej w elektrowniach konwencjonalnych — opartych na węglu kamiennym, brunatnym, gazie ziemnym, oleju opałowym, energii jądrowej (klasyfikowanej tutaj zgodnie z PKD) i innych nieodnawialnych źródłach. Pasuje dla operatorów elektrowni i kogeneracji.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator elektrowni węglowej",
+      "use": "Wytwarza energię elektryczną w blokach węglowych dla rynku hurtowego i bilansującego."
+    },
+    {
+      "persona": "Operator elektrociepłowni gazowej",
+      "use": "Produkuje energię elektryczną i cieplną w blokach gazowych w skojarzeniu (CHP)."
+    },
+    {
+      "persona": "Inwestor budujący gazowy blok kogeneracyjny",
+      "use": "Realizuje projekty bloków gazowych dla zakładów przemysłowych i ciepłownictwa systemowego."
+    },
+    {
+      "persona": "Operator elektrowni jądrowej",
+      "use": "Wytwarza energię w reaktorach jądrowych zgodnie z licencjami PAA."
+    }
+  ],
+  "businessExamples": [
+    "Elektrownia węglowa z blokami klasy 1000 MW",
+    "Gazowy blok kogeneracyjny CHP dla zakładu przemysłowego",
+    "Elektrownia jądrowa z reaktorami III generacji"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.12.A/B (energetyka odnawialna) — biomasa może być klasyfikowana różnie, ale węgiel, gaz i atom idą pod 35.11.Z.",
+    "Wybór 35.13.Z (dystrybucja energii) zamiast 35.11.Z — sama produkcja to 35.11.Z, dystrybucja to inny kod."
+  ],
+  "taxNotes": "Energetyka konwencjonalna podlega specyficznym regulacjom (URE, EU ETS, opłata mocowa) i ma rozbudowane wymogi rozliczeniowe. Strategia podatkowa wymaga uwzględnienia kosztów uprawnień CO2 i amortyzacji infrastruktury. Stawki sprawdź u doradcy podatkowego."
+}

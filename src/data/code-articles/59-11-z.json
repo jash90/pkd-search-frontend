@@ -1,0 +1,36 @@
+{
+  "code": "59.11.Z",
+  "name": "Działalność związana z produkcją filmów, nagrań wideo i programów telewizyjnych",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 59.11.Z obejmuje produkcję filmów fabularnych, dokumentalnych, reklamowych, programów telewizyjnych, seriali, klipów muzycznych i treści wideo (np. dla YouTube). Pasuje dla domów produkcyjnych, niezależnych producentów filmowych, twórców YouTube oraz studiów produkujących reklamy wideo.",
+  "whoUsesIt": [
+    {
+      "persona": "Dom produkcyjny",
+      "use": "Realizuje filmy fabularne, dokumenty i seriale na zlecenie nadawców i platform streamingowych."
+    },
+    {
+      "persona": "Producent reklam wideo",
+      "use": "Tworzy spoty reklamowe i corporate video dla agencji marketingowych i klientów końcowych."
+    },
+    {
+      "persona": "Twórca YouTube / kreator wideo",
+      "use": "Produkuje regularne treści wideo dla własnego kanału, monetyzuje przez AdSense i sponsorów."
+    },
+    {
+      "persona": "Niezależny producent filmowy",
+      "use": "Realizuje krótkie metraże, dokumenty i filmy festiwalowe w modelu autorskim."
+    }
+  ],
+  "businessExamples": [
+    "Studio produkujące seriale dla VOD",
+    "Producent reklam i corporate video",
+    "Kanał YouTube z monetyzacją sponsorską"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 59.12.Z (postprodukcja) — sam montaż, kolor i VFX bez produkcji to osobny kod.",
+    "Wybór 59.11.Z zamiast 73.11.Z (działalność agencji reklamowych) — agencja kreatywna planująca kampanie, ale niereżyserująca produkcji, ma inny kod."
+  ],
+  "taxNotes": "Produkcja filmowa może kwalifikować się do ulgi na produkcję audiowizualną (PISF) oraz IP Box przy honorariach autorskich. Twórcy YouTube z dochodami z Google AdSense rozliczają je jako import usług. Stawki sprawdź u doradcy podatkowego."
+}

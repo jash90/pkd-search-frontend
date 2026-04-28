@@ -1,0 +1,36 @@
+{
+  "code": "02.20.Z",
+  "name": "Pozyskiwanie drewna",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 02.20.Z obejmuje pozyskiwanie drewna okrągłego — wycinkę, zrywkę i sortowanie drewna oraz produkcję drewna opałowego, kopalniaków, słupów teleenergetycznych i innego surowca drzewnego w postaci nieobrobionej. Nie dotyczy dalszej obróbki drewna (16.10.Z) ani gospodarki leśnej (02.10.Z). To kod dla zakładów usług leśnych (ZUL) i jednoosobowych firm pilarzy.",
+  "whoUsesIt": [
+    {
+      "persona": "Pilarz na działalności gospodarczej",
+      "use": "Wykonuje wyrąb i zrywkę drewna na zlecenie nadleśnictw oraz prywatnych właścicieli lasów."
+    },
+    {
+      "persona": "Zakład usług leśnych (ZUL)",
+      "use": "Realizuje całe pakiety pozyskania drewna w ramach przetargów Lasów Państwowych — od ścinki po wywóz."
+    },
+    {
+      "persona": "Producent drewna opałowego",
+      "use": "Pozyskuje surowiec opałowy, łupie i sprzedaje na rynku detalicznym lub do hurtowni."
+    },
+    {
+      "persona": "Operator harwestera/forwardera",
+      "use": "Wykonuje zmechanizowane pozyskanie drewna dla większych odbiorców na powierzchniach zrębowych."
+    }
+  ],
+  "businessExamples": [
+    "ZUL realizujący pozyskanie drewna dla nadleśnictwa",
+    "Jednoosobowa firma pilarska wykonująca trzebieże",
+    "Firma produkująca drewno opałowe z surowca z lasów prywatnych"
+  ],
+  "commonMistakes": [
+    "Wybór 02.20.Z zamiast 16.10.Z, jeśli głównym przychodem jest tarcica lub wyroby z drewna obrobionego (deski, kantówki).",
+    "Mylenie z 02.40.Z (działalność usługowa związana z leśnictwem) — pomiary, doradztwo i plany urządzenia lasu to inna kategoria niż fizyczne pozyskanie drewna."
+  ],
+  "taxNotes": "Usługi leśne często rozliczane są przez ryczałt lub liniowy, a sprzedaż drewna może rodzić obowiązki VAT i specyficzne wymogi dokumentacyjne (świadectwa legalności, ewidencja). Stawki sprawdź u doradcy podatkowego."
+}

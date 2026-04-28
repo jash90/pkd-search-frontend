@@ -1,0 +1,36 @@
+{
+  "code": "25.63.Z",
+  "name": "Produkcja narzędzi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.63.Z obejmuje produkcję narzędzi ręcznych i wymiennych — kluczy, młotków, śrubokrętów, kombinerek, dłut, pił ręcznych, wierteł, frezów, gwintowników, narzędzi skrawających, kowadeł oraz narzędzi rolniczych i ogrodniczych. To kod dla wytwórców narzędzi warsztatowych i przemysłowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent narzędzi ręcznych",
+      "use": "Wytwarza klucze, młotki i śrubokręty dla warsztatów samochodowych i ślusarskich."
+    },
+    {
+      "persona": "Wytwórca narzędzi skrawających",
+      "use": "Produkuje wiertła, frezy i gwintowniki z węglika spiekanego dla obrabiarek CNC."
+    },
+    {
+      "persona": "Producent narzędzi ogrodniczych",
+      "use": "Wytwarza łopaty, grabie, sekatory i narzędzia rolnicze."
+    },
+    {
+      "persona": "Wytwórca narzędzi do elektronarzędzi",
+      "use": "Produkuje końcówki bitowe, tarcze, koronki diamentowe i akcesoria do wkrętarek."
+    }
+  ],
+  "businessExamples": [
+    "Producent kluczy i narzędzi warsztatowych",
+    "Wytwórnia wierteł i frezów z węglika spiekanego",
+    "Producent narzędzi ogrodniczych dla rynku detalicznego"
+  ],
+  "commonMistakes": [
+    "Wybór 25.63.Z zamiast 28.49.Z (produkcja pozostałych narzędzi mechanicznych), gdy zakład produkuje elektronarzędzia z silnikiem — wówczas kod 28.49.Z.",
+    "Pomylenie z 25.61.Z (produkcja wyrobów nożowniczych) — noże mają osobny kod, narzędzia tnące i skrawające do maszyn wchodzą do 25.63.Z."
+  ],
+  "taxNotes": "Produkcja narzędzi objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Wybór formy opodatkowania zależy od skali produkcji i struktury kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

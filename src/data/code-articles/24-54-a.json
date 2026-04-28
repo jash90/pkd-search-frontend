@@ -1,0 +1,36 @@
+{
+  "code": "24.54.A",
+  "name": "Odlewnictwo miedzi i stopów miedzi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 24.54.A obejmuje odlewnictwo miedzi i jej stopów — mosiądzów (Cu-Zn), brązów (Cu-Sn, Cu-Al, Cu-Ni) i miedzioniklowych. Klasyfikacja obejmuje odlewy armaturowe (zawory, krany), elementy maszyn okrętowych, łożyska ślizgowe, wyroby dekoracyjne i elementy artystyczne.",
+  "whoUsesIt": [
+    {
+      "persona": "Odlewnia mosiądzu armaturowego",
+      "use": "Wytwarza odlewy zaworów, kranów i kształtek mosiężnych dla branży sanitarnej."
+    },
+    {
+      "persona": "Producent łożysk ślizgowych z brązu",
+      "use": "Odlewa panewki i tuleje brązowe dla maszyn ciężkich i okrętownictwa."
+    },
+    {
+      "persona": "Odlewnia artystyczna",
+      "use": "Wytwarza pomniki, dzwony i rzeźby z brązu metodą traconego wosku."
+    },
+    {
+      "persona": "Producent elementów dekoracyjnych",
+      "use": "Odlewa okucia, klamki i akcesoria mosiężne dla meblarstwa i wyposażenia wnętrz."
+    }
+  ],
+  "businessExamples": [
+    "Odlewnia mosiądzu produkująca armaturę sanitarną",
+    "Producent łożysk ślizgowych z brązu",
+    "Odlewnia artystyczna wykonująca rzeźby z brązu"
+  ],
+  "commonMistakes": [
+    "Wybór 24.54.A zamiast 24.54.B, gdy zakład odlewa metale inne niż miedź i jej stopy (np. cynk, ołów) — wówczas właściwy jest 24.54.B.",
+    "Pomylenie z 24.44.Z (produkcja miedzi), gdy działalność polega na rafinacji i produkcji półwyrobów hutniczych, a nie odlewaniu gotowych elementów."
+  ],
+  "taxNotes": "Odlewnictwo miedzi i jej stopów objęte jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B wyrobów metalowych. Wybór formy opodatkowania zależy od skali odlewni i specyfiki produkcji. Stawki sprawdź u doradcy podatkowego."
+}

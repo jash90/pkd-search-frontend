@@ -1,0 +1,36 @@
+{
+  "code": "78.10.Z",
+  "name": "Działalność związana z wyszukiwaniem miejsc pracy i pozyskiwaniem pracowników",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 78.10.Z obejmuje rekrutację stałą — agencje pośrednictwa pracy, headhuntingu (executive search) i firmy rekrutacyjne IT, finansowe, sprzedażowe. Pasuje dla niezależnych rekruterów i agencji rekrutujących na zlecenie pracodawcy. Praca tymczasowa (leasing pracowniczy) ma osobny kod 78.20.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Niezależny rekruter / headhunter",
+      "use": "Prowadzi rekrutacje na stanowiska średniego i wyższego szczebla na zlecenie firm."
+    },
+    {
+      "persona": "Agencja rekrutacji IT",
+      "use": "Specjalizuje się w pozyskiwaniu programistów, devops i specjalistów technicznych."
+    },
+    {
+      "persona": "Executive search / headhunting C-level",
+      "use": "Pozyskuje kadrę zarządzającą (CEO, CFO, dyrektorów) dla klientów korporacyjnych."
+    },
+    {
+      "persona": "Agencja pośrednictwa pracy zagranicznej",
+      "use": "Pomaga osobom z Polski znaleźć pracę za granicą lub rekrutuje cudzoziemców do polskich firm."
+    }
+  ],
+  "businessExamples": [
+    "Agencja rekrutacji IT z modelem success fee",
+    "Headhunter pozyskujący kadrę zarządzającą",
+    "Agencja pośrednictwa pracy dla cudzoziemców"
+  ],
+  "commonMistakes": [
+    "Wybór 78.10.Z, gdy faktycznie świadczona jest praca tymczasowa (leasing pracowniczy) — to jest 78.20.Z.",
+    "Pomylenie z 70.22.Z lub 70.20.Z (doradztwo HR) — sam consulting personalny bez procesu rekrutacji to inny kod."
+  ],
+  "taxNotes": "Agencje pracy wymagają wpisu do rejestru agencji zatrudnienia (KRAZ) i podlegają regulacjom ustawy o promocji zatrudnienia. Usługi rekrutacyjne podlegają VAT, ale w pośrednictwie pracy zagranicznej mogą wystąpić rozliczenia transgraniczne. Stawki sprawdź u doradcy podatkowego."
+}

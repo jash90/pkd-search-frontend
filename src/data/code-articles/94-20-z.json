@@ -1,0 +1,36 @@
+{
+  "code": "94.20.Z",
+  "name": "Działalność związków zawodowych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 94.20.Z obejmuje działalność związków zawodowych — organizacji reprezentujących interesy pracownicze (zakładowych, branżowych, ogólnokrajowych) oraz federacji i konfederacji związkowych. To kod dla samych organizacji związkowych jako zarejestrowanych podmiotów. Organizacje pracodawców klasyfikuje się pod 94.11.Z, a stowarzyszenia zawodowe pod 94.12.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakładowa organizacja związkowa",
+      "use": "Reprezentuje pracowników w jednym przedsiębiorstwie wobec pracodawcy."
+    },
+    {
+      "persona": "Branżowy związek zawodowy",
+      "use": "Zrzesza pracowników z konkretnej branży (np. nauczycieli, kolejarzy, górników) na poziomie krajowym."
+    },
+    {
+      "persona": "Federacja / konfederacja związkowa",
+      "use": "Łączy kilka związków zawodowych w struktury wyższego rzędu (np. OPZZ, NSZZ Solidarność)."
+    },
+    {
+      "persona": "Międzyzakładowy związek zawodowy",
+      "use": "Działa w wielu zakładach jednocześnie — typowo w sieciach handlowych lub firmach z oddziałami."
+    }
+  ],
+  "businessExamples": [
+    "Zakładowa organizacja związkowa w fabryce",
+    "Branżowy związek zawodowy nauczycieli",
+    "Federacja związków zawodowych pracowników handlu"
+  ],
+  "commonMistakes": [
+    "Wybór 94.20.Z dla organizacji pracodawców (np. konfederacji biznesu) — pracodawcy używają 94.11.Z (działalność organizacji komercyjnych i pracodawców).",
+    "Pomylenie z 94.12.Z (działalność organizacji profesjonalnych — np. izby lekarskie, adwokackie) — organizacje samorządu zawodowego nie są związkami zawodowymi."
+  ],
+  "taxNotes": "Związki zawodowe są zarejestrowane w KRS i działają na podstawie ustawy o związkach zawodowych — co do zasady prowadzą działalność statutową, a nie gospodarczą. Składki członkowskie nie są opodatkowane jak typowy przychód, a działalność gospodarcza związku (jeśli jest prowadzona) ma własne reguły. Stawki sprawdź u doradcy podatkowego."
+}

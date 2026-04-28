@@ -1,0 +1,36 @@
+{
+  "code": "52.32.Z",
+  "name": "Pośrednictwo w transporcie pasażerskim",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 52.32.Z obejmuje pośrednictwo w sprzedaży biletów i organizacji przewozu osób — bez świadczenia samej usługi transportowej. Pasuje dla agencji biletowych, brokerów rezerwacji autokarowych, agregatorów platform przewozowych i pośredników rezerwujących transfery.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja biletowa",
+      "use": "Sprzedaje bilety lotnicze, kolejowe i autobusowe w imieniu przewoźników (IATA / non-IATA)."
+    },
+    {
+      "persona": "Broker przewozów autokarowych",
+      "use": "Pośredniczy w wynajmie autokarów dla wycieczek szkolnych, firmowych i pielgrzymek."
+    },
+    {
+      "persona": "Operator platformy rezerwacji transferów",
+      "use": "Łączy pasażerów z lokalnymi przewoźnikami transferów lotniskowych online."
+    },
+    {
+      "persona": "Pośrednik taxi / ride-hailing",
+      "use": "Pośredniczy w zamówieniach przejazdów dla floty kierowców (model platformy)."
+    }
+  ],
+  "businessExamples": [
+    "Internetowa agencja biletów lotniczych",
+    "Broker autokarów dla biur podróży",
+    "Platforma rezerwacji transferów lotniskowych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 49.39.Z (pozostały transport lądowy pasażerski) — wykonywanie przewozu własnymi pojazdami to inny kod.",
+    "Wybór 52.32.Z zamiast 79.11.A/B (działalność agentów / biur turystycznych) — pakiety turystyczne z noclegiem to osobne kody."
+  ],
+  "taxNotes": "Pośrednictwo biletowe rozliczane jest często na zasadach VAT marży lub w modelu prowizyjnym. Część przychodów (bilety międzynarodowe) korzysta z preferencyjnej stawki VAT lub jest poza zakresem VAT. Stawki sprawdź u doradcy podatkowego."
+}

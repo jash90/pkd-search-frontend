@@ -1,0 +1,36 @@
+{
+  "code": "70.10.A",
+  "name": "Działalność biur głównych",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 70.10.A obejmuje działalność central (head offices) sprawujących nadzór i kontrolę zarządczą nad innymi jednostkami w grupie kapitałowej — strategia, planowanie, koordynacja działalności spółek zależnych. To kod dla holdingów operacyjnych i central korporacyjnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Centrala grupy kapitałowej",
+      "use": "Sprawuje nadzór nad spółkami zależnymi — strategia, polityka grupowa, kontroling, M&A."
+    },
+    {
+      "persona": "Holding operacyjny",
+      "use": "Zarządza portfelem spółek operacyjnych i koordynuje działania na poziomie grupy."
+    },
+    {
+      "persona": "Polski oddział centrali międzynarodowej",
+      "use": "Działa jako regionalna centrala grupy globalnej — koordynuje rynek CEE."
+    },
+    {
+      "persona": "Centrala franczyzowa",
+      "use": "Zarządza siecią franczyzobiorców — standardy, rozwój, marketing grupowy."
+    }
+  ],
+  "businessExamples": [
+    "Centrala krajowej grupy kapitałowej",
+    "Regionalna centrala europejskiej grupy w Polsce",
+    "Spółka holdingowa nadzorująca spółki córki"
+  ],
+  "commonMistakes": [
+    "Wybór 70.10.A zamiast 70.10.B — gdy podmiot świadczy usługi wspólne (księgowość, IT, kadry) dla grupy, właściwszy jest 70.10.B.",
+    "Pomylenie z 64.20.Z (działalność holdingów finansowych) — holding czysto finansowy (bez nadzoru zarządczego) mieści się w 64.20.Z."
+  ],
+  "taxNotes": "Centrale grup kapitałowych mogą stosować Estoński CIT lub klasyczny CIT, a transakcje wewnątrzgrupowe podlegają zasadom cen transferowych i obowiązkom dokumentacyjnym. Stawki sprawdź u doradcy podatkowego."
+}

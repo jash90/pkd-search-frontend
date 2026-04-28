@@ -1,0 +1,36 @@
+{
+  "code": "47.40.Z",
+  "name": "Sprzedaż detaliczna narzędzi technologii informacyjnej i komunikacyjnej",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.40.Z obejmuje detaliczną sprzedaż komputerów, laptopów, smartfonów, tabletów, sprzętu peryferyjnego, oprogramowania pudełkowego oraz akcesoriów telekomunikacyjnych w sklepach stacjonarnych i internetowych. To podstawowy kod dla salonów GSM, sklepów IT i e-sklepów elektronicznych.",
+  "whoUsesIt": [
+    {
+      "persona": "Salon GSM",
+      "use": "Sprzedaje telefony, smartwatche i abonamenty operatorów telekomunikacyjnych w galerii handlowej."
+    },
+    {
+      "persona": "Sklep IT stacjonarny",
+      "use": "Prowadzi sklep z komputerami, podzespołami, peryferiami i akcesoriami dla graczy i biur."
+    },
+    {
+      "persona": "E-sklep z elektroniką",
+      "use": "Sprzedaje sprzęt komputerowy i mobilny przez internet z wysyłką do klientów indywidualnych."
+    },
+    {
+      "persona": "Specjalistyczny sklep gamingowy",
+      "use": "Oferuje konsole, klawiatury mechaniczne, fotele gamingowe i akcesoria VR pasjonatom gier."
+    }
+  ],
+  "businessExamples": [
+    "Salon GSM w galerii handlowej",
+    "E-sklep z komputerami i podzespołami",
+    "Sklep gamingowy z akcesoriami VR"
+  ],
+  "commonMistakes": [
+    "Wybór 47.40.Z zamiast 46.50.Z (sprzedaż hurtowa urządzeń ICT) — sprzedaż firmom i resellerom w dużych ilościach to hurt.",
+    "Pomylenie z 95.11.Z (naprawa komputerów i sprzętu peryferyjnego) — serwis bez sprzedaży nowego sprzętu to inny kod."
+  ],
+  "taxNotes": "Sprzedaż detaliczna telefonów, laptopów, konsol, dysków twardych i SSD podlega obowiązkowemu mechanizmowi podzielonej płatności (split payment) w transakcjach B2B powyżej progu, mimo charakteru detalicznego sklepu. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

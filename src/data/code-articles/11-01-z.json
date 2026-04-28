@@ -1,0 +1,36 @@
+{
+  "code": "11.01.Z",
+  "name": "Destylowanie, rektyfikowanie i mieszanie alkoholi",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 11.01.Z obejmuje produkcję alkoholi destylowanych — wódki, whisky, ginu, rumu, brandy, likierów oraz spirytusu rektyfikowanego. To kod dla destylarni, gorzelni rolniczych i blendingowni alkoholi mocnych. Działalność silnie regulowana akcyzowo.",
+  "whoUsesIt": [
+    {
+      "persona": "Destylarnia rzemieślnicza (craft)",
+      "use": "Produkuje gin, whisky lub wódkę w małych partiach pod własną marką."
+    },
+    {
+      "persona": "Gorzelnia rolnicza",
+      "use": "Destyluje spirytus rolniczy z ziemniaków, zboża lub melasy dla przemysłu."
+    },
+    {
+      "persona": "Manufaktura likierów",
+      "use": "Mieszanie i konfekcjonowanie likierów ziołowych, owocowych i kremowych."
+    },
+    {
+      "persona": "Blender wódek i innych alkoholi",
+      "use": "Kupuje spirytus surowy i produkuje markowe wódki, koniaki czy whisky w blendingu."
+    }
+  ],
+  "businessExamples": [
+    "Craft gin distillery z autorską recepturą",
+    "Manufaktura nalewek i likierów ziołowych",
+    "Gorzelnia rolnicza produkująca spirytus dla przemysłu"
+  ],
+  "commonMistakes": [
+    "Wybór 11.01.Z zamiast 11.02.Z (Produkcja win gronowych) — wino destylowane na brandy idzie do 11.01.Z, ale wino samo w sobie to 11.02.Z.",
+    "Pomylenie z 11.05.Z (Produkcja piwa) — piwo nie jest destylowane, więc browary nie używają 11.01.Z."
+  ],
+  "taxNotes": "Produkcja alkoholi destylowanych objęta jest akcyzą, obowiązkiem prowadzenia składu podatkowego i koncesjami. Forma opodatkowania zależy od skali, statusu składu podatkowego i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

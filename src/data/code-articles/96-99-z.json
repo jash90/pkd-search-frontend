@@ -1,0 +1,36 @@
+{
+  "code": "96.99.Z",
+  "name": "Pozostała działalność usługowa, gdzie indziej niesklasyfikowana",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.99.Z obejmuje pozostałe usługi indywidualne niesklasyfikowane gdzie indziej — np. usługi astrologa, tatuażysty, body piercing, salonów solarium, pralni samoobsługowych obsługiwanych przez personel, biur matrymonialnych czy escort serwisu. To kategoria 'parasol' dla niszowych usług osobistych.",
+  "whoUsesIt": [
+    {
+      "persona": "Tatuażysta / studio tatuażu",
+      "use": "Wykonuje tatuaże artystyczne i piercing w studiu z licencją sanitarną."
+    },
+    {
+      "persona": "Operator solarium",
+      "use": "Udostępnia łóżka opalające klientom za bilety lub karnety."
+    },
+    {
+      "persona": "Astrolog / wróżka",
+      "use": "Świadczy usługi rozrywkowo-doradcze (horoskopy, tarot) stacjonarnie i online."
+    },
+    {
+      "persona": "Biuro matrymonialne",
+      "use": "Pośredniczy w zawieraniu znajomości i organizuje randki dla klientów."
+    }
+  ],
+  "businessExamples": [
+    "Studio tatuażu i piercingu",
+    "Salon solarium z subskrypcjami",
+    "Internetowe biuro matrymonialne premium"
+  ],
+  "commonMistakes": [
+    "Wybór 96.99.Z dla usług kosmetycznych — manicure, makijaż i pielęgnacja urody to 96.22.Z, a fryzjerstwo to 96.21.Z.",
+    "Pomylenie z 88.99.Z (pomoc społeczna bez zakwaterowania) — usługi rozrywkowe i osobiste o profilu komercyjnym nie są pomocą społeczną."
+  ],
+  "taxNotes": "Część usług w tej kategorii (np. tatuaż, solarium) wymaga spełnienia wymogów sanitarnych. Forma opodatkowania zależy od skali — drobni usługodawcy często wybierają ryczałt. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "23.12.Z",
+  "name": "Kształtowanie i obróbka szkła płaskiego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.12.Z obejmuje obróbkę szkła płaskiego — cięcie, szlifowanie krawędzi, wiercenie, hartowanie, laminowanie (VSG), produkcję szyb zespolonych, gięcie, piaskowanie i nadruk ceramiczny. To kod dla zakładów obróbki szkła i producentów szyb okiennych.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakład produkcji szyb zespolonych",
+      "use": "Składa pakiety szybowe 2- i 3-szybowe dla producentów stolarki okiennej."
+    },
+    {
+      "persona": "Hartownia szkła",
+      "use": "Hartuje termicznie szyby do drzwi prysznicowych, balustrad i mebli."
+    },
+    {
+      "persona": "Producent szkła laminowanego VSG",
+      "use": "Łączy szyby folią PVB w pakiety bezpieczne dla balustrad i daszków."
+    },
+    {
+      "persona": "Zakład obróbki szkła dekoracyjnego",
+      "use": "Wykonuje piaskowanie, nadruk cyfrowy i grawer na szkle do wnętrz."
+    }
+  ],
+  "businessExamples": [
+    "Zakład szyb zespolonych dla producentów okien",
+    "Hartownia szkła do balustrad",
+    "Producent szkła VSG do daszków"
+  ],
+  "commonMistakes": [
+    "Wybór 23.12.Z dla samej produkcji szkła float — wytwarzanie szkła płaskiego od podstaw to 23.11.Z.",
+    "Pomylenie z 22.23.Z (drzwi i okna z PCV) — kompletne okna z ramą to inna klasyfikacja."
+  ],
+  "taxNotes": "Obrobione szkło budowlane wymaga oznakowania CE i deklaracji DoP. Wybór formy opodatkowania zależy od skali zakładu. Stawki sprawdź u doradcy podatkowego."
+}

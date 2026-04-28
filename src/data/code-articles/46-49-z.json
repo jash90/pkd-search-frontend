@@ -1,0 +1,36 @@
+{
+  "code": "46.49.Z",
+  "name": "Sprzedaż hurtowa pozostałych artykułów użytku domowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.49.Z obejmuje sprzedaż hurtową pozostałych artykułów gospodarstwa domowego nieujętych w kodach 46.41-46.48 — książek, gier, zabawek, sprzętu sportowego, instrumentów muzycznych, galanterii skórzanej, artykułów piśmiennych i papierniczych. Sprzedaż detaliczna tych kategorii to kody z grupy 47.6.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia książek",
+      "use": "Dystrybuuje książki od wydawnictw do księgarni i sieci sprzedaży."
+    },
+    {
+      "persona": "Dystrybutor zabawek",
+      "use": "Sprzedaje hurtowo zabawki i gry do sklepów dziecięcych i e-commerce."
+    },
+    {
+      "persona": "Hurtownia sprzętu sportowego",
+      "use": "Dostarcza piłki, sprzęt fitness i akcesoria sportowe do sklepów branżowych."
+    },
+    {
+      "persona": "Dystrybutor artykułów piśmiennych",
+      "use": "Zaopatruje sklepy biurowe i papiernicze w długopisy, zeszyty i akcesoria."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia książek dla księgarni i bibliotek",
+    "Dystrybutor zabawek dla sieci sklepów dziecięcych",
+    "Hurtownia sprzętu rowerowego i sportowego"
+  ],
+  "commonMistakes": [
+    "Wybór 46.49.Z dla kategorii ujętych w 46.41-46.48 (np. tekstylia w 46.41.Z, AGD w 46.43.Z).",
+    "Pomylenie z 47.6 (sprzedaż detaliczna) — 46.49.Z to handel hurtowy."
+  ],
+  "taxNotes": "Stawki VAT są zróżnicowane (książki mają obniżoną stawkę, zabawki standardową). Forma opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

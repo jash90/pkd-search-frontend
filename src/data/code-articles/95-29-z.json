@@ -1,0 +1,36 @@
+{
+  "code": "95.29.Z",
+  "name": "Naprawa i konserwacja artykułów użytku osobistego i domowego, gdzie indziej niesklasyfikowana",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.29.Z obejmuje pozostałe naprawy artykułów osobistego i domowego użytku, których nie można sklasyfikować w klasach 95.21–95.25 — np. naprawę rowerów, instrumentów muzycznych, sprzętu sportowego, parasoli, krawiectwo naprawcze. To kategoria 'parasol' dla różnorodnych usług naprawczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Serwis rowerowy",
+      "use": "Naprawia rowery, wymienia opony, regulacje przerzutek i przeglądy techniczne."
+    },
+    {
+      "persona": "Krawiec / pracownia naprawy odzieży",
+      "use": "Skraca, poszerza i ceruje odzież oraz wymienia zamki błyskawiczne."
+    },
+    {
+      "persona": "Lutnik / serwis instrumentów",
+      "use": "Naprawia i konserwuje instrumenty strunowe, dęte i klawiszowe."
+    },
+    {
+      "persona": "Serwis sprzętu sportowego",
+      "use": "Serwisuje narty, snowboardy, kije golfowe i sprzęt wędkarski."
+    }
+  ],
+  "businessExamples": [
+    "Serwis rowerowy z punktami w mieście",
+    "Pracownia krawiecka z naprawami i przeróbkami odzieży",
+    "Serwis nart i snowboardów w sezonie zimowym"
+  ],
+  "commonMistakes": [
+    "Wybór 95.29.Z dla naprawy AGD lub elektroniki — wówczas właściwe są 95.21.Z lub 95.22.Z.",
+    "Pomylenie z 14.13.Z (produkcja pozostałej odzieży wierzchniej) — szycie nowej odzieży to inna kategoria niż przeróbki i naprawy."
+  ],
+  "taxNotes": "Drobne usługi naprawcze często prowadzone są na ryczałcie lub karcie podatkowej (sprawdź dostępność dla konkretnego rodzaju działalności). Stawki sprawdź u doradcy podatkowego."
+}

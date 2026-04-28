@@ -1,0 +1,36 @@
+{
+  "code": "71.20.A",
+  "name": "Badania i analizy związane z jakością żywności",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 71.20.A obejmuje badania laboratoryjne, analizy fizykochemiczne, mikrobiologiczne i sensoryczne żywności, pasz oraz wody pitnej. To kod dla laboratoriów akredytowanych, jednostek certyfikujących i firm wykonujących kontrolę jakości produktów spożywczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Laboratorium badań żywności",
+      "use": "Wykonuje analizy mikrobiologiczne, chemiczne i alergenowe na zlecenie producentów spożywczych."
+    },
+    {
+      "persona": "Akredytowana jednostka kontroli jakości",
+      "use": "Bada zgodność produktów z normami HACCP, BRC, IFS — wydaje raporty na potrzeby certyfikacji."
+    },
+    {
+      "persona": "Specjalista analityki sensorycznej",
+      "use": "Prowadzi panele degustacyjne, oceny organoleptyczne i benchmark produktów spożywczych."
+    },
+    {
+      "persona": "Laboratorium pasz i wody",
+      "use": "Bada jakość pasz dla zwierząt, wody pitnej i wody do produkcji żywności."
+    }
+  ],
+  "businessExamples": [
+    "Akredytowane laboratorium badań mikrobiologicznych żywności",
+    "Firma analiz alergenów dla branży spożywczej",
+    "Laboratorium kontroli jakości wody pitnej"
+  ],
+  "commonMistakes": [
+    "Wybór 71.20.A zamiast 71.20.C — gdy laboratorium bada szeroki zakres próbek (chemia, materiały, środowisko), właściwszy może być 71.20.C.",
+    "Pomylenie z 72.11.Z (badania naukowe biotechnologii) — gdy działalność to prace badawczo-rozwojowe (nie rutynowe testy), właściwszy jest dział 72."
+  ],
+  "taxNotes": "Akredytacja PCA i wpisy do rejestrów (np. GIS, GIW) są często wymagane do legalnego działania. Usługi badawczo-laboratoryjne podlegają standardowej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

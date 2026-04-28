@@ -1,0 +1,36 @@
+{
+  "code": "01.27.Z",
+  "name": "Uprawa roślin wykorzystywanych do produkcji napojów",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.27.Z obejmuje uprawę kawy, herbaty, kakao, mate i innych roślin dostarczających surowca dla przemysłu napojów (z wyłączeniem winorośli). W Polsce wykorzystywany rzadko — głównie przy działalności demonstracyjnej, badawczej oraz przy rozliczaniu plantacji zagranicznych prowadzonych przez polskie podmioty.",
+  "whoUsesIt": [
+    {
+      "persona": "Importer-plantator kawy",
+      "use": "Posiada plantacje w Ameryce Południowej lub Afryce i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Niszowy producent yerba mate",
+      "use": "Uprawia mate w warunkach kontrolowanych lub współpracuje z plantatorami zagranicznymi."
+    },
+    {
+      "persona": "Stacja badawcza",
+      "use": "Bada możliwości uprawy herbaty lub kawy pod osłonami w polskich szklarniach."
+    },
+    {
+      "persona": "Demonstracyjny ogród botaniczny",
+      "use": "Pokazuje uprawy roślin używanych do produkcji napojów w celach edukacyjnych."
+    }
+  ],
+  "businessExamples": [
+    "Polski właściciel plantacji kawy",
+    "Demonstracyjna uprawa herbaty",
+    "Niszowy producent yerba mate"
+  ],
+  "commonMistakes": [
+    "Wybór 01.27.Z zamiast 10.83.Z (przetwarzanie kawy i herbaty), gdy główna działalność to palenie kawy lub mieszanie herbat.",
+    "Pomylenie z 01.21.Z (uprawa winogron) — winorośl jako roślina napojowa ma własny, osobny kod."
+  ],
+  "taxNotes": "Klasyczna uprawa rolna jest objęta podatkiem rolnym, jednak plantacje zagraniczne wymagają osobnej analizy podatkowej (umowy o unikaniu podwójnego opodatkowania). Przetwórstwo i palarnia kawy podlegają osobnym regulacjom VAT. Stawki sprawdź u doradcy podatkowego."
+}

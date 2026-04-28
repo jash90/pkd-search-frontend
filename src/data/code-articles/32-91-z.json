@@ -1,0 +1,36 @@
+{
+  "code": "32.91.Z",
+  "name": "Produkcja mioteł, szczotek i pędzli",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.91.Z obejmuje produkcję mioteł, szczotek (do mycia, czyszczenia, technicznych), pędzli (malarskich, artystycznych, kosmetycznych), wycieraczek samochodowych i przyborów do sprzątania. Pasuje dla rzemieślników i przemysłowych producentów akcesoriów do czyszczenia.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent mioteł i szczotek do sprzątania",
+      "use": "Wytwarza miotły, szczotki ręczne i przybory dla gospodarstw domowych i sektora hotelowego."
+    },
+    {
+      "persona": "Fabryka pędzli malarskich",
+      "use": "Produkuje pędzle dla malarzy, branży budowlanej i artystów plastyków."
+    },
+    {
+      "persona": "Wytwórca pędzli kosmetycznych",
+      "use": "Robi pędzle do makijażu z naturalnym i syntetycznym włosiem dla branży beauty."
+    },
+    {
+      "persona": "Producent szczotek technicznych",
+      "use": "Buduje szczotki przemysłowe — walcowe, tarczowe, do polerowania i do maszyn czyszczących."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka mioteł i szczotek dla sieci handlowych",
+    "Producent pędzli kosmetycznych dla marek beauty",
+    "Zakład szczotek technicznych dla maszyn czyszczących"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.99.Z (pozostałe wyroby) — pędzle i szczotki klasyfikuje się szczegółowo pod 32.91.Z, nawet jeśli są niszowe.",
+    "Wybór 22.29.Z (wyroby z tworzyw sztucznych) zamiast 32.91.Z — gotowe szczotki plastikowe idą pod 32.91.Z."
+  ],
+  "taxNotes": "Producenci szczotek i pędzli to często rodzinne firmy z długoletnią tradycją, działające w formie mikro lub małej działalności. Wybór formy opodatkowania zależy od skali, modelu sprzedaży i poziomu eksportu. Stawki sprawdź u doradcy podatkowego."
+}

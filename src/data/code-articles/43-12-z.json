@@ -1,0 +1,36 @@
+{
+  "code": "43.12.Z",
+  "name": "Przygotowanie terenu pod budowę",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 43.12.Z obejmuje przygotowanie placu budowy — niwelację terenu, wykopy szerokoprzestrzenne, odwodnienie, karczowanie, drenaż, wymianę gruntu, ukształtowanie terenu pod fundamenty. To prace poprzedzające właściwą budowę, realizowane przez firmy ziemne i sprzętowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma robót ziemnych",
+      "use": "Wykonuje wykopy, niwelacje i przygotowanie placu pod inwestycje."
+    },
+    {
+      "persona": "Wykonawca odwodnień terenu",
+      "use": "Drenuje teren przed budową w celu obniżenia poziomu wód gruntowych."
+    },
+    {
+      "persona": "Firma rekultywacji terenów",
+      "use": "Przygotowuje tereny pod nowe inwestycje (rekultywacja gruzowisk, hałd)."
+    },
+    {
+      "persona": "Wykonawca robót geotechnicznych",
+      "use": "Wzmacnia podłoże gruntowe metodami iniekcji i wymiany."
+    }
+  ],
+  "businessExamples": [
+    "Przygotowanie placu pod halę logistyczną",
+    "Niwelacja terenu pod osiedle mieszkaniowe",
+    "Wymiana gruntu pod fundamenty zakładu"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 43.13.Z (wykopy i wiercenia geologiczno-inżynierskie) — wiercenia badawcze i odkrywki to 43.13.Z, ogólne wykopy to 43.12.Z.",
+    "Wybór 43.12.Z zamiast 43.11.Z, gdy w pracach dominuje rozbiórka istniejących obiektów."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT przy podwykonawstwie. Stawki sprawdź u doradcy podatkowego."
+}

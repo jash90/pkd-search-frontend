@@ -1,0 +1,36 @@
+{
+  "code": "81.10.Z",
+  "name": "Działalność pomocnicza związana z utrzymaniem porządku w budynkach",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.10.Z to facility management (FM) — kompleksowa obsługa budynków obejmująca sprzątanie, ochronę, drobne naprawy, dozór techniczny, recepcję. Pasuje dla firm FM obsługujących biurowce, galerie i kompleksy mieszkaniowe. Samo sprzątanie bez innych usług ma osobny kod 81.21.Z lub 81.22.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma facility management",
+      "use": "Obsługuje kompleksowo biurowce — sprzątanie, ochrona, recepcja, drobne naprawy."
+    },
+    {
+      "persona": "Operator centrów handlowych",
+      "use": "Zapewnia bieżące utrzymanie galerii — czystość, bezpieczeństwo, serwis techniczny."
+    },
+    {
+      "persona": "Administrator parku biurowego",
+      "use": "Koordynuje dostawców usług sprzątających, ochrony i serwisów technicznych."
+    },
+    {
+      "persona": "Zarządca kompleksu mieszkaniowego (FM)",
+      "use": "Świadczy usługi FM dla deweloperów i wspólnot — utrzymanie części wspólnych i terenu."
+    }
+  ],
+  "businessExamples": [
+    "Firma FM obsługująca biurowce klasy A",
+    "Operator usług kompleksowych w galerii handlowej",
+    "Zarządca techniczno-eksploatacyjny parku biurowego"
+  ],
+  "commonMistakes": [
+    "Wybór 81.10.Z, gdy świadczone jest tylko sprzątanie budynków — to jest 81.22.Z (specjalistyczne sprzątanie) lub 81.21.Z (niespecjalistyczne sprzątanie).",
+    "Pomylenie z 68.32.Z (zarządzanie nieruchomościami na zlecenie) — administracja prawna i finansowa to inny kod niż fizyczna obsługa obiektu."
+  ],
+  "taxNotes": "Usługi FM podlegają VAT i mogą być rozliczane w mechanizmie odwrotnego obciążenia w niektórych przypadkach budowlanych. Forma opodatkowania zależy od skali działalności i kosztów (zatrudnienie, sprzęt, materiały). Stawki sprawdź u doradcy podatkowego."
+}

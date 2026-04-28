@@ -1,0 +1,36 @@
+{
+  "code": "85.32.B",
+  "name": "Branżowe szkoły I stopnia",
+  "section": "Q",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 85.32.B obejmuje branżowe szkoły I stopnia — 3-letnie szkoły zawodowe dla absolwentów szkoły podstawowej, kończące się egzaminem zawodowym i kwalifikacjami w zawodzie. Po szkole I stopnia można kontynuować w branżowej szkole II stopnia (85.32.C). Technika to 85.32.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Powiat prowadzący szkołę branżową I stopnia",
+      "use": "Organ prowadzący publiczną szkołę zawodową dla młodzieży kształcącej się w zawodach robotniczych i rzemieślniczych."
+    },
+    {
+      "persona": "Cech rzemiosł / izba rzemieślnicza",
+      "use": "Prowadzi szkołę przygotowującą do zawodów rzemieślniczych — fryzjer, mechanik, stolarz, piekarz."
+    },
+    {
+      "persona": "Niepubliczna szkoła branżowa",
+      "use": "Stowarzyszenie lub fundacja prowadząca szkołę zawodową z patronatem firm danej branży."
+    },
+    {
+      "persona": "Zespół szkół zawodowych",
+      "use": "Instytucja oświatowa łącząca szkołę branżową z technikum i internatami dla uczniów spoza miasta."
+    }
+  ],
+  "businessExamples": [
+    "Publiczna szkoła branżowa I stopnia w zawodzie mechanik samochodowy",
+    "Szkoła branżowa cechu rzemiosł kształcąca fryzjerów i kucharzy",
+    "Niepubliczna szkoła branżowa z patronatem koncernu motoryzacyjnego"
+  ],
+  "commonMistakes": [
+    "Wybór 85.32.B dla branżowej szkoły II stopnia — to 85.32.C, kontynuacja kształcenia po I stopniu.",
+    "Pomylenie z 85.32.A (technika) — technika to 5-letnie szkoły z maturą, branżowe I stopnia to 3-letnie z egzaminem zawodowym."
+  ],
+  "taxNotes": "Wymagany wpis do ewidencji szkół niepublicznych prowadzonej przez gminę. Możliwa dotacja z budżetu samorządu po uzyskaniu uprawnień szkoły publicznej. Usługi oświatowe często zwolnione z VAT. Stawki sprawdź u doradcy podatkowego."
+}

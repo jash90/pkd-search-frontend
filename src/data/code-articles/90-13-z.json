@@ -1,0 +1,36 @@
+{
+  "code": "90.13.Z",
+  "name": "Pozostała działalność twórcza",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 90.13.Z obejmuje pozostałe formy działalności twórczej, które nie mieszczą się w klasach 90.11 (literatura, muzyka) ani 90.12 (sztuki wizualne) — np. choreografia, performance, sztuka ulicy, instalacje multimedialne, twórczość interdyscyplinarna. To kategoria 'parasol' dla niszowych dziedzin twórczych.",
+  "whoUsesIt": [
+    {
+      "persona": "Choreograf",
+      "use": "Tworzy układy taneczne dla teatrów, zespołów i produkcji telewizyjnych."
+    },
+    {
+      "persona": "Performer / artysta sztuki ulicznej",
+      "use": "Realizuje występy uliczne, performansy i interwencje artystyczne w przestrzeni publicznej."
+    },
+    {
+      "persona": "Twórca instalacji multimedialnych",
+      "use": "Projektuje instalacje łączące dźwięk, obraz i interakcję dla wystaw i festiwali."
+    },
+    {
+      "persona": "Artysta interdyscyplinarny",
+      "use": "Łączy różne dziedziny sztuki (taniec, dźwięk, video) w autorskich projektach."
+    }
+  ],
+  "businessExamples": [
+    "Studio choreograficzne dla produkcji teatralnych",
+    "Artystka performansu prezentująca prace na biennale",
+    "Pracownia instalacji multimedialnych dla muzeów"
+  ],
+  "commonMistakes": [
+    "Wybór 90.13.Z, gdy faktycznie głównym profilem jest taniec lub teatr na scenie — wówczas właściwsze są 90.20.B (teatr) lub 85.52.Z (pozaszkolne formy edukacji artystycznej, gdy dominuje nauczanie).",
+    "Pomylenie z 74.10.Z (działalność w zakresie specjalistycznego projektowania) — projektowanie scenografii i wnętrz to inna kategoria niż twórczość artystyczna."
+  ],
+  "taxNotes": "Twórcy mogą korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich w ramach limitu rocznego. Wydarzenia kulturalne i bilety na nie mogą podlegać preferencyjnej stawce VAT. Stawki sprawdź u doradcy podatkowego."
+}

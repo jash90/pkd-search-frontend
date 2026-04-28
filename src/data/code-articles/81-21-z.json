@@ -1,0 +1,36 @@
+{
+  "code": "81.21.Z",
+  "name": "Niespecjalistyczne sprzątanie budynków",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.21.Z obejmuje rutynowe sprzątanie wnętrz — biur, mieszkań, korytarzy, klatek schodowych, hoteli, sklepów. To codzienne mycie podłóg, odkurzanie, ścieranie kurzu, mycie okien wewnątrz. Specjalistyczne czyszczenie (np. dezynfekcja, czyszczenie pralni przemysłowych, fasad na wysokości) ma osobne kody w grupie 81.22.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel firmy sprzątającej biura",
+      "use": "Zatrudnia ekipę sprzątającą pracującą wieczorami w biurowcach klientów na podstawie umów cyklicznych."
+    },
+    {
+      "persona": "Solo-cleaner mieszkań",
+      "use": "Sprząta mieszkania prywatne — regularne wizyty u stałych klientów, sprzątanie po remontach, sprzątanie końcowe Airbnb."
+    },
+    {
+      "persona": "Agencja serwisu hotelowego",
+      "use": "Świadczy usługi sprzątania pokoi i części wspólnych dla hoteli i pensjonatów (housekeeping)."
+    },
+    {
+      "persona": "Firma zarządzania nieruchomościami",
+      "use": "Sprząta klatki schodowe, korytarze, pomieszczenia wspólne wspólnot mieszkaniowych."
+    }
+  ],
+  "businessExamples": [
+    "Firma sprzątająca biura w godzinach wieczornych",
+    "Agencja sprzątająca mieszkania prywatne i Airbnb",
+    "Serwis sprzątający klatki schodowe wspólnot mieszkaniowych"
+  ],
+  "commonMistakes": [
+    "Wybór 81.21.Z dla specjalistycznego czyszczenia (np. mycie elewacji na wysokości, czyszczenie po pożarze) — to 81.22.A lub 81.22.B.",
+    "Pomylenie z 97.00.Z (gospodarstwa domowe zatrudniające pracowników) — jeśli jesteś sprzątaczką zatrudnianą bezpośrednio przez gospodarstwo domowe, to inny kod."
+  ],
+  "taxNotes": "Sprzątanie dobrze pasuje do ryczałtu przy niskich kosztach. Przy zatrudnianiu pracowników zwykle korzystniejsza skala lub liniowy. VAT można wybrać dobrowolnie poniżej limitu. Stawki sprawdź u doradcy podatkowego."
+}

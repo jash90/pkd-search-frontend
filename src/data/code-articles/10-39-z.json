@@ -1,0 +1,36 @@
+{
+  "code": "10.39.Z",
+  "name": "Pozostałe przetwarzanie i konserwowanie owoców i warzyw",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.39.Z to szeroki kosz na przetwórstwo owoców i warzyw, które nie jest produkcją soków (10.32.Z) ani przetwórstwem ziemniaków (10.31.Z) — obejmuje mrożonki, dżemy, marmolady, kompoty, ogórki kiszone, kapustę kiszoną, susze, koncentraty pomidorowe i warzywa konserwowane. Kluczowy dla polskiej branży mrożonek i przetworów.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent mrożonek",
+      "use": "Mrozi truskawki, maliny, fasolkę i mieszanki warzywne dla sieci retail i HoReCa."
+    },
+    {
+      "persona": "Wytwórnia dżemów i przetworów",
+      "use": "Produkuje dżemy, marmolady i konfitury w słoikach pod marką własną lub markami sieci."
+    },
+    {
+      "persona": "Kiszarnia ogórków i kapusty",
+      "use": "Wytwarza tradycyjne kiszonki na rynek krajowy i eksportowy."
+    },
+    {
+      "persona": "Producent koncentratu pomidorowego",
+      "use": "Wytwarza zagęszczone przeciery i sosy pomidorowe dla branży spożywczej."
+    }
+  ],
+  "businessExamples": [
+    "Producent mrożonych truskawek",
+    "Manufaktura dżemów rzemieślniczych",
+    "Kiszarnia ogórków na eksport"
+  ],
+  "commonMistakes": [
+    "Wybór 10.39.Z zamiast 10.32.Z, gdy główną działalnością jest produkcja soków lub smoothie — soki mają własny kod.",
+    "Pomylenie z 10.85.Z (gotowe posiłki i dania), gdy produkujesz kompletne dania (zupy, gołąbki) z dodatkiem mięsa lub innych składników."
+  ],
+  "taxNotes": "Przetwórstwo wymaga zatwierdzenia sanepidu, HACCP i zgodności z normami znakowania. Działalność CIT/PIT z VAT-em na zasadach ogólnych; sprawdź też ulgę B+R dla nowych receptur, stawkę VAT dla żywności i mechanizm split payment. Stawki sprawdź u doradcy podatkowego."
+}

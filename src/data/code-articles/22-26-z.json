@@ -1,0 +1,36 @@
+{
+  "code": "22.26.Z",
+  "name": "Produkcja pozostałych wyrobów z tworzyw sztucznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 22.26.Z to kod 'parasol' dla wyrobów z tworzyw nieujętych w innych klasach — m.in. zastawy stołowej, art. biurowych, zabawek (bez elektroniki), elementów odzieży, kasków, walizek, dekoracji oraz wyrobów technicznych jak łożyska ślizgowe i koła zębate z POM.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent zastawy z tworzyw",
+      "use": "Wytwarza talerze, kubki i sztućce z melaminy lub polipropylenu dla HoReCa i pikniku."
+    },
+    {
+      "persona": "Wytwórca walizek i kuferków",
+      "use": "Produkuje walizki ABS i polipropylenowe dla branży turystycznej."
+    },
+    {
+      "persona": "Producent kasków ochronnych",
+      "use": "Wytwarza kaski budowlane, motocyklowe i sportowe z tworzyw."
+    },
+    {
+      "persona": "Zakład części technicznych z tworzyw",
+      "use": "Produkuje koła zębate, łożyska ślizgowe i elementy techniczne z POM, PA i PEEK."
+    }
+  ],
+  "businessExamples": [
+    "Producent walizek podróżnych ABS",
+    "Wytwórnia zastawy z melaminy",
+    "Zakład części technicznych POM"
+  ],
+  "commonMistakes": [
+    "Wybór 22.26.Z dla zabawek z elektroniką — zabawki elektroniczne to 32.40.Z.",
+    "Pomylenie z 22.22.Z (opakowania) — pojemniki i butelki opakowaniowe mają osobny kod."
+  ],
+  "taxNotes": "Wyroby kontaktujące się z żywnością wymagają zgodności z rozporządzeniem MOCA 1935/2004. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "46.46.Z",
+  "name": "Sprzedaż hurtowa wyrobów farmaceutycznych i medycznych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.46.Z obejmuje sprzedaż hurtową leków, produktów leczniczych, sprzętu medycznego, wyrobów medycznych i materiałów opatrunkowych — do aptek, szpitali, hurtowni farmaceutycznych i podmiotów leczniczych. Wymaga zezwolenia GIF na obrót hurtowy produktami leczniczymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia farmaceutyczna",
+      "use": "Dostarcza leki i produkty lecznicze do aptek z zezwoleniem GIF."
+    },
+    {
+      "persona": "Dystrybutor sprzętu medycznego",
+      "use": "Sprzedaje hurtowo aparaturę medyczną i sprzęt diagnostyczny do szpitali i klinik."
+    },
+    {
+      "persona": "Importer wyrobów medycznych",
+      "use": "Sprowadza materiały opatrunkowe i sprzęt jednorazowy dla podmiotów leczniczych."
+    },
+    {
+      "persona": "Dostawca dla podmiotów leczniczych",
+      "use": "Zaopatruje gabinety, kliniki i szpitale w wyposażenie medyczne."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia farmaceutyczna z zezwoleniem GIF",
+    "Dystrybutor sprzętu medycznego dla szpitali",
+    "Importer wyrobów medycznych dla klinik prywatnych"
+  ],
+  "commonMistakes": [
+    "Wybór 46.46.Z bez zezwolenia GIF na obrót lekami — to wymóg ustawowy.",
+    "Pomylenie z 47.73.Z (sprzedaż detaliczna w aptece) — 46.46.Z dotyczy wyłącznie hurtu."
+  ],
+  "taxNotes": "Obrót hurtowy lekami wymaga zezwolenia GIF i spełnienia rygorów GDP. Leki refundowane mają regulowane ceny. VAT na leki jest obniżony, ale zróżnicowany. Stawki sprawdź u doradcy podatkowego."
+}

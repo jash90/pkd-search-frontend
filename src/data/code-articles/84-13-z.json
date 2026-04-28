@@ -1,0 +1,36 @@
+{
+  "code": "84.13.Z",
+  "name": "Kierowanie w zakresie efektywności gospodarowania",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.13.Z dotyczy administracji publicznej w zakresie polityki gospodarczej — regulacji rynków, polityki rolnej, transportowej, energetycznej, polityki pracy i wsparcia dla biznesu. Używają go ministerstwa branżowe, urzędy regulacji (UOKiK, URE), agencje rynku rolnego. Przedsiębiorcy doradczy używają 70.22.Z lub innych kodów branżowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Urząd regulacyjny (np. URE, UKE)",
+      "use": "Reguluje rynki energii, telekomunikacji, transportu — wydaje koncesje, taryfy, decyzje administracyjne."
+    },
+    {
+      "persona": "Ministerstwo gospodarki / rolnictwa",
+      "use": "Tworzy politykę gospodarczą, programy wsparcia, dotacje sektorowe i przepisy regulacyjne."
+    },
+    {
+      "persona": "Urząd ochrony konkurencji (UOKiK)",
+      "use": "Kontroluje rynek pod kątem konkurencji, ochrony konsumentów, nakłada kary administracyjne."
+    },
+    {
+      "persona": "Agencja rynku rolnego / ARiMR",
+      "use": "Wypłaca dopłaty unijne dla rolników, prowadzi rejestry producentów, kontroluje wykorzystanie funduszy."
+    }
+  ],
+  "businessExamples": [
+    "Urząd Regulacji Energetyki nadzorujący rynek energii",
+    "ARiMR obsługująca dopłaty bezpośrednie dla rolników",
+    "Ministerstwo Rozwoju realizujące programy wsparcia MŚP"
+  ],
+  "commonMistakes": [
+    "Wybór 84.13.Z przez prywatnych doradców gospodarczych — doradztwo dla przedsiębiorstw to 70.22.Z, nie kod administracji publicznej.",
+    "Pomylenie z 84.12.Z (kierowanie usługami społecznymi) — 84.13.Z dotyczy spraw gospodarczych, 84.12.Z spraw zdrowia, edukacji i kultury."
+  ],
+  "taxNotes": "Organy administracji państwowej działają w ramach ustaw budżetowych i przepisów o finansach publicznych. Nie dotyczą ich klasyczne formy opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

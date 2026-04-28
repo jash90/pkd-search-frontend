@@ -1,0 +1,36 @@
+{
+  "code": "59.20.Z",
+  "name": "Działalność w zakresie nagrań dźwiękowych i muzycznych",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 59.20.Z obejmuje produkcję nagrań muzycznych i dźwiękowych w studiach nagraniowych, post-produkcję audio, mastering, wydawanie muzyki na nośnikach i w streamingu, a także działalność labeli muzycznych. To kod dla studiów, producentów muzycznych i wytwórni płytowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Studio nagraniowe",
+      "use": "Realizuje nagrania zespołów, podcasty i lektorów reklamowych — wynajem studia + produkcja."
+    },
+    {
+      "persona": "Producent muzyczny",
+      "use": "Tworzy i miksuje utwory dla artystów oraz produkcje na licencjach — własne royalties z platform streamingowych."
+    },
+    {
+      "persona": "Mała wytwórnia płytowa (label)",
+      "use": "Podpisuje umowy z artystami, wydaje albumy, dystrybuuje muzykę cyfrowo i na winylach."
+    },
+    {
+      "persona": "Specjalista mastering audio",
+      "use": "Świadczy usługi masteringu i restauracji nagrań dla labeli i niezależnych artystów."
+    }
+  ],
+  "businessExamples": [
+    "Studio nagraniowe dla muzyków rockowych",
+    "Niezależna wytwórnia muzyki elektronicznej",
+    "Specjalista masteringu i postprodukcji audio"
+  ],
+  "commonMistakes": [
+    "Wybór 59.20.Z zamiast 60.10.Z (nadawanie programów radiofonicznych) — własna stacja radiowa z nadawaniem na żywo to inny kod, mimo że może produkować nagrania.",
+    "Pomylenie z 90.03.Z (artystyczna działalność twórcza) — sam artysta wykonawca (kompozytor, wokalista) bez infrastruktury studyjnej często używa kodu z działu 90."
+  ],
+  "taxNotes": "Działalność muzyczna często kwalifikuje się jako twórcza i może korzystać z podwyższonych kosztów uzyskania przychodu z tytułu praw autorskich oraz preferencyjnej stawki VAT na licencje. Wybór formy zależy od modelu rozliczeń. Stawki sprawdź u doradcy podatkowego."
+}

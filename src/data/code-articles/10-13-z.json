@@ -1,0 +1,36 @@
+{
+  "code": "10.13.Z",
+  "name": "Produkcja wyrobów z mięsa, włączając wyroby z mięsa drobiowego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.13.Z obejmuje produkcję wędlin, kiełbas, szynek, parówek, pasztetów, konserw mięsnych oraz wyrobów wędzonych — zarówno z mięsa wieprzowego, wołowego, jak i drobiowego. To podstawowy kod dla wytwórni wędlin, masarni rzemieślniczych i producentów konserw.",
+  "whoUsesIt": [
+    {
+      "persona": "Wytwórnia wędlin",
+      "use": "Produkuje kiełbasy, szynki i parówki dla sieci handlowych i sklepów lokalnych."
+    },
+    {
+      "persona": "Masarnia rzemieślnicza",
+      "use": "Wytwarza wędliny wędzone dymem z drewna z odbiorem do delikatesów premium."
+    },
+    {
+      "persona": "Producent konserw mięsnych",
+      "use": "Produkuje konserwy w słoikach lub puszkach z wieprzowiny, drobiu i dziczyzny."
+    },
+    {
+      "persona": "Manufaktura wędliniarska BIO",
+      "use": "Łączy własną hodowlę i wędliniarstwo z certyfikatem ekologicznym."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura wędlin tradycyjnych",
+    "Producent konserw mięsnych",
+    "Masarnia rzemieślnicza w sieci RHD"
+  ],
+  "commonMistakes": [
+    "Wybór 10.13.Z zamiast 10.11.Z, gdy działalność polega głównie na uboju i rozbiorze tusz — wyroby z mięsa to dalsze przetwórstwo.",
+    "Pomylenie z 47.22.Z (sprzedaż detaliczna mięsa), gdy prowadzisz wyłącznie sklep mięsny bez własnej produkcji wędlin — to handel detaliczny."
+  ],
+  "taxNotes": "Produkcja wędlin wymaga zatwierdzenia IW, HACCP, oznakowania zgodnego z prawem żywnościowym. Działalność CIT/PIT z VAT-em na zasadach ogólnych; sprawdź mechanizm split payment dla mięsa i ulgę B+R przy własnych recepturach. Stawki sprawdź u doradcy podatkowego."
+}

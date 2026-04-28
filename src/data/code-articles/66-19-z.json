@@ -1,0 +1,36 @@
+{
+  "code": "66.19.Z",
+  "name": "Pozostała działalność wspomagająca usługi finansowe, z wyłączeniem ubezpieczeń i funduszy emerytalnych",
+  "section": "L",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 66.19.Z to kategoria zbiorcza dla działalności wspomagającej rynki finansowe — doradztwa inwestycyjnego, pośrednictwa kredytowego, hipotecznego, fintech, agregatorów ofert finansowych. Stosowany przez podmioty, które nie są maklerami (66.12.Z) ani bankami, ale obsługują procesy finansowe.",
+  "whoUsesIt": [
+    {
+      "persona": "Pośrednik kredytowy / hipoteczny",
+      "use": "Porównuje oferty banków i pomaga klientom uzyskać kredyt mieszkaniowy lub gotówkowy."
+    },
+    {
+      "persona": "Doradca inwestycyjny",
+      "use": "Świadczy usługi doradztwa finansowego klientom indywidualnym i firmowym."
+    },
+    {
+      "persona": "Startup fintech",
+      "use": "Buduje aplikację do zarządzania finansami osobistymi, agregatora rachunków lub porównywarki kredytów."
+    },
+    {
+      "persona": "Firma factoringowa lub windykacyjna",
+      "use": "Wspomaga obsługę należności i zarządzanie wierzytelnościami przedsiębiorstw."
+    }
+  ],
+  "businessExamples": [
+    "Multiagencja kredytów hipotecznych",
+    "Aplikacja PFM (personal finance management)",
+    "Doradca inwestycyjny dla high-net-worth"
+  ],
+  "commonMistakes": [
+    "Wybór 66.19.Z zamiast 66.12.Z — pośrednictwo w obrocie papierami wartościowymi wymaga licencji maklerskiej i kodu 66.12.Z.",
+    "Pomylenie z 66.22.Z (agenci ubezpieczeniowi) — pośrednictwo w sprzedaży polis ma osobny kod."
+  ],
+  "taxNotes": "Pośrednictwo kredytowe wymaga wpisu do rejestru KNF, a doradztwo inwestycyjne — odpowiedniej licencji. Wiele usług finansowych jest zwolnionych z VAT, ale część działalności (np. doradztwo gospodarcze) podlega VAT. Stawki sprawdź u doradcy podatkowego."
+}

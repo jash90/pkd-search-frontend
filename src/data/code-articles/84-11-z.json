@@ -1,0 +1,36 @@
+{
+  "code": "84.11.Z",
+  "name": "Kierowanie podstawowymi rodzajami działalności publicznej",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.11.Z dotyczy działalności organów administracji publicznej — urzędów wojewódzkich, gminnych, ministerstw, urzędów centralnych zarządzających państwem. To kod używany przez jednostki administracji publicznej, nie przez przedsiębiorców prywatnych. Konkretne usługi (zdrowie, edukacja) mają własne kody w sekcji P.",
+  "whoUsesIt": [
+    {
+      "persona": "Urząd gminy / miasta",
+      "use": "Prowadzi sprawy administracyjne mieszkańców, wydaje decyzje, zarządza majątkiem komunalnym."
+    },
+    {
+      "persona": "Urząd wojewódzki",
+      "use": "Realizuje zadania administracji rządowej w terenie — nadzór nad samorządem, sprawy obywatelskie."
+    },
+    {
+      "persona": "Ministerstwo lub urząd centralny",
+      "use": "Tworzy i wdraża politykę państwa w określonej dziedzinie, koordynuje pracę administracji rządowej."
+    },
+    {
+      "persona": "Starostwo powiatowe",
+      "use": "Prowadzi sprawy powiatowe — drogi, geodezję, edukację ponadpodstawową, ochronę środowiska."
+    }
+  ],
+  "businessExamples": [
+    "Urząd Miasta i Gminy zarządzający sprawami mieszkańców",
+    "Urząd Wojewódzki nadzorujący administrację samorządową",
+    "Ministerstwo prowadzące politykę sektorową państwa"
+  ],
+  "commonMistakes": [
+    "Wybór 84.11.Z przez prywatną firmę świadczącą usługi dla administracji — usługi outsourcingu dla urzędów mają inne kody (np. 70.22.Z doradztwo, 82.11.Z sekretariat).",
+    "Pomylenie z 84.13.Z (kierowanie w zakresie efektywności gospodarowania) — to wąsko sektorowe kierowanie polityką gospodarczą, nie ogólne sprawowanie administracji."
+  ],
+  "taxNotes": "Jednostki administracji publicznej działają na podstawie ustaw budżetowych i przepisów o finansach publicznych — nie podlegają standardowym formom opodatkowania działalności gospodarczej. Stawki sprawdź u doradcy podatkowego."
+}

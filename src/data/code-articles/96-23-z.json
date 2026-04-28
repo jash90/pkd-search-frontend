@@ -1,0 +1,36 @@
+{
+  "code": "96.23.Z",
+  "name": "Działalność spa, saun i łaźni parowych",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 96.23.Z obejmuje działalność spa, salonów odnowy biologicznej, saun i łaźni parowych — czyli obiektów świadczących usługi relaksacyjne, regenerujące i pielęgnacyjne związane z ciepłem, wodą i masażem. Pasuje dla samodzielnych spa oraz oddziałów wellness w hotelach.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator dnia spa",
+      "use": "Prowadzi salon z masażami, peelingami, zabiegami na ciało i twarz."
+    },
+    {
+      "persona": "Sauna / łaźnia miejska",
+      "use": "Udostępnia sauny suche, parowe i baseny relaksacyjne za biletami wstępu."
+    },
+    {
+      "persona": "Spa hotelowe",
+      "use": "Świadczy usługi wellness gościom hotelu i klientom zewnętrznym."
+    },
+    {
+      "persona": "Studio masażu i odnowy biologicznej",
+      "use": "Specjalizuje się w masażach klasycznych, leczniczych i orientalnych."
+    }
+  ],
+  "businessExamples": [
+    "Day spa z zabiegami na twarz, ciało i masażami",
+    "Sauna miejska z basenem schładzającym",
+    "Spa hotelowe ze strefą wellness i masażami"
+  ],
+  "commonMistakes": [
+    "Wybór 96.23.Z dla typowych usług kosmetycznych — manicure, makijaż i depilacja to 96.22.Z (pielęgnacja urody).",
+    "Pomylenie z 86.90.A (działalność fizjoterapeutyczna) — masaż leczniczy wykonywany przez fizjoterapeutę z zaleceń medycznych to inna kategoria."
+  ],
+  "taxNotes": "Wstęp do saun i spa może korzystać z preferencyjnej stawki VAT (rekreacja). Wysokie koszty mediów i wyposażenia wpływają na wybór formy opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

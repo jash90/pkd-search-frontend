@@ -1,0 +1,36 @@
+{
+  "code": "01.62.Z",
+  "name": "Działalność usługowa wspomagająca chów i hodowlę zwierząt gospodarskich",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.62.Z obejmuje usługi okołohodowlane — inseminację, korekcję racic, strzyżenie owiec, czyszczenie kurników, transport zwierząt na fermach, a także doradztwo zootechniczne. Sama opieka weterynaryjna ma osobny kod 75.00.Z (działalność weterynaryjna).",
+  "whoUsesIt": [
+    {
+      "persona": "Inseminator",
+      "use": "Świadczy usługi inseminacji bydła i trzody dla gospodarstw na terenie powiatu."
+    },
+    {
+      "persona": "Specjalista korekcji racic",
+      "use": "Wyjeżdża do gospodarstw mlecznych korygować racice krów i hodowlanych jałówek."
+    },
+    {
+      "persona": "Firma strzyżąca owce",
+      "use": "Sezonowo strzyże stada owcze i pomaga w zbiorach wełny dla gospodarstw owczarskich."
+    },
+    {
+      "persona": "Doradca zootechniczny",
+      "use": "Konsultuje żywienie, dobrostan i zarządzanie stadem dla ferm bydła i trzody."
+    }
+  ],
+  "businessExamples": [
+    "Mobilny zakład inseminacji bydła",
+    "Specjalista korekcji racic",
+    "Firma strzygąca owce sezonowo"
+  ],
+  "commonMistakes": [
+    "Wybór 01.62.Z zamiast 75.00.Z dla usług stricte weterynaryjnych (leczenie, szczepienia) — to działalność weterynaryjna z osobnymi wymaganiami.",
+    "Pomylenie z 01.61.Z, gdy świadczysz usługi dotyczące produkcji roślinnej (orka, opryski) — produkcja roślinna ma własny kod usługowy."
+  ],
+  "taxNotes": "Usługi okołohodowlane to działalność gospodarcza podlegająca PIT/CIT i VAT na zasadach ogólnych, z możliwością ryczałtu ewidencjonowanego. Niektóre usługi (inseminacja) wymagają uprawnień zawodowych. Stawki sprawdź u doradcy podatkowego."
+}

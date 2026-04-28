@@ -1,0 +1,36 @@
+{
+  "code": "26.60.Z",
+  "name": "Produkcja urządzeń napromieniowujących, sprzętu elektromedycznego i elektroterapeutycznego",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 26.60.Z obejmuje produkcję sprzętu medycznego wykorzystującego promieniowanie i prąd elektryczny — aparatów rentgenowskich, tomografów, akceleratorów liniowych, urządzeń do radioterapii, USG, EKG, EEG, laserów medycznych, defibrylatorów, sprzętu do elektroterapii oraz urządzeń do napromieniowywania żywności i materiałów. Nie obejmuje innych wyrobów medycznych (32.50.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Producent aparatów USG/EKG",
+      "use": "Wytwarza aparaty diagnostyczne dla szpitali, przychodni i gabinetów lekarskich."
+    },
+    {
+      "persona": "Wytwórnia sprzętu do radioterapii",
+      "use": "Produkuje akceleratory liniowe, kolimatory i systemy planowania leczenia onkologicznego."
+    },
+    {
+      "persona": "Producent laserów medycznych",
+      "use": "Wytwarza lasery dermatologiczne, okulistyczne i chirurgiczne z certyfikacją MDR."
+    },
+    {
+      "persona": "Wytwórnia urządzeń do elektroterapii i fizykoterapii",
+      "use": "Produkuje aparaty TENS, ultradźwiękowe, magnetoterapię i pola elektromagnetyczne dla rehabilitacji."
+    }
+  ],
+  "businessExamples": [
+    "Producent aparatów USG dla diagnostyki",
+    "Wytwórnia laserów dermatologicznych",
+    "Producent urządzeń do magnetoterapii"
+  ],
+  "commonMistakes": [
+    "Wybór 26.60.Z zamiast 32.50.Z — wyroby medyczne mechaniczne i niskotechnologiczne (skalpel, opatrunki, strzykawki) wpadają do produkcji urządzeń medycznych ogólnej.",
+    "Mylenie z 21.20.Z — same leki i wyroby farmaceutyczne to inna kategoria niż sprzęt elektromedyczny."
+  ],
+  "taxNotes": "Sprzęt elektromedyczny podlega regulacjom MDR, certyfikacji CE klasa wyższa, kontroli URPL i specjalnym stawkom VAT na wyroby medyczne. Innowacyjne firmy korzystają z ulgi B+R i IP Box. Stawki sprawdź u doradcy podatkowego."
+}

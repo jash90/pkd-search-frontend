@@ -1,0 +1,36 @@
+{
+  "code": "86.92.Z",
+  "name": "Transport pacjentów karetką",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.92.Z dotyczy transportu sanitarnego pacjentów — karetek transportowych, ambulansów, w tym karetek ratunkowych systemu PRM (Państwowe Ratownictwo Medyczne) oraz prywatnych firm transportowych medycznych. Lotnicze pogotowie medyczne to 51.21.Z, a praktyka lekarska wykonująca wizyty domowe to 86.21.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Stacja pogotowia ratunkowego",
+      "use": "Operuje karetkami systemu PRM - wyjazdy do nagłych zachorowań, wypadków na podstawie kontraktu z NFZ."
+    },
+    {
+      "persona": "Firma transportu sanitarnego",
+      "use": "Wykonuje przewozy zaplanowane - dializowanych, na rehabilitację, między placówkami szpitalnymi."
+    },
+    {
+      "persona": "Prywatna karetka medyczna",
+      "use": "Świadczy komercyjne przewozy pacjentów na życzenie - zabezpieczenie imprez, transport międzynarodowy."
+    },
+    {
+      "persona": "Karetka P (specjalistyczna)",
+      "use": "Wykonuje transport pacjentów ciężko chorych z lekarzem na pokładzie - transport międzyszpitalny noworodków, OIOM."
+    }
+  ],
+  "businessExamples": [
+    "Stacja pogotowia ratunkowego z systemem PRM",
+    "Firma transportu sanitarnego pacjentów dializowanych",
+    "Prywatna karetka zabezpieczająca imprezy masowe"
+  ],
+  "commonMistakes": [
+    "Wybór 86.92.Z dla zwykłego taxi medycznego (przewóz osoby bez sprzętu medycznego) — to 49.32.Z (taksówki) lub 49.39.Z (transport pasażerski).",
+    "Pomylenie z 51.21.Z (transport lotniczy) — śmigłowce HEMS i samoloty sanitarne mają inny kod, mimo medycznego charakteru."
+  ],
+  "taxNotes": "Działalność wymaga wpisu do rejestru podmiotów leczniczych i wyposażenia karetek zgodnie z rozporządzeniami. Usługi transportu sanitarnego są zwolnione z VAT (jako część świadczeń zdrowotnych). Skala/liniowy ze względu na wysokie koszty pojazdów i personelu medycznego. Stawki sprawdź u doradcy podatkowego."
+}

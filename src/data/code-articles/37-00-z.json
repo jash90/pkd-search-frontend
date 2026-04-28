@@ -1,0 +1,36 @@
+{
+  "code": "37.00.Z",
+  "name": "Odprowadzanie i oczyszczanie ścieków",
+  "section": "E",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 37.00.Z obejmuje eksploatację sieci kanalizacyjnej, odbiór ścieków bytowych i przemysłowych, ich oczyszczanie w oczyszczalniach mechaniczno-biologicznych oraz wywóz nieczystości płynnych z bezodpływowych zbiorników (szamb). To kod dla MPWiK, asenizatorów i operatorów oczyszczalni.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator oczyszczalni ścieków",
+      "use": "Eksploatuje miejską oczyszczalnię mechaniczno-biologiczną odbierającą ścieki z całej aglomeracji."
+    },
+    {
+      "persona": "Firma asenizacyjna",
+      "use": "Wywozi ścieki ze zbiorników bezodpływowych (szamb) i osadów z przydomowych oczyszczalni."
+    },
+    {
+      "persona": "Zakład komunalny",
+      "use": "Zarządza siecią kanalizacji sanitarnej i deszczowej w gminie."
+    },
+    {
+      "persona": "Operator oczyszczalni przemysłowej",
+      "use": "Obsługuje oczyszczalnię ścieków poprodukcyjnych dla zakładu spożywczego lub chemicznego."
+    }
+  ],
+  "businessExamples": [
+    "Miejska oczyszczalnia ścieków",
+    "Firma wywożąca szamba (asenizacyjna)",
+    "Operator oczyszczalni przemysłowej"
+  ],
+  "commonMistakes": [
+    "Wybór 37.00.Z zamiast 36.00.Z (pobór i dostarczanie wody) — woda i ścieki to dwa osobne kody, mimo że często prowadzi je jedna firma (MPWiK).",
+    "Pomylenie z 38.11.Z (zbieranie odpadów innych niż niebezpieczne) — wywóz odpadów stałych to inny kod niż transport ścieków."
+  ],
+  "taxNotes": "Działalność kanalizacyjna podlega regulacji Wód Polskich oraz wymogom środowiskowym (pozwolenia wodnoprawne). Usługi odbioru ścieków mogą korzystać z preferencyjnych zasad rozliczeń VAT zgodnie z ustawą. Stawki sprawdź u doradcy podatkowego."
+}

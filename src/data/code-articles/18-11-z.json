@@ -1,0 +1,36 @@
+{
+  "code": "18.11.Z",
+  "name": "Drukowanie gazet",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 18.11.Z obejmuje wyłącznie drukowanie gazet codziennych i czasopism wydawanych co najmniej cztery razy w tygodniu, na maszynach rotacyjnych offsetowych lub fleksograficznych. To bardzo wąski kod dla wyspecjalizowanych drukarń prasowych obsługujących wydawnictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Drukarnia prasowa rotacyjna",
+      "use": "Drukuje nakłady gazet codziennych dla wydawnictw regionalnych i ogólnopolskich."
+    },
+    {
+      "persona": "Zakład poligraficzny coldset",
+      "use": "Realizuje druk dzienników na maszynach gazetowych z technologią coldset offset."
+    },
+    {
+      "persona": "Drukarnia czasopism o wysokiej częstotliwości",
+      "use": "Drukuje tygodniki i magazyny ukazujące się 4+ razy w tygodniu."
+    },
+    {
+      "persona": "Wydawca z własną drukarnią",
+      "use": "Drukuje własny tytuł prasowy oraz świadczy usługi druku innym wydawcom."
+    }
+  ],
+  "businessExamples": [
+    "Drukarnia rotacyjna dziennika regionalnego",
+    "Zakład druku tygodników opinii",
+    "Drukarnia gazet bezpłatnych dystrybuowanych w miastach"
+  ],
+  "commonMistakes": [
+    "Wybór 18.11.Z dla drukarni katalogów lub książek — to kod 18.12.Z (pozostałe drukowanie).",
+    "Pomylenie z 58.13.Z (wydawanie gazet) — samo wydawanie i redakcja bez druku to działalność wydawnicza."
+  ],
+  "taxNotes": "Druk prasy podlega specyficznym regulacjom VAT, a niektóre tytuły mogą korzystać z obniżonych stawek. Wybór formy opodatkowania zależy od skali zakładu i modelu współpracy z wydawcami. Stawki sprawdź u doradcy podatkowego."
+}

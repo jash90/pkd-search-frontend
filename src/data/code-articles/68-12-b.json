@@ -1,0 +1,36 @@
+{
+  "code": "68.12.B",
+  "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych",
+  "section": "M",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 68.12.B obejmuje pełną realizację projektów deweloperskich w segmencie nieruchomości komercyjnych — biurowców, magazynów, centrów handlowych, hoteli czy budynków produkcyjnych. To kod dla deweloperów komercyjnych prowadzących inwestycje od gruntu do sprzedaży lub wynajmu długoterminowego.",
+  "whoUsesIt": [
+    {
+      "persona": "Deweloper biurowy",
+      "use": "Buduje biurowce klasy A/B na sprzedaż funduszom inwestycyjnym lub pod własny portfel wynajmu."
+    },
+    {
+      "persona": "Deweloper magazynowy / logistyczny",
+      "use": "Realizuje parki magazynowe i hale BTS (build-to-suit) dla branży e-commerce i logistyki."
+    },
+    {
+      "persona": "Deweloper hotelowy",
+      "use": "Buduje hotele i obiekty hospitality, sprzedaje pod marki sieciowe lub prowadzi samodzielnie."
+    },
+    {
+      "persona": "Deweloper handlowy",
+      "use": "Realizuje retail parki, centra handlowe, lokale usługowe na wynajem najemcom."
+    }
+  ],
+  "businessExamples": [
+    "Deweloper budujący park magazynowy w korytarzu transportowym",
+    "Firma stawiająca biurowce w dużych miastach",
+    "Inwestor budujący hotel sieciowy pod konkretną markę"
+  ],
+  "commonMistakes": [
+    "Wybór 68.12.B zamiast 68.12.A — projekty mieszkalne mają osobny kod (68.12.A), nawet jeśli realizuje je ten sam deweloper.",
+    "Pomylenie z 41.20.Z (roboty budowlane budynków niemieszkalnych) — gdy firma jest wykonawcą, a nie deweloperem-inwestorem, właściwszy jest kod z działu 41."
+  ],
+  "taxNotes": "Sprzedaż budynków komercyjnych co do zasady podlega standardowej stawce VAT, choć wynajem może mieć stawki preferencyjne lub zwolnienie zależnie od przeznaczenia. Branża korzysta z mechanizmu split payment przy podwykonawstwie. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "49.32.Z",
+  "name": "Transport drogowy pasażerski inny niż rozkładowy",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 49.32.Z dotyczy pasażerskiego transportu drogowego innego niż rozkładowy — wynajmu autokarów z kierowcą, przewozów wycieczkowych, transferów na lotniska, przewozów pracowniczych, busów na zlecenie, limuzyn i przewozów okazjonalnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel firmy autokarowej",
+      "use": "Wynajmuje autokary z kierowcą na wycieczki, wesela, wyjazdy zorganizowane."
+    },
+    {
+      "persona": "Operator transferów lotniskowych",
+      "use": "Realizuje przewozy hotel-lotnisko busami i samochodami osobowymi."
+    },
+    {
+      "persona": "Przewoźnik pracowniczy",
+      "use": "Wozi pracowników do firm produkcyjnych z miejscowości okolicznych."
+    },
+    {
+      "persona": "Firma limuzyn",
+      "use": "Świadczy usługi VIP — przewozy biznesowe, śluby, eventy z luksusowymi autami."
+    }
+  ],
+  "businessExamples": [
+    "Firma autokarowa na wycieczki szkolne i pielgrzymki",
+    "Transfery lotniskowe i busowe",
+    "Limuzyny VIP na śluby i eventy"
+  ],
+  "commonMistakes": [
+    "Wybór 49.32.Z zamiast 49.31.Z — regularne linie miejskie według rozkładu to 49.31.Z.",
+    "Pomylenie z 49.33.Z — przewozy taksówkowe i na żądanie (Uber, Bolt) klasyfikują się jako 49.33.Z."
+  ],
+  "taxNotes": "Wymagana licencja na przewóz osób (krajowy/międzynarodowy), certyfikaty kierowców i tachografy. Stawki sprawdź u doradcy podatkowego."
+}

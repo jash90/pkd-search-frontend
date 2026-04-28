@@ -1,0 +1,36 @@
+{
+  "code": "08.91.Z",
+  "name": "Wydobywanie minerałów dla przemysłu chemicznego oraz do produkcji nawozów",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.91.Z obejmuje wydobywanie soli potasowych, fosforytów, siarki, baryt, fluorytu i innych minerałów dla przemysłu chemicznego oraz produkcji nawozów. W Polsce kod ten ma istotne znaczenie głównie dla wydobywania siarki i soli potasowo-magnezowych, które stanowią surowiec dla branży nawozowej i chemicznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Kopalnia siarki",
+      "use": "Wydobywa siarkę rodzimą lub w postaci minerałów siarkonośnych dla przemysłu chemicznego."
+    },
+    {
+      "persona": "Wydobywca soli potasowych",
+      "use": "Eksploatuje złoża soli potasowo-magnezowych jako surowiec dla nawozów."
+    },
+    {
+      "persona": "Spółka surowcowa nawozowa",
+      "use": "Pozyskuje fosforyty i inne minerały bezpośrednio dla zakładów produkujących nawozy."
+    },
+    {
+      "persona": "Polski oddział wydobywcy zagranicznego",
+      "use": "Eksploatuje fosforyty lub potas za granicą (Białoruś, Maroko) i rozlicza działalność w Polsce."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia siarki w Tarnobrzegu",
+    "Wydobywca soli potasowych",
+    "Spółka surowcowa dla Azotów"
+  ],
+  "commonMistakes": [
+    "Wybór 08.91.Z zamiast 20.15.Z (produkcja nawozów), gdy działalność polega głównie na produkcji nawozów z surowców nabywanych — to przetwórstwo chemiczne.",
+    "Pomylenie z 08.93.Z (wydobywanie soli), gdy wydobywasz sól kamienną do celów spożywczych i drogowych — to inny kod."
+  ],
+  "taxNotes": "Wydobycie surowców chemicznych wymaga koncesji geologiczno-górniczej, opłat eksploatacyjnych i pozwoleń środowiskowych. Działalność CIT-owa z VAT-em na zasadach ogólnych — istotna jest analiza ulg inwestycyjnych. Stawki sprawdź u doradcy podatkowego."
+}

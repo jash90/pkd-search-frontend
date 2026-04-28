@@ -1,0 +1,36 @@
+{
+  "code": "46.35.Z",
+  "name": "Sprzedaż hurtowa wyrobów tytoniowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.35.Z obejmuje sprzedaż hurtową papierosów, cygar, tytoniu do palenia, e-papierosów i wyrobów nowatorskich — do sklepów, kiosków, stacji benzynowych i punktów detalicznych. Wymaga zezwolenia na obrót hurtowy wyrobami tytoniowymi i rozliczania akcyzy.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia wyrobów tytoniowych",
+      "use": "Dostarcza papierosy i tytoń do sklepów osiedlowych i sieci detalicznych."
+    },
+    {
+      "persona": "Dystrybutor e-papierosów",
+      "use": "Sprzedaje hurtowo płyny do e-papierosów i urządzenia podgrzewające do wyspecjalizowanych sklepów."
+    },
+    {
+      "persona": "Pośrednik w obrocie wyrobami nowatorskimi",
+      "use": "Reprezentuje producenta wyrobów typu heat-not-burn przed dystrybutorami."
+    },
+    {
+      "persona": "Operator kanału HoReCa",
+      "use": "Dostarcza papierosy do hoteli, restauracji i klubów."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia wyrobów tytoniowych z magazynem akcyzowym",
+    "Dystrybutor e-papierosów i akcesoriów do vapingu",
+    "Pośrednik regionalny producenta papierosów"
+  ],
+  "commonMistakes": [
+    "Wybór 46.35.Z bez zezwolenia na obrót hurtowy wyrobami tytoniowymi — to wymóg ustawowy.",
+    "Pomylenie z 12.00.Z (produkcja wyrobów tytoniowych) — 46.35.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Obrót wyrobami tytoniowymi wymaga rejestracji w urzędzie skarbowym, zezwoleń i prowadzenia magazynu akcyzowego. Akcyza znacząco wpływa na strukturę cen. Stawki sprawdź u doradcy podatkowego."
+}

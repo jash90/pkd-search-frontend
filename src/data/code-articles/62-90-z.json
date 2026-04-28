@@ -1,0 +1,36 @@
+{
+  "code": "62.90.Z",
+  "name": "Pozostała działalność usługowa w zakresie technologii informatycznych i komputerowych",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 62.90.Z obejmuje usługi IT nieobjęte innymi kodami działu 62 — odzyskiwanie danych, wdrożenia niszowych systemów, audyty bezpieczeństwa, zarządzanie infrastrukturą IT (managed services), wsparcie helpdesk oraz inne specjalistyczne usługi informatyczne. To kod „parasolowy” dla wąskich specjalizacji IT.",
+  "whoUsesIt": [
+    {
+      "persona": "Specjalista odzyskiwania danych",
+      "use": "Odzyskuje dane z uszkodzonych dysków twardych, SSD i macierzy RAID — laboratorium DataRecovery."
+    },
+    {
+      "persona": "Konsultant ds. cyberbezpieczeństwa",
+      "use": "Przeprowadza testy penetracyjne, audyty zgodności (ISO 27001, RODO) i wdraża SIEM u klientów."
+    },
+    {
+      "persona": "Operator managed services",
+      "use": "Zarządza infrastrukturą IT klientów (serwery, sieci, backup) w modelu outsourcingu IT (MSP)."
+    },
+    {
+      "persona": "Specjalista helpdesk",
+      "use": "Świadczy zdalne wsparcie techniczne dla użytkowników firmowych — help desk pierwszej i drugiej linii."
+    }
+  ],
+  "businessExamples": [
+    "Laboratorium odzyskiwania danych z dysków",
+    "Firma cyberbezpieczeństwa wykonująca testy pentest",
+    "Outsourcing IT dla małych firm (MSP)"
+  ],
+  "commonMistakes": [
+    "Wybór 62.90.Z zamiast 62.10.B (pozostała działalność w zakresie programowania) — samo pisanie kodu na zlecenie ma osobny kod.",
+    "Pomylenie z 62.20.B (doradztwo IT) — typowe doradztwo techniczne i architektoniczne IT podlega innemu kodowi w grupie 62.20."
+  ],
+  "taxNotes": "Działalność IT często kwalifikuje się do preferencyjnych form opodatkowania (ryczałt na właściwym poziomie, IP Box przy działalności twórczej, B2B), a wybór konkretnej formy zależy od specyfiki świadczonych usług. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "20.60.Z",
+  "name": "Produkcja włókien chemicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.60.Z obejmuje produkcję włókien syntetycznych i sztucznych — poliestrowych, poliamidowych, akrylowych, polipropylenowych, wiskozowych, lyocellowych — w postaci filamentów, włókien ciętych i kabelków. Nie obejmuje przędzenia z gotowych włókien (13.10.Z) ani produkcji włóknin (13.95.Z) jako wyrobów końcowych. Typowy kod dla zakładów chemii włóknotwórczej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent włókien poliestrowych",
+      "use": "Wytwarza filamenty PET i włókna cięte dla branży tekstylnej i higienicznej."
+    },
+    {
+      "persona": "Wytwórnia włókien wiskozowych",
+      "use": "Produkuje włókna celulozowe (wiskoza, modal) dla tkalni i producentów odzieży eko."
+    },
+    {
+      "persona": "Producent włókien technicznych",
+      "use": "Wytwarza włókna o wysokiej wytrzymałości (aramidowe, węglowe, UHMWPE) dla branży zbrojeniowej i kompozytów."
+    },
+    {
+      "persona": "Wytwórnia włókien polipropylenowych",
+      "use": "Produkuje włókna PP do geowłóknin, dywanów i opakowań przemysłowych."
+    }
+  ],
+  "businessExamples": [
+    "Producent filamentów poliestrowych dla branży odzieżowej",
+    "Wytwórnia włókien wiskozowych eko",
+    "Producent włókien aramidowych dla balistyki"
+  ],
+  "commonMistakes": [
+    "Wybór 20.60.Z zamiast 13.10.Z — przygotowanie i przędzenie włókien (z gotowych staplówek) to inna kategoria w sekcji tekstylnej.",
+    "Mylenie z 20.16.Z (produkcja tworzyw sztucznych w formach podstawowych) — sam granulat polimeru bez przędzenia w filament wpada w chemię tworzyw."
+  ],
+  "taxNotes": "Produkcja włókien chemicznych podlega regulacjom REACH, dyrektywom środowiskowym i standardowym zasadom CIT/PIT i VAT, z możliwością ulgi B+R przy własnym rozwoju technologii. Stawki sprawdź u doradcy podatkowego."
+}

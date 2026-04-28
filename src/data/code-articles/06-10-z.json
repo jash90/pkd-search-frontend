@@ -1,0 +1,36 @@
+{
+  "code": "06.10.Z",
+  "name": "Górnictwo ropy naftowej",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 06.10.Z obejmuje wydobywanie ropy naftowej z odwiertów lądowych i morskich oraz pozyskiwanie kondensatów, łupków bitumicznych i piasków roponośnych. Wlicza się tu również separację gazu od ropy oraz wstępną obróbkę surowca u źródła. Nie obejmuje rafinacji (19.20.Z) ani usług wiertniczych dla osób trzecich (09.10.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Spółka wydobywcza ropy",
+      "use": "Eksploatuje koncesje na lądowe odwierty ropne, separuje gaz, magazynuje surowiec i sprzedaje go do rafinerii."
+    },
+    {
+      "persona": "Operator złoża morskiego",
+      "use": "Prowadzi wydobycie ropy z platform offshore na Morzu Bałtyckim lub Północnym."
+    },
+    {
+      "persona": "Producent kondensatów",
+      "use": "Wydobywa lekkie frakcje węglowodorowe towarzyszące złożom gazu i sprzedaje je do dalszej rafinacji."
+    },
+    {
+      "persona": "Spółka eksploatująca odwierty stripper",
+      "use": "Prowadzi wydobycie z niskoproduktywnych odwiertów lądowych w Polsce południowo-wschodniej."
+    }
+  ],
+  "businessExamples": [
+    "Spółka eksploatująca lądowe złoża ropy",
+    "Operator platformy wydobywczej offshore",
+    "Producent kondensatów z odwiertów gazowych"
+  ],
+  "commonMistakes": [
+    "Wybór 06.10.Z zamiast 09.10.Z — usługi wiertnicze i serwisowe dla cudzych odwiertów to działalność wspierająca, a nie wydobycie.",
+    "Mylenie z 19.20.Z (rafinacja) — destylacja, kraking i produkcja paliw to przetwórstwo, nie górnictwo."
+  ],
+  "taxNotes": "Górnictwo węglowodorów wymaga koncesji, podlega opłatom eksploatacyjnym i specjalnym regulacjom (m.in. podatek od wydobycia niektórych kopalin). Stawki sprawdź u doradcy podatkowego."
+}

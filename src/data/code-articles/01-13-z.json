@@ -1,0 +1,36 @@
+{
+  "code": "01.13.Z",
+  "name": "Uprawa warzyw, włączając melony oraz uprawa roślin korzeniowych i roślin bulwiastych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.13.Z obejmuje uprawę warzyw gruntowych i pod osłonami — pomidorów, ogórków, kapusty, sałaty — a także melonów, ziemniaków, marchwi, buraków, cebuli i innych roślin korzeniowych oraz bulwiastych. To podstawowy kod dla gospodarstw warzywniczych i producentów ziemniaków.",
+  "whoUsesIt": [
+    {
+      "persona": "Gospodarstwo warzywnicze",
+      "use": "Uprawia warzywa polowe na sprzedaż do hurtowni, sklepów lub bezpośrednio konsumentom."
+    },
+    {
+      "persona": "Producent ziemniaków",
+      "use": "Specjalizuje się w uprawie ziemniaków jadalnych, sadzeniaków lub przemysłowych."
+    },
+    {
+      "persona": "Szklarniarz",
+      "use": "Prowadzi uprawę pomidorów i ogórków pod osłonami przez większą część roku."
+    },
+    {
+      "persona": "Gospodarstwo ekologiczne",
+      "use": "Uprawia certyfikowane warzywa BIO i sprzedaje w modelu RWS lub na targach."
+    }
+  ],
+  "businessExamples": [
+    "Gospodarstwo warzywnicze pod Warszawą",
+    "Plantacja ziemniaków przemysłowych",
+    "Szklarnia pomidorowa z odbiorem hurtowym"
+  ],
+  "commonMistakes": [
+    "Wybór 01.13.Z zamiast 01.28.Z dla ziół i roślin przyprawowych (bazylia, mięta) — te mają osobny kod aromatyczny.",
+    "Pomylenie z 10.31.Z (przetwarzanie ziemniaków) — jeśli głównie obierasz, mrozisz lub robisz frytki, to działalność przetwórcza."
+  ],
+  "taxNotes": "Działalność rolnicza w typowej formie nie podlega PIT, lecz podatkowi rolnemu; szklarnie i tunele wysokie często kwalifikują się jako działy specjalne produkcji rolnej z odrębnymi zasadami. Sprawdź też reżim VAT (ryczałt rolniczy vs. zasady ogólne). Stawki sprawdź u doradcy podatkowego."
+}

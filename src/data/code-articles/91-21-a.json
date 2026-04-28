@@ -1,0 +1,36 @@
+{
+  "code": "91.21.A",
+  "name": "Działalność muzeów",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.21.A obejmuje działalność muzeów wszelkich typów — historycznych, sztuki, etnograficznych, technicznych, wojskowych — czyli gromadzenie, opracowywanie, konserwację i udostępnianie zbiorów muzealnych zwiedzającym. Pasuje zarówno do publicznych, jak i prywatnych muzeów.",
+  "whoUsesIt": [
+    {
+      "persona": "Muzeum publiczne",
+      "use": "Prowadzi stałą wystawę, organizuje ekspozycje czasowe i wydarzenia edukacyjne."
+    },
+    {
+      "persona": "Muzeum prywatne / kolekcjonerskie",
+      "use": "Pokazuje zbiory właściciela szerokiej publiczności i pobiera opłaty za wstęp."
+    },
+    {
+      "persona": "Muzeum tematyczne",
+      "use": "Specjalizuje się w wąskiej dziedzinie (np. motoryzacja, technika, lokalna historia)."
+    },
+    {
+      "persona": "Skansen / muzeum na wolnym powietrzu",
+      "use": "Prezentuje obiekty i tradycje budownictwa ludowego na otwartym terenie."
+    }
+  ],
+  "businessExamples": [
+    "Muzeum miejskie z wystawami stałymi i czasowymi",
+    "Prywatne muzeum motoryzacji",
+    "Skansen wsi z warsztatami rzemiosła"
+  ],
+  "commonMistakes": [
+    "Wybór 91.21.A dla galerii sztuki — komercyjna galeria sprzedająca dzieła klasyfikuje się jako 91.21.B (galerie sztuki).",
+    "Pomylenie z 85.52.Z (pozaszkolne formy edukacji artystycznej) — same warsztaty nie są muzeum, choć muzea często prowadzą edukację jako działalność dodatkową."
+  ],
+  "taxNotes": "Bilety wstępu do muzeów często korzystają z preferencyjnej stawki VAT lub zwolnienia. Muzea publiczne mają odrębne zasady finansowania jako instytucje kultury. Stawki sprawdź u doradcy podatkowego."
+}

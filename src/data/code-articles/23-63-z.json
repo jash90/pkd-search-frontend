@@ -1,0 +1,36 @@
+{
+  "code": "23.63.Z",
+  "name": "Produkcja masy betonowej prefabrykowanej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.63.Z obejmuje produkcję betonu towarowego (ready-mix) dostarczanego na budowy w betonomieszarkach — mieszanek betonowych, betonów posadzkowych, samozagęszczalnych, lekkich oraz mieszanek pod indywidualne zamówienia. To kod dla węzłów betoniarskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Węzeł betoniarski",
+      "use": "Produkuje beton towarowy klas C8/10–C50/60 i dostarcza pompogruszkami na budowy."
+    },
+    {
+      "persona": "Wytwórca betonu posadzkowego",
+      "use": "Produkuje wzmocnione włóknem mieszanki posadzkowe dla hal i obiektów przemysłowych."
+    },
+    {
+      "persona": "Producent betonów specjalnych",
+      "use": "Wytwarza betony samozagęszczalne SCC, lekkie i wysokowytrzymałe HPC."
+    },
+    {
+      "persona": "Mobilny węzeł betoniarski",
+      "use": "Stawiany przy dużych inwestycjach (drogi, mosty) na czas trwania budowy."
+    }
+  ],
+  "businessExamples": [
+    "Stacjonarny węzeł betoniarski w mieście",
+    "Mobilny węzeł na budowie autostrady",
+    "Producent betonu posadzkowego dla logistyki"
+  ],
+  "commonMistakes": [
+    "Wybór 23.63.Z dla prefabrykatów (kostka, stropy) — gotowe wyroby z betonu to 23.61.Z.",
+    "Pomylenie z 23.64.Z (zaprawa murarska) — suche zaprawy w workach mają osobny kod."
+  ],
+  "taxNotes": "Beton towarowy wymaga ZKP i certyfikacji EN 206. Branża objęta jest mechanizmem podzielonej płatności. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

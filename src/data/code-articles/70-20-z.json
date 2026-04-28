@@ -1,0 +1,36 @@
+{
+  "code": "70.20.Z",
+  "name": "Doradztwo w zakresie prowadzenia działalności gospodarczej i pozostałe doradztwo w zakresie zarządzania",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 70.20.Z obejmuje doradztwo biznesowe, strategiczne, organizacyjne, HR-owe, marketingowe i operacyjne dla firm i instytucji. To jeden z najczęściej wybieranych kodów dla konsultantów, interim managerów i niezależnych ekspertów branżowych. Nie obejmuje doradztwa prawnego (69.10.Z) ani podatkowego (69.20.Z).",
+  "whoUsesIt": [
+    {
+      "persona": "Konsultant biznesowy / strategiczny",
+      "use": "Doradza zarządom w zakresie strategii, restrukturyzacji, wejścia na nowe rynki."
+    },
+    {
+      "persona": "Interim manager",
+      "use": "Tymczasowo obejmuje stanowisko zarządcze (CEO, COO, dyrektor sprzedaży) na czas projektu."
+    },
+    {
+      "persona": "Konsultant HR / employer branding",
+      "use": "Doradza w zakresie struktury organizacyjnej, rekrutacji, kultury pracy i ocen pracowniczych."
+    },
+    {
+      "persona": "Doradca marketingowy / PR",
+      "use": "Buduje strategię marketingową, pozycjonowanie marki i plany komunikacji."
+    }
+  ],
+  "businessExamples": [
+    "Konsultant strategiczny dla średnich firm produkcyjnych",
+    "Interim CFO dla spółki w fazie wzrostu",
+    "Doradca employer brandingowy dla działów HR"
+  ],
+  "commonMistakes": [
+    "Wybór 70.20.Z dla doradztwa technicznego (np. inżynierskiego, IT) — w zależności od specjalizacji właściwy może być 71.12.Z lub 62.02.Z.",
+    "Pomylenie z 73.20.Z (badania rynku) — analizy rynkowe na zlecenie to inny kod, nawet jeśli wynikają z nich rekomendacje strategiczne."
+  ],
+  "taxNotes": "Doradztwo biznesowe to typowa działalność konsultingowa rozliczana w różnych formach (skala, liniowy, ryczałt), z możliwością zwolnienia podmiotowego z VAT przy niskich obrotach. Część doradztwa wyłączona jest z ryczałtu — szczegóły zależą od zakresu usług. Stawki sprawdź u doradcy podatkowego."
+}

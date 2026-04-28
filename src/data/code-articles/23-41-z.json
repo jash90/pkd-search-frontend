@@ -1,0 +1,36 @@
+{
+  "code": "23.41.Z",
+  "name": "Produkcja ceramicznych wyrobów stołowych i ozdobnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.41.Z obejmuje produkcję porcelany stołowej, fajansu, ceramiki użytkowej i ozdobnej — talerzy, kubków, filiżanek, salaterek, dzbanków, wazonów, figurek i pamiątek. To kod dla manufaktur porcelany i ceramiki artystycznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Manufaktura porcelany stołowej",
+      "use": "Produkuje serwisy obiadowe i kawowe dla rynku detalicznego i HoReCa."
+    },
+    {
+      "persona": "Pracownia ceramiki artystycznej",
+      "use": "Wytwarza ręcznie zdobione naczynia, miski i wazony w krótkich seriach."
+    },
+    {
+      "persona": "Producent kubków reklamowych",
+      "use": "Produkuje kubki promocyjne z nadrukiem dla branży reklamowej i hotelowej."
+    },
+    {
+      "persona": "Wytwórca pamiątek ceramicznych",
+      "use": "Produkuje figurki, świeczniki i suweniry dla turystyki i eventów."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura porcelany Bolesławiec",
+    "Pracownia ceramiki artystycznej",
+    "Producent kubków reklamowych"
+  ],
+  "commonMistakes": [
+    "Wybór 23.41.Z dla ceramiki sanitarnej — umywalki i sedesy to 23.42.Z.",
+    "Pomylenie z 23.13.Z (szkło gospodarcze) — szklanki, kieliszki i szklane naczynia mają osobny kod."
+  ],
+  "taxNotes": "Ceramika kontaktująca się z żywnością wymaga zgodności z rozporządzeniem MOCA. Wybór formy opodatkowania zależy od skali i kanałów sprzedaży (eksport, e-commerce). Stawki sprawdź u doradcy podatkowego."
+}

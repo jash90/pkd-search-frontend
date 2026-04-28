@@ -1,0 +1,36 @@
+{
+  "code": "01.22.Z",
+  "name": "Uprawa drzew i krzewów owocowych tropikalnych i podzwrotnikowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.22.Z obejmuje uprawę awokado, mango, bananów, papai, daktyli i innych owoców tropikalnych. W Polsce kod jest stosowany rzadko — głównie w niszowych szklarniach, działalności badawczej lub przy rozliczaniu plantacji prowadzonych przez polskie podmioty za granicą.",
+  "whoUsesIt": [
+    {
+      "persona": "Szklarnia egzotyczna",
+      "use": "Uprawia banany, awokado lub papaję pod osłonami, najczęściej w celach demonstracyjnych lub niszowych."
+    },
+    {
+      "persona": "Polski oddział plantatora",
+      "use": "Prowadzi plantacje za granicą (np. Hiszpania, Maroko) i rozlicza działalność w Polsce."
+    },
+    {
+      "persona": "Stacja badawcza ogrodnicza",
+      "use": "Testuje uprawy tropikalne w warunkach kontrolowanych dla celów naukowych."
+    },
+    {
+      "persona": "Importer-producent",
+      "use": "Łączy uprawę za granicą z importem i dystrybucją owoców tropikalnych w Polsce."
+    }
+  ],
+  "businessExamples": [
+    "Demonstracyjna szklarnia z bananami",
+    "Polski oddział plantacji awokado",
+    "Niszowy producent owoców egzotycznych"
+  ],
+  "commonMistakes": [
+    "Wybór 01.22.Z zamiast 01.23.Z dla cytrusów (cytryna, pomarańcza, limonka) — owoce cytrusowe mają własny kod.",
+    "Pomylenie z 46.31.Z (sprzedaż hurtowa owoców), gdy działalność polega głównie na imporcie i handlu, a nie własnej uprawie."
+  ],
+  "taxNotes": "Działalność rolnicza co do zasady jest poza PIT i objęta podatkiem rolnym, jednak uprawy szklarniowe egzotyczne często stanowią działy specjalne produkcji rolnej. Plantacje zagraniczne wymagają analizy umów o unikaniu podwójnego opodatkowania. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "79.90.Z",
+  "name": "Pozostała działalność usługowa w zakresie rezerwacji oraz działalności z nią związane",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 79.90.Z obejmuje pośrednictwo w rezerwacjach — bilety lotnicze, kolejowe, koncertowe, sportowe, hotelowe (poza klasycznymi biurami podróży), wynajem aut na czas podróży, przewodnictwo turystyczne. Pasuje dla niezależnych pilotów wycieczek, przewodników miejskich i pośredników bookingowych. Organizatorzy wycieczek to 79.12.Z, agenci turystyczni to 79.11.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Przewodnik turystyczny / miejski",
+      "use": "Oprowadza turystów po mieście, zabytkach i regionach — indywidualnie lub w grupach."
+    },
+    {
+      "persona": "Pilot wycieczek",
+      "use": "Towarzyszy grupom wycieczkowym, koordynuje program podróży i obsługę grupy."
+    },
+    {
+      "persona": "Pośrednik biletowy",
+      "use": "Sprzedaje bilety na koncerty, mecze, wydarzenia kulturalne i transport."
+    },
+    {
+      "persona": "Niezależny doradca podróży",
+      "use": "Komponuje indywidualne podróże dla klientów premium (concierge travel)."
+    }
+  ],
+  "businessExamples": [
+    "Przewodnik miejski oprowadzający w językach obcych",
+    "Pośrednik biletów na koncerty i mecze",
+    "Concierge planujący podróże premium na zamówienie"
+  ],
+  "commonMistakes": [
+    "Wybór 79.90.Z, gdy faktycznie organizowana jest impreza turystyczna z własnym programem — wtedy właściwy jest 79.12.Z (organizatorzy turystyki).",
+    "Pomylenie z 79.11.A (działalność agentów turystycznych) — sprzedaż gotowych imprez innych organizatorów to inny kod."
+  ],
+  "taxNotes": "Część działalności turystycznej (np. organizacja imprez) wymaga wpisu do rejestru organizatorów turystyki i obowiązkowej gwarancji finansowej; sama rezerwacja zwykle tego nie wymaga. W obrocie turystycznym może wystąpić procedura VAT marża. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "10.62.Z",
+  "name": "Wytwarzanie skrobi i wyrobów skrobiowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.62.Z obejmuje produkcję skrobi z ziemniaków, kukurydzy, ryżu czy pszenicy oraz pochodnych — glukozy, syropów glukozowo-fruktozowych, dekstryn, klejów skrobiowych i tapioki. To kod typowo przemysłowy, dla zakładów przerabiających surowce skrobiowe na półprodukty dla branży spożywczej, papierniczej i chemicznej.",
+  "whoUsesIt": [
+    {
+      "persona": "Krochmalnia / fabryka skrobi",
+      "use": "Produkuje skrobię ziemniaczaną i kukurydzianą jako półprodukt dla przemysłu."
+    },
+    {
+      "persona": "Producent syropów glukozowych",
+      "use": "Wytwarza syropy glukozowe i glukozowo-fruktozowe na potrzeby cukiernictwa i napojów."
+    },
+    {
+      "persona": "Wytwórca dekstryn i klejów",
+      "use": "Produkuje modyfikowane skrobie i kleje skrobiowe dla branży papierniczej i tekstylnej."
+    },
+    {
+      "persona": "Producent glutenu pszennego",
+      "use": "Pozyskuje gluten i skrobię pszenną w procesie mokrego mielenia."
+    }
+  ],
+  "businessExamples": [
+    "Zakład produkujący skrobię ziemniaczaną dla przemysłu spożywczego",
+    "Fabryka syropu glukozowo-fruktozowego dla producentów napojów",
+    "Wytwórca dekstryn i klejów skrobiowych dla papierni"
+  ],
+  "commonMistakes": [
+    "Wybór 10.62.Z zamiast 10.61.Z (Wytwarzanie produktów przemiału zbóż) przy zwykłym mieleniu mąki — przemiał na mąkę nie jest produkcją skrobi.",
+    "Pomylenie z 10.81.Z (Produkcja cukru) — produkcja syropów glukozowych ze skrobi należy tu, ale produkcja cukru z buraków/trzciny to 10.81.Z."
+  ],
+  "taxNotes": "Produkcja przemysłowa skrobi i jej pochodnych objęta jest standardowymi zasadami VAT i akcyzy nieproduktowej, a wybór formy opodatkowania zależy od skali kosztów surowców i energii. Stawki sprawdź u doradcy podatkowego."
+}

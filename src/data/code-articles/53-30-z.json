@@ -1,0 +1,36 @@
+{
+  "code": "53.30.Z",
+  "name": "Pośrednictwo w zakresie działalności pocztowej i kurierskiej",
+  "section": "H",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 53.30.Z obejmuje działalność brokerów kurierskich, agregatorów wysyłek e-commerce i platform pośredniczących między nadawcami a operatorami logistycznymi — bez własnej infrastruktury doręczeniowej. To nowy kod w PKD 2025 dla firm typu Furgonetka, Apaczka, Sendit czy Webinkurier.",
+  "whoUsesIt": [
+    {
+      "persona": "Broker kurierski online",
+      "use": "Prowadzi platformę porównującą oferty operatorów (DPD, DHL, InPost) i pośredniczącą w wysyłce dla MŚP."
+    },
+    {
+      "persona": "Agregator dla e-commerce",
+      "use": "Integruje API wielu kurierów w jeden panel dla sklepów internetowych — zarabia na marży hurtowej."
+    },
+    {
+      "persona": "Pośrednik dla allegromarketplace",
+      "use": "Łączy sprzedawców platform e-commerce z operatorami pocztowymi i obsługuje zwroty."
+    },
+    {
+      "persona": "Konsultant logistyczny e-commerce",
+      "use": "Negocjuje umowy hurtowe z kurierami w imieniu sklepów i prowadzi kompleksową obsługę wysyłek."
+    }
+  ],
+  "businessExamples": [
+    "Platforma broker kurierów online",
+    "Agregator etykiet wysyłkowych dla e-commerce",
+    "Konsultant logistyczny dla małych e-sklepów"
+  ],
+  "commonMistakes": [
+    "Wybór 53.30.Z zamiast 53.20.Z (pozostała działalność pocztowa i kurierska) — jeśli firma sama doręcza przesyłki, a nie tylko pośredniczy, właściwy jest kod operatora.",
+    "Pomylenie z 52.29.C (pozostała działalność wspomagająca transport) — ogólna spedycja towarowa bez specjalizacji w pocztowo-kurierskiej to inny kod."
+  ],
+  "taxNotes": "Działalność czysto pośrednicza rozliczana jest na podstawie marży lub prowizji i co do zasady wymaga wpisu do rejestru operatorów pocztowych UKE jako broker. Wybór formy opodatkowania zależy od modelu rozliczeń (marża vs prowizja). Stawki sprawdź u doradcy podatkowego."
+}

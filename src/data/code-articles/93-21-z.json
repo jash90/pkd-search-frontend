@@ -1,0 +1,36 @@
+{
+  "code": "93.21.Z",
+  "name": "Działalność wesołych miasteczek i parków rozrywki",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 93.21.Z obejmuje działalność wesołych miasteczek, parków rozrywki, parków tematycznych i parków wodnych z atrakcjami mechanicznymi (karuzele, rollercoastery, zjeżdżalnie). Pasuje zarówno dla stałych obiektów, jak i mobilnych wesołych miasteczek objazdowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator parku rozrywki",
+      "use": "Prowadzi stały obiekt z atrakcjami mechanicznymi, sprzedaje bilety wstępu."
+    },
+    {
+      "persona": "Operator parku wodnego",
+      "use": "Udostępnia kompleks z basenami i zjeżdżalniami jako atrakcję rekreacyjną."
+    },
+    {
+      "persona": "Mobilne wesołe miasteczko",
+      "use": "Objeżdża miasta z karuzelami i atrakcjami montowanymi tymczasowo."
+    },
+    {
+      "persona": "Park tematyczny",
+      "use": "Łączy atrakcje mechaniczne z motywem przewodnim (np. bajki, historia)."
+    }
+  ],
+  "businessExamples": [
+    "Park rozrywki z biletem dziennym i wieloma atrakcjami",
+    "Mobilne wesołe miasteczko na festynach miejskich",
+    "Park wodny z basenami i zjeżdżalniami"
+  ],
+  "commonMistakes": [
+    "Wybór 93.21.Z dla pokojów zagadek lub trampolin — escape rooms i parki trampolin to 93.29.A (rozrywka w pomieszczeniach zamkniętych).",
+    "Pomylenie z 91.41.A/B (ogrody botaniczne i zoologiczne) — atrakcje mechaniczne są kluczowym wyróżnikiem 93.21.Z."
+  ],
+  "taxNotes": "Bilety wstępu do parków rozrywki mogą korzystać z preferencyjnej stawki VAT. Atrakcje mechaniczne wymagają regularnych przeglądów technicznych i ubezpieczeń, co wpływa na koszty. Stawki sprawdź u doradcy podatkowego."
+}

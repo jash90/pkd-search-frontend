@@ -1,0 +1,36 @@
+{
+  "code": "13.93.Z",
+  "name": "Produkcja dywanów i chodników",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.93.Z obejmuje produkcję dywanów, chodników, wykładzin tekstylnych podłogowych — tkanych, tuftowanych, igłowanych — z wełny, włókien syntetycznych i mieszanych. To kod dla zakładów dywanowych, manufaktur tuftowanych i producentów wykładzin tekstylnych.",
+  "whoUsesIt": [
+    {
+      "persona": "Fabryka dywanów tuftowanych",
+      "use": "Produkuje dywany do salonów i sypialni w masowej skali dla retailu."
+    },
+    {
+      "persona": "Manufaktura dywanów ręcznie tkanych",
+      "use": "Tka dywany wełniane premium na wymiar dla projektantów wnętrz."
+    },
+    {
+      "persona": "Producent wykładzin tekstylnych",
+      "use": "Produkuje wykładziny dla biur, hoteli i obiektów użyteczności publicznej."
+    },
+    {
+      "persona": "Wytwórca chodników i wycieraczek",
+      "use": "Produkuje chodniki, wycieraczki techniczne oraz dywany kuchenne."
+    }
+  ],
+  "businessExamples": [
+    "Manufaktura ręcznie tkanych dywanów wełnianych",
+    "Fabryka dywanów tuftowanych pod marką własną",
+    "Producent wykładzin obiektowych dla biur"
+  ],
+  "commonMistakes": [
+    "Wybór 13.93.Z zamiast 22.23.Z (Produkcja wyrobów z tworzyw sztucznych dla budownictwa) — wykładziny PVC i winylowe to 22.23.Z, a tekstylne to 13.93.Z.",
+    "Pomylenie z 43.33.Z (Posadzkarstwo) — produkcja dywanu to 13.93.Z, a układanie wykładziny u klienta to 43.33.Z."
+  ],
+  "taxNotes": "Produkcja dywanów i wykładzin tekstylnych podlega standardowym stawkom VAT, a forma opodatkowania zależy od skali i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

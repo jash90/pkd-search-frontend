@@ -1,0 +1,36 @@
+{
+  "code": "20.20.C",
+  "name": "Produkcja pozostałych środków agrochemicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.20.C obejmuje produkcję środków agrochemicznych nieobjętych pestycydami i dezynfekcyjnymi — biostymulatorów, regulatorów wzrostu, nawozów doliściowych mikroelementowych, polepszaczy gleby oraz adiuwantów do oprysków. To kod uzupełniający w grupie 20.2.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent biostymulatorów",
+      "use": "Wytwarza preparaty na bazie wyciągów z alg i aminokwasów dla rolnictwa."
+    },
+    {
+      "persona": "Wytwórca nawozów doliściowych",
+      "use": "Produkuje płynne nawozy mikroelementowe do oprysków koron drzew i upraw polowych."
+    },
+    {
+      "persona": "Zakład polepszaczy gleby",
+      "use": "Wytwarza preparaty wapnujące, kondycjonery glebowe i mikoryzy."
+    },
+    {
+      "persona": "Producent adiuwantów",
+      "use": "Dostarcza środki zwilżające i przyczepne do mieszania z pestycydami w polu."
+    }
+  ],
+  "businessExamples": [
+    "Producent biostymulatorów z alg morskich",
+    "Wytwórnia nawozów doliściowych",
+    "Zakład produkcji adiuwantów do oprysków"
+  ],
+  "commonMistakes": [
+    "Wybór 20.20.C dla typowych nawozów NPK — nawozy mineralne mają kod 20.15.Z.",
+    "Pomylenie z 20.20.A (pestycydy) — preparaty zwalczające szkodniki to inny kod."
+  ],
+  "taxNotes": "Biostymulatory podlegają unijnemu rozporządzeniu o produktach nawozowych (FPR 2019/1009). Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

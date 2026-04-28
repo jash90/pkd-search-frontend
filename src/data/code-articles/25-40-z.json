@@ -1,0 +1,36 @@
+{
+  "code": "25.40.Z",
+  "name": "Kucie i formowanie metali oraz metalurgia proszków",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.40.Z obejmuje obróbkę plastyczną metali poprzez kucie matrycowe i swobodne, prasowanie, tłoczenie, walcowanie poprzeczno-klinowe i metalurgię proszków (spiekanie elementów z proszków metali). Nie obejmuje obróbki skrawaniem (25.62.Z) ani produkcji wyrobów gotowych z metalu klasyfikowanych w innych klasach grupy 25.",
+  "whoUsesIt": [
+    {
+      "persona": "Kuźnia matrycowa",
+      "use": "Kuje korbowody, wały, koła zębate i elementy zawieszeń dla branży motoryzacyjnej i kolejowej."
+    },
+    {
+      "persona": "Tłocznia blach",
+      "use": "Wytłacza elementy nadwozi, obudów AGD i części metalowych w masowych seriach."
+    },
+    {
+      "persona": "Zakład metalurgii proszków",
+      "use": "Produkuje spiekane tuleje, koła zębate i elementy konstrukcyjne metodą prasowania i spiekania proszków."
+    },
+    {
+      "persona": "Kuźnia swobodna",
+      "use": "Wykonuje pojedyncze odkuwki o dużych masach dla energetyki, stoczni i przemysłu maszynowego."
+    }
+  ],
+  "businessExamples": [
+    "Kuźnia matrycowa dla branży motoryzacyjnej",
+    "Tłocznia elementów nadwozi i obudów",
+    "Zakład spiekania proszków metalicznych"
+  ],
+  "commonMistakes": [
+    "Wybór 25.40.Z zamiast 25.62.Z — obróbka skrawaniem (toczenie, frezowanie) to inna klasa, mimo że często łączona z kuciem w jednym zakładzie.",
+    "Mylenie z 24.5 (odlewnictwo metali) — odlewy z formy piaskowej, kokilowej i ciśnieniowej są klasyfikowane jako produkcja metali, nie ich kucie."
+  ],
+  "taxNotes": "Działalność kuźnicza i tłocznia korzysta ze standardowych zasad PIT/CIT i VAT, a inwestycje w nowe technologie (np. kucie precyzyjne) mogą kwalifikować się do ulgi B+R lub zwolnień strefowych. Stawki sprawdź u doradcy podatkowego."
+}

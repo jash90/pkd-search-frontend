@@ -1,0 +1,36 @@
+{
+  "code": "95.31.C",
+  "name": "Działalność usługowa detailingu pojazdów silnikowych, z wyłączeniem motocykli",
+  "section": "T",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 95.31.C obejmuje detailing samochodowy — szczegółowe czyszczenie, polerowanie, woskowanie, ceramiczne powłoki ochronne i renowacje wnętrz pojazdów. To dynamicznie rozwijająca się branża premium, oddzielona od typowej myjni samochodowej i blacharki.",
+  "whoUsesIt": [
+    {
+      "persona": "Studio detailingowe premium",
+      "use": "Wykonuje korekty lakieru, polerowanie, ceramikę i czyszczenie wnętrz w standardzie premium."
+    },
+    {
+      "persona": "Mobilny detailer",
+      "use": "Świadczy usługi czyszczenia i polerowania u klienta lub w jego garażu."
+    },
+    {
+      "persona": "Specjalista folii ochronnych PPF",
+      "use": "Aplikuje folie ochronne na lakier i folie zaciemniające na szyby."
+    },
+    {
+      "persona": "Renowator wnętrz samochodowych",
+      "use": "Czyści tapicerkę, naprawia drobne uszkodzenia skóry i tworzyw wewnątrz auta."
+    }
+  ],
+  "businessExamples": [
+    "Studio detailingu z ceramiką i korektą lakieru",
+    "Mobilna usługa czyszczenia wnętrz samochodów",
+    "Pracownia foliowania pojazdów PPF"
+  ],
+  "commonMistakes": [
+    "Wybór 95.31.C dla typowej myjni automatycznej — myjnie samochodowe klasyfikują się jako 45.20.B (mycie i sprzątanie pojazdów).",
+    "Pomylenie z 95.31.B (blacharka i lakiernictwo) — detailing nie obejmuje wymiany elementów ani lakierowania pełnego, tylko prace pielęgnacyjne i kosmetyczne."
+  ],
+  "taxNotes": "Detailing premium często operuje w wyższych stawkach VAT i wymaga specjalistycznych materiałów. Forma opodatkowania zależy od skali kosztów chemii i wynajmu lokalu. Stawki sprawdź u doradcy podatkowego."
+}

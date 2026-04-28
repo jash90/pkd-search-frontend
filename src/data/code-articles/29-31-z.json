@@ -1,0 +1,36 @@
+{
+  "code": "29.31.Z",
+  "name": "Produkcja wyposażenia elektrycznego i elektronicznego do pojazdów silnikowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 29.31.Z obejmuje produkcję komponentów elektrycznych i elektronicznych do pojazdów — wiązek przewodów, alternatorów, rozruszników, świec zapłonowych, czujników, sterowników ECU, elektroniki ADAS, lampek samochodowych i baterii rozruchowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent wiązek elektrycznych",
+      "use": "Wytwarza wiązki przewodów (wire harness) dla koncernów motoryzacyjnych w modelu Tier 1."
+    },
+    {
+      "persona": "Fabryka elektroniki samochodowej",
+      "use": "Produkuje sterowniki ECU, BCM, moduły ADAS i kamery dla systemów wspomagania jazdy."
+    },
+    {
+      "persona": "Wytwórca oświetlenia samochodowego",
+      "use": "Robi reflektory LED, lampy tylne i oświetlenie wnętrza dla pojazdów osobowych i ciężarowych."
+    },
+    {
+      "persona": "Producent alternatorów i rozruszników",
+      "use": "Buduje alternatory, rozruszniki i komponenty układu zapłonowego dla aut spalinowych."
+    }
+  ],
+  "businessExamples": [
+    "Fabryka wiązek elektrycznych dla globalnych koncernów motoryzacyjnych",
+    "Producent reflektorów LED i matrycowych dla nowoczesnych aut",
+    "Zakład sterowników ECU i modułów ADAS dla systemów autonomicznych"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 27.20.Z (baterie i akumulatory) — sama produkcja akumulatorów to inny kod, ale pakiety baterii do EV mogą być klasyfikowane różnie.",
+    "Wybór 29.32.Z (pozostałe części i akcesoria) zamiast 29.31.Z — komponenty elektroniczne idą tutaj, mechaniczne tam."
+  ],
+  "taxNotes": "Branża elektroniki samochodowej to kluczowy sektor automotive w Polsce z silnym wsparciem inwestycyjnym i ulgami B+R. Forma opodatkowania zależy od skali, struktury grupy kapitałowej i polityki transferowej. Stawki sprawdź u doradcy podatkowego."
+}

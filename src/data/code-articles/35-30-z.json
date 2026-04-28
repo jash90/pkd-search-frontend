@@ -1,0 +1,36 @@
+{
+  "code": "35.30.Z",
+  "name": "Wytwarzanie i zaopatrywanie w parę wodną i powietrze do układów klimatyzacyjnych",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.30.Z obejmuje produkcję i dystrybucję ciepła w postaci pary wodnej i gorącej wody w sieciach ciepłowniczych oraz dostawę powietrza chłodzonego do central klimatyzacyjnych. To kod używany głównie przez przedsiębiorstwa energetyki cieplnej (PEC) i operatorów district cooling.",
+  "whoUsesIt": [
+    {
+      "persona": "Przedsiębiorstwo Energetyki Cieplnej",
+      "use": "Wytwarza ciepło w ciepłowni miejskiej i dostarcza je siecią do mieszkań, instytucji i zakładów."
+    },
+    {
+      "persona": "Operator elektrociepłowni",
+      "use": "Produkuje parę technologiczną i ciepło w kogeneracji — sprzedaż do odbiorców przemysłowych i komunalnych."
+    },
+    {
+      "persona": "Operator district cooling",
+      "use": "Dostarcza schłodzoną wodę do biurowców i centrów handlowych w ramach centralnego systemu chłodzenia."
+    },
+    {
+      "persona": "Spółdzielnia ciepłownicza",
+      "use": "Eksploatuje lokalną kotłownię i sieć dystrybucji ciepła dla osiedla mieszkaniowego."
+    }
+  ],
+  "businessExamples": [
+    "Miejska sieć ciepłownicza",
+    "Elektrociepłownia w kogeneracji",
+    "Operator district cooling w biurowcach"
+  ],
+  "commonMistakes": [
+    "Wybór 35.30.Z zamiast 35.11.Z (wytwarzanie energii elektrycznej) — sama produkcja prądu (np. w bloku węglowym lub elektrowni gazowej) to inny kod, mimo że może odbywać się w tym samym obiekcie.",
+    "Pomylenie z 43.22.Z (wykonywanie instalacji wodno-kanalizacyjnych, cieplnych) — montaż wewnętrznych instalacji c.o. w budynkach to roboty budowlane, nie produkcja ciepła."
+  ],
+  "taxNotes": "Sektor ciepłowniczy podlega regulacji URE i taryfom zatwierdzanym dla odbiorców końcowych. Możliwe są mechanizmy wsparcia inwestycji w kogenerację oraz zwolnienia akcyzowe dla wybranych paliw. Stawki sprawdź u doradcy podatkowego."
+}

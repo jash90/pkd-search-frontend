@@ -1,0 +1,36 @@
+{
+  "code": "58.11.Z",
+  "name": "Wydawanie książek",
+  "section": "J",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 58.11.Z obejmuje wydawanie książek w formie drukowanej, elektronicznej (e-book) i audio (audiobook) — beletrystyki, podręczników, poradników, książek dla dzieci, atlasów i map. Pasuje dla wydawnictw tradycyjnych, self-publisherów i wydawców cyfrowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Wydawnictwo beletrystyczne",
+      "use": "Wydaje powieści i literaturę faktu — pozyskuje autorów, redaguje, składa i dystrybuuje książki."
+    },
+    {
+      "persona": "Wydawca podręczników",
+      "use": "Tworzy podręczniki szkolne i akademickie zgodne z podstawą programową."
+    },
+    {
+      "persona": "Self-publisher",
+      "use": "Autor wydaje własne książki w modelu print-on-demand lub e-book na platformach (Amazon KDP, Lubimyczytać)."
+    },
+    {
+      "persona": "Wydawca audiobooków",
+      "use": "Produkuje wersje dźwiękowe książek z lektorami i dystrybuuje je przez Audioteka, Storytel itp."
+    }
+  ],
+  "businessExamples": [
+    "Małe wydawnictwo specjalizujące się w literaturze pięknej",
+    "Wydawca podręczników szkolnych",
+    "Autorka wydająca self-publishingowe romansy"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 58.13.Z (wydawanie czasopism) — periodyki i magazyny mają osobny kod.",
+    "Wybór 58.11.Z zamiast 18.13.Z (działalność usługowa związana z przygotowaniem do druku) — sam DTP i skład dla cudzych książek to inna klasa."
+  ],
+  "taxNotes": "Wydawanie książek korzysta z preferencyjnej stawki VAT (książki drukowane i e-booki). Wydawcy mogą rozliczać się na zasadach ogólnych, liniowo lub ryczałtem. Niektóre dochody autorskie podlegają podwyższonym kosztom uzyskania przychodu z tytułu praw autorskich. Stawki sprawdź u doradcy podatkowego."
+}

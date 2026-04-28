@@ -1,0 +1,36 @@
+{
+  "code": "46.43.Z",
+  "name": "Sprzedaż hurtowa elektrycznych artykułów użytku domowego",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.43.Z obejmuje sprzedaż hurtową elektrycznego sprzętu AGD, elektroniki użytkowej, sprzętu RTV, urządzeń foto-video, klimatyzatorów i drobnego AGD — od producentów i importerów do sklepów detalicznych, marketów i e-commerce. Sprzedaż detaliczna klasyfikowana jest pod 47.43.Z lub 47.54.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia AGD",
+      "use": "Dystrybuuje pralki, lodówki i kuchenki do sklepów detalicznych i e-commerce."
+    },
+    {
+      "persona": "Importer elektroniki",
+      "use": "Sprowadza sprzęt RTV i elektronikę użytkową do sieci sklepów."
+    },
+    {
+      "persona": "Dystrybutor klimatyzatorów",
+      "use": "Sprzedaje hurtowo urządzenia HVAC do firm instalacyjnych i marketów."
+    },
+    {
+      "persona": "Hurtownia drobnego AGD",
+      "use": "Dostarcza miksery, czajniki, ekspresy do sklepów i sieci handlowych."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia AGD dla sieci sklepów elektronicznych",
+    "Importer elektroniki użytkowej dla e-commerce",
+    "Dystrybutor klimatyzatorów dla branży HVAC"
+  ],
+  "commonMistakes": [
+    "Wybór 46.43.Z dla sprzedaży detalicznej — wtedy właściwy jest 47.54.Z (AGD) lub 47.43.Z (RTV).",
+    "Pomylenie z 27.51.Z (produkcja AGD) — 46.43.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Sprzedaż sprzętu elektronicznego objęta jest opłatą KGO (gospodarowanie odpadami sprzętu). VAT i forma opodatkowania zależą od skali. Stawki sprawdź u doradcy podatkowego."
+}

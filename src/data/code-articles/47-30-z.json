@@ -1,0 +1,36 @@
+{
+  "code": "47.30.Z",
+  "name": "Sprzedaż detaliczna paliw do pojazdów silnikowych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.30.Z obejmuje prowadzenie stacji paliw — sprzedaż benzyny, oleju napędowego, autogazu (LPG) i AdBlue klientom indywidualnym i firmom. Obejmuje też sklepiki przystacyjne, gdy są częścią stacji. To kod dla operatorów stacji niezależnych i franczyzobiorców sieci.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator niezależnej stacji paliw",
+      "use": "Prowadzi własną stację z dystrybutorami benzyny, ON i LPG na trasie regionalnej."
+    },
+    {
+      "persona": "Franczyzobiorca sieci",
+      "use": "Eksploatuje stację pod marką dużej sieci (Orlen, BP, Shell, Moya) na zasadzie franczyzy."
+    },
+    {
+      "persona": "Operator stacji przy autostradzie",
+      "use": "Prowadzi miejsce obsługi podróżnych (MOP) z paliwem, gastronomią i myjnią automatyczną."
+    },
+    {
+      "persona": "Stacja paliw dla flot",
+      "use": "Sprzedaje paliwo wyłącznie firmom transportowym na karty flotowe i podstawie umów ramowych."
+    }
+  ],
+  "businessExamples": [
+    "Niezależna stacja paliw przy drodze krajowej",
+    "Franczyzowa stacja sieci paliwowej",
+    "Stacja flotowa dla firm transportowych"
+  ],
+  "commonMistakes": [
+    "Wybór 47.30.Z zamiast 46.71.Z (sprzedaż hurtowa paliw) — sprzedaż dużych partii paliwa do baz paliwowych, hurtowni i firm transportowych w cysternach to hurt.",
+    "Pomylenie z 47.78.Z (pozostała sprzedaż detaliczna nowych wyrobów) — sklep przystacyjny niezwiązany ze stacją (np. samodzielny convenience) to inny kod."
+  ],
+  "taxNotes": "Sprzedaż paliw silnikowych podlega akcyzie, opłacie paliwowej, opłacie emisyjnej oraz obowiązkowemu mechanizmowi podzielonej płatności (split payment) przy transakcjach B2B. Stacje paliw mają specyficzne obowiązki ewidencyjne i raportowe. Stawki sprawdź u doradcy podatkowego."
+}

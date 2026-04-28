@@ -1,0 +1,36 @@
+{
+  "code": "82.30.Z",
+  "name": "Działalność związana z organizacją targów, wystaw i kongresów",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.30.Z obejmuje organizację targów branżowych, wystaw, konferencji, kongresów i eventów MICE. Pasuje dla agencji eventowych, organizatorów konferencji branżowych i operatorów targów. Pojedyncze imprezy kulturalne (koncerty, festiwale) klasyfikuje się pod 90.02.Z lub 93.29.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Agencja eventowa MICE",
+      "use": "Organizuje konferencje, gale firmowe, kongresy branżowe i wyjazdy integracyjne."
+    },
+    {
+      "persona": "Organizator targów branżowych",
+      "use": "Prowadzi cykliczne targi (np. budowlane, IT, gastronomiczne) i koordynuje wystawców."
+    },
+    {
+      "persona": "Operator centrum kongresowego",
+      "use": "Wynajmuje sale i kompleksowo obsługuje konferencje i kongresy w swoim obiekcie."
+    },
+    {
+      "persona": "Producent konferencji branżowych",
+      "use": "Tworzy własne marki konferencji (np. tech, marketing) i sprzedaje bilety oraz partnerstwa."
+    }
+  ],
+  "businessExamples": [
+    "Agencja organizująca konferencje IT dla 500+ uczestników",
+    "Operator cyklicznych targów budowlanych",
+    "Producent gali firmowych i kongresów branżowych"
+  ],
+  "commonMistakes": [
+    "Wybór 82.30.Z dla koncertów i festiwali muzycznych — to częściej 90.02.Z (działalność wspomagająca wystawianie przedstawień) lub 93.29.Z.",
+    "Pomylenie z 73.11.Z (reklama) — kampania promocyjna z eventem w środku to inny kod niż samo organizowanie eventu."
+  ],
+  "taxNotes": "Organizacja eventów podlega VAT, a sprzedaż biletów i pakietów sponsorskich może być rozliczana z różnymi stawkami w zależności od charakteru wydarzenia. Imprezy międzynarodowe wiążą się z rozliczeniami transgranicznymi. Stawki sprawdź u doradcy podatkowego."
+}

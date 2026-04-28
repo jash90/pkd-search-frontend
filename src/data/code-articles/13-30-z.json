@@ -1,0 +1,36 @@
+{
+  "code": "13.30.Z",
+  "name": "Wykończanie wyrobów tekstylnych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 13.30.Z obejmuje wykończanie wyrobów tekstylnych — bielenie, farbowanie, drukowanie tkanin, dzianin i odzieży, apreturowanie, plisowanie, impregnację oraz nadawanie efektów specjalnych (np. wodoodporność, antybakteryjność). Nie obejmuje produkcji tkanin (13.20.Z) ani odzieży (14.xx). Typowy kod dla farbiarni, drukarni tekstylnych i firm DTG/DTF.",
+  "whoUsesIt": [
+    {
+      "persona": "Drukarnia tekstylna DTG/DTF",
+      "use": "Drukuje grafiki na koszulkach, bluzach i tkaninach na zamówienie marek odzieżowych i e-commerce."
+    },
+    {
+      "persona": "Farbiarnia tkanin",
+      "use": "Farbuje tkaniny i dzianiny w kąpieli oraz na sztuce, oferuje recepty zgodne z OEKO-TEX i GOTS."
+    },
+    {
+      "persona": "Zakład apretury",
+      "use": "Nadaje tkaninom właściwości specjalne (niemnące, hydrofobowe, antystatyczne) na zlecenie tkalni."
+    },
+    {
+      "persona": "Drukarnia sitodrukowa na odzieży",
+      "use": "Wykonuje sitodruk i flex/flock na koszulkach, workach i odzieży reklamowej."
+    }
+  ],
+  "businessExamples": [
+    "Drukarnia DTF dla marek e-commerce",
+    "Farbiarnia tkanin z certyfikatem GOTS",
+    "Zakład apretury wodoodpornej dla branży outdoor"
+  ],
+  "commonMistakes": [
+    "Wybór 13.30.Z zamiast 13.20.Z, jeśli firma dodatkowo tka tkaniny — tkanie to osobna działalność, którą trzeba ująć w kodzie głównym lub dodatkowym.",
+    "Mylenie z 18.12.Z (pozostałe drukowanie) — druk na papierze, opakowaniach i materiałach reklamowych to poligrafia, a nie wykończanie tekstyliów."
+  ],
+  "taxNotes": "Wykończanie tekstyliów wiąże się z regulacjami środowiskowymi (gospodarka ściekami, REACH) oraz standardowymi zasadami opodatkowania PIT/CIT i VAT. Stawki sprawdź u doradcy podatkowego."
+}

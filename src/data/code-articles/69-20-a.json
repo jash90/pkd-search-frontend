@@ -1,0 +1,36 @@
+{
+  "code": "69.20.A",
+  "name": "Działalność rachunkowo-księgowa",
+  "section": "N",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 69.20.A obejmuje prowadzenie ksiąg rachunkowych, podatkowych i ewidencji finansowych klientów — działalność biur rachunkowych i księgowych. To podstawowy kod dla certyfikowanych księgowych, biur prowadzących pełną księgowość i KPiR oraz firm outsourcingowych obsługujących sprawozdawczość.",
+  "whoUsesIt": [
+    {
+      "persona": "Biuro rachunkowe",
+      "use": "Prowadzi księgi i ewidencje podatkowe firm — KPiR, ryczałt, pełna księgowość, kadry i płace."
+    },
+    {
+      "persona": "Księgowa freelancerka",
+      "use": "Obsługuje kilku-kilkunastu klientów z domu lub zdalnie, najczęściej sektor MŚP."
+    },
+    {
+      "persona": "Firma outsourcingu finansów",
+      "use": "Świadczy kompleksowe usługi finansowo-księgowe dla większych spółek (BPO/SSC dla biznesu)."
+    },
+    {
+      "persona": "Specjalista kadr i płac",
+      "use": "Skupia się na obsłudze kadrowo-płacowej, ZUS, PIT-11, ewidencji czasu pracy klientów."
+    }
+  ],
+  "businessExamples": [
+    "Lokalne biuro rachunkowe obsługujące małe firmy",
+    "Księgowa freelancerka prowadząca KPiR i ryczałty",
+    "Firma BPO obsługująca finanse spółek z grupy kapitałowej"
+  ],
+  "commonMistakes": [
+    "Wybór 69.20.A zamiast 69.20.B — doradztwo podatkowe (interpretacje, optymalizacja) wykonywane przez doradcę podatkowego ma kod 69.20.B.",
+    "Pomylenie z 69.20.C (audyt finansowy) — badanie sprawozdań przez biegłego rewidenta wymaga osobnego kodu 69.20.C."
+  ],
+  "taxNotes": "Usługi księgowe podlegają standardowej stawce VAT. Wielu właścicieli biur rachunkowych korzysta z ryczałtu według właściwej stawki (usługi rachunkowo-księgowe), inni wybierają liniowy lub skalę zależnie od skali działalności. Wymagane OC zawodowe dla usług księgowych. Stawki sprawdź u doradcy podatkowego."
+}

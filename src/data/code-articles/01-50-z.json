@@ -1,0 +1,36 @@
+{
+  "code": "01.50.Z",
+  "name": "Uprawy rolne połączone z chowem i hodowlą zwierząt (działalność mieszana)",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.50.Z dotyczy gospodarstw, w których uprawy rolne i chów zwierząt są ze sobą powiązane i żaden z tych kierunków znacząco nie dominuje wartością produkcji. To klasyczny model gospodarstwa rodzinnego łączącego np. uprawy zbożowe z chowem bydła czy trzody. Jeśli jeden z kierunków wyraźnie przeważa, używa się odrębnych kodów upraw lub chowu.",
+  "whoUsesIt": [
+    {
+      "persona": "Rodzinne gospodarstwo rolne",
+      "use": "Uprawia zboża i rośliny pastewne wykorzystywane jako pasza dla własnego stada bydła mlecznego."
+    },
+    {
+      "persona": "Hodowca trzody chlewnej z uprawami",
+      "use": "Łączy chów świń z uprawą kukurydzy i jęczmienia na własną paszę."
+    },
+    {
+      "persona": "Gospodarstwo agroturystyczne z produkcją",
+      "use": "Prowadzi mieszane uprawy i drobny chów (kozy, kury, krowy) na potrzeby produktów lokalnych."
+    },
+    {
+      "persona": "Gospodarstwo ekologiczne",
+      "use": "Stosuje płodozmian z uprawami i hodowlą bydła w certyfikowanym systemie BIO."
+    }
+  ],
+  "businessExamples": [
+    "Gospodarstwo z uprawą zbóż i chowem bydła mlecznego",
+    "Gospodarstwo łączące uprawy paszowe z tuczem trzody",
+    "Małe gospodarstwo BIO z warzywami i drobnym inwentarzem"
+  ],
+  "commonMistakes": [
+    "Wybór 01.50.Z, gdy jeden kierunek wyraźnie dominuje — przy przewadze upraw używaj kodów 01.11–01.29, a przy przewadze zwierząt 01.41–01.49.",
+    "Mylenie z 01.61.Z (działalność usługowa wspomagająca produkcję roślinną) — usługi dla innych rolników to inny kod niż własna produkcja mieszana."
+  ],
+  "taxNotes": "Działalność rolnicza w klasycznym ujęciu jest poza PIT, ale rozszerzenia (przetwórstwo, agroturystyka, działy specjalne) mogą wymagać rejestracji działalności i wybór formy opodatkowania (skala, liniowy, ryczałt). Stawki sprawdź u doradcy podatkowego."
+}

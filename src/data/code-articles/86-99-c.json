@@ -1,0 +1,36 @@
+{
+  "code": "86.99.C",
+  "name": "Działalność logopedyczna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.99.C obejmuje świadczenie usług logopedycznych — diagnozę i terapię zaburzeń mowy, języka, głosu oraz komunikacji u dzieci i dorosłych. Pasuje zarówno do prywatnych gabinetów logopedycznych, jak i wizyt domowych czy terapii online. Nie obejmuje typowej rehabilitacji ruchowej (zob. 86.90.A).",
+  "whoUsesIt": [
+    {
+      "persona": "Logopeda prowadzący prywatny gabinet",
+      "use": "Przyjmuje dzieci z wadami wymowy i prowadzi terapię w gabinecie stacjonarnym."
+    },
+    {
+      "persona": "Neurologopeda",
+      "use": "Pracuje z pacjentami po udarze, urazach mózgu i z chorobami neurodegeneracyjnymi."
+    },
+    {
+      "persona": "Logopeda mobilny",
+      "use": "Świadczy usługi w domu pacjenta, szkołach lub przedszkolach na zlecenie."
+    },
+    {
+      "persona": "Terapeuta mowy online",
+      "use": "Prowadzi konsultacje i terapię logopedyczną przez wideokonferencję."
+    }
+  ],
+  "businessExamples": [
+    "Gabinet logopedyczny dla dzieci",
+    "Praktyka neurologopedyczna dla dorosłych",
+    "Mobilna terapia logopedyczna w przedszkolach"
+  ],
+  "commonMistakes": [
+    "Wybór 86.90.A (działalność fizjoterapeutyczna), gdy faktycznie świadczone są usługi logopedyczne — to różne specjalizacje medyczne.",
+    "Pomylenie z 85.60.Z (działalność wspomagająca edukację) — porady psychologiczno-pedagogiczne to inna kategoria niż terapia logopedyczna."
+  ],
+  "taxNotes": "Usługi logopedyczne w zakresie ochrony zdrowia mogą korzystać ze zwolnienia z VAT. Ryczałt jest częstym wyborem przy niskich kosztach, ale przy zatrudnianiu i wynajmie gabinetu warto rozważyć zasady ogólne. Stawki sprawdź u doradcy podatkowego."
+}

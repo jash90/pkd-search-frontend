@@ -1,0 +1,36 @@
+{
+  "code": "63.10.B",
+  "name": "Działalność usługowa w zakresie DNS",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 63.10.B obejmuje świadczenie usług związanych z systemem DNS — rejestrację domen, prowadzenie rejestru, hosting strefy DNS, ochronę przed DDoS na poziomie DNS i usługi managed DNS. Pasuje dla rejestratorów domen, operatorów rejestrów krajowych i dostawców DNS-as-a-service.",
+  "whoUsesIt": [
+    {
+      "persona": "Rejestrator domen",
+      "use": "Sprzedaje domeny .pl, .com, .eu i inne TLD klientom końcowym — pełni rolę resellera lub akredytowanego rejestratora."
+    },
+    {
+      "persona": "Operator rejestru domen",
+      "use": "Prowadzi rejestr krajowy lub branżowy (TLD) — odpowiada za infrastrukturę i politykę nazewnictwa."
+    },
+    {
+      "persona": "Dostawca managed DNS",
+      "use": "Świadczy zarządzane usługi DNS dla firm — wysoka dostępność, geo-routing, ochrona DDoS."
+    },
+    {
+      "persona": "Operator anycast DNS",
+      "use": "Udostępnia globalną sieć anycast DNS dla operatorów i dużych portali."
+    }
+  ],
+  "businessExamples": [
+    "Polski rejestrator domen .pl",
+    "Dostawca managed DNS dla e-commerce",
+    "Operator anycast DNS dla mediów"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 63.10.A (kolokacja i chmura) — fizyczne data center i chmura to osobna klasa.",
+    "Wybór 63.10.B zamiast 63.10.D — sam webhosting bez usług DNS klasyfikuje się ogólnie."
+  ],
+  "taxNotes": "Sprzedaż domen klientom zagranicznym podlega specyficznym zasadom VAT (OSS dla UE, reverse charge poza UE). Działalność może być rozliczana na zasadach ogólnych lub liniowo. Stawki sprawdź u doradcy podatkowego."
+}

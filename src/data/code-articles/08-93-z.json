@@ -1,0 +1,36 @@
+{
+  "code": "08.93.Z",
+  "name": "Wydobywanie soli",
+  "section": "B",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 08.93.Z obejmuje wydobywanie soli kamiennej (halitu) metodą podziemną oraz pozyskiwanie soli warzonej z solanek, w tym ługowanie podziemne. W Polsce kluczowe ośrodki to Wieliczka, Kłodawa, Bochnia oraz produkcja soli warzonej w Ciechocinku i kopalniach Inowrocławia.",
+  "whoUsesIt": [
+    {
+      "persona": "Kopalnia soli kamiennej",
+      "use": "Wydobywa halit metodą głębinową dla przemysłu spożywczego, drogowego i chemicznego."
+    },
+    {
+      "persona": "Warzelnia soli",
+      "use": "Pozyskuje sól z solanek metodą warzenia, zwykle dla przemysłu spożywczego."
+    },
+    {
+      "persona": "Producent soli specjalistycznej",
+      "use": "Wydobywa sól dla przemysłu spożywczego premium (sól himalajska, kłodawska)."
+    },
+    {
+      "persona": "Spółka geotermalno-solankowa",
+      "use": "Łączy wydobycie soli z solanek z balneologią i wykorzystaniem ciepła geotermalnego."
+    }
+  ],
+  "businessExamples": [
+    "Kopalnia Soli Kłodawa",
+    "Warzelnia soli inowrocławskiej",
+    "Producent soli kłodawskiej premium"
+  ],
+  "commonMistakes": [
+    "Wybór 08.93.Z zamiast 91.02.Z (działalność muzeów), gdy obiekt funkcjonuje głównie jako atrakcja turystyczna (Wieliczka jako muzeum), a nie kopalnia produkcyjna.",
+    "Pomylenie z 08.91.Z, gdy wydobywasz sole potasowo-magnezowe dla nawozów — te trafiają do kodu surowców chemicznych."
+  ],
+  "taxNotes": "Wydobycie soli wymaga koncesji ministerialnej, opłat eksploatacyjnych i ścisłej dokumentacji geologicznej. Działalność CIT-owa z VAT-em na zasadach ogólnych — istotna jest też analiza amortyzacji złoża. Stawki sprawdź u doradcy podatkowego."
+}

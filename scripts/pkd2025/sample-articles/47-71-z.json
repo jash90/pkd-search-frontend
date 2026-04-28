@@ -1,0 +1,36 @@
+{
+  "code": "47.71.Z",
+  "name": "Sprzedaż detaliczna odzieży prowadzona w wyspecjalizowanych sklepach",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-sonnet-4-6",
+  "intro": "Kod 47.71.Z to detaliczna sprzedaż odzieży w sklepach stacjonarnych wyspecjalizowanych w tej kategorii — czyli butiki, sklepy odzieżowe sieciowe i niezależne, second-handy. Obejmuje również sprzedaż akcesoriów odzieżowych i bielizny, jeśli są oferowane razem z odzieżą jako asortyment główny. Dla sprzedaży online używaj kodu 47.91.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel butiku odzieżowego",
+      "use": "Prowadzi mały sklep stacjonarny z odzieżą damską, męską lub dziecięcą."
+    },
+    {
+      "persona": "Franczyzobiorca sieciówki",
+      "use": "Operuje punktem sieci typu Reserved, House, Cropp w galerii handlowej."
+    },
+    {
+      "persona": "Sprzedawca odzieży vintage / second-hand",
+      "use": "Skupuje, sortuje i sprzedaje odzież używaną w sklepie stacjonarnym."
+    },
+    {
+      "persona": "Showroom designerski",
+      "use": "Sprzedaje kolekcje własnych projektantów lub niszowych marek w lokalu."
+    }
+  ],
+  "businessExamples": [
+    "Butik z odzieżą damską w centrum miasta",
+    "Second-hand z odzieżą markową",
+    "Showroom polskich projektantów"
+  ],
+  "commonMistakes": [
+    "Wybór 47.71.Z zamiast 47.91.Z, jeśli sprzedaż odbywa się głównie przez internet (sklep online to 47.91.Z, nawet jeśli istnieje też lokal).",
+    "Pomylenie z 14.13.Z (produkcja odzieży) — jeśli sam projektujesz i szyjesz, potrzebujesz dodatkowo lub zamiast tego kodu produkcyjnego."
+  ],
+  "taxNotes": "Sprzedaż detaliczna podlega kasie fiskalnej (z wyjątkami) i odpowiednim limitom VAT. Forma opodatkowania (skala/liniowy/ryczałt) zależy od skali działalności i kosztów stałych — sklep stacjonarny ma zwykle wysokie koszty (czynsz, towar), co wpływa na opłacalność wyboru. Stawki sprawdź u doradcy podatkowego."
+}

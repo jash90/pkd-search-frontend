@@ -1,0 +1,36 @@
+{
+  "code": "14.22.Z",
+  "name": "Produkcja bielizny",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 14.22.Z obejmuje produkcję bielizny damskiej i męskiej — biustonoszy, majtek, body, gorsetów, halek, piżam, koszul nocnych, szlafroków oraz bielizny dziecięcej. To wyspecjalizowany kod dla manufaktur bieliźniarskich.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent bielizny damskiej",
+      "use": "Projektuje i produkuje biustonosze, majtki i komplety dla rynku detalicznego."
+    },
+    {
+      "persona": "Wytwórca bielizny męskiej",
+      "use": "Produkuje bokserki, slipy i podkoszulki pod marką własną i w private label."
+    },
+    {
+      "persona": "Manufaktura piżam i koszul nocnych",
+      "use": "Szyje piżamy, szlafroki i koszule nocne dla retailu i sieci hotelowych."
+    },
+    {
+      "persona": "Producent bielizny dziecięcej",
+      "use": "Wytwarza bawełnianą bieliznę i piżamy dla niemowląt i dzieci."
+    }
+  ],
+  "businessExamples": [
+    "Marka bielizny damskiej D2C",
+    "Manufaktura piżam i szlafroków",
+    "Producent bielizny męskiej w private label"
+  ],
+  "commonMistakes": [
+    "Wybór 14.22.Z zamiast 14.21.Z (Produkcja odzieży wierzchniej) — body i topy noszone jako odzież wierzchnia mogą iść do 14.21.Z.",
+    "Pomylenie z 14.31.Z (Produkcja wyrobów pończoszniczych) — pończochy, rajstopy i skarpety mają osobny kod 14.31.Z."
+  ],
+  "taxNotes": "Produkcja bielizny podlega standardowej stawce VAT, a forma opodatkowania zależy od skali i modelu sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "35.22.Z",
+  "name": "Dystrybucja paliw gazowych w systemie sieciowym",
+  "section": "D",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 35.22.Z dotyczy dystrybucji gazu ziemnego (i biometanu) sieciami średniego i niskiego ciśnienia do odbiorców końcowych — gospodarstw domowych, firm, ciepłowni. To działalność operatorów systemu dystrybucyjnego gazowego (OSDg), w Polsce głównie Polskiej Spółki Gazownictwa.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator systemu dystrybucyjnego gazu (OSDg)",
+      "use": "Zarządza siecią gazową na obszarze regionu i obsługuje przyłącza klientów."
+    },
+    {
+      "persona": "Lokalny dystrybutor gazu",
+      "use": "Obsługuje sieć gazową w gminie lub na osiedlu."
+    },
+    {
+      "persona": "Operator sieci wewnętrznej zakładowej",
+      "use": "Dystrybuuje gaz w parku przemysłowym jako OSDgn."
+    },
+    {
+      "persona": "Spółka eksploatacyjna gazociągów",
+      "use": "Świadczy usługi utrzymaniowe sieci dystrybucyjnej."
+    }
+  ],
+  "businessExamples": [
+    "Operator OSDg w regionie",
+    "Lokalna gazownia gminna",
+    "Operator sieci gazowej w parku logistycznym"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 35.23.Z (handel gazem), gdy firma faktycznie sprzedaje gaz, a nie eksploatuje sieć.",
+    "Wybór 35.22.Z zamiast 42.21.Z, gdy firma buduje, a nie eksploatuje gazociągi."
+  ],
+  "taxNotes": "Operator OSDg wymaga koncesji URE i podlega regulacji taryfowej. Działalność objęta jest obowiązkiem unbundlingu i obowiązkami operatora sieci. Stawki sprawdź u doradcy podatkowego."
+}

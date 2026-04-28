@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 
 const navItems = [
   { to: '/', label: 'Strona główna', end: true },
+  { to: '/pkd-2025', label: 'Lista PKD 2025' },
   { to: '/przyklady', label: 'Przykładowe kody PKD' },
   { to: '/artykuly', label: 'Poradnik PKD' },
 ];

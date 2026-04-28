@@ -1,0 +1,36 @@
+{
+  "code": "84.25.Z",
+  "name": "Ochrona przeciwpożarowa",
+  "section": "P",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 84.25.Z dotyczy działalności Państwowej Straży Pożarnej, Ochotniczych Straży Pożarnych w ramach krajowego systemu ratowniczo-gaśniczego oraz lotniczych służb ratowniczych. Obejmuje gaszenie pożarów, ratownictwo techniczne, chemiczne i medyczne. Komercyjne firmy serwisu gaśnic to 33.12.Z, a doradztwo ppoż to 71.20.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Państwowa Straż Pożarna (komenda)",
+      "use": "Prowadzi działania ratowniczo-gaśnicze, ratownictwo drogowe, chemiczne i specjalistyczne."
+    },
+    {
+      "persona": "Ochotnicza Straż Pożarna w KSRG",
+      "use": "Wspiera PSP w działaniach ratowniczych w gminach, dysponuje sprzętem i wyszkolonymi ratownikami."
+    },
+    {
+      "persona": "Lotnicze Pogotowie Ratunkowe (działania ratownicze)",
+      "use": "Realizuje misje ratownictwa lotniczego — śmigłowce HEMS w sytuacjach zagrożenia życia."
+    },
+    {
+      "persona": "Krajowe Centrum Koordynacji Ratownictwa",
+      "use": "Koordynuje akcje ratownicze obejmujące wiele służb i województw, w sytuacjach klęsk żywiołowych."
+    }
+  ],
+  "businessExamples": [
+    "Komenda Powiatowa Państwowej Straży Pożarnej",
+    "OSP w Krajowym Systemie Ratowniczo-Gaśniczym",
+    "Lotniczy zespół ratownictwa medycznego HEMS"
+  ],
+  "commonMistakes": [
+    "Wybór 84.25.Z przez prywatną firmę serwisującą gaśnice i systemy ppoż — to 33.12.Z (naprawa) i 43.29.Z (instalacje przeciwpożarowe).",
+    "Pomylenie z 71.20.B (pozostałe badania i analizy techniczne) — odbiory ppoż i ekspertyzy rzeczoznawców to inny kod."
+  ],
+  "taxNotes": "PSP i jednostki KSRG finansowane są z budżetu państwa i samorządów. Komercyjne usługi przeciwpożarowe (przeglądy, doradztwo) podlegają standardowym formom opodatkowania zależnie od wybranego kodu. Stawki sprawdź u doradcy podatkowego."
+}

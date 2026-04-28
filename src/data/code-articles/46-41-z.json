@@ -1,0 +1,36 @@
+{
+  "code": "46.41.Z",
+  "name": "Sprzedaż hurtowa wyrobów tekstylnych",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 46.41.Z obejmuje sprzedaż hurtową tkanin, dzianin, pościeli, ręczników, firan, włóknin oraz galanterii tekstylnej — do zakładów szwalniczych, sklepów tekstylnych, hoteli i HoReCa. Sprzedaż gotowej odzieży klasyfikowana jest pod 46.42.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Hurtownia tkanin",
+      "use": "Dostarcza tkaniny krawieckie i obiciowe do zakładów szwalniczych i tapicerskich."
+    },
+    {
+      "persona": "Dystrybutor pościeli i ręczników",
+      "use": "Zaopatruje hotele, sklepy z wyposażeniem domu i sieci handlowe."
+    },
+    {
+      "persona": "Importer tekstyliów technicznych",
+      "use": "Sprowadza włókniny i tkaniny techniczne dla przemysłu i ochrony pracy."
+    },
+    {
+      "persona": "Hurtownia firan i tkanin dekoracyjnych",
+      "use": "Sprzedaje materiały na firany, zasłony i dekoracje wnętrz dla salonów i tapicerów."
+    }
+  ],
+  "businessExamples": [
+    "Hurtownia tkanin krawieckich dla zakładów szwalniczych",
+    "Dystrybutor pościeli hotelowej dla sieci HoReCa",
+    "Importer tkanin obiciowych dla tapicerów"
+  ],
+  "commonMistakes": [
+    "Wybór 46.41.Z dla sprzedaży gotowej odzieży — wtedy właściwy jest 46.42.Z.",
+    "Pomylenie z 13.20.Z (produkcja tkanin) — 46.41.Z to handel, nie produkcja."
+  ],
+  "taxNotes": "Stawki VAT na tekstylia są standardowe. Forma opodatkowania zależy od skali działalności i struktury kosztów. Stawki sprawdź u doradcy podatkowego."
+}

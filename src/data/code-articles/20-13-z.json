@@ -1,0 +1,36 @@
+{
+  "code": "20.13.Z",
+  "name": "Produkcja pozostałych podstawowych chemikaliów nieorganicznych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 20.13.Z obejmuje produkcję podstawowych chemikaliów nieorganicznych — kwasów (siarkowego, azotowego, solnego), zasad, soli technicznych, tlenków metali, krzemianów, fosforanów oraz pierwiastków rzadkich. To kod dla wielkiej chemii nieorganicznej dostarczającej surowce dla wielu branż.",
+  "whoUsesIt": [
+    {
+      "persona": "Zakłady chemiczne nieorganiczne",
+      "use": "Produkują kwas siarkowy, sodę kalcynowaną i amoniak na potrzeby przemysłu."
+    },
+    {
+      "persona": "Producent soli technicznych",
+      "use": "Wytwarza chlorki, siarczany i fosforany dla branży uzdatniania wody i metalurgii."
+    },
+    {
+      "persona": "Wytwórca tlenków metali",
+      "use": "Produkuje tlenki cynku, glinu i magnezu dla przemysłu ceramicznego i farmaceutycznego."
+    },
+    {
+      "persona": "Zakład produkcji izotopów",
+      "use": "Wytwarza materiały radiochemiczne i rzadkie pierwiastki na potrzeby badawcze i medyczne."
+    }
+  ],
+  "businessExamples": [
+    "Zakłady produkujące kwas siarkowy",
+    "Wytwórnia sody kalcynowanej dla szklarstwa",
+    "Producent fosforanów dla detergentów"
+  ],
+  "commonMistakes": [
+    "Wybór 20.13.Z dla produkcji nawozów azotowych — nawozy mają osobny kod 20.15.Z.",
+    "Pomylenie z 20.14.Z (chemikalia organiczne) — związki węgla, benzen czy etylen klasyfikowane są oddzielnie."
+  ],
+  "taxNotes": "Wielka chemia nieorganiczna podlega ścisłym regulacjom środowiskowym (IPPC, ETS) i transportowym (ADR). Wybór formy opodatkowania zależy od skali produkcji. Stawki sprawdź u doradcy podatkowego."
+}

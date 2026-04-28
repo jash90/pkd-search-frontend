@@ -1,0 +1,36 @@
+{
+  "code": "10.89.B",
+  "name": "Produkcja substytutów mięsa",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 10.89.B obejmuje produkcję substytutów mięsa — wegańskich i wegetariańskich burgerów, kiełbas, parówek, pasztetów i kotletów na bazie soi, grochu, seitan, tempeh czy białek roślinnych. To stosunkowo nowy, wyspecjalizowany kod dedykowany rosnącemu rynkowi plant-based.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent burgerów roślinnych",
+      "use": "Wytwarza kotlety i burgery wegańskie z białek grochu i soi dla retailu i HoReCa."
+    },
+    {
+      "persona": "Manufaktura tempeh / tofu / seitan",
+      "use": "Produkuje fermentowane i nieprzetworzone substytuty mięsa rzemieślniczo."
+    },
+    {
+      "persona": "Wytwórca wegańskich wędlin",
+      "use": "Produkuje plastry wegańskich wędlin, parówek i pasztetów na bazie roślin."
+    },
+    {
+      "persona": "Startup plant-based",
+      "use": "Rozwija innowacyjne substytuty mięsa (np. z białka grzybowego, mykoproteiny) dla nowoczesnego konsumenta."
+    }
+  ],
+  "businessExamples": [
+    "Producent wegańskich burgerów dla supermarketów",
+    "Manufaktura tofu i tempehu",
+    "Startup wytwarzający kiełbasy roślinne pod marką własną"
+  ],
+  "commonMistakes": [
+    "Wybór 10.89.B zamiast 10.89.C (Roślinne substytuty jaj, nabiału) — wegańskie sery i jogurty mają osobny kod 10.89.C.",
+    "Pomylenie z 10.13.Z (Produkcja wyrobów z mięsa) — substytut roślinny to 10.89.B, a wyrób z prawdziwego mięsa to 10.13.Z."
+  ],
+  "taxNotes": "Substytuty mięsa podlegają standardowej stawce VAT na artykuły spożywcze, a forma opodatkowania zależy od skali produkcji i kanałów sprzedaży. Stawki sprawdź u doradcy podatkowego."
+}

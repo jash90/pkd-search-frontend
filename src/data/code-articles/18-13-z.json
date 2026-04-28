@@ -1,0 +1,36 @@
+{
+  "code": "18.13.Z",
+  "name": "Działalność usługowa związana z przygotowywaniem do druku",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 18.13.Z obejmuje usługi prepress — skład komputerowy, DTP, retusz zdjęć, naświetlanie blach offsetowych, przygotowanie plików PDF do druku oraz wykonanie form drukarskich i klisz. To kod dla studiów graficznych i firm prepress obsługujących drukarnie.",
+  "whoUsesIt": [
+    {
+      "persona": "Studio DTP",
+      "use": "Składa katalogi, książki i ulotki, przygotowuje pliki produkcyjne dla drukarń."
+    },
+    {
+      "persona": "Firma prepress",
+      "use": "Naświetla blachy CTP i przygotowuje formy drukarskie offsetowe na zlecenie."
+    },
+    {
+      "persona": "Specjalista retuszu cyfrowego",
+      "use": "Obrabia fotografie produktowe i reklamowe pod druk wielkonakładowy."
+    },
+    {
+      "persona": "Studio packaging design",
+      "use": "Tworzy projekty opakowań i przygotowuje wykrojniki oraz separacje kolorów."
+    }
+  ],
+  "businessExamples": [
+    "Studio DTP składające katalogi i książki",
+    "Firma naświetlająca blachy offsetowe CTP",
+    "Studio retuszu fotografii produktowej"
+  ],
+  "commonMistakes": [
+    "Wybór 18.13.Z, gdy firma faktycznie drukuje materiały — drukowanie to 18.12.Z lub 18.11.Z.",
+    "Pomylenie z 74.10.Z (działalność w zakresie specjalistycznego projektowania) — sam projekt graficzny bez przygotowania do produkcji to inny kod."
+  ],
+  "taxNotes": "Usługi prepress często rozliczane są godzinowo lub projektowo, a wielu specjalistów wybiera formę B2B z ryczałtem. Wybór konkretnej stawki zależy od typu świadczonych prac. Stawki sprawdź u doradcy podatkowego."
+}

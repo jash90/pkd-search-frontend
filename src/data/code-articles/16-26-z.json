@@ -1,0 +1,36 @@
+{
+  "code": "16.26.Z",
+  "name": "Produkcja paliw stałych z biomasy roślinnej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 16.26.Z obejmuje produkcję paliw stałych z biomasy — peletów drzewnych, brykietów drzewnych, brykietów ze słomy, zrębki opałowej. To kod dla wytwórców paliw odnawialnych w formie sprasowanej, używanych w piecach na biomasę i kotłach przemysłowych.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent pelletu drzewnego",
+      "use": "Produkuje pellet z trocin tartacznych dla pieców domowych i ciepłowni."
+    },
+    {
+      "persona": "Wytwórca brykietów drzewnych",
+      "use": "Produkuje brykiety opałowe RUF lub Pini-Kay z odpadów drzewnych."
+    },
+    {
+      "persona": "Producent brykietów ze słomy",
+      "use": "Brykietuje słomę zbóż dla rolniczych i komunalnych systemów grzewczych."
+    },
+    {
+      "persona": "Wytwórca zrębki opałowej",
+      "use": "Produkuje zrębki energetyczne dla elektrociepłowni i lokalnych ciepłowni."
+    }
+  ],
+  "businessExamples": [
+    "Pelleciarnia z certyfikatem ENplus A1",
+    "Producent brykietów drzewnych RUF",
+    "Wytwórca zrębki energetycznej dla ciepłowni"
+  ],
+  "commonMistakes": [
+    "Wybór 16.26.Z zamiast 02.20.Z (Pozyskiwanie drewna) — wycinka drewna opałowego to 02.20.Z, a sprasowanie do peletu/brykietu to 16.26.Z.",
+    "Pomylenie z 35.30.Z (Wytwarzanie i zaopatrywanie w parę wodną) — sprzedaż peletu to 16.26.Z, a samo wytwarzanie ciepła to dział 35."
+  ],
+  "taxNotes": "Pellet i brykiety podlegają stawkom VAT typowym dla paliw, a paliwa z biomasy często korzystają z preferencji w polityce klimatycznej. Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "47.91.Z",
+  "name": "Pośrednictwo w sprzedaży detalicznej niewyspecjalizowanej",
+  "section": "G",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 47.91.Z obejmuje pośrednictwo w detalicznej sprzedaży niewyspecjalizowanej — m.in. sprzedaż wysyłkową, internetową, akwizycję domową i przez automaty. To główny kod dla sklepów internetowych e-commerce z asortymentem ogólnym, marketplaces i platform sprzedażowych z wieloma kategoriami.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel sklepu internetowego",
+      "use": "Prowadzi e-commerce z różnymi kategoriami produktów (odzież, dom, elektronika)."
+    },
+    {
+      "persona": "Sprzedawca na marketplace",
+      "use": "Sprzedaje na Allegro, Amazon, Empik, OLX z modelem dropshipping lub własnym magazynem."
+    },
+    {
+      "persona": "Operator platformy zakupowej",
+      "use": "Prowadzi własną platformę e-commerce z wieloma sprzedawcami."
+    },
+    {
+      "persona": "Sprzedawca catalogowy / TV",
+      "use": "Oferuje produkty w katalogach lub przez telezakupy z dostawą do klienta."
+    }
+  ],
+  "businessExamples": [
+    "Sklep internetowy z asortymentem ogólnym",
+    "Sprzedawca dropshippingowy na Amazonie",
+    "Platforma e-commerce z wieloma kategoriami"
+  ],
+  "commonMistakes": [
+    "Wybór 47.91.Z zamiast 47.92.Z, jeśli sklep online specjalizuje się w jednej kategorii (np. tylko obuwie online).",
+    "Pomylenie z 47.71.Z (sklep stacjonarny z odzieżą) — sklep wyłącznie online to 47.91.Z lub 47.92.Z."
+  ],
+  "taxNotes": "Sprzedaż wysyłkowa wymaga rozliczeń VAT-OSS przy sprzedaży transgranicznej w UE. Obowiązują RODO, regulamin e-commerce i prawo konsumenta (zwroty 14 dni). Stawki sprawdź u doradcy podatkowego."
+}

@@ -1,0 +1,36 @@
+{
+  "code": "86.21.Z",
+  "name": "Praktyka lekarska ogólna",
+  "section": "R",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 86.21.Z dotyczy praktyki lekarza rodzinnego i lekarza POZ — podstawowej opieki zdrowotnej. Obejmuje gabinety lekarzy ogólnych, lekarzy rodzinnych, internistów świadczących opiekę nieprofilowaną. Lekarze specjaliści (kardiolodzy, dermatolodzy itd.) używają 86.22.Z, a stomatolodzy 86.23.Z.",
+  "whoUsesIt": [
+    {
+      "persona": "Lekarz rodzinny prowadzący praktykę",
+      "use": "Prowadzi własny gabinet POZ z kontraktem NFZ — przyjmuje pacjentów na podstawowej opiece zdrowotnej."
+    },
+    {
+      "persona": "Lekarz wizyt domowych",
+      "use": "Świadczy usługi medyczne w domach pacjentów — prywatne wizyty bez kontraktu NFZ."
+    },
+    {
+      "persona": "Spółka prowadząca przychodnię POZ",
+      "use": "Operuje przychodnią z kilkoma lekarzami POZ obsługującymi rejony pacjentów na liście aktywnej."
+    },
+    {
+      "persona": "Lekarz medycyny pracy / okulista bez specjalizacji",
+      "use": "Przyjmuje pacjentów w ramach badań ogólnych, bez wąskiej specjalizacji wykraczającej poza interna."
+    }
+  ],
+  "businessExamples": [
+    "Praktyka lekarza rodzinnego z kontraktem NFZ",
+    "Prywatny gabinet lekarza wizyt domowych",
+    "Przychodnia POZ obsługująca rejon"
+  ],
+  "commonMistakes": [
+    "Wybór 86.21.Z przez lekarza specjalistę (np. kardiologa) — to 86.22.Z, niezależnie od tego czy ma kontrakt NFZ.",
+    "Pomylenie z 86.10.Z (działalność szpitali) — praktyka lekarska to działalność ambulatoryjna, szpitale to inny kod nawet dla lekarzy POZ pracujących w szpitalach."
+  ],
+  "taxNotes": "Lekarze często wybierają liniowy lub skalę z uwagi na wysokie koszty (sprzęt, czynsz, ubezpieczenie OC). Usługi medyczne służące profilaktyce i leczeniu są zwolnione z VAT. Wymaga rejestracji praktyki w izbie lekarskiej. Stawki sprawdź u doradcy podatkowego."
+}

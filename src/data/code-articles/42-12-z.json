@@ -1,0 +1,36 @@
+{
+  "code": "42.12.Z",
+  "name": "Roboty związane z budową dróg szynowych i kolei podziemnej",
+  "section": "F",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 42.12.Z dotyczy budowy i modernizacji infrastruktury szynowej — torów kolejowych, tramwajowych, metra, kolei wąskotorowych, bocznic, peronów i sieci trakcyjnej. To wyspecjalizowany segment budownictwa infrastrukturalnego z odrębnymi wymogami technologicznymi.",
+  "whoUsesIt": [
+    {
+      "persona": "Wykonawca modernizacji linii kolejowych",
+      "use": "Realizuje kontrakty PKP PLK na modernizację linii kolejowych."
+    },
+    {
+      "persona": "Firma od torowisk tramwajowych",
+      "use": "Buduje nowe linie tramwajowe i remontuje istniejące w miastach."
+    },
+    {
+      "persona": "Wykonawca metra",
+      "use": "Realizuje stacje, perony i tory podziemnej kolei miejskiej."
+    },
+    {
+      "persona": "Firma od bocznic kolejowych",
+      "use": "Buduje bocznice obsługujące zakłady przemysłowe i terminale."
+    }
+  ],
+  "businessExamples": [
+    "Modernizacja linii kolejowej E65",
+    "Budowa nowej linii tramwajowej w mieście",
+    "Bocznica kolejowa do terminala przeładunkowego"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 42.11.Z (drogi i autostrady) — jeśli torowisko jest wbudowane w jezdnię, dominującym kodem pozostaje 42.12.Z.",
+    "Wybór 42.12.Z zamiast 42.13.Z, gdy faktycznie buduje się tunele kolejowe lub mosty kolejowe — to odrębne kody."
+  ],
+  "taxNotes": "Branża budowlana objęta jest mechanizmem podzielonej płatności (split payment) i odwrotnym obciążeniem VAT. Kontrakty kolejowe wymagają certyfikacji i kwalifikacji wykonawców (NoBo, ISA). Stawki sprawdź u doradcy podatkowego."
+}

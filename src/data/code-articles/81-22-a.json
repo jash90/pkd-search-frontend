@@ -1,0 +1,36 @@
+{
+  "code": "81.22.A",
+  "name": "Czyszczenie kominów i palenisk, pieców, przewodów wentylacyjnych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.22.A to działalność kominiarska — czyszczenie kominów, przewodów dymowych i wentylacyjnych, palenisk, pieców i kotłów grzewczych. Obejmuje też przeglądy techniczne i odbiory kominiarskie. Działalność wymaga uprawnień mistrza kominiarskiego. Sprzątanie ogólne budynków to 81.21.Z, a usługi dezynfekcyjne to 81.23.A.",
+  "whoUsesIt": [
+    {
+      "persona": "Mistrz kominiarski",
+      "use": "Czyści kominy w domach jednorodzinnych i blokach, wystawia opinie kominiarskie wymagane przez ubezpieczycieli."
+    },
+    {
+      "persona": "Firma serwisu wentylacji",
+      "use": "Czyści przewody wentylacyjne w restauracjach, biurach i obiektach przemysłowych — z usuwaniem tłuszczu i osadów."
+    },
+    {
+      "persona": "Specjalista od pieców przemysłowych",
+      "use": "Czyści paleniska kotłów i pieców w zakładach produkcyjnych, kotłowniach osiedlowych, ciepłowniach."
+    },
+    {
+      "persona": "Kominiarz wykonujący przeglądy",
+      "use": "Świadczy obowiązkowe coroczne przeglądy kominów dla wspólnot, spółdzielni i właścicieli domów."
+    }
+  ],
+  "businessExamples": [
+    "Zakład kominiarski obsługujący domy jednorodzinne i wspólnoty",
+    "Firma czyszczenia wentylacji kuchennej w restauracjach",
+    "Serwis pieców i kotłów w zakładach przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 81.22.A do ogólnego czyszczenia budynków (mycie podłóg, biur) — to 81.21.Z, kominiarstwo wymaga uprawnień zawodowych.",
+    "Pomylenie z 43.22.Z (instalacje wodno-kanalizacyjne, cieplne) — jeśli montujesz kominy lub piece, to inny kod, nie czyszczenie."
+  ],
+  "taxNotes": "Działalność kominiarska wymaga kwalifikacji zawodowych (mistrz kominiarski). Przy niskich kosztach często ryczałt, przy ekipach i sprzęcie zwykle skala lub liniowy. Możliwa kasa fiskalna przy usługach dla osób fizycznych. Stawki sprawdź u doradcy podatkowego."
+}

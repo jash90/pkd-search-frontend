@@ -1,0 +1,36 @@
+{
+  "code": "23.64.Z",
+  "name": "Produkcja zaprawy murarskiej",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 23.64.Z obejmuje produkcję suchych mieszanek budowlanych — zapraw murarskich, tynkarskich, klejów do płytek, gipsów szpachlowych, fug, posadzek samopoziomujących oraz suchych zapraw specjalistycznych. To kod dla wytwórców chemii budowlanej w workach.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent suchych zapraw budowlanych",
+      "use": "Wytwarza zaprawy klejowe, tynki i fugi pakowane w worki 25 kg dla marketów budowlanych."
+    },
+    {
+      "persona": "Wytwórca klejów do płytek",
+      "use": "Produkuje kleje cementowe C1, C2 i kleje do gresów wielkoformatowych."
+    },
+    {
+      "persona": "Producent posadzek samopoziomujących",
+      "use": "Wytwarza wylewki anhydrytowe i cementowe dla hal i mieszkań."
+    },
+    {
+      "persona": "Wytwórca tynków mineralnych",
+      "use": "Produkuje tynki cementowo-wapienne, gipsowe i ozdobne dla elewacji."
+    }
+  ],
+  "businessExamples": [
+    "Producent klejów do płytek dla DIY",
+    "Wytwórnia tynków gipsowych maszynowych",
+    "Zakład posadzek samopoziomujących"
+  ],
+  "commonMistakes": [
+    "Wybór 23.64.Z dla betonu towarowego — mokry beton w betonomieszarce to 23.63.Z.",
+    "Pomylenie z 20.30.Z (farby i lakiery) — gotowe powłoki malarskie i farby elewacyjne to inny kod."
+  ],
+  "taxNotes": "Suche zaprawy wymagają oznakowania CE i deklaracji DoP zgodnie z odpowiednimi normami EN. Wybór formy opodatkowania zależy od skali. Stawki sprawdź u doradcy podatkowego."
+}

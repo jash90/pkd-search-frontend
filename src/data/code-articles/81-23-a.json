@@ -1,0 +1,36 @@
+{
+  "code": "81.23.A",
+  "name": "Działalność usługowa związana z dezynfekcją, dezynsekcją i deratyzacją",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 81.23.A to usługi DDD — zwalczanie szkodników (szczury, myszy, karaluchy, pluskwy, kornik), dezynsekcja (owady), dezynfekcja powierzchni i pomieszczeń. Obejmuje obsługę gastronomii, magazynów żywności, mieszkań, szkół i szpitali. Sprzątanie po szkodnikach bez ich zwalczania należy do 81.21.Z lub 81.22.B.",
+  "whoUsesIt": [
+    {
+      "persona": "Firma DDD obsługująca gastronomię",
+      "use": "Wykonuje cykliczne kontrole i zabiegi w restauracjach, piekarniach, hotelach z umowami serwisowymi."
+    },
+    {
+      "persona": "Specjalista od pluskiew i karaluchów",
+      "use": "Likwiduje robactwo w mieszkaniach prywatnych i hotelach metodami chemicznymi i termicznymi."
+    },
+    {
+      "persona": "Deratyzator obsługujący magazyny",
+      "use": "Zwalcza gryzonie w magazynach spożywczych, zakładach produkcyjnych, obiektach komunalnych."
+    },
+    {
+      "persona": "Firma fumigacji i dezynfekcji",
+      "use": "Wykonuje dezynfekcję pomieszczeń medycznych, biurowych i mieszkalnych po sytuacjach epidemicznych."
+    }
+  ],
+  "businessExamples": [
+    "Firma DDD obsługująca sieć restauracji i sklepów spożywczych",
+    "Serwis zwalczania pluskiew i karaluchów w mieszkaniach",
+    "Specjalista deratyzacji magazynów i obiektów przemysłowych"
+  ],
+  "commonMistakes": [
+    "Wybór 81.23.A dla sprzątania po szkodnikach bez zabiegów ich zwalczania — to 81.21.Z lub 81.22.B.",
+    "Pomylenie z 01.61.Z (działalność usługowa wspomagająca produkcję roślinną) — opryski upraw rolnych mają inny kod."
+  ],
+  "taxNotes": "Działalność DDD wymaga uprawnień (kursy zawodowe) i stosowania środków biobójczych zarejestrowanych w urzędzie. Skala/liniowy przy ekipach, ryczałt jednoosobowo. Konieczne ubezpieczenie OC z uwagi na ryzyko zabiegów chemicznych. Stawki sprawdź u doradcy podatkowego."
+}

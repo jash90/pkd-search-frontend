@@ -1,0 +1,36 @@
+{
+  "code": "25.91.Z",
+  "name": "Produkcja pojemników metalowych",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 25.91.Z obejmuje produkcję pojemników metalowych o pojemności do 300 litrów — beczek stalowych, kanistrów, baniek, pojemników IBC z metalowym koszem, pojemników na chemię i odpady niebezpieczne. To kod dla wytwórców opakowań transportowych i magazynowych dla branży chemicznej, paliwowej i spożywczej.",
+  "whoUsesIt": [
+    {
+      "persona": "Producent beczek stalowych 200L",
+      "use": "Wytwarza beczki cylindryczne i koniczne dla branży chemicznej i paliwowej."
+    },
+    {
+      "persona": "Wytwórca kanistrów metalowych",
+      "use": "Produkuje kanistry stalowe i z blachy ocynkowanej dla paliw i chemii gospodarczej."
+    },
+    {
+      "persona": "Producent pojemników IBC",
+      "use": "Wytwarza kosze stalowe do palet IBC dla logistyki cieczy luzem."
+    },
+    {
+      "persona": "Wytwórca pojemników na odpady",
+      "use": "Produkuje pojemniki UN-certyfikowane na odpady niebezpieczne i medyczne."
+    }
+  ],
+  "businessExamples": [
+    "Producent beczek stalowych 200L do paliw",
+    "Wytwórnia kanistrów metalowych z blachy ocynkowanej",
+    "Producent pojemników UN na odpady niebezpieczne"
+  ],
+  "commonMistakes": [
+    "Wybór 25.91.Z zamiast 25.22.Z (produkcja pozostałych zbiorników, cystern), gdy pojemność przekracza 300 l — wówczas właściwy jest 25.22.Z.",
+    "Pomylenie z 25.92.Z (produkcja lekkich opakowań metalowych) — puszki, tubki i wieczka aluminiowe mają kod 25.92.Z."
+  ],
+  "taxNotes": "Produkcja pojemników metalowych objęta jest VAT na zasadach ogólnych z mechanizmem podzielonej płatności przy sprzedaży B2B. Pojemniki na odpady niebezpieczne wymagają certyfikacji UN. Stawki sprawdź u doradcy podatkowego."
+}

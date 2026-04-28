@@ -1,0 +1,36 @@
+{
+  "code": "01.25.Z",
+  "name": "Uprawa pozostałych drzew i krzewów owocowych oraz orzechowych",
+  "section": "A",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 01.25.Z obejmuje uprawę krzewów jagodowych (truskawki, maliny, borówki, porzeczki, agrest), aronii, orzechów włoskich, laskowych, a także roślin owocowych nieklasyfikowanych w innych kodach. To popularny kod dla polskich plantacji jagodowych — Polska jest znaczącym producentem malin i borówek w Europie.",
+  "whoUsesIt": [
+    {
+      "persona": "Plantator borówki amerykańskiej",
+      "use": "Prowadzi plantację borówki na owoce świeże i mrożone z odbiorem hurtowym lub eksportowym."
+    },
+    {
+      "persona": "Producent malin",
+      "use": "Uprawia maliny na świeży rynek i przetwórstwo (mrożonki, dżemy)."
+    },
+    {
+      "persona": "Plantator truskawek",
+      "use": "Specjalizuje się w truskawkach gruntowych i pod osłonami z odbiorem do skupu."
+    },
+    {
+      "persona": "Sad orzechowy",
+      "use": "Uprawia orzechy włoskie i laskowe na rynek krajowy i eksport."
+    }
+  ],
+  "businessExamples": [
+    "Plantacja borówki amerykańskiej",
+    "Gospodarstwo malinowe z mrożeniem",
+    "Sad orzechów włoskich"
+  ],
+  "commonMistakes": [
+    "Wybór 01.25.Z zamiast 01.13.Z dla truskawek prowadzonych w cyklu jednorocznym pod osłonami — niektórzy klasyfikują je jako warzywa, ale standardowo są w 01.25.Z.",
+    "Pomylenie z 01.24.Z, gdy w gospodarstwie dominują jabłonie, śliwy lub wiśnie — te trafiają do kodu drzew ziarnkowych i pestkowych."
+  ],
+  "taxNotes": "Plantacje jagodowe to działalność rolnicza objęta podatkiem rolnym, ale uprawy pod osłonami i przetwórstwo (mrożenie, dżemy) mogą zmienić kwalifikację na działy specjalne lub działalność gospodarczą. Sprawdź też zasady VAT dla rolnika. Stawki sprawdź u doradcy podatkowego."
+}

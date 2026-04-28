@@ -1,0 +1,36 @@
+{
+  "code": "32.11.Z",
+  "name": "Produkcja monet",
+  "section": "C",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 32.11.Z obejmuje produkcję monet — zarówno obiegowych dla banków centralnych, jak i kolekcjonerskich, okolicznościowych, medali i odznaczeń. To wąska, wysoce regulowana branża z restrykcyjnymi normami bezpieczeństwa i jakości.",
+  "whoUsesIt": [
+    {
+      "persona": "Mennica państwowa",
+      "use": "Produkuje monety obiegowe dla NBP i banków centralnych innych państw."
+    },
+    {
+      "persona": "Producent monet kolekcjonerskich",
+      "use": "Wytwarza monety okolicznościowe, srebrne i złote dla kolekcjonerów i inwestorów."
+    },
+    {
+      "persona": "Wytwórca medali i odznaczeń",
+      "use": "Robi medale wojskowe, sportowe, państwowe oraz okolicznościowe na zamówienie."
+    },
+    {
+      "persona": "Producent żetonów i tokenów",
+      "use": "Buduje żetony do automatów, kasyn i systemów lojalnościowych."
+    }
+  ],
+  "businessExamples": [
+    "Mennica produkująca monety obiegowe i kolekcjonerskie",
+    "Wytwórnia medali sportowych i wojskowych",
+    "Producent żetonów dla branży kasynowej i wendingu"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 32.12.Z (wyroby jubilerskie) — monety inwestycyjne ze złota to 32.11.Z, ale biżuteria z monet jako element to 32.12.Z.",
+    "Wybór 25.99.Z (pozostałe wyroby metalowe) zamiast 32.11.Z — odznaki i medale klasyfikuje się specyficznie."
+  ],
+  "taxNotes": "Produkcja monet to branża wysoce regulowana, często z udziałem podmiotów państwowych. Specyficzna stawka VAT na monety inwestycyjne i metale szlachetne wymaga konsultacji eksperckiej. Stawki sprawdź u doradcy podatkowego."
+}

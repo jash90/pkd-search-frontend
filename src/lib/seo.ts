@@ -1,6 +1,16 @@
 export const SITE_URL = 'https://kodypkd.app';
 export const SITE_NAME = 'kodypkd.app';
 
+// Truncate text to fit Google's ~155-160 char description budget.
+// Cuts on a word boundary, adds … ellipsis when shortened.
+export const truncate = (text: string, max = 158): string => {
+  const cleaned = text.trim().replace(/\s+/g, ' ');
+  if (cleaned.length <= max) return cleaned;
+  const slice = cleaned.slice(0, max - 1);
+  const lastSpace = slice.lastIndexOf(' ');
+  return `${slice.slice(0, lastSpace > 80 ? lastSpace : slice.length).trim()}…`;
+};
+
 export type OgImageParams = {
   title?: string;
   subtitle?: string;
@@ -113,4 +123,81 @@ export const makeArticleSchema = (article: ArticleSchemaInput) => ({
   },
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE_URL}/artykuly/${article.slug}` },
   ...(article.keywords && article.keywords.length > 0 ? { keywords: article.keywords.join(', ') } : {}),
+});
+
+// Schema for an individual PKD code page. Combines DefinedTerm (the code itself),
+// description and OG image into a single Article-shaped object so Google
+// can show rich results.
+export type CodePageSchemaInput = {
+  code: string;
+  name: string;
+  description: string;
+  url: string;
+  image: string;
+  sectionLetter?: string;
+  sectionName?: string;
+  modifiedDate?: string;
+};
+
+export const makeCodePageSchema = (input: CodePageSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `Kod PKD ${input.code} — ${input.name}`,
+  description: input.description,
+  url: input.url,
+  image: input.image,
+  inLanguage: 'pl-PL',
+  isAccessibleForFree: true,
+  ...(input.modifiedDate ? { dateModified: input.modifiedDate } : {}),
+  about: {
+    '@type': 'DefinedTerm',
+    name: input.code,
+    description: input.name,
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name: 'Polska Klasyfikacja Działalności 2025 (PKD 2025)',
+      url: 'https://klasyfikacje.stat.gov.pl/Pkd2025',
+    },
+    ...(input.sectionLetter
+      ? { termCode: input.code, identifier: input.code }
+      : {}),
+  },
+  ...(input.sectionName
+    ? {
+        articleSection: input.sectionName,
+      }
+    : {}),
+  author: { '@type': 'Organization', name: SITE_NAME, url: SITE_URL },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` },
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': input.url },
+});
+
+// Schema for the /pkd-2025 hub: a CollectionPage that aggregates all
+// 728 subclasses, exposed as DefinedTermSet via DefinedTerm members.
+export type CollectionPageSchemaInput = {
+  url: string;
+  title: string;
+  description: string;
+  count: number;
+};
+
+export const makeCollectionPageSchema = (input: CollectionPageSchemaInput) => ({
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  url: input.url,
+  name: input.title,
+  description: input.description,
+  inLanguage: 'pl-PL',
+  isPartOf: { '@type': 'WebSite', url: SITE_URL, name: SITE_NAME },
+  about: {
+    '@type': 'DefinedTermSet',
+    name: 'Polska Klasyfikacja Działalności 2025 (PKD 2025)',
+    url: 'https://klasyfikacje.stat.gov.pl/Pkd2025',
+    hasDefinedTerm: { '@type': 'QuantitativeValue', value: input.count, unitText: 'kody' },
+  },
 });

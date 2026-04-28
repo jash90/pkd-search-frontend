@@ -1,0 +1,36 @@
+{
+  "code": "77.34.Z",
+  "name": "Wynajem i dzierżawa środków transportu wodnego",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 77.34.Z obejmuje wynajem statków, jachtów, łodzi, kontenerów oraz innego transportu wodnego — bez załogi (bareboat) lub z załogą jako część świadczenia. To kod dla firm udostępniających środki transportu wodnego do celów komercyjnych i rekreacyjnych większego formatu.",
+  "whoUsesIt": [
+    {
+      "persona": "Czarter jachtów morskich",
+      "use": "Wynajmuje jachty żaglowe i motorowe na rejsy turystyczne — bareboat lub z kapitanem."
+    },
+    {
+      "persona": "Operator wynajmu statków handlowych",
+      "use": "Udostępnia barki, holowniki i statki handlowe armatorom oraz operatorom transportu wodnego."
+    },
+    {
+      "persona": "Firma houseboat / barki mieszkalne",
+      "use": "Wynajmuje barki turystyczne i houseboaty na rejsy po jeziorach i kanałach."
+    },
+    {
+      "persona": "Wypożyczalnia łodzi turystycznych większych",
+      "use": "Udostępnia większe jednostki rekreacyjne (yachty motorowe, żaglówki kabinowe) dla turystyki wodnej."
+    }
+  ],
+  "businessExamples": [
+    "Czarter jachtów na Mazurach z bazą w marinie",
+    "Operator floty barek turystycznych",
+    "Firma wynajmu yachtów morskich"
+  ],
+  "commonMistakes": [
+    "Wybór 77.34.Z zamiast 77.21.Z — wypożyczanie małych łodzi rekreacyjnych, kajaków, SUP-ów to kod 77.21.Z.",
+    "Pomylenie z 50.10.Z (transport morski pasażerski) — gdy firma świadczy usługi przewozu, a nie tylko wynajmuje jednostkę, właściwszy jest dział 50."
+  ],
+  "taxNotes": "Wynajem środków transportu wodnego podlega standardowej stawce VAT. Czarter jachtów na cele turystyczne może mieć szczególne reguły VAT przy wynajmie zagranicznym. Stawki sprawdź u doradcy podatkowego."
+}

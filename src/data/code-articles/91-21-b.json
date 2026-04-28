@@ -1,0 +1,36 @@
+{
+  "code": "91.21.B",
+  "name": "Działalność galerii sztuki",
+  "section": "S",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 91.21.B obejmuje działalność galerii sztuki — zarówno wystawienniczych, jak i komercyjnych galerii prowadzących pośrednictwo w sprzedaży dzieł sztuki. Pasuje również dla galerii internetowych i marszandów. To inna kategoria niż muzea (91.21.A) — galerie zwykle łączą wystawy z handlem.",
+  "whoUsesIt": [
+    {
+      "persona": "Właściciel galerii sztuki współczesnej",
+      "use": "Prowadzi przestrzeń wystawienniczą, organizuje wernisaże i sprzedaje dzieła reprezentowanych artystów."
+    },
+    {
+      "persona": "Marszand / dealer sztuki",
+      "use": "Pośredniczy w sprzedaży dzieł sztuki między artystami a kolekcjonerami."
+    },
+    {
+      "persona": "Galeria online",
+      "use": "Prowadzi internetowy showroom z dziełami artystów i obsługuje sprzedaż wysyłkową."
+    },
+    {
+      "persona": "Galeria autorska",
+      "use": "Prezentuje i sprzedaje własną twórczość lub jednego artysty rezydenta."
+    }
+  ],
+  "businessExamples": [
+    "Galeria sztuki współczesnej w centrum miasta",
+    "Internetowa platforma sprzedaży obrazów polskich artystów",
+    "Galeria fotografii artystycznej z wystawami stałymi"
+  ],
+  "commonMistakes": [
+    "Wybór 91.21.B dla muzeum sztuki — instytucja nieprowadząca sprzedaży, lecz głównie ekspozycję zbiorów, klasyfikuje się jako 91.21.A.",
+    "Pomylenie z 47.78.Z (sprzedaż detaliczna pozostałych nowych wyrobów) — sklep z reprodukcjami i pamiątkami artystycznymi bez funkcji galeryjnej to inna kategoria."
+  ],
+  "taxNotes": "Sprzedaż dzieł sztuki może podlegać szczególnym zasadom VAT (procedura marży dla dealerów sztuki). Działalność galerii zwykle łączy usługi wystawiennicze z handlem, co wymaga starannej ewidencji. Stawki sprawdź u doradcy podatkowego."
+}

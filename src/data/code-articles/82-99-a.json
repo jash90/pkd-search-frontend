@@ -1,0 +1,36 @@
+{
+  "code": "82.99.A",
+  "name": "Finansowanie społecznościowe dla przedsięwzięć gospodarczych",
+  "section": "O",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 82.99.A obejmuje prowadzenie platform crowdfundingowych dla przedsięwzięć gospodarczych — udziałowych (equity), pożyczkowych (lending) i nagrodowych. Działalność jest reglamentowana — wymaga zezwolenia KNF i wpisu do rejestru ECSP. Sama wpłata datków na cele charytatywne to inna kategoria, a giełdy/biura maklerskie to grupa 66.",
+  "whoUsesIt": [
+    {
+      "persona": "Operator platformy crowdfundingu udziałowego",
+      "use": "Prowadzi serwis łączący startupy z inwestorami detalicznymi — emisje udziałów online z licencją ECSP."
+    },
+    {
+      "persona": "Platforma pożyczek społecznościowych (P2P lending)",
+      "use": "Umożliwia inwestorom finansowanie firm pożyczkami przez internet i pobiera prowizję od transakcji."
+    },
+    {
+      "persona": "Serwis crowdfundingu nagrodowego",
+      "use": "Hostuje kampanie zbiórek na produkty i projekty w zamian za nagrody (preorders, gadżety)."
+    },
+    {
+      "persona": "Operator finansowania nieruchomości online",
+      "use": "Prowadzi platformę crowdfundingu inwestycyjnego dla projektów deweloperskich i flippingowych."
+    }
+  ],
+  "businessExamples": [
+    "Platforma equity crowdfundingu dla startupów technologicznych",
+    "Serwis P2P lending dla małych firm",
+    "Platforma crowdfundingu nagrodowego dla projektów kreatywnych"
+  ],
+  "commonMistakes": [
+    "Wybór 82.99.A bez licencji KNF (ECSP) i wpisu do rejestru — finansowanie społecznościowe komercyjne jest reglamentowane, brak uprawnień to przestępstwo.",
+    "Pomylenie z 66.19.Z (działalność wspomagająca usługi finansowe) — sama działalność doradcza dla emitentów to inny kod."
+  ],
+  "taxNotes": "Działalność wymaga zezwolenia KNF zgodnie z rozporządzeniem ECSP (UE 2020/1503), obowiązków AML/KYC i ujawniania ryzyk. Skala lub liniowy zwykle ze względu na strukturę kosztów IT i compliance. Stawki sprawdź u doradcy podatkowego."
+}

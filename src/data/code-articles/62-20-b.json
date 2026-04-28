@@ -1,0 +1,36 @@
+{
+  "code": "62.20.B",
+  "name": "Pozostała działalność związana z doradztwem w zakresie informatyki oraz zarządzaniem urządzeniami informatycznymi",
+  "section": "K",
+  "generatedAt": "2026-04-28",
+  "model": "claude-opus-4-7",
+  "intro": "Kod 62.20.B obejmuje doradztwo IT, planowanie i projektowanie systemów informatycznych, zarządzanie infrastrukturą oraz wsparcie techniczne — bez pisania kodu jako głównej aktywności. Pasuje dla konsultantów IT, architektów systemów, firm MSP zarządzających infrastrukturą klienta i specjalistów helpdesk.",
+  "whoUsesIt": [
+    {
+      "persona": "Konsultant IT / architekt rozwiązań",
+      "use": "Projektuje architekturę systemów, wybiera technologie, doradza w transformacji cyfrowej."
+    },
+    {
+      "persona": "Firma MSP (Managed Service Provider)",
+      "use": "Zarządza infrastrukturą IT klientów — serwery, sieci, stanowiska pracy w modelu outsourcingu."
+    },
+    {
+      "persona": "Specjalista helpdesk / wsparcie techniczne",
+      "use": "Świadczy wsparcie techniczne i administrację systemami dla firm bez własnego działu IT."
+    },
+    {
+      "persona": "Audytor IT / business analyst",
+      "use": "Analizuje wymagania biznesowe, audytuje systemy i przygotowuje specyfikacje wdrożeń."
+    }
+  ],
+  "businessExamples": [
+    "Firma IT consulting dla MŚP",
+    "MSP zarządzający infrastrukturą klientów",
+    "Freelancer business analyst / system architect"
+  ],
+  "commonMistakes": [
+    "Pomylenie z 62.10.B (programowanie) — pisanie kodu jako główna aktywność to inny kod.",
+    "Wybór 62.20.B zamiast 62.20.A (cyberbezpieczeństwo) — specjalizacja w bezpieczeństwie ma osobną klasę."
+  ],
+  "taxNotes": "Doradztwo IT często rozliczane ryczałtem według właściwej stawki, liniowo lub na zasadach ogólnych. Brak prac twórczych typowych dla programowania ogranicza możliwości IP Box. Stawki sprawdź u doradcy podatkowego."
+}
