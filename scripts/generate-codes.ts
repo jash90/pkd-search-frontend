@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -7,7 +7,6 @@ const __dirname = dirname(__filename);
 
 const POPULAR_PATH = resolve(__dirname, '..', 'src', 'data', 'popular-queries.json');
 const PKD2025_PATH = resolve(__dirname, 'pkd2025', 'pkd2025-codes.json');
-const ARTICLES_DIR = resolve(__dirname, '..', 'src', 'data', 'code-articles');
 const OUT_PATH = resolve(__dirname, '..', 'src', 'data', 'codes.json');
 
 const RELATED_CODES_LIMIT = 5;
@@ -37,11 +36,6 @@ interface Pkd2025Entry {
   className: string;
 }
 
-interface ArticleEntry {
-  code: string;
-  intro: string;
-}
-
 interface CodeEntry {
   code: string;
   name: string;
@@ -52,14 +46,6 @@ interface CodeEntry {
 
 const queries = JSON.parse(readFileSync(POPULAR_PATH, 'utf8')) as PopularQuery[];
 const pkd2025 = JSON.parse(readFileSync(PKD2025_PATH, 'utf8')) as Pkd2025Entry[];
-
-// Build article-intro lookup (code -> intro paragraph)
-const articleIntroByCode = new Map<string, string>();
-for (const file of readdirSync(ARTICLES_DIR)) {
-  if (!file.endsWith('.json')) continue;
-  const data = JSON.parse(readFileSync(resolve(ARTICLES_DIR, file), 'utf8')) as ArticleEntry;
-  if (data.code && data.intro) articleIntroByCode.set(data.code, data.intro);
-}
 
 // Build curated metadata from popular-queries (categories + descr + sibling hints)
 const curatedMeta = new Map<
@@ -115,9 +101,13 @@ const codes: CodeEntry[] = pkd2025
   .map<CodeEntry>((entry) => {
     const curated = curatedMeta.get(entry.code);
 
-    // descr precedence: curated → article intro → constructed fallback
-    const constructedFallback = `${entry.name}. Kod PKD 2025 z sekcji ${entry.section} (${entry.sectionName.toLowerCase()}), dział ${entry.division} (${entry.divisionName}).`;
-    const descr = curated?.descr || articleIntroByCode.get(entry.code) || constructedFallback;
+    // descr precedence: curated → constructed classification fallback.
+    // Article intro is rendered separately via <CodeArticle>, so we deliberately
+    // don't reuse it here — otherwise the same paragraph would appear twice
+    // on the page for non-curated codes.
+    const descr =
+      curated?.descr ||
+      `${entry.name}. Kod PKD 2025 z sekcji ${entry.section} (${entry.sectionName.toLowerCase()}), dział ${entry.division} (${entry.divisionName}).`;
 
     const relatedCategories = curated
       ? Array.from(curated.categorySlugs)
@@ -153,5 +143,5 @@ const codes: CodeEntry[] = pkd2025
 writeFileSync(OUT_PATH, `${JSON.stringify(codes, null, 2)}\n`, 'utf8');
 const withCurated = codes.filter((c) => c.relatedCategories.length > 0).length;
 console.log(
-  `[codes] wrote ${codes.length} codes to ${OUT_PATH} (${withCurated} curated, ${codes.length - withCurated} from PKD 2025 + article intros)`,
+  `[codes] wrote ${codes.length} codes to ${OUT_PATH} (${withCurated} curated, ${codes.length - withCurated} from PKD 2025 with classification fallback)`,
 );
