@@ -9,6 +9,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import ArticlesIndex from './components/ArticlesIndex';
 import ArticleRoute from './components/ArticleRoute';
 import Pkd2025Index from './components/Pkd2025Index';
+import NotFound from './components/NotFound';
 import popularQueries from './data/popular-queries.json';
 import codes from './data/codes.json';
 import { articles } from './content/articles';
@@ -44,8 +45,6 @@ const SamplesLimitRedirect = () => {
   const { limit } = useParams();
   return <Navigate to={`/przyklady/limit/${limit}`} replace />;
 };
-
-const CatchAllRedirect = () => <Navigate to="/" replace />;
 
 export const routes: RouteRecord[] = [
   {
@@ -110,7 +109,16 @@ export const routes: RouteRecord[] = [
       { path: 'samples', Component: () => <Navigate to="/przyklady" replace /> },
       { path: 'samples/limit/:limit', Component: SamplesLimitRedirect },
       { path: 'samples/:limit', Component: SamplesRedirect },
-      { path: '*', Component: CatchAllRedirect },
+      {
+        path: '404',
+        Component: NotFound,
+        entry: 'src/components/NotFound.tsx',
+      },
+      {
+        path: '*',
+        Component: NotFound,
+        entry: 'src/components/NotFound.tsx',
+      },
     ],
   },
 ];
