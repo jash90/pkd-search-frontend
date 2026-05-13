@@ -53,8 +53,8 @@ const Pkd2025Index = () => {
     0,
   );
 
-  const pageTitle = `Pełna lista PKD 2025 — wszystkie ${totalSubclasses} kodów | kodypkd.app`;
-  const pageDescription = `Hierarchiczna lista wszystkich ${totalSubclasses} podklas PKD 2025 — sekcje, działy, grupy, klasy i podklasy. Każdy kod prowadzi do strony z opisem, personami i przykładami firm.`;
+  const pageTitle = `Pełna lista PKD 2025 — wszystkie ${totalSubclasses} kodów (PKD 2025/2026) | kodypkd.app`;
+  const pageDescription = `Hierarchiczna lista wszystkich ${totalSubclasses} podklas PKD 2025 — sekcje, działy, grupy, klasy i podklasy. PKD 2025 obowiązuje również w 2026 roku. Każdy kod prowadzi do strony z opisem, personami i przykładami firm.`;
   const ogImage = buildOgImageUrl({
     title: `Lista PKD 2025`,
     subtitle: `${totalSubclasses} kodów w jednym miejscu`,
@@ -80,7 +80,7 @@ const Pkd2025Index = () => {
         <meta name="description" content={pageDescription} />
         <meta
           name="keywords"
-          content="lista PKD 2025, wszystkie kody PKD, klasyfikacja PKD 2025, sekcje PKD, działy PKD, kody PKD"
+          content="lista PKD 2025, wszystkie kody PKD, klasyfikacja PKD 2025, PKD 2025/2026, sekcje PKD, działy PKD, kody PKD"
         />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
         <meta property="og:site_name" content="kodypkd.app" />

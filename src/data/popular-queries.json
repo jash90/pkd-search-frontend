@@ -86,7 +86,7 @@
   {
     "slug": "fryzjer",
     "label": "Fryzjer",
-    "description": "Kody PKD dla salonów fryzjerskich, barberów i usług pielęgnacji włosów.",
+    "description": "Kody PKD dla salonów fryzjerskich, barberów i usług pielęgnacji włosów. Synonimy: fryzjerstwo, działalność fryzjerska, barbershop.",
     "curatedCodes": [
       {
         "code": "96.21.Z",
@@ -114,7 +114,7 @@
         "descr": "pozostałą działalność w zakresie opieki zdrowotnej wykonywaną przez pracowników medycznych innych niż lekarze, w takich dziedzinach jak: optometria, ortoptyka, hydroterapia, hydrokolonoterapia, podiatria/podologia, terapia skóry,…"
       }
     ],
-    "searchQuery": "Salon fryzjerski, strzyżenie włosów, farbowanie, modelowanie, stylizacja fryzur, usługi fryzjerskie."
+    "searchQuery": "Salon fryzjerski, strzyżenie włosów, farbowanie, modelowanie, stylizacja fryzur, usługi fryzjerskie. Fryzjerstwo, działalność fryzjerska, salon fryzjerski. Barber, barbershop, strzyżenie męskie."
   },
   {
     "slug": "kosmetyczka",
@@ -252,6 +252,16 @@
         "id": "kurierski",
         "title": "Transport kurierski i pocztowy (PKD 53.20.Z)",
         "body": "Usługi kurierskie i dostawy realizowane od drzwi do drzwi to kod 53.20.Z. Obejmuje on zbieranie, sortowanie, przewóz i doręczanie krajowych oraz zagranicznych przesyłek — listów, paczek i przesyłek pocztowych nieobjętych obowiązkiem usługi powszechnej. Pełną kategorię znajdziesz pod /kody-pkd/kurier."
+      },
+      {
+        "id": "spedycja",
+        "title": "Spedycja i pośrednictwo w transporcie (PKD 52.31.Z)",
+        "body": "Spedycja to organizacja przewozu towarów na rzecz klienta — bez wykonywania transportu własną flotą. Główny kod to 52.31.Z (pośrednictwo w transporcie towarów). Spedytor zawiera umowy z przewoźnikami, organizuje załadunki, obsługę celną i dokumentację — odpowiednia działalność dla biur spedycyjnych, agentów transportowych i pośredników logistycznych. Pełna logistyka magazynowa to 52.25.Z."
+      },
+      {
+        "id": "do-3-5t",
+        "title": "Transport do 3,5 t i usługi transportowe (PKD 49.41.Z, 53.20.Z)",
+        "body": "Przewozy busem lub furgonetką o dopuszczalnej masie całkowitej do 3,5 tony to wciąż transport drogowy towarów (49.41.Z) — nie wymagają licencji TIR. Jeżeli świadczysz usługi transportowe lub kurierskie „door-to-door\", dodaj również 53.20.Z (pozostała działalność pocztowa i kurierska)."
       }
     ],
     "curatedCodes": [
@@ -284,13 +294,14 @@
         "code": "52.32.Z",
         "name": "Pośrednictwo w transporcie pasażerskim",
         "descr": "pośrednictwo w zakresie transportu pasażerskiego, polegające na kojarzeniu kupujących i sprzedających za opłatą lub prowizją, bez świadczenia przez pośrednika usług transportu pasażerskiego będących przedmiotem pośrednictwa."
+      },
+      {
+        "code": "52.31.Z",
+        "name": "Pośrednictwo w transporcie towarów",
+        "descr": "Pośrednictwo w transporcie towarów. Kod PKD 2025 z sekcji H (transport i gospodarka magazynowa), dział 52 (Magazynowanie, przechowywanie i działalność usługowa wspomagająca transport)."
       }
     ],
-    "searchQuery": [
-      "Transport drogowy towarów, przewóz ciężarówką",
-      "Transport osób taksówką, usługi przewozu pasażerów",
-      "Transport drogowy pasażerów autobusem, bus"
-    ]
+    "searchQuery": "Spedycja, pośrednictwo w transporcie towarów (52.31.Z). Transport do 3,5 t, bus, furgonetka. Usługi transportowe, logistyka."
   },
   {
     "slug": "budownictwo",
@@ -321,9 +332,31 @@
         "code": "43.35.Z",
         "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych",
         "descr": "prace wykończeniowe, które kończą budowę danego obiektu, na przykład: montaż prefabrykowanych blach, części stalowych, profili i tym podobnych, prace związane z montażem elementów ozdobnych na budynkach, zakładanie okładzin na ścianach…"
+      },
+      {
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych",
+        "descr": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych. Kod PKD 2025 z sekcji F (budownictwo), dział 42 (Roboty związane z budową obiektów inżynierii lądowej i wodnej)."
+      },
+      {
+        "code": "42.22.Z",
+        "name": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych",
+        "descr": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych. Kod PKD 2025 z sekcji F (budownictwo), dział 42 (Roboty związane z budową obiektów inżynierii lądowej i wodnej)."
+      },
+      {
+        "code": "43.12.Z",
+        "name": "Przygotowanie terenu pod budowę",
+        "descr": "Przygotowanie terenu pod budowę. Kod PKD 2025 z sekcji F (budownictwo), dział 43 (Roboty budowlane specjalistyczne)."
       }
     ],
-    "searchQuery": "Budowa domów mieszkalnych i budynków, roboty budowlane, prace konstrukcyjne i wykończeniowe."
+    "searchQuery": "Budowa domów mieszkalnych i budynków, roboty budowlane, prace konstrukcyjne i wykończeniowe. Budowa rurociągów przesyłowych i sieci rozdzielczych (42.21.Z). Specjalistyczne roboty budowlane. Przygotowanie terenu pod budowę (43.12.Z).",
+    "subSections": [
+      {
+        "id": "specjalistyczne",
+        "title": "Roboty budowlane specjalistyczne (PKD 42.21.Z, 42.22.Z, 43.12.Z)",
+        "body": "Roboty specjalistyczne obejmują m.in. budowę rurociągów przesyłowych i sieci rozdzielczych (42.21.Z), budowę linii telekomunikacyjnych i elektroenergetycznych (42.22.Z) oraz przygotowanie terenu pod budowę (43.12.Z) — wyburzenia, niwelacja terenu, prace ziemne. To kody dla wyspecjalizowanych ekip podwykonawczych, nie generalnych wykonawców."
+      }
+    ]
   },
   {
     "slug": "fotografia",
@@ -501,7 +534,14 @@
         "descr": "projektowania grafiki komputerowej na potrzeby animacji, sklasyfikowanego w 59.11.Z."
       }
     ],
-    "searchQuery": "Projektowanie graficzne, identyfikacji wizualnej, logotypów, projektowanie wnętrz, UX/UI."
+    "searchQuery": "Projektowanie graficzne, identyfikacji wizualnej, logotypów, projektowanie wnętrz, UX/UI. Projektowanie graficzne, grafika komputerowa, identyfikacja wizualna, logotypy, branding (74.11.Z).",
+    "subSections": [
+      {
+        "id": "graficzne",
+        "title": "Projektowanie graficzne i grafika komputerowa (PKD 74.11.Z)",
+        "body": "Projektowanie graficzne, grafika komputerowa i identyfikacja wizualna mieszczą się w kodzie 74.11.Z (działalność w zakresie wzornictwa przemysłowego i projektowania mody — szeroka klasa obejmująca projektowanie graficzne wyrobów). Stosują go graficy, projektanci logotypów, brandingu, opakowań, materiałów reklamowych i identyfikacji wizualnych — zarówno freelancerzy, jak i studia graficzne."
+      }
+    ]
   },
   {
     "slug": "edukacja",
@@ -774,5 +814,79 @@
       "Krótkoterminowy najem mieszkań, Airbnb, apartamenty na doby",
       "Zarządzanie nieruchomościami na zlecenie"
     ]
+  },
+  {
+    "slug": "opieka-nad-dziecmi",
+    "label": "Opieka nad dziećmi",
+    "description": "Kody PKD dla przedszkoli, żłobków i opieki dziennej nad dziećmi — wychowanie przedszkolne (85.10.Z) oraz opieka dzienna nad dziećmi (88.91.Z).",
+    "curatedCodes": [
+      {
+        "code": "85.10.Z",
+        "name": "Placówki wychowania przedszkolnego",
+        "descr": "Placówki wychowania przedszkolnego. Kod PKD 2025 z sekcji Q (edukacja), dział 85 (Edukacja)."
+      },
+      {
+        "code": "88.91.Z",
+        "name": "Opieka dzienna nad dziećmi",
+        "descr": "Opieka dzienna nad dziećmi. Kod PKD 2025 z sekcji R (opieka zdrowotna i pomoc społeczna), dział 88 (Pomoc społeczna bez zakwaterowania)."
+      }
+    ],
+    "searchQuery": "PKD przedszkole, wychowanie przedszkolne, placówka wychowania przedszkolnego (85.10.Z). Żłobek, opieka dzienna nad dziećmi (88.91.Z). PKD opieka nad dziećmi, niania."
+  },
+  {
+    "slug": "szkolenia",
+    "label": "Szkolenia",
+    "description": "Kody PKD dla firm szkoleniowych, kursów zawodowych i edukacji pozaszkolnej — od nauki języków (85.59.A) przez szkolenia zawodowe (85.59.B) po inne formy edukacji pozaszkolnej (85.59.D).",
+    "curatedCodes": [
+      {
+        "code": "85.59.A",
+        "name": "Nauka języków obcych",
+        "descr": "Nauka języków obcych. Kod PKD 2025 z sekcji Q (edukacja), dział 85 (Edukacja)."
+      },
+      {
+        "code": "85.59.B",
+        "name": "Kursy i szkolenia związane ze zdobywaniem wiedzy, umiejętności i kwalifikacji zawodowych w formach pozaszkolnych",
+        "descr": "działalność placówek prowadzących kształcenie zawodowe i ustawiczne to jest placówek kształcenia ustawicznego, centrów kształcenia zawodowego oraz branżowych centrów umiejętności, pozostałe pozaszkolne formy edukacji związane głównie z…"
+      },
+      {
+        "code": "85.59.D",
+        "name": "Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane",
+        "descr": "edukację, w której nie da się zdefiniować poziomu nauczania, udzielanie korepetycji, kursy przygotowujące do egzaminu z wiedzy zawodowej, działalność ośrodków prowadzących kursy wyrównawcze, kursy komputerowe (na przykład ogólnej obsługi…"
+      }
+    ],
+    "searchQuery": "Szkolenia zawodowe, kursy zawodowe (85.59.B). PKD szkolenia, kursy językowe, nauka języków obcych (85.59.A). Edukacja pozaszkolna, korepetycje (85.59.D)."
+  },
+  {
+    "slug": "deweloper-nieruchomosci",
+    "label": "Deweloper nieruchomości",
+    "description": "Kody PKD dla deweloperki nieruchomości (nie programowania) — realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych (68.12.A) i niemieszkalnych (68.12.B), pozostałych projektów budowlanych (68.12.C) oraz roboty budowlane wznoszeniowe (41.00.A, 41.00.B).",
+    "curatedCodes": [
+      {
+        "code": "68.12.A",
+        "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych",
+        "descr": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości)."
+      },
+      {
+        "code": "68.12.B",
+        "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych",
+        "descr": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości)."
+      },
+      {
+        "code": "68.12.C",
+        "name": "Realizacja pozostałych projektów budowlanych",
+        "descr": "Realizacja pozostałych projektów budowlanych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości)."
+      },
+      {
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych",
+        "descr": "roboty budowlane związane ze wznoszeniem kompletnych budynków mieszkalnych oraz ich rozbudowę, przebudowę."
+      },
+      {
+        "code": "41.00.B",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych",
+        "descr": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych. Kod PKD 2025 z sekcji F (budownictwo), dział 41 ()."
+      }
+    ],
+    "searchQuery": "PKD deweloper, deweloperka nieruchomości — nie programowanie. Realizacja projektów budowlanych (68.12.A/B/C). Wznoszenie budynków mieszkalnych i niemieszkalnych (41.00.A, 41.00.B). Inwestor, generalny wykonawca."
   }
 ]

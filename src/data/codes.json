@@ -8763,6 +8763,10 @@
       {
         "slug": "budownictwo",
         "label": "Budownictwo"
+      },
+      {
+        "slug": "deweloper-nieruchomosci",
+        "label": "Deweloper nieruchomości"
       }
     ],
     "relatedCodes": [
@@ -8783,8 +8787,8 @@
         "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       },
       {
-        "code": "41.00.B",
-        "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych"
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
       }
     ]
   },
@@ -8792,8 +8796,25 @@
     "code": "41.00.B",
     "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych",
     "descr": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych. Kod PKD 2025 z sekcji F (budownictwo), dział 41 ().",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "deweloper-nieruchomosci",
+        "label": "Deweloper nieruchomości"
+      }
+    ],
     "relatedCodes": [
+      {
+        "code": "68.12.A",
+        "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych"
+      },
+      {
+        "code": "68.12.B",
+        "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych"
+      },
+      {
+        "code": "68.12.C",
+        "name": "Realizacja pozostałych projektów budowlanych"
+      },
       {
         "code": "41.00.A",
         "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
@@ -8888,27 +8909,32 @@
     "code": "42.21.Z",
     "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych",
     "descr": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych. Kod PKD 2025 z sekcji F (budownictwo), dział 42 (Roboty związane z budową obiektów inżynierii lądowej i wodnej).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "budownictwo",
+        "label": "Budownictwo"
+      }
+    ],
     "relatedCodes": [
       {
-        "code": "42.22.Z",
-        "name": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "42.11.Z",
-        "name": "Roboty związane z budową dróg i autostrad"
+        "code": "43.42.Z",
+        "name": "Wykonywanie pozostałych specjalistycznych robót budowlanych w zakresie budowy budynków"
       },
       {
-        "code": "42.12.Z",
-        "name": "Roboty związane z budową dróg szynowych i kolei podziemnej"
+        "code": "42.99.Z",
+        "name": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "42.13.Z",
-        "name": "Roboty związane z budową mostów i tuneli"
+        "code": "43.99.Z",
+        "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "42.91.Z",
-        "name": "Roboty związane z budową obiektów inżynierii wodnej"
+        "code": "43.35.Z",
+        "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       }
     ]
   },
@@ -8916,27 +8942,32 @@
     "code": "42.22.Z",
     "name": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych",
     "descr": "Roboty związane z budową linii telekomunikacyjnych i elektroenergetycznych. Kod PKD 2025 z sekcji F (budownictwo), dział 42 (Roboty związane z budową obiektów inżynierii lądowej i wodnej).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "budownictwo",
+        "label": "Budownictwo"
+      }
+    ],
     "relatedCodes": [
       {
-        "code": "42.21.Z",
-        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "42.11.Z",
-        "name": "Roboty związane z budową dróg i autostrad"
+        "code": "43.42.Z",
+        "name": "Wykonywanie pozostałych specjalistycznych robót budowlanych w zakresie budowy budynków"
       },
       {
-        "code": "42.12.Z",
-        "name": "Roboty związane z budową dróg szynowych i kolei podziemnej"
+        "code": "42.99.Z",
+        "name": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "42.13.Z",
-        "name": "Roboty związane z budową mostów i tuneli"
+        "code": "43.99.Z",
+        "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "42.91.Z",
-        "name": "Roboty związane z budową obiektów inżynierii wodnej"
+        "code": "43.35.Z",
+        "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       }
     ]
   },
@@ -8996,8 +9027,8 @@
         "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       },
       {
-        "code": "42.91.Z",
-        "name": "Roboty związane z budową obiektów inżynierii wodnej"
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
       }
     ]
   },
@@ -9033,27 +9064,32 @@
     "code": "43.12.Z",
     "name": "Przygotowanie terenu pod budowę",
     "descr": "Przygotowanie terenu pod budowę. Kod PKD 2025 z sekcji F (budownictwo), dział 43 (Roboty budowlane specjalistyczne).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "budownictwo",
+        "label": "Budownictwo"
+      }
+    ],
     "relatedCodes": [
       {
-        "code": "43.11.Z",
-        "name": "Rozbiórka i burzenie obiektów budowlanych"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "43.13.Z",
-        "name": "Wykonywanie wykopów i wierceń geologiczno-inżynierskich"
+        "code": "43.42.Z",
+        "name": "Wykonywanie pozostałych specjalistycznych robót budowlanych w zakresie budowy budynków"
       },
       {
-        "code": "43.21.Z",
-        "name": "Wykonywanie instalacji elektrycznych"
+        "code": "42.99.Z",
+        "name": "Roboty związane z budową pozostałych obiektów inżynierii lądowej i wodnej, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "43.22.Z",
-        "name": "Wykonywanie instalacji wodno-kanalizacyjnych, cieplnych i klimatyzacyjnych"
+        "code": "43.99.Z",
+        "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "43.23.Z",
-        "name": "Montaż izolacji"
+        "code": "43.35.Z",
+        "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       }
     ]
   },
@@ -9341,8 +9377,8 @@
         "name": "Pozostałe specjalistyczne roboty budowlane, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "81.21.Z",
-        "name": "Niespecjalistyczne sprzątanie budynków"
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
       }
     ]
   },
@@ -9402,8 +9438,8 @@
         "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       },
       {
-        "code": "43.41.Z",
-        "name": "Wykonywanie konstrukcji i pokryć dachowych"
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
       }
     ]
   },
@@ -9519,8 +9555,8 @@
         "name": "Wykonywanie pozostałych robót budowlanych wykończeniowych"
       },
       {
-        "code": "43.91.Z",
-        "name": "Roboty murarskie"
+        "code": "42.21.Z",
+        "name": "Roboty związane z budową rurociągów przesyłowych i sieci rozdzielczych"
       }
     ]
   },
@@ -13012,27 +13048,32 @@
     "code": "52.31.Z",
     "name": "Pośrednictwo w transporcie towarów",
     "descr": "Pośrednictwo w transporcie towarów. Kod PKD 2025 z sekcji H (transport i gospodarka magazynowa), dział 52 (Magazynowanie, przechowywanie i działalność usługowa wspomagająca transport).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "transport",
+        "label": "Transport"
+      }
+    ],
     "relatedCodes": [
       {
-        "code": "52.32.Z",
-        "name": "Pośrednictwo w transporcie pasażerskim"
+        "code": "49.41.Z",
+        "name": "Transport drogowy towarów"
       },
       {
-        "code": "52.10.A",
-        "name": "Magazynowanie i przechowywanie zbóż i nasion oleistych"
+        "code": "52.24.C",
+        "name": "Przeładunek towarów w pozostałych punktach przeładunkowych"
       },
       {
-        "code": "52.10.B",
-        "name": "Magazynowanie i przechowywanie pozostałych towarów"
+        "code": "52.24.B",
+        "name": "Przeładunek towarów w portach śródlądowych"
       },
       {
-        "code": "52.21.A",
-        "name": "Pomoc drogowa"
+        "code": "49.50.B",
+        "name": "Transport rurociągowy pozostałych towarów"
       },
       {
-        "code": "52.21.B",
-        "name": "Pozostała działalność usługowa wspomagająca transport lądowy"
+        "code": "49.33.Z",
+        "name": "Transport pasażerski na żądanie pojazdem z kierowcą"
       }
     ]
   },
@@ -14936,7 +14977,12 @@
     "code": "68.12.A",
     "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych",
     "descr": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków mieszkalnych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "deweloper-nieruchomosci",
+        "label": "Deweloper nieruchomości"
+      }
+    ],
     "relatedCodes": [
       {
         "code": "68.12.B",
@@ -14947,16 +14993,12 @@
         "name": "Realizacja pozostałych projektów budowlanych"
       },
       {
-        "code": "68.11.Z",
-        "name": "Kupno i sprzedaż nieruchomości na własny rachunek"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "68.20.Z",
-        "name": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi"
-      },
-      {
-        "code": "68.31.Z",
-        "name": "Pośrednictwo w obrocie nieruchomościami"
+        "code": "41.00.B",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych"
       }
     ]
   },
@@ -14964,7 +15006,12 @@
     "code": "68.12.B",
     "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych",
     "descr": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "deweloper-nieruchomosci",
+        "label": "Deweloper nieruchomości"
+      }
+    ],
     "relatedCodes": [
       {
         "code": "68.12.A",
@@ -14975,16 +15022,12 @@
         "name": "Realizacja pozostałych projektów budowlanych"
       },
       {
-        "code": "68.11.Z",
-        "name": "Kupno i sprzedaż nieruchomości na własny rachunek"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "68.20.Z",
-        "name": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi"
-      },
-      {
-        "code": "68.31.Z",
-        "name": "Pośrednictwo w obrocie nieruchomościami"
+        "code": "41.00.B",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych"
       }
     ]
   },
@@ -14992,7 +15035,12 @@
     "code": "68.12.C",
     "name": "Realizacja pozostałych projektów budowlanych",
     "descr": "Realizacja pozostałych projektów budowlanych. Kod PKD 2025 z sekcji M (działalność związana z obsługą rynku nieruchomości), dział 68 (Działalność związana z obsługą rynku nieruchomości).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "deweloper-nieruchomosci",
+        "label": "Deweloper nieruchomości"
+      }
+    ],
     "relatedCodes": [
       {
         "code": "68.12.A",
@@ -15003,16 +15051,12 @@
         "name": "Realizacja projektów budowlanych związanych ze wznoszeniem budynków niemieszkalnych"
       },
       {
-        "code": "68.11.Z",
-        "name": "Kupno i sprzedaż nieruchomości na własny rachunek"
+        "code": "41.00.A",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków mieszkalnych"
       },
       {
-        "code": "68.20.Z",
-        "name": "Wynajem i zarządzanie nieruchomościami własnymi lub dzierżawionymi"
-      },
-      {
-        "code": "68.31.Z",
-        "name": "Pośrednictwo w obrocie nieruchomościami"
+        "code": "41.00.B",
+        "name": "Roboty budowlane związane ze wznoszeniem budynków niemieszkalnych"
       }
     ]
   },
@@ -17193,8 +17237,17 @@
     "code": "85.10.Z",
     "name": "Placówki wychowania przedszkolnego",
     "descr": "Placówki wychowania przedszkolnego. Kod PKD 2025 z sekcji Q (edukacja), dział 85 (Edukacja).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "opieka-nad-dziecmi",
+        "label": "Opieka nad dziećmi"
+      }
+    ],
     "relatedCodes": [
+      {
+        "code": "88.91.Z",
+        "name": "Opieka dzienna nad dziećmi"
+      },
       {
         "code": "85.20.Z",
         "name": "Szkoły podstawowe"
@@ -17210,10 +17263,6 @@
       {
         "code": "85.32.B",
         "name": "Branżowe szkoły I stopnia"
-      },
-      {
-        "code": "85.32.C",
-        "name": "Branżowe szkoły II stopnia"
       }
     ]
   },
@@ -17559,27 +17608,24 @@
     "code": "85.59.A",
     "name": "Nauka języków obcych",
     "descr": "Nauka języków obcych. Kod PKD 2025 z sekcji Q (edukacja), dział 85 (Edukacja).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "szkolenia",
+        "label": "Szkolenia"
+      }
+    ],
     "relatedCodes": [
       {
         "code": "85.59.B",
         "name": "Kursy i szkolenia związane ze zdobywaniem wiedzy, umiejętności i kwalifikacji zawodowych w formach pozaszkolnych"
       },
       {
-        "code": "85.59.C",
-        "name": "Placówki doskonalenia nauczycieli"
-      },
-      {
         "code": "85.59.D",
         "name": "Pozostałe pozaszkolne formy edukacji, gdzie indziej niesklasyfikowane"
       },
       {
-        "code": "85.51.Z",
-        "name": "Pozostałe formy edukacji sportowej oraz zajęć sportowych i rekreacyjnych"
-      },
-      {
-        "code": "85.52.Z",
-        "name": "Pozostałe formy edukacji artystycznej"
+        "code": "85.59.C",
+        "name": "Placówki doskonalenia nauczycieli"
       }
     ]
   },
@@ -17591,6 +17637,10 @@
       {
         "slug": "edukacja",
         "label": "Edukacja"
+      },
+      {
+        "slug": "szkolenia",
+        "label": "Szkolenia"
       }
     ],
     "relatedCodes": [
@@ -17652,6 +17702,10 @@
       {
         "slug": "edukacja",
         "label": "Edukacja"
+      },
+      {
+        "slug": "szkolenia",
+        "label": "Szkolenia"
       }
     ],
     "relatedCodes": [
@@ -18340,8 +18394,17 @@
     "code": "88.91.Z",
     "name": "Opieka dzienna nad dziećmi",
     "descr": "Opieka dzienna nad dziećmi. Kod PKD 2025 z sekcji R (opieka zdrowotna i pomoc społeczna), dział 88 (Pomoc społeczna bez zakwaterowania).",
-    "relatedCategories": [],
+    "relatedCategories": [
+      {
+        "slug": "opieka-nad-dziecmi",
+        "label": "Opieka nad dziećmi"
+      }
+    ],
     "relatedCodes": [
+      {
+        "code": "85.10.Z",
+        "name": "Placówki wychowania przedszkolnego"
+      },
       {
         "code": "88.99.Z",
         "name": "Pozostała pomoc społeczna bez zakwaterowania, gdzie indziej niesklasyfikowana"

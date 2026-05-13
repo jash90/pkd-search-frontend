@@ -8,6 +8,7 @@ import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
 import { createSlug, SITE_URL, makeFaqSchema, buildOgImageUrl } from '../lib/seo';
 import popularQueries from '../data/popular-queries.json';
+import codes from '../data/codes.json';
 import { articles } from '../content/articles';
 import FAQ from './FAQ';
 import Footer from './Footer';
@@ -65,19 +66,23 @@ const MOCK_PKD_CODES: PKDCode[] = [
   },
 ];
 
-// Most-searched specific PKD codes. Per-code links resolve to /kod-pkd/<slug>
-// where data exists; tiles for codes not yet in codes.json fall back to the
-// closest category page.
-const POPULAR_CODES: { code: string; label: string; href: string }[] = [
+// Most-searched specific PKD codes. Per-code links resolve to /kod-pkd/<slug>.
+// `officialName` is pulled from codes.json so the secondary line on each card
+// shows the verbatim GUS description — what people actually type into Google.
+type PopularCodeTile = { code: string; label: string; href: string; officialName: string };
+const codeNameByCode: Record<string, string> = Object.fromEntries(
+  (codes as { code: string; name: string }[]).map((c) => [c.code, c.name]),
+);
+const POPULAR_CODES: PopularCodeTile[] = [
   { code: '56.11.Z', label: 'Restauracje', href: '/kod-pkd/56-11-z' },
   { code: '47.91.Z', label: 'Sprzedaż przez Internet', href: '/kod-pkd/47-91-z' },
   { code: '49.41.Z', label: 'Transport drogowy towarów', href: '/kod-pkd/49-41-z' },
   { code: '62.10.B', label: 'Programowanie', href: '/kod-pkd/62-10-b' },
   { code: '96.21.Z', label: 'Działalność fryzjerska', href: '/kod-pkd/96-21-z' },
   { code: '41.00.A', label: 'Roboty budowlane mieszkalne', href: '/kod-pkd/41-00-a' },
-  { code: '68.20.Z', label: 'Wynajem nieruchomości', href: '/kody-pkd/wynajem-nieruchomosci' },
+  { code: '68.20.Z', label: 'Wynajem nieruchomości', href: '/kod-pkd/68-20-z' },
   { code: '85.59.B', label: 'Kursy i szkolenia zawodowe', href: '/kod-pkd/85-59-b' },
-];
+].map((c) => ({ ...c, officialName: codeNameByCode[c.code] ?? c.label }));
 
 const FAQ_ITEMS = [
   {
@@ -184,19 +189,19 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Wyszukiwarka Kodów PKD 2025 | Znajdź kod PKD dla swojej działalności</title>
+        <title>Wyszukiwarka Kodów PKD 2025/2026 | Znajdź kod PKD dla swojej działalności</title>
         <meta
           name="description"
-          content="Darmowa wyszukiwarka kodów PKD 2025. Opisz swoją działalność, a inteligentny algorytm AI dopasuje najlepsze kody Polskiej Klasyfikacji Działalności dla CEIDG i KRS."
+          content="Darmowa wyszukiwarka PKD 2025 bez rejestracji — opisz działalność po polsku, AI dobierze kod PKD dla CEIDG i KRS. Pełna lista 728 kodów PKD 2025/2026."
         />
         <meta
           name="keywords"
-          content="PKD, kody PKD, PKD 2025, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności, CEIDG"
+          content="PKD, kody PKD, PKD 2025, PKD 2026, PKD 2025/2026, wyszukiwarka PKD, działalność gospodarcza, klasyfikacja działalności, polska klasyfikacja działalności, CEIDG"
         />
-        <meta property="og:title" content="Wyszukiwarka Kodów PKD 2025 | kodypkd.app" />
+        <meta property="og:title" content="Wyszukiwarka Kodów PKD 2025/2026 | kodypkd.app" />
         <meta
           property="og:description"
-          content="Znajdź idealny kod PKD dla swojej działalności gospodarczej dzięki zaawansowanemu algorytmowi AI. Darmowa wyszukiwarka PKD 2025 dla CEIDG i KRS — bez rejestracji."
+          content="Darmowa wyszukiwarka PKD 2025 bez rejestracji. Opisz działalność po polsku — AI dobierze kod PKD dla CEIDG i KRS. Pełna lista 728 kodów (PKD 2025/2026)."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
@@ -344,15 +349,41 @@ const Home = () => {
             </p>
             <p>
               Od 1 stycznia 2025 roku obowiązuje <strong>PKD 2025</strong>, które zastąpiło
-              poprzednią wersję PKD 2007. Nasza wyszukiwarka operuje na aktualnej klasyfikacji i
-              pomaga dopasować kody do Twojej realnej działalności — w tym tych nowo wprowadzonych,
-              związanych z gospodarką cyfrową, platformami online i usługami AI.
+              poprzednią wersję PKD 2007. <strong>PKD 2025 obowiązuje również w 2026 roku</strong>
+              {' '}— formalnie nie istnieje osobne „PKD 2026", a wyszukiwarka działa na aktualnej
+              klasyfikacji i pomaga dopasować kody do Twojej realnej działalności — w tym tych nowo
+              wprowadzonych, związanych z gospodarką cyfrową, platformami online i usługami AI.
             </p>
             <p>
               <Link to="/artykuly/co-to-jest-kod-pkd" className="text-blue-600 hover:text-blue-800 font-medium">
                 Czytaj więcej w artykule „Co to jest kod PKD" →
               </Link>
             </p>
+          </div>
+        </section>
+
+        {/* Hero CTA to /pkd-2025 — surfaces the navigational "lista PKD" intent
+            (currently only in footer). */}
+        <section className="bg-blue-50 border-y border-blue-100">
+          <div className="container mx-auto px-4 py-14 max-w-5xl">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="md:max-w-2xl">
+                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
+                  Pełna lista PKD 2025 — wszystkie {codes.length} kodów
+                </h2>
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  Przeglądaj klasyfikację PKD 2025/2026 po sekcjach (A–U), działach, grupach i
+                  podklasach. Każdy kod prowadzi do strony z opisem, personami i przykładami firm.
+                </p>
+              </div>
+              <Link
+                to="/pkd-2025"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-sm transition whitespace-nowrap"
+              >
+                Otwórz listę PKD 2025
+                <ArrowRight className="w-4 h-4" />
+              </Link>
+            </div>
           </div>
         </section>
 
@@ -398,6 +429,9 @@ const Home = () => {
               >
                 <span className="font-semibold text-blue-600">{c.code}</span>
                 <span className="text-sm text-gray-700 leading-snug">{c.label}</span>
+                <span className="text-xs text-gray-500 leading-snug mt-0.5 line-clamp-2">
+                  {c.officialName}
+                </span>
               </Link>
             ))}
           </div>
