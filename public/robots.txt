@@ -7,6 +7,9 @@ Disallow: /search
 Disallow: /samples
 Disallow: /szukaj
 
+# Block API endpoints — not real pages (e.g. legacy /api/og image URLs)
+Disallow: /api/
+
 # Sitemap locations
 Sitemap: https://kodypkd.app/sitemap.xml
 Sitemap: https://kodypkd.app/sitemap-articles.xml

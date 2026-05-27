@@ -8,6 +8,10 @@
 
 	encode zstd gzip
 
+	# --- Canonical host: 301 www -> apex (Railway passes the original Host) ---
+	@www host www.kodypkd.app
+	redir @www https://kodypkd.app{uri} 308
+
 	# --- Security headers (mirror vercel.json) ---
 	header {
 		X-Frame-Options "DENY"

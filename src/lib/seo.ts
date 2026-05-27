@@ -17,13 +17,13 @@ export type OgImageParams = {
   badge?: string;
 };
 
+// Production is served by Caddy (Railway) as static files — the /api/og
+// @vercel/og function never runs there, so every page now points at a single
+// pre-rendered static card. Params are accepted for call-site compatibility
+// but intentionally ignored. Regenerate the file via `npm run build:og`.
 export const buildOgImageUrl = (params: OgImageParams = {}): string => {
-  const qs = new URLSearchParams();
-  if (params.title) qs.set('title', params.title);
-  if (params.subtitle) qs.set('subtitle', params.subtitle);
-  if (params.badge) qs.set('badge', params.badge);
-  const suffix = qs.toString();
-  return `${SITE_URL}/api/og${suffix ? `?${suffix}` : ''}`;
+  void params; // accepted for call-site compatibility; the static card ignores them
+  return `${SITE_URL}/og-default.png`;
 };
 
 const POLISH_DIACRITICS: Record<string, string> = {

@@ -81,12 +81,16 @@ const Samples = () => {
     ? `${limitParam} Przykładowych Kodów PKD | kodypkd.app`
     : 'Przykładowe Kody PKD | kodypkd.app';
 
-  const canonical = `${SITE_URL}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`;
+  // All /przyklady/limit/N variants are near-duplicates of /przyklady, so they
+  // canonicalize to the base to avoid Google picking its own canonical.
+  // pageUrl keeps the real path for breadcrumbs.
+  const canonical = `${SITE_URL}/przyklady`;
+  const pageUrl = `${SITE_URL}/przyklady${limitParam ? `/limit/${limitParam}` : ''}`;
 
   const breadcrumb = makeBreadcrumbSchema([
     { name: 'Strona główna', url: '/' },
     { name: 'Przykładowe kody PKD', url: '/przyklady' },
-    ...(limitParam ? [{ name: `${limitParam} kodów`, url: canonical }] : []),
+    ...(limitParam ? [{ name: `${limitParam} kodów`, url: pageUrl }] : []),
   ]);
 
   const ogImage = buildOgImageUrl({
