@@ -14,6 +14,7 @@ import {
 } from '../lib/seo';
 import Footer from './Footer';
 import CodeArticle, { getCodeArticle } from './CodeArticle';
+import { trackEvent } from '../lib/analytics';
 
 interface RelatedCategory {
   slug: string;
@@ -164,13 +165,21 @@ const CodePage = () => {
           <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
-                <Link to="/" className="hover:text-blue-600">
+                <Link
+                  to="/"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                  className="hover:text-blue-600"
+                >
                   Strona główna
                 </Link>
                 <span className="px-2">/</span>
               </li>
               <li>
-                <Link to={pkdIndexHref} className="hover:text-blue-600">
+                <Link
+                  to={pkdIndexHref}
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Lista PKD 2025', to: pkdIndexHref })}
+                  className="hover:text-blue-600"
+                >
                   Lista PKD 2025{sectionLetter ? ` · sekcja ${sectionLetter}` : ''}
                 </Link>
                 <span className="px-2">/</span>
@@ -211,6 +220,7 @@ const CodePage = () => {
                   <Link
                     key={cat.slug}
                     to={`/kody-pkd/${cat.slug}`}
+                    onClick={() => trackEvent('select_category', { category_slug: cat.slug, source: 'code_related_category' })}
                     className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 text-sm font-medium transition"
                   >
                     {cat.label}
@@ -228,6 +238,7 @@ const CodePage = () => {
                   <Link
                     key={rc.code}
                     to={`/kod-pkd/${codeToSlug(rc.code)}`}
+                    onClick={() => trackEvent('select_pkd_code', { pkd_code: rc.code, source: 'code_related' })}
                     className="flex items-start gap-3 bg-white rounded-lg shadow-sm hover:shadow border border-gray-200 hover:border-blue-300 p-4 transition"
                   >
                     <span className="font-semibold text-blue-600 flex-shrink-0 w-20">{rc.code}</span>
@@ -249,6 +260,7 @@ const CodePage = () => {
             </p>
             <Link
               to="/"
+              onClick={() => trackEvent('cta_click', { cta_id: 'codepage_search', destination: '/', pkd_code: entry.code })}
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium transition"
             >
               Wyszukaj kod PKD <ArrowRight className="w-4 h-4" />

@@ -10,6 +10,7 @@ import {
   makeCollectionPageSchema,
 } from '../lib/seo';
 import Footer from './Footer';
+import { trackEvent } from '../lib/analytics';
 
 interface Subclass {
   code: string;
@@ -110,7 +111,11 @@ const Pkd2025Index = () => {
           <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
-                <Link to="/" className="hover:text-blue-600">
+                <Link
+                  to="/"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                  className="hover:text-blue-600"
+                >
                   Strona główna
                 </Link>
                 <span className="px-2">/</span>
@@ -145,6 +150,7 @@ const Pkd2025Index = () => {
                 <li key={s.letter}>
                   <a
                     href={`#${sectionAnchor(s.letter)}`}
+                    onClick={() => trackEvent('pkd_section_jump', { section_letter: s.letter })}
                     className="flex items-start gap-2 text-sm text-gray-700 hover:text-blue-700 hover:underline"
                   >
                     <span className="font-bold text-blue-600 w-5 flex-shrink-0">{s.letter}</span>
@@ -191,6 +197,7 @@ const Pkd2025Index = () => {
                                 <li key={sub.code}>
                                   <Link
                                     to={`/kod-pkd/${codeToSlug(sub.code)}`}
+                                    onClick={() => trackEvent('select_pkd_code', { pkd_code: sub.code, source: 'pkd_index', section_letter: section.letter })}
                                     className="group flex items-start gap-2 text-sm text-gray-700 hover:text-blue-700 hover:underline"
                                   >
                                     <span className="font-mono text-blue-600 group-hover:text-blue-800 w-20 flex-shrink-0">

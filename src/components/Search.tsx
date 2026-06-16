@@ -18,6 +18,7 @@ import {
 import codesData from '../data/codes.json';
 import popularQueries from '../data/popular-queries.json';
 import Footer from './Footer';
+import { trackEvent } from '../lib/analytics';
 
 interface CuratedCode {
   code: string;
@@ -110,6 +111,12 @@ const SearchComponent = () => {
     const cached = getCached<SearchResponse>(requestUrl);
     if (cached) {
       setResults(cached);
+      trackEvent('view_search_results', {
+        search_term: queryText,
+        result_count: cached.pkdCodeData?.length ?? 0,
+        ai_suggestion_code: cached.aiSuggestion?.payload?.grupaKlasaPodklasa,
+        from_cache: true,
+      });
       return;
     }
 
@@ -126,6 +133,13 @@ const SearchComponent = () => {
       setResults(searchResults);
       setCached(requestUrl, searchResults);
 
+      trackEvent('view_search_results', {
+        search_term: queryText,
+        result_count: searchResults?.pkdCodeData?.length ?? 0,
+        ai_suggestion_code: searchResults?.aiSuggestion?.payload?.grupaKlasaPodklasa,
+        from_cache: false,
+      });
+
       try {
         sessionStorage.setItem('pkd-search-query', queryText);
         sessionStorage.setItem('pkd-search-results', JSON.stringify(searchResults));
@@ -138,6 +152,10 @@ const SearchComponent = () => {
       }
       console.error(err);
       setError('Wystąpił błąd podczas wyszukiwania. Spróbuj ponownie.');
+      trackEvent('search_error', {
+        search_term: queryText,
+        error_type: axios.isAxiosError(err) && err.response ? 'api' : 'network',
+      });
     } finally {
       setIsLoading(false);
       window._abortController = null;
@@ -160,6 +178,7 @@ const SearchComponent = () => {
       navigate('/', { replace: true });
       return;
     }
+    trackEvent('search', { search_term: query.trim(), source: 'search_page' });
     const slug = createSlug(query);
     navigate(`/kody-pkd/${slug}`, { replace: false });
   }, [query, navigate]);
@@ -236,7 +255,13 @@ const SearchComponent = () => {
           <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
-                <Link to="/" className="hover:text-blue-600">Strona główna</Link>
+                <Link
+                  to="/"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                  className="hover:text-blue-600"
+                >
+                  Strona główna
+                </Link>
                 <span className="px-2">/</span>
               </li>
               <li aria-current="page" className="text-gray-700 font-medium">
@@ -309,6 +334,7 @@ const SearchComponent = () => {
                     <Link
                       key={c.code}
                       to={`/kod-pkd/${codeToSlug(c.code)}`}
+                      onClick={() => trackEvent('select_pkd_code', { pkd_code: c.code, source: 'search_curated' })}
                       className="block bg-white rounded-lg shadow p-4 border border-gray-200 hover:border-blue-300 hover:shadow-md transition"
                     >
                       {cardBody}
@@ -432,6 +458,7 @@ const SearchComponent = () => {
                     <Link
                       key={q.slug}
                       to={`/kody-pkd/${q.slug}`}
+                      onClick={() => trackEvent('select_category', { category_slug: q.slug, source: 'search_related' })}
                       className="inline-flex items-center px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 text-sm font-medium transition"
                     >
                       {q.label}
@@ -455,7 +482,11 @@ const SearchComponent = () => {
             <p className="mb-3">
               Po wybraniu kodu: sprawdź czy nie wymaga koncesji, kasy fiskalnej od pierwszej
               sprzedaży lub nie wyklucza zwolnienia z VAT. Więcej w artykule{' '}
-              <Link to="/artykuly/jak-wybrac-kod-pkd-dla-jdg" className="text-blue-600 hover:text-blue-800 font-medium">
+              <Link
+                to="/artykuly/jak-wybrac-kod-pkd-dla-jdg"
+                onClick={() => trackEvent('select_article', { article_slug: 'jak-wybrac-kod-pkd-dla-jdg', source: 'search_inline' })}
+                className="text-blue-600 hover:text-blue-800 font-medium"
+              >
                 Jak wybrać kod PKD dla JDG
               </Link>
               .
@@ -463,18 +494,21 @@ const SearchComponent = () => {
             <div className="flex flex-wrap gap-3 mt-6">
               <Link
                 to="/przyklady"
+                onClick={() => trackEvent('cta_click', { cta_id: 'search_samples', destination: '/przyklady' })}
                 className="px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 text-sm font-medium"
               >
                 Przykładowe kody PKD
               </Link>
               <Link
                 to="/artykuly"
+                onClick={() => trackEvent('cta_click', { cta_id: 'search_articles', destination: '/artykuly' })}
                 className="px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 text-sm font-medium"
               >
                 Poradnik PKD
               </Link>
               <Link
                 to="/"
+                onClick={() => trackEvent('cta_click', { cta_id: 'search_home', destination: '/' })}
                 className="px-4 py-2 bg-white border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50 text-sm font-medium"
               >
                 Strona główna

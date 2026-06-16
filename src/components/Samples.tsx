@@ -7,6 +7,7 @@ import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
 import { SITE_URL, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
 import Footer from './Footer';
+import { trackEvent } from '../lib/analytics';
 
 const FALLBACK_SAMPLES: PKDCode[] = [
   { id: 's1', version: 1, score: 1, payload: { grupaKlasaPodklasa: '62.01.Z', nazwaGrupowania: 'Działalność związana z oprogramowaniem', opisDodatkowy: 'Tworzenie, rozwój, testowanie i wsparcie oprogramowania.' } },
@@ -134,7 +135,13 @@ const Samples = () => {
             <nav className="mb-4 text-sm text-gray-500" aria-label="Breadcrumbs">
               <ol className="flex flex-wrap gap-2">
                 <li>
-                  <Link to="/" className="hover:text-blue-600">Strona główna</Link>
+                  <Link
+                    to="/"
+                    onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                    className="hover:text-blue-600"
+                  >
+                    Strona główna
+                  </Link>
                   <span className="px-2">/</span>
                 </li>
                 <li aria-current="page" className="text-gray-700 font-medium">Przykładowe kody PKD</li>
@@ -165,6 +172,7 @@ const Samples = () => {
                   <Link
                     key={option}
                     to={option === 10 ? '/przyklady' : `/przyklady/limit/${option}`}
+                    onClick={() => trackEvent('change_sample_limit', { new_limit: option, previous_limit: limit })}
                     className={`px-3 py-1 rounded-md text-sm font-medium ${
                       limit === option
                         ? 'bg-blue-600 text-white'

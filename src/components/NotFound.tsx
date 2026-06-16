@@ -1,8 +1,16 @@
+import { useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Footer from './Footer';
+import { trackEvent } from '../lib/analytics';
 
 const NotFound = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    trackEvent('404_view', { attempted_path: pathname });
+  }, [pathname]);
+
   return (
     <>
       <Head>

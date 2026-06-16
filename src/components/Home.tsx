@@ -7,6 +7,7 @@ import { Search, ArrowRight, Database, Zap, CheckCircle, BookOpen } from 'lucide
 import type { PKDCode } from '../types/pkd';
 import { getCached, setCached } from '../lib/cache';
 import { createSlug, SITE_URL, makeFaqSchema, buildOgImageUrl } from '../lib/seo';
+import { trackEvent } from '../lib/analytics';
 import popularQueries from '../data/popular-queries.json';
 import codes from '../data/codes.json';
 import { articles } from '../content/articles';
@@ -162,6 +163,7 @@ const Home = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!query.trim()) return;
+    trackEvent('search', { search_term: query.trim(), source: 'home_hero' });
     const slug = createSlug(query);
     navigate(`/kody-pkd/${slug}`);
   };
@@ -313,6 +315,7 @@ const Home = () => {
                           </div>
                           <Link
                             to="/przyklady"
+                            onClick={() => trackEvent('cta_click', { cta_id: 'home_carousel_samples', destination: '/przyklady' })}
                             className="text-blue-600 hover:text-blue-800 font-medium flex items-center gap-1"
                           >
                             Zobacz więcej <ArrowRight className="w-4 h-4" />
@@ -355,7 +358,11 @@ const Home = () => {
               wprowadzonych, związanych z gospodarką cyfrową, platformami online i usługami AI.
             </p>
             <p>
-              <Link to="/artykuly/co-to-jest-kod-pkd" className="text-blue-600 hover:text-blue-800 font-medium">
+              <Link
+                to="/artykuly/co-to-jest-kod-pkd"
+                onClick={() => trackEvent('select_article', { article_slug: 'co-to-jest-kod-pkd', source: 'home_inline' })}
+                className="text-blue-600 hover:text-blue-800 font-medium"
+              >
                 Czytaj więcej w artykule „Co to jest kod PKD" →
               </Link>
             </p>
@@ -378,6 +385,7 @@ const Home = () => {
               </div>
               <Link
                 to="/pkd-2025"
+                onClick={() => trackEvent('cta_click', { cta_id: 'home_pkd_list', destination: '/pkd-2025' })}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-sm transition whitespace-nowrap"
               >
                 Otwórz listę PKD 2025
@@ -402,6 +410,7 @@ const Home = () => {
                 <Link
                   key={q.slug}
                   to={`/kody-pkd/${q.slug}`}
+                  onClick={() => trackEvent('select_category', { category_slug: q.slug, source: 'home_categories' })}
                   className="flex items-center justify-center min-h-[72px] px-4 py-3 bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg text-center text-balance leading-snug font-medium text-gray-700 hover:text-blue-700 transition"
                 >
                   {q.label}
@@ -425,6 +434,7 @@ const Home = () => {
               <Link
                 key={c.code}
                 to={c.href}
+                onClick={() => trackEvent('select_pkd_code', { pkd_code: c.code, source: 'home_popular_codes' })}
                 className="flex flex-col items-start gap-1 px-4 py-3 bg-white hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-lg transition"
               >
                 <span className="font-semibold text-blue-600">{c.code}</span>
@@ -469,6 +479,7 @@ const Home = () => {
               </div>
               <Link
                 to="/artykuly"
+                onClick={() => trackEvent('cta_click', { cta_id: 'home_all_articles', destination: '/artykuly' })}
                 className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium"
               >
                 Wszystkie artykuły <ArrowRight className="w-4 h-4" />
@@ -479,6 +490,7 @@ const Home = () => {
                 <Link
                   key={article.slug}
                   to={`/artykuly/${article.slug}`}
+                  onClick={() => trackEvent('select_article', { article_slug: article.slug, source: 'home_teaser' })}
                   className="bg-gray-50 rounded-xl border border-gray-200 p-6 hover:shadow-md hover:border-blue-300 transition flex flex-col"
                 >
                   <BookOpen className="w-6 h-6 text-blue-500 mb-3" aria-hidden="true" />
@@ -502,6 +514,7 @@ const Home = () => {
         <section className="container mx-auto px-4 pb-16 text-center">
           <Link
             to="/przyklady"
+            onClick={() => trackEvent('cta_click', { cta_id: 'home_samples_bottom', destination: '/przyklady' })}
             className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 transition-colors"
           >
             Przeglądaj przykładowe kody PKD <ArrowRight className="w-4 h-4" />

@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import type { FaqItem } from '../lib/seo';
+import { trackEvent } from '../lib/analytics';
 
 interface FAQProps {
   items: FaqItem[];
   heading?: string;
+  context?: string;
 }
 
-const FAQ = ({ items, heading = 'Najczęściej zadawane pytania' }: FAQProps) => {
+const FAQ = ({ items, heading = 'Najczęściej zadawane pytania', context = 'home' }: FAQProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -20,7 +22,10 @@ const FAQ = ({ items, heading = 'Najczęściej zadawane pytania' }: FAQProps) =>
             <div key={idx} className="bg-white rounded-lg shadow border border-gray-200 overflow-hidden">
               <button
                 type="button"
-                onClick={() => setOpenIndex(isOpen ? null : idx)}
+                onClick={() => {
+                  if (!isOpen) trackEvent('faq_toggle', { question: item.question, context });
+                  setOpenIndex(isOpen ? null : idx);
+                }}
                 className="w-full flex justify-between items-center gap-4 px-5 py-4 text-left font-semibold text-gray-800 hover:bg-gray-50"
                 aria-expanded={isOpen}
               >

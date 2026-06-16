@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Calendar, Clock } from 'lucide-react';
@@ -6,6 +6,7 @@ import Footer from './Footer';
 import type { ArticleEntry } from '../content/articles';
 import { SITE_URL, makeArticleSchema, makeBreadcrumbSchema, buildOgImageUrl } from '../lib/seo';
 import { articles } from '../content/articles';
+import { trackEvent } from '../lib/analytics';
 
 interface ArticleLayoutProps {
   article: ArticleEntry;
@@ -36,6 +37,30 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
 
   const related = articles.filter((a) => a.slug !== article.slug).slice(0, 3);
 
+  // Scroll-depth tracking — fire each 25/50/75/100% milestone once per article.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const milestones = [25, 50, 75, 100];
+    const fired = new Set<number>();
+
+    const onScroll = () => {
+      const doc = document.documentElement;
+      const scrollable = doc.scrollHeight - window.innerHeight;
+      if (scrollable <= 0) return;
+      const percent = (window.scrollY / scrollable) * 100;
+      for (const m of milestones) {
+        if (percent >= m && !fired.has(m)) {
+          fired.add(m);
+          trackEvent('article_scroll', { article_slug: article.slug, percent: m });
+        }
+      }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [article.slug]);
+
   return (
     <>
       <Head>
@@ -61,11 +86,23 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
           <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
-                <Link to="/" className="hover:text-blue-600">Strona główna</Link>
+                <Link
+                  to="/"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                  className="hover:text-blue-600"
+                >
+                  Strona główna
+                </Link>
                 <span className="px-2">/</span>
               </li>
               <li>
-                <Link to="/artykuly" className="hover:text-blue-600">Artykuły</Link>
+                <Link
+                  to="/artykuly"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Artykuły', to: '/artykuly' })}
+                  className="hover:text-blue-600"
+                >
+                  Artykuły
+                </Link>
                 <span className="px-2">/</span>
               </li>
               <li aria-current="page" className="text-gray-700 font-medium">{article.title}</li>
@@ -74,6 +111,7 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
 
           <Link
             to="/artykuly"
+            onClick={() => trackEvent('cta_click', { cta_id: 'article_back_to_index', destination: '/artykuly' })}
             className="inline-flex items-center gap-1 text-blue-600 hover:text-blue-800 font-medium mb-6"
           >
             <ArrowLeft className="w-4 h-4" />
@@ -113,6 +151,7 @@ const ArticleLayout = ({ article }: ArticleLayoutProps) => {
                   <Link
                     key={r.slug}
                     to={`/artykuly/${r.slug}`}
+                    onClick={() => trackEvent('select_article', { article_slug: r.slug, source: 'article_related' })}
                     className="bg-white rounded-lg shadow border border-gray-200 p-5 hover:shadow-md hover:border-blue-300 transition"
                   >
                     <h3 className="font-semibold text-gray-900 mb-2">{r.title}</h3>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { trackEvent } from '../lib/analytics';
 
 const navItems = [
   { to: '/', label: 'Strona główna', end: true },
@@ -37,6 +38,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <Link
             to="/"
+            onClick={() => trackEvent('nav_click', { label: 'logo', to: '/', device: 'header' })}
             className="flex items-center gap-2 font-bold text-lg text-blue-700 hover:text-blue-800"
           >
             <span className="inline-flex items-center justify-center w-8 h-8 rounded-md bg-blue-600 text-white text-sm">
@@ -48,7 +50,12 @@ const Header = () => {
           <ul className="hidden md:flex items-center gap-1">
             {navItems.map((item) => (
               <li key={item.to}>
-                <NavLink to={item.to} end={item.end} className={linkClass}>
+                <NavLink
+                  to={item.to}
+                  end={item.end}
+                  className={linkClass}
+                  onClick={() => trackEvent('nav_click', { label: item.label, to: item.to, device: 'desktop' })}
+                >
                   {item.label}
                 </NavLink>
               </li>
@@ -61,7 +68,12 @@ const Header = () => {
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
             aria-label={isOpen ? 'Zamknij menu' : 'Otwórz menu'}
-            onClick={() => setIsOpen((v) => !v)}
+            onClick={() =>
+              setIsOpen((v) => {
+                trackEvent('mobile_menu_toggle', { state: v ? 'close' : 'open' });
+                return !v;
+              })
+            }
           >
             {isOpen ? (
               <X className="w-6 h-6" aria-hidden="true" />
@@ -75,7 +87,12 @@ const Header = () => {
           <ul id="mobile-menu" className="md:hidden pb-3 space-y-1">
             {navItems.map((item) => (
               <li key={item.to}>
-                <NavLink to={item.to} end={item.end} className={mobileLinkClass}>
+                <NavLink
+                  to={item.to}
+                  end={item.end}
+                  className={mobileLinkClass}
+                  onClick={() => trackEvent('nav_click', { label: item.label, to: item.to, device: 'mobile' })}
+                >
                   {item.label}
                 </NavLink>
               </li>

@@ -2,7 +2,9 @@ import { useEffect } from 'react';
 import { Head } from 'vite-react-ssg';
 import { Outlet, useLocation } from 'react-router-dom';
 import Header from './Header';
+import ConsentBanner from './ConsentBanner';
 import { buildOgImageUrl } from '../lib/seo';
+import { trackPageView } from '../lib/analytics';
 
 const OG_IMAGE = buildOgImageUrl();
 
@@ -13,6 +15,16 @@ const Layout = () => {
     if (typeof window !== 'undefined') {
       window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
     }
+  }, [pathname]);
+
+  // SPA page_view on every route change. Defer one frame so the <Head>-driven
+  // document.title has updated before we read it.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const id = requestAnimationFrame(() => {
+      trackPageView(pathname, document.title);
+    });
+    return () => cancelAnimationFrame(id);
   }, [pathname]);
 
   return (
@@ -32,6 +44,7 @@ const Layout = () => {
       </Head>
       <Header />
       <Outlet />
+      <ConsentBanner />
     </>
   );
 };

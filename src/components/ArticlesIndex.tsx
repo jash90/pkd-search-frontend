@@ -4,6 +4,7 @@ import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import Footer from './Footer';
 import { articles } from '../content/articles';
 import { SITE_URL, makeBreadcrumbSchema } from '../lib/seo';
+import { trackEvent } from '../lib/analytics';
 
 const formatPolishDate = (iso: string) => {
   const date = new Date(iso);
@@ -62,7 +63,13 @@ const ArticlesIndex = () => {
           <nav className="mb-6 text-sm text-gray-500" aria-label="Breadcrumbs">
             <ol className="flex flex-wrap gap-2">
               <li>
-                <Link to="/" className="hover:text-blue-600">Strona główna</Link>
+                <Link
+                  to="/"
+                  onClick={() => trackEvent('breadcrumb_click', { label: 'Strona główna', to: '/' })}
+                  className="hover:text-blue-600"
+                >
+                  Strona główna
+                </Link>
                 <span className="px-2">/</span>
               </li>
               <li aria-current="page" className="text-gray-700 font-medium">Artykuły</li>
@@ -85,6 +92,7 @@ const ArticlesIndex = () => {
               <Link
                 key={article.slug}
                 to={`/artykuly/${article.slug}`}
+                onClick={() => trackEvent('select_article', { article_slug: article.slug, source: 'articles_index' })}
                 className="bg-white rounded-xl shadow border border-gray-200 p-6 hover:shadow-lg hover:border-blue-300 transition flex flex-col"
               >
                 <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-3">

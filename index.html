@@ -8,9 +8,20 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
+
+      // Consent Mode v2 — default to denied (EU/GDPR); a banner flips this on consent.
+      gtag('consent', 'default', {
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        analytics_storage: 'denied',
+        wait_for_update: 500,
+      });
+
       gtag('js', new Date());
 
-      gtag('config', 'G-LDQ45ZTGFL');
+      // send_page_view: false — SPA page_views are sent manually on route change.
+      gtag('config', 'G-LDQ45ZTGFL', { send_page_view: false });
     </script>
 
     <!-- Favicon -->

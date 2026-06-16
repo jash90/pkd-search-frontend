@@ -6,6 +6,8 @@ import './index.css';
 declare global {
   interface Window {
     _abortController: AbortController | null;
+    dataLayer: unknown[];
+    gtag: (...args: unknown[]) => void;
   }
 }
 
