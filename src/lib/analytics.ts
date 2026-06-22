@@ -3,7 +3,7 @@
 // in Node during the vite-react-ssg prerender, where window/document/localStorage
 // do not exist.
 
-export const GA_MEASUREMENT_ID = 'G-LDQ45ZTGFL';
+export const GA_MEASUREMENT_ID = 'G-GXT2BWDRX6';
 export const CONSENT_KEY = 'pkd-analytics-consent'; // 'granted' | 'denied'
 
 type ConsentValue = 'granted' | 'denied';
