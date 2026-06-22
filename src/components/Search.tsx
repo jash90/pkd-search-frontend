@@ -36,6 +36,8 @@ interface PopularQuery {
   slug: string;
   label: string;
   description: string;
+  /** Optional hand-tuned SERP title for high-volume head-term categories. */
+  seoTitle?: string;
   curatedCodes: CuratedCode[];
   subSections?: SubSection[];
 }
@@ -189,8 +191,10 @@ const SearchComponent = () => {
     exit: { opacity: 0, transition: { staggerChildren: 0.05, staggerDirection: -1 } },
   };
 
+  // For prerendered categories use the known slug so canonical always equals the
+  // real URL; fall back to createSlug for ad-hoc (non-prerendered) queries.
   const canonical = searchQuery
-    ? `${SITE_URL}/kody-pkd/${createSlug(searchQuery)}`
+    ? `${SITE_URL}/kody-pkd/${popularEntry?.slug ?? createSlug(searchQuery)}`
     : `${SITE_URL}/`;
 
   const breadcrumb = makeBreadcrumbSchema([
@@ -199,14 +203,16 @@ const SearchComponent = () => {
     { name: searchQuery ? `Kody PKD dla: ${searchQuery}` : 'Wyszukiwanie', url: canonical },
   ]);
 
+  // Title: prefer a hand-tuned seoTitle for head-term categories; otherwise a
+  // year-bearing template that matches "pkd <branża>" / "kody pkd <branża>".
   const pageTitle = searchQuery
-    ? `Kody PKD dla: ${searchQuery} | Wyszukiwarka Kodów PKD`
-    : 'Wyszukiwarka Kodów PKD';
+    ? popularEntry?.seoTitle ?? `Kody PKD dla: ${searchQuery} — lista kodów 2025/2026`
+    : 'Wynik wyszukiwania kodów PKD | kodypkd.app';
 
   const pageDescription = popularEntry
     ? popularEntry.description
     : searchQuery
-      ? `Sprawdź kody PKD dla działalności: ${searchQuery}. Lista dopasowanych kodów Polskiej Klasyfikacji Działalności z opisami.`
+      ? `Kody PKD 2025/2026 dla działalności: ${searchQuery}. Lista dopasowanych kodów z opisami — sprawdź, który wybrać do CEIDG i KRS, lub opisz firmę i pozwól AI dobrać kod.`
       : 'Wyszukaj odpowiedni kod PKD dla swojej działalności gospodarczej w wyszukiwarce opartej o AI.';
 
   const ogImage = buildOgImageUrl(

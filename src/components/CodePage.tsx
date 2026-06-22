@@ -53,14 +53,17 @@ const CodePage = () => {
     : '/pkd-2025';
 
   const canonical = `${SITE_URL}/kod-pkd/${codeToSlug(entry.code)}`;
-  const pageTitle = `PKD ${entry.code} — ${entry.name} (PKD 2025) | kodypkd.app`;
+  // Front-load the bare code (the most common query form, e.g. "47.91.z") so it
+  // is always visible in SERP; the year keywords trail. No manual brand suffix —
+  // Google appends the site name automatically, freeing pixel budget for the name.
+  const pageTitle = `${entry.code} — ${entry.name} | PKD 2025/2026`;
 
   // Description: prefer the curated/article intro (more meaningful in SERP).
-  // Fall back to the static descr from codes.json, finally to a templated string.
+  // Fall back to the static descr from codes.json, finally to a benefit-driven template.
   const descriptionSource =
     article?.intro ||
     entry.descr ||
-    `Kod PKD ${entry.code}: ${entry.name}. Pełny opis, podobne kody PKD 2025 i przykłady firm, które używają tego kodu.`;
+    `Kod PKD ${entry.code} (${entry.name}) — opis, kwestie podatkowe (VAT, ryczałt), podobne kody i przykłady firm. PKD 2025/2026 dla CEIDG i KRS.`;
   const pageDescription = truncate(descriptionSource);
 
   // Long-tail keywords from personas + business examples

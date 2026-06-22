@@ -152,7 +152,15 @@
   {
     "slug": "sklep",
     "label": "Sklep stacjonarny",
-    "description": "Kody PKD dla sklepów stacjonarnych — odzieżowych, spożywczych, specjalistycznych i niewyspecjalizowanych. Dla sklepu internetowego zobacz kategorię E-commerce.",
+    "seoTitle": "Kody PKD dla sklepu 2025/2026 — spożywczy, odzieżowy, stacjonarny",
+    "description": "Kody PKD dla sklepu stacjonarnego 2025/2026: sprzedaż odzieży (47.71.Z), obuwia (47.72.Z), napojów (47.25.Z) i sprzedaż niewyspecjalizowana. Prowadzisz sklep internetowy? Zobacz kategorię e-commerce.",
+    "subSections": [
+      {
+        "id": "sklep-stacjonarny-internetowy",
+        "title": "Sklep stacjonarny czy internetowy — który kod PKD?",
+        "body": "Dla sklepu stacjonarnego kod PKD zależy od asortymentu: sklep spożywczy z przewagą żywności to 47.11.Z, sklep odzieżowy 47.71.Z, obuwniczy 47.72.Z, a sklep ze sprzedażą wielu kategorii bez przewagi żywności — 47.19.Z. Jeśli sprzedajesz przez internet (własny sklep online, marketplace, social media), właściwy jest osobny kod 47.91.Z — pełną listę dla sprzedaży online znajdziesz w kategorii e-commerce."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "47.25.Z",
@@ -194,7 +202,15 @@
   {
     "slug": "restauracja",
     "label": "Restauracja",
-    "description": "Kody PKD dla restauracji, barów, kawiarni i działalności cateringowej.",
+    "seoTitle": "Kod PKD dla restauracji 2025/2026 — bar, kawiarnia, catering",
+    "description": "Kod PKD dla restauracji to 56.11.Z. Sprawdź też bary i kawiarnie (56.30.Z), catering (56.21.Z, 56.22.Z) oraz food trucki (56.12.Z) — pełna lista kodów PKD 2025/2026 dla lokalu gastronomicznego.",
+    "subSections": [
+      {
+        "id": "restauracja-glowny-kod",
+        "title": "Jaki kod PKD ma restauracja?",
+        "body": "Główny kod PKD dla restauracji, restauracji samoobsługowej oraz lokalu oferującego posiłki „na wynos\" to 56.11.Z. Jeśli prowadzisz głównie bar, pub lub kawiarnię nastawioną na napoje, właściwy jest 56.30.Z (podawanie napojów). Restauracja, która dowozi posiłki na zamówienie, dokłada catering (56.22.Z regularny lub 56.21.Z okazjonalny). W praktyce restaurator wpisuje 56.11.Z jako kod główny i dobiera pozostałe jako działalność dodatkową."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "56.11.Z",
@@ -236,7 +252,8 @@
   {
     "slug": "transport",
     "label": "Transport",
-    "description": "Kody PKD dla transportu drogowego, kurierskiego, taksówkowego i ciężarowego — przewozów osób, towarów oraz usług logistycznych.",
+    "seoTitle": "Kody PKD dla transportu 2025/2026 — drogowy, kurier, taxi, spedycja",
+    "description": "Kody PKD dla transportu 2025/2026: transport drogowy towarów (49.41.Z), przewóz osób i taxi (49.33.Z), usługi kurierskie (53.20.Z) i spedycja (52.31.Z). Także transport busem do 3,5 t.",
     "subSections": [
       {
         "id": "drogowy",
@@ -306,7 +323,8 @@
   {
     "slug": "budownictwo",
     "label": "Budownictwo",
-    "description": "Kody PKD dla firm budowlanych, wykończeniowych i remontowych.",
+    "seoTitle": "Kody PKD dla budownictwa 2025/2026 — roboty budowlane i wykończenia",
+    "description": "Kody PKD dla firm budowlanych 2025/2026: wznoszenie budynków mieszkalnych (41.00.A), roboty wykończeniowe (43.35.Z), specjalistyczne roboty budowlane (43.99.Z) i przygotowanie terenu pod budowę (43.12.Z).",
     "curatedCodes": [
       {
         "code": "41.00.A",
@@ -436,7 +454,15 @@
   {
     "slug": "gastronomia",
     "label": "Gastronomia",
-    "description": "Kody PKD dla działalności gastronomicznej w pełnym spektrum.",
+    "seoTitle": "Kody PKD dla gastronomii 2025/2026 — restauracja, catering, food truck",
+    "description": "Kody PKD dla gastronomii 2025/2026: restauracje (56.11.Z), catering (56.21.Z, 56.22.Z), bary i podawanie napojów (56.30.Z) oraz food trucki (56.12.Z). Sprawdź, który kod wybrać do CEIDG.",
+    "subSections": [
+      {
+        "id": "ktory-kod",
+        "title": "Który kod PKD dla gastronomii wybrać?",
+        "body": "Cała gastronomia mieści się w dziale 56 PKD 2025. Podstawowy kod dla lokalu z obsługą kelnerską lub samoobsługowego to 56.11.Z (restauracje). Bar, pub i kawiarnia skupione na napojach to 56.30.Z. Catering rozdziela się na regularny (56.22.Z) i okazjonalny pod konkretne wydarzenia (56.21.Z), a food truck czy obwoźna sprzedaż lodów to 56.12.Z. Większość przedsiębiorców z gastronomii wpisuje kilka z tych kodów naraz — jeden główny i resztę jako dodatkowe."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "56.11.Z",
@@ -506,7 +532,8 @@
   {
     "slug": "projektowanie",
     "label": "Projektowanie",
-    "description": "Kody PKD dla grafików, projektantów wnętrz i specjalistów UX/UI.",
+    "seoTitle": "Kody PKD dla projektowania 2025/2026 — grafika, wnętrza, UX/UI",
+    "description": "Kody PKD dla projektantów 2025/2026: projektowanie graficzne i komunikacja wizualna (74.12.Z), grafika i branding (74.11.Z), projektowanie wnętrz (74.13.Z) oraz pozostałe projektowanie specjalistyczne (74.14.Z).",
     "curatedCodes": [
       {
         "code": "74.12.Z",
@@ -753,7 +780,15 @@
   {
     "slug": "e-commerce",
     "label": "E-commerce / Sklep internetowy",
-    "description": "Kody PKD dla sklepu internetowego, dropshippingu i platform e-commerce — w tym sprzedaży przez własny sklep online, marketplace i media społecznościowe.",
+    "seoTitle": "Kod PKD dla sklepu internetowego 2025/2026 — e-commerce (47.91.Z)",
+    "description": "Główny kod PKD dla sklepu internetowego i e-commerce to 47.91.Z. Sprawdź kody PKD 2025/2026 dla dropshippingu, marketplace i sprzedaży przez internet — z opisami i przykładami.",
+    "subSections": [
+      {
+        "id": "ecommerce-glowny-kod",
+        "title": "Jaki kod PKD dla sklepu internetowego (e-commerce)?",
+        "body": "Główny kod PKD dla sklepu internetowego z ogólnym asortymentem to 47.91.Z (pośrednictwo w sprzedaży detalicznej niewyspecjalizowanej) — to ten sam kod, który obejmuje sprzedaż wysyłkową, dropshipping, marketplace i sprzedaż przez media społecznościowe. Jeśli sprzedajesz wąską, wyspecjalizowaną kategorię (np. tylko elektronikę czy odzież), rozważ 47.92.Z lub kod detaliczny właściwy dla danej grupy towarów. Sprzedaż używanych rzeczy przez internet to 47.79.C."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "47.91.Z",
@@ -836,7 +871,15 @@
   {
     "slug": "szkolenia",
     "label": "Szkolenia",
-    "description": "Kody PKD dla firm szkoleniowych, kursów zawodowych i edukacji pozaszkolnej — od nauki języków (85.59.A) przez szkolenia zawodowe (85.59.B) po inne formy edukacji pozaszkolnej (85.59.D).",
+    "seoTitle": "Kody PKD dla szkoleń 2025/2026 — kursy zawodowe i językowe",
+    "description": "Kody PKD dla firm szkoleniowych 2025/2026: szkolenia zawodowe (85.59.B), nauka języków obcych (85.59.A), korepetycje i inne pozaszkolne formy edukacji (85.59.D).",
+    "subSections": [
+      {
+        "id": "szkolenia-ktory-kod",
+        "title": "Który kod PKD dla działalności szkoleniowej?",
+        "body": "Działalność szkoleniowa mieści się w grupie 85.59 PKD 2025. Szkolenia i kursy zawodowe, kwalifikacyjne oraz kursy dla firm to 85.59.B — najczęstszy wybór trenerów i firm szkoleniowych. Nauka języków obcych ma własny kod 85.59.A. Korepetycje, kursy przygotowawcze do egzaminów, kursy hobbystyczne i pozostałe formy edukacji, których nie da się przypisać do poziomu nauczania, to 85.59.D. Trener prowadzący różne formaty często wpisuje kilka z tych kodów."
+      }
+    ],
     "curatedCodes": [
       {
         "code": "85.59.A",
