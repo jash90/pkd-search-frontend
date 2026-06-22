@@ -1,14 +1,10 @@
-# Allow all web crawlers
+# Allow all web crawlers.
+# Note: legacy routes (/search, /szukaj, /samples) and the old /api/og image
+# endpoint are intentionally NOT disallowed — they 301/308-redirect in Caddy, so
+# Googlebot must be able to crawl them to follow the redirect and drop the old
+# URLs from the index. Blocking a redirecting URL strands it instead.
 User-agent: *
 Allow: /
-
-# Block legacy routes (redirects)
-Disallow: /search
-Disallow: /samples
-Disallow: /szukaj
-
-# Block API endpoints — not real pages (e.g. legacy /api/og image URLs)
-Disallow: /api/
 
 # Sitemap locations
 Sitemap: https://kodypkd.app/sitemap.xml

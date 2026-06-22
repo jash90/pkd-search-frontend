@@ -52,6 +52,26 @@
 		redir * /przyklady/limit{uri} 308
 	}
 
+	# --- Legacy dynamic OG image endpoint ---
+	# ~167 old /api/og?title=... URLs were indexed by Google before the switch
+	# to a static card. They 404 now. Redirect them to the static image so they
+	# resolve (200) instead of erroring. robots.txt no longer disallows /api/,
+	# so Googlebot can follow this redirect and clear the 404s from Coverage.
+	handle /api/og {
+		redir * /og-default.png 308
+	}
+
+	# --- Legacy category-slug fixes ---
+	# Old canonical derived the slug from the category label, which differed from
+	# the real prerendered slug (e.g. "Sklep stacjonarny" -> sklep-stacjonarny,
+	# but the page lives at /kody-pkd/sklep). Those URLs were indexed and 404.
+	handle /kody-pkd/sklep-stacjonarny {
+		redir * /kody-pkd/sklep 308
+	}
+	handle /kody-pkd/e-commerce-sklep-internetowy {
+		redir * /kody-pkd/e-commerce 308
+	}
+
 	# --- Default request handling: extensionless prerendered URLs ---
 	# /przyklady       -> /przyklady.html
 	# /kody-pkd/x      -> /kody-pkd/x.html
